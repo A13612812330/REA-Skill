@@ -1,0 +1,387 @@
+[
+  {
+    "path": "conf.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "main.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/audio/device_router.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/audio/procedural_audio.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/audio/runtime_bootstrap.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/asset2.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/assets.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": true,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/awakening.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/constants.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/faction.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/font_resolver.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/language.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/randomoption.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/safe_lua_table.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/skill.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/alpha_ray_glow.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/awakening.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/battlefield.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": true,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/bossSkill.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/combat.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": true,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/cores.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/enemy_skills.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": true,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/item.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/luck.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/postprocess.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/power.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/projectiles.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": true,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/promotion.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/promotion_stats.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/quest.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/run_save.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/sim.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/slot.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/stone.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/unit_abilities.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": true,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/platform_window.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/presentation_pacer.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/release_integrity.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/release_package.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/runtime_diagnostics.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/save.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/config.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/controller.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/effects.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": true,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/flow.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/imprint.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": true,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/mainmenu.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/render.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/render2.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/screen.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/tooltip.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/tutorial.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/upgrade.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/widgets.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  },
+  {
+    "path": "startup.lua",
+    "syntax_valid": true,
+    "error": null,
+    "locals_normalized": false,
+    "semantics_verified": false
+  }
+]

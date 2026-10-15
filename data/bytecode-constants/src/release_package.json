@@ -1,0 +1,1023 @@
+{
+  "file": "src/release_package.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0/2",
+      "argument_count": 0,
+      "instruction_count": 37,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "invalid protected configuration"
+        },
+        {
+          "constant_index": 1,
+          "value": "function"
+        },
+        {
+          "constant_index": 2,
+          "value": "type"
+        },
+        {
+          "constant_index": 3,
+          "value": "load"
+        },
+        {
+          "constant_index": 4,
+          "value": "release.flag"
+        },
+        {
+          "constant_index": 5,
+          "value": "main.lua"
+        },
+        {
+          "constant_index": 6,
+          "value": "conf.lua"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0",
+      "argument_count": 1,
+      "instruction_count": 192,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "error"
+        },
+        {
+          "constant_index": 1,
+          "value": "unmount"
+        },
+        {
+          "constant_index": 3,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 4,
+          "value": "invalid protected archive"
+        },
+        {
+          "constant_index": 5,
+          "value": ""
+        },
+        {
+          "constant_index": 6,
+          "value": "decrypt"
+        },
+        {
+          "constant_index": 7,
+          "value": "key"
+        },
+        {
+          "constant_index": 8,
+          "value": "could not read the complete package"
+        },
+        {
+          "constant_index": 9,
+          "value": "string"
+        },
+        {
+          "constant_index": 10,
+          "value": "invalid package size"
+        },
+        {
+          "constant_index": 11,
+          "value": "number"
+        },
+        {
+          "constant_index": 12,
+          "value": "size"
+        },
+        {
+          "constant_index": 13,
+          "value": "file"
+        },
+        {
+          "constant_index": 14,
+          "value": "slotbound"
+        },
+        {
+          "constant_index": 15,
+          "value": "invalid package filename"
+        },
+        {
+          "constant_index": 16,
+          "value": "slotbound-protected.zip"
+        },
+        {
+          "constant_index": 17,
+          "value": "archiveName"
+        },
+        {
+          "constant_index": 18,
+          "value": "content.sbpack"
+        },
+        {
+          "constant_index": 19,
+          "value": "payload"
+        },
+        {
+          "constant_index": 20,
+          "value": "run the official Slotbound executable"
+        },
+        {
+          "constant_index": 21,
+          "value": "allowUnfused"
+        },
+        {
+          "constant_index": 22,
+          "value": "required filesystem support is unavailable"
+        },
+        {
+          "constant_index": 23,
+          "value": "load"
+        },
+        {
+          "constant_index": 24,
+          "value": "setIdentity"
+        },
+        {
+          "constant_index": 25,
+          "value": "mount"
+        },
+        {
+          "constant_index": 26,
+          "value": "newFileData"
+        },
+        {
+          "constant_index": 27,
+          "value": "read"
+        },
+        {
+          "constant_index": 28,
+          "value": "getInfo"
+        },
+        {
+          "constant_index": 29,
+          "value": "getRealDirectory"
+        },
+        {
+          "constant_index": 30,
+          "value": "getSource"
+        },
+        {
+          "constant_index": 31,
+          "value": "isFused"
+        },
+        {
+          "constant_index": 32,
+          "value": "love.filesystem"
+        },
+        {
+          "constant_index": 33,
+          "value": "require"
+        },
+        {
+          "constant_index": 34,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 35,
+          "value": "love"
+        },
+        {
+          "constant_index": 36,
+          "value": "Windows x64 is required"
+        },
+        {
+          "constant_index": 37,
+          "value": "missing package configuration"
+        },
+        {
+          "constant_index": 38,
+          "value": "table"
+        },
+        {
+          "constant_index": 39,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2/0",
+      "argument_count": 0,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "remove"
+        },
+        {
+          "constant_index": 1,
+          "value": "table"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2/2",
+      "argument_count": 1,
+      "instruction_count": 105,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "missing protected module: "
+        },
+        {
+          "constant_index": 1,
+          "value": "invalid project module: "
+        },
+        {
+          "constant_index": 2,
+          "value": "function"
+        },
+        {
+          "constant_index": 3,
+          "value": "untrusted project module: "
+        },
+        {
+          "constant_index": 4,
+          "value": "file"
+        },
+        {
+          "constant_index": 5,
+          "value": "/init.lua"
+        },
+        {
+          "constant_index": 6,
+          "value": ".lua"
+        },
+        {
+          "constant_index": 7,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 8,
+          "value": "/"
+        },
+        {
+          "constant_index": 9,
+          "value": "%."
+        },
+        {
+          "constant_index": 10,
+          "value": "gsub"
+        },
+        {
+          "constant_index": 11,
+          "value": "invalid project module name"
+        },
+        {
+          "constant_index": 12,
+          "value": "."
+        },
+        {
+          "constant_index": 13,
+          "value": "sub"
+        },
+        {
+          "constant_index": 14,
+          "value": ".."
+        },
+        {
+          "constant_index": 15,
+          "value": "[^%w_%.]"
+        },
+        {
+          "constant_index": 16,
+          "value": "find"
+        },
+        {
+          "constant_index": 17,
+          "value": "main"
+        },
+        {
+          "constant_index": 18,
+          "value": "^src[./\\]"
+        },
+        {
+          "constant_index": 19,
+          "value": "match"
+        },
+        {
+          "constant_index": 20,
+          "value": "src"
+        },
+        {
+          "constant_index": 21,
+          "value": "string"
+        },
+        {
+          "constant_index": 22,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 2,
+      "instruction_count": 28,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "insert"
+        },
+        {
+          "constant_index": 3,
+          "value": "load"
+        },
+        {
+          "constant_index": 4,
+          "value": "getRealDirectory"
+        },
+        {
+          "constant_index": 5,
+          "value": "getInfo"
+        },
+        {
+          "constant_index": 6,
+          "value": "Lua module loading is unavailable"
+        },
+        {
+          "constant_index": 7,
+          "value": "table"
+        },
+        {
+          "constant_index": 8,
+          "value": "type"
+        },
+        {
+          "constant_index": 9,
+          "value": "searchers"
+        },
+        {
+          "constant_index": 10,
+          "value": "loaders"
+        },
+        {
+          "constant_index": 11,
+          "value": "package"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/3",
+      "argument_count": 3,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "untrusted or missing package file: "
+        },
+        {
+          "constant_index": 1,
+          "value": "getRealDirectory"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4/0",
+      "argument_count": 1,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "lower"
+        },
+        {
+          "constant_index": 1,
+          "value": ""
+        },
+        {
+          "constant_index": 2,
+          "value": "/+$"
+        },
+        {
+          "constant_index": 3,
+          "value": "/"
+        },
+        {
+          "constant_index": 4,
+          "value": "\\"
+        },
+        {
+          "constant_index": 5,
+          "value": "gsub"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 2,
+      "instruction_count": 28,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "string"
+        },
+        {
+          "constant_index": 2,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/5",
+      "argument_count": 1,
+      "instruction_count": 24,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": ".."
+        },
+        {
+          "constant_index": 1,
+          "value": "find"
+        },
+        {
+          "constant_index": 2,
+          "value": "^[%w_-][%w_.-]*$"
+        },
+        {
+          "constant_index": 3,
+          "value": "match"
+        },
+        {
+          "constant_index": 4,
+          "value": "string"
+        },
+        {
+          "constant_index": 5,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6/1",
+      "argument_count": 0,
+      "instruction_count": 224,
+      "numeric_constants": [
+        1048576,
+        8,
+        20
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "string"
+        },
+        {
+          "constant_index": 1,
+          "value": "invalid decrypted length"
+        },
+        {
+          "constant_index": 2,
+          "value": "package authentication failed"
+        },
+        {
+          "constant_index": 3,
+          "value": "BCryptDecrypt"
+        },
+        {
+          "constant_index": 4,
+          "value": "cbTag"
+        },
+        {
+          "constant_index": 5,
+          "value": "pbTag"
+        },
+        {
+          "constant_index": 6,
+          "value": "cbAuthData"
+        },
+        {
+          "constant_index": 7,
+          "value": "pbAuthData"
+        },
+        {
+          "constant_index": 8,
+          "value": "cbNonce"
+        },
+        {
+          "constant_index": 9,
+          "value": "pbNonce"
+        },
+        {
+          "constant_index": 10,
+          "value": "dwInfoVersion"
+        },
+        {
+          "constant_index": 11,
+          "value": "SBP_AUTH_INFO"
+        },
+        {
+          "constant_index": 12,
+          "value": "cbSize"
+        },
+        {
+          "constant_index": 13,
+          "value": "SBP_AUTH_INFO[1]"
+        },
+        {
+          "constant_index": 14,
+          "value": "copy"
+        },
+        {
+          "constant_index": 15,
+          "value": "const unsigned char *"
+        },
+        {
+          "constant_index": 16,
+          "value": "unsigned char[8]"
+        },
+        {
+          "constant_index": 17,
+          "value": "unsigned char[16]"
+        },
+        {
+          "constant_index": 18,
+          "value": "unsigned char[12]"
+        },
+        {
+          "constant_index": 19,
+          "value": "fill"
+        },
+        {
+          "constant_index": 20,
+          "value": "AES key setup failed"
+        },
+        {
+          "constant_index": 21,
+          "value": "BCryptGenerateSymmetricKey"
+        },
+        {
+          "constant_index": 22,
+          "value": "unsigned char[?]"
+        },
+        {
+          "constant_index": 23,
+          "value": "invalid AES key allocation"
+        },
+        {
+          "constant_index": 24,
+          "value": "invalid AES provider"
+        },
+        {
+          "constant_index": 25,
+          "value": "ObjectLength"
+        },
+        {
+          "constant_index": 26,
+          "value": "BCryptGetProperty"
+        },
+        {
+          "constant_index": 27,
+          "value": "uint32_t[1]"
+        },
+        {
+          "constant_index": 28,
+          "value": "new"
+        },
+        {
+          "constant_index": 29,
+          "value": "AES-GCM is unavailable"
+        },
+        {
+          "constant_index": 30,
+          "value": "sizeof"
+        },
+        {
+          "constant_index": 31,
+          "value": "unsigned char *"
+        },
+        {
+          "constant_index": 32,
+          "value": "cast"
+        },
+        {
+          "constant_index": 33,
+          "value": "ChainingMode"
+        },
+        {
+          "constant_index": 34,
+          "value": "BCryptSetProperty"
+        },
+        {
+          "constant_index": 35,
+          "value": "ChainingModeGCM"
+        },
+        {
+          "constant_index": 36,
+          "value": "AES provider is unavailable"
+        },
+        {
+          "constant_index": 37,
+          "value": "AES"
+        },
+        {
+          "constant_index": 38,
+          "value": "BCryptOpenAlgorithmProvider"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6/3",
+      "argument_count": 0,
+      "instruction_count": 57,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "BCryptCloseAlgorithmProvider"
+        },
+        {
+          "constant_index": 1,
+          "value": "sizeof"
+        },
+        {
+          "constant_index": 2,
+          "value": "fill"
+        },
+        {
+          "constant_index": 3,
+          "value": "BCryptDestroyKey"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6/4",
+      "argument_count": 2,
+      "instruction_count": 7,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 2,
+      "instruction_count": 41,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "error"
+        },
+        {
+          "constant_index": 2,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 5,
+          "value": "copy"
+        },
+        {
+          "constant_index": 6,
+          "value": "unsigned char[32]"
+        },
+        {
+          "constant_index": 7,
+          "value": "void *[1]"
+        },
+        {
+          "constant_index": 8,
+          "value": "new"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/8",
+      "argument_count": 2,
+      "instruction_count": 44,
+      "numeric_constants": [
+        32
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "unsupported package format"
+        },
+        {
+          "constant_index": 1,
+          "value": "sub"
+        },
+        {
+          "constant_index": 2,
+          "value": "package exceeds size limit"
+        },
+        {
+          "constant_index": 3,
+          "value": "truncated package"
+        },
+        {
+          "constant_index": 4,
+          "value": "invalid package key"
+        },
+        {
+          "constant_index": 5,
+          "value": "string"
+        },
+        {
+          "constant_index": 6,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/9",
+      "argument_count": 0,
+      "instruction_count": 120,
+      "numeric_constants": [
+        88,
+        32768,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "cast"
+        },
+        {
+          "constant_index": 1,
+          "value": "required system cryptography is unavailable"
+        },
+        {
+          "constant_index": 2,
+          "value": "GetProcAddress"
+        },
+        {
+          "constant_index": 3,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 5,
+          "value": "_library"
+        },
+        {
+          "constant_index": 7,
+          "value": "FreeLibrary"
+        },
+        {
+          "constant_index": 8,
+          "value": "gc"
+        },
+        {
+          "constant_index": 9,
+          "value": "system cryptography is unavailable"
+        },
+        {
+          "constant_index": 10,
+          "value": "LoadLibraryExW"
+        },
+        {
+          "constant_index": 11,
+          "value": "byte"
+        },
+        {
+          "constant_index": 12,
+          "value": "Windows system directory is unavailable"
+        },
+        {
+          "constant_index": 13,
+          "value": "\\bcrypt.dll"
+        },
+        {
+          "constant_index": 14,
+          "value": "GetSystemDirectoryW"
+        },
+        {
+          "constant_index": 15,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 16,
+          "value": "uint16_t[32768]"
+        },
+        {
+          "constant_index": 17,
+          "value": "new"
+        },
+        {
+          "constant_index": 18,
+          "value": "Windows library loading is unavailable"
+        },
+        {
+          "constant_index": 19,
+          "value": "kernel32"
+        },
+        {
+          "constant_index": 20,
+          "value": "load"
+        },
+        {
+          "constant_index": 21,
+          "value": "unsupported cryptography ABI"
+        },
+        {
+          "constant_index": 22,
+          "value": "sizeof"
+        },
+        {
+          "constant_index": 23,
+          "value": "      typedef struct {\n        uint32_t cbSize;\n        uint32_t dwInfoVersion;\n        unsigned char *pbNonce;\n        uint32_t cbNonce;\n        unsigned char *pbAuthData;\n        uint32_t cbAuthData;\n        unsigned char *pbTag;\n        uint32_t cbTag;\n        unsigned char *pbMacContext;\n        uint32_t cbMacContext;\n        uint32_t cbAAD;\n        uint64_t cbData;\n        uint32_t dwFlags;\n      } SBP_AUTH_INFO;\n      int32_t BCryptOpenAlgorithmProvider(void **algorithm,\n        const uint16_t *identifier, const uint16_t *implementation,\n        uint32_t flags);\n      int32_t BCryptSetProperty(void *object, const uint16_t *property,\n        unsigned char *input, uint32_t inputSize, uint32_t flags);\n      int32_t BCryptGetProperty(void *object, const uint16_t *property,\n        unsigned char *output, uint32_t outputSize, uint32_t *resultSize,\n        uint32_t flags);\n      int32_t BCryptGenerateSymmetricKey(void *algorithm, void **key,\n        unsigned char *keyObject, uint32_t keyObjectSize,\n        unsigned char *secret, uint32_t secretSize, uint32_t flags);\n      int32_t BCryptDecrypt(void *key, unsigned char *input,\n        uint32_t inputSize, void *paddingInfo, unsigned char *iv,\n        uint32_t ivSize, unsigned char *output, uint32_t outputSize,\n        uint32_t *resultSize, uint32_t flags);\n      int32_t BCryptDestroyKey(void *key);\n      int32_t BCryptCloseAlgorithmProvider(void *algorithm, uint32_t flags);\n      uint32_t __stdcall GetSystemDirectoryW(uint16_t *buffer, uint32_t size);\n      void * __stdcall LoadLibraryExW(const uint16_t *name,\n        void *reserved, uint32_t flags);\n      void * __stdcall GetProcAddress(void *library, const char *name);\n      int __stdcall FreeLibrary(void *library);\n    "
+        },
+        {
+          "constant_index": 24,
+          "value": "cdef"
+        },
+        {
+          "constant_index": 25,
+          "value": "SBP_AUTH_INFO"
+        },
+        {
+          "constant_index": 26,
+          "value": "typeof"
+        },
+        {
+          "constant_index": 27,
+          "value": "Windows cryptography is unavailable"
+        },
+        {
+          "constant_index": 28,
+          "value": "ffi"
+        },
+        {
+          "constant_index": 29,
+          "value": "require"
+        },
+        {
+          "constant_index": 30,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 31,
+          "value": "Windows x64 is required"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": [
+            [
+              "BCryptGetProperty",
+              "int32_t (*)(void *, const uint16_t *, unsigned char *, uint32_t, uint32_t *, uint32_t)"
+            ],
+            [
+              "BCryptDecrypt",
+              "int32_t (*)(void *, unsigned char *, uint32_t, void *, unsigned char *, uint32_t, unsigned char *, uint32_t, uint32_t *, uint32_t)"
+            ],
+            [
+              "BCryptSetProperty",
+              "int32_t (*)(void *, const uint16_t *, unsigned char *, uint32_t, uint32_t)"
+            ],
+            [
+              "BCryptDestroyKey",
+              "int32_t (*)(void *)"
+            ],
+            [
+              "BCryptOpenAlgorithmProvider",
+              "int32_t (*)(void **, const uint16_t *, const uint16_t *, uint32_t)"
+            ],
+            [
+              "BCryptCloseAlgorithmProvider",
+              "int32_t (*)(void *, uint32_t)"
+            ],
+            [
+              "BCryptGenerateSymmetricKey",
+              "int32_t (*)(void *, void **, unsigned char *, uint32_t, unsigned char *, uint32_t, uint32_t)"
+            ]
+          ]
+        },
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/10",
+      "argument_count": 2,
+      "instruction_count": 18,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "byte"
+        },
+        {
+          "constant_index": 1,
+          "value": "uint16_t[?]"
+        },
+        {
+          "constant_index": 2,
+          "value": "new"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/11",
+      "argument_count": 0,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "x64"
+        },
+        {
+          "constant_index": 1,
+          "value": "arch"
+        },
+        {
+          "constant_index": 2,
+          "value": "Windows"
+        },
+        {
+          "constant_index": 3,
+          "value": "os"
+        },
+        {
+          "constant_index": 4,
+          "value": "jit"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 1,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": ")"
+        },
+        {
+          "constant_index": 1,
+          "value": "Please reinstall an official copy. ("
+        },
+        {
+          "constant_index": 2,
+          "value": "SlotBound could not open its protected game package. "
+        },
+        {
+          "constant_index": 3,
+          "value": "error"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 20,
+      "numeric_constants": [
+        536870912
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "boot"
+        },
+        {
+          "constant_index": 7,
+          "value": "decrypt"
+        },
+        {
+          "constant_index": 13,
+          "value": "SBPKG001"
+        }
+      ],
+      "tables": []
+    }
+  ]
+}

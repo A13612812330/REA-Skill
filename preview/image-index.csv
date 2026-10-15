@@ -1,0 +1,1216 @@
+﻿path,width,height,bytes
+icon.png,256,256,10954
+src/data/font/coinfont/coinfont.png,65,8,305
+src/data/font/coinfont/coinfontd.png,50,8,322
+src/data/font/coinfont/coinfontgreen.png,56,8,295
+src/data/font/coinfont/coinfontred.png,56,8,287
+src/data/font/coinfont/numberdark.png,56,8,333
+src/data/font/coinfont/numberheartred.png,56,8,282
+src/data/font/coinfont/numberpink.png,56,8,292
+src/data/font/coinfont/numberwhite.png,56,8,322
+src/data/font/Galmuri7W.png,917,913,143569
+src/data/font/Galmuri7WS.png,945,945,226056
+src/data/font/Galmuri9W.png,650,647,141786
+src/data/font/Galmuri9WS.png,676,676,206595
+src/data/font/Galmuri9WSLine.png,713,713,177793
+src/data/font/Japanese/Galmuri7W_J.png,1410,1410,391251
+src/data/font/Japanese/Galmuri7WS_J.png,1455,1455,618918
+src/data/font/Japanese/Galmuri9W_J.png,994,994,376277
+src/data/font/Japanese/Galmuri9WS_J.png,1037,1037,593253
+src/data/font/Japanese/Galmuri9WSLine_J.png,1206,1206,633320
+src/data/font/Latin/Galmuri7W_La.png,253,253,10737
+src/data/font/Latin/Galmuri7WS_La.png,259,259,16195
+src/data/font/Latin/Galmuri9W_La.png,174,174,8834
+src/data/font/Latin/Galmuri9WS_La.png,182,179,13331
+src/data/font/Latin/Galmuri9WSLine_La.png,217,217,16898
+src/data/font/m16font/m6x11.png,284,11,676
+src/data/font/m16font/m6x11plus.png,86,85,1350
+src/data/font/Other/Galmuri7W_L.png,222,221,10918
+src/data/font/Other/Galmuri7WS_L.png,229,229,29892
+src/data/font/Other/Galmuri9W_L.png,154,154,6776
+src/data/font/Other/Galmuri9WS_L.png,160,159,10330
+src/data/font/Other/Galmuri9WSLine_L.png,195,195,13259
+src/data/font/Russian/Galmuri9W_Ru.png,103,103,3236
+src/data/font/Russian/Galmuri9WS_Ru.png,106,106,4913
+src/data/font/Russian/Galmuri9WSLine_Ru.png,132,132,6374
+src/data/font/Russian/Pizel7W_Ru.png,135,135,3571
+src/data/font/Russian/PizelWS_Ru.png,142,137,5857
+src/data/font/SilverW_K/SilverW_K.png,662,662,133465
+src/sprites/background/battlefield1/0.png,190,130,481
+src/sprites/background/battlefield1/1.png,380,130,788
+src/sprites/background/battlefield1/2.5.png,190,130,2452
+src/sprites/background/battlefield1/2.png,190,130,573
+src/sprites/background/battlefield1/3.png,190,130,4190
+src/sprites/background/battlefield1/4.png,190,130,1366
+src/sprites/background/battlefield1/earthquake1.png,190,130,238
+src/sprites/background/battlefield1/earthquake2.png,190,130,249
+src/sprites/background/battlefield1/earthquake3.png,190,130,258
+src/sprites/background/battlefield1/earthquake4.png,190,130,274
+src/sprites/background/battlefield1/earthquake5.png,190,130,292
+src/sprites/background/battlefield1/earthquake6.png,190,130,319
+src/sprites/background/battlefield1/earthquake7.png,190,130,360
+src/sprites/background/battlefield2/0.png,190,130,2802
+src/sprites/background/battlefield2/4.png,190,130,3479
+src/sprites/background/battlefield2/earthquake1.png,190,130,238
+src/sprites/background/battlefield2/earthquake2.png,190,130,249
+src/sprites/background/battlefield2/earthquake3.png,190,130,258
+src/sprites/background/battlefield2/earthquake4.png,190,130,274
+src/sprites/background/battlefield2/earthquake5.png,190,130,292
+src/sprites/background/battlefield2/earthquake6.png,190,130,319
+src/sprites/background/battlefield2/earthquake7.png,190,130,360
+src/sprites/background/battlefield2/finalstage2.png,190,130,4467
+src/sprites/background/battlefield3/0.png,190,130,457
+src/sprites/background/battlefield3/1.png,380,130,1042
+src/sprites/background/battlefield3/2.5.png,190,130,2452
+src/sprites/background/battlefield3/3.png,190,130,3007
+src/sprites/background/battlefield3/4.png,190,130,1929
+src/sprites/background/battlefield3/5.png,190,130,513
+src/sprites/background/battlefield3/earthquake1.png,190,130,238
+src/sprites/background/battlefield3/earthquake2.png,190,130,249
+src/sprites/background/battlefield3/earthquake3.png,190,130,258
+src/sprites/background/battlefield3/earthquake4.png,190,130,274
+src/sprites/background/battlefield3/earthquake5.png,190,130,292
+src/sprites/background/battlefield3/earthquake6.png,190,130,319
+src/sprites/background/battlefield3/earthquake7.png,190,130,360
+src/sprites/background/battlefield3/finalstage3.png,190,130,4366
+src/sprites/background/battlefield3/tumbleweed.png,20,20,343
+src/sprites/background/battlefield4/0.png,190,130,456
+src/sprites/background/battlefield4/1.png,380,130,555
+src/sprites/background/battlefield4/2.5.png,190,130,2452
+src/sprites/background/battlefield4/3.png,190,130,5375
+src/sprites/background/battlefield4/4.png,190,130,3105
+src/sprites/background/battlefield4/5.png,190,130,652
+src/sprites/background/battlefield4/earthquake1.png,190,130,238
+src/sprites/background/battlefield4/earthquake2.png,190,130,249
+src/sprites/background/battlefield4/earthquake3.png,190,130,258
+src/sprites/background/battlefield4/earthquake4.png,190,130,274
+src/sprites/background/battlefield4/earthquake5.png,190,130,292
+src/sprites/background/battlefield4/earthquake6.png,190,130,319
+src/sprites/background/battlefield4/earthquake7.png,190,130,360
+src/sprites/background/battlefield4/finalstage4.png,190,130,7929
+src/sprites/background/battlefield5/0.png,190,130,1969
+src/sprites/background/battlefield5/2.5.png,190,130,2452
+src/sprites/background/battlefield5/3.png,190,130,4146
+src/sprites/background/battlefield5/4.png,190,130,2109
+src/sprites/background/battlefield5/5.png,190,130,509
+src/sprites/background/battlefield5/earthquake1.png,190,130,238
+src/sprites/background/battlefield5/earthquake2.png,190,130,249
+src/sprites/background/battlefield5/earthquake3.png,190,130,258
+src/sprites/background/battlefield5/earthquake4.png,190,130,274
+src/sprites/background/battlefield5/earthquake5.png,190,130,292
+src/sprites/background/battlefield5/earthquake6.png,190,130,319
+src/sprites/background/battlefield5/earthquake7.png,190,130,360
+src/sprites/background/battlefield5/finalstage5.png,190,130,5740
+src/sprites/background/battlefield6/0.png,190,130,457
+src/sprites/background/battlefield6/2.5.png,190,130,1018
+src/sprites/background/battlefield6/3.png,190,130,4766
+src/sprites/background/battlefield6/4.png,190,130,3508
+src/sprites/background/battlefield6/earthquake1.png,190,130,238
+src/sprites/background/battlefield6/earthquake2.png,190,130,249
+src/sprites/background/battlefield6/earthquake3.png,190,130,258
+src/sprites/background/battlefield6/earthquake4.png,190,130,274
+src/sprites/background/battlefield6/earthquake5.png,190,130,292
+src/sprites/background/battlefield6/earthquake6.png,190,130,319
+src/sprites/background/battlefield6/earthquake7.png,190,130,360
+src/sprites/background/battlefield6/finalstage6.png,380,260,8908
+src/sprites/background/battlefield6/split0.png,191,130,309
+src/sprites/background/battlefield6/split1.png,191,130,657
+src/sprites/background/battlefield6/split2.png,191,130,768
+src/sprites/background/battlefield6/split3.png,191,130,710
+src/sprites/background/button/allinbutton.png,20,14,172
+src/sprites/background/button/awakeningcard.png,60,110,341
+src/sprites/background/button/battlefieldsection.png,40,32,246
+src/sprites/background/button/battlefieldsection_dark.png,40,32,245
+src/sprites/background/button/cancelbutton.png,168,24,253
+src/sprites/background/button/classcard.png,60,110,979
+src/sprites/background/button/classcardlocked.png,60,110,874
+src/sprites/background/button/corescrollbutton.png,34,18,317
+src/sprites/background/button/dpsbutton.png,48,44,396
+src/sprites/background/button/dpsbutton_pressed.png,48,44,392
+src/sprites/background/button/dpsbuttonclose.png,48,44,396
+src/sprites/background/button/dpsbuttonclose_pressed.png,48,44,395
+src/sprites/background/button/fastforward.png,42,36,311
+src/sprites/background/button/fastforward2.png,42,36,321
+src/sprites/background/button/fastforward2pressed.png,42,36,318
+src/sprites/background/button/fastforwardpressed.png,42,36,307
+src/sprites/background/button/firemanbackground.png,640,360,1260
+src/sprites/background/button/imprintchange.png,40,46,304
+src/sprites/background/button/imprintconfirm - 복사본.png,40,46,291
+src/sprites/background/button/imprintconfirm.png,40,46,291
+src/sprites/background/button/imprintupgrade.png,40,46,295
+src/sprites/background/button/itempanel - 복사본.png,46,56,241
+src/sprites/background/button/itempanel.png,46,56,237
+src/sprites/background/button/itempanelbroken.png,46,56,331
+src/sprites/background/button/itempanelcooltime.png,46,42,175
+src/sprites/background/button/itempanelpassive.png,46,56,232
+src/sprites/background/button/itempanelshadow.png,46,56,137
+src/sprites/background/button/itempanelshadowlegend.png,46,56,137
+src/sprites/background/button/itempanelshadowrare.png,46,56,139
+src/sprites/background/button/itempanelshadowuncommon.png,46,56,871
+src/sprites/background/button/itemslot.png,52,75,486
+src/sprites/background/button/itemslot_legend.png,52,75,521
+src/sprites/background/button/itemslot_rare.png,52,75,522
+src/sprites/background/button/itemslot_uncommon.png,52,75,535
+src/sprites/background/button/nudgebutton.png,78,28,303
+src/sprites/background/button/savedatatitle.png,73,12,461
+src/sprites/background/button/saveslot.png,120,23,352
+src/sprites/background/button/scrollscreen.png,376,133,3623
+src/sprites/background/button/scrollscreenani.png,564,133,4832
+src/sprites/background/button/shopsection.png,40,32,273
+src/sprites/background/button/shopsection_dark.png,40,32,262
+src/sprites/background/button/spinstick.png,266,150,2329
+src/sprites/background/button/spinstick_2.png,210,150,1760
+src/sprites/background/button/stonesection.png,40,32,287
+src/sprites/background/button/stonesection_dark.png,40,32,278
+src/sprites/background/button/stopbutton.png,78,28,316
+src/sprites/background/button/synergybutton.png,48,44,433
+src/sprites/background/button/synergybutton_pressed.png,48,44,426
+src/sprites/background/button/synergybuttonclose.png,48,44,426
+src/sprites/background/button/synergybuttonclose_pressed.png,48,44,416
+src/sprites/background/cursor.png,16,16,212
+src/sprites/background/mainbackground/battlefieldtitledisable.png,640,360,1488
+src/sprites/background/mainbackground/classtitle.png,640,360,1488
+src/sprites/background/mainbackground/corebackground number.png,640,360,1228
+src/sprites/background/mainbackground/corebackground.png,640,360,1276
+src/sprites/background/mainbackground/corebackgroundnumber.png,640,360,1215
+src/sprites/background/mainbackground/corescroll.png,645,365,1372
+src/sprites/background/mainbackground/corescrollbackground.png,640,360,1792
+src/sprites/background/mainbackground/corescrollmessage.png,640,360,1197
+src/sprites/background/mainbackground/corescrollshadow.png,640,360,1226
+src/sprites/background/mainbackground/defeat.png,51,12,394
+src/sprites/background/mainbackground/dpsslot.png,17,18,195
+src/sprites/background/mainbackground/dpswindow.png,640,360,1637
+src/sprites/background/mainbackground/fireman.png,100,80,1407
+src/sprites/background/mainbackground/firemanbackground.png,640,360,1260
+src/sprites/background/mainbackground/heart.png,640,360,1261
+src/sprites/background/mainbackground/heartrope.png,640,360,1307
+src/sprites/background/mainbackground/Imprintbackgdfdroundskillshadow.png,640,360,1121
+src/sprites/background/mainbackground/Imprintbackground.png,640,360,1996
+src/sprites/background/mainbackground/Imprintgainbackground.png,170,80,594
+src/sprites/background/mainbackground/Imprintslot.png,152,46,383
+src/sprites/background/mainbackground/information.png,640,360,1698
+src/sprites/background/mainbackground/informationhitorder.png,640,360,1240
+src/sprites/background/mainbackground/informationrope.png,640,360,1398
+src/sprites/background/mainbackground/iteminformation.png,640,360,1530
+src/sprites/background/mainbackground/iteminvertory.png,640,360,1241
+src/sprites/background/mainbackground/judgementalert.png,640,360,1392
+src/sprites/background/mainbackground/judgementpwr.png,640,360,1186
+src/sprites/background/mainbackground/mainbackground.png,640,360,3875
+src/sprites/background/mainbackground/mainbackgroundpaper.png,640,360,2910
+src/sprites/background/mainbackground/mainbackgroundpaperfront.png,640,360,2660
+src/sprites/background/mainbackground/maxunit.png,640,360,1806
+src/sprites/background/mainbackground/maxuniticon.png,640,360,1079
+src/sprites/background/mainbackground/moneybackground.png,640,360,1336
+src/sprites/background/mainbackground/monsterbody.png,640,360,1896
+src/sprites/background/mainbackground/monstereyeshine.png,11,11,140
+src/sprites/background/mainbackground/monsterhead.png,640,360,1593
+src/sprites/background/mainbackground/monsterheadhurt.png,640,360,1655
+src/sprites/background/mainbackground/monsterheadlaugh.png,640,360,1605
+src/sprites/background/mainbackground/monsterheadshadow.png,640,360,1065
+src/sprites/background/mainbackground/scroll.png,69,28,528
+src/sprites/background/mainbackground/shopbackground.png,640,360,4553
+src/sprites/background/mainbackground/shopbackgroundinfobackground.png,640,360,1521
+src/sprites/background/mainbackground/shopbackgroundinvenbackground.png,640,360,1386
+src/sprites/background/mainbackground/shopbackgroundshopkeeper.png,640,360,3230
+src/sprites/background/mainbackground/shopbackgroundshopkeeper_dkl.png,640,360,2590
+src/sprites/background/mainbackground/shopkeeper.png,252,68,2736
+src/sprites/background/mainbackground/shoprope.png,640,360,1462
+src/sprites/background/mainbackground/shoptitle.png,640,360,1235
+src/sprites/background/mainbackground/skillframe.png,36,43,247
+src/sprites/background/mainbackground/skillframeshadow.png,36,43,155
+src/sprites/background/mainbackground/slotbackground.png,640,360,3124
+src/sprites/background/mainbackground/slotbackground2.png,640,360,3124
+src/sprites/background/mainbackground/slotbackgroundcolourfilter.png,640,360,1336
+src/sprites/background/mainbackground/slotleftbackground.png,640,360,1232
+src/sprites/background/mainbackground/slotrope.png,640,360,1433
+src/sprites/background/mainbackground/slotshadow.png,640,360,1126
+src/sprites/background/mainbackground/stonequest.png,60,110,940
+src/sprites/background/mainbackground/stonequestbackground.png,640,360,5938
+src/sprites/background/mainbackground/stonequestlocked.png,60,110,862
+src/sprites/background/mainbackground/symbolodds.png,640,360,1370
+src/sprites/background/mainbackground/synergywindow.png,640,360,1566
+src/sprites/background/mainbackground/tutorialwindow.png,106,59,829
+src/sprites/background/mainbackground/victory.png,60,12,429
+src/sprites/background/mainbackground/Watchtower.png,50,70,3592
+src/sprites/background/mainbackground/wavecounter.png,640,360,2088
+src/sprites/background/menu/credits.png,640,360,1835
+src/sprites/background/menu/gamendscreen.png,640,360,1784
+src/sprites/background/menu/gamendscreenagain.png,44,48,363
+src/sprites/background/menu/gamendscreendefeat.png,640,360,2182
+src/sprites/background/menu/gamendscreennext.png,44,48,360
+src/sprites/background/menu/gamendscreenupgrade.png,44,48,351
+src/sprites/background/menu/messagewindow.png,310,94,481
+src/sprites/background/menu/optionbutton.png,44,52,379
+src/sprites/background/menu/optionbutton_dark.png,44,52,373
+src/sprites/background/menu/optionbuttonrope.png,44,52,184
+src/sprites/background/menu/optionpaperbackground.png,640,360,1878
+src/sprites/background/menu/optionwindow.png,640,360,4827
+src/sprites/background/menu/optionwindow_topbar.png,640,360,1367
+src/sprites/background/menu/optionwindowrope.png,640,360,1332
+src/sprites/background/menu/pausebackbutton.png,44,52,362
+src/sprites/background/menu/pausebackbutton_dark.png,44,52,355
+src/sprites/background/menu/pausebackground.png,640,360,1770
+src/sprites/background/menu/playbutton.png,44,52,343
+src/sprites/background/menu/playbutton_dark.png,44,52,337
+src/sprites/background/menu/playtimebackground.png,640,360,1737
+src/sprites/background/menu/replaybutton.png,44,52,363
+src/sprites/background/menu/replaybutton_dark.png,44,52,357
+src/sprites/background/menu/tomainmenubutton.png,44,52,376
+src/sprites/background/menu/tomainmenubutton_dark.png,44,52,370
+src/sprites/background/menu/wikibutton.png,44,52,353
+src/sprites/background/menu/wikibutton_dark.png,44,52,347
+src/sprites/enemy/Demon/01Imp.png,192,160,2912
+src/sprites/enemy/Demon/02Ember Imp.png,256,224,4507
+src/sprites/enemy/Demon/02Ember ImpPrjectile.png,48,16,183
+src/sprites/enemy/Demon/03Rascal Imp.png,288,192,4490
+src/sprites/enemy/Demon/03Rascal ImpProjectile.png,24,24,180
+src/sprites/enemy/Demon/04Succubus.png,288,224,5757
+src/sprites/enemy/Demon/05ClawedDemon.png,192,224,4918
+src/sprites/enemy/Demon/06HighDemon.png,320,240,7831
+src/sprites/enemy/Demon/07HellWarden.png,256,256,6818
+src/sprites/enemy/Demon/08Hell Witch.png,288,256,8572
+src/sprites/enemy/Demon/09Hell Enforcer.png,352,256,8885
+src/sprites/enemy/Demon/10Demon Lord.png,400,320,16201
+src/sprites/enemy/Demon/boss/01DarkLord.png,800,224,16625
+src/sprites/enemy/Demon/boss/02Skeleton Dragon.png,1344,224,16953
+src/sprites/enemy/Demon/boss/02Skeleton DragonSkill.png,432,32,1859
+src/sprites/enemy/Demon/boss/03Doom Dragon.png,1024,224,18630
+src/sprites/enemy/Demon/boss/03Doom DragonSkill.png,432,32,1807
+src/sprites/enemy/Demon/boss/Hydra.png,704,224,17186
+src/sprites/enemy/Demon/MiniFireBall.png,80,32,339
+src/sprites/enemy/Eyes/01EyeCrawler.png,192,192,1617
+src/sprites/enemy/Eyes/02EyeBat.png,128,96,1693
+src/sprites/enemy/Eyes/03Observer.png,256,192,3038
+src/sprites/enemy/Eyes/04Gazer.png,256,192,4193
+src/sprites/enemy/Eyes/05StingerBat.png,224,128,3085
+src/sprites/enemy/Eyes/06Deceiver.png,256,192,3455
+src/sprites/enemy/Eyes/06Deceiver02.png,288,224,5632
+src/sprites/enemy/Eyes/07EyeMatron.png,288,160,12380
+src/sprites/enemy/Eyes/08CaveBrute.png,320,192,8104
+src/sprites/enemy/Eyes/09EyeWarlock.png,224,128,4962
+src/sprites/enemy/Eyes/10CaveDevourer.png,320,160,10668
+src/sprites/enemy/Eyes/boss/01Beholder.png,288,336,11443
+src/sprites/enemy/Eyes/boss/02VenomMaw.png,240,240,9043
+src/sprites/enemy/Eyes/boss/03CaveBasilisk.png,360,200,9118
+src/sprites/enemy/Eyes/eyewarlockprojectile.png,96,32,399
+src/sprites/enemy/Gnolls/01DustHyena.png,192,192,3003
+src/sprites/enemy/Gnolls/02GnollArcher.png,288,224,8038
+src/sprites/enemy/Gnolls/03ShieldGnoll.png,192,256,7188
+src/sprites/enemy/Gnolls/04WastelandWarrior.png,256,224,7527
+src/sprites/enemy/Gnolls/05BloodscentAssassin.png,192,256,6324
+src/sprites/enemy/Gnolls/06GnollBerserker.png,256,256,8640
+src/sprites/enemy/Gnolls/07CackleShaman.png,416,256,11156
+src/sprites/enemy/Gnolls/08PackChief.png,352,256,11727
+src/sprites/enemy/Gnolls/bite.png,64,16,297
+src/sprites/enemy/Gnolls/boss/01Dunefang.png,256,160,9685
+src/sprites/enemy/Gnolls/boss/02Bloodtail.png,280,200,11989
+src/sprites/enemy/Gnolls/boss/03WastelandPiper.png,384,288,17938
+src/sprites/enemy/Gnolls/boss/Dunefangprojectile.png,128,32,321
+src/sprites/enemy/Gnolls/CackleShamanprojectile.png,64,16,236
+src/sprites/enemy/Gnolls/cursedoll.png,64,16,599
+src/sprites/enemy/Gnolls/GnollArcherArrow.png,128,32,248
+src/sprites/enemy/Gnolls/PackChiefskill.png,192,32,295
+src/sprites/enemy/Lizard/01CanyonRaptor.png,280,280,7740
+src/sprites/enemy/Lizard/02AxeLizard.png,256,192,5381
+src/sprites/enemy/Lizard/03LizardHunter.png,352,224,8651
+src/sprites/enemy/Lizard/04Firebreather.png,288,224,8093
+src/sprites/enemy/Lizard/05LizardGuard.png,256,224,7461
+src/sprites/enemy/Lizard/06LizardBrute.png,768,192,13217
+src/sprites/enemy/Lizard/07LizardShaman.png,320,256,12045
+src/sprites/enemy/Lizard/08GreatswordRider.png,440,320,16451
+src/sprites/enemy/Lizard/09CrimsonRaptor.png,280,280,9717
+src/sprites/enemy/Lizard/10LizardWarlord.png,704,224,16370
+src/sprites/enemy/Lizard/boss/01DragonkinShaman.png,640,256,12204
+src/sprites/enemy/Lizard/boss/02SpineTyrant.png,240,200,12633
+src/sprites/enemy/Lizard/boss/03RazorscaleElder.png,224,160,12071
+src/sprites/enemy/Lizard/boss/03RazorscaleElderProjectile.png,64,16,2958
+src/sprites/enemy/Lizard/boss/DragonkinShamanprojectile.png,288,32,449
+src/sprites/enemy/Lizard/FirebreatherFire.png,224,32,527
+src/sprites/enemy/Lizard/LizardHunterSpear.png,16,16,150
+src/sprites/enemy/Lizard/LizardShamanprojectile.png,192,32,275
+src/sprites/enemy/Orcs/boss/MiniOrcPriest.png,288,352,14536
+src/sprites/enemy/Orcs/boss/MiniOrcPriest_port.png,11,11,359
+src/sprites/enemy/Orcs/boss/MiniOrcPriest_port_first.png,11,11,158
+src/sprites/enemy/Orcs/boss/MiniOrcShaman.png,224,256,6969
+src/sprites/enemy/Orcs/boss/MiniOrcShaman_port.png,11,11,371
+src/sprites/enemy/Orcs/boss/MiniOrcWerewolf.png,480,440,15405
+src/sprites/enemy/Orcs/boss/MiniOrcWerewolf_port.png,11,11,330
+src/sprites/enemy/Orcs/boss/Wolf.png,224,256,4051
+src/sprites/enemy/Orcs/MiniGoblin.png,192,192,2886
+src/sprites/enemy/Orcs/MiniGoblin_port.png,11,11,236
+src/sprites/enemy/Orcs/MiniGoblinThief.png,192,224,3503
+src/sprites/enemy/Orcs/MiniGoblinThief_port.png,11,11,287
+src/sprites/enemy/Orcs/MiniOrc.png,192,192,4268
+src/sprites/enemy/Orcs/MiniOrc_port.png,11,11,271
+src/sprites/enemy/Orcs/MiniOrcAxeThrower.png,192,224,4693
+src/sprites/enemy/Orcs/MiniOrcAxeThrower_port.png,11,11,308
+src/sprites/enemy/Orcs/MiniOrcBerserker.png,192,288,7461
+src/sprites/enemy/Orcs/MiniOrcBerserker_port.png,11,11,353
+src/sprites/enemy/Orcs/MiniOrcVeteran.png,192,192,5281
+src/sprites/enemy/Orcs/MiniOrcVeteran_port.png,11,11,386
+src/sprites/enemy/Orcs/MiniOrcWarChief.png,192,256,6996
+src/sprites/enemy/Orcs/MiniOrcWarChief_port.png,11,11,361
+src/sprites/enemy/Orcs/MiniOrcWarrior.png,192,224,5837
+src/sprites/enemy/Orcs/MiniOrcWarrior_port.png,11,11,336
+src/sprites/enemy/Orcs/MiniThrowingAxe.png,64,16,405
+src/sprites/enemy/Orcs/MiniThrowingAxe_S.png,64,16,422
+src/sprites/enemy/Orcs/MiniWargRider.png,192,192,6400
+src/sprites/enemy/Orcs/MiniWargRider_port.png,11,11,351
+src/sprites/enemy/Orcs/MiniWolfRider.png,192,192,5377
+src/sprites/enemy/Orcs/MiniWolfRider_port.png,11,11,334
+src/sprites/enemy/Star Wanderers/01Space Assassin.png,352,224,8233
+src/sprites/enemy/Star Wanderers/01Space AssassinProjectile.png,128,64,522
+src/sprites/enemy/Star Wanderers/02Space Guardian.png,384,224,9701
+src/sprites/enemy/Star Wanderers/03Space Hunter.png,544,224,7649
+src/sprites/enemy/Star Wanderers/03Space HunterProjectile.png,96,64,239
+src/sprites/enemy/Star Wanderers/03Space HunterSkill.png,128,64,346
+src/sprites/enemy/Star Wanderers/04Space Knight.png,256,224,6499
+src/sprites/enemy/Star Wanderers/05Space Cavalry.png,288,192,10598
+src/sprites/enemy/Star Wanderers/06Space Wizard.png,352,224,9008
+src/sprites/enemy/Star Wanderers/06Space WizardProjectile.png,128,64,375
+src/sprites/enemy/Star Wanderers/07Crescent Raider.png,320,256,10833
+src/sprites/enemy/Star Wanderers/08Crystal Guard.png,256,224,6296
+src/sprites/enemy/Star Wanderers/09Starlight Paladin.png,416,256,10589
+src/sprites/enemy/Star Wanderers/09Starlight PaladinProjectile.png,128,64,474
+src/sprites/enemy/Star Wanderers/10Star Priestess.png,320,224,8002
+src/sprites/enemy/Star Wanderers/10Star PriestessProjectile.png,224,32,559
+src/sprites/enemy/Star Wanderers/boss/01Twin Star Lords.png,224,160,9181
+src/sprites/enemy/Star Wanderers/boss/01Twin Star Lords_2.png,224,160,9182
+src/sprites/enemy/Star Wanderers/boss/02Star Judge.png,280,200,14158
+src/sprites/enemy/Star Wanderers/boss/02Star JudgeProjectile.png,48,16,2969
+src/sprites/enemy/Star Wanderers/boss/03Cosmic Sovereign.png,384,288,25184
+src/sprites/enemy/Star Wanderers/boss/03Cosmic SovereignProjectile.png,176,22,3509
+src/sprites/enemy/Star Wanderers/boss/03Cosmic SovereignSkill.png,336,48,4120
+src/sprites/icons/archer.png,32,32,505
+src/sprites/icons/archer_tooltip.png,10,10,160
+src/sprites/icons/battlefieldicons/alerticon.png,12,14,281
+src/sprites/icons/battlefieldicons/battle.png,16,16,428
+src/sprites/icons/battlefieldicons/battle_small.png,11,11,219
+src/sprites/icons/battlefieldicons/boss.png,16,16,285
+src/sprites/icons/battlefieldicons/boss_small.png,11,11,255
+src/sprites/icons/battlefieldicons/bossicon.png,16,16,282
+src/sprites/icons/battlefieldicons/heart.png,9,8,197
+src/sprites/icons/battlefieldicons/star.png,22,24,295
+src/sprites/icons/battlereadyicon/battleclock01.png,23,23,397
+src/sprites/icons/battlereadyicon/battleclock02.png,23,23,401
+src/sprites/icons/duelist.png,32,32,506
+src/sprites/icons/duelist_tooltip.png,10,10,130
+src/sprites/icons/horse.png,36,36,552
+src/sprites/icons/horse_tooltip.png,10,10,129
+src/sprites/icons/imprinticons/00locked.png,32,32,131
+src/sprites/icons/imprinticons/01Amplify.png,32,32,677
+src/sprites/icons/imprinticons/01Brace.png,32,32,609
+src/sprites/icons/imprinticons/01Diffusion.png,32,32,424
+src/sprites/icons/imprinticons/01Fortify.png,32,32,1266
+src/sprites/icons/imprinticons/01Overdrive.png,32,32,579
+src/sprites/icons/imprinticons/01Pierce.png,32,32,1254
+src/sprites/icons/imprinticons/01Relentless.png,32,32,564
+src/sprites/icons/imprinticons/01Volley.png,32,32,595
+src/sprites/icons/imprinticons/02Bash.png,32,32,460
+src/sprites/icons/imprinticons/02Blind.png,32,32,662
+src/sprites/icons/imprinticons/02Block.png,32,32,681
+src/sprites/icons/imprinticons/02Knockback.png,32,32,627
+src/sprites/icons/imprinticons/02Lifesteal.png,32,32,1208
+src/sprites/icons/imprinticons/02Poison.png,32,32,679
+src/sprites/icons/imprinticons/03Chain.png,32,32,536
+src/sprites/icons/imprinticons/03Chill.png,32,32,647
+src/sprites/icons/imprinticons/03Enlarge.png,32,32,654
+src/sprites/icons/imprinticons/03Execute.png,32,32,598
+src/sprites/icons/imprinticons/03Fear.png,32,32,800
+src/sprites/icons/imprinticons/03SelfDestruct.png,32,32,1315
+src/sprites/icons/imprinticons/04Earthquake.png,32,32,692
+src/sprites/icons/imprinticons/04Meteor.png,32,32,604
+src/sprites/icons/imprinticons/04PantherFury.png,32,32,537
+src/sprites/icons/imprinticons/04Revival.png,32,32,1280
+src/sprites/icons/imprinticons/04Rewind.png,32,32,558
+src/sprites/icons/imprinticons/04ShadowClone.png,32,32,446
+src/sprites/icons/imprinticons/04SoulSplit.png,32,32,664
+src/sprites/icons/imprinticons/05ColossusDescent.png,32,32,597
+src/sprites/icons/imprinticons/05Majesty.png,32,32,841
+src/sprites/icons/imprinticons/05Overlord.png,32,32,649
+src/sprites/icons/imprinticons/05Ruin.png,32,32,705
+src/sprites/icons/imprinticons/05Timeless.png,32,32,793
+src/sprites/icons/imprinticons/05UndyingSoul.png,32,32,746
+src/sprites/icons/imprinticons/47Shrink.png,32,32,667
+src/sprites/icons/imprinticons/Ability_icons3_27.png,32,32,1224
+src/sprites/icons/imprinticons/shortsicons/angry.png,13,13,231
+src/sprites/icons/imprinticons/shortsicons/blindx.png,13,13,270
+src/sprites/icons/imprinticons/shortsicons/blockshield.png,13,13,325
+src/sprites/icons/imprinticons/shortsicons/blood.png,13,13,230
+src/sprites/icons/imprinticons/shortsicons/close.png,13,13,200
+src/sprites/icons/imprinticons/shortsicons/cross.png,13,13,171
+src/sprites/icons/imprinticons/shortsicons/diffusion.png,13,13,334
+src/sprites/icons/imprinticons/shortsicons/dizzy.png,13,13,261
+src/sprites/icons/imprinticons/shortsicons/earthquake.png,13,13,310
+src/sprites/icons/imprinticons/shortsicons/enlarge.png,13,13,293
+src/sprites/icons/imprinticons/shortsicons/execute.png,13,13,261
+src/sprites/icons/imprinticons/shortsicons/explosion.png,13,13,281
+src/sprites/icons/imprinticons/shortsicons/eye.png,13,13,211
+src/sprites/icons/imprinticons/shortsicons/fear.png,13,13,313
+src/sprites/icons/imprinticons/shortsicons/fire.png,13,13,250
+src/sprites/icons/imprinticons/shortsicons/fireskeleton.png,13,13,316
+src/sprites/icons/imprinticons/shortsicons/fist.png,13,13,294
+src/sprites/icons/imprinticons/shortsicons/golem.png,13,13,274
+src/sprites/icons/imprinticons/shortsicons/heart.png,13,13,225
+src/sprites/icons/imprinticons/shortsicons/hit.png,13,13,257
+src/sprites/icons/imprinticons/shortsicons/holy.png,13,13,267
+src/sprites/icons/imprinticons/shortsicons/hourglass.png,13,13,181
+src/sprites/icons/imprinticons/shortsicons/ice.png,13,13,238
+src/sprites/icons/imprinticons/shortsicons/mad.png,13,13,266
+src/sprites/icons/imprinticons/shortsicons/meteor.png,13,13,253
+src/sprites/icons/imprinticons/shortsicons/multihit.png,13,13,255
+src/sprites/icons/imprinticons/shortsicons/multihits.png,13,13,227
+src/sprites/icons/imprinticons/shortsicons/noskill.png,13,13,434
+src/sprites/icons/imprinticons/shortsicons/pantherscratch.png,13,13,188
+src/sprites/icons/imprinticons/shortsicons/pierce.png,13,13,234
+src/sprites/icons/imprinticons/shortsicons/poison.png,13,13,224
+src/sprites/icons/imprinticons/shortsicons/shadowclone.png,13,13,251
+src/sprites/icons/imprinticons/shortsicons/shield.png,13,13,293
+src/sprites/icons/imprinticons/shortsicons/shrink.png,13,13,344
+src/sprites/icons/imprinticons/shortsicons/skillsizeupgrade.png,13,13,323
+src/sprites/icons/imprinticons/shortsicons/soul.png,13,13,224
+src/sprites/icons/imprinticons/shortsicons/stardebuff.png,13,13,320
+src/sprites/icons/imprinticons/shortsicons/swordplus.png,13,13,357
+src/sprites/icons/imprinticons/shortsicons/swordupgrade.png,13,13,339
+src/sprites/icons/imprinticons/shortsicons/teeth.png,13,13,270
+src/sprites/icons/joker.png,32,32,405
+src/sprites/icons/joker_tooltip.png,10,10,173
+src/sprites/icons/mage.png,32,32,548
+src/sprites/icons/mage_tooltip.png,10,10,153
+src/sprites/icons/menu/achievement.png,32,32,532
+src/sprites/icons/menu/bronzemedal.png,16,16,411
+src/sprites/icons/menu/collection.png,32,32,408
+src/sprites/icons/menu/collectionopen.png,32,32,473
+src/sprites/icons/menu/discord.png,32,32,430
+src/sprites/icons/menu/goldmedal.png,16,16,361
+src/sprites/icons/menu/lock.png,32,32,321
+src/sprites/icons/menu/mouseleft.png,16,16,306
+src/sprites/icons/menu/mouseright.png,16,16,309
+src/sprites/icons/menu/mousewheel.png,16,16,305
+src/sprites/icons/menu/originite.png,16,16,310
+src/sprites/icons/menu/originitebak.png,16,16,458
+src/sprites/icons/menu/silvermedal.png,16,16,352
+src/sprites/icons/menu/upgrade/01slotodds.png,32,32,1231
+src/sprites/icons/menu/upgrade/02heart.png,32,32,529
+src/sprites/icons/menu/upgrade/03maxunit.png,32,32,526
+src/sprites/icons/menu/upgrade/04advancedresearch1.png,32,32,1283
+src/sprites/icons/menu/upgrade/05nudge.png,32,32,482
+src/sprites/icons/menu/upgrade/06prephourglass.png,32,32,644
+src/sprites/icons/menu/upgrade/07InterestBonus.png,32,32,1256
+src/sprites/icons/menu/upgrade/08prephourglass2.png,32,32,702
+src/sprites/icons/menu/upgrade/09prephourglass3.png,32,32,663
+src/sprites/icons/menu/upgrade/10maxunit2.png,32,32,556
+src/sprites/icons/menu/upgrade/11maxunit3.png,32,32,555
+src/sprites/icons/menu/upgrade/12noviceshield.png,32,32,576
+src/sprites/icons/menu/upgrade/13startgold.png,32,32,576
+src/sprites/icons/menu/upgrade/14emergencygrant.png,32,32,651
+src/sprites/icons/menu/upgrade/15regenhp.png,32,32,557
+src/sprites/icons/menu/upgrade/16comebackgold.png,32,32,620
+src/sprites/icons/menu/upgrade/17startgold2.png,32,32,586
+src/sprites/icons/menu/upgrade/18heartII.png,32,32,608
+src/sprites/icons/menu/upgrade/19advancedresearch2.png,32,32,730
+src/sprites/icons/menu/upgrade/20advancedresearch3.png,32,32,718
+src/sprites/icons/menu/upgrade/21rareresearch1.png,32,32,633
+src/sprites/icons/menu/upgrade/21rareresearch2.png,32,32,688
+src/sprites/icons/menu/upgrade/21rareresearch3.png,32,32,665
+src/sprites/icons/menu/upgrade/22corereroll.png,32,32,597
+src/sprites/icons/menu/upgrade/23shopreroll.png,32,32,558
+src/sprites/icons/menu/upgrade/24iteminventory.png,32,32,666
+src/sprites/icons/menu/upgrade/25refundbook.png,32,32,671
+src/sprites/icons/menu/upgrade/26iteminventory2.png,32,32,669
+src/sprites/icons/menu/upgrade/27debuffitemresearch.png,32,32,660
+src/sprites/icons/menu/upgrade/28shoppin.png,32,32,538
+src/sprites/icons/menu/upgrade/29firstcorespin.png,32,32,684
+src/sprites/icons/menu/upgrade/30corechoice.png,32,32,720
+src/sprites/icons/menu/upgrade/31merccontract.png,32,32,628
+src/sprites/icons/menu/upgrade/32dormantpower.png,32,32,716
+src/sprites/icons/menu/upgrade/33growthbranch.png,32,32,591
+src/sprites/icons/menu/upgrade/34factionsynergy.png,32,32,576
+src/sprites/icons/menu/upgrade/35legendresearch1.png,32,32,732
+src/sprites/icons/menu/upgrade/35legendresearch2.png,32,32,760
+src/sprites/icons/menu/upgrade/35legendresearch3.png,32,32,770
+src/sprites/icons/menu/upgrade/36fatestone.png,32,32,651
+src/sprites/icons/menu/upgrade/36prismresearch1.png,32,32,700
+src/sprites/icons/menu/upgrade/36prismresearch2.png,32,32,714
+src/sprites/icons/menu/upgrade/36prismresearch3.png,32,32,727
+src/sprites/icons/menu/upgrade/37stonetwin.png,32,32,520
+src/sprites/icons/menu/upgrade/38stonebreeze.png,32,32,416
+src/sprites/icons/menu/upgrade/39stoneomen.png,32,32,422
+src/sprites/icons/menu/upgrade/40stonespecial.png,32,32,543
+src/sprites/icons/menu/upgrade/41stonemastery.png,32,32,518
+src/sprites/icons/menu/upgrade/42stonerift.png,32,32,526
+src/sprites/icons/menu/upgrade/43stoneconstellation.png,32,32,518
+src/sprites/icons/menu/upgrade/44stonesanctum.png,32,32,499
+src/sprites/icons/menu/upgrade/45stonegambit.png,32,32,472
+src/sprites/icons/menu/upgrade/arrow.png,32,32,189
+src/sprites/icons/menu/upgrade/battlespeed.png,32,32,305
+src/sprites/icons/menu/upgrade.png,32,32,569
+src/sprites/icons/randomoption/01attackup.png,18,18,325
+src/sprites/icons/randomoption/02hpup.png,18,18,353
+src/sprites/icons/randomoption/03aspdup.png,18,18,348
+src/sprites/icons/randomoption/04firsthit.png,18,18,365
+src/sprites/icons/randomoption/05lasthit.png,18,18,286
+src/sprites/icons/randomoption/06killhaste.png,16,16,369
+src/sprites/icons/randomoption/07survive.png,18,18,247
+src/sprites/icons/randomoption/08berserk.png,18,18,323
+src/sprites/icons/randomoption/09bloodrage.png,18,18,393
+src/sprites/icons/randomoption/10battlefervor.png,18,18,467
+src/sprites/icons/randomoption/11allydeath.png,18,18,404
+src/sprites/icons/randomoption/12concentrate.png,18,18,410
+src/sprites/icons/randomoption/13jungsu.png,18,18,427
+src/sprites/icons/randomoption/14slotsplus.png,18,18,398
+src/sprites/icons/randomoption/15combatshift.png,16,16,444
+src/sprites/icons/randomoption/16victoryfeast.png,16,16,399
+src/sprites/icons/randomoption/17lonewolf.png,16,16,312
+src/sprites/icons/randomoption/18gold.png,18,18,442
+src/sprites/icons/randomoption/19baseguardian.png,16,16,324
+src/sprites/icons/randomoption/20judgementprep.png,18,18,292
+src/sprites/icons/randomoption/21bossprep.png,18,18,384
+src/sprites/icons/randomoption/22skillmastery.png,16,16,391
+src/sprites/icons/randomoption/23calculatedluck.png,16,16,507
+src/sprites/icons/randomoption/24combatexperience.png,16,16,470
+src/sprites/icons/randomoption/25predatoryinstinct.png,16,16,320
+src/sprites/icons/randomoption/26versatile.png,16,16,388
+src/sprites/icons/randomoption/27opportunitystrikes.png,16,16,360
+src/sprites/icons/randomoption/28rapidstrikes.png,16,16,338
+src/sprites/icons/randomoption/29anchoredstance.png,16,16,338
+src/sprites/icons/randomoption/30chaincasting.png,16,16,447
+src/sprites/icons/randomoption/31bounty.png,16,16,455
+src/sprites/icons/randomoption/32heavyweight.png,16,16,344
+src/sprites/icons/relics icon/core icons/01 Twisted Bell.png,32,32,494
+src/sprites/icons/relics icon/core icons/02 Double Ledger.png,32,32,579
+src/sprites/icons/relics icon/core icons/03 Twin Cherries.png,36,36,663
+src/sprites/icons/relics icon/core icons/04 Ban Stamp.png,36,36,468
+src/sprites/icons/relics icon/core icons/04 Stamp.png,32,32,281
+src/sprites/icons/relics icon/core icons/05 Coin Sack.png,32,32,490
+src/sprites/icons/relics icon/core icons/06 Lucky Nail.png,32,32,316
+src/sprites/icons/relics icon/core icons/07 Revoltail.png,32,32,490
+src/sprites/icons/relics icon/core icons/07 X2.png,38,34,329
+src/sprites/icons/relics icon/core icons/08 Echo Mirror.png,32,32,417
+src/sprites/icons/relics icon/core icons/09 Greedy Tail.png,32,32,483
+src/sprites/icons/relics icon/core icons/09 Triggerchest.png,32,32,542
+src/sprites/icons/relics icon/core icons/10 Merc Contract.png,34,34,590
+src/sprites/icons/relics icon/core icons/11 Nutrient Leaf.png,32,32,458
+src/sprites/icons/relics icon/core icons/11 Wishlamp.png,32,32,489
+src/sprites/icons/relics icon/core icons/12 Old Crown.png,36,36,450
+src/sprites/icons/relics icon/core icons/15 Mirage Goblet.png,32,33,594
+src/sprites/icons/relics icon/core icons/16 Purusa’s Verdict.png,32,32,613
+src/sprites/icons/relics icon/core icons/17 Reverse Shell.png,32,32,511
+src/sprites/icons/relics icon/core icons/19 Oracle’s Sigil.png,32,32,491
+src/sprites/icons/relics icon/core icons/19 Resonoscope.png,32,32,508
+src/sprites/icons/relics icon/core icons/20 Spare Battery.png,32,32,575
+src/sprites/icons/relics icon/core icons/20 Stellar Blessing.png,32,32,488
+src/sprites/icons/relics icon/core icons/25 Joker Seed.png,32,32,386
+src/sprites/icons/relics icon/core icons/26 Torn Note.png,32,32,544
+src/sprites/icons/relics icon/core icons/39 Bloodline Seal.png,32,32,528
+src/sprites/icons/relics icon/core icons/40 Rewind Clock.png,32,32,572
+src/sprites/icons/relics icon/core icons/42 Copycap.png,32,32,529
+src/sprites/icons/relics icon/core icons/44 Echo Lantern.png,33,32,615
+src/sprites/icons/relics icon/core icons/45 Black Note.png,32,32,472
+src/sprites/icons/relics icon/core icons/50 Resonant Anvil.png,32,32,393
+src/sprites/icons/relics icon/core icons/51 Crooked Fang.png,36,36,506
+src/sprites/icons/relics icon/core icons/51 Splintered Torch.png,32,32,529
+src/sprites/icons/relics icon/core icons/55 Rebound Axis.png,32,32,384
+src/sprites/icons/relics icon/core icons/59 Wildcard.png,32,32,334
+src/sprites/icons/relics icon/core icons/64 Entropy Spoon.png,32,32,502
+src/sprites/icons/relics icon/core icons/64 Golden Lever.png,32,32,321
+src/sprites/icons/relics icon/core icons/9 Harvest Flag.png,32,32,490
+src/sprites/icons/relics icon/item icons/00 delete.png,32,32,511
+src/sprites/icons/relics icon/item icons/00 gear.png,32,32,265
+src/sprites/icons/relics icon/item icons/00 reroll.png,32,32,370
+src/sprites/icons/relics icon/item icons/00 upgrade.png,32,32,257
+src/sprites/icons/relics icon/item icons/01 Sturdy Fist.png,32,32,559
+src/sprites/icons/relics icon/item icons/02 Sturdy Shield.png,32,32,352
+src/sprites/icons/relics icon/item icons/03 First Aid.png,32,32,508
+src/sprites/icons/relics icon/item icons/04 Broken Shield.png,32,32,437
+src/sprites/icons/relics icon/item icons/05 Hunter’s Lens.png,32,32,396
+src/sprites/icons/relics icon/item icons/06 Frontline Armor.png,32,32,500
+src/sprites/icons/relics icon/item icons/07 Dust Cloak.png,32,32,576
+src/sprites/icons/relics icon/item icons/08 Cursed Mushroom.png,32,32,534
+src/sprites/icons/relics icon/item icons/09 Vanguard Drum.png,32,32,3047
+src/sprites/icons/relics icon/item icons/10 Ankle Trap.png,32,32,502
+src/sprites/icons/relics icon/item icons/12 Gate Net.png,32,32,488
+src/sprites/icons/relics icon/item icons/14 Oath Helm.png,32,32,561
+src/sprites/icons/relics icon/item icons/15 Scatter Scope.png,32,32,405
+src/sprites/icons/relics icon/item icons/16 Solitary Oath.png,32,32,445
+src/sprites/icons/relics icon/item icons/18 Tense String.png,32,32,378
+src/sprites/icons/relics icon/item icons/20 Command Banner.png,32,32,283
+src/sprites/icons/relics icon/item icons/25 Guardian Blades.png,32,32,421
+src/sprites/icons/relics icon/item icons/29 Wooden Watchtower.png,32,32,2972
+src/sprites/icons/relics icon/item icons/31 Warrior Manual.png,32,32,385
+src/sprites/icons/relics icon/item icons/32 Archer Manual.png,32,32,453
+src/sprites/icons/relics icon/item icons/33 Spearman Manual.png,32,32,397
+src/sprites/icons/relics icon/item icons/34 Mage Manual.png,32,32,450
+src/sprites/icons/relics icon/item icons/35 Cavalry Manual.png,32,32,484
+src/sprites/icons/relics icon/item icons/36 Duelist Manual.png,32,32,434
+src/sprites/icons/relics icon/item icons/37 Shield Manual.png,32,32,528
+src/sprites/icons/relics icon/item icons/38 Rapid Fire Manual.png,32,32,625
+src/sprites/icons/relics icon/item icons/44 Necklace of Unity.png,32,32,558
+src/sprites/icons/relics icon/item icons/49 Rockfall.png,32,32,525
+src/sprites/icons/relics icon/item icons/50 Escape Cloak.png,32,32,531
+src/sprites/icons/relics icon/item icons/51 Decoy Dummy.png,32,32,3033
+src/sprites/icons/relics icon/item icons/52 Branching Bloom.png,32,32,489
+src/sprites/icons/relics icon/item icons/53 Hunting Mask.png,32,32,631
+src/sprites/icons/relics icon/item icons/54 Guardian Golem.png,32,32,489
+src/sprites/icons/relics icon/item icons/55 Pursuit Wedge.png,32,32,630
+src/sprites/icons/relics icon/item icons/56 Spitecap.png,32,32,608
+src/sprites/icons/relics icon/item icons/57 Crossfire Flare.png,32,32,623
+src/sprites/icons/relics icon/item icons/58 Eye of Confusion.png,32,32,455
+src/sprites/icons/relics icon/item icons/59 Antidote Fruit.png,32,32,473
+src/sprites/icons/relics icon/item icons/60 Retaliation Sigil.png,32,32,456
+src/sprites/icons/relics icon/item icons/d2.png,32,32,391
+src/sprites/icons/relics icon/item icons/d3.png,32,32,521
+src/sprites/icons/relics icon/item icons/d4.png,32,32,488
+src/sprites/icons/skills/01GuardStance.png,32,32,574
+src/sprites/icons/skills/02CounterStance.png,32,32,597
+src/sprites/icons/skills/03BladeWave.png,32,32,420
+src/sprites/icons/skills/04StormBlade.png,32,32,612
+src/sprites/icons/skills/05Multishot.png,32,32,509
+src/sprites/icons/skills/06TripleShot.png,32,32,448
+src/sprites/icons/skills/07PrecisionShot.png,32,32,447
+src/sprites/icons/skills/08Headshot.png,32,32,453
+src/sprites/icons/skills/09DownStrike.png,32,32,447
+src/sprites/icons/skills/100GuardianSwordfall.png,32,32,612
+src/sprites/icons/skills/101GrailSwordfall.png,32,32,656
+src/sprites/icons/skills/102CelestialRescue.png,32,32,655
+src/sprites/icons/skills/103CelestialRescue.png,32,32,481
+src/sprites/icons/skills/104ChainSnipe.png,32,32,547
+src/sprites/icons/skills/105EclipseSnipe.png,32,32,743
+src/sprites/icons/skills/106RiftArsenal.png,30,30,506
+src/sprites/icons/skills/107CelestialArsenal.png,32,32,702
+src/sprites/icons/skills/108LanceExtension.png,32,32,633
+src/sprites/icons/skills/109PeerlessSpear.png,32,32,651
+src/sprites/icons/skills/10ImpactStrike.png,32,32,554
+src/sprites/icons/skills/110SpellEcho.png,32,32,637
+src/sprites/icons/skills/111PropheticMirror.png,32,32,745
+src/sprites/icons/skills/112CalloftheDead.png,32,32,670
+src/sprites/icons/skills/113LegionOfTheDead.png,32,32,679
+src/sprites/icons/skills/114BramblePrison.png,32,32,712
+src/sprites/icons/skills/115ElderwoodPrison.png,32,32,661
+src/sprites/icons/skills/116DimensionalDuel.png,32,32,685
+src/sprites/icons/skills/117TemporalAssault.png,32,32,561
+src/sprites/icons/skills/118HeavensJudgment.png,32,32,570
+src/sprites/icons/skills/119AbsoluteJudgment.png,32,32,595
+src/sprites/icons/skills/11BleedingStrike.png,32,32,581
+src/sprites/icons/skills/120RupturingDescent.png,32,32,718
+src/sprites/icons/skills/121DoomResonance.png,32,32,774
+src/sprites/icons/skills/12SavageSlash.png,32,32,534
+src/sprites/icons/skills/13BloodPrice.png,32,32,455
+src/sprites/icons/skills/13GroundSlam.png,32,32,616
+src/sprites/icons/skills/14CrushingSlam.png,32,32,549
+src/sprites/icons/skills/15ArcaneOrb.png,32,32,420
+src/sprites/icons/skills/15BloodRampage.png,32,32,722
+src/sprites/icons/skills/16ArcaneCore.png,32,32,720
+src/sprites/icons/skills/17HealingField.png,32,32,631
+src/sprites/icons/skills/18HealingSanctuary.png,32,32,449
+src/sprites/icons/skills/19BloodSurge.png,32,32,569
+src/sprites/icons/skills/20EmperorsRoar.png,32,32,738
+src/sprites/icons/skills/21PiercingThrust.png,32,32,479
+src/sprites/icons/skills/22EarthCrush.png,32,32,496
+src/sprites/icons/skills/23GuardThrust.png,32,32,523
+src/sprites/icons/skills/24HeavyKick.png,32,32,619
+src/sprites/icons/skills/25Guardblade.png,32,32,538
+src/sprites/icons/skills/26BeastKick.png,32,32,349
+src/sprites/icons/skills/27ShackleArrow.png,32,32,1208
+src/sprites/icons/skills/28PiercingBullet.png,32,32,646
+src/sprites/icons/skills/29GaleBow.png,32,32,1250
+src/sprites/icons/skills/30DeadlyBullet.png,32,32,452
+src/sprites/icons/skills/31GuardianChallenge.png,32,32,682
+src/sprites/icons/skills/32BattleCry.png,32,32,556
+src/sprites/icons/skills/33IronwallChallenge.png,32,32,652
+src/sprites/icons/skills/34BerserkAxe.png,32,32,503
+src/sprites/icons/skills/35AssaultGuard.png,32,32,322
+src/sprites/icons/skills/36AssaultStrike.png,32,32,421
+src/sprites/icons/skills/37AssaultBarrier.png,32,32,673
+src/sprites/icons/skills/38FrenziedAssault.png,32,32,460
+src/sprites/icons/skills/39BindingBolt.png,32,32,575
+src/sprites/icons/skills/40SavageTusk.png,32,32,619
+src/sprites/icons/skills/41BindingCircle.png,32,32,774
+src/sprites/icons/skills/42MountainRoar.png,32,32,628
+src/sprites/icons/skills/43LifeSap.png,32,32,564
+src/sprites/icons/skills/44VoltSaw.png,32,32,556
+src/sprites/icons/skills/45RootDrain.png,32,32,633
+src/sprites/icons/skills/46OverloadDischarge.png,32,32,928
+src/sprites/icons/skills/47TwoFacedCard.png,32,32,564
+src/sprites/icons/skills/48Charm.png,32,32,628
+src/sprites/icons/skills/49FerretCourier.png,32,32,621
+src/sprites/icons/skills/50MassCharm.png,32,32,828
+src/sprites/icons/skills/51FerretExpress.png,32,32,636
+src/sprites/icons/skills/52HolyBarrier.png,32,32,620
+src/sprites/icons/skills/53FlameEruption.png,32,32,676
+src/sprites/icons/skills/54GuardianOath.png,32,32,691
+src/sprites/icons/skills/55CombustionBlast.png,32,32,749
+src/sprites/icons/skills/56SuppressiveRound.png,32,32,572
+src/sprites/icons/skills/57TimedKeg.png,32,32,1241
+src/sprites/icons/skills/58ShatterCannon.png,32,32,628
+src/sprites/icons/skills/59ConcussionBomb.png,32,32,646
+src/sprites/icons/skills/60BurstThrust.png,32,32,791
+src/sprites/icons/skills/61CollisionDrive.png,32,32,449
+src/sprites/icons/skills/62CrushingCounter.png,32,32,695
+src/sprites/icons/skills/63SpearCyclone.png,32,32,719
+src/sprites/icons/skills/64CleansingWave.png,32,32,722
+src/sprites/icons/skills/65FlameCall.png,32,32,699
+src/sprites/icons/skills/66TripleTide.png,32,32,592
+src/sprites/icons/skills/67FlameDescent.png,32,32,764
+src/sprites/icons/skills/68CallOfThePlains.png,32,32,602
+src/sprites/icons/skills/69VictorySignal.png,32,32,666
+src/sprites/icons/skills/70WildStampede.png,32,32,807
+src/sprites/icons/skills/71WingsOfVictory.png,32,32,591
+src/sprites/icons/skills/72CondemningStrike.png,32,32,588
+src/sprites/icons/skills/73FrostSpike.png,32,32,497
+src/sprites/icons/skills/74JudgmentsRadiance.png,32,32,789
+src/sprites/icons/skills/75GlacialShatter.png,32,32,740
+src/sprites/icons/skills/76SpellbladeVortex.png,32,32,556
+src/sprites/icons/skills/77ArcaneCollapse.png,32,32,768
+src/sprites/icons/skills/78ShadowHarvest.png,32,32,701
+src/sprites/icons/skills/79RuinTremor.png,32,32,653
+src/sprites/icons/skills/80ArrowRain.png,32,32,576
+src/sprites/icons/skills/81TwilightBarrage.png,32,32,671
+src/sprites/icons/skills/82HollowArrow.png,32,32,546
+src/sprites/icons/skills/83DevouringArrow.png,32,32,752
+src/sprites/icons/skills/84ChainSpear.png,32,32,3337
+src/sprites/icons/skills/85ExecutionChain.png,32,32,761
+src/sprites/icons/skills/86SpectralRush.png,32,32,3402
+src/sprites/icons/skills/87SpectralReturn.png,32,32,3393
+src/sprites/icons/skills/88AbyssalRay.png,32,32,315
+src/sprites/icons/skills/89ArcaneUnleashing.png,32,32,353
+src/sprites/icons/skills/90LifeSiphon.png,32,32,724
+src/sprites/icons/skills/90SoulFeast.png,32,32,3418
+src/sprites/icons/skills/91NightmareFlurry.png,32,32,598
+src/sprites/icons/skills/92CataclysmFlurry.png,32,32,741
+src/sprites/icons/skills/93MoonlitMemory.png,32,32,476
+src/sprites/icons/skills/94CrescentRequital.png,32,32,519
+src/sprites/icons/skills/95ShrinkRay.png,32,32,913
+src/sprites/icons/skills/96Titan’sGaze.png,32,32,531
+src/sprites/icons/skills/97Reaper’sDance.png,32,32,655
+src/sprites/icons/skills/97SoulSeverance.png,32,32,759
+src/sprites/icons/skills/98FlashSlash.png,32,32,566
+src/sprites/icons/skills/99FlashBarrage.png,32,32,669
+src/sprites/icons/sloticons/absorblock.png,14,14,195
+src/sprites/icons/sloticons/absorbunlock.png,14,14,199
+src/sprites/icons/sloticons/abyss.png,18,18,387
+src/sprites/icons/sloticons/arcane.png,18,18,405
+src/sprites/icons/sloticons/book.png,36,32,307
+src/sprites/icons/sloticons/bookshadow.png,36,32,154
+src/sprites/icons/sloticons/celestial.png,18,18,307
+src/sprites/icons/sloticons/empire.png,18,18,272
+src/sprites/icons/sloticons/engineer.png,18,18,273
+src/sprites/icons/sloticons/forest.png,18,18,313
+src/sprites/icons/sloticons/holy.png,18,18,360
+src/sprites/icons/sloticons/outlaw.png,18,18,278
+src/sprites/icons/sloticons/slotlock.png,8,9,120
+src/sprites/icons/sloticons/statinfo.png,14,14,149
+src/sprites/icons/sloticons/tribe.png,18,18,247
+src/sprites/icons/sloticons/undead.png,18,18,351
+src/sprites/icons/spear.png,36,36,476
+src/sprites/icons/spear_tooltip.png,10,10,190
+src/sprites/icons/stoneicon/000lock.png,16,16,311
+src/sprites/icons/stoneicon/000lockanimation.png,64,16,427
+src/sprites/icons/stoneicon/00Agrade.png,16,16,190
+src/sprites/icons/stoneicon/00Bgrade.png,16,16,201
+src/sprites/icons/stoneicon/00Cgrade.png,16,16,201
+src/sprites/icons/stoneicon/01Origin Stone.png,16,16,410
+src/sprites/icons/stoneicon/02Breeze Stone.png,16,16,321
+src/sprites/icons/stoneicon/03Twin Stone.png,16,16,325
+src/sprites/icons/stoneicon/04 Ban Stamp.png,36,36,468
+src/sprites/icons/stoneicon/04Omen Stone.png,16,16,321
+src/sprites/icons/stoneicon/08Milestone.png,16,16,339
+src/sprites/icons/stoneicon/09Rift Stone.png,16,16,310
+src/sprites/icons/stoneicon/10Special Stone.png,16,16,294
+src/sprites/icons/stoneicon/11Mastery Stone.png,16,16,300
+src/sprites/icons/stoneicon/14Blessing Stone.png,16,16,321
+src/sprites/icons/stoneicon/15Gambit Stone.png,16,16,307
+src/sprites/icons/stoneicon/16Constellation Stone.png,16,16,362
+src/sprites/icons/stoneicon/17Sanctum Stone.png,16,16,338
+src/sprites/icons/stoneicon/20Zenith Stone.png,16,16,298
+src/sprites/icons/stoneicon/21Eclipse Stone.png,16,16,349
+src/sprites/icons/stoneicon/22Galaxy Stone.png,16,16,320
+src/sprites/icons/stoneicon/half_moon.png,24,24,353
+src/sprites/icons/stoneicon/heart.png,24,24,290
+src/sprites/icons/stoneicon/raindrop.png,24,24,278
+src/sprites/icons/stoneicon/stone_example.png,160,16,974
+src/sprites/icons/tooltip/aspd.png,10,10,133
+src/sprites/icons/tooltip/aspd_class.png,10,10,108
+src/sprites/icons/tooltip/atk.png,10,10,139
+src/sprites/icons/tooltip/atk_class.png,10,10,132
+src/sprites/icons/tooltip/dist.png,10,10,181
+src/sprites/icons/tooltip/dist_class.png,10,10,155
+src/sprites/icons/tooltip/essence.png,10,12,206
+src/sprites/icons/tooltip/fire.png,10,10,148
+src/sprites/icons/tooltip/gold.png,10,10,238
+src/sprites/icons/tooltip/hp.png,10,10,154
+src/sprites/icons/tooltip/hp_class.png,10,10,126
+src/sprites/icons/tooltip/mouserightsmall.png,10,12,172
+src/sprites/icons/tooltip/mouserleftsmall.png,10,12,160
+src/sprites/icons/tooltip/pwr.png,11,10,159
+src/sprites/icons/tooltip/slot/diagonal.png,13,13,131
+src/sprites/icons/tooltip/slot/middle.png,13,13,121
+src/sprites/icons/tooltip/spd.png,11,10,184
+src/sprites/icons/warrior.png,32,32,527
+src/sprites/icons/warrior_tooltip.png,10,10,116
+src/sprites/mainmenu/arrow.png,28,24,225
+src/sprites/mainmenu/backbutton.png,44,48,360
+src/sprites/mainmenu/logo.png,160,60,2155
+src/sprites/mainmenu/logo_korean.png,160,120,6787
+src/sprites/mainmenu/mainbackground/goblins-sheet.png,1494,286,79561
+src/sprites/mainmenu/mainbackground/main-sheet.png,4671,286,228868
+src/sprites/mainmenu/mainbackground/main.png,519,286,60352
+src/sprites/mainmenu/mainbackground/mainlayers1.png,519,286,1704
+src/sprites/mainmenu/mainbackground/mainlayers2.png,519,286,1618
+src/sprites/mainmenu/mainbackground/mainmenu01.png,460,184,2809
+src/sprites/mainmenu/mainbackground/mainmenu02.png,460,184,960
+src/sprites/mainmenu/mainbackground/mainmenu03.png,460,184,1240
+src/sprites/mainmenu/mainbackground/mainmenu04.png,460,184,1305
+src/sprites/mainmenu/mainbackground/units-sheet.png,3177,286,134695
+src/sprites/mainmenu/menubutton.png,88,40,341
+src/sprites/mainmenu/menubuttonbackground.png,150,133,1036
+src/sprites/mainmenu/OptimaArchlogoblack.png,1024,1024,35144
+src/sprites/mainmenu/optionbutton.png,62,15,451
+src/sprites/mainmenu/playbutton.png,45,12,383
+src/sprites/mainmenu/QuestionmarkStage.png,22,24,226
+src/sprites/mainmenu/quitbutton.png,42,13,329
+src/sprites/mainmenu/stage1.png,91,220,2282
+src/sprites/mainmenu/stage1title.png,100,24,471
+src/sprites/mainmenu/stage2.png,91,220,1568
+src/sprites/mainmenu/stage2title.png,108,24,500
+src/sprites/mainmenu/stage3.png,91,220,1965
+src/sprites/mainmenu/stage3title.png,108,24,502
+src/sprites/mainmenu/stage4.png,91,220,1968
+src/sprites/mainmenu/stage4title.png,108,24,486
+src/sprites/mainmenu/stage5.png,91,220,2053
+src/sprites/mainmenu/stage5title.png,108,24,499
+src/sprites/mainmenu/stage6.png,91,220,1697
+src/sprites/mainmenu/stage6title.png,108,24,492
+src/sprites/mainmenu/stagecard.png,91,220,855
+src/sprites/mainmenu/stagecard_easy.png,98,82,1260
+src/sprites/mainmenu/stagecard_hard.png,98,82,1498
+src/sprites/mainmenu/stagecard_normal.png,98,82,1300
+src/sprites/mainmenu/stagetitle.png,85,24,442
+src/sprites/mainmenu/stagewindow.png,640,360,3872
+src/sprites/mainmenu/stagewindowrope.png,640,360,1332
+src/sprites/mainmenu/titlebackground.png,94,40,465
+src/sprites/mainmenu/tutorial.png,128,24,509
+src/sprites/mainmenu/upgradebutton.png,14,15,201
+src/sprites/mainmenu/upgradetitle.png,118,24,513
+src/sprites/projectile/abyssarrow.png,128,32,216
+src/sprites/projectile/abyssarrow2.png,192,32,424
+src/sprites/projectile/antlerspell.png,160,64,322
+src/sprites/projectile/ArcaneCore.png,80,48,548
+src/sprites/projectile/ArcaneOrb.png,80,32,334
+src/sprites/projectile/AssaultBarrierattack.png,128,32,606
+src/sprites/projectile/BindingBoltAttack.png,128,32,645
+src/sprites/projectile/BindingCircleAttack.png,128,32,899
+src/sprites/projectile/BindingCircleAttack1.png,128,32,767
+src/sprites/projectile/bladewave.png,64,16,266
+src/sprites/projectile/bladewave_not.png,64,16,200
+src/sprites/projectile/bladewavefrankenstein.png,64,16,171
+src/sprites/projectile/bladewaves.png,128,32,374
+src/sprites/projectile/bonegreenspell.png,32,16,201
+src/sprites/projectile/bonespell.png,64,16,343
+src/sprites/projectile/bullet.png,32,16,127
+src/sprites/projectile/darklordspell.png,64,16,405
+src/sprites/projectile/DownStrikeprojectile.png,96,32,303
+src/sprites/projectile/EarthCrushProjectile.png,288,32,624
+src/sprites/projectile/elfarrow.png,32,16,190
+src/sprites/projectile/elfarrowShackle.png,32,16,258
+src/sprites/projectile/elfknightsword.png,128,64,298
+src/sprites/projectile/elfmagic.png,32,16,171
+src/sprites/projectile/elfpurplearrow.png,128,32,253
+src/sprites/projectile/explosioneffect.png,512,64,3110
+src/sprites/projectile/explosioneffect2.png,1040,48,6220
+src/sprites/projectile/fireback.png,192,40,1659
+src/sprites/projectile/FireCone.png,320,32,1219
+src/sprites/projectile/healerprojectile.png,80,16,248
+src/sprites/projectile/humanarrow.png,32,16,190
+src/sprites/projectile/humanarrow3.png,32,16,191
+src/sprites/projectile/humanarrowheadshot.png,32,16,214
+src/sprites/projectile/humanarrowmultishot.png,32,16,227
+src/sprites/projectile/humanarrowprecisionshot.png,32,16,197
+src/sprites/projectile/humanarrowtripleshot3.png,32,16,227
+src/sprites/projectile/humanmagic.png,32,16,171
+src/sprites/projectile/lunaspell.png,128,64,284
+src/sprites/projectile/meteorfall.png,1152,192,2902
+src/sprites/projectile/meteorground.png,960,192,2265
+src/sprites/projectile/OrcArchShamanattack - 복사본.png,80,16,333
+src/sprites/projectile/OrcArchShamanattack.png,80,16,333
+src/sprites/projectile/OrcArchShamanSkill.png,80,48,759
+src/sprites/projectile/pierceprojectile.png,32,16,118
+src/sprites/projectile/PiercingThrustProjectile.png,64,16,256
+src/sprites/projectile/shadowsorcererattack.png,96,64,383
+src/sprites/projectile/shadowsorcererattack2.png,96,64,419
+src/sprites/projectile/siu.png,64,16,329
+src/sprites/projectile/spawnedfdffect.png,256,32,1103
+src/sprites/projectile/stormblade.png,80,20,443
+src/sprites/projectile/VikingAxe.png,64,16,318
+src/sprites/projectile/woodwardenattack.png,352,32,658
+src/sprites/units/ArcherMan/01Normal/01NormalArcherMan.png,352,224,6043
+src/sprites/units/ArcherMan/01Normal/01NormalArcherMan_port.png,11,11,306
+src/sprites/units/ArcherMan/01Normal/02NormalArcherMan_01.png,320,224,5544
+src/sprites/units/ArcherMan/01Normal/02NormalArcherMan_01_port.png,11,11,269
+src/sprites/units/ArcherMan/01Normal/02NormalArcherMan_02.png,320,224,6270
+src/sprites/units/ArcherMan/01Normal/02NormalArcherMan_02_port.png,11,11,286
+src/sprites/units/ArcherMan/01Normal/03NormalArcherMan_01_01.png,352,224,6331
+src/sprites/units/ArcherMan/01Normal/03NormalArcherMan_01_01_port.png,11,11,311
+src/sprites/units/ArcherMan/01Normal/03NormalArcherMan_02_01.png,288,224,5308
+src/sprites/units/ArcherMan/01Normal/03NormalArcherMan_02_01_port.png,11,11,273
+src/sprites/units/ArcherMan/02Advance/01AdvanceArcherMan.png,352,224,6289
+src/sprites/units/ArcherMan/02Advance/01AdvanceArcherMan_port.png,11,11,292
+src/sprites/units/ArcherMan/02Advance/02AdvanceArcherMan_01.png,320,224,7271
+src/sprites/units/ArcherMan/02Advance/02AdvanceArcherMan_01_port.png,11,11,280
+src/sprites/units/ArcherMan/02Advance/02AdvanceArcherMan_02.png,224,224,3649
+src/sprites/units/ArcherMan/02Advance/02AdvanceArcherMan_02_port.png,11,11,308
+src/sprites/units/ArcherMan/02Advance/03AdvanceArcherMan_01_01.png,416,224,7760
+src/sprites/units/ArcherMan/02Advance/03AdvanceArcherMan_01_01_port.png,11,11,299
+src/sprites/units/ArcherMan/02Advance/03AdvanceArcherMan_02_01.png,224,224,4067
+src/sprites/units/ArcherMan/02Advance/03AdvanceArcherMan_02_01_port.png,11,11,322
+src/sprites/units/ArcherMan/05Prism/01PrismArcherMan.png,320,128,8180
+src/sprites/units/ArcherMan/05Prism/01PrismArcherMan_port.png,11,11,374
+src/sprites/units/ArcherMan/05Prism/01PrismArcherManProjectile.png,64,16,2829
+src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_01.png,352,160,10702
+src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_01_port.png,11,11,345
+src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_01Projectile.png,64,16,2840
+src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_01Skill.png,32,32,2946
+src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_02.png,256,160,7749
+src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_02_port.png,11,11,347
+src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_02Skill.png,16,16,2863
+src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_01_01.png,440,200,14309
+src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_01_01_port.png,11,11,340
+src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_01_01Skill.png,32,32,2959
+src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_02_01.png,256,160,7590
+src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_02_01_port.png,11,11,330
+src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_02_01Skill.png,16,16,2875
+src/sprites/units/HorseMan/01Normal/01MiniHorseMan.png,256,224,8626
+src/sprites/units/HorseMan/01Normal/01MiniHorseMan_port.png,11,11,321
+src/sprites/units/HorseMan/01Normal/02MiniHorseMan_01.png,256,224,8829
+src/sprites/units/HorseMan/01Normal/02MiniHorseMan_01_port.png,11,11,328
+src/sprites/units/HorseMan/01Normal/02MiniHorseMan_02.png,224,192,6638
+src/sprites/units/HorseMan/01Normal/02MiniHorseMan_02_port.png,11,11,340
+src/sprites/units/HorseMan/01Normal/03MiniHorseMan_01_01.png,224,192,6486
+src/sprites/units/HorseMan/01Normal/03MiniHorseMan_01_01_port.png,11,11,328
+src/sprites/units/HorseMan/01Normal/03MiniHorseMan_02_01.png,224,192,6637
+src/sprites/units/HorseMan/01Normal/03MiniHorseMan_02_01_port.png,11,11,326
+src/sprites/units/HorseMan/02Advance/01AdvanceHorseMan.png,224,192,6208
+src/sprites/units/HorseMan/02Advance/01AdvanceHorseMan_port.png,11,11,348
+src/sprites/units/HorseMan/02Advance/02AdvanceHorseMan_01.png,224,192,7194
+src/sprites/units/HorseMan/02Advance/02AdvanceHorseMan_01_port.png,11,11,326
+src/sprites/units/HorseMan/02Advance/02AdvanceHorseMan_02.png,224,128,5089
+src/sprites/units/HorseMan/02Advance/02AdvanceHorseMan_02_port.png,11,11,337
+src/sprites/units/HorseMan/02Advance/03AdvanceHorseMan_01_01.png,224,224,9791
+src/sprites/units/HorseMan/02Advance/03AdvanceHorseMan_01_01_port.png,11,11,372
+src/sprites/units/HorseMan/02Advance/03AdvanceHorseMan_02_01.png,224,128,5807
+src/sprites/units/HorseMan/02Advance/03AdvanceHorseMan_02_01_port.png,11,11,275
+src/sprites/units/HorseMan/05Prism/01PrismHorseMan.png,224,128,7028
+src/sprites/units/HorseMan/05Prism/01PrismHorseMan_port.png,11,11,326
+src/sprites/units/HorseMan/05Prism/02PrismHorseMan_01.png,224,160,8957
+src/sprites/units/HorseMan/05Prism/02PrismHorseMan_01_port.png,11,11,336
+src/sprites/units/HorseMan/05Prism/02PrismHorseMan_02.png,288,160,10359
+src/sprites/units/HorseMan/05Prism/02PrismHorseMan_02_port.png,11,11,277
+src/sprites/units/HorseMan/05Prism/03PrismHorseMan_01_01.png,224,160,11751
+src/sprites/units/HorseMan/05Prism/03PrismHorseMan_01_01_port.png,11,11,352
+src/sprites/units/HorseMan/05Prism/03PrismHorseMan_02_01.png,288,160,12231
+src/sprites/units/HorseMan/05Prism/03PrismHorseMan_02_01_port.png,11,11,314
+src/sprites/units/Jester/01SpecialJester.png,224,192,7092
+src/sprites/units/Jester/01SpecialJester_port.png,11,11,267
+src/sprites/units/Jester/01SpecialJesterProjectile.png,128,32,3158
+src/sprites/units/Jester/02SpecialJester_01.png,224,192,7457
+src/sprites/units/Jester/02SpecialJester_01_port.png,11,11,342
+src/sprites/units/Jester/02SpecialJester_01Projectile.png,131,32,3248
+src/sprites/units/Jester/02SpecialJester_02.png,224,192,8244
+src/sprites/units/Jester/02SpecialJester_02_Ferret.png,192,128,4850
+src/sprites/units/Jester/02SpecialJester_02_port.png,11,11,358
+src/sprites/units/Jester/03SpecialJester_01_01.png,288,192,11113
+src/sprites/units/Jester/03SpecialJester_01_01_port.png,11,11,398
+src/sprites/units/Jester/03SpecialJester_01_01Projectile.png,80,16,2967
+src/sprites/units/Jester/03SpecialJester_02_01.png,224,192,8872
+src/sprites/units/Jester/03SpecialJester_02_01_Ferret.png,192,128,5218
+src/sprites/units/Jester/03SpecialJester_02_01_port.png,11,11,379
+src/sprites/units/Jester/03SpecialJester_02Projectile.png,80,32,3164
+src/sprites/units/Mage/01Normal/01NormalMage.png,352,256,9147
+src/sprites/units/Mage/01Normal/01NormalMage_port.png,11,11,300
+src/sprites/units/Mage/01Normal/02NormalMage_01.png,352,288,11318
+src/sprites/units/Mage/01Normal/02NormalMage_01_port.png,11,11,302
+src/sprites/units/Mage/01Normal/02NormalMage_02.png,320,224,5272
+src/sprites/units/Mage/01Normal/02NormalMage_02_port.png,11,11,297
+src/sprites/units/Mage/01Normal/03NormalMage_01_01.png,352,224,8588
+src/sprites/units/Mage/01Normal/03NormalMage_01_01_port.png,11,11,304
+src/sprites/units/Mage/01Normal/03NormalMage_02_01.png,352,288,11352
+src/sprites/units/Mage/01Normal/03NormalMage_02_01_port.png,11,11,324
+src/sprites/units/Mage/02Advance/01AdvanceMage.png,288,224,4797
+src/sprites/units/Mage/02Advance/01AdvanceMage_port.png,11,11,280
+src/sprites/units/Mage/02Advance/02AdvanceMage_01.png,352,256,8878
+src/sprites/units/Mage/02Advance/02AdvanceMage_01_port.png,11,11,344
+src/sprites/units/Mage/02Advance/02AdvanceMage_02.png,384,224,7911
+src/sprites/units/Mage/02Advance/02AdvanceMage_02_port.png,11,11,328
+src/sprites/units/Mage/02Advance/03AdvanceMage_01_01.png,352,256,9908
+src/sprites/units/Mage/02Advance/03AdvanceMage_01_01_port.png,11,11,312
+src/sprites/units/Mage/02Advance/03AdvanceMage_02_01.png,384,224,8607
+src/sprites/units/Mage/02Advance/03AdvanceMage_02_01_port.png,11,11,357
+src/sprites/units/Mage/05Prism/01PrismMage.png,224,128,5281
+src/sprites/units/Mage/05Prism/01PrismMage_port.png,11,11,305
+src/sprites/units/Mage/05Prism/01PrismMageProjectile.png,64,32,3050
+src/sprites/units/Mage/05Prism/02PrismMage_01.png,256,160,8530
+src/sprites/units/Mage/05Prism/02PrismMage_01_port.png,11,11,321
+src/sprites/units/Mage/05Prism/02PrismMage_01Projectile.png,64,32,3068
+src/sprites/units/Mage/05Prism/02PrismMage_02.png,256,224,6479
+src/sprites/units/Mage/05Prism/02PrismMage_02_port.png,11,11,288
+src/sprites/units/Mage/05Prism/02PrismMage_02S1.png,288,288,5681
+src/sprites/units/Mage/05Prism/02PrismMage_02S2.png,256,288,5963
+src/sprites/units/Mage/05Prism/02PrismMage_02S3.png,352,288,10110
+src/sprites/units/Mage/05Prism/03PrismMage_01_01.png,320,160,10658
+src/sprites/units/Mage/05Prism/03PrismMage_01_01_port.png,11,11,345
+src/sprites/units/Mage/05Prism/03PrismMage_01_01Projectile.png,64,32,3147
+src/sprites/units/Mage/05Prism/03PrismMage_02_01.png,640,320,23022
+src/sprites/units/Mage/05Prism/03PrismMage_02_01_port.png,11,11,360
+src/sprites/units/Mage/05Prism/03PrismMage_02_01S1.png,384,256,6708
+src/sprites/units/Mage/05Prism/03PrismMage_02_01S2.png,384,320,10162
+src/sprites/units/Mage/05Prism/03PrismMage_02_01S3.png,352,288,10486
+src/sprites/units/PrinceMan/01Normal/01MiniPrinceMan.png,192,192,4801
+src/sprites/units/PrinceMan/01Normal/01MiniPrinceMan_port.png,11,11,322
+src/sprites/units/PrinceMan/01Normal/02MiniPrinceMan_01.png,320,224,6612
+src/sprites/units/PrinceMan/01Normal/02MiniPrinceMan_01_port.png,11,11,307
+src/sprites/units/PrinceMan/01Normal/02MiniPrinceMan_02.png,256,224,5425
+src/sprites/units/PrinceMan/01Normal/02MiniPrinceMan_02_port.png,11,11,317
+src/sprites/units/PrinceMan/01Normal/03MiniPrinceMan_01_01.png,320,224,7489
+src/sprites/units/PrinceMan/01Normal/03MiniPrinceMan_01_01_port.png,11,11,353
+src/sprites/units/PrinceMan/01Normal/03MiniPrinceMan_02_01.png,320,256,9748
+src/sprites/units/PrinceMan/01Normal/03MiniPrinceMan_02_01_port.png,11,11,340
+src/sprites/units/PrinceMan/02Advance/01AdvancePrinceMan.png,352,224,5795
+src/sprites/units/PrinceMan/02Advance/01AdvancePrinceMan_port.png,11,11,279
+src/sprites/units/PrinceMan/02Advance/02AdvancePrinceMan_01.png,192,192,3734
+src/sprites/units/PrinceMan/02Advance/02AdvancePrinceMan_01_port.png,11,11,243
+src/sprites/units/PrinceMan/02Advance/02AdvancePrinceMan_02.png,192,224,4658
+src/sprites/units/PrinceMan/02Advance/02AdvancePrinceMan_02_port.png,11,11,317
+src/sprites/units/PrinceMan/02Advance/03AdvancePrinceMan_01_01.png,256,224,6272
+src/sprites/units/PrinceMan/02Advance/03AdvancePrinceMan_01_01_port.png,11,11,302
+src/sprites/units/PrinceMan/02Advance/03AdvancePrinceMan_02_01.png,352,224,6168
+src/sprites/units/PrinceMan/02Advance/03AdvancePrinceMan_02_01_port.png,11,11,302
+src/sprites/units/PrinceMan/05Prism/01PrismPrinceMan.png,240,200,8084
+src/sprites/units/PrinceMan/05Prism/01PrismPrinceMan_port.png,11,11,275
+src/sprites/units/PrinceMan/05Prism/02PrismPrinceMan_01.png,360,240,13307
+src/sprites/units/PrinceMan/05Prism/02PrismPrinceMan_01_port.png,11,11,346
+src/sprites/units/PrinceMan/05Prism/02PrismPrinceMan_02.png,480,200,14169
+src/sprites/units/PrinceMan/05Prism/02PrismPrinceMan_02_port.png,11,11,329
+src/sprites/units/PrinceMan/05Prism/03PrismPrinceMan_01_01.png,432,240,18854
+src/sprites/units/PrinceMan/05Prism/03PrismPrinceMan_01_01_port.png,11,11,334
+src/sprites/units/PrinceMan/05Prism/03PrismPrinceMan_02_01.png,576,240,20270
+src/sprites/units/PrinceMan/05Prism/03PrismPrinceMan_02_01_port.png,11,11,329
+src/sprites/units/SpearMan/01Normal/01NormalSpearMan.png,224,192,4048
+src/sprites/units/SpearMan/01Normal/01NormalSpearMan_port.png,11,11,297
+src/sprites/units/SpearMan/01Normal/02NormalSpearMan_01.png,192,192,4798
+src/sprites/units/SpearMan/01Normal/02NormalSpearMan_01_port.png,11,11,314
+src/sprites/units/SpearMan/01Normal/02NormalSpearMan_02.png,224,192,5107
+src/sprites/units/SpearMan/01Normal/02NormalSpearMan_02_port.png,11,11,322
+src/sprites/units/SpearMan/01Normal/03NormalSpearMan_01_01.png,192,192,3851
+src/sprites/units/SpearMan/01Normal/03NormalSpearMan_01_01_port.png,11,11,313
+src/sprites/units/SpearMan/01Normal/03NormalSpearMan_02_01.png,192,256,5692
+src/sprites/units/SpearMan/01Normal/03NormalSpearMan_02_01_port.png,11,11,288
+src/sprites/units/SpearMan/02Advance/01AdvanceSpearMan.png,224,192,3855
+src/sprites/units/SpearMan/02Advance/01AdvanceSpearMan_port.png,11,11,310
+src/sprites/units/SpearMan/02Advance/02AdvanceSpearMan_01.png,256,224,5701
+src/sprites/units/SpearMan/02Advance/02AdvanceSpearMan_01_port.png,11,11,336
+src/sprites/units/SpearMan/02Advance/02AdvanceSpearMan_02.png,224,256,6596
+src/sprites/units/SpearMan/02Advance/02AdvanceSpearMan_02_port.png,11,11,345
+src/sprites/units/SpearMan/02Advance/03AdvanceSpearMan_01_01.png,256,224,6367
+src/sprites/units/SpearMan/02Advance/03AdvanceSpearMan_01_01_port.png,11,11,334
+src/sprites/units/SpearMan/02Advance/03AdvanceSpearMan_02_01.png,192,256,5362
+src/sprites/units/SpearMan/02Advance/03AdvanceSpearMan_02_01_port.png,11,11,268
+src/sprites/units/SpearMan/05Prism/01PrismSpearMan.png,448,256,8702
+src/sprites/units/SpearMan/05Prism/02PrismArcherMan_01_port.png,11,11,342
+src/sprites/units/SpearMan/05Prism/02PrismSpearMan_01.png,288,160,10193
+src/sprites/units/SpearMan/05Prism/02PrismSpearMan_01_port.png,11,11,354
+src/sprites/units/SpearMan/05Prism/02PrismSpearMan_01Skill.png,128,32,342
+src/sprites/units/SpearMan/05Prism/02PrismSpearMan_01Skill2.png,128,32,323
+src/sprites/units/SpearMan/05Prism/02PrismSpearMan_02.png,256,192,9401
+src/sprites/units/SpearMan/05Prism/02PrismSpearMan_02_port.png,11,11,358
+src/sprites/units/SpearMan/05Prism/02PrismSpearMan_02Rise.png,224,32,450
+src/sprites/units/SpearMan/05Prism/02PrismSpearMan_02Skill.png,224,32,670
+src/sprites/units/SpearMan/05Prism/03PrismSpearMan_01_01.png,288,160,10418
+src/sprites/units/SpearMan/05Prism/03PrismSpearMan_01_01_port.png,11,11,388
+src/sprites/units/SpearMan/05Prism/03PrismSpearMan_01_01Skill.png,160,32,580
+src/sprites/units/SpearMan/05Prism/03PrismSpearMan_01_01Skill2.png,160,32,365
+src/sprites/units/SpearMan/05Prism/03PrismSpearMan_02_01.png,576,192,14267
+src/sprites/units/SpearMan/05Prism/03PrismSpearMan_02_01_port.png,11,11,365
+src/sprites/units/SpearMan/05Prism/03PrismSpearMan_02_01Rise.png,512,32,670
+src/sprites/units/SpearMan/05Prism/03PrismSpearMan_02_01Skill.png,448,32,798
+src/sprites/units/Summons/Bear.png,320,256,6058
+src/sprites/units/Summons/Boar.png,160,192,2698
+src/sprites/units/Summons/Dummy.png,128,32,3283
+src/sprites/units/Summons/MiniColossus.png,680,224,12268
+src/sprites/units/Summons/MiniDwarvenGolem.png,256,224,6784
+src/sprites/units/Summons/MiniMoltenGolem.png,288,224,7433
+src/sprites/units/Summons/MiniPanther.png,280,224,5195
+src/sprites/units/Summons/OvergrownGolem.png,256,224,7146
+src/sprites/units/SwordMan/01Normal/01NormalSwordMan.png,192,192,4098
+src/sprites/units/SwordMan/01Normal/01NormalSwordMan_port.png,11,11,311
+src/sprites/units/SwordMan/01Normal/02NormalSwordMan_01.png,192,224,4372
+src/sprites/units/SwordMan/01Normal/02NormalSwordMan_01_port.png,11,11,313
+src/sprites/units/SwordMan/01Normal/02NormalSwordMan_02.png,192,192,3919
+src/sprites/units/SwordMan/01Normal/02NormalSwordMan_02_port.png,11,11,318
+src/sprites/units/SwordMan/01Normal/03NormalSwordMan_01_01.png,192,224,4429
+src/sprites/units/SwordMan/01Normal/03NormalSwordMan_01_01_port.png,11,11,331
+src/sprites/units/SwordMan/01Normal/03NormalSwordMan_02_01.png,256,224,6124
+src/sprites/units/SwordMan/01Normal/03NormalSwordMan_02_01_port.png,11,11,357
+src/sprites/units/SwordMan/02Advance/01AdvanceSwordMan.png,320,224,6965
+src/sprites/units/SwordMan/02Advance/01AdvanceSwordMan_port.png,11,11,297
+src/sprites/units/SwordMan/02Advance/02AdvanceSwordMan_01.png,256,224,5283
+src/sprites/units/SwordMan/02Advance/02AdvanceSwordMan_01_port.png,11,11,282
+src/sprites/units/SwordMan/02Advance/02AdvanceSwordMan_02.png,192,224,5818
+src/sprites/units/SwordMan/02Advance/02AdvanceSwordMan_02_port.png,11,11,332
+src/sprites/units/SwordMan/02Advance/03AdvanceSwordMan_01_01.png,384,256,9263
+src/sprites/units/SwordMan/02Advance/03AdvanceSwordMan_01_01_port.png,11,11,306
+src/sprites/units/SwordMan/02Advance/03AdvanceSwordMan_02_01.png,192,224,6421
+src/sprites/units/SwordMan/02Advance/03AdvanceSwordMan_02_01_port.png,11,11,356
+src/sprites/units/SwordMan/05Prism/01PrismSwordMan.png,224,128,5684
+src/sprites/units/SwordMan/05Prism/01PrismSwordMan_port.png,11,11,283
+src/sprites/units/SwordMan/05Prism/02PrismSwordMan_01.png,320,192,11017
+src/sprites/units/SwordMan/05Prism/02PrismSwordMan_01_port.png,11,11,308
+src/sprites/units/SwordMan/05Prism/02PrismSwordMan_02.png,224,160,6842
+src/sprites/units/SwordMan/05Prism/02PrismSwordMan_02_port.png,11,11,331
+src/sprites/units/SwordMan/05Prism/02PrismSwordMan_02Projectile.png,64,20,2951
+src/sprites/units/SwordMan/05Prism/02PrismSwordMan_02Skill.png,32,32,3006
+src/sprites/units/SwordMan/05Prism/03PrismSwordMan_01_01.png,320,192,13088
+src/sprites/units/SwordMan/05Prism/03PrismSwordMan_01_01_port.png,11,11,345
+src/sprites/units/SwordMan/05Prism/03PrismSwordMan_02_01.png,224,160,6975
+src/sprites/units/SwordMan/05Prism/03PrismSwordMan_02_01_port.png,11,11,364
+src/sprites/units/SwordMan/05Prism/03PrismSwordMan_02_01Projectile.png,64,20,2954
+src/sprites/units/SwordMan/05Prism/03PrismSwordMan_02_01Skill.png,32,32,3078
+src/sprites/waiting/Green/MiniBigSlime.png,256,192,2221
+src/sprites/waiting/Green/MiniGiantSlime.png,360,240,4130
+src/sprites/waiting/Green/MiniMutantSlime.png,288,256,3387
+src/sprites/waiting/Green/MiniSlime.png,160,128,936
+src/sprites/waiting/Green/MiniSlimeMonster.png,400,280,7687
+src/sprites/waiting/Green/MiniSpikedSlime.png,160,160,1596
+src/sprites/waiting/MinifolksHumans/MiniArcherMan.png,352,224,6172
+src/sprites/waiting/MinifolksHumans/MiniArchMage.png,352,288,11580
+src/sprites/waiting/MinifolksHumans/MiniCavalierMan.png,256,224,8911
+src/sprites/waiting/MinifolksHumans/MiniCrossBowMan.png,320,224,5517
+src/sprites/waiting/MinifolksHumans/MiniHalberdMan.png,192,192,4683
+src/sprites/waiting/MinifolksHumans/MiniHorseMan.png,256,224,8744
+src/sprites/waiting/MinifolksHumans/MiniKingMan.png,320,224,6751
+src/sprites/waiting/MinifolksHumans/MiniMage.png,352,256,9069
+src/sprites/waiting/MinifolksHumans/MiniPrinceMan.png,192,192,4759
+src/sprites/waiting/MinifolksHumans/MiniShieldMan.png,192,224,4478
+src/sprites/waiting/MinifolksHumans/MiniSpearMan.png,224,192,4049
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniGoblin.png,192,192,2886
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniGoblinThief.png,192,224,3503
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniOrc.png,192,192,4268
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniOrcAxeThrower.png,192,224,4693
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniOrcBerserker.png,192,288,7461
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniOrcVeteran.png,192,192,5281
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniOrcWarChief.png,192,256,6996
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniOrcWarrior.png,192,224,5837
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniThrowingAxe.png,64,16,405
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniWargRider.png,192,192,6400
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Outline/MiniWolfRider.png,192,192,5473
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniGoblin.png,192,192,2354
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniGoblinThief.png,192,224,2886
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniOrc.png,192,192,3731
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniOrcAxeThrower.png,192,224,4243
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniOrcBerserker.png,192,288,6663
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniOrcVeteran.png,192,192,4671
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniOrcWarChief.png,192,256,6162
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniOrcWarrior.png,192,224,5445
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniThrowingAxe.png,64,16,326
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniWargRider.png,192,192,5777
+src/sprites/waiting/MinifolksOrcs/MinifolksOrcs/Without Outline/MiniWolfRider.png,192,192,4828
+src/sprites/waiting/MinifolksOrcs/QyGv7W.png,315,250,5560

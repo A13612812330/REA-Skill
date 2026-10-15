@@ -1,0 +1,370 @@
+{
+  "file": "src/release_integrity.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 0,
+      "instruction_count": 70,
+      "numeric_constants": [
+        64
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "modified file: "
+        },
+        {
+          "constant_index": 1,
+          "value": "digest"
+        },
+        {
+          "constant_index": 2,
+          "value": "size"
+        },
+        {
+          "constant_index": 3,
+          "value": "path"
+        },
+        {
+          "constant_index": 4,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 5,
+          "value": "integrity manifest mismatch"
+        },
+        {
+          "constant_index": 6,
+          "value": "src/release_integrity_manifest.bin"
+        },
+        {
+          "constant_index": 7,
+          "value": "invalid embedded manifest hash"
+        },
+        {
+          "constant_index": 8,
+          "value": "^[0-9a-f][0-9a-f]+$"
+        },
+        {
+          "constant_index": 9,
+          "value": "match"
+        },
+        {
+          "constant_index": 10,
+          "value": "string"
+        },
+        {
+          "constant_index": 11,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 1,
+      "instruction_count": 114,
+      "numeric_constants": [
+        16777216,
+        100000,
+        1,
+        64,
+        536870912
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "protected file count mismatch"
+        },
+        {
+          "constant_index": 1,
+          "value": "size"
+        },
+        {
+          "constant_index": 2,
+          "value": "digest"
+        },
+        {
+          "constant_index": 3,
+          "value": "path"
+        },
+        {
+          "constant_index": 5,
+          "value": "invalid integrity manifest entry"
+        },
+        {
+          "constant_index": 6,
+          "value": "0"
+        },
+        {
+          "constant_index": 7,
+          "value": "^([0-9a-f]+)\t([0-9]+)\t(.+)$"
+        },
+        {
+          "constant_index": 8,
+          "value": "sub"
+        },
+        {
+          "constant_index": 9,
+          "value": "truncated integrity manifest"
+        },
+        {
+          "constant_index": 10,
+          "value": "\n"
+        },
+        {
+          "constant_index": 11,
+          "value": "find"
+        },
+        {
+          "constant_index": 12,
+          "value": "invalid integrity manifest header"
+        },
+        {
+          "constant_index": 13,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 14,
+          "value": "^SBIM001\n([1-9][0-9]*)\n()"
+        },
+        {
+          "constant_index": 15,
+          "value": "match"
+        },
+        {
+          "constant_index": 16,
+          "value": "integrity manifest is too large"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/3",
+      "argument_count": 1,
+      "instruction_count": 72,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": ".."
+        },
+        {
+          "constant_index": 1,
+          "value": "."
+        },
+        {
+          "constant_index": 2,
+          "value": "[^/]+"
+        },
+        {
+          "constant_index": 3,
+          "value": "gmatch"
+        },
+        {
+          "constant_index": 4,
+          "value": "//"
+        },
+        {
+          "constant_index": 5,
+          "value": "[%c]"
+        },
+        {
+          "constant_index": 6,
+          "value": ":"
+        },
+        {
+          "constant_index": 7,
+          "value": "\\"
+        },
+        {
+          "constant_index": 8,
+          "value": "find"
+        },
+        {
+          "constant_index": 9,
+          "value": "/"
+        },
+        {
+          "constant_index": 10,
+          "value": "sub"
+        },
+        {
+          "constant_index": 11,
+          "value": ""
+        },
+        {
+          "constant_index": 12,
+          "value": "string"
+        },
+        {
+          "constant_index": 13,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 1,
+      "instruction_count": 33,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 1,
+          "value": "missing file: "
+        },
+        {
+          "constant_index": 2,
+          "value": "string"
+        },
+        {
+          "constant_index": 3,
+          "value": "type"
+        },
+        {
+          "constant_index": 4,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 5,
+          "value": "filesystem access is unavailable"
+        },
+        {
+          "constant_index": 6,
+          "value": "read"
+        },
+        {
+          "constant_index": 7,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 8,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/5",
+      "argument_count": 1,
+      "instruction_count": 51,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "lower"
+        },
+        {
+          "constant_index": 1,
+          "value": "SHA-256 encoding failed"
+        },
+        {
+          "constant_index": 2,
+          "value": "hex"
+        },
+        {
+          "constant_index": 3,
+          "value": "SHA-256 calculation failed"
+        },
+        {
+          "constant_index": 4,
+          "value": "string"
+        },
+        {
+          "constant_index": 5,
+          "value": "type"
+        },
+        {
+          "constant_index": 6,
+          "value": "sha256"
+        },
+        {
+          "constant_index": 7,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 8,
+          "value": "SHA-256 support is unavailable"
+        },
+        {
+          "constant_index": 9,
+          "value": "encode"
+        },
+        {
+          "constant_index": 10,
+          "value": "hash"
+        },
+        {
+          "constant_index": 11,
+          "value": "data"
+        },
+        {
+          "constant_index": 12,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 1,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": ")"
+        },
+        {
+          "constant_index": 1,
+          "value": "integrity check failed"
+        },
+        {
+          "constant_index": 2,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 3,
+          "value": "Please reinstall an official copy. ("
+        },
+        {
+          "constant_index": 4,
+          "value": "SlotBound could not start because its game files were modified or corrupted. "
+        },
+        {
+          "constant_index": 5,
+          "value": "error"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 13,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "verify"
+        },
+        {
+          "constant_index": 7,
+          "value": "b02661600b862204894c15ecf9ed1b9f1caee8b44b085c9a9e8438c50e66c3a6"
+        }
+      ],
+      "tables": []
+    }
+  ]
+}

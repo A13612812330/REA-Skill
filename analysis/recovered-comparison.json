@@ -1,0 +1,4620 @@
+{
+  "results": [
+    {
+      "module": "src.data.asset2",
+      "kind": "returned-data",
+      "equal": true,
+      "note": "Functions and cyclic references are markers; language dependency uses empty table."
+    },
+    {
+      "module": "src.data.assets",
+      "kind": "returned-data",
+      "equal": true,
+      "note": "Functions and cyclic references are markers; language dependency uses empty table."
+    },
+    {
+      "module": "src.data.awakening",
+      "kind": "returned-data",
+      "equal": true,
+      "note": "Functions and cyclic references are markers; language dependency uses empty table."
+    },
+    {
+      "module": "src.data.constants",
+      "kind": "returned-data",
+      "equal": true,
+      "note": "Functions and cyclic references are markers; language dependency uses empty table."
+    },
+    {
+      "module": "src.data.faction",
+      "kind": "returned-data",
+      "equal": true,
+      "note": "Functions and cyclic references are markers; language dependency uses empty table."
+    },
+    {
+      "module": "src.data.font_resolver",
+      "kind": "returned-data",
+      "equal": true,
+      "note": "Functions and cyclic references are markers; language dependency uses empty table."
+    },
+    {
+      "module": "src.data.language",
+      "kind": "returned-data",
+      "equal": null,
+      "error": "[string \"src.data.language\"]:0: attempt to index global 'io' (a nil value)"
+    },
+    {
+      "module": "src.data.randomoption",
+      "kind": "returned-data",
+      "equal": true,
+      "note": "Functions and cyclic references are markers; language dependency uses empty table."
+    },
+    {
+      "module": "src.data.safe_lua_table",
+      "kind": "returned-data",
+      "equal": true,
+      "note": "Functions and cyclic references are markers; language dependency uses empty table."
+    },
+    {
+      "module": "src.data.skill",
+      "kind": "returned-data",
+      "equal": true,
+      "note": "Functions and cyclic references are markers; language dependency uses empty table."
+    },
+    {
+      "module": "src.game.power",
+      "kind": "selected-function-cases",
+      "equal": true,
+      "cases": 180,
+      "original": [
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            1.5811388300841898e-05,
+            1.5811388300841898e-05,
+            1.5811388300841898e-05
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0,
+            0,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            0.5786375623578447,
+            0.5786375623578447,
+            3.44427120451098e-10
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0,
+            0,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            0.8703882797784892,
+            0.8703882797784892,
+            1.6484626510956233e-10
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0,
+            0,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            1.5,
+            1.6666666666666669e-10,
+            1.5
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0,
+            1,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            54894.379103354986,
+            6.099375455928332e-06,
+            3.267522565675892e-05
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            12.053571428571427
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0,
+            1,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            82572.28238447705,
+            9.174698042719671e-06,
+            1.5638689845544896e-05
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            27.272727272727273
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0,
+            1,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            2.5,
+            1e-10,
+            2.5
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0,
+            2.7777777777777777,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 0,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            91490.63183892498,
+            3.6596252735569993e-06,
+            5.445870942793154e-05
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            33.482142857142854
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0,
+            2.7777777777777777,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            137620.47064079507,
+            5.504818825631803e-06,
+            2.6064483075908156e-05
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            75.75757575757575
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0,
+            2.7777777777777777,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 0,
+          "aspd": 4,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            5e-10,
+            0.5,
+            0.5
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0.014285714285714285,
+            0,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            1.8298126367784997e-05,
+            18298.126367784997,
+            1.0891741885586309e-05
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0.014285714285714285,
+            0,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            2.7524094128159016e-05,
+            27524.094128159013,
+            5.212896615181632e-06
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0.014285714285714285,
+            0,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            4.7434164902525696e-05,
+            5.270462766947299e-06,
+            47434.16490252569
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0.014285714285714285,
+            1,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            3.471825374147068
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            1.735912687073534,
+            0.1928791874526149,
+            1.033281361353294
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            12.053571428571427
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0.014285714285714285,
+            1,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            6.899241561377481
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            5.222329678670935
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            2.6111648393354674,
+            0.29012942659282975,
+            0.494538795328687
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            27.272727272727273
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0.014285714285714285,
+            1,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            16.938519840513163
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            7.905694150420948e-05,
+            3.1622776601683796e-06,
+            79056.94150420948
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0.014285714285714285,
+            2.7777777777777777,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 1,
+          "aspd": 0,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            5.786375623578446
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            2.893187811789223,
+            0.11572751247156893,
+            1.7221356022554901
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            33.482142857142854
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0.014285714285714285,
+            2.7777777777777777,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            14.105536222193788
+          ],
+          "hp": 1,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            8.70388279778489
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            4.351941398892445,
+            0.17407765595569785,
+            0.8242313255478116
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            75.75757575757575
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            0.014285714285714285,
+            2.7777777777777777,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            34.63089428528476
+          ],
+          "hp": 1,
+          "aspd": 4,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            5.976143046671968e-11,
+            4.183300132670378,
+            4.183300132670378
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            1,
+            0,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            2.1870444131992662e-06,
+            153093.10892394863,
+            9.112685054996943e-05
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            1,
+            0,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            3.289758474798845e-06,
+            230283.09323591914,
+            4.361422220377256e-05
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            1,
+            0,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            5.669467095138409e-06,
+            4.409585518440984e-05,
+            396862.6966596886
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            1,
+            1,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            29.047375096555626
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            0.20748125068968304,
+            1.613743060919757,
+            8.645052112070127
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            12.053571428571427
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            1,
+            1,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            88.2795630823375
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            43.69314487526515
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            0.31209389196617965,
+            2.4273969375147306,
+            4.13760841621829
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            27.272727272727273
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            1,
+            1,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            216.73761057345195
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            9.44911182523068e-06,
+            2.6457513110645906e-05,
+            661437.8277661477
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            1,
+            2.7777777777777777,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 70,
+          "aspd": 0,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            48.41229182759271
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            0.345802084482805,
+            0.9682458365518543,
+            14.408420186783543
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            33.482142857142854
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            1,
+            2.7777777777777777,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            180.48803823716736
+          ],
+          "hp": 70,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            72.82190812544191
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            0.5201564866102993,
+            1.4564381625088383,
+            6.896014027030484
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            75.75757575757575
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            1,
+            2.7777777777777777,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            443.121202447819
+          ],
+          "hp": 70,
+          "aspd": 4,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            4.2257712736425835e-11,
+            5.916079783099616,
+            5.916079783099616
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            2,
+            0,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            1.5464739353293547e-06,
+            216506.35094610965,
+            0.0001288728279441129
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            2,
+            0,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 0,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            2.3262105259961775e-06,
+            325669.47363946476,
+            6.167982455292894e-05
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 0,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 0,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            2,
+            0,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 0,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 0,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            4.008918628686366e-06,
+            6.236095644623236e-05,
+            561248.6080160912
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            2,
+            1,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            41.07919181288746
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            0.1467113993317409,
+            2.282177322938192,
+            12.225949944311742
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            12.053571428571427
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            2,
+            1,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            133.80679624819868
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            61.791438065332464
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 9,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            0.2206837073761874,
+            3.432857670296248,
+            5.851461938004968
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 9,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            27.272727272727273
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 9,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            2,
+            1,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 9,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            328.5127869320603
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 9,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            6.68153104781061e-06,
+            3.7416573867739416e-05,
+            935414.3466934854
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            2,
+            2.7777777777777777,
+            0,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            0
+          ],
+          "hp": 140,
+          "aspd": 0,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            68.46531968814577
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            0.24451899888623485,
+            1.3693063937629153,
+            20.376583240519572
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            33.482142857142854
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            2,
+            2.7777777777777777,
+            0.8928571428571428,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            273.5687096130368
+          ],
+          "hp": 140,
+          "aspd": 1.5,
+          "atk": 25,
+          "name": "power"
+        },
+        {
+          "values": [
+            true,
+            102.98573010888744
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 25,
+          "name": "powerSimple"
+        },
+        {
+          "values": [
+            true,
+            0.3678061789603123,
+            2.059714602177749,
+            9.752436563341615
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 25,
+          "name": "computePartials"
+        },
+        {
+          "values": [
+            true,
+            75.75757575757575
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 25,
+          "name": "dps"
+        },
+        {
+          "values": [
+            true,
+            2,
+            2.7777777777777777,
+            2.0202020202020203,
+            {
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6,
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5
+            }
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 25,
+          "name": "norms"
+        },
+        {
+          "values": [
+            true,
+            671.6461475221672
+          ],
+          "hp": 140,
+          "aspd": 4,
+          "atk": 25,
+          "name": "power"
+        }
+      ],
+      "recovered": [
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            1.5811388300841898e-05,
+            1.5811388300841898e-05,
+            1.5811388300841898e-05
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0,
+            0,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0.5786375623578447,
+            0.5786375623578447,
+            3.44427120451098e-10
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0,
+            0,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0.8703882797784892,
+            0.8703882797784892,
+            1.6484626510956233e-10
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0,
+            0,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            1.5,
+            1.6666666666666669e-10,
+            1.5
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            0,
+            1,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            54894.379103354986,
+            6.099375455928332e-06,
+            3.267522565675892e-05
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            12.053571428571427
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            0,
+            1,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            82572.28238447705,
+            9.174698042719671e-06,
+            1.5638689845544896e-05
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            27.272727272727273
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            0,
+            1,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            2.5,
+            1e-10,
+            2.5
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            0,
+            2.7777777777777777,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            91490.63183892498,
+            3.6596252735569993e-06,
+            5.445870942793154e-05
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            33.482142857142854
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            0,
+            2.7777777777777777,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            137620.47064079507,
+            5.504818825631803e-06,
+            2.6064483075908156e-05
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            75.75757575757575
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            0,
+            2.7777777777777777,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 0,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            5e-10,
+            0.5,
+            0.5
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0.014285714285714285,
+            0,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            1.8298126367784997e-05,
+            18298.126367784997,
+            1.0891741885586309e-05
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0.014285714285714285,
+            0,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            2.7524094128159016e-05,
+            27524.094128159013,
+            5.212896615181632e-06
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0.014285714285714285,
+            0,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            4.7434164902525696e-05,
+            5.270462766947299e-06,
+            47434.16490252569
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            0.014285714285714285,
+            1,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            3.471825374147068
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            1.735912687073534,
+            0.1928791874526149,
+            1.033281361353294
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            12.053571428571427
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            0.014285714285714285,
+            1,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            6.899241561377481
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            5.222329678670935
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            2.6111648393354674,
+            0.29012942659282975,
+            0.494538795328687
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            27.272727272727273
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            0.014285714285714285,
+            1,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 1,
+          "values": [
+            true,
+            16.938519840513163
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            7.905694150420948e-05,
+            3.1622776601683796e-06,
+            79056.94150420948
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            0.014285714285714285,
+            2.7777777777777777,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            5.786375623578446
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            2.893187811789223,
+            0.11572751247156893,
+            1.7221356022554901
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            33.482142857142854
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            0.014285714285714285,
+            2.7777777777777777,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            14.105536222193788
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            8.70388279778489
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            4.351941398892445,
+            0.17407765595569785,
+            0.8242313255478116
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            75.75757575757575
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            0.014285714285714285,
+            2.7777777777777777,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 1,
+          "values": [
+            true,
+            34.63089428528476
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            5.976143046671968e-11,
+            4.183300132670378,
+            4.183300132670378
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            1,
+            0,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            2.1870444131992662e-06,
+            153093.10892394863,
+            9.112685054996943e-05
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            1,
+            0,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            3.289758474798845e-06,
+            230283.09323591914,
+            4.361422220377256e-05
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            1,
+            0,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            5.669467095138409e-06,
+            4.409585518440984e-05,
+            396862.6966596886
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            1,
+            1,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            29.047375096555626
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            0.20748125068968304,
+            1.613743060919757,
+            8.645052112070127
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            12.053571428571427
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            1,
+            1,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            88.2795630823375
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            43.69314487526515
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            0.31209389196617965,
+            2.4273969375147306,
+            4.13760841621829
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            27.272727272727273
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            1,
+            1,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 70,
+          "values": [
+            true,
+            216.73761057345195
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            9.44911182523068e-06,
+            2.6457513110645906e-05,
+            661437.8277661477
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            1,
+            2.7777777777777777,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            48.41229182759271
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            0.345802084482805,
+            0.9682458365518543,
+            14.408420186783543
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            33.482142857142854
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            1,
+            2.7777777777777777,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            180.48803823716736
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            72.82190812544191
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            0.5201564866102993,
+            1.4564381625088383,
+            6.896014027030484
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            75.75757575757575
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            1,
+            2.7777777777777777,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 70,
+          "values": [
+            true,
+            443.121202447819
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            4.2257712736425835e-11,
+            5.916079783099616,
+            5.916079783099616
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            2,
+            0,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            1.5464739353293547e-06,
+            216506.35094610965,
+            0.0001288728279441129
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            2,
+            0,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            2.3262105259961775e-06,
+            325669.47363946476,
+            6.167982455292894e-05
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            2,
+            0,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 0,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            4.008918628686366e-06,
+            6.236095644623236e-05,
+            561248.6080160912
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            2,
+            1,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            41.07919181288746
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            0.1467113993317409,
+            2.282177322938192,
+            12.225949944311742
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            12.053571428571427
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            2,
+            1,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            133.80679624819868
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            61.791438065332464
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            0.2206837073761874,
+            3.432857670296248,
+            5.851461938004968
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            27.272727272727273
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            2,
+            1,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 9,
+          "hp": 140,
+          "values": [
+            true,
+            328.5127869320603
+          ],
+          "name": "power",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "powerSimple",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            6.68153104781061e-06,
+            3.7416573867739416e-05,
+            935414.3466934854
+          ],
+          "name": "computePartials",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "dps",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            2,
+            2.7777777777777777,
+            0,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            0
+          ],
+          "name": "power",
+          "aspd": 0
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            68.46531968814577
+          ],
+          "name": "powerSimple",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            0.24451899888623485,
+            1.3693063937629153,
+            20.376583240519572
+          ],
+          "name": "computePartials",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            33.482142857142854
+          ],
+          "name": "dps",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            2,
+            2.7777777777777777,
+            0.8928571428571428,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            273.5687096130368
+          ],
+          "name": "power",
+          "aspd": 1.5
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            102.98573010888744
+          ],
+          "name": "powerSimple",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            0.3678061789603123,
+            2.059714602177749,
+            9.752436563341615
+          ],
+          "name": "computePartials",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            75.75757575757575
+          ],
+          "name": "dps",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            2,
+            2.7777777777777777,
+            2.0202020202020203,
+            {
+              "ATK0": 9,
+              "HP0": 70,
+              "ASPD0": 1.5,
+              "betaASPD": 1.1,
+              "betaAtk": 0.7,
+              "alpha": 0.6
+            }
+          ],
+          "name": "norms",
+          "aspd": 4
+        },
+        {
+          "atk": 25,
+          "hp": 140,
+          "values": [
+            true,
+            671.6461475221672
+          ],
+          "name": "power",
+          "aspd": 4
+        }
+      ]
+    },
+    {
+      "module": "src.game.slot",
+      "kind": "selected-function-cases",
+      "equal": true,
+      "cases": 35,
+      "original": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "recovered": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true
+      ]
+    }
+  ],
+  "original_exe_sha256": "2db4b93b52cd6daec9014f6e8ee42f78d32f683a496af35a8b03d8b97f4fccb7",
+  "scope": "Selected table values and pure functions only; no game startup, save access or full gameplay validation."
+}

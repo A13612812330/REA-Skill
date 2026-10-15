@@ -1,0 +1,1173 @@
+{
+  "file": "src/audio/procedural_audio.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0/2",
+      "argument_count": 0,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "static"
+        },
+        {
+          "constant_index": 1,
+          "value": "awakeningStarData"
+        },
+        {
+          "constant_index": 2,
+          "value": "newSource"
+        },
+        {
+          "constant_index": 3,
+          "value": "audio"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0",
+      "argument_count": 1,
+      "instruction_count": 56,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "[procedural_audio] Synthesized sounds successfully loaded."
+        },
+        {
+          "constant_index": 1,
+          "value": "awakenStar"
+        },
+        {
+          "constant_index": 3,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 4,
+          "value": "createSovereignPressureTone"
+        },
+        {
+          "constant_index": 5,
+          "value": "cosmicPressure"
+        },
+        {
+          "constant_index": 6,
+          "value": "coinClink"
+        },
+        {
+          "constant_index": 7,
+          "value": "custom_win"
+        },
+        {
+          "constant_index": 8,
+          "value": "[procedural_audio] Generating custom synth sounds..."
+        },
+        {
+          "constant_index": 9,
+          "value": "print"
+        },
+        {
+          "constant_index": 10,
+          "value": "newSource"
+        },
+        {
+          "constant_index": 11,
+          "value": "audio"
+        },
+        {
+          "constant_index": 12,
+          "value": "newSoundData"
+        },
+        {
+          "constant_index": 13,
+          "value": "sound"
+        },
+        {
+          "constant_index": 14,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 2,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "bigGrenadeExplosion"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 2,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "grenadeExplosion"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 1,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "stop"
+        },
+        {
+          "constant_index": 1,
+          "value": "isPlaying"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/8",
+      "argument_count": 3,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/10",
+      "argument_count": 2,
+      "instruction_count": 93,
+      "numeric_constants": [
+        0.02,
+        0.5,
+        1,
+        2,
+        20
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "play"
+        },
+        {
+          "constant_index": 1,
+          "value": "stop"
+        },
+        {
+          "constant_index": 2,
+          "value": "isPlaying"
+        },
+        {
+          "constant_index": 3,
+          "value": "setPitch"
+        },
+        {
+          "constant_index": 4,
+          "value": "setVolume"
+        },
+        {
+          "constant_index": 5,
+          "value": "pow"
+        },
+        {
+          "constant_index": 6,
+          "value": "random"
+        },
+        {
+          "constant_index": 7,
+          "value": "math"
+        },
+        {
+          "constant_index": 8,
+          "value": "love"
+        },
+        {
+          "constant_index": 9,
+          "value": "audioBaseGain"
+        },
+        {
+          "constant_index": 10,
+          "value": "sfxVolume"
+        },
+        {
+          "constant_index": 11,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 12,
+          "value": "slashAttackArcher1"
+        },
+        {
+          "constant_index": 13,
+          "value": "audio"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 2,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "canonAttack"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/14",
+      "argument_count": 2,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "gunAttack"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/16",
+      "argument_count": 3,
+      "instruction_count": 237,
+      "numeric_constants": [
+        1,
+        0.04,
+        0.98,
+        0.006,
+        -0.006,
+        0.03,
+        0.06,
+        0.25
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "serial"
+        },
+        {
+          "constant_index": 1,
+          "value": "play"
+        },
+        {
+          "constant_index": 2,
+          "value": "seconds"
+        },
+        {
+          "constant_index": 3,
+          "value": "seek"
+        },
+        {
+          "constant_index": 4,
+          "value": "audioCueOffset"
+        },
+        {
+          "constant_index": 5,
+          "value": "setVolume"
+        },
+        {
+          "constant_index": 6,
+          "value": "setPitch"
+        },
+        {
+          "constant_index": 7,
+          "value": "audioBaseGain"
+        },
+        {
+          "constant_index": 8,
+          "value": "sqrt"
+        },
+        {
+          "constant_index": 9,
+          "value": "abs"
+        },
+        {
+          "constant_index": 10,
+          "value": "lastPitch"
+        },
+        {
+          "constant_index": 11,
+          "value": "random"
+        },
+        {
+          "constant_index": 12,
+          "value": "bigGrenadeExplosion"
+        },
+        {
+          "constant_index": 13,
+          "value": "grenadeExplosion"
+        },
+        {
+          "constant_index": 14,
+          "value": "canonAttack"
+        },
+        {
+          "constant_index": 15,
+          "value": "stop"
+        },
+        {
+          "constant_index": 16,
+          "value": "clone"
+        },
+        {
+          "constant_index": 17,
+          "value": "isPlaying"
+        },
+        {
+          "constant_index": 18,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 19,
+          "value": "newRandomGenerator"
+        },
+        {
+          "constant_index": 20,
+          "value": "math"
+        },
+        {
+          "constant_index": 21,
+          "value": "love"
+        },
+        {
+          "constant_index": 22,
+          "value": "_battleSoundRandom"
+        },
+        {
+          "constant_index": 23,
+          "value": "started"
+        },
+        {
+          "constant_index": 24,
+          "value": "pool"
+        },
+        {
+          "constant_index": 26,
+          "value": "source"
+        },
+        {
+          "constant_index": 27,
+          "value": "_battleSoundPools"
+        },
+        {
+          "constant_index": 28,
+          "value": "sfxVolume"
+        },
+        {
+          "constant_index": 29,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 30,
+          "value": "audio"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 25,
+          "array": [],
+          "dictionary": [
+            [
+              "serial",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/17",
+      "argument_count": 1,
+      "instruction_count": 133,
+      "numeric_constants": [
+        1,
+        0.16,
+        0.92,
+        0.8
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "play"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "setVolume"
+        },
+        {
+          "constant_index": 4,
+          "value": "random"
+        },
+        {
+          "constant_index": 5,
+          "value": "setPitch"
+        },
+        {
+          "constant_index": 6,
+          "value": "stop"
+        },
+        {
+          "constant_index": 7,
+          "value": "remove"
+        },
+        {
+          "constant_index": 8,
+          "value": "table"
+        },
+        {
+          "constant_index": 9,
+          "value": "setLooping"
+        },
+        {
+          "constant_index": 10,
+          "value": "static"
+        },
+        {
+          "constant_index": 11,
+          "value": "src/audio/battlefield/attacks/explosion/shortexplosion.wav"
+        },
+        {
+          "constant_index": 12,
+          "value": "newSource"
+        },
+        {
+          "constant_index": 13,
+          "value": "clone"
+        },
+        {
+          "constant_index": 14,
+          "value": "isPlaying"
+        },
+        {
+          "constant_index": 15,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 16,
+          "value": "newRandomGenerator"
+        },
+        {
+          "constant_index": 17,
+          "value": "math"
+        },
+        {
+          "constant_index": 18,
+          "value": "_shortExplosionRandom"
+        },
+        {
+          "constant_index": 19,
+          "value": "_shortExplosionPool"
+        },
+        {
+          "constant_index": 20,
+          "value": "sfxVolume"
+        },
+        {
+          "constant_index": 21,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 22,
+          "value": "audio"
+        },
+        {
+          "constant_index": 23,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/19",
+      "argument_count": 1,
+      "instruction_count": 67,
+      "numeric_constants": [
+        0.85
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "play"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "setVolume"
+        },
+        {
+          "constant_index": 5,
+          "value": "stop"
+        },
+        {
+          "constant_index": 6,
+          "value": "setLooping"
+        },
+        {
+          "constant_index": 7,
+          "value": "static"
+        },
+        {
+          "constant_index": 8,
+          "value": "src/audio/battlefield/items/watchtower.wav"
+        },
+        {
+          "constant_index": 9,
+          "value": "newSource"
+        },
+        {
+          "constant_index": 10,
+          "value": "_watchtowerCollapse"
+        },
+        {
+          "constant_index": 11,
+          "value": "sfxVolume"
+        },
+        {
+          "constant_index": 12,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 13,
+          "value": "audio"
+        },
+        {
+          "constant_index": 14,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/21",
+      "argument_count": 1,
+      "instruction_count": 67,
+      "numeric_constants": [
+        0.8
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "play"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "setVolume"
+        },
+        {
+          "constant_index": 5,
+          "value": "stop"
+        },
+        {
+          "constant_index": 6,
+          "value": "setLooping"
+        },
+        {
+          "constant_index": 7,
+          "value": "static"
+        },
+        {
+          "constant_index": 8,
+          "value": "src/audio/battlefield/items/Vanguard Drum.wav"
+        },
+        {
+          "constant_index": 9,
+          "value": "newSource"
+        },
+        {
+          "constant_index": 10,
+          "value": "_vanguardDrum"
+        },
+        {
+          "constant_index": 11,
+          "value": "sfxVolume"
+        },
+        {
+          "constant_index": 12,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 13,
+          "value": "audio"
+        },
+        {
+          "constant_index": 14,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/23/8",
+      "argument_count": 4,
+      "instruction_count": 38,
+      "numeric_constants": [
+        1.0009,
+        0.7,
+        0.9991,
+        0.3,
+        2,
+        0.28,
+        1.5,
+        2.76,
+        0.18,
+        2.2,
+        4.07,
+        0.09,
+        3.4,
+        5.4,
+        0.04,
+        4.8
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/23/9",
+      "argument_count": 5,
+      "instruction_count": 60,
+      "numeric_constants": [
+        1,
+        0.0001,
+        0.003
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "log"
+        },
+        {
+          "constant_index": 2,
+          "value": "min"
+        },
+        {
+          "constant_index": 3,
+          "value": "floor"
+        },
+        {
+          "constant_index": 4,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/23",
+      "argument_count": 0,
+      "instruction_count": 357,
+      "numeric_constants": [
+        44100,
+        2.45,
+        2,
+        90731,
+        0.02,
+        0.015,
+        0.04,
+        1.25,
+        1.6,
+        16807,
+        2147483647,
+        8.615384615384615,
+        650,
+        1073741823.5,
+        1,
+        0.9,
+        1.5,
+        0.35,
+        0.65,
+        18,
+        0.32,
+        0.08,
+        2.9932424242424243,
+        330,
+        6,
+        0.004,
+        0.05,
+        20,
+        0.6,
+        0.16,
+        0.5,
+        -700,
+        -28,
+        150,
+        70,
+        -24,
+        0.42,
+        0.002,
+        987.77,
+        0.55,
+        0.06,
+        1318.51,
+        2.6,
+        0.07,
+        1.7,
+        0.12,
+        0.14,
+        0.21,
+        0.95,
+        0.03,
+        0.17,
+        0,
+        0.38,
+        0.22,
+        0.62
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setSample"
+        },
+        {
+          "constant_index": 1,
+          "value": "abs"
+        },
+        {
+          "constant_index": 4,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 5,
+          "value": "min"
+        },
+        {
+          "constant_index": 6,
+          "value": "cos"
+        },
+        {
+          "constant_index": 7,
+          "value": "max"
+        },
+        {
+          "constant_index": 10,
+          "value": "pi"
+        },
+        {
+          "constant_index": 11,
+          "value": "exp"
+        },
+        {
+          "constant_index": 12,
+          "value": "sin"
+        },
+        {
+          "constant_index": 13,
+          "value": "floor"
+        },
+        {
+          "constant_index": 14,
+          "value": "math"
+        },
+        {
+          "constant_index": 15,
+          "value": "AWAKEN_STAR_POP"
+        },
+        {
+          "constant_index": 16,
+          "value": "newSoundData"
+        },
+        {
+          "constant_index": 17,
+          "value": "sound"
+        },
+        {
+          "constant_index": 18,
+          "value": "love"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            2637.02,
+            3951.07,
+            3322.44
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            1661.22,
+            1975.53,
+            2637.02
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/26/0",
+      "argument_count": 0,
+      "instruction_count": 105,
+      "numeric_constants": [
+        1.15,
+        1,
+        0.025,
+        2,
+        3,
+        0.2,
+        52,
+        0.12,
+        3.36,
+        0.55,
+        0.22,
+        0.1,
+        208,
+        4,
+        2.3,
+        0.65
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "static"
+        },
+        {
+          "constant_index": 1,
+          "value": "newSource"
+        },
+        {
+          "constant_index": 2,
+          "value": "audio"
+        },
+        {
+          "constant_index": 3,
+          "value": "setSample"
+        },
+        {
+          "constant_index": 4,
+          "value": "sin"
+        },
+        {
+          "constant_index": 5,
+          "value": "exp"
+        },
+        {
+          "constant_index": 6,
+          "value": "pi"
+        },
+        {
+          "constant_index": 7,
+          "value": "min"
+        },
+        {
+          "constant_index": 8,
+          "value": "newSoundData"
+        },
+        {
+          "constant_index": 9,
+          "value": "sound"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        },
+        {
+          "constant_index": 11,
+          "value": "floor"
+        },
+        {
+          "constant_index": 12,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/26",
+      "argument_count": 0,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 2,
+          "value": "audio"
+        },
+        {
+          "constant_index": 3,
+          "value": "sound"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/28",
+      "argument_count": 0,
+      "instruction_count": 83,
+      "numeric_constants": [
+        0.35,
+        44100,
+        1,
+        0.08,
+        -22,
+        2,
+        523,
+        -14,
+        659,
+        0.85,
+        1318,
+        0.15,
+        0.65
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "static"
+        },
+        {
+          "constant_index": 1,
+          "value": "newSource"
+        },
+        {
+          "constant_index": 2,
+          "value": "audio"
+        },
+        {
+          "constant_index": 3,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 4,
+          "value": "setSample"
+        },
+        {
+          "constant_index": 5,
+          "value": "pi"
+        },
+        {
+          "constant_index": 6,
+          "value": "sin"
+        },
+        {
+          "constant_index": 7,
+          "value": "exp"
+        },
+        {
+          "constant_index": 8,
+          "value": "newSoundData"
+        },
+        {
+          "constant_index": 9,
+          "value": "sound"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        },
+        {
+          "constant_index": 11,
+          "value": "floor"
+        },
+        {
+          "constant_index": 12,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/29",
+      "argument_count": 0,
+      "instruction_count": 71,
+      "numeric_constants": [
+        0.12,
+        44100,
+        1,
+        -45,
+        2,
+        0.08,
+        3200,
+        0.6,
+        4800,
+        0.4
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "static"
+        },
+        {
+          "constant_index": 1,
+          "value": "newSource"
+        },
+        {
+          "constant_index": 2,
+          "value": "audio"
+        },
+        {
+          "constant_index": 3,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 4,
+          "value": "setSample"
+        },
+        {
+          "constant_index": 5,
+          "value": "pi"
+        },
+        {
+          "constant_index": 6,
+          "value": "sin"
+        },
+        {
+          "constant_index": 7,
+          "value": "random"
+        },
+        {
+          "constant_index": 8,
+          "value": "exp"
+        },
+        {
+          "constant_index": 9,
+          "value": "newSoundData"
+        },
+        {
+          "constant_index": 10,
+          "value": "sound"
+        },
+        {
+          "constant_index": 11,
+          "value": "love"
+        },
+        {
+          "constant_index": 12,
+          "value": "floor"
+        },
+        {
+          "constant_index": 13,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 35,
+      "numeric_constants": [
+        0.68
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "loadProceduralAudio"
+        },
+        {
+          "constant_index": 3,
+          "value": "playBigGrenadeExplosion"
+        },
+        {
+          "constant_index": 5,
+          "value": "playGrenadeExplosion"
+        },
+        {
+          "constant_index": 7,
+          "value": "stopSkillSound"
+        },
+        {
+          "constant_index": 9,
+          "value": "playSkillSound"
+        },
+        {
+          "constant_index": 11,
+          "value": "playArcherAttack"
+        },
+        {
+          "constant_index": 13,
+          "value": "playCannonAttack"
+        },
+        {
+          "constant_index": 15,
+          "value": "playGunAttack"
+        },
+        {
+          "constant_index": 18,
+          "value": "playShortExplosion"
+        },
+        {
+          "constant_index": 20,
+          "value": "playWatchtowerCollapse"
+        },
+        {
+          "constant_index": 22,
+          "value": "playVanguardDrum"
+        },
+        {
+          "constant_index": 24,
+          "value": "awakeningStarData"
+        },
+        {
+          "constant_index": 25,
+          "value": "AWAKEN_STAR_POP"
+        },
+        {
+          "constant_index": 27,
+          "value": "createSovereignPressureTone"
+        }
+      ],
+      "tables": []
+    }
+  ]
+}

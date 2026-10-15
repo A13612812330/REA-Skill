@@ -1,0 +1,10 @@
+{
+  "tool": "marsinator358/luajit-decompiler-v2",
+  "release": "Mar_24_2024",
+  "download_url": "https://github.com/marsinator358/luajit-decompiler-v2/releases/download/Mar_24_2024/luajit-decompiler-v2.exe",
+  "sha256": "d98fedf8041df653904db28a1daaf65ce355487307ae49c573ae94491140bb6a",
+  "returncode": 0,
+  "source_files_generated": 54,
+  "stdout": "",
+  "stderr": ""
+}

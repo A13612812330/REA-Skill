@@ -1,0 +1,7988 @@
+{
+  "file": "src/data/constants.lua",
+  "prototypes": [
+    {
+      "prototype": "root/61",
+      "argument_count": 1,
+      "instruction_count": 207,
+      "numeric_constants": [
+        1,
+        2,
+        0.015,
+        0.5,
+        0.01,
+        0.05,
+        0.005
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "aspd"
+        },
+        {
+          "constant_index": 1,
+          "value": "atk"
+        },
+        {
+          "constant_index": 2,
+          "value": "hp"
+        },
+        {
+          "constant_index": 3,
+          "value": "getAbsorbLvMultipliers"
+        },
+        {
+          "constant_index": 10,
+          "value": "normal"
+        },
+        {
+          "constant_index": 11,
+          "value": "grade"
+        },
+        {
+          "constant_index": 12,
+          "value": "rankThresholds"
+        },
+        {
+          "constant_index": 13,
+          "value": "min"
+        },
+        {
+          "constant_index": 15,
+          "value": "huge"
+        },
+        {
+          "constant_index": 21,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 22,
+          "value": "absorbLV"
+        },
+        {
+          "constant_index": 23,
+          "value": "_absorbLvApplied"
+        },
+        {
+          "constant_index": 24,
+          "value": "floor"
+        },
+        {
+          "constant_index": 25,
+          "value": "max"
+        },
+        {
+          "constant_index": 26,
+          "value": "math"
+        },
+        {
+          "constant_index": 27,
+          "value": "absorbGrowthVersion"
+        },
+        {
+          "constant_index": 28,
+          "value": "evolution"
+        },
+        {
+          "constant_index": 29,
+          "value": "_absorbGrowthVersion"
+        },
+        {
+          "constant_index": 30,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 31,
+          "value": "stats"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            null,
+            0.5
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 5,
+          "array": [
+            null,
+            100,
+            0.8
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            60,
+            0.6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            45,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            30,
+            0.8
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 9,
+          "array": [
+            null,
+            null,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 14,
+          "array": [
+            null,
+            null,
+            0.2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 16,
+          "array": [
+            null,
+            30,
+            0.3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 17,
+          "array": [
+            null,
+            20,
+            0.45
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 18,
+          "array": [
+            null,
+            15,
+            0.6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 19,
+          "array": [
+            null,
+            10,
+            0.8
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 20,
+          "array": [
+            null,
+            5,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/63",
+      "argument_count": 2,
+      "instruction_count": 56,
+      "numeric_constants": [
+        1,
+        0.01,
+        0.005,
+        0.015
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hp"
+        },
+        {
+          "constant_index": 1,
+          "value": "aspd"
+        },
+        {
+          "constant_index": 2,
+          "value": "atk"
+        },
+        {
+          "constant_index": 4,
+          "value": "ratio"
+        },
+        {
+          "constant_index": 5,
+          "value": "min"
+        },
+        {
+          "constant_index": 6,
+          "value": "maxLevel"
+        },
+        {
+          "constant_index": 7,
+          "value": "absorbGrowthEfficiency"
+        },
+        {
+          "constant_index": 8,
+          "value": "evolution"
+        },
+        {
+          "constant_index": 9,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 10,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 11,
+          "value": "floor"
+        },
+        {
+          "constant_index": 12,
+          "value": "max"
+        },
+        {
+          "constant_index": 13,
+          "value": "math"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 3,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 1060,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 8,
+          "value": "probabilities"
+        },
+        {
+          "constant_index": 10,
+          "value": "order"
+        },
+        {
+          "constant_index": 13,
+          "value": "unitGrades"
+        },
+        {
+          "constant_index": 14,
+          "value": "early"
+        },
+        {
+          "constant_index": 17,
+          "value": "chances"
+        },
+        {
+          "constant_index": 21,
+          "value": "hiddenLuck"
+        },
+        {
+          "constant_index": 22,
+          "value": "symbolWeights"
+        },
+        {
+          "constant_index": 24,
+          "value": "winTiers"
+        },
+        {
+          "constant_index": 29,
+          "value": "slot"
+        },
+        {
+          "constant_index": 30,
+          "value": "wave"
+        },
+        {
+          "constant_index": 32,
+          "value": "rewardByRank"
+        },
+        {
+          "constant_index": 34,
+          "value": "spins"
+        },
+        {
+          "constant_index": 37,
+          "value": "economy"
+        },
+        {
+          "constant_index": 38,
+          "value": "maxTier"
+        },
+        {
+          "constant_index": 39,
+          "value": "mins"
+        },
+        {
+          "constant_index": 41,
+          "value": "rates"
+        },
+        {
+          "constant_index": 43,
+          "value": "A"
+        },
+        {
+          "constant_index": 45,
+          "value": "S"
+        },
+        {
+          "constant_index": 47,
+          "value": "W"
+        },
+        {
+          "constant_index": 50,
+          "value": "rankMultipliers"
+        },
+        {
+          "constant_index": 58,
+          "value": "classBonus"
+        },
+        {
+          "constant_index": 60,
+          "value": "rebaseLegacyAbsorbStats"
+        },
+        {
+          "constant_index": 62,
+          "value": "getAbsorbLvMultipliers"
+        },
+        {
+          "constant_index": 64,
+          "value": "absorbGrowthEfficiency"
+        },
+        {
+          "constant_index": 65,
+          "value": "maxLevel"
+        },
+        {
+          "constant_index": 67,
+          "value": "huge"
+        },
+        {
+          "constant_index": 68,
+          "value": "math"
+        },
+        {
+          "constant_index": 70,
+          "value": "aspdGrowth"
+        },
+        {
+          "constant_index": 72,
+          "value": "baseDeltaPWR"
+        },
+        {
+          "constant_index": 74,
+          "value": "maxRankByGrade"
+        },
+        {
+          "constant_index": 76,
+          "value": "rankThresholds"
+        },
+        {
+          "constant_index": 78,
+          "value": "prism"
+        },
+        {
+          "constant_index": 80,
+          "value": "legendary"
+        },
+        {
+          "constant_index": 82,
+          "value": "rare"
+        },
+        {
+          "constant_index": 84,
+          "value": "advanced"
+        },
+        {
+          "constant_index": 86,
+          "value": "special"
+        },
+        {
+          "constant_index": 88,
+          "value": "normal"
+        },
+        {
+          "constant_index": 91,
+          "value": "evolution"
+        },
+        {
+          "constant_index": 92,
+          "value": "absorb"
+        },
+        {
+          "constant_index": 93,
+          "value": "equalize"
+        },
+        {
+          "constant_index": 94,
+          "value": "bonusByVictim"
+        },
+        {
+          "constant_index": 97,
+          "value": "skill"
+        },
+        {
+          "constant_index": 99,
+          "value": "baseline"
+        },
+        {
+          "constant_index": 102,
+          "value": "power"
+        },
+        {
+          "constant_index": 103,
+          "value": "definitions"
+        },
+        {
+          "constant_index": 104,
+          "value": "amplify"
+        },
+        {
+          "constant_index": 116,
+          "value": "timeless"
+        },
+        {
+          "constant_index": 128,
+          "value": "undying_soul"
+        },
+        {
+          "constant_index": 140,
+          "value": "overlord"
+        },
+        {
+          "constant_index": 152,
+          "value": "colossus_descent"
+        },
+        {
+          "constant_index": 164,
+          "value": "ruin"
+        },
+        {
+          "constant_index": 176,
+          "value": "majesty"
+        },
+        {
+          "constant_index": 188,
+          "value": "revival"
+        },
+        {
+          "constant_index": 200,
+          "value": "soul_split"
+        },
+        {
+          "constant_index": 212,
+          "value": "shadow_clone"
+        },
+        {
+          "constant_index": 224,
+          "value": "meteor"
+        },
+        {
+          "constant_index": 236,
+          "value": "rewind"
+        },
+        {
+          "constant_index": 248,
+          "value": "annihilation"
+        },
+        {
+          "constant_index": 271,
+          "value": "execute"
+        },
+        {
+          "constant_index": 283,
+          "value": "enlarge"
+        },
+        {
+          "constant_index": 295,
+          "value": "shrink"
+        },
+        {
+          "constant_index": 307,
+          "value": "chill"
+        },
+        {
+          "constant_index": 319,
+          "value": "chain"
+        },
+        {
+          "constant_index": 331,
+          "value": "fear"
+        },
+        {
+          "constant_index": 343,
+          "value": "self_destruct"
+        },
+        {
+          "constant_index": 355,
+          "value": "lifesteal"
+        },
+        {
+          "constant_index": 367,
+          "value": "block"
+        },
+        {
+          "constant_index": 379,
+          "value": "poison"
+        },
+        {
+          "constant_index": 391,
+          "value": "knockback"
+        },
+        {
+          "constant_index": 403,
+          "value": "bash"
+        },
+        {
+          "constant_index": 415,
+          "value": "relentless"
+        },
+        {
+          "constant_index": 427,
+          "value": "overdrive"
+        },
+        {
+          "constant_index": 439,
+          "value": "transfer"
+        },
+        {
+          "constant_index": 451,
+          "value": "blind"
+        },
+        {
+          "constant_index": 463,
+          "value": "volley"
+        },
+        {
+          "constant_index": 475,
+          "value": "brace"
+        },
+        {
+          "constant_index": 487,
+          "value": "pierce"
+        },
+        {
+          "constant_index": 499,
+          "value": "fortify"
+        },
+        {
+          "constant_index": 501,
+          "value": "levels"
+        },
+        {
+          "constant_index": 510,
+          "value": "stats"
+        },
+        {
+          "constant_index": 514,
+          "value": "slots"
+        },
+        {
+          "constant_index": 517,
+          "value": "imprint"
+        },
+        {
+          "constant_index": 518,
+          "value": "labels"
+        },
+        {
+          "constant_index": 520,
+          "value": "aspd"
+        },
+        {
+          "constant_index": 523,
+          "value": "ui"
+        },
+        {
+          "constant_index": 524,
+          "value": "subtle"
+        },
+        {
+          "constant_index": 526,
+          "value": "text"
+        },
+        {
+          "constant_index": 528,
+          "value": "grid"
+        },
+        {
+          "constant_index": 530,
+          "value": "accent"
+        },
+        {
+          "constant_index": 532,
+          "value": "reelBg"
+        },
+        {
+          "constant_index": 534,
+          "value": "panelDark"
+        },
+        {
+          "constant_index": 536,
+          "value": "panel"
+        },
+        {
+          "constant_index": 538,
+          "value": "bg"
+        },
+        {
+          "constant_index": 541,
+          "value": "colors"
+        },
+        {
+          "constant_index": 542,
+          "value": "earthquake"
+        },
+        {
+          "constant_index": 545,
+          "value": "vfx"
+        },
+        {
+          "constant_index": 547,
+          "value": "virtual"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            0.8,
+            0.4,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 1,
+          "array": [
+            null,
+            0.9215686274509803,
+            0.5725490196078431,
+            0.16862745098039217,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            0.6,
+            0.75,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            0.6,
+            0.85,
+            0.65,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            0.9411764705882353,
+            0.30980392156862746,
+            0.8470588235294118,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": [
+            [
+              "prism",
+              "프리즘"
+            ],
+            [
+              "legendary",
+              "전설"
+            ],
+            [
+              "rare",
+              "희귀"
+            ],
+            [
+              "advanced",
+              "고급"
+            ],
+            [
+              "special",
+              "특수"
+            ],
+            [
+              "normal",
+              "일반"
+            ]
+          ]
+        },
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": [
+            [
+              "prism",
+              0
+            ],
+            [
+              "legendary",
+              0
+            ],
+            [
+              "rare",
+              0
+            ],
+            [
+              "advanced",
+              0
+            ],
+            [
+              "special",
+              0
+            ],
+            [
+              "normal",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 11,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 12,
+          "array": [
+            null,
+            "normal",
+            "advanced",
+            "rare",
+            "legendary",
+            "prism"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 15,
+          "array": [
+            null,
+            null,
+            null,
+            null,
+            0.2,
+            0.55,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 16,
+          "array": [],
+          "dictionary": [
+            [
+              "maxPermanentUnits",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 18,
+          "array": [
+            null,
+            null,
+            null,
+            0.25,
+            0.6,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 19,
+          "array": [],
+          "dictionary": [
+            [
+              "maxPermanentUnits",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 20,
+          "array": [],
+          "dictionary": [
+            [
+              "debugLogs",
+              false
+            ],
+            [
+              "debtMax",
+              3
+            ],
+            [
+              "debtMin",
+              -3
+            ],
+            [
+              "naturalWinProbability",
+              0.2274
+            ]
+          ]
+        },
+        {
+          "constant_index": 23,
+          "array": [],
+          "dictionary": [
+            [
+              "H",
+              0.15
+            ],
+            [
+              "S",
+              0.2
+            ],
+            [
+              "A",
+              0.2
+            ],
+            [
+              "M",
+              0.15
+            ],
+            [
+              "W",
+              0.2
+            ],
+            [
+              "D",
+              0.1
+            ]
+          ]
+        },
+        {
+          "constant_index": 25,
+          "array": [],
+          "dictionary": [
+            [
+              "labelKo",
+              "폭발!"
+            ],
+            [
+              "lines",
+              3
+            ],
+            [
+              "key",
+              "burst"
+            ],
+            [
+              "labelEn",
+              "Burst!"
+            ]
+          ]
+        },
+        {
+          "constant_index": 26,
+          "array": [],
+          "dictionary": [
+            [
+              "labelKo",
+              "폭주!"
+            ],
+            [
+              "lines",
+              4
+            ],
+            [
+              "key",
+              "overdrive"
+            ],
+            [
+              "labelEn",
+              "Overdrive!"
+            ]
+          ]
+        },
+        {
+          "constant_index": 27,
+          "array": [],
+          "dictionary": [
+            [
+              "labelKo",
+              "잭팟!"
+            ],
+            [
+              "lines",
+              5
+            ],
+            [
+              "key",
+              "jackpot"
+            ],
+            [
+              "labelEn",
+              "Jackpot!"
+            ]
+          ]
+        },
+        {
+          "constant_index": 28,
+          "array": [],
+          "dictionary": [
+            [
+              "winSuppressProb",
+              0
+            ],
+            [
+              "forceWinProb",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 31,
+          "array": [],
+          "dictionary": [
+            [
+              "survivalBonusMax",
+              10
+            ],
+            [
+              "fastClearTime",
+              20
+            ],
+            [
+              "fastClearBonusMax",
+              20
+            ],
+            [
+              "baseClear",
+              100
+            ],
+            [
+              "condolenceOnFail",
+              10
+            ]
+          ]
+        },
+        {
+          "constant_index": 33,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 35,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 36,
+          "array": [],
+          "dictionary": [
+            [
+              "paidCostStep",
+              50
+            ],
+            [
+              "paidStartCost",
+              100
+            ],
+            [
+              "freePerWave",
+              3
+            ],
+            [
+              "refundOnFail",
+              0
+            ],
+            [
+              "paidMaxPerWave",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 40,
+          "array": [],
+          "dictionary": [
+            [
+              "aspd",
+              0.1
+            ],
+            [
+              "hp",
+              6
+            ],
+            [
+              "atk",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 42,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 44,
+          "array": [],
+          "dictionary": [
+            [
+              "aspd",
+              0.03
+            ]
+          ]
+        },
+        {
+          "constant_index": 46,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              0.04
+            ]
+          ]
+        },
+        {
+          "constant_index": 48,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 49,
+          "array": [],
+          "dictionary": [
+            [
+              "hp",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 51,
+          "array": [
+            null,
+            1,
+            4.2,
+            12.8
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 52,
+          "array": [
+            null,
+            1,
+            3.6,
+            9.5
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 53,
+          "array": [
+            null,
+            1,
+            3.1,
+            7.2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 54,
+          "array": [
+            null,
+            1,
+            2.7,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 55,
+          "array": [
+            null,
+            1,
+            3.1,
+            7.2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 56,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 57,
+          "array": [
+            null,
+            1,
+            2.2,
+            4.8
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 59,
+          "array": [],
+          "dictionary": [
+            [
+              "S",
+              0.3
+            ],
+            [
+              "W",
+              0.35
+            ],
+            [
+              "A",
+              0.35
+            ]
+          ]
+        },
+        {
+          "constant_index": 66,
+          "array": [],
+          "dictionary": [
+            [
+              "ratio",
+              0.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 69,
+          "array": [],
+          "dictionary": [
+            [
+              "maxLevel",
+              30
+            ],
+            [
+              "ratio",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 71,
+          "array": [],
+          "dictionary": [
+            [
+              "displayDeltaMul",
+              8
+            ],
+            [
+              "internalScale",
+              0.35
+            ],
+            [
+              "maxDeltaRel",
+              0.35
+            ],
+            [
+              "maxDeltaPerAbsorb",
+              1.2
+            ]
+          ]
+        },
+        {
+          "constant_index": 73,
+          "array": [],
+          "dictionary": [
+            [
+              "base",
+              58
+            ],
+            [
+              "scaleByAbsorber",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 75,
+          "array": [],
+          "dictionary": [
+            [
+              "prism",
+              3
+            ],
+            [
+              "legendary",
+              3
+            ],
+            [
+              "rare",
+              3
+            ],
+            [
+              "advanced",
+              3
+            ],
+            [
+              "special",
+              3
+            ],
+            [
+              "normal",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 77,
+          "array": [],
+          "dictionary": [
+            [
+              "absorbGrowthVersion",
+              3
+            ],
+            [
+              "maxTierBonus",
+              1.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 79,
+          "array": [],
+          "dictionary": [
+            [
+              2.0,
+              16
+            ],
+            [
+              3.0,
+              28
+            ]
+          ]
+        },
+        {
+          "constant_index": 81,
+          "array": [],
+          "dictionary": [
+            [
+              2.0,
+              10
+            ],
+            [
+              3.0,
+              20
+            ]
+          ]
+        },
+        {
+          "constant_index": 83,
+          "array": [],
+          "dictionary": [
+            [
+              2.0,
+              8
+            ],
+            [
+              3.0,
+              18
+            ]
+          ]
+        },
+        {
+          "constant_index": 85,
+          "array": [],
+          "dictionary": [
+            [
+              2.0,
+              6
+            ],
+            [
+              3.0,
+              14
+            ]
+          ]
+        },
+        {
+          "constant_index": 87,
+          "array": [],
+          "dictionary": [
+            [
+              2.0,
+              8
+            ],
+            [
+              3.0,
+              18
+            ]
+          ]
+        },
+        {
+          "constant_index": 89,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 90,
+          "array": [],
+          "dictionary": [
+            [
+              2.0,
+              5
+            ],
+            [
+              3.0,
+              12
+            ]
+          ]
+        },
+        {
+          "constant_index": 95,
+          "array": [],
+          "dictionary": [
+            [
+              "powerPerPower",
+              0.6
+            ],
+            [
+              "enabled",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 96,
+          "array": [],
+          "dictionary": [
+            [
+              "hpPerPower",
+              0.3
+            ],
+            [
+              "gaugePerPower",
+              0.0045
+            ],
+            [
+              "aspdPerPower",
+              0.035
+            ],
+            [
+              "atkPerPower",
+              0.09
+            ]
+          ]
+        },
+        {
+          "constant_index": 98,
+          "array": [],
+          "dictionary": [
+            [
+              "expectedSecondaryTargetRate",
+              0.45
+            ],
+            [
+              "encounterHorizon",
+              12
+            ],
+            [
+              "maxUtilityRatio",
+              0.45
+            ],
+            [
+              "utilityWeight",
+              0.75
+            ]
+          ]
+        },
+        {
+          "constant_index": 100,
+          "array": [],
+          "dictionary": [
+            [
+              "ATK0",
+              9
+            ],
+            [
+              "HP0",
+              70
+            ],
+            [
+              "ASPD0",
+              1.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 101,
+          "array": [],
+          "dictionary": [
+            [
+              "aspdTau",
+              0.08
+            ],
+            [
+              "betaASPD",
+              1.1
+            ],
+            [
+              "betaAtk",
+              0.7
+            ],
+            [
+              "beta",
+              0.8
+            ],
+            [
+              "alpha",
+              0.6
+            ]
+          ]
+        },
+        {
+          "constant_index": 105,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "스킬 크기 50% 증가"
+            ],
+            [
+              "shortDesc",
+              "범위증가"
+            ]
+          ]
+        },
+        {
+          "constant_index": 106,
+          "array": [],
+          "dictionary": [
+            [
+              "skillRangeMult",
+              1.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 107,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "스킬 크기 45% 증가"
+            ],
+            [
+              "shortDesc",
+              "범위증가"
+            ]
+          ]
+        },
+        {
+          "constant_index": 108,
+          "array": [],
+          "dictionary": [
+            [
+              "skillRangeMult",
+              1.45
+            ]
+          ]
+        },
+        {
+          "constant_index": 109,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "스킬 크기 40% 증가"
+            ],
+            [
+              "shortDesc",
+              "범위증가"
+            ]
+          ]
+        },
+        {
+          "constant_index": 110,
+          "array": [],
+          "dictionary": [
+            [
+              "skillRangeMult",
+              1.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 111,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "스킬 크기 35% 증가"
+            ],
+            [
+              "shortDesc",
+              "범위증가"
+            ]
+          ]
+        },
+        {
+          "constant_index": 112,
+          "array": [],
+          "dictionary": [
+            [
+              "skillRangeMult",
+              1.35
+            ]
+          ]
+        },
+        {
+          "constant_index": 113,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "스킬 크기 30% 증가"
+            ],
+            [
+              "shortDesc",
+              "범위증가"
+            ]
+          ]
+        },
+        {
+          "constant_index": 114,
+          "array": [],
+          "dictionary": [
+            [
+              "skillRangeMult",
+              1.3
+            ]
+          ]
+        },
+        {
+          "constant_index": 115,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "스킬 발동 시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/skillsizeupgrade.png"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "증폭 (스킬)"
+            ],
+            [
+              "id",
+              "amplify"
+            ],
+            [
+              "shortDesc",
+              "범위증가"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/01Amplify.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 117,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 6초동안 시간을 정지 시킨다"
+            ],
+            [
+              "shortDesc",
+              "시간정지"
+            ]
+          ]
+        },
+        {
+          "constant_index": 118,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "icd",
+              5
+            ],
+            [
+              "duration",
+              6
+            ]
+          ]
+        },
+        {
+          "constant_index": 119,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 15% 확률로 5초동안 시간을 정지 시킨다"
+            ],
+            [
+              "shortDesc",
+              "시간정지"
+            ]
+          ]
+        },
+        {
+          "constant_index": 120,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.15
+            ],
+            [
+              "icd",
+              5
+            ],
+            [
+              "duration",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 121,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 12% 확률로 4초동안 시간을 정지 시킨다"
+            ],
+            [
+              "shortDesc",
+              "시간정지"
+            ]
+          ]
+        },
+        {
+          "constant_index": 122,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.12
+            ],
+            [
+              "icd",
+              5
+            ],
+            [
+              "duration",
+              4
+            ]
+          ]
+        },
+        {
+          "constant_index": 123,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 10% 확률로 3.5초동안 시간을 정지 시킨다"
+            ],
+            [
+              "shortDesc",
+              "시간정지"
+            ]
+          ]
+        },
+        {
+          "constant_index": 124,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.1
+            ],
+            [
+              "icd",
+              5
+            ],
+            [
+              "duration",
+              3.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 125,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 8% 확률로 3초동안 시간을 정지 시킨다"
+            ],
+            [
+              "shortDesc",
+              "시간정지"
+            ]
+          ]
+        },
+        {
+          "constant_index": 126,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.08
+            ],
+            [
+              "icd",
+              5
+            ],
+            [
+              "duration",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 127,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격 시 8% 확률로"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/hourglass.png"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "타임리스"
+            ],
+            [
+              "id",
+              "timeless"
+            ],
+            [
+              "shortDesc",
+              "시간정지"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/05Timeless.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 129,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시, 공격력 120%의 불사혼 상태로 전투에 남는다"
+            ],
+            [
+              "shortDesc",
+              "사후전투"
+            ]
+          ]
+        },
+        {
+          "constant_index": 130,
+          "array": [],
+          "dictionary": [
+            [
+              "atkFrac",
+              1.2
+            ]
+          ]
+        },
+        {
+          "constant_index": 131,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시, 공격력 100%의 불사혼 상태로 전투에 남는다"
+            ],
+            [
+              "shortDesc",
+              "사후전투"
+            ]
+          ]
+        },
+        {
+          "constant_index": 132,
+          "array": [],
+          "dictionary": [
+            [
+              "atkFrac",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 133,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시, 공격력 80%의 불사혼 상태로 전투에 남는다"
+            ],
+            [
+              "shortDesc",
+              "사후전투"
+            ]
+          ]
+        },
+        {
+          "constant_index": 134,
+          "array": [],
+          "dictionary": [
+            [
+              "atkFrac",
+              0.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 135,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시, 공격력 60%의 불사혼 상태로 전투에 남는다"
+            ],
+            [
+              "shortDesc",
+              "사후전투"
+            ]
+          ]
+        },
+        {
+          "constant_index": 136,
+          "array": [],
+          "dictionary": [
+            [
+              "atkFrac",
+              0.6
+            ]
+          ]
+        },
+        {
+          "constant_index": 137,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시, 공격력 40%의 불사혼 상태로 전투에 남는다"
+            ],
+            [
+              "shortDesc",
+              "사후전투"
+            ]
+          ]
+        },
+        {
+          "constant_index": 138,
+          "array": [],
+          "dictionary": [
+            [
+              "atkFrac",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 139,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "사망 시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/holy.png"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "불사혼"
+            ],
+            [
+              "id",
+              "undying_soul"
+            ],
+            [
+              "shortDesc",
+              "사후전투"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/05UndyingSoul.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 141,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "처치한 모든 종류의 적을 최대 4명 부하로 만들고 그림자들이 더욱 강해진다"
+            ],
+            [
+              "shortDesc",
+              "그림자 군주"
+            ]
+          ]
+        },
+        {
+          "constant_index": 142,
+          "array": [],
+          "dictionary": [
+            [
+              "pwrMul",
+              4
+            ],
+            [
+              "maxFollowers",
+              4
+            ]
+          ]
+        },
+        {
+          "constant_index": 143,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "처치한 모든 종류의 적을 최대 4명 부하로 만들고 그림자들이 더 강해진다"
+            ],
+            [
+              "shortDesc",
+              "그림자 군주"
+            ]
+          ]
+        },
+        {
+          "constant_index": 144,
+          "array": [],
+          "dictionary": [
+            [
+              "pwrMul",
+              2
+            ],
+            [
+              "maxFollowers",
+              4
+            ]
+          ]
+        },
+        {
+          "constant_index": 145,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "처치한 모든 종류의 적을 최대 4명 부하로 만든다"
+            ],
+            [
+              "shortDesc",
+              "그림자 군주"
+            ]
+          ]
+        },
+        {
+          "constant_index": 146,
+          "array": [],
+          "dictionary": [
+            [
+              "pwrMul",
+              1
+            ],
+            [
+              "maxFollowers",
+              4
+            ]
+          ]
+        },
+        {
+          "constant_index": 147,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "처치한 모든 종류의 적을 최대 3명 부하로 만든다"
+            ],
+            [
+              "shortDesc",
+              "그림자 군주"
+            ]
+          ]
+        },
+        {
+          "constant_index": 148,
+          "array": [],
+          "dictionary": [
+            [
+              "pwrMul",
+              1
+            ],
+            [
+              "maxFollowers",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 149,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "처치한 모든 종류의 적을 최대 2명 부하로 만든다"
+            ],
+            [
+              "shortDesc",
+              "그림자 군주"
+            ]
+          ]
+        },
+        {
+          "constant_index": 150,
+          "array": [],
+          "dictionary": [
+            [
+              "pwrMul",
+              1
+            ],
+            [
+              "maxFollowers",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 151,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "적 처치 후"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/fear.png"
+            ],
+            [
+              "tag",
+              "spawn"
+            ],
+            [
+              "name",
+              "군주"
+            ],
+            [
+              "id",
+              "overlord"
+            ],
+            [
+              "shortDesc",
+              "그림자 군주"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/05Overlord.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 153,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "유닛의 체력 400%, 공격력 90%인 거신을 소환한다. 거신이 넉백후 적을 0.8초 기절 시킨다"
+            ],
+            [
+              "shortDesc",
+              "거신소환"
+            ]
+          ]
+        },
+        {
+          "constant_index": 154,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              4
+            ],
+            [
+              "skillEvery",
+              5
+            ],
+            [
+              "respawn",
+              3
+            ],
+            [
+              "atkFrac",
+              0.9
+            ],
+            [
+              "stun",
+              0.8
+            ],
+            [
+              "skillDmg",
+              3
+            ],
+            [
+              "knockback",
+              32
+            ],
+            [
+              "skillTargets",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 155,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "유닛의 체력 340%, 공격력 75%인 거신을 소환한다. 거신이 넉백후 적을 0.6초 기절 시킨다"
+            ],
+            [
+              "shortDesc",
+              "거신소환"
+            ]
+          ]
+        },
+        {
+          "constant_index": 156,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              3.4
+            ],
+            [
+              "skillEvery",
+              5
+            ],
+            [
+              "respawn",
+              3
+            ],
+            [
+              "atkFrac",
+              0.75
+            ],
+            [
+              "stun",
+              0.6
+            ],
+            [
+              "skillDmg",
+              2.4
+            ],
+            [
+              "knockback",
+              28
+            ],
+            [
+              "skillTargets",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 157,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "유닛의 체력 300%, 공격력 60%인 거신을 소환한다. 거신이 넉백후 적을 0.4초 기절 시킨다"
+            ],
+            [
+              "shortDesc",
+              "거신소환"
+            ]
+          ]
+        },
+        {
+          "constant_index": 158,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              3
+            ],
+            [
+              "skillEvery",
+              5
+            ],
+            [
+              "respawn",
+              3
+            ],
+            [
+              "atkFrac",
+              0.6
+            ],
+            [
+              "stun",
+              0.4
+            ],
+            [
+              "skillDmg",
+              2
+            ],
+            [
+              "knockback",
+              25
+            ],
+            [
+              "skillTargets",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 159,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "유닛의 체력 240%, 공격력 50%인 거신을 소환한다."
+            ],
+            [
+              "shortDesc",
+              "거신소환"
+            ]
+          ]
+        },
+        {
+          "constant_index": 160,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              2.4
+            ],
+            [
+              "skillEvery",
+              5
+            ],
+            [
+              "respawn",
+              3
+            ],
+            [
+              "atkFrac",
+              0.5
+            ],
+            [
+              "stun",
+              0
+            ],
+            [
+              "skillDmg",
+              1.4
+            ],
+            [
+              "knockback",
+              22
+            ],
+            [
+              "skillTargets",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 161,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "유닛의 체력 200%, 공격력 40%인 거신을 소환한다."
+            ],
+            [
+              "shortDesc",
+              "거신소환"
+            ]
+          ]
+        },
+        {
+          "constant_index": 162,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              2
+            ],
+            [
+              "skillEvery",
+              5
+            ],
+            [
+              "respawn",
+              3
+            ],
+            [
+              "atkFrac",
+              0.4
+            ],
+            [
+              "stun",
+              0
+            ],
+            [
+              "skillDmg",
+              1
+            ],
+            [
+              "knockback",
+              20
+            ],
+            [
+              "skillTargets",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 163,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "상시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/golem.png"
+            ],
+            [
+              "tag",
+              "spawn"
+            ],
+            [
+              "name",
+              "거신강림"
+            ],
+            [
+              "id",
+              "colossus_descent"
+            ],
+            [
+              "shortDesc",
+              "거신소환"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/05ColossusDescent.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 165,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "존재만으로 모든 적이 1초마다 해당 유닛 공격력의 20% 지속 피해를 받는다."
+            ],
+            [
+              "shortDesc",
+              "지속압살"
+            ]
+          ]
+        },
+        {
+          "constant_index": 166,
+          "array": [],
+          "dictionary": [
+            [
+              "dotRatio",
+              0.2
+            ]
+          ]
+        },
+        {
+          "constant_index": 167,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "존재만으로 모든 적이 1초마다 해당 유닛 공격력의 16% 지속 피해를 받는다."
+            ],
+            [
+              "shortDesc",
+              "지속압살"
+            ]
+          ]
+        },
+        {
+          "constant_index": 168,
+          "array": [],
+          "dictionary": [
+            [
+              "dotRatio",
+              0.16
+            ]
+          ]
+        },
+        {
+          "constant_index": 169,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "존재만으로 모든 적이 1초마다 해당 유닛 공격력의 12% 지속 피해를 받는다."
+            ],
+            [
+              "shortDesc",
+              "지속압살"
+            ]
+          ]
+        },
+        {
+          "constant_index": 170,
+          "array": [],
+          "dictionary": [
+            [
+              "dotRatio",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 171,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "존재만으로 모든 적이 1초마다 해당 유닛 공격력의 9% 지속 피해를 받는다."
+            ],
+            [
+              "shortDesc",
+              "지속압살"
+            ]
+          ]
+        },
+        {
+          "constant_index": 172,
+          "array": [],
+          "dictionary": [
+            [
+              "dotRatio",
+              0.09
+            ]
+          ]
+        },
+        {
+          "constant_index": 173,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "존재만으로 모든 적이 1초마다 해당 유닛 공격력의 6% 지속 피해를 받는다."
+            ],
+            [
+              "shortDesc",
+              "지속압살"
+            ]
+          ]
+        },
+        {
+          "constant_index": 174,
+          "array": [],
+          "dictionary": [
+            [
+              "dotRatio",
+              0.06
+            ]
+          ]
+        },
+        {
+          "constant_index": 175,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "상시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/eye.png"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "섬멸"
+            ],
+            [
+              "id",
+              "ruin"
+            ],
+            [
+              "shortDesc",
+              "지속압살"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/05Ruin.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 177,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "존재만으로 모든 적의 공격력 -42%, 최대 체력 -45% 감소"
+            ],
+            [
+              "shortDesc",
+              "적 약화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 178,
+          "array": [],
+          "dictionary": [
+            [
+              "atkDebuff",
+              0.42
+            ],
+            [
+              "hpDebuff",
+              0.45
+            ]
+          ]
+        },
+        {
+          "constant_index": 179,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "존재만으로 모든 적의 공격력 -35%, 최대 체력 -38% 감소"
+            ],
+            [
+              "shortDesc",
+              "적 약화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 180,
+          "array": [],
+          "dictionary": [
+            [
+              "atkDebuff",
+              0.35
+            ],
+            [
+              "hpDebuff",
+              0.38
+            ]
+          ]
+        },
+        {
+          "constant_index": 181,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "존재만으로 모든 적의 공격력 -27%, 최대 체력 -30% 감소"
+            ],
+            [
+              "shortDesc",
+              "적 약화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 182,
+          "array": [],
+          "dictionary": [
+            [
+              "atkDebuff",
+              0.27
+            ],
+            [
+              "hpDebuff",
+              0.3
+            ]
+          ]
+        },
+        {
+          "constant_index": 183,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "존재만으로 모든 적의 공격력 -20%, 최대 체력 -23% 감소"
+            ],
+            [
+              "shortDesc",
+              "적 약화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 184,
+          "array": [],
+          "dictionary": [
+            [
+              "atkDebuff",
+              0.2
+            ],
+            [
+              "hpDebuff",
+              0.23
+            ]
+          ]
+        },
+        {
+          "constant_index": 185,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "존재만으로 모든 적의 공격력 -12%, 최대 체력 -15% 감소"
+            ],
+            [
+              "shortDesc",
+              "적 약화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 186,
+          "array": [],
+          "dictionary": [
+            [
+              "atkDebuff",
+              0.12
+            ],
+            [
+              "hpDebuff",
+              0.15
+            ]
+          ]
+        },
+        {
+          "constant_index": 187,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "상시 (생존 시)"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/angry.png"
+            ],
+            [
+              "tag",
+              "debuff"
+            ],
+            [
+              "name",
+              "위엄"
+            ],
+            [
+              "id",
+              "majesty"
+            ],
+            [
+              "shortDesc",
+              "적 약화"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/05Majesty.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 189,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시 한 번 부활한다. 체력 80%으로 되살아나며 공격력 +40% (8초)"
+            ],
+            [
+              "shortDesc",
+              "전장복귀"
+            ]
+          ]
+        },
+        {
+          "constant_index": 190,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              0.8
+            ],
+            [
+              "atkBoost",
+              0.4
+            ],
+            [
+              "duration",
+              8
+            ]
+          ]
+        },
+        {
+          "constant_index": 191,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시 한 번 부활한다. 체력 70%으로 되살아나며 공격력 +35% (7초)"
+            ],
+            [
+              "shortDesc",
+              "전장복귀"
+            ]
+          ]
+        },
+        {
+          "constant_index": 192,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              0.7
+            ],
+            [
+              "atkBoost",
+              0.35
+            ],
+            [
+              "duration",
+              7
+            ]
+          ]
+        },
+        {
+          "constant_index": 193,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시 한 번 부활한다. 체력 60%으로 되살아나며 공격력 +30% (6초)"
+            ],
+            [
+              "shortDesc",
+              "전장복귀"
+            ]
+          ]
+        },
+        {
+          "constant_index": 194,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              0.6
+            ],
+            [
+              "atkBoost",
+              0.3
+            ],
+            [
+              "duration",
+              6
+            ]
+          ]
+        },
+        {
+          "constant_index": 195,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시 한 번 부활한다. 체력 50%으로 되살아나며 공격력 +25% (5초)"
+            ],
+            [
+              "shortDesc",
+              "전장복귀"
+            ]
+          ]
+        },
+        {
+          "constant_index": 196,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              0.5
+            ],
+            [
+              "atkBoost",
+              0.25
+            ],
+            [
+              "duration",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 197,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시 한 번 부활한다. 체력 40%으로 되살아나며 공격력 +20% (4초)"
+            ],
+            [
+              "shortDesc",
+              "전장복귀"
+            ]
+          ]
+        },
+        {
+          "constant_index": 198,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              0.4
+            ],
+            [
+              "atkBoost",
+              0.2
+            ],
+            [
+              "duration",
+              4
+            ]
+          ]
+        },
+        {
+          "constant_index": 199,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "사망 시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/cross.png"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "부활"
+            ],
+            [
+              "id",
+              "revival"
+            ],
+            [
+              "shortDesc",
+              "전장복귀"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/04Revival.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 201,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 적중 시 적의 영혼을 5초 동안 몸 밖으로 끄집어낸다. 영혼이 받는 피해는 본체에도 그대로 전달된다."
+            ],
+            [
+              "shortDesc",
+              "영혼분리"
+            ]
+          ]
+        },
+        {
+          "constant_index": 202,
+          "array": [],
+          "dictionary": [
+            [
+              "duration",
+              5
+            ],
+            [
+              "icd",
+              8
+            ]
+          ]
+        },
+        {
+          "constant_index": 203,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 적중 시 적의 영혼을 4.5초 동안 몸 밖으로 끄집어낸다. 영혼이 받는 피해는 본체에도 그대로 전달된다."
+            ],
+            [
+              "shortDesc",
+              "영혼분리"
+            ]
+          ]
+        },
+        {
+          "constant_index": 204,
+          "array": [],
+          "dictionary": [
+            [
+              "duration",
+              4.5
+            ],
+            [
+              "icd",
+              8
+            ]
+          ]
+        },
+        {
+          "constant_index": 205,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 적중 시 적의 영혼을 4초 동안 몸 밖으로 끄집어낸다. 영혼이 받는 피해는 본체에도 그대로 전달된다."
+            ],
+            [
+              "shortDesc",
+              "영혼분리"
+            ]
+          ]
+        },
+        {
+          "constant_index": 206,
+          "array": [],
+          "dictionary": [
+            [
+              "duration",
+              4
+            ],
+            [
+              "icd",
+              8
+            ]
+          ]
+        },
+        {
+          "constant_index": 207,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 적중 시 적의 영혼을 3.5초 동안 몸 밖으로 끄집어낸다. 영혼이 받는 피해는 본체에도 그대로 전달된다."
+            ],
+            [
+              "shortDesc",
+              "영혼분리"
+            ]
+          ]
+        },
+        {
+          "constant_index": 208,
+          "array": [],
+          "dictionary": [
+            [
+              "duration",
+              3.5
+            ],
+            [
+              "icd",
+              8
+            ]
+          ]
+        },
+        {
+          "constant_index": 209,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 적중 시 적의 영혼을 3초 동안 몸 밖으로 끄집어낸다. 영혼이 받는 피해는 본체에도 그대로 전달된다."
+            ],
+            [
+              "shortDesc",
+              "영혼분리"
+            ]
+          ]
+        },
+        {
+          "constant_index": 210,
+          "array": [],
+          "dictionary": [
+            [
+              "duration",
+              3
+            ],
+            [
+              "icd",
+              8
+            ]
+          ]
+        },
+        {
+          "constant_index": 211,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "기본 공격 적중 시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/soul.png"
+            ],
+            [
+              "tag",
+              "spawn"
+            ],
+            [
+              "name",
+              "영혼 분리"
+            ],
+            [
+              "id",
+              "soul_split"
+            ],
+            [
+              "shortDesc",
+              "영혼분리"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/04SoulSplit.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 213,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "본체와 비슷한 강함의 분신을 소환해 함께 싸운다. 분신이 쓰러지면 2초 후 다시 소환된다"
+            ],
+            [
+              "shortDesc",
+              "그림자분신"
+            ]
+          ]
+        },
+        {
+          "constant_index": 214,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              0.75
+            ],
+            [
+              "dur",
+              8
+            ],
+            [
+              "respawn",
+              2
+            ],
+            [
+              "atkFrac",
+              0.9
+            ]
+          ]
+        },
+        {
+          "constant_index": 215,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "더욱 강력한 분신을 소환해 함께 싸운다. 분신이 쓰러지면 2초 후 다시 소환된다"
+            ],
+            [
+              "shortDesc",
+              "그림자분신"
+            ]
+          ]
+        },
+        {
+          "constant_index": 216,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              0.7
+            ],
+            [
+              "dur",
+              8
+            ],
+            [
+              "respawn",
+              2
+            ],
+            [
+              "atkFrac",
+              0.85
+            ]
+          ]
+        },
+        {
+          "constant_index": 217,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "강력한 분신을 소환해 함께 싸운다. 분신이 쓰러지면 2초 후 다시 소환된다"
+            ],
+            [
+              "shortDesc",
+              "그림자분신"
+            ]
+          ]
+        },
+        {
+          "constant_index": 218,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              0.65
+            ],
+            [
+              "dur",
+              8
+            ],
+            [
+              "respawn",
+              2
+            ],
+            [
+              "atkFrac",
+              0.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 219,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "더 강한 분신을 소환해 함께 싸운다. 분신이 쓰러지면 2초 후 다시 소환된다"
+            ],
+            [
+              "shortDesc",
+              "그림자분신"
+            ]
+          ]
+        },
+        {
+          "constant_index": 220,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              0.6
+            ],
+            [
+              "dur",
+              8
+            ],
+            [
+              "respawn",
+              2
+            ],
+            [
+              "atkFrac",
+              0.75
+            ]
+          ]
+        },
+        {
+          "constant_index": 221,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "분신을 소환해 함께 싸운다. 분신이 쓰러지면 2초 후 다시 소환된다"
+            ],
+            [
+              "shortDesc",
+              "그림자분신"
+            ]
+          ]
+        },
+        {
+          "constant_index": 222,
+          "array": [],
+          "dictionary": [
+            [
+              "hpFrac",
+              0.55
+            ],
+            [
+              "dur",
+              8
+            ],
+            [
+              "respawn",
+              2
+            ],
+            [
+              "atkFrac",
+              0.7
+            ]
+          ]
+        },
+        {
+          "constant_index": 223,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "상시 (전투 시)"
+            ],
+            [
+              "tag",
+              "spawn"
+            ],
+            [
+              "name",
+              "분신술"
+            ],
+            [
+              "id",
+              "shadow_clone"
+            ],
+            [
+              "shortDesc",
+              "그림자분신"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/04ShadowClone.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 225,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 시 10% 확률로 메테오를 떨어뜨려 주변 적 최대 3명에게 각각 {atk.png} 300% 피해를 줍니다. 자신의 최대 {hp.png}가 높을수록 운석과 폭발 범위가 커집니다."
+            ],
+            [
+              "shortDesc",
+              "대재앙"
+            ]
+          ]
+        },
+        {
+          "constant_index": 226,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.1
+            ],
+            [
+              "icd",
+              8
+            ],
+            [
+              "damageMult",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 227,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 시 10% 확률로 메테오를 떨어뜨려 주변 적 최대 3명에게 각각 {atk.png} 270% 피해를 줍니다. 자신의 최대 {hp.png}가 높을수록 운석과 폭발 범위가 커집니다."
+            ],
+            [
+              "shortDesc",
+              "대재앙"
+            ]
+          ]
+        },
+        {
+          "constant_index": 228,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.1
+            ],
+            [
+              "icd",
+              8
+            ],
+            [
+              "damageMult",
+              2.7
+            ]
+          ]
+        },
+        {
+          "constant_index": 229,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 시 10% 확률로 메테오를 떨어뜨려 주변 적 최대 3명에게 각각 {atk.png} 240% 피해를 줍니다. 자신의 최대 {hp.png}가 높을수록 운석과 폭발 범위가 커집니다."
+            ],
+            [
+              "shortDesc",
+              "대재앙"
+            ]
+          ]
+        },
+        {
+          "constant_index": 230,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.1
+            ],
+            [
+              "icd",
+              8
+            ],
+            [
+              "damageMult",
+              2.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 231,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 시 10% 확률로 메테오를 떨어뜨려 주변 적 최대 3명에게 각각 {atk.png} 210% 피해를 줍니다. 자신의 최대 {hp.png}가 높을수록 운석과 폭발 범위가 커집니다."
+            ],
+            [
+              "shortDesc",
+              "대재앙"
+            ]
+          ]
+        },
+        {
+          "constant_index": 232,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.1
+            ],
+            [
+              "icd",
+              8
+            ],
+            [
+              "damageMult",
+              2.1
+            ]
+          ]
+        },
+        {
+          "constant_index": 233,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 시 10% 확률로 메테오를 떨어뜨려 주변 적 최대 3명에게 각각 {atk.png} 180% 피해를 줍니다. 자신의 최대 {hp.png}가 높을수록 운석과 폭발 범위가 커집니다."
+            ],
+            [
+              "shortDesc",
+              "대재앙"
+            ]
+          ]
+        },
+        {
+          "constant_index": 234,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.1
+            ],
+            [
+              "icd",
+              8
+            ],
+            [
+              "damageMult",
+              1.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 235,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "기본 공격 시 10% 확률"
+            ],
+            [
+              "tag",
+              "spawn"
+            ],
+            [
+              "name",
+              "메테오"
+            ],
+            [
+              "id",
+              "meteor"
+            ],
+            [
+              "shortDesc",
+              "대재앙"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/04Meteor.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 237,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "첫 피해 직전의 체력과 위치를 기록합니다. 3초 뒤 기록한 위치로 돌아가며, 그동안 잃은 {hp.png}의 100%를 되돌립니다."
+            ],
+            [
+              "shortDesc",
+              "시간회귀"
+            ]
+          ]
+        },
+        {
+          "constant_index": 238,
+          "array": [],
+          "dictionary": [
+            [
+              "restore",
+              1
+            ],
+            [
+              "window",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 239,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "첫 피해 직전의 체력과 위치를 기록합니다. 3초 뒤 기록한 위치로 돌아가며, 그동안 잃은 {hp.png}의 90%를 되돌립니다."
+            ],
+            [
+              "shortDesc",
+              "시간회귀"
+            ]
+          ]
+        },
+        {
+          "constant_index": 240,
+          "array": [],
+          "dictionary": [
+            [
+              "restore",
+              0.9
+            ],
+            [
+              "window",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 241,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "첫 피해 직전의 체력과 위치를 기록합니다. 3초 뒤 기록한 위치로 돌아가며, 그동안 잃은 {hp.png}의 80%를 되돌립니다."
+            ],
+            [
+              "shortDesc",
+              "시간회귀"
+            ]
+          ]
+        },
+        {
+          "constant_index": 242,
+          "array": [],
+          "dictionary": [
+            [
+              "restore",
+              0.8
+            ],
+            [
+              "window",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 243,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "첫 피해 직전의 체력과 위치를 기록합니다. 3초 뒤 기록한 위치로 돌아가며, 그동안 잃은 {hp.png}의 70%를 되돌립니다."
+            ],
+            [
+              "shortDesc",
+              "시간회귀"
+            ]
+          ]
+        },
+        {
+          "constant_index": 244,
+          "array": [],
+          "dictionary": [
+            [
+              "restore",
+              0.7
+            ],
+            [
+              "window",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 245,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "첫 피해 직전의 체력과 위치를 기록합니다. 3초 뒤 기록한 위치로 돌아가며, 그동안 잃은 {hp.png}의 60%를 되돌립니다."
+            ],
+            [
+              "shortDesc",
+              "시간회귀"
+            ]
+          ]
+        },
+        {
+          "constant_index": 246,
+          "array": [],
+          "dictionary": [
+            [
+              "restore",
+              0.6
+            ],
+            [
+              "window",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 247,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "적에게 처음 체력 피해를 받은 뒤 3초"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/hourglass.png"
+            ],
+            [
+              "tag",
+              "body"
+            ],
+            [
+              "name",
+              "회귀"
+            ],
+            [
+              "id",
+              "rewind"
+            ],
+            [
+              "shortDesc",
+              "시간회귀"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/04Rewind.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 249,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 35% 확률로 주변 최대 5명의 적에게 공격력 300%의 궤멸 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "광역궤멸"
+            ]
+          ]
+        },
+        {
+          "constant_index": 250,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.35
+            ],
+            [
+              "range",
+              60
+            ],
+            [
+              "damageMult",
+              3
+            ],
+            [
+              "maxTargets",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 251,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 35% 확률로 주변 최대 5명의 적에게 공격력 250%의 궤멸 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "광역궤멸"
+            ]
+          ]
+        },
+        {
+          "constant_index": 252,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.35
+            ],
+            [
+              "range",
+              60
+            ],
+            [
+              "damageMult",
+              2.5
+            ],
+            [
+              "maxTargets",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 253,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 35% 확률로 주변 최대 5명의 적에게 공격력 210%의 궤멸 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "광역궤멸"
+            ]
+          ]
+        },
+        {
+          "constant_index": 254,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.35
+            ],
+            [
+              "range",
+              60
+            ],
+            [
+              "damageMult",
+              2.1
+            ],
+            [
+              "maxTargets",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 255,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 35% 확률로 주변 최대 5명의 적에게 공격력 180%의 궤멸 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "광역궤멸"
+            ]
+          ]
+        },
+        {
+          "constant_index": 256,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.35
+            ],
+            [
+              "range",
+              60
+            ],
+            [
+              "damageMult",
+              1.8
+            ],
+            [
+              "maxTargets",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 257,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 35% 확률로 주변 최대 5명의 적에게 공격력 160%의 궤멸 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "광역궤멸"
+            ]
+          ]
+        },
+        {
+          "constant_index": 258,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.35
+            ],
+            [
+              "range",
+              60
+            ],
+            [
+              "damageMult",
+              1.6
+            ],
+            [
+              "maxTargets",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 259,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격 시 35% 확률로"
+            ],
+            [
+              "tag",
+              "spawn"
+            ],
+            [
+              "name",
+              "궤멸"
+            ],
+            [
+              "id",
+              "annihilation"
+            ],
+            [
+              "shortDesc",
+              "광역궤멸"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/04Annihilation.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 260,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 전장 적 전체에게 공격력 250% 피해와 기절을 준다."
+            ],
+            [
+              "shortDesc",
+              "전장붕괴"
+            ]
+          ]
+        },
+        {
+          "constant_index": 261,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.12
+            ],
+            [
+              "icd",
+              6
+            ],
+            [
+              "damageMult",
+              2.5
+            ],
+            [
+              "stunDur",
+              0.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 262,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 전장 적 전체에게 공격력 225% 피해와 기절을 준다."
+            ],
+            [
+              "shortDesc",
+              "전장붕괴"
+            ]
+          ]
+        },
+        {
+          "constant_index": 263,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.12
+            ],
+            [
+              "icd",
+              6.5
+            ],
+            [
+              "damageMult",
+              2.25
+            ],
+            [
+              "stunDur",
+              0.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 264,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 전장 적 전체에게 공격력 200% 피해와 기절을 준다."
+            ],
+            [
+              "shortDesc",
+              "전장붕괴"
+            ]
+          ]
+        },
+        {
+          "constant_index": 265,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.12
+            ],
+            [
+              "icd",
+              6.5
+            ],
+            [
+              "damageMult",
+              2
+            ],
+            [
+              "stunDur",
+              0.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 266,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 전장 적 전체에게 공격력 175% 피해와 기절을 준다."
+            ],
+            [
+              "shortDesc",
+              "전장붕괴"
+            ]
+          ]
+        },
+        {
+          "constant_index": 267,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.12
+            ],
+            [
+              "icd",
+              7
+            ],
+            [
+              "damageMult",
+              1.75
+            ],
+            [
+              "stunDur",
+              0.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 268,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 전장 적 전체에게 공격력 150% 피해와 기절을 준다."
+            ],
+            [
+              "shortDesc",
+              "전장붕괴"
+            ]
+          ]
+        },
+        {
+          "constant_index": 269,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.12
+            ],
+            [
+              "icd",
+              7
+            ],
+            [
+              "damageMult",
+              1.5
+            ],
+            [
+              "stunDur",
+              0.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 270,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격 적중 시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/earthquake.png"
+            ],
+            [
+              "tag",
+              "body"
+            ],
+            [
+              "name",
+              "지진"
+            ],
+            [
+              "id",
+              "earthquake"
+            ],
+            [
+              "shortDesc",
+              "전장붕괴"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/04Earthquake.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 272,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 체력이 18% 이하인 적을 즉시 처치한다."
+            ],
+            [
+              "shortDesc",
+              "처형"
+            ]
+          ]
+        },
+        {
+          "constant_index": 273,
+          "array": [],
+          "dictionary": [
+            [
+              "threshold",
+              0.18
+            ],
+            [
+              "icd",
+              0.7
+            ]
+          ]
+        },
+        {
+          "constant_index": 274,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 체력이 16% 이하인 적을 즉시 처치한다."
+            ],
+            [
+              "shortDesc",
+              "처형"
+            ]
+          ]
+        },
+        {
+          "constant_index": 275,
+          "array": [],
+          "dictionary": [
+            [
+              "threshold",
+              0.16
+            ],
+            [
+              "icd",
+              0.9
+            ]
+          ]
+        },
+        {
+          "constant_index": 276,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 체력이 14% 이하인 적을 즉시 처치한다."
+            ],
+            [
+              "shortDesc",
+              "처형"
+            ]
+          ]
+        },
+        {
+          "constant_index": 277,
+          "array": [],
+          "dictionary": [
+            [
+              "threshold",
+              0.14
+            ],
+            [
+              "icd",
+              1.1
+            ]
+          ]
+        },
+        {
+          "constant_index": 278,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 체력이 12% 이하인 적을 즉시 처치한다."
+            ],
+            [
+              "shortDesc",
+              "처형"
+            ]
+          ]
+        },
+        {
+          "constant_index": 279,
+          "array": [],
+          "dictionary": [
+            [
+              "threshold",
+              0.12
+            ],
+            [
+              "icd",
+              1.3
+            ]
+          ]
+        },
+        {
+          "constant_index": 280,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 체력이 10% 이하인 적을 즉시 처치한다."
+            ],
+            [
+              "shortDesc",
+              "처형"
+            ]
+          ]
+        },
+        {
+          "constant_index": 281,
+          "array": [],
+          "dictionary": [
+            [
+              "threshold",
+              0.1
+            ],
+            [
+              "icd",
+              1.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 282,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "기본 공격 시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/execute.png"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "처형"
+            ],
+            [
+              "id",
+              "execute"
+            ],
+            [
+              "shortDesc",
+              "처형"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/03Execute.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 284,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "피격 시 15% 확률로 5초 동안 거대화한다."
+            ],
+            [
+              "shortDesc",
+              "거대화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 285,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.15
+            ],
+            [
+              "atkBoost",
+              0.35
+            ],
+            [
+              "hpBoost",
+              0.4
+            ],
+            [
+              "duration",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 286,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "피격 시 15% 확률로 4.5초 동안 거대화한다."
+            ],
+            [
+              "shortDesc",
+              "거대화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 287,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.15
+            ],
+            [
+              "atkBoost",
+              0.33
+            ],
+            [
+              "hpBoost",
+              0.38
+            ],
+            [
+              "duration",
+              4.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 288,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "피격 시 15% 확률로 4초 동안 거대화한다."
+            ],
+            [
+              "shortDesc",
+              "거대화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 289,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.15
+            ],
+            [
+              "atkBoost",
+              0.3
+            ],
+            [
+              "hpBoost",
+              0.35
+            ],
+            [
+              "duration",
+              4
+            ]
+          ]
+        },
+        {
+          "constant_index": 290,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "피격 시 15% 확률로 3.5초 동안 거대화한다."
+            ],
+            [
+              "shortDesc",
+              "거대화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 291,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.15
+            ],
+            [
+              "atkBoost",
+              0.27
+            ],
+            [
+              "hpBoost",
+              0.32
+            ],
+            [
+              "duration",
+              3.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 292,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "피격 시 15% 확률로 3초 동안 거대화한다."
+            ],
+            [
+              "shortDesc",
+              "거대화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 293,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.15
+            ],
+            [
+              "atkBoost",
+              0.25
+            ],
+            [
+              "hpBoost",
+              0.3
+            ],
+            [
+              "duration",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 294,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "피격시 15% 확률로"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/enlarge.png"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "거대화"
+            ],
+            [
+              "id",
+              "enlarge"
+            ],
+            [
+              "shortDesc",
+              "거대화"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/03Enlarge.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 296,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 시 20% 확률로 적을 3초간 작아지게 만듭니다. 축소된 적은 {atk.png} -10%, {aspd.png}가 이 유닛보다 느려집니다."
+            ],
+            [
+              "shortDesc",
+              "약체화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 297,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.2
+            ],
+            [
+              "visualScale",
+              0.75
+            ],
+            [
+              "duration",
+              3
+            ],
+            [
+              "atkReduction",
+              0.1
+            ]
+          ]
+        },
+        {
+          "constant_index": 298,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 시 16% 확률로 적을 3초간 작아지게 만듭니다. 축소된 적은 {atk.png} -10%, {aspd.png}가 이 유닛보다 느려집니다."
+            ],
+            [
+              "shortDesc",
+              "약체화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 299,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.16
+            ],
+            [
+              "visualScale",
+              0.75
+            ],
+            [
+              "duration",
+              3
+            ],
+            [
+              "atkReduction",
+              0.1
+            ]
+          ]
+        },
+        {
+          "constant_index": 300,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 시 14% 확률로 적을 3초간 작아지게 만듭니다. 축소된 적은 {atk.png} -10%, {aspd.png}가 이 유닛보다 느려집니다."
+            ],
+            [
+              "shortDesc",
+              "약체화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 301,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.14
+            ],
+            [
+              "visualScale",
+              0.75
+            ],
+            [
+              "duration",
+              3
+            ],
+            [
+              "atkReduction",
+              0.1
+            ]
+          ]
+        },
+        {
+          "constant_index": 302,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 시 12% 확률로 적을 3초간 작아지게 만듭니다. 축소된 적은 {atk.png} -10%, {aspd.png}가 이 유닛보다 느려집니다."
+            ],
+            [
+              "shortDesc",
+              "약체화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 303,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.12
+            ],
+            [
+              "visualScale",
+              0.75
+            ],
+            [
+              "duration",
+              3
+            ],
+            [
+              "atkReduction",
+              0.1
+            ]
+          ]
+        },
+        {
+          "constant_index": 304,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 시 10% 확률로 적을 3초간 작아지게 만듭니다. 축소된 적은 {atk.png} -10%, {aspd.png}가 이 유닛보다 느려집니다."
+            ],
+            [
+              "shortDesc",
+              "약체화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 305,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.1
+            ],
+            [
+              "visualScale",
+              0.75
+            ],
+            [
+              "duration",
+              3
+            ],
+            [
+              "atkReduction",
+              0.1
+            ]
+          ]
+        },
+        {
+          "constant_index": 306,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "기본 공격 시 확률 발동"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/shrink.png"
+            ],
+            [
+              "tag",
+              "debuff"
+            ],
+            [
+              "name",
+              "축소"
+            ],
+            [
+              "id",
+              "shrink"
+            ],
+            [
+              "shortDesc",
+              "약체화"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/47Shrink.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 308,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 적의 이동 및 공격 속도가 45% 감소한다"
+            ],
+            [
+              "shortDesc",
+              "냉기둔화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 309,
+          "array": [],
+          "dictionary": [
+            [
+              "bossSlowFrac",
+              0.225
+            ],
+            [
+              "slowFrac",
+              0.45
+            ],
+            [
+              "dur",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 310,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 적의 이동 및 공격 속도가 40% 감소한다"
+            ],
+            [
+              "shortDesc",
+              "냉기둔화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 311,
+          "array": [],
+          "dictionary": [
+            [
+              "bossSlowFrac",
+              0.2
+            ],
+            [
+              "slowFrac",
+              0.4
+            ],
+            [
+              "dur",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 312,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 적의 이동 및 공격 속도가 35% 감소한다"
+            ],
+            [
+              "shortDesc",
+              "냉기둔화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 313,
+          "array": [],
+          "dictionary": [
+            [
+              "bossSlowFrac",
+              0.175
+            ],
+            [
+              "slowFrac",
+              0.35
+            ],
+            [
+              "dur",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 314,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 적의 이동 및 공격 속도가 30% 감소한다"
+            ],
+            [
+              "shortDesc",
+              "냉기둔화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 315,
+          "array": [],
+          "dictionary": [
+            [
+              "bossSlowFrac",
+              0.15
+            ],
+            [
+              "slowFrac",
+              0.3
+            ],
+            [
+              "dur",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 316,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 적의 이동 및 공격 속도가 25% 감소한다"
+            ],
+            [
+              "shortDesc",
+              "냉기둔화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 317,
+          "array": [],
+          "dictionary": [
+            [
+              "bossSlowFrac",
+              0.125
+            ],
+            [
+              "slowFrac",
+              0.25
+            ],
+            [
+              "dur",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 318,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/ice.png"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "냉기"
+            ],
+            [
+              "id",
+              "chill"
+            ],
+            [
+              "shortDesc",
+              "냉기둔화"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/03Chill.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 320,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격이 적중하면 가장 가까운 다른 적에게 5회 연쇄 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "연쇄타격"
+            ]
+          ]
+        },
+        {
+          "constant_index": 321,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.3
+            ],
+            [
+              "bounceDamageFrac",
+              0.6
+            ],
+            [
+              "bounces",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 322,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격이 적중하면 가장 가까운 다른 적에게 4회 연쇄 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "연쇄타격"
+            ]
+          ]
+        },
+        {
+          "constant_index": 323,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.3
+            ],
+            [
+              "bounceDamageFrac",
+              0.6
+            ],
+            [
+              "bounces",
+              4
+            ]
+          ]
+        },
+        {
+          "constant_index": 324,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격이 적중하면 가장 가까운 다른 적에게 3회 연쇄 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "연쇄타격"
+            ]
+          ]
+        },
+        {
+          "constant_index": 325,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.3
+            ],
+            [
+              "bounceDamageFrac",
+              0.6
+            ],
+            [
+              "bounces",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 326,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격이 적중하면 가장 가까운 다른 적에게 2회 연쇄 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "연쇄타격"
+            ]
+          ]
+        },
+        {
+          "constant_index": 327,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.3
+            ],
+            [
+              "bounceDamageFrac",
+              0.6
+            ],
+            [
+              "bounces",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 328,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격이 적중하면 가장 가까운 다른 적에게 1회 연쇄 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "연쇄타격"
+            ]
+          ]
+        },
+        {
+          "constant_index": 329,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.3
+            ],
+            [
+              "bounceDamageFrac",
+              0.6
+            ],
+            [
+              "bounces",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 330,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격 적중 시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/multihit.png"
+            ],
+            [
+              "tag",
+              "spawn"
+            ],
+            [
+              "name",
+              "연쇄"
+            ],
+            [
+              "id",
+              "chain"
+            ],
+            [
+              "shortDesc",
+              "연쇄타격"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/03Chain.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 332,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 25% 확률로 적을 공포에 빠뜨려 1.2초 동안 도망치게 한다."
+            ],
+            [
+              "shortDesc",
+              "공포도주"
+            ]
+          ]
+        },
+        {
+          "constant_index": 333,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.25
+            ],
+            [
+              "icd",
+              2.4
+            ],
+            [
+              "duration",
+              1.2
+            ]
+          ]
+        },
+        {
+          "constant_index": 334,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 22% 확률로 적을 공포에 빠뜨려 1.1초 동안 도망치게 한다."
+            ],
+            [
+              "shortDesc",
+              "공포도주"
+            ]
+          ]
+        },
+        {
+          "constant_index": 335,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.22
+            ],
+            [
+              "icd",
+              2.6
+            ],
+            [
+              "duration",
+              1.1
+            ]
+          ]
+        },
+        {
+          "constant_index": 336,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 19% 확률로 적을 공포에 빠뜨려 1초 동안 도망치게 한다."
+            ],
+            [
+              "shortDesc",
+              "공포도주"
+            ]
+          ]
+        },
+        {
+          "constant_index": 337,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.19
+            ],
+            [
+              "icd",
+              2.8
+            ],
+            [
+              "duration",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 338,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 17% 확률로 적을 공포에 빠뜨려 0.9초 동안 도망치게 한다."
+            ],
+            [
+              "shortDesc",
+              "공포도주"
+            ]
+          ]
+        },
+        {
+          "constant_index": 339,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.17
+            ],
+            [
+              "icd",
+              3
+            ],
+            [
+              "duration",
+              0.9
+            ]
+          ]
+        },
+        {
+          "constant_index": 340,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 적중 시 15% 확률로 적을 공포에 빠뜨려 0.8초 동안 도망치게 한다."
+            ],
+            [
+              "shortDesc",
+              "공포도주"
+            ]
+          ]
+        },
+        {
+          "constant_index": 341,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.15
+            ],
+            [
+              "icd",
+              3
+            ],
+            [
+              "duration",
+              0.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 342,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "기본 공격 시"
+            ],
+            [
+              "shortIcon",
+              "src/sprites/icons/imprinticons/shortsicons/fireskeleton.png"
+            ],
+            [
+              "tag",
+              "body"
+            ],
+            [
+              "name",
+              "공포"
+            ],
+            [
+              "id",
+              "fear"
+            ],
+            [
+              "shortDesc",
+              "공포도주"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/03Fear.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 344,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시 폭발하여 주변 적 각각에게 자신의 최대 {hp.png}의 40% 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "대폭발"
+            ]
+          ]
+        },
+        {
+          "constant_index": 345,
+          "array": [],
+          "dictionary": [
+            [
+              "hpDamageFrac",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 346,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시 폭발하여 주변 적 각각에게 자신의 최대 {hp.png}의 35% 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "대폭발"
+            ]
+          ]
+        },
+        {
+          "constant_index": 347,
+          "array": [],
+          "dictionary": [
+            [
+              "hpDamageFrac",
+              0.35
+            ]
+          ]
+        },
+        {
+          "constant_index": 348,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시 폭발하여 주변 적 각각에게 자신의 최대 {hp.png}의 31% 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "대폭발"
+            ]
+          ]
+        },
+        {
+          "constant_index": 349,
+          "array": [],
+          "dictionary": [
+            [
+              "hpDamageFrac",
+              0.31
+            ]
+          ]
+        },
+        {
+          "constant_index": 350,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시 폭발하여 주변 적 각각에게 자신의 최대 {hp.png}의 28% 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "대폭발"
+            ]
+          ]
+        },
+        {
+          "constant_index": 351,
+          "array": [],
+          "dictionary": [
+            [
+              "hpDamageFrac",
+              0.28
+            ]
+          ]
+        },
+        {
+          "constant_index": 352,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "사망 시 폭발하여 주변 적 각각에게 자신의 최대 {hp.png}의 25% 피해를 준다"
+            ],
+            [
+              "shortDesc",
+              "대폭발"
+            ]
+          ]
+        },
+        {
+          "constant_index": 353,
+          "array": [],
+          "dictionary": [
+            [
+              "hpDamageFrac",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 354,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "사망시"
+            ],
+            [
+              "tag",
+              "body"
+            ],
+            [
+              "name",
+              "자폭"
+            ],
+            [
+              "id",
+              "self_destruct"
+            ],
+            [
+              "shortDesc",
+              "대폭발"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/03SelfDestruct.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 356,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격으로 준 피해의 12%를 체력으로 회복한다"
+            ],
+            [
+              "shortDesc",
+              "체력흡혈"
+            ]
+          ]
+        },
+        {
+          "constant_index": 357,
+          "array": [],
+          "dictionary": [
+            [
+              "stealFrac",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 358,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격으로 준 피해의 10%를 체력으로 회복한다"
+            ],
+            [
+              "shortDesc",
+              "체력흡혈"
+            ]
+          ]
+        },
+        {
+          "constant_index": 359,
+          "array": [],
+          "dictionary": [
+            [
+              "stealFrac",
+              0.1
+            ]
+          ]
+        },
+        {
+          "constant_index": 360,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격으로 준 피해의 8%를 체력으로 회복한다"
+            ],
+            [
+              "shortDesc",
+              "체력흡혈"
+            ]
+          ]
+        },
+        {
+          "constant_index": 361,
+          "array": [],
+          "dictionary": [
+            [
+              "stealFrac",
+              0.08
+            ]
+          ]
+        },
+        {
+          "constant_index": 362,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격으로 준 피해의 6%를 체력으로 회복한다"
+            ],
+            [
+              "shortDesc",
+              "체력흡혈"
+            ]
+          ]
+        },
+        {
+          "constant_index": 363,
+          "array": [],
+          "dictionary": [
+            [
+              "stealFrac",
+              0.06
+            ]
+          ]
+        },
+        {
+          "constant_index": 364,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격으로 준 피해의 4%를 체력으로 회복한다"
+            ],
+            [
+              "shortDesc",
+              "체력흡혈"
+            ]
+          ]
+        },
+        {
+          "constant_index": 365,
+          "array": [],
+          "dictionary": [
+            [
+              "stealFrac",
+              0.04
+            ]
+          ]
+        },
+        {
+          "constant_index": 366,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "상시"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "흡혈"
+            ],
+            [
+              "id",
+              "lifesteal"
+            ],
+            [
+              "shortDesc",
+              "체력흡혈"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/02Lifesteal.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 368,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "피격 시 30% 확률로 공격을 막아낸다"
+            ],
+            [
+              "shortDesc",
+              "공격차단"
+            ]
+          ]
+        },
+        {
+          "constant_index": 369,
+          "array": [],
+          "dictionary": [
+            [
+              "blockProb",
+              0.3
+            ]
+          ]
+        },
+        {
+          "constant_index": 370,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "피격 시 26% 확률로 공격을 막아낸다"
+            ],
+            [
+              "shortDesc",
+              "공격차단"
+            ]
+          ]
+        },
+        {
+          "constant_index": 371,
+          "array": [],
+          "dictionary": [
+            [
+              "blockProb",
+              0.26
+            ]
+          ]
+        },
+        {
+          "constant_index": 372,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "피격 시 22% 확률로 공격을 막아낸다"
+            ],
+            [
+              "shortDesc",
+              "공격차단"
+            ]
+          ]
+        },
+        {
+          "constant_index": 373,
+          "array": [],
+          "dictionary": [
+            [
+              "blockProb",
+              0.22
+            ]
+          ]
+        },
+        {
+          "constant_index": 374,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "피격 시 18% 확률로 공격을 막아낸다"
+            ],
+            [
+              "shortDesc",
+              "공격차단"
+            ]
+          ]
+        },
+        {
+          "constant_index": 375,
+          "array": [],
+          "dictionary": [
+            [
+              "blockProb",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 376,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "피격 시 15% 확률로 공격을 막아낸다"
+            ],
+            [
+              "shortDesc",
+              "공격차단"
+            ]
+          ]
+        },
+        {
+          "constant_index": 377,
+          "array": [],
+          "dictionary": [
+            [
+              "blockProb",
+              0.15
+            ]
+          ]
+        },
+        {
+          "constant_index": 378,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "상시"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "블록"
+            ],
+            [
+              "id",
+              "block"
+            ],
+            [
+              "shortDesc",
+              "공격차단"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/02Block.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 380,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 25% 확률로 독을 부여한다 (5초 지속)"
+            ],
+            [
+              "shortDesc",
+              "맹독"
+            ]
+          ]
+        },
+        {
+          "constant_index": 381,
+          "array": [],
+          "dictionary": [
+            [
+              "maxStacks",
+              1
+            ],
+            [
+              "duration",
+              5
+            ],
+            [
+              "chance",
+              0.25
+            ],
+            [
+              "tickInterval",
+              0.5
+            ],
+            [
+              "maxHPFrac",
+              0.012
+            ]
+          ]
+        },
+        {
+          "constant_index": 382,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 25% 확률로 독을 부여한다 (4초 지속)"
+            ],
+            [
+              "shortDesc",
+              "맹독"
+            ]
+          ]
+        },
+        {
+          "constant_index": 383,
+          "array": [],
+          "dictionary": [
+            [
+              "maxStacks",
+              1
+            ],
+            [
+              "duration",
+              4
+            ],
+            [
+              "chance",
+              0.25
+            ],
+            [
+              "tickInterval",
+              0.5
+            ],
+            [
+              "maxHPFrac",
+              0.012
+            ]
+          ]
+        },
+        {
+          "constant_index": 384,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 25% 확률로 독을 부여한다 (3초 지속)"
+            ],
+            [
+              "shortDesc",
+              "맹독"
+            ]
+          ]
+        },
+        {
+          "constant_index": 385,
+          "array": [],
+          "dictionary": [
+            [
+              "maxStacks",
+              1
+            ],
+            [
+              "duration",
+              3
+            ],
+            [
+              "chance",
+              0.25
+            ],
+            [
+              "tickInterval",
+              0.5
+            ],
+            [
+              "maxHPFrac",
+              0.012
+            ]
+          ]
+        },
+        {
+          "constant_index": 386,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 25% 확률로 독을 부여한다 (2.5초 지속)"
+            ],
+            [
+              "shortDesc",
+              "맹독"
+            ]
+          ]
+        },
+        {
+          "constant_index": 387,
+          "array": [],
+          "dictionary": [
+            [
+              "maxStacks",
+              1
+            ],
+            [
+              "duration",
+              2.5
+            ],
+            [
+              "chance",
+              0.25
+            ],
+            [
+              "tickInterval",
+              0.5
+            ],
+            [
+              "maxHPFrac",
+              0.012
+            ]
+          ]
+        },
+        {
+          "constant_index": 388,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 25% 확률로 독을 부여한다 (2초 지속)"
+            ],
+            [
+              "shortDesc",
+              "맹독"
+            ]
+          ]
+        },
+        {
+          "constant_index": 389,
+          "array": [],
+          "dictionary": [
+            [
+              "maxStacks",
+              1
+            ],
+            [
+              "duration",
+              2
+            ],
+            [
+              "chance",
+              0.25
+            ],
+            [
+              "tickInterval",
+              0.5
+            ],
+            [
+              "maxHPFrac",
+              0.012
+            ]
+          ]
+        },
+        {
+          "constant_index": 390,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격시"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "독"
+            ],
+            [
+              "id",
+              "poison"
+            ],
+            [
+              "shortDesc",
+              "맹독"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/02Poison.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 392,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 대상 적을 멀리 밀쳐낸다"
+            ],
+            [
+              "shortDesc",
+              "밀쳐내기"
+            ]
+          ]
+        },
+        {
+          "constant_index": 393,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "knockbackDist",
+              18
+            ],
+            [
+              "icd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 394,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 대상 적을 강하게 밀쳐낸다"
+            ],
+            [
+              "shortDesc",
+              "밀쳐내기"
+            ]
+          ]
+        },
+        {
+          "constant_index": 395,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "knockbackDist",
+              16
+            ],
+            [
+              "icd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 396,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 대상 적을 크게 밀쳐낸다"
+            ],
+            [
+              "shortDesc",
+              "밀쳐내기"
+            ]
+          ]
+        },
+        {
+          "constant_index": 397,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "knockbackDist",
+              14
+            ],
+            [
+              "icd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 398,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 대상 적을 확실히 밀쳐낸다"
+            ],
+            [
+              "shortDesc",
+              "밀쳐내기"
+            ]
+          ]
+        },
+        {
+          "constant_index": 399,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "knockbackDist",
+              12
+            ],
+            [
+              "icd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 400,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 대상 적을 살짝 밀쳐낸다"
+            ],
+            [
+              "shortDesc",
+              "밀쳐내기"
+            ]
+          ]
+        },
+        {
+          "constant_index": 401,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "knockbackDist",
+              10
+            ],
+            [
+              "icd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 402,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격시 18%"
+            ],
+            [
+              "tag",
+              "body"
+            ],
+            [
+              "name",
+              "넉백"
+            ],
+            [
+              "id",
+              "knockback"
+            ],
+            [
+              "shortDesc",
+              "밀쳐내기"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/02Knockback.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 404,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 대상을 1.3초간 기절"
+            ],
+            [
+              "shortDesc",
+              "기절"
+            ]
+          ]
+        },
+        {
+          "constant_index": 405,
+          "array": [],
+          "dictionary": [
+            [
+              "stunDur",
+              1.3
+            ],
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "icd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 406,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 대상을 1.1초간 기절"
+            ],
+            [
+              "shortDesc",
+              "기절"
+            ]
+          ]
+        },
+        {
+          "constant_index": 407,
+          "array": [],
+          "dictionary": [
+            [
+              "stunDur",
+              1.1
+            ],
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "icd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 408,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 대상을 0.9초간 기절"
+            ],
+            [
+              "shortDesc",
+              "기절"
+            ]
+          ]
+        },
+        {
+          "constant_index": 409,
+          "array": [],
+          "dictionary": [
+            [
+              "stunDur",
+              0.9
+            ],
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "icd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 410,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 대상을 0.7초간 기절"
+            ],
+            [
+              "shortDesc",
+              "기절"
+            ]
+          ]
+        },
+        {
+          "constant_index": 411,
+          "array": [],
+          "dictionary": [
+            [
+              "stunDur",
+              0.7
+            ],
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "icd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 412,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 18% 확률로 대상을 0.5초간 기절"
+            ],
+            [
+              "shortDesc",
+              "기절"
+            ]
+          ]
+        },
+        {
+          "constant_index": 413,
+          "array": [],
+          "dictionary": [
+            [
+              "stunDur",
+              0.5
+            ],
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "icd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 414,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격시 18%"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "충격타"
+            ],
+            [
+              "id",
+              "bash"
+            ],
+            [
+              "shortDesc",
+              "기절"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/02Bash.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 416,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "연속 공격마다 {aspd.png} +6% (최대 6중첩)"
+            ],
+            [
+              "shortDesc",
+              "연타가속"
+            ]
+          ]
+        },
+        {
+          "constant_index": 417,
+          "array": [],
+          "dictionary": [
+            [
+              "maxStacks",
+              6
+            ],
+            [
+              "aspdPerStack",
+              0.06
+            ],
+            [
+              "resetAfter",
+              0.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 418,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "연속 공격마다 {aspd.png} +6% (최대 5중첩)"
+            ],
+            [
+              "shortDesc",
+              "연타가속"
+            ]
+          ]
+        },
+        {
+          "constant_index": 419,
+          "array": [],
+          "dictionary": [
+            [
+              "maxStacks",
+              5
+            ],
+            [
+              "aspdPerStack",
+              0.06
+            ],
+            [
+              "resetAfter",
+              0.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 420,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "연속 공격마다 {aspd.png} +5% (최대 5중첩)"
+            ],
+            [
+              "shortDesc",
+              "연타가속"
+            ]
+          ]
+        },
+        {
+          "constant_index": 421,
+          "array": [],
+          "dictionary": [
+            [
+              "maxStacks",
+              5
+            ],
+            [
+              "aspdPerStack",
+              0.05
+            ],
+            [
+              "resetAfter",
+              0.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 422,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "연속 공격마다 {aspd.png} +5% (최대 4중첩)"
+            ],
+            [
+              "shortDesc",
+              "연타가속"
+            ]
+          ]
+        },
+        {
+          "constant_index": 423,
+          "array": [],
+          "dictionary": [
+            [
+              "maxStacks",
+              4
+            ],
+            [
+              "aspdPerStack",
+              0.05
+            ],
+            [
+              "resetAfter",
+              0.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 424,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "연속 공격마다 {aspd.png} +4% (최대 4중첩)"
+            ],
+            [
+              "shortDesc",
+              "연타가속"
+            ]
+          ]
+        },
+        {
+          "constant_index": 425,
+          "array": [],
+          "dictionary": [
+            [
+              "maxStacks",
+              4
+            ],
+            [
+              "aspdPerStack",
+              0.04
+            ],
+            [
+              "resetAfter",
+              0.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 426,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격시"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "집요함"
+            ],
+            [
+              "id",
+              "relentless"
+            ],
+            [
+              "shortDesc",
+              "연타가속"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/01Relentless.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 428,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "적 처치 시 다음 기본 공격이 {atk.png} +175% 강화됩니다."
+            ],
+            [
+              "shortDesc",
+              "격파강화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 429,
+          "array": [],
+          "dictionary": [
+            [
+              "killDamageBoost",
+              1.75
+            ]
+          ]
+        },
+        {
+          "constant_index": 430,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "적 처치 시 다음 기본 공격이 {atk.png} +150% 강화됩니다."
+            ],
+            [
+              "shortDesc",
+              "격파강화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 431,
+          "array": [],
+          "dictionary": [
+            [
+              "killDamageBoost",
+              1.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 432,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "적 처치 시 다음 기본 공격이 {atk.png} +125% 강화됩니다."
+            ],
+            [
+              "shortDesc",
+              "격파강화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 433,
+          "array": [],
+          "dictionary": [
+            [
+              "killDamageBoost",
+              1.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 434,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "적 처치 시 다음 기본 공격이 {atk.png} +100% 강화됩니다."
+            ],
+            [
+              "shortDesc",
+              "격파강화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 435,
+          "array": [],
+          "dictionary": [
+            [
+              "killDamageBoost",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 436,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "적 처치 시 다음 기본 공격이 {atk.png} +75% 강화됩니다."
+            ],
+            [
+              "shortDesc",
+              "격파강화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 437,
+          "array": [],
+          "dictionary": [
+            [
+              "killDamageBoost",
+              0.75
+            ]
+          ]
+        },
+        {
+          "constant_index": 438,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "적 처치 후"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "오버드라이브"
+            ],
+            [
+              "id",
+              "overdrive"
+            ],
+            [
+              "shortDesc",
+              "격파강화"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/01Overdrive.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 440,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 주변의 다른 적 3명에게 {atk.png} 40% 피해가 전이됩니다."
+            ],
+            [
+              "shortDesc",
+              "피해전이"
+            ]
+          ]
+        },
+        {
+          "constant_index": 441,
+          "array": [],
+          "dictionary": [
+            [
+              "spreadFrac",
+              0.4
+            ],
+            [
+              "spreadRange",
+              36
+            ],
+            [
+              "spreadTargets",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 442,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 주변의 다른 적 2명에게 {atk.png} 40% 피해가 전이됩니다."
+            ],
+            [
+              "shortDesc",
+              "피해전이"
+            ]
+          ]
+        },
+        {
+          "constant_index": 443,
+          "array": [],
+          "dictionary": [
+            [
+              "spreadFrac",
+              0.4
+            ],
+            [
+              "spreadRange",
+              36
+            ],
+            [
+              "spreadTargets",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 444,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 주변의 다른 적 2명에게 {atk.png} 35% 피해가 전이됩니다."
+            ],
+            [
+              "shortDesc",
+              "피해전이"
+            ]
+          ]
+        },
+        {
+          "constant_index": 445,
+          "array": [],
+          "dictionary": [
+            [
+              "spreadFrac",
+              0.35
+            ],
+            [
+              "spreadRange",
+              36
+            ],
+            [
+              "spreadTargets",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 446,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 주변의 다른 적 1명에게 {atk.png} 40% 피해가 전이됩니다."
+            ],
+            [
+              "shortDesc",
+              "피해전이"
+            ]
+          ]
+        },
+        {
+          "constant_index": 447,
+          "array": [],
+          "dictionary": [
+            [
+              "spreadFrac",
+              0.4
+            ],
+            [
+              "spreadRange",
+              36
+            ],
+            [
+              "spreadTargets",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 448,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 주변의 다른 적 1명에게 {atk.png} 30% 피해가 전이됩니다."
+            ],
+            [
+              "shortDesc",
+              "피해전이"
+            ]
+          ]
+        },
+        {
+          "constant_index": 449,
+          "array": [],
+          "dictionary": [
+            [
+              "spreadFrac",
+              0.3
+            ],
+            [
+              "spreadRange",
+              36
+            ],
+            [
+              "spreadTargets",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 450,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격시"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "전이"
+            ],
+            [
+              "id",
+              "transfer"
+            ],
+            [
+              "shortDesc",
+              "피해전이"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/01Diffusion.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 452,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 16% 확률로 대상 적이 실명 상태가 되어 1.3초간 공격이 빗나간다"
+            ],
+            [
+              "shortDesc",
+              "공격무효"
+            ]
+          ]
+        },
+        {
+          "constant_index": 453,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.16
+            ],
+            [
+              "icd",
+              2
+            ],
+            [
+              "blindDur",
+              1.3
+            ]
+          ]
+        },
+        {
+          "constant_index": 454,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 16% 확률로 대상 적이 실명 상태가 되어 1초간 공격이 빗나간다"
+            ],
+            [
+              "shortDesc",
+              "공격무효"
+            ]
+          ]
+        },
+        {
+          "constant_index": 455,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.16
+            ],
+            [
+              "icd",
+              2
+            ],
+            [
+              "blindDur",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 456,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 16% 확률로 대상 적이 실명 상태가 되어 0.8초간 공격이 빗나간다"
+            ],
+            [
+              "shortDesc",
+              "공격무효"
+            ]
+          ]
+        },
+        {
+          "constant_index": 457,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.16
+            ],
+            [
+              "icd",
+              2
+            ],
+            [
+              "blindDur",
+              0.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 458,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 16% 확률로 대상 적이 실명 상태가 되어 0.6초간 공격이 빗나간다"
+            ],
+            [
+              "shortDesc",
+              "공격무효"
+            ]
+          ]
+        },
+        {
+          "constant_index": 459,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.16
+            ],
+            [
+              "icd",
+              2
+            ],
+            [
+              "blindDur",
+              0.6
+            ]
+          ]
+        },
+        {
+          "constant_index": 460,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "공격 시 16% 확률로 대상 적이 실명 상태가 되어 0.4초간 공격이 빗나간다"
+            ],
+            [
+              "shortDesc",
+              "공격무효"
+            ]
+          ]
+        },
+        {
+          "constant_index": 461,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              0.16
+            ],
+            [
+              "icd",
+              2
+            ],
+            [
+              "blindDur",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 462,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격시 16%"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "실명"
+            ],
+            [
+              "id",
+              "blind"
+            ],
+            [
+              "shortDesc",
+              "공격무효"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/02Blind.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 464,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "3번째 기본 공격마다 동일 대상을 {atk.png} 130% 피해로 즉시 한 번 더 공격합니다."
+            ],
+            [
+              "shortDesc",
+              "공격추가"
+            ]
+          ]
+        },
+        {
+          "constant_index": 465,
+          "array": [],
+          "dictionary": [
+            [
+              "every",
+              3
+            ],
+            [
+              "extraHitFrac",
+              1.3
+            ]
+          ]
+        },
+        {
+          "constant_index": 466,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "3번째 기본 공격마다 동일 대상을 {atk.png} 100% 피해로 즉시 한 번 더 공격합니다."
+            ],
+            [
+              "shortDesc",
+              "공격추가"
+            ]
+          ]
+        },
+        {
+          "constant_index": 467,
+          "array": [],
+          "dictionary": [
+            [
+              "every",
+              3
+            ],
+            [
+              "extraHitFrac",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 468,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "3번째 기본 공격마다 동일 대상을 {atk.png} 80% 피해로 즉시 한 번 더 공격합니다."
+            ],
+            [
+              "shortDesc",
+              "공격추가"
+            ]
+          ]
+        },
+        {
+          "constant_index": 469,
+          "array": [],
+          "dictionary": [
+            [
+              "every",
+              3
+            ],
+            [
+              "extraHitFrac",
+              0.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 470,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "3번째 기본 공격마다 동일 대상을 {atk.png} 60% 피해로 즉시 한 번 더 공격합니다."
+            ],
+            [
+              "shortDesc",
+              "공격추가"
+            ]
+          ]
+        },
+        {
+          "constant_index": 471,
+          "array": [],
+          "dictionary": [
+            [
+              "every",
+              3
+            ],
+            [
+              "extraHitFrac",
+              0.6
+            ]
+          ]
+        },
+        {
+          "constant_index": 472,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "3번째 기본 공격마다 동일 대상을 {atk.png} 40% 피해로 즉시 한 번 더 공격합니다."
+            ],
+            [
+              "shortDesc",
+              "공격추가"
+            ]
+          ]
+        },
+        {
+          "constant_index": 473,
+          "array": [],
+          "dictionary": [
+            [
+              "every",
+              3
+            ],
+            [
+              "extraHitFrac",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 474,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "3번째 공격마다"
+            ],
+            [
+              "tag",
+              "spawn"
+            ],
+            [
+              "name",
+              "연사"
+            ],
+            [
+              "id",
+              "volley"
+            ],
+            [
+              "shortDesc",
+              "공격추가"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/01Volley.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 476,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 후 힘을 모아, 다음 기본 공격이 {atk.png} +80% 강화됩니다."
+            ],
+            [
+              "shortDesc",
+              "공격강화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 477,
+          "array": [],
+          "dictionary": [
+            [
+              "afterAttackDelay",
+              0.25
+            ],
+            [
+              "nextHitDamageMult",
+              1.8
+            ]
+          ]
+        },
+        {
+          "constant_index": 478,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 후 힘을 모아, 다음 기본 공격이 {atk.png} +65% 강화됩니다."
+            ],
+            [
+              "shortDesc",
+              "공격강화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 479,
+          "array": [],
+          "dictionary": [
+            [
+              "afterAttackDelay",
+              0.25
+            ],
+            [
+              "nextHitDamageMult",
+              1.65
+            ]
+          ]
+        },
+        {
+          "constant_index": 480,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 후 힘을 모아, 다음 기본 공격이 {atk.png} +50% 강화됩니다."
+            ],
+            [
+              "shortDesc",
+              "공격강화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 481,
+          "array": [],
+          "dictionary": [
+            [
+              "afterAttackDelay",
+              0.25
+            ],
+            [
+              "nextHitDamageMult",
+              1.5
+            ]
+          ]
+        },
+        {
+          "constant_index": 482,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 후 힘을 모아, 다음 기본 공격이 {atk.png} +35% 강화됩니다."
+            ],
+            [
+              "shortDesc",
+              "공격강화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 483,
+          "array": [],
+          "dictionary": [
+            [
+              "afterAttackDelay",
+              0.25
+            ],
+            [
+              "nextHitDamageMult",
+              1.35
+            ]
+          ]
+        },
+        {
+          "constant_index": 484,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격 후 힘을 모아, 다음 기본 공격이 {atk.png} +25% 강화됩니다."
+            ],
+            [
+              "shortDesc",
+              "공격강화"
+            ]
+          ]
+        },
+        {
+          "constant_index": 485,
+          "array": [],
+          "dictionary": [
+            [
+              "afterAttackDelay",
+              0.25
+            ],
+            [
+              "nextHitDamageMult",
+              1.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 486,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "공격시"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "굳히기"
+            ],
+            [
+              "id",
+              "brace"
+            ],
+            [
+              "shortDesc",
+              "공격강화"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/01Brace.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 488,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격이 최대 3명 추가 관통하고 {atk.png} 45% 피해를 입힙니다."
+            ],
+            [
+              "shortDesc",
+              "공격관통"
+            ]
+          ]
+        },
+        {
+          "constant_index": 489,
+          "array": [],
+          "dictionary": [
+            [
+              "pierceDamageFrac",
+              0.45
+            ],
+            [
+              "maxPierceTargets",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 490,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격이 최대 2명 추가 관통하고 {atk.png} 45% 피해를 입힙니다."
+            ],
+            [
+              "shortDesc",
+              "공격관통"
+            ]
+          ]
+        },
+        {
+          "constant_index": 491,
+          "array": [],
+          "dictionary": [
+            [
+              "pierceDamageFrac",
+              0.45
+            ],
+            [
+              "maxPierceTargets",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 492,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격이 최대 2명 추가 관통하고 {atk.png} 35% 피해를 입힙니다."
+            ],
+            [
+              "shortDesc",
+              "공격관통"
+            ]
+          ]
+        },
+        {
+          "constant_index": 493,
+          "array": [],
+          "dictionary": [
+            [
+              "pierceDamageFrac",
+              0.35
+            ],
+            [
+              "maxPierceTargets",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 494,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격이 최대 1명 추가 관통하고 {atk.png} 35% 피해를 입힙니다."
+            ],
+            [
+              "shortDesc",
+              "공격관통"
+            ]
+          ]
+        },
+        {
+          "constant_index": 495,
+          "array": [],
+          "dictionary": [
+            [
+              "pierceDamageFrac",
+              0.35
+            ],
+            [
+              "maxPierceTargets",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 496,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "기본 공격이 최대 1명 추가 관통하고 {atk.png} 25% 피해를 입힙니다."
+            ],
+            [
+              "shortDesc",
+              "공격관통"
+            ]
+          ]
+        },
+        {
+          "constant_index": 497,
+          "array": [],
+          "dictionary": [
+            [
+              "pierceDamageFrac",
+              0.25
+            ],
+            [
+              "maxPierceTargets",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 498,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "기본 공격 시"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "관통"
+            ],
+            [
+              "id",
+              "pierce"
+            ],
+            [
+              "shortDesc",
+              "공격관통"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/01Pierce.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 500,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 502,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "받는 피해 34% 감소"
+            ],
+            [
+              "shortDesc",
+              "피해감소"
+            ]
+          ]
+        },
+        {
+          "constant_index": 503,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              0.34
+            ]
+          ]
+        },
+        {
+          "constant_index": 504,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "받는 피해 31% 감소"
+            ],
+            [
+              "shortDesc",
+              "피해감소"
+            ]
+          ]
+        },
+        {
+          "constant_index": 505,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              0.31
+            ]
+          ]
+        },
+        {
+          "constant_index": 506,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "받는 피해 27% 감소"
+            ],
+            [
+              "shortDesc",
+              "피해감소"
+            ]
+          ]
+        },
+        {
+          "constant_index": 507,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              0.27
+            ]
+          ]
+        },
+        {
+          "constant_index": 508,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "받는 피해 22% 감소"
+            ],
+            [
+              "shortDesc",
+              "피해감소"
+            ]
+          ]
+        },
+        {
+          "constant_index": 509,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              0.22
+            ]
+          ]
+        },
+        {
+          "constant_index": 511,
+          "array": [],
+          "dictionary": [
+            [
+              "desc",
+              "받는 피해 15% 감소"
+            ],
+            [
+              "shortDesc",
+              "피해감소"
+            ]
+          ]
+        },
+        {
+          "constant_index": 512,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              0.15
+            ]
+          ]
+        },
+        {
+          "constant_index": 513,
+          "array": [],
+          "dictionary": [
+            [
+              "condition",
+              "상시"
+            ],
+            [
+              "tag",
+              "buff"
+            ],
+            [
+              "name",
+              "견고함"
+            ],
+            [
+              "id",
+              "fortify"
+            ],
+            [
+              "shortDesc",
+              "피해감소"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/imprinticons/01Fortify.png"
+            ]
+          ]
+        },
+        {
+          "constant_index": 515,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 516,
+          "array": [],
+          "dictionary": [
+            [
+              "prism",
+              5
+            ],
+            [
+              "legendary",
+              4
+            ],
+            [
+              "rare",
+              3
+            ],
+            [
+              "advanced",
+              2
+            ],
+            [
+              "special",
+              3
+            ],
+            [
+              "normal",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 519,
+          "array": [],
+          "dictionary": [
+            [
+              "maxAbsorbText",
+              "MAX"
+            ]
+          ]
+        },
+        {
+          "constant_index": 521,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 522,
+          "array": [],
+          "dictionary": [
+            [
+              "displayScale",
+              20
+            ]
+          ]
+        },
+        {
+          "constant_index": 525,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            0.2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 527,
+          "array": [
+            null,
+            0.92,
+            0.94,
+            0.97
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 529,
+          "array": [
+            null,
+            0.85,
+            0.88,
+            0.93
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 531,
+          "array": [
+            null,
+            0.95,
+            0.77,
+            0.17
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 533,
+          "array": [
+            null,
+            0.93,
+            0.9,
+            0.95
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 535,
+          "array": [
+            null,
+            0.11,
+            0.12,
+            0.17
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 537,
+          "array": [
+            null,
+            0.14,
+            0.16,
+            0.22
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 539,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 540,
+          "array": [
+            null,
+            0.18,
+            0.13,
+            0.18
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 543,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 544,
+          "array": [],
+          "dictionary": [
+            [
+              "floatDuration",
+              1.2
+            ],
+            [
+              "visualDuration",
+              2
+            ],
+            [
+              "duration",
+              5
+            ],
+            [
+              "magnitude",
+              6
+            ],
+            [
+              "frameTime",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 546,
+          "array": [],
+          "dictionary": [
+            [
+              "H",
+              360
+            ],
+            [
+              "W",
+              640
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

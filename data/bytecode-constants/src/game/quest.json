@@ -1,0 +1,2455 @@
+{
+  "file": "src/game/quest.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 1,
+      "instruction_count": 30,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "absorber_unique_symbols_3"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 1,
+      "instruction_count": 30,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "max_rank_count"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 1,
+      "instruction_count": 30,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "max_imprint_count"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 1,
+      "instruction_count": 259,
+      "numeric_constants": [
+        1,
+        10,
+        5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "reach_wave_10_no_3_star"
+        },
+        {
+          "constant_index": 1,
+          "value": "win_with_5_or_fewer_units"
+        },
+        {
+          "constant_index": 2,
+          "value": "hasMelee"
+        },
+        {
+          "constant_index": 3,
+          "value": "hasRanged"
+        },
+        {
+          "constant_index": 4,
+          "value": "ranged_only"
+        },
+        {
+          "constant_index": 5,
+          "value": "no_item_waves"
+        },
+        {
+          "constant_index": 6,
+          "value": "no_shop_waves"
+        },
+        {
+          "constant_index": 7,
+          "value": "no_nudge_waves"
+        },
+        {
+          "constant_index": 8,
+          "value": "no_absorb_waves"
+        },
+        {
+          "constant_index": 9,
+          "value": "addProgress"
+        },
+        {
+          "constant_index": 10,
+          "value": "normal_units_only_waves"
+        },
+        {
+          "constant_index": 11,
+          "value": "win_with_3_or_fewer_units"
+        },
+        {
+          "constant_index": 12,
+          "value": "maxRank"
+        },
+        {
+          "constant_index": 13,
+          "value": "rosterCount"
+        },
+        {
+          "constant_index": 14,
+          "value": "win_with_one_4_star"
+        },
+        {
+          "constant_index": 15,
+          "value": "waveId"
+        },
+        {
+          "constant_index": 16,
+          "value": "normal_units_only_judgement"
+        },
+        {
+          "constant_index": 17,
+          "value": "basehp"
+        },
+        {
+          "constant_index": 18,
+          "value": "win_with_1_hp"
+        },
+        {
+          "constant_index": 19,
+          "value": "win_with_one_survivor"
+        },
+        {
+          "constant_index": 20,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 21,
+          "value": "wave_deaths_le_1"
+        },
+        {
+          "constant_index": 22,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 23,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 24,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 25,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 26,
+          "value": "usedOnlyNormalUnits"
+        },
+        {
+          "constant_index": 27,
+          "value": "victory"
+        },
+        {
+          "constant_index": 28,
+          "value": "survivors"
+        },
+        {
+          "constant_index": 29,
+          "value": "allyDeaths"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/8",
+      "argument_count": 1,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "units_with_absorb_count"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/10",
+      "argument_count": 0,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "addProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "advanced_promotion"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 0,
+      "instruction_count": 30,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "no_absorb_waves"
+        },
+        {
+          "constant_index": 2,
+          "value": "addProgress"
+        },
+        {
+          "constant_index": 3,
+          "value": "total_absorb_count"
+        },
+        {
+          "constant_index": 4,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 7,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/14",
+      "argument_count": 2,
+      "instruction_count": 31,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "ranged_units_only"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/16",
+      "argument_count": 0,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "clutch_win"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/18",
+      "argument_count": 0,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "no_item_waves"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20",
+      "argument_count": 0,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "no_shop_waves"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/22",
+      "argument_count": 0,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "no_nudge_waves"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24",
+      "argument_count": 1,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "unique_unit_count"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/26",
+      "argument_count": 1,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "same_unit_count"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/28",
+      "argument_count": 1,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "essence_count"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/30",
+      "argument_count": 1,
+      "instruction_count": 28,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "addProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "total_spin_count"
+        },
+        {
+          "constant_index": 2,
+          "value": "round_spin_count"
+        },
+        {
+          "constant_index": 3,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 4,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 5,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 6,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/32",
+      "argument_count": 1,
+      "instruction_count": 76,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "completed"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 2,
+          "value": "huge"
+        },
+        {
+          "constant_index": 3,
+          "value": "target"
+        },
+        {
+          "constant_index": 4,
+          "value": "min"
+        },
+        {
+          "constant_index": 5,
+          "value": "max"
+        },
+        {
+          "constant_index": 6,
+          "value": "math"
+        },
+        {
+          "constant_index": 7,
+          "value": "current"
+        },
+        {
+          "constant_index": 8,
+          "value": "id"
+        },
+        {
+          "constant_index": 9,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 10,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 11,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 12,
+          "value": "table"
+        },
+        {
+          "constant_index": 13,
+          "value": "type"
+        },
+        {
+          "constant_index": 14,
+          "value": "resetAllProgress"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/34",
+      "argument_count": 0,
+      "instruction_count": 43,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "completed"
+        },
+        {
+          "constant_index": 2,
+          "value": "current"
+        },
+        {
+          "constant_index": 3,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 4,
+          "value": "max"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        },
+        {
+          "constant_index": 6,
+          "value": "id"
+        },
+        {
+          "constant_index": 7,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 8,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 9,
+          "value": "pairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/36",
+      "argument_count": 0,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "resetRoundProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 3,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/38",
+      "argument_count": 0,
+      "instruction_count": 21,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "resetRoundProgress"
+        },
+        {
+          "constant_index": 1,
+          "value": "round_spin_count"
+        },
+        {
+          "constant_index": 2,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "byDifficulty"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/42",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/44",
+      "argument_count": 1,
+      "instruction_count": 35,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "rank"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "rosterUnits"
+        },
+        {
+          "constant_index": 3,
+          "value": "battlefield"
+        },
+        {
+          "constant_index": 4,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/46",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/49",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [
+        2,
+        13
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "activeQuests"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/52",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/55",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/57",
+      "argument_count": 1,
+      "instruction_count": 48,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "mage"
+        },
+        {
+          "constant_index": 1,
+          "value": "archer"
+        },
+        {
+          "constant_index": 2,
+          "value": "distance"
+        },
+        {
+          "constant_index": 3,
+          "value": "base"
+        },
+        {
+          "constant_index": 4,
+          "value": "role"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "rosterUnits"
+        },
+        {
+          "constant_index": 7,
+          "value": "battlefield"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/59",
+      "argument_count": 1,
+      "instruction_count": 24,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "cooldownSec"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "_legacyPurchased"
+        },
+        {
+          "constant_index": 3,
+          "value": "ui"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/61",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/64",
+      "argument_count": 1,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getNudgeEnabled"
+        },
+        {
+          "constant_index": 1,
+          "value": "src.ui.upgrade"
+        },
+        {
+          "constant_index": 2,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/67",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/69",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [
+        2,
+        24
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "activeQuests"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/74",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/76",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/78",
+      "argument_count": 1,
+      "instruction_count": 19,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/80",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxImprintCount"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/83",
+      "argument_count": 1,
+      "instruction_count": 19,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "wave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/85",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "uniqueCount"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/87",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxSameCount"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/89",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "essence"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/92",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [
+        13,
+        24
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "activeQuests"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/96/0",
+      "argument_count": 2,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "target"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "current"
+        },
+        {
+          "constant_index": 4,
+          "value": "completed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/96/2",
+      "argument_count": 2,
+      "instruction_count": 24,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "target"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "current"
+        },
+        {
+          "constant_index": 4,
+          "value": "completed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/96/4",
+      "argument_count": 1,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "completed"
+        },
+        {
+          "constant_index": 1,
+          "value": "current"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/96/6",
+      "argument_count": 2,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "appearanceCondition"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/96/8",
+      "argument_count": 1,
+      "instruction_count": 7,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "target"
+        },
+        {
+          "constant_index": 1,
+          "value": "current"
+        },
+        {
+          "constant_index": 2,
+          "value": "%d/%d"
+        },
+        {
+          "constant_index": 3,
+          "value": "format"
+        },
+        {
+          "constant_index": 4,
+          "value": "string"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/96",
+      "argument_count": 1,
+      "instruction_count": 30,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "setProgress"
+        },
+        {
+          "constant_index": 3,
+          "value": "addProgress"
+        },
+        {
+          "constant_index": 5,
+          "value": "resetRoundProgress"
+        },
+        {
+          "constant_index": 7,
+          "value": "isAvailable"
+        },
+        {
+          "constant_index": 9,
+          "value": "getProgressText"
+        },
+        {
+          "constant_index": 10,
+          "value": "appearanceCondition"
+        },
+        {
+          "constant_index": 11,
+          "value": "target"
+        },
+        {
+          "constant_index": 12,
+          "value": "objectiveType"
+        },
+        {
+          "constant_index": 13,
+          "value": "difficulty"
+        },
+        {
+          "constant_index": 14,
+          "value": "description"
+        },
+        {
+          "constant_index": 15,
+          "value": "name"
+        },
+        {
+          "constant_index": 16,
+          "value": "id"
+        },
+        {
+          "constant_index": 18,
+          "value": "number"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 17,
+          "array": [],
+          "dictionary": [
+            [
+              "completed",
+              false
+            ],
+            [
+              "current",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 211,
+      "numeric_constants": [
+        4503599627370508.0,
+        4503599627370507.0,
+        4503599627370501.0
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "onMaxAbsorbedUniqueSymbolsChange"
+        },
+        {
+          "constant_index": 3,
+          "value": "onMaxRankChange"
+        },
+        {
+          "constant_index": 5,
+          "value": "onMaxImprintsChange"
+        },
+        {
+          "constant_index": 7,
+          "value": "onWaveEnd"
+        },
+        {
+          "constant_index": 9,
+          "value": "onRosterAbsorbChange"
+        },
+        {
+          "constant_index": 11,
+          "value": "onAdvancedPromotion"
+        },
+        {
+          "constant_index": 13,
+          "value": "onAbsorb"
+        },
+        {
+          "constant_index": 15,
+          "value": "onRosterCompositionChange"
+        },
+        {
+          "constant_index": 17,
+          "value": "onClutchWin"
+        },
+        {
+          "constant_index": 19,
+          "value": "onItemUsed"
+        },
+        {
+          "constant_index": 21,
+          "value": "onShopUsed"
+        },
+        {
+          "constant_index": 23,
+          "value": "onNudgeUsed"
+        },
+        {
+          "constant_index": 25,
+          "value": "onUniqueUnitsChange"
+        },
+        {
+          "constant_index": 27,
+          "value": "onUnitsChange"
+        },
+        {
+          "constant_index": 29,
+          "value": "onEssenceChange"
+        },
+        {
+          "constant_index": 31,
+          "value": "onSpinUsed"
+        },
+        {
+          "constant_index": 33,
+          "value": "importState"
+        },
+        {
+          "constant_index": 35,
+          "value": "exportState"
+        },
+        {
+          "constant_index": 37,
+          "value": "resetAllProgress"
+        },
+        {
+          "constant_index": 39,
+          "value": "onRoundStart"
+        },
+        {
+          "constant_index": 40,
+          "value": "roundSpinQuest"
+        },
+        {
+          "constant_index": 41,
+          "value": "상"
+        },
+        {
+          "constant_index": 51,
+          "value": "중"
+        },
+        {
+          "constant_index": 71,
+          "value": "하"
+        },
+        {
+          "constant_index": 91,
+          "value": "appearanceCondition"
+        },
+        {
+          "constant_index": 95,
+          "value": "byDifficulty"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 43,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "유닛 3명 이하로 승리시"
+            ],
+            [
+              "objectiveType",
+              "win_with_3_or_fewer_units"
+            ],
+            [
+              "id",
+              "win_with_3_or_fewer_units"
+            ],
+            [
+              "number",
+              28
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "유닛 3명 이하로 승리"
+            ],
+            [
+              "difficulty",
+              "상"
+            ]
+          ]
+        },
+        {
+          "constant_index": 45,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "전장에 4성 이상 유닛 1명만으로 웨이브 승리시"
+            ],
+            [
+              "objectiveType",
+              "win_with_one_4_star"
+            ],
+            [
+              "id",
+              "win_with_one_4_star"
+            ],
+            [
+              "number",
+              27
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "4성 이상 유닛 1명만으로 웨이브 승리"
+            ],
+            [
+              "difficulty",
+              "상"
+            ]
+          ]
+        },
+        {
+          "constant_index": 47,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "일반 희귀도 유닛만으로 심판 웨이브 클리어시"
+            ],
+            [
+              "objectiveType",
+              "normal_units_only_judgement"
+            ],
+            [
+              "id",
+              "normal_units_only_judgement"
+            ],
+            [
+              "number",
+              26
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "일반 유닛만으로 심판 웨이브 클리어"
+            ],
+            [
+              "difficulty",
+              "상"
+            ]
+          ]
+        },
+        {
+          "constant_index": 48,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "체력이 1인 상태로 웨이브를 승리하거나 체력을 1만 남기고 웨이브 승리시"
+            ],
+            [
+              "objectiveType",
+              "win_with_1_hp"
+            ],
+            [
+              "id",
+              "win_with_1_hp"
+            ],
+            [
+              "number",
+              25
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "체력 1 로 웨이브 승리"
+            ],
+            [
+              "difficulty",
+              "상"
+            ]
+          ]
+        },
+        {
+          "constant_index": 50,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "슬롯머신의 스핀을 총 60번 할시"
+            ],
+            [
+              "objectiveType",
+              "total_spin_count"
+            ],
+            [
+              "id",
+              "spin_60_total"
+            ],
+            [
+              "number",
+              24
+            ],
+            [
+              "target",
+              60
+            ],
+            [
+              "name",
+              "슬롯머신 60회 스핀"
+            ],
+            [
+              "difficulty",
+              "상"
+            ]
+          ]
+        },
+        {
+          "constant_index": 53,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "3성 유닛 없이 10 웨이브 도달시"
+            ],
+            [
+              "objectiveType",
+              "reach_wave_10_no_3_star"
+            ],
+            [
+              "id",
+              "reach_wave_10_no_3_star"
+            ],
+            [
+              "number",
+              23
+            ],
+            [
+              "target",
+              10
+            ],
+            [
+              "name",
+              "3성 유닛 없이 10 웨이브 도달"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 54,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "웨이브 카운터 전투 시작 2초전에 슬롯머신 스핀 돌렸는데 당첨될시"
+            ],
+            [
+              "objectiveType",
+              "clutch_win"
+            ],
+            [
+              "id",
+              "clutch_win"
+            ],
+            [
+              "number",
+              22
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "전투 시작 직전 스핀으로 당첨 만들기"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 56,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "유닛 5명 이하로 승리시"
+            ],
+            [
+              "objectiveType",
+              "win_with_5_or_fewer_units"
+            ],
+            [
+              "id",
+              "win_with_5_or_fewer_units"
+            ],
+            [
+              "number",
+              21
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "유닛 5명 이하로 승리"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 58,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "전장에 원거리 유닛만 있을 경우"
+            ],
+            [
+              "objectiveType",
+              "ranged_units_only"
+            ],
+            [
+              "id",
+              "ranged_units_only"
+            ],
+            [
+              "number",
+              20
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "원거리 유닛만 유지"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 60,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "5 웨이브 동안 아이템 미사용시"
+            ],
+            [
+              "objectiveType",
+              "no_item_waves"
+            ],
+            [
+              "id",
+              "no_item_5_waves"
+            ],
+            [
+              "number",
+              19
+            ],
+            [
+              "target",
+              5
+            ],
+            [
+              "name",
+              "5 웨이브 동안 아이템 미사용"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 62,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "5 웨이브 동안 상점 미사용시"
+            ],
+            [
+              "objectiveType",
+              "no_shop_waves"
+            ],
+            [
+              "id",
+              "no_shop_5_waves"
+            ],
+            [
+              "number",
+              18
+            ],
+            [
+              "target",
+              5
+            ],
+            [
+              "name",
+              "5 웨이브 동안 상점 미사용"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 63,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "고급 이상 유닛만 흡수하여 승급시"
+            ],
+            [
+              "objectiveType",
+              "advanced_promotion"
+            ],
+            [
+              "id",
+              "advanced_promotion"
+            ],
+            [
+              "number",
+              17
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "고급 이상 유닛만 흡수하여 유닛 승급"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 65,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "5 웨이브 동안 넛지를 안 사용할시"
+            ],
+            [
+              "objectiveType",
+              "no_nudge_waves"
+            ],
+            [
+              "id",
+              "no_nudge_5_waves"
+            ],
+            [
+              "number",
+              16
+            ],
+            [
+              "target",
+              5
+            ],
+            [
+              "name",
+              "5 웨이브 동안 넛지 미사용"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 66,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "5 웨이브 동안 흡수를 안할시"
+            ],
+            [
+              "objectiveType",
+              "no_absorb_waves"
+            ],
+            [
+              "id",
+              "no_absorb_5_waves"
+            ],
+            [
+              "number",
+              15
+            ],
+            [
+              "target",
+              5
+            ],
+            [
+              "name",
+              "흡수 없이 5 웨이브 생존"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 68,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "5웨이브 동안 일반 유닛만 사용 할 시"
+            ],
+            [
+              "objectiveType",
+              "normal_units_only_waves"
+            ],
+            [
+              "id",
+              "normal_units_only_5_waves"
+            ],
+            [
+              "number",
+              14
+            ],
+            [
+              "target",
+              5
+            ],
+            [
+              "name",
+              "5 웨이브 동안 일반 유닛만 사용"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 70,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "슬롯머신의 스핀을 총 35번 할시"
+            ],
+            [
+              "objectiveType",
+              "total_spin_count"
+            ],
+            [
+              "id",
+              "spin_35_total"
+            ],
+            [
+              "number",
+              13
+            ],
+            [
+              "target",
+              35
+            ],
+            [
+              "name",
+              "슬롯머신 35회 스핀"
+            ],
+            [
+              "difficulty",
+              "중"
+            ]
+          ]
+        },
+        {
+          "constant_index": 72,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 73,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "종류가 다른 심볼의 3명의 유닛들 1명의 유닛에게 흡수시"
+            ],
+            [
+              "objectiveType",
+              "absorber_unique_symbols_3"
+            ],
+            [
+              "id",
+              "absorb_3_unique_symbols"
+            ],
+            [
+              "number",
+              12
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "서로 다른 3종의 유닛을 1명의 유닛에게 흡수"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 75,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "전투시 1명만 남은채로 승리시"
+            ],
+            [
+              "objectiveType",
+              "win_with_one_survivor"
+            ],
+            [
+              "id",
+              "win_with_last_unit"
+            ],
+            [
+              "number",
+              11
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "마지막 유닛 1명 남은채로 승리"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 77,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "전투시 1명 이하로 사망 했을 경우"
+            ],
+            [
+              "objectiveType",
+              "wave_deaths_le_1"
+            ],
+            [
+              "id",
+              "wave_death_limit_1"
+            ],
+            [
+              "number",
+              10
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "한 웨이브간 전투에서 1명 이하 사망"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 79,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "2성으로 승급된 유닛 보유시"
+            ],
+            [
+              "objectiveType",
+              "max_rank_count"
+            ],
+            [
+              "id",
+              "rank_up_to_2"
+            ],
+            [
+              "number",
+              9
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "1성 유닛을 2성까지 성장"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 81,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "각인을 3개 이상 장착한 유닛을 보유시"
+            ],
+            [
+              "objectiveType",
+              "max_imprint_count"
+            ],
+            [
+              "id",
+              "unit_with_3_imprints"
+            ],
+            [
+              "number",
+              8
+            ],
+            [
+              "target",
+              1
+            ],
+            [
+              "name",
+              "각인 3개 이상 장착 유닛 보유"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 82,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "3명의 유닛에 각각 흡수를 1회 혹은 그 이상을 할시"
+            ],
+            [
+              "objectiveType",
+              "units_with_absorb_count"
+            ],
+            [
+              "id",
+              "3_units_absorbed_once"
+            ],
+            [
+              "number",
+              7
+            ],
+            [
+              "target",
+              3
+            ],
+            [
+              "name",
+              "3명의 유닛에 각각 흡수 1회 이상"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 84,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "흡수를 5회나 그 이상 달성시"
+            ],
+            [
+              "objectiveType",
+              "total_absorb_count"
+            ],
+            [
+              "id",
+              "absorb_5"
+            ],
+            [
+              "number",
+              6
+            ],
+            [
+              "target",
+              5
+            ],
+            [
+              "name",
+              "흡수 5회 달성"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 86,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "다른 종류 심볼의 유닛이 4명이나 그 이상을 보유시"
+            ],
+            [
+              "objectiveType",
+              "unique_unit_count"
+            ],
+            [
+              "id",
+              "unique_unit_4"
+            ],
+            [
+              "number",
+              5
+            ],
+            [
+              "target",
+              4
+            ],
+            [
+              "name",
+              "서로 다른 4종 유닛 소유"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 88,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "똑같은 종류의 심볼의 유닛이 4명이나 그 이상을 보유시"
+            ],
+            [
+              "objectiveType",
+              "same_unit_count"
+            ],
+            [
+              "id",
+              "same_unit_4"
+            ],
+            [
+              "number",
+              4
+            ],
+            [
+              "target",
+              4
+            ],
+            [
+              "name",
+              "동일 유닛 4명 소유"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 90,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "보유 정수가 15개 이상을 달성할 경우"
+            ],
+            [
+              "objectiveType",
+              "essence_count"
+            ],
+            [
+              "id",
+              "essence_15_total"
+            ],
+            [
+              "number",
+              3
+            ],
+            [
+              "target",
+              15
+            ],
+            [
+              "name",
+              "정수 15 이상 달성"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 93,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "슬롯머신의 스핀을 총 20번 할시"
+            ],
+            [
+              "objectiveType",
+              "total_spin_count"
+            ],
+            [
+              "id",
+              "spin_20_total"
+            ],
+            [
+              "number",
+              2
+            ],
+            [
+              "target",
+              20
+            ],
+            [
+              "name",
+              "슬롯머신 총 20회 스핀"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        },
+        {
+          "constant_index": 94,
+          "array": [],
+          "dictionary": [
+            [
+              "description",
+              "한 라운드에서 슬롯머신 스핀을 6번 할시"
+            ],
+            [
+              "objectiveType",
+              "round_spin_count"
+            ],
+            [
+              "id",
+              "spin_6_in_one_round"
+            ],
+            [
+              "number",
+              1
+            ],
+            [
+              "target",
+              6
+            ],
+            [
+              "name",
+              "한 라운드에 스핀 6회 사용"
+            ],
+            [
+              "difficulty",
+              "하"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1545 @@
+{
+  "file": "src/data/faction.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 1,
+      "instruction_count": 21,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": ".png"
+        },
+        {
+          "constant_index": 1,
+          "value": "src/sprites/icons/sloticons/"
+        },
+        {
+          "constant_index": 2,
+          "value": "normalizeId"
+        },
+        {
+          "constant_index": 3,
+          "value": "isEnabled"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 2,
+      "instruction_count": 31,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ko"
+        },
+        {
+          "constant_index": 1,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 2,
+          "value": "_G"
+        },
+        {
+          "constant_index": 3,
+          "value": "faction."
+        },
+        {
+          "constant_index": 4,
+          "value": "getText"
+        },
+        {
+          "constant_index": 5,
+          "value": "src.data.language"
+        },
+        {
+          "constant_index": 6,
+          "value": "require"
+        },
+        {
+          "constant_index": 7,
+          "value": "normalizeId"
+        },
+        {
+          "constant_index": 8,
+          "value": "isEnabled"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 1,
+      "instruction_count": 24,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getForUnit"
+        },
+        {
+          "constant_index": 1,
+          "value": "faction"
+        },
+        {
+          "constant_index": 2,
+          "value": "isEnabled"
+        },
+        {
+          "constant_index": 3,
+          "value": "table"
+        },
+        {
+          "constant_index": 4,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 1,
+      "instruction_count": 54,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getUnitTypeKey"
+        },
+        {
+          "constant_index": 1,
+          "value": "getForUnit"
+        },
+        {
+          "constant_index": 2,
+          "value": "isEnabled"
+        },
+        {
+          "constant_index": 3,
+          "value": "ids"
+        },
+        {
+          "constant_index": 4,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/8",
+      "argument_count": 1,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": ""
+        },
+        {
+          "constant_index": 1,
+          "value": "string"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "table"
+        },
+        {
+          "constant_index": 5,
+          "value": "type"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            "subclassKey",
+            "subclass",
+            "subclassName",
+            "classKey",
+            "id",
+            "name"
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/10",
+      "argument_count": 1,
+      "instruction_count": 71,
+      "numeric_constants": [
+        2,
+        3
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "faction"
+        },
+        {
+          "constant_index": 1,
+          "value": "normalizeId"
+        },
+        {
+          "constant_index": 2,
+          "value": "name"
+        },
+        {
+          "constant_index": 3,
+          "value": "id"
+        },
+        {
+          "constant_index": 4,
+          "value": "subclassKey"
+        },
+        {
+          "constant_index": 5,
+          "value": "subclassName"
+        },
+        {
+          "constant_index": 6,
+          "value": "subclass"
+        },
+        {
+          "constant_index": 7,
+          "value": "getForClass"
+        },
+        {
+          "constant_index": 8,
+          "value": "rankOverride"
+        },
+        {
+          "constant_index": 9,
+          "value": "star"
+        },
+        {
+          "constant_index": 10,
+          "value": "rank"
+        },
+        {
+          "constant_index": 11,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 12,
+          "value": "floor"
+        },
+        {
+          "constant_index": 13,
+          "value": "math"
+        },
+        {
+          "constant_index": 14,
+          "value": "table"
+        },
+        {
+          "constant_index": 15,
+          "value": "type"
+        },
+        {
+          "constant_index": 16,
+          "value": "isEnabled"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 2,
+      "instruction_count": 60,
+      "numeric_constants": [
+        2,
+        3
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "faction"
+        },
+        {
+          "constant_index": 1,
+          "value": "normalizeId"
+        },
+        {
+          "constant_index": 2,
+          "value": "asset"
+        },
+        {
+          "constant_index": 3,
+          "value": "name"
+        },
+        {
+          "constant_index": 4,
+          "value": "id"
+        },
+        {
+          "constant_index": 5,
+          "value": "getForClass"
+        },
+        {
+          "constant_index": 6,
+          "value": "table"
+        },
+        {
+          "constant_index": 7,
+          "value": "type"
+        },
+        {
+          "constant_index": 8,
+          "value": "star"
+        },
+        {
+          "constant_index": 9,
+          "value": "rank"
+        },
+        {
+          "constant_index": 10,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 11,
+          "value": "floor"
+        },
+        {
+          "constant_index": 12,
+          "value": "math"
+        },
+        {
+          "constant_index": 13,
+          "value": "isEnabled"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/14",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": ""
+        },
+        {
+          "constant_index": 1,
+          "value": "string"
+        },
+        {
+          "constant_index": 2,
+          "value": "type"
+        },
+        {
+          "constant_index": 3,
+          "value": "isEnabled"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/16",
+      "argument_count": 2,
+      "instruction_count": 51,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "values"
+        },
+        {
+          "constant_index": 1,
+          "value": "thresholds"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 4,
+          "value": "floor"
+        },
+        {
+          "constant_index": 5,
+          "value": "max"
+        },
+        {
+          "constant_index": 6,
+          "value": "math"
+        },
+        {
+          "constant_index": 7,
+          "value": "getSynergyDef"
+        },
+        {
+          "constant_index": 8,
+          "value": "isEnabled"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/40",
+      "argument_count": 2,
+      "instruction_count": 102,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tiers"
+        },
+        {
+          "constant_index": 1,
+          "value": "footer"
+        },
+        {
+          "constant_index": 2,
+          "value": "footerKey"
+        },
+        {
+          "constant_index": 3,
+          "value": "condition"
+        },
+        {
+          "constant_index": 4,
+          "value": "conditionKey"
+        },
+        {
+          "constant_index": 5,
+          "value": "effectName"
+        },
+        {
+          "constant_index": 7,
+          "value": "effectNameKey"
+        },
+        {
+          "constant_index": 8,
+          "value": "value"
+        },
+        {
+          "constant_index": 9,
+          "value": "required"
+        },
+        {
+          "constant_index": 11,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 12,
+          "value": "values"
+        },
+        {
+          "constant_index": 13,
+          "value": "format"
+        },
+        {
+          "constant_index": 14,
+          "value": "string"
+        },
+        {
+          "constant_index": 15,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 16,
+          "value": "tierTextKeys"
+        },
+        {
+          "constant_index": 17,
+          "value": "thresholds"
+        },
+        {
+          "constant_index": 18,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 19,
+          "value": "getText"
+        },
+        {
+          "constant_index": 20,
+          "value": "valueFormatKey"
+        },
+        {
+          "constant_index": 21,
+          "value": "ko"
+        },
+        {
+          "constant_index": 22,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 23,
+          "value": "_G"
+        },
+        {
+          "constant_index": 24,
+          "value": "src.data.language"
+        },
+        {
+          "constant_index": 25,
+          "value": "require"
+        },
+        {
+          "constant_index": 26,
+          "value": "normalizeId"
+        },
+        {
+          "constant_index": 27,
+          "value": "isEnabled"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 10,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/42",
+      "argument_count": 2,
+      "instruction_count": 67,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "floor"
+        },
+        {
+          "constant_index": 4,
+          "value": "max"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        },
+        {
+          "constant_index": 6,
+          "value": "getThresholds"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/44",
+      "argument_count": 2,
+      "instruction_count": 34,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 2,
+          "value": "floor"
+        },
+        {
+          "constant_index": 3,
+          "value": "max"
+        },
+        {
+          "constant_index": 4,
+          "value": "math"
+        },
+        {
+          "constant_index": 5,
+          "value": "getThresholds"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/46",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getThresholds"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/48",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "thresholds"
+        },
+        {
+          "constant_index": 1,
+          "value": "getSynergyDef"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/50",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "normalizeId"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/52",
+      "argument_count": 1,
+      "instruction_count": 21,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "lower"
+        },
+        {
+          "constant_index": 1,
+          "value": "string"
+        },
+        {
+          "constant_index": 2,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/102",
+      "argument_count": 0,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "function"
+        },
+        {
+          "constant_index": 1,
+          "value": "getFactionSynergyUnlocked"
+        },
+        {
+          "constant_index": 2,
+          "value": "table"
+        },
+        {
+          "constant_index": 3,
+          "value": "type"
+        },
+        {
+          "constant_index": 4,
+          "value": "src.ui.upgrade"
+        },
+        {
+          "constant_index": 5,
+          "value": "loaded"
+        },
+        {
+          "constant_index": 6,
+          "value": "package"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 196,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "getIconPath"
+        },
+        {
+          "constant_index": 3,
+          "value": "getName"
+        },
+        {
+          "constant_index": 5,
+          "value": "apply"
+        },
+        {
+          "constant_index": 7,
+          "value": "countUniqueTypes"
+        },
+        {
+          "constant_index": 9,
+          "value": "getUnitTypeKey"
+        },
+        {
+          "constant_index": 11,
+          "value": "getForUnit"
+        },
+        {
+          "constant_index": 13,
+          "value": "getForChoice"
+        },
+        {
+          "constant_index": 15,
+          "value": "getForClass"
+        },
+        {
+          "constant_index": 17,
+          "value": "getSynergyValue"
+        },
+        {
+          "constant_index": 18,
+          "value": "byClass"
+        },
+        {
+          "constant_index": 19,
+          "value": "names"
+        },
+        {
+          "constant_index": 20,
+          "value": "unitSprites"
+        },
+        {
+          "constant_index": 21,
+          "value": "table"
+        },
+        {
+          "constant_index": 22,
+          "value": "type"
+        },
+        {
+          "constant_index": 23,
+          "value": "src.data.asset2"
+        },
+        {
+          "constant_index": 24,
+          "value": "require"
+        },
+        {
+          "constant_index": 25,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 26,
+          "value": "class listed in two factions: "
+        },
+        {
+          "constant_index": 27,
+          "value": "assert"
+        },
+        {
+          "constant_index": 28,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 41,
+          "value": "getSynergyTooltip"
+        },
+        {
+          "constant_index": 43,
+          "value": "getTierProgress"
+        },
+        {
+          "constant_index": 45,
+          "value": "getNextThreshold"
+        },
+        {
+          "constant_index": 47,
+          "value": "getMaxThreshold"
+        },
+        {
+          "constant_index": 49,
+          "value": "getThresholds"
+        },
+        {
+          "constant_index": 51,
+          "value": "getSynergyDef"
+        },
+        {
+          "constant_index": 53,
+          "value": "normalizeId"
+        },
+        {
+          "constant_index": 54,
+          "value": "engineer"
+        },
+        {
+          "constant_index": 56,
+          "value": "tierTextKeys"
+        },
+        {
+          "constant_index": 60,
+          "value": "holy"
+        },
+        {
+          "constant_index": 64,
+          "value": "undead"
+        },
+        {
+          "constant_index": 68,
+          "value": "arcane"
+        },
+        {
+          "constant_index": 72,
+          "value": "celestial"
+        },
+        {
+          "constant_index": 76,
+          "value": "abyss"
+        },
+        {
+          "constant_index": 80,
+          "value": "tribe"
+        },
+        {
+          "constant_index": 84,
+          "value": "forest"
+        },
+        {
+          "constant_index": 88,
+          "value": "outlaw"
+        },
+        {
+          "constant_index": 92,
+          "value": "empire"
+        },
+        {
+          "constant_index": 94,
+          "value": "values"
+        },
+        {
+          "constant_index": 96,
+          "value": "thresholds"
+        },
+        {
+          "constant_index": 100,
+          "value": "ids"
+        },
+        {
+          "constant_index": 103,
+          "value": "isEnabled"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 29,
+          "array": [
+            null,
+            "빅터",
+            "프랑켄슈타인",
+            "척탄병",
+            "폭파대장",
+            "은빛사수",
+            "이클립스"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 30,
+          "array": [
+            null,
+            "치유술사",
+            "대사제",
+            "성기사",
+            "템플러",
+            "RarePaladin",
+            "팔라딘",
+            "심판관",
+            "백기사",
+            "성배기사"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 31,
+          "array": [
+            null,
+            "환영사수",
+            "미라지",
+            "망령병",
+            "SpearRevenant",
+            "흑마법사",
+            "워록",
+            "나이트메어",
+            "아포칼립스",
+            "LegendarySpecter",
+            "스펙터",
+            "CrownRevenant",
+            "레버넌트",
+            "듀라한",
+            "팬텀",
+            "리치",
+            "리치로드"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 32,
+          "array": [
+            null,
+            "염투사",
+            "플레어",
+            "화령술사",
+            "샐러맨더",
+            "서리칼날",
+            "빙결여제",
+            "예지술사",
+            "예언자",
+            "페이즈",
+            "크로노워커"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 33,
+          "array": [
+            null,
+            "월광사제",
+            "초승달 여왕",
+            "큐피드",
+            "세라프",
+            "천공병",
+            "발키리",
+            "대천사",
+            "도미니온"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 34,
+          "array": [
+            null,
+            "마검사",
+            "게이즈",
+            "암검사",
+            "마그누스",
+            "암흑사수",
+            "레이븐",
+            "흑위병",
+            "처형자",
+            "심연술사",
+            "아크메이지",
+            "리퍼",
+            "소울리퍼",
+            "타락천사",
+            "파멸의 천사"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 35,
+          "array": [
+            null,
+            "순찰자",
+            "명사수",
+            "주술사",
+            "대주술사",
+            "사수 병사",
+            "바그",
+            "바이킹",
+            "바바리안",
+            "야생법사",
+            "원시법사",
+            "야만 기병",
+            "광폭 기병",
+            "초원 기병",
+            "켄타로우스",
+            "켄타우로스"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 36,
+          "array": [
+            null,
+            "엘프병사",
+            "엘프 병사",
+            "엘프기사",
+            "엘프 기사",
+            "엘프궁수",
+            "엘프 궁수",
+            "하이 엘프",
+            "엘프 보병",
+            "하이 엘프 보병",
+            "엘프법사",
+            "엘프 법사",
+            "엘프 현자",
+            "엘프 기병",
+            "하이 엘프 기병",
+            "엔트",
+            "엔트로드",
+            "수정술사",
+            "운디네",
+            "실반",
+            "숲의 심장"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 37,
+          "array": [
+            null,
+            "해적",
+            "해적대장",
+            "해적왕",
+            "약탈자",
+            "무법자",
+            "도끼 기병",
+            "무법 기병",
+            "베테랑",
+            "장군",
+            "레인저",
+            "데드아이",
+            "화포수",
+            "캐노니어",
+            "투기 창병",
+            "글래디에이터"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 38,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 39,
+          "array": [
+            null,
+            "MiniSwordMan02",
+            "병사",
+            "MiniSwordMan03",
+            "기사",
+            "MiniArcherMan02",
+            "석궁수",
+            "MiniArcherMan03",
+            "장궁병",
+            "MiniSpearMan02",
+            "창위병",
+            "MiniSpearMan03",
+            "근위병",
+            "돌격병",
+            "MiniHorseMan03",
+            "중기병",
+            "황제",
+            "검황",
+            "고대 창병",
+            "스파르타",
+            "후사르",
+            "윙드 후사르",
+            "창술사",
+            "랜스마스터"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 55,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 57,
+          "array": [
+            null,
+            "synergy.engineer.tier1",
+            "synergy.engineer.tier2"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 58,
+          "array": [],
+          "dictionary": [
+            [
+              "trainingFromTier",
+              2
+            ],
+            [
+              "conditionKey",
+              "synergy.engineer.condition"
+            ],
+            [
+              "effectNameKey",
+              "synergy.engineer.effect_name"
+            ]
+          ]
+        },
+        {
+          "constant_index": 59,
+          "array": [
+            null,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 61,
+          "array": [
+            null,
+            20,
+            35
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 62,
+          "array": [],
+          "dictionary": [
+            [
+              "valueFormatKey",
+              "synergy.holy.value_fmt"
+            ],
+            [
+              "conditionKey",
+              "synergy.holy.condition"
+            ],
+            [
+              "effectNameKey",
+              "synergy.holy.effect_name"
+            ]
+          ]
+        },
+        {
+          "constant_index": 63,
+          "array": [
+            null,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 65,
+          "array": [
+            null,
+            3,
+            4,
+            5
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 66,
+          "array": [],
+          "dictionary": [
+            [
+              "valueFormatKey",
+              "synergy.undead.value_fmt"
+            ],
+            [
+              "maxStacks",
+              10
+            ],
+            [
+              "conditionKey",
+              "synergy.undead.condition"
+            ],
+            [
+              "effectNameKey",
+              "synergy.undead.effect_name"
+            ]
+          ]
+        },
+        {
+          "constant_index": 67,
+          "array": [
+            null,
+            2,
+            3,
+            4
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 69,
+          "array": [
+            null,
+            12,
+            20,
+            30
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 70,
+          "array": [],
+          "dictionary": [
+            [
+              "valueFormatKey",
+              "synergy.arcane.value_fmt"
+            ],
+            [
+              "conditionKey",
+              "synergy.arcane.condition"
+            ],
+            [
+              "effectNameKey",
+              "synergy.arcane.effect_name"
+            ]
+          ]
+        },
+        {
+          "constant_index": 71,
+          "array": [
+            null,
+            2,
+            3,
+            4
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 73,
+          "array": [
+            null,
+            20,
+            40
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 74,
+          "array": [],
+          "dictionary": [
+            [
+              "valueFormatKey",
+              "synergy.celestial.value_fmt"
+            ],
+            [
+              "conditionKey",
+              "synergy.celestial.condition"
+            ],
+            [
+              "effectNameKey",
+              "synergy.celestial.effect_name"
+            ],
+            [
+              "footerKey",
+              "synergy.once_per_battle"
+            ]
+          ]
+        },
+        {
+          "constant_index": 75,
+          "array": [
+            null,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 77,
+          "array": [
+            null,
+            15,
+            22,
+            30
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 78,
+          "array": [],
+          "dictionary": [
+            [
+              "valueFormatKey",
+              "synergy.abyss.value_fmt"
+            ],
+            [
+              "conditionKey",
+              "synergy.abyss.condition"
+            ],
+            [
+              "effectNameKey",
+              "synergy.abyss.effect_name"
+            ]
+          ]
+        },
+        {
+          "constant_index": 79,
+          "array": [
+            null,
+            2,
+            3,
+            4
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 81,
+          "array": [
+            null,
+            8,
+            14,
+            20
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 82,
+          "array": [],
+          "dictionary": [
+            [
+              "valueFormatKey",
+              "synergy.tribe.value_fmt"
+            ],
+            [
+              "conditionKey",
+              "synergy.tribe.condition"
+            ],
+            [
+              "effectNameKey",
+              "synergy.tribe.effect_name"
+            ]
+          ]
+        },
+        {
+          "constant_index": 83,
+          "array": [
+            null,
+            2,
+            4,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 85,
+          "array": [
+            null,
+            10,
+            16,
+            22
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 86,
+          "array": [],
+          "dictionary": [
+            [
+              "valueFormatKey",
+              "synergy.forest.value_fmt"
+            ],
+            [
+              "conditionKey",
+              "synergy.forest.condition"
+            ],
+            [
+              "effectNameKey",
+              "synergy.forest.effect_name"
+            ],
+            [
+              "footerKey",
+              "synergy.once_per_battle"
+            ]
+          ]
+        },
+        {
+          "constant_index": 87,
+          "array": [
+            null,
+            2,
+            4,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 89,
+          "array": [
+            null,
+            15,
+            25,
+            40
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 90,
+          "array": [],
+          "dictionary": [
+            [
+              "valueFormatKey",
+              "synergy.outlaw.value_fmt"
+            ],
+            [
+              "conditionKey",
+              "synergy.outlaw.condition"
+            ],
+            [
+              "effectNameKey",
+              "synergy.outlaw.effect_name"
+            ]
+          ]
+        },
+        {
+          "constant_index": 91,
+          "array": [
+            null,
+            2,
+            4,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 93,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 95,
+          "array": [
+            null,
+            10,
+            16,
+            22
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 97,
+          "array": [],
+          "dictionary": [
+            [
+              "valueFormatKey",
+              "synergy.empire.value_fmt"
+            ],
+            [
+              "conditionKey",
+              "synergy.empire.condition"
+            ],
+            [
+              "effectNameKey",
+              "synergy.empire.effect_name"
+            ]
+          ]
+        },
+        {
+          "constant_index": 98,
+          "array": [
+            null,
+            2,
+            4,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 99,
+          "array": [
+            null,
+            "empire",
+            "outlaw",
+            "forest",
+            "tribe",
+            "abyss",
+            "celestial",
+            "arcane",
+            "undead",
+            "holy",
+            "engineer"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 101,
+          "array": [],
+          "dictionary": [
+            [
+              "holy",
+              true
+            ],
+            [
+              "undead",
+              true
+            ],
+            [
+              "arcane",
+              true
+            ],
+            [
+              "celestial",
+              true
+            ],
+            [
+              "abyss",
+              true
+            ],
+            [
+              "tribe",
+              true
+            ],
+            [
+              "forest",
+              true
+            ],
+            [
+              "outlaw",
+              true
+            ],
+            [
+              "empire",
+              true
+            ],
+            [
+              "engineer",
+              true
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2191 @@
+{
+  "ui": {
+    "aspd": {
+      "displayScale": 20
+    },
+    "labels": {
+      "maxAbsorbText": "MAX"
+    }
+  },
+  "power": {
+    "beta": 0.8,
+    "alpha": 0.6,
+    "absorb": {
+      "hpPerPower": 0.3,
+      "gaugePerPower": 0.0045,
+      "aspdPerPower": 0.035,
+      "atkPerPower": 0.09,
+      "equalize": {
+        "powerPerPower": 0.6,
+        "enabled": true,
+        "bonusByVictim": {}
+      }
+    },
+    "baseline": {
+      "ASPD0": 1.5,
+      "ATK0": 9,
+      "HP0": 70
+    },
+    "skill": {
+      "utilityWeight": 0.75,
+      "expectedSecondaryTargetRate": 0.45,
+      "encounterHorizon": 12,
+      "maxUtilityRatio": 0.45
+    },
+    "aspdTau": 0.08,
+    "betaASPD": 1.1,
+    "betaAtk": 0.7
+  },
+  "hiddenLuck": {
+    "debugLogs": false,
+    "debtMax": 3,
+    "debtMin": -3,
+    "naturalWinProbability": 0.2274,
+    "early": {
+      "3": {
+        "maxPermanentUnits": 2,
+        "chances": {
+          "4": 0.2,
+          "5": 0.55,
+          "6": 1
+        }
+      },
+      "2": {
+        "maxPermanentUnits": 1,
+        "chances": {
+          "3": 0.25,
+          "4": 0.6,
+          "5": 1
+        }
+      }
+    }
+  },
+  "evolution": {
+    "rankMultipliers": {
+      "special": [
+        1,
+        3.1,
+        7.2
+      ],
+      "legendary": [
+        1,
+        3.6,
+        9.5
+      ],
+      "prism": [
+        1,
+        4.2,
+        12.8
+      ],
+      "rare": [
+        1,
+        3.1,
+        7.2
+      ],
+      "normal": [
+        1,
+        2.2,
+        4.8
+      ],
+      "advanced": [
+        1,
+        2.7,
+        6
+      ]
+    },
+    "classBonus": {
+      "W": 0.35,
+      "S": 0.3,
+      "A": 0.35
+    },
+    "rebaseLegacyAbsorbStats": {
+      "_lua_type": "function"
+    },
+    "aspdGrowth": {
+      "displayDeltaMul": 8,
+      "internalScale": 0.35,
+      "maxDeltaRel": 0.35,
+      "maxDeltaPerAbsorb": 1.2
+    },
+    "absorbGrowthEfficiency": [
+      {
+        "ratio": 1,
+        "maxLevel": 30
+      },
+      {
+        "ratio": 0.5,
+        "maxLevel": Infinity
+      }
+    ],
+    "baseDeltaPWR": {
+      "scaleByAbsorber": 0.12,
+      "base": 58
+    },
+    "rankThresholds": {
+      "special": {
+        "3": 18,
+        "2": 8
+      },
+      "legendary": {
+        "3": 20,
+        "2": 10
+      },
+      "prism": {
+        "3": 28,
+        "2": 16
+      },
+      "rare": {
+        "3": 18,
+        "2": 8
+      },
+      "normal": {
+        "3": 12,
+        "2": 5
+      },
+      "advanced": {
+        "3": 14,
+        "2": 6
+      }
+    },
+    "maxRankByGrade": {
+      "prism": 3,
+      "legendary": 3,
+      "normal": 3,
+      "rare": 3,
+      "special": 3,
+      "advanced": 3
+    },
+    "maxTierBonus": 1.25,
+    "maxTier": {
+      "mins": {
+        "hp": 6,
+        "aspd": 0.1,
+        "atk": 3
+      },
+      "rates": {
+        "W": {
+          "hp": 0.05
+        },
+        "S": {
+          "atk": 0.04
+        },
+        "A": {
+          "aspd": 0.03
+        }
+      }
+    },
+    "absorbGrowthVersion": 3,
+    "getAbsorbLvMultipliers": {
+      "_lua_type": "function"
+    }
+  },
+  "colors": {
+    "bg": [
+      0.18,
+      0.13,
+      0.18
+    ],
+    "subtle": [
+      1,
+      1,
+      1,
+      0.2
+    ],
+    "text": [
+      0.92,
+      0.94,
+      0.97
+    ],
+    "grid": [
+      0.85,
+      0.88,
+      0.93
+    ],
+    "accent": [
+      0.95,
+      0.77,
+      0.17
+    ],
+    "reelBg": [
+      0.93,
+      0.9,
+      0.95
+    ],
+    "panelDark": [
+      0.11,
+      0.12,
+      0.17
+    ],
+    "panel": [
+      0.14,
+      0.16,
+      0.22
+    ]
+  },
+  "unitGrades": {
+    "probabilities": {
+      "prism": 0,
+      "legendary": 0,
+      "normal": 1,
+      "rare": 0,
+      "special": 0,
+      "advanced": 0
+    },
+    "order": [
+      "normal",
+      "advanced",
+      "rare",
+      "legendary",
+      "prism"
+    ],
+    "colors": {
+      "special": [
+        0.9411764705882353,
+        0.30980392156862746,
+        0.8470588235294118,
+        1
+      ],
+      "legendary": [
+        0.9215686274509803,
+        0.5725490196078431,
+        0.16862745098039217,
+        1
+      ],
+      "prism": [
+        0.8,
+        0.4,
+        1,
+        1
+      ],
+      "rare": [
+        0.6,
+        0.75,
+        1,
+        1
+      ],
+      "normal": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "advanced": [
+        0.6,
+        0.85,
+        0.65,
+        1
+      ]
+    },
+    "labels": {
+      "prism": "프리즘",
+      "legendary": "전설",
+      "normal": "일반",
+      "rare": "희귀",
+      "special": "특수",
+      "advanced": "고급"
+    }
+  },
+  "imprint": {
+    "slots": {
+      "prism": 5,
+      "legendary": 4,
+      "normal": 1,
+      "rare": 3,
+      "special": 3,
+      "advanced": 2
+    },
+    "definitions": {
+      "annihilation": {
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.35,
+              "maxTargets": 5,
+              "damageMult": 1.6,
+              "range": 60
+            },
+            "desc": "공격 시 35% 확률로 주변 최대 5명의 적에게 공격력 160%의 궤멸 피해를 준다",
+            "shortDesc": "광역궤멸"
+          },
+          {
+            "stats": {
+              "chance": 0.35,
+              "maxTargets": 5,
+              "damageMult": 1.8,
+              "range": 60
+            },
+            "desc": "공격 시 35% 확률로 주변 최대 5명의 적에게 공격력 180%의 궤멸 피해를 준다",
+            "shortDesc": "광역궤멸"
+          },
+          {
+            "stats": {
+              "chance": 0.35,
+              "maxTargets": 5,
+              "damageMult": 2.1,
+              "range": 60
+            },
+            "desc": "공격 시 35% 확률로 주변 최대 5명의 적에게 공격력 210%의 궤멸 피해를 준다",
+            "shortDesc": "광역궤멸"
+          },
+          {
+            "stats": {
+              "chance": 0.35,
+              "maxTargets": 5,
+              "damageMult": 2.5,
+              "range": 60
+            },
+            "desc": "공격 시 35% 확률로 주변 최대 5명의 적에게 공격력 250%의 궤멸 피해를 준다",
+            "shortDesc": "광역궤멸"
+          },
+          {
+            "stats": {
+              "chance": 0.35,
+              "maxTargets": 5,
+              "damageMult": 3,
+              "range": 60
+            },
+            "desc": "공격 시 35% 확률로 주변 최대 5명의 적에게 공격력 300%의 궤멸 피해를 준다",
+            "shortDesc": "광역궤멸"
+          }
+        ],
+        "tag": "spawn",
+        "icon": "src/sprites/icons/imprinticons/04Annihilation.png",
+        "name": "궤멸",
+        "id": "annihilation",
+        "condition": "공격 시 35% 확률로",
+        "shortDesc": "광역궤멸"
+      },
+      "transfer": {
+        "levels": [
+          {
+            "stats": {
+              "spreadFrac": 0.3,
+              "spreadRange": 36,
+              "spreadTargets": 1
+            },
+            "desc": "공격 시 주변의 다른 적 1명에게 {atk.png} 30% 피해가 전이됩니다.",
+            "shortDesc": "피해전이"
+          },
+          {
+            "stats": {
+              "spreadFrac": 0.4,
+              "spreadRange": 36,
+              "spreadTargets": 1
+            },
+            "desc": "공격 시 주변의 다른 적 1명에게 {atk.png} 40% 피해가 전이됩니다.",
+            "shortDesc": "피해전이"
+          },
+          {
+            "stats": {
+              "spreadFrac": 0.35,
+              "spreadRange": 36,
+              "spreadTargets": 2
+            },
+            "desc": "공격 시 주변의 다른 적 2명에게 {atk.png} 35% 피해가 전이됩니다.",
+            "shortDesc": "피해전이"
+          },
+          {
+            "stats": {
+              "spreadFrac": 0.4,
+              "spreadRange": 36,
+              "spreadTargets": 2
+            },
+            "desc": "공격 시 주변의 다른 적 2명에게 {atk.png} 40% 피해가 전이됩니다.",
+            "shortDesc": "피해전이"
+          },
+          {
+            "stats": {
+              "spreadFrac": 0.4,
+              "spreadRange": 36,
+              "spreadTargets": 3
+            },
+            "desc": "공격 시 주변의 다른 적 3명에게 {atk.png} 40% 피해가 전이됩니다.",
+            "shortDesc": "피해전이"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/01Diffusion.png",
+        "name": "전이",
+        "id": "transfer",
+        "condition": "공격시",
+        "shortDesc": "피해전이"
+      },
+      "overdrive": {
+        "levels": [
+          {
+            "stats": {
+              "killDamageBoost": 0.75
+            },
+            "desc": "적 처치 시 다음 기본 공격이 {atk.png} +75% 강화됩니다.",
+            "shortDesc": "격파강화"
+          },
+          {
+            "stats": {
+              "killDamageBoost": 1
+            },
+            "desc": "적 처치 시 다음 기본 공격이 {atk.png} +100% 강화됩니다.",
+            "shortDesc": "격파강화"
+          },
+          {
+            "stats": {
+              "killDamageBoost": 1.25
+            },
+            "desc": "적 처치 시 다음 기본 공격이 {atk.png} +125% 강화됩니다.",
+            "shortDesc": "격파강화"
+          },
+          {
+            "stats": {
+              "killDamageBoost": 1.5
+            },
+            "desc": "적 처치 시 다음 기본 공격이 {atk.png} +150% 강화됩니다.",
+            "shortDesc": "격파강화"
+          },
+          {
+            "stats": {
+              "killDamageBoost": 1.75
+            },
+            "desc": "적 처치 시 다음 기본 공격이 {atk.png} +175% 강화됩니다.",
+            "shortDesc": "격파강화"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/01Overdrive.png",
+        "name": "오버드라이브",
+        "id": "overdrive",
+        "condition": "적 처치 후",
+        "shortDesc": "격파강화"
+      },
+      "timeless": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/hourglass.png",
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.08,
+              "icd": 5,
+              "duration": 3
+            },
+            "desc": "공격 시 8% 확률로 3초동안 시간을 정지 시킨다",
+            "shortDesc": "시간정지"
+          },
+          {
+            "stats": {
+              "chance": 0.1,
+              "icd": 5,
+              "duration": 3.5
+            },
+            "desc": "공격 시 10% 확률로 3.5초동안 시간을 정지 시킨다",
+            "shortDesc": "시간정지"
+          },
+          {
+            "stats": {
+              "chance": 0.12,
+              "icd": 5,
+              "duration": 4
+            },
+            "desc": "공격 시 12% 확률로 4초동안 시간을 정지 시킨다",
+            "shortDesc": "시간정지"
+          },
+          {
+            "stats": {
+              "chance": 0.15,
+              "icd": 5,
+              "duration": 5
+            },
+            "desc": "공격 시 15% 확률로 5초동안 시간을 정지 시킨다",
+            "shortDesc": "시간정지"
+          },
+          {
+            "stats": {
+              "chance": 0.18,
+              "icd": 5,
+              "duration": 6
+            },
+            "desc": "공격 시 18% 확률로 6초동안 시간을 정지 시킨다",
+            "shortDesc": "시간정지"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/05Timeless.png",
+        "name": "타임리스",
+        "id": "timeless",
+        "condition": "공격 시 8% 확률로",
+        "shortDesc": "시간정지"
+      },
+      "revival": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/cross.png",
+        "levels": [
+          {
+            "stats": {
+              "hpFrac": 0.4,
+              "atkBoost": 0.2,
+              "duration": 4
+            },
+            "desc": "사망 시 한 번 부활한다. 체력 40%으로 되살아나며 공격력 +20% (4초)",
+            "shortDesc": "전장복귀"
+          },
+          {
+            "stats": {
+              "hpFrac": 0.5,
+              "atkBoost": 0.25,
+              "duration": 5
+            },
+            "desc": "사망 시 한 번 부활한다. 체력 50%으로 되살아나며 공격력 +25% (5초)",
+            "shortDesc": "전장복귀"
+          },
+          {
+            "stats": {
+              "hpFrac": 0.6,
+              "atkBoost": 0.3,
+              "duration": 6
+            },
+            "desc": "사망 시 한 번 부활한다. 체력 60%으로 되살아나며 공격력 +30% (6초)",
+            "shortDesc": "전장복귀"
+          },
+          {
+            "stats": {
+              "hpFrac": 0.7,
+              "atkBoost": 0.35,
+              "duration": 7
+            },
+            "desc": "사망 시 한 번 부활한다. 체력 70%으로 되살아나며 공격력 +35% (7초)",
+            "shortDesc": "전장복귀"
+          },
+          {
+            "stats": {
+              "hpFrac": 0.8,
+              "atkBoost": 0.4,
+              "duration": 8
+            },
+            "desc": "사망 시 한 번 부활한다. 체력 80%으로 되살아나며 공격력 +40% (8초)",
+            "shortDesc": "전장복귀"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/04Revival.png",
+        "name": "부활",
+        "id": "revival",
+        "condition": "사망 시",
+        "shortDesc": "전장복귀"
+      },
+      "chain": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/multihit.png",
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.3,
+              "bounces": 1,
+              "bounceDamageFrac": 0.6
+            },
+            "desc": "공격이 적중하면 가장 가까운 다른 적에게 1회 연쇄 피해를 준다",
+            "shortDesc": "연쇄타격"
+          },
+          {
+            "stats": {
+              "chance": 0.3,
+              "bounces": 2,
+              "bounceDamageFrac": 0.6
+            },
+            "desc": "공격이 적중하면 가장 가까운 다른 적에게 2회 연쇄 피해를 준다",
+            "shortDesc": "연쇄타격"
+          },
+          {
+            "stats": {
+              "chance": 0.3,
+              "bounces": 3,
+              "bounceDamageFrac": 0.6
+            },
+            "desc": "공격이 적중하면 가장 가까운 다른 적에게 3회 연쇄 피해를 준다",
+            "shortDesc": "연쇄타격"
+          },
+          {
+            "stats": {
+              "chance": 0.3,
+              "bounces": 4,
+              "bounceDamageFrac": 0.6
+            },
+            "desc": "공격이 적중하면 가장 가까운 다른 적에게 4회 연쇄 피해를 준다",
+            "shortDesc": "연쇄타격"
+          },
+          {
+            "stats": {
+              "chance": 0.3,
+              "bounces": 5,
+              "bounceDamageFrac": 0.6
+            },
+            "desc": "공격이 적중하면 가장 가까운 다른 적에게 5회 연쇄 피해를 준다",
+            "shortDesc": "연쇄타격"
+          }
+        ],
+        "tag": "spawn",
+        "icon": "src/sprites/icons/imprinticons/03Chain.png",
+        "name": "연쇄",
+        "id": "chain",
+        "condition": "공격 적중 시",
+        "shortDesc": "연쇄타격"
+      },
+      "blind": {
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.16,
+              "icd": 2,
+              "blindDur": 0.4
+            },
+            "desc": "공격 시 16% 확률로 대상 적이 실명 상태가 되어 0.4초간 공격이 빗나간다",
+            "shortDesc": "공격무효"
+          },
+          {
+            "stats": {
+              "chance": 0.16,
+              "icd": 2,
+              "blindDur": 0.6
+            },
+            "desc": "공격 시 16% 확률로 대상 적이 실명 상태가 되어 0.6초간 공격이 빗나간다",
+            "shortDesc": "공격무효"
+          },
+          {
+            "stats": {
+              "chance": 0.16,
+              "icd": 2,
+              "blindDur": 0.8
+            },
+            "desc": "공격 시 16% 확률로 대상 적이 실명 상태가 되어 0.8초간 공격이 빗나간다",
+            "shortDesc": "공격무효"
+          },
+          {
+            "stats": {
+              "chance": 0.16,
+              "icd": 2,
+              "blindDur": 1
+            },
+            "desc": "공격 시 16% 확률로 대상 적이 실명 상태가 되어 1초간 공격이 빗나간다",
+            "shortDesc": "공격무효"
+          },
+          {
+            "stats": {
+              "chance": 0.16,
+              "icd": 2,
+              "blindDur": 1.3
+            },
+            "desc": "공격 시 16% 확률로 대상 적이 실명 상태가 되어 1.3초간 공격이 빗나간다",
+            "shortDesc": "공격무효"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/02Blind.png",
+        "name": "실명",
+        "id": "blind",
+        "condition": "공격시 16%",
+        "shortDesc": "공격무효"
+      },
+      "poison": {
+        "levels": [
+          {
+            "stats": {
+              "maxHPFrac": 0.012,
+              "chance": 0.25,
+              "duration": 2,
+              "maxStacks": 1,
+              "tickInterval": 0.5
+            },
+            "desc": "공격 시 25% 확률로 독을 부여한다 (2초 지속)",
+            "shortDesc": "맹독"
+          },
+          {
+            "stats": {
+              "maxHPFrac": 0.012,
+              "chance": 0.25,
+              "duration": 2.5,
+              "maxStacks": 1,
+              "tickInterval": 0.5
+            },
+            "desc": "공격 시 25% 확률로 독을 부여한다 (2.5초 지속)",
+            "shortDesc": "맹독"
+          },
+          {
+            "stats": {
+              "maxHPFrac": 0.012,
+              "chance": 0.25,
+              "duration": 3,
+              "maxStacks": 1,
+              "tickInterval": 0.5
+            },
+            "desc": "공격 시 25% 확률로 독을 부여한다 (3초 지속)",
+            "shortDesc": "맹독"
+          },
+          {
+            "stats": {
+              "maxHPFrac": 0.012,
+              "chance": 0.25,
+              "duration": 4,
+              "maxStacks": 1,
+              "tickInterval": 0.5
+            },
+            "desc": "공격 시 25% 확률로 독을 부여한다 (4초 지속)",
+            "shortDesc": "맹독"
+          },
+          {
+            "stats": {
+              "maxHPFrac": 0.012,
+              "chance": 0.25,
+              "duration": 5,
+              "maxStacks": 1,
+              "tickInterval": 0.5
+            },
+            "desc": "공격 시 25% 확률로 독을 부여한다 (5초 지속)",
+            "shortDesc": "맹독"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/02Poison.png",
+        "name": "독",
+        "id": "poison",
+        "condition": "공격시",
+        "shortDesc": "맹독"
+      },
+      "soul_split": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/soul.png",
+        "levels": [
+          {
+            "stats": {
+              "duration": 3,
+              "icd": 8
+            },
+            "desc": "기본 공격 적중 시 적의 영혼을 3초 동안 몸 밖으로 끄집어낸다. 영혼이 받는 피해는 본체에도 그대로 전달된다.",
+            "shortDesc": "영혼분리"
+          },
+          {
+            "stats": {
+              "duration": 3.5,
+              "icd": 8
+            },
+            "desc": "기본 공격 적중 시 적의 영혼을 3.5초 동안 몸 밖으로 끄집어낸다. 영혼이 받는 피해는 본체에도 그대로 전달된다.",
+            "shortDesc": "영혼분리"
+          },
+          {
+            "stats": {
+              "duration": 4,
+              "icd": 8
+            },
+            "desc": "기본 공격 적중 시 적의 영혼을 4초 동안 몸 밖으로 끄집어낸다. 영혼이 받는 피해는 본체에도 그대로 전달된다.",
+            "shortDesc": "영혼분리"
+          },
+          {
+            "stats": {
+              "duration": 4.5,
+              "icd": 8
+            },
+            "desc": "기본 공격 적중 시 적의 영혼을 4.5초 동안 몸 밖으로 끄집어낸다. 영혼이 받는 피해는 본체에도 그대로 전달된다.",
+            "shortDesc": "영혼분리"
+          },
+          {
+            "stats": {
+              "duration": 5,
+              "icd": 8
+            },
+            "desc": "기본 공격 적중 시 적의 영혼을 5초 동안 몸 밖으로 끄집어낸다. 영혼이 받는 피해는 본체에도 그대로 전달된다.",
+            "shortDesc": "영혼분리"
+          }
+        ],
+        "tag": "spawn",
+        "icon": "src/sprites/icons/imprinticons/04SoulSplit.png",
+        "name": "영혼 분리",
+        "id": "soul_split",
+        "condition": "기본 공격 적중 시",
+        "shortDesc": "영혼분리"
+      },
+      "undying_soul": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/holy.png",
+        "levels": [
+          {
+            "stats": {
+              "atkFrac": 0.4
+            },
+            "desc": "사망 시, 공격력 40%의 불사혼 상태로 전투에 남는다",
+            "shortDesc": "사후전투"
+          },
+          {
+            "stats": {
+              "atkFrac": 0.6
+            },
+            "desc": "사망 시, 공격력 60%의 불사혼 상태로 전투에 남는다",
+            "shortDesc": "사후전투"
+          },
+          {
+            "stats": {
+              "atkFrac": 0.8
+            },
+            "desc": "사망 시, 공격력 80%의 불사혼 상태로 전투에 남는다",
+            "shortDesc": "사후전투"
+          },
+          {
+            "stats": {
+              "atkFrac": 1
+            },
+            "desc": "사망 시, 공격력 100%의 불사혼 상태로 전투에 남는다",
+            "shortDesc": "사후전투"
+          },
+          {
+            "stats": {
+              "atkFrac": 1.2
+            },
+            "desc": "사망 시, 공격력 120%의 불사혼 상태로 전투에 남는다",
+            "shortDesc": "사후전투"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/05UndyingSoul.png",
+        "name": "불사혼",
+        "id": "undying_soul",
+        "condition": "사망 시",
+        "shortDesc": "사후전투"
+      },
+      "fear": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/fireskeleton.png",
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.15,
+              "icd": 3,
+              "duration": 0.8
+            },
+            "desc": "공격 적중 시 15% 확률로 적을 공포에 빠뜨려 0.8초 동안 도망치게 한다.",
+            "shortDesc": "공포도주"
+          },
+          {
+            "stats": {
+              "chance": 0.17,
+              "icd": 3,
+              "duration": 0.9
+            },
+            "desc": "공격 적중 시 17% 확률로 적을 공포에 빠뜨려 0.9초 동안 도망치게 한다.",
+            "shortDesc": "공포도주"
+          },
+          {
+            "stats": {
+              "chance": 0.19,
+              "icd": 2.8,
+              "duration": 1
+            },
+            "desc": "공격 적중 시 19% 확률로 적을 공포에 빠뜨려 1초 동안 도망치게 한다.",
+            "shortDesc": "공포도주"
+          },
+          {
+            "stats": {
+              "chance": 0.22,
+              "icd": 2.6,
+              "duration": 1.1
+            },
+            "desc": "공격 적중 시 22% 확률로 적을 공포에 빠뜨려 1.1초 동안 도망치게 한다.",
+            "shortDesc": "공포도주"
+          },
+          {
+            "stats": {
+              "chance": 0.25,
+              "icd": 2.4,
+              "duration": 1.2
+            },
+            "desc": "공격 적중 시 25% 확률로 적을 공포에 빠뜨려 1.2초 동안 도망치게 한다.",
+            "shortDesc": "공포도주"
+          }
+        ],
+        "tag": "body",
+        "icon": "src/sprites/icons/imprinticons/03Fear.png",
+        "name": "공포",
+        "id": "fear",
+        "condition": "기본 공격 시",
+        "shortDesc": "공포도주"
+      },
+      "earthquake": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/earthquake.png",
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.12,
+              "icd": 7,
+              "stunDur": 0.8,
+              "damageMult": 1.5
+            },
+            "desc": "공격 적중 시 전장 적 전체에게 공격력 150% 피해와 기절을 준다.",
+            "shortDesc": "전장붕괴"
+          },
+          {
+            "stats": {
+              "chance": 0.12,
+              "icd": 7,
+              "stunDur": 0.8,
+              "damageMult": 1.75
+            },
+            "desc": "공격 적중 시 전장 적 전체에게 공격력 175% 피해와 기절을 준다.",
+            "shortDesc": "전장붕괴"
+          },
+          {
+            "stats": {
+              "chance": 0.12,
+              "icd": 6.5,
+              "stunDur": 0.8,
+              "damageMult": 2
+            },
+            "desc": "공격 적중 시 전장 적 전체에게 공격력 200% 피해와 기절을 준다.",
+            "shortDesc": "전장붕괴"
+          },
+          {
+            "stats": {
+              "chance": 0.12,
+              "icd": 6.5,
+              "stunDur": 0.8,
+              "damageMult": 2.25
+            },
+            "desc": "공격 적중 시 전장 적 전체에게 공격력 225% 피해와 기절을 준다.",
+            "shortDesc": "전장붕괴"
+          },
+          {
+            "stats": {
+              "chance": 0.12,
+              "icd": 6,
+              "stunDur": 0.8,
+              "damageMult": 2.5
+            },
+            "desc": "공격 적중 시 전장 적 전체에게 공격력 250% 피해와 기절을 준다.",
+            "shortDesc": "전장붕괴"
+          }
+        ],
+        "tag": "body",
+        "icon": "src/sprites/icons/imprinticons/04Earthquake.png",
+        "name": "지진",
+        "id": "earthquake",
+        "condition": "공격 적중 시",
+        "shortDesc": "전장붕괴"
+      },
+      "execute": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/execute.png",
+        "levels": [
+          {
+            "stats": {
+              "icd": 1.5,
+              "threshold": 0.1
+            },
+            "desc": "공격 적중 시 체력이 10% 이하인 적을 즉시 처치한다.",
+            "shortDesc": "처형"
+          },
+          {
+            "stats": {
+              "icd": 1.3,
+              "threshold": 0.12
+            },
+            "desc": "공격 적중 시 체력이 12% 이하인 적을 즉시 처치한다.",
+            "shortDesc": "처형"
+          },
+          {
+            "stats": {
+              "icd": 1.1,
+              "threshold": 0.14
+            },
+            "desc": "공격 적중 시 체력이 14% 이하인 적을 즉시 처치한다.",
+            "shortDesc": "처형"
+          },
+          {
+            "stats": {
+              "icd": 0.9,
+              "threshold": 0.16
+            },
+            "desc": "공격 적중 시 체력이 16% 이하인 적을 즉시 처치한다.",
+            "shortDesc": "처형"
+          },
+          {
+            "stats": {
+              "icd": 0.7,
+              "threshold": 0.18
+            },
+            "desc": "공격 적중 시 체력이 18% 이하인 적을 즉시 처치한다.",
+            "shortDesc": "처형"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/03Execute.png",
+        "name": "처형",
+        "id": "execute",
+        "condition": "기본 공격 시",
+        "shortDesc": "처형"
+      },
+      "volley": {
+        "levels": [
+          {
+            "stats": {
+              "every": 3,
+              "extraHitFrac": 0.4
+            },
+            "desc": "3번째 기본 공격마다 동일 대상을 {atk.png} 40% 피해로 즉시 한 번 더 공격합니다.",
+            "shortDesc": "공격추가"
+          },
+          {
+            "stats": {
+              "every": 3,
+              "extraHitFrac": 0.6
+            },
+            "desc": "3번째 기본 공격마다 동일 대상을 {atk.png} 60% 피해로 즉시 한 번 더 공격합니다.",
+            "shortDesc": "공격추가"
+          },
+          {
+            "stats": {
+              "every": 3,
+              "extraHitFrac": 0.8
+            },
+            "desc": "3번째 기본 공격마다 동일 대상을 {atk.png} 80% 피해로 즉시 한 번 더 공격합니다.",
+            "shortDesc": "공격추가"
+          },
+          {
+            "stats": {
+              "every": 3,
+              "extraHitFrac": 1
+            },
+            "desc": "3번째 기본 공격마다 동일 대상을 {atk.png} 100% 피해로 즉시 한 번 더 공격합니다.",
+            "shortDesc": "공격추가"
+          },
+          {
+            "stats": {
+              "every": 3,
+              "extraHitFrac": 1.3
+            },
+            "desc": "3번째 기본 공격마다 동일 대상을 {atk.png} 130% 피해로 즉시 한 번 더 공격합니다.",
+            "shortDesc": "공격추가"
+          }
+        ],
+        "tag": "spawn",
+        "icon": "src/sprites/icons/imprinticons/01Volley.png",
+        "name": "연사",
+        "id": "volley",
+        "condition": "3번째 공격마다",
+        "shortDesc": "공격추가"
+      },
+      "shadow_clone": {
+        "levels": [
+          {
+            "stats": {
+              "hpFrac": 0.55,
+              "atkFrac": 0.7,
+              "respawn": 2,
+              "dur": 8
+            },
+            "desc": "분신을 소환해 함께 싸운다. 분신이 쓰러지면 2초 후 다시 소환된다",
+            "shortDesc": "그림자분신"
+          },
+          {
+            "stats": {
+              "hpFrac": 0.6,
+              "atkFrac": 0.75,
+              "respawn": 2,
+              "dur": 8
+            },
+            "desc": "더 강한 분신을 소환해 함께 싸운다. 분신이 쓰러지면 2초 후 다시 소환된다",
+            "shortDesc": "그림자분신"
+          },
+          {
+            "stats": {
+              "hpFrac": 0.65,
+              "atkFrac": 0.8,
+              "respawn": 2,
+              "dur": 8
+            },
+            "desc": "강력한 분신을 소환해 함께 싸운다. 분신이 쓰러지면 2초 후 다시 소환된다",
+            "shortDesc": "그림자분신"
+          },
+          {
+            "stats": {
+              "hpFrac": 0.7,
+              "atkFrac": 0.85,
+              "respawn": 2,
+              "dur": 8
+            },
+            "desc": "더욱 강력한 분신을 소환해 함께 싸운다. 분신이 쓰러지면 2초 후 다시 소환된다",
+            "shortDesc": "그림자분신"
+          },
+          {
+            "stats": {
+              "hpFrac": 0.75,
+              "atkFrac": 0.9,
+              "respawn": 2,
+              "dur": 8
+            },
+            "desc": "본체와 비슷한 강함의 분신을 소환해 함께 싸운다. 분신이 쓰러지면 2초 후 다시 소환된다",
+            "shortDesc": "그림자분신"
+          }
+        ],
+        "tag": "spawn",
+        "icon": "src/sprites/icons/imprinticons/04ShadowClone.png",
+        "name": "분신술",
+        "id": "shadow_clone",
+        "condition": "상시 (전투 시)",
+        "shortDesc": "그림자분신"
+      },
+      "self_destruct": {
+        "levels": [
+          {
+            "stats": {
+              "hpDamageFrac": 0.25
+            },
+            "desc": "사망 시 폭발하여 주변 적 각각에게 자신의 최대 {hp.png}의 25% 피해를 준다",
+            "shortDesc": "대폭발"
+          },
+          {
+            "stats": {
+              "hpDamageFrac": 0.28
+            },
+            "desc": "사망 시 폭발하여 주변 적 각각에게 자신의 최대 {hp.png}의 28% 피해를 준다",
+            "shortDesc": "대폭발"
+          },
+          {
+            "stats": {
+              "hpDamageFrac": 0.31
+            },
+            "desc": "사망 시 폭발하여 주변 적 각각에게 자신의 최대 {hp.png}의 31% 피해를 준다",
+            "shortDesc": "대폭발"
+          },
+          {
+            "stats": {
+              "hpDamageFrac": 0.35
+            },
+            "desc": "사망 시 폭발하여 주변 적 각각에게 자신의 최대 {hp.png}의 35% 피해를 준다",
+            "shortDesc": "대폭발"
+          },
+          {
+            "stats": {
+              "hpDamageFrac": 0.4
+            },
+            "desc": "사망 시 폭발하여 주변 적 각각에게 자신의 최대 {hp.png}의 40% 피해를 준다",
+            "shortDesc": "대폭발"
+          }
+        ],
+        "tag": "body",
+        "icon": "src/sprites/icons/imprinticons/03SelfDestruct.png",
+        "name": "자폭",
+        "id": "self_destruct",
+        "condition": "사망시",
+        "shortDesc": "대폭발"
+      },
+      "overlord": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/fear.png",
+        "levels": [
+          {
+            "stats": {
+              "pwrMul": 1,
+              "maxFollowers": 2
+            },
+            "desc": "처치한 모든 종류의 적을 최대 2명 부하로 만든다",
+            "shortDesc": "그림자 군주"
+          },
+          {
+            "stats": {
+              "pwrMul": 1,
+              "maxFollowers": 3
+            },
+            "desc": "처치한 모든 종류의 적을 최대 3명 부하로 만든다",
+            "shortDesc": "그림자 군주"
+          },
+          {
+            "stats": {
+              "pwrMul": 1,
+              "maxFollowers": 4
+            },
+            "desc": "처치한 모든 종류의 적을 최대 4명 부하로 만든다",
+            "shortDesc": "그림자 군주"
+          },
+          {
+            "stats": {
+              "pwrMul": 2,
+              "maxFollowers": 4
+            },
+            "desc": "처치한 모든 종류의 적을 최대 4명 부하로 만들고 그림자들이 더 강해진다",
+            "shortDesc": "그림자 군주"
+          },
+          {
+            "stats": {
+              "pwrMul": 4,
+              "maxFollowers": 4
+            },
+            "desc": "처치한 모든 종류의 적을 최대 4명 부하로 만들고 그림자들이 더욱 강해진다",
+            "shortDesc": "그림자 군주"
+          }
+        ],
+        "tag": "spawn",
+        "icon": "src/sprites/icons/imprinticons/05Overlord.png",
+        "name": "군주",
+        "id": "overlord",
+        "condition": "적 처치 후",
+        "shortDesc": "그림자 군주"
+      },
+      "enlarge": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/enlarge.png",
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.15,
+              "duration": 3,
+              "atkBoost": 0.25,
+              "hpBoost": 0.3
+            },
+            "desc": "피격 시 15% 확률로 3초 동안 거대화한다.",
+            "shortDesc": "거대화"
+          },
+          {
+            "stats": {
+              "chance": 0.15,
+              "duration": 3.5,
+              "atkBoost": 0.27,
+              "hpBoost": 0.32
+            },
+            "desc": "피격 시 15% 확률로 3.5초 동안 거대화한다.",
+            "shortDesc": "거대화"
+          },
+          {
+            "stats": {
+              "chance": 0.15,
+              "duration": 4,
+              "atkBoost": 0.3,
+              "hpBoost": 0.35
+            },
+            "desc": "피격 시 15% 확률로 4초 동안 거대화한다.",
+            "shortDesc": "거대화"
+          },
+          {
+            "stats": {
+              "chance": 0.15,
+              "duration": 4.5,
+              "atkBoost": 0.33,
+              "hpBoost": 0.38
+            },
+            "desc": "피격 시 15% 확률로 4.5초 동안 거대화한다.",
+            "shortDesc": "거대화"
+          },
+          {
+            "stats": {
+              "chance": 0.15,
+              "duration": 5,
+              "atkBoost": 0.35,
+              "hpBoost": 0.4
+            },
+            "desc": "피격 시 15% 확률로 5초 동안 거대화한다.",
+            "shortDesc": "거대화"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/03Enlarge.png",
+        "name": "거대화",
+        "id": "enlarge",
+        "condition": "피격시 15% 확률로",
+        "shortDesc": "거대화"
+      },
+      "bash": {
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.18,
+              "icd": 2,
+              "stunDur": 0.5
+            },
+            "desc": "공격 시 18% 확률로 대상을 0.5초간 기절",
+            "shortDesc": "기절"
+          },
+          {
+            "stats": {
+              "chance": 0.18,
+              "icd": 2,
+              "stunDur": 0.7
+            },
+            "desc": "공격 시 18% 확률로 대상을 0.7초간 기절",
+            "shortDesc": "기절"
+          },
+          {
+            "stats": {
+              "chance": 0.18,
+              "icd": 2,
+              "stunDur": 0.9
+            },
+            "desc": "공격 시 18% 확률로 대상을 0.9초간 기절",
+            "shortDesc": "기절"
+          },
+          {
+            "stats": {
+              "chance": 0.18,
+              "icd": 2,
+              "stunDur": 1.1
+            },
+            "desc": "공격 시 18% 확률로 대상을 1.1초간 기절",
+            "shortDesc": "기절"
+          },
+          {
+            "stats": {
+              "chance": 0.18,
+              "icd": 2,
+              "stunDur": 1.3
+            },
+            "desc": "공격 시 18% 확률로 대상을 1.3초간 기절",
+            "shortDesc": "기절"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/02Bash.png",
+        "name": "충격타",
+        "id": "bash",
+        "condition": "공격시 18%",
+        "shortDesc": "기절"
+      },
+      "meteor": {
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.1,
+              "icd": 8,
+              "damageMult": 1.8
+            },
+            "desc": "기본 공격 시 10% 확률로 메테오를 떨어뜨려 주변 적 최대 3명에게 각각 {atk.png} 180% 피해를 줍니다. 자신의 최대 {hp.png}가 높을수록 운석과 폭발 범위가 커집니다.",
+            "shortDesc": "대재앙"
+          },
+          {
+            "stats": {
+              "chance": 0.1,
+              "icd": 8,
+              "damageMult": 2.1
+            },
+            "desc": "기본 공격 시 10% 확률로 메테오를 떨어뜨려 주변 적 최대 3명에게 각각 {atk.png} 210% 피해를 줍니다. 자신의 최대 {hp.png}가 높을수록 운석과 폭발 범위가 커집니다.",
+            "shortDesc": "대재앙"
+          },
+          {
+            "stats": {
+              "chance": 0.1,
+              "icd": 8,
+              "damageMult": 2.4
+            },
+            "desc": "기본 공격 시 10% 확률로 메테오를 떨어뜨려 주변 적 최대 3명에게 각각 {atk.png} 240% 피해를 줍니다. 자신의 최대 {hp.png}가 높을수록 운석과 폭발 범위가 커집니다.",
+            "shortDesc": "대재앙"
+          },
+          {
+            "stats": {
+              "chance": 0.1,
+              "icd": 8,
+              "damageMult": 2.7
+            },
+            "desc": "기본 공격 시 10% 확률로 메테오를 떨어뜨려 주변 적 최대 3명에게 각각 {atk.png} 270% 피해를 줍니다. 자신의 최대 {hp.png}가 높을수록 운석과 폭발 범위가 커집니다.",
+            "shortDesc": "대재앙"
+          },
+          {
+            "stats": {
+              "chance": 0.1,
+              "icd": 8,
+              "damageMult": 3
+            },
+            "desc": "기본 공격 시 10% 확률로 메테오를 떨어뜨려 주변 적 최대 3명에게 각각 {atk.png} 300% 피해를 줍니다. 자신의 최대 {hp.png}가 높을수록 운석과 폭발 범위가 커집니다.",
+            "shortDesc": "대재앙"
+          }
+        ],
+        "tag": "spawn",
+        "icon": "src/sprites/icons/imprinticons/04Meteor.png",
+        "name": "메테오",
+        "id": "meteor",
+        "condition": "기본 공격 시 10% 확률",
+        "shortDesc": "대재앙"
+      },
+      "lifesteal": {
+        "levels": [
+          {
+            "stats": {
+              "stealFrac": 0.04
+            },
+            "desc": "공격으로 준 피해의 4%를 체력으로 회복한다",
+            "shortDesc": "체력흡혈"
+          },
+          {
+            "stats": {
+              "stealFrac": 0.06
+            },
+            "desc": "공격으로 준 피해의 6%를 체력으로 회복한다",
+            "shortDesc": "체력흡혈"
+          },
+          {
+            "stats": {
+              "stealFrac": 0.08
+            },
+            "desc": "공격으로 준 피해의 8%를 체력으로 회복한다",
+            "shortDesc": "체력흡혈"
+          },
+          {
+            "stats": {
+              "stealFrac": 0.1
+            },
+            "desc": "공격으로 준 피해의 10%를 체력으로 회복한다",
+            "shortDesc": "체력흡혈"
+          },
+          {
+            "stats": {
+              "stealFrac": 0.12
+            },
+            "desc": "공격으로 준 피해의 12%를 체력으로 회복한다",
+            "shortDesc": "체력흡혈"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/02Lifesteal.png",
+        "name": "흡혈",
+        "id": "lifesteal",
+        "condition": "상시",
+        "shortDesc": "체력흡혈"
+      },
+      "colossus_descent": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/golem.png",
+        "levels": [
+          {
+            "stats": {
+              "skillDmg": 1,
+              "knockback": 20,
+              "atkFrac": 0.4,
+              "skillTargets": 5,
+              "hpFrac": 2,
+              "skillEvery": 5,
+              "respawn": 3,
+              "stun": 0
+            },
+            "desc": "유닛의 체력 200%, 공격력 40%인 거신을 소환한다.",
+            "shortDesc": "거신소환"
+          },
+          {
+            "stats": {
+              "skillDmg": 1.4,
+              "knockback": 22,
+              "atkFrac": 0.5,
+              "skillTargets": 5,
+              "hpFrac": 2.4,
+              "skillEvery": 5,
+              "respawn": 3,
+              "stun": 0
+            },
+            "desc": "유닛의 체력 240%, 공격력 50%인 거신을 소환한다.",
+            "shortDesc": "거신소환"
+          },
+          {
+            "stats": {
+              "skillDmg": 2,
+              "knockback": 25,
+              "atkFrac": 0.6,
+              "skillTargets": 5,
+              "hpFrac": 3,
+              "skillEvery": 5,
+              "respawn": 3,
+              "stun": 0.4
+            },
+            "desc": "유닛의 체력 300%, 공격력 60%인 거신을 소환한다. 거신이 넉백후 적을 0.4초 기절 시킨다",
+            "shortDesc": "거신소환"
+          },
+          {
+            "stats": {
+              "skillDmg": 2.4,
+              "knockback": 28,
+              "atkFrac": 0.75,
+              "skillTargets": 5,
+              "hpFrac": 3.4,
+              "skillEvery": 5,
+              "respawn": 3,
+              "stun": 0.6
+            },
+            "desc": "유닛의 체력 340%, 공격력 75%인 거신을 소환한다. 거신이 넉백후 적을 0.6초 기절 시킨다",
+            "shortDesc": "거신소환"
+          },
+          {
+            "stats": {
+              "skillDmg": 3,
+              "knockback": 32,
+              "atkFrac": 0.9,
+              "skillTargets": 5,
+              "hpFrac": 4,
+              "skillEvery": 5,
+              "respawn": 3,
+              "stun": 0.8
+            },
+            "desc": "유닛의 체력 400%, 공격력 90%인 거신을 소환한다. 거신이 넉백후 적을 0.8초 기절 시킨다",
+            "shortDesc": "거신소환"
+          }
+        ],
+        "tag": "spawn",
+        "icon": "src/sprites/icons/imprinticons/05ColossusDescent.png",
+        "name": "거신강림",
+        "id": "colossus_descent",
+        "condition": "상시",
+        "shortDesc": "거신소환"
+      },
+      "ruin": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/eye.png",
+        "levels": [
+          {
+            "stats": {
+              "dotRatio": 0.06
+            },
+            "desc": "존재만으로 모든 적이 1초마다 해당 유닛 공격력의 6% 지속 피해를 받는다.",
+            "shortDesc": "지속압살"
+          },
+          {
+            "stats": {
+              "dotRatio": 0.09
+            },
+            "desc": "존재만으로 모든 적이 1초마다 해당 유닛 공격력의 9% 지속 피해를 받는다.",
+            "shortDesc": "지속압살"
+          },
+          {
+            "stats": {
+              "dotRatio": 0.12
+            },
+            "desc": "존재만으로 모든 적이 1초마다 해당 유닛 공격력의 12% 지속 피해를 받는다.",
+            "shortDesc": "지속압살"
+          },
+          {
+            "stats": {
+              "dotRatio": 0.16
+            },
+            "desc": "존재만으로 모든 적이 1초마다 해당 유닛 공격력의 16% 지속 피해를 받는다.",
+            "shortDesc": "지속압살"
+          },
+          {
+            "stats": {
+              "dotRatio": 0.2
+            },
+            "desc": "존재만으로 모든 적이 1초마다 해당 유닛 공격력의 20% 지속 피해를 받는다.",
+            "shortDesc": "지속압살"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/05Ruin.png",
+        "name": "섬멸",
+        "id": "ruin",
+        "condition": "상시",
+        "shortDesc": "지속압살"
+      },
+      "pierce": {
+        "levels": [
+          {
+            "stats": {
+              "maxPierceTargets": 1,
+              "pierceDamageFrac": 0.25
+            },
+            "desc": "기본 공격이 최대 1명 추가 관통하고 {atk.png} 25% 피해를 입힙니다.",
+            "shortDesc": "공격관통"
+          },
+          {
+            "stats": {
+              "maxPierceTargets": 1,
+              "pierceDamageFrac": 0.35
+            },
+            "desc": "기본 공격이 최대 1명 추가 관통하고 {atk.png} 35% 피해를 입힙니다.",
+            "shortDesc": "공격관통"
+          },
+          {
+            "stats": {
+              "maxPierceTargets": 2,
+              "pierceDamageFrac": 0.35
+            },
+            "desc": "기본 공격이 최대 2명 추가 관통하고 {atk.png} 35% 피해를 입힙니다.",
+            "shortDesc": "공격관통"
+          },
+          {
+            "stats": {
+              "maxPierceTargets": 2,
+              "pierceDamageFrac": 0.45
+            },
+            "desc": "기본 공격이 최대 2명 추가 관통하고 {atk.png} 45% 피해를 입힙니다.",
+            "shortDesc": "공격관통"
+          },
+          {
+            "stats": {
+              "maxPierceTargets": 3,
+              "pierceDamageFrac": 0.45
+            },
+            "desc": "기본 공격이 최대 3명 추가 관통하고 {atk.png} 45% 피해를 입힙니다.",
+            "shortDesc": "공격관통"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/01Pierce.png",
+        "name": "관통",
+        "id": "pierce",
+        "condition": "기본 공격 시",
+        "shortDesc": "공격관통"
+      },
+      "amplify": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/skillsizeupgrade.png",
+        "levels": [
+          {
+            "stats": {
+              "skillRangeMult": 1.3
+            },
+            "desc": "스킬 크기 30% 증가",
+            "shortDesc": "범위증가"
+          },
+          {
+            "stats": {
+              "skillRangeMult": 1.35
+            },
+            "desc": "스킬 크기 35% 증가",
+            "shortDesc": "범위증가"
+          },
+          {
+            "stats": {
+              "skillRangeMult": 1.4
+            },
+            "desc": "스킬 크기 40% 증가",
+            "shortDesc": "범위증가"
+          },
+          {
+            "stats": {
+              "skillRangeMult": 1.45
+            },
+            "desc": "스킬 크기 45% 증가",
+            "shortDesc": "범위증가"
+          },
+          {
+            "stats": {
+              "skillRangeMult": 1.5
+            },
+            "desc": "스킬 크기 50% 증가",
+            "shortDesc": "범위증가"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/01Amplify.png",
+        "name": "증폭 (스킬)",
+        "id": "amplify",
+        "condition": "스킬 발동 시",
+        "shortDesc": "범위증가"
+      },
+      "rewind": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/hourglass.png",
+        "levels": [
+          {
+            "stats": {
+              "restore": 0.6,
+              "window": 3
+            },
+            "desc": "첫 피해 직전의 체력과 위치를 기록합니다. 3초 뒤 기록한 위치로 돌아가며, 그동안 잃은 {hp.png}의 60%를 되돌립니다.",
+            "shortDesc": "시간회귀"
+          },
+          {
+            "stats": {
+              "restore": 0.7,
+              "window": 3
+            },
+            "desc": "첫 피해 직전의 체력과 위치를 기록합니다. 3초 뒤 기록한 위치로 돌아가며, 그동안 잃은 {hp.png}의 70%를 되돌립니다.",
+            "shortDesc": "시간회귀"
+          },
+          {
+            "stats": {
+              "restore": 0.8,
+              "window": 3
+            },
+            "desc": "첫 피해 직전의 체력과 위치를 기록합니다. 3초 뒤 기록한 위치로 돌아가며, 그동안 잃은 {hp.png}의 80%를 되돌립니다.",
+            "shortDesc": "시간회귀"
+          },
+          {
+            "stats": {
+              "restore": 0.9,
+              "window": 3
+            },
+            "desc": "첫 피해 직전의 체력과 위치를 기록합니다. 3초 뒤 기록한 위치로 돌아가며, 그동안 잃은 {hp.png}의 90%를 되돌립니다.",
+            "shortDesc": "시간회귀"
+          },
+          {
+            "stats": {
+              "restore": 1,
+              "window": 3
+            },
+            "desc": "첫 피해 직전의 체력과 위치를 기록합니다. 3초 뒤 기록한 위치로 돌아가며, 그동안 잃은 {hp.png}의 100%를 되돌립니다.",
+            "shortDesc": "시간회귀"
+          }
+        ],
+        "tag": "body",
+        "icon": "src/sprites/icons/imprinticons/04Rewind.png",
+        "name": "회귀",
+        "id": "rewind",
+        "condition": "적에게 처음 체력 피해를 받은 뒤 3초",
+        "shortDesc": "시간회귀"
+      },
+      "fortify": {
+        "levels": [
+          {
+            "stats": {
+              "damageReduction": 0.15
+            },
+            "desc": "받는 피해 15% 감소",
+            "shortDesc": "피해감소"
+          },
+          {
+            "stats": {
+              "damageReduction": 0.22
+            },
+            "desc": "받는 피해 22% 감소",
+            "shortDesc": "피해감소"
+          },
+          {
+            "stats": {
+              "damageReduction": 0.27
+            },
+            "desc": "받는 피해 27% 감소",
+            "shortDesc": "피해감소"
+          },
+          {
+            "stats": {
+              "damageReduction": 0.31
+            },
+            "desc": "받는 피해 31% 감소",
+            "shortDesc": "피해감소"
+          },
+          {
+            "stats": {
+              "damageReduction": 0.34
+            },
+            "desc": "받는 피해 34% 감소",
+            "shortDesc": "피해감소"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/01Fortify.png",
+        "name": "견고함",
+        "id": "fortify",
+        "condition": "상시",
+        "shortDesc": "피해감소"
+      },
+      "block": {
+        "levels": [
+          {
+            "stats": {
+              "blockProb": 0.15
+            },
+            "desc": "피격 시 15% 확률로 공격을 막아낸다",
+            "shortDesc": "공격차단"
+          },
+          {
+            "stats": {
+              "blockProb": 0.18
+            },
+            "desc": "피격 시 18% 확률로 공격을 막아낸다",
+            "shortDesc": "공격차단"
+          },
+          {
+            "stats": {
+              "blockProb": 0.22
+            },
+            "desc": "피격 시 22% 확률로 공격을 막아낸다",
+            "shortDesc": "공격차단"
+          },
+          {
+            "stats": {
+              "blockProb": 0.26
+            },
+            "desc": "피격 시 26% 확률로 공격을 막아낸다",
+            "shortDesc": "공격차단"
+          },
+          {
+            "stats": {
+              "blockProb": 0.3
+            },
+            "desc": "피격 시 30% 확률로 공격을 막아낸다",
+            "shortDesc": "공격차단"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/02Block.png",
+        "name": "블록",
+        "id": "block",
+        "condition": "상시",
+        "shortDesc": "공격차단"
+      },
+      "knockback": {
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.18,
+              "knockbackDist": 10,
+              "icd": 2
+            },
+            "desc": "공격 시 18% 확률로 대상 적을 살짝 밀쳐낸다",
+            "shortDesc": "밀쳐내기"
+          },
+          {
+            "stats": {
+              "chance": 0.18,
+              "knockbackDist": 12,
+              "icd": 2
+            },
+            "desc": "공격 시 18% 확률로 대상 적을 확실히 밀쳐낸다",
+            "shortDesc": "밀쳐내기"
+          },
+          {
+            "stats": {
+              "chance": 0.18,
+              "knockbackDist": 14,
+              "icd": 2
+            },
+            "desc": "공격 시 18% 확률로 대상 적을 크게 밀쳐낸다",
+            "shortDesc": "밀쳐내기"
+          },
+          {
+            "stats": {
+              "chance": 0.18,
+              "knockbackDist": 16,
+              "icd": 2
+            },
+            "desc": "공격 시 18% 확률로 대상 적을 강하게 밀쳐낸다",
+            "shortDesc": "밀쳐내기"
+          },
+          {
+            "stats": {
+              "chance": 0.18,
+              "knockbackDist": 18,
+              "icd": 2
+            },
+            "desc": "공격 시 18% 확률로 대상 적을 멀리 밀쳐낸다",
+            "shortDesc": "밀쳐내기"
+          }
+        ],
+        "tag": "body",
+        "icon": "src/sprites/icons/imprinticons/02Knockback.png",
+        "name": "넉백",
+        "id": "knockback",
+        "condition": "공격시 18%",
+        "shortDesc": "밀쳐내기"
+      },
+      "brace": {
+        "levels": [
+          {
+            "stats": {
+              "afterAttackDelay": 0.25,
+              "nextHitDamageMult": 1.25
+            },
+            "desc": "기본 공격 후 힘을 모아, 다음 기본 공격이 {atk.png} +25% 강화됩니다.",
+            "shortDesc": "공격강화"
+          },
+          {
+            "stats": {
+              "afterAttackDelay": 0.25,
+              "nextHitDamageMult": 1.35
+            },
+            "desc": "기본 공격 후 힘을 모아, 다음 기본 공격이 {atk.png} +35% 강화됩니다.",
+            "shortDesc": "공격강화"
+          },
+          {
+            "stats": {
+              "afterAttackDelay": 0.25,
+              "nextHitDamageMult": 1.5
+            },
+            "desc": "기본 공격 후 힘을 모아, 다음 기본 공격이 {atk.png} +50% 강화됩니다.",
+            "shortDesc": "공격강화"
+          },
+          {
+            "stats": {
+              "afterAttackDelay": 0.25,
+              "nextHitDamageMult": 1.65
+            },
+            "desc": "기본 공격 후 힘을 모아, 다음 기본 공격이 {atk.png} +65% 강화됩니다.",
+            "shortDesc": "공격강화"
+          },
+          {
+            "stats": {
+              "afterAttackDelay": 0.25,
+              "nextHitDamageMult": 1.8
+            },
+            "desc": "기본 공격 후 힘을 모아, 다음 기본 공격이 {atk.png} +80% 강화됩니다.",
+            "shortDesc": "공격강화"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/01Brace.png",
+        "name": "굳히기",
+        "id": "brace",
+        "condition": "공격시",
+        "shortDesc": "공격강화"
+      },
+      "relentless": {
+        "levels": [
+          {
+            "stats": {
+              "aspdPerStack": 0.04,
+              "maxStacks": 4,
+              "resetAfter": 0.5
+            },
+            "desc": "연속 공격마다 {aspd.png} +4% (최대 4중첩)",
+            "shortDesc": "연타가속"
+          },
+          {
+            "stats": {
+              "aspdPerStack": 0.05,
+              "maxStacks": 4,
+              "resetAfter": 0.5
+            },
+            "desc": "연속 공격마다 {aspd.png} +5% (최대 4중첩)",
+            "shortDesc": "연타가속"
+          },
+          {
+            "stats": {
+              "aspdPerStack": 0.05,
+              "maxStacks": 5,
+              "resetAfter": 0.5
+            },
+            "desc": "연속 공격마다 {aspd.png} +5% (최대 5중첩)",
+            "shortDesc": "연타가속"
+          },
+          {
+            "stats": {
+              "aspdPerStack": 0.06,
+              "maxStacks": 5,
+              "resetAfter": 0.5
+            },
+            "desc": "연속 공격마다 {aspd.png} +6% (최대 5중첩)",
+            "shortDesc": "연타가속"
+          },
+          {
+            "stats": {
+              "aspdPerStack": 0.06,
+              "maxStacks": 6,
+              "resetAfter": 0.5
+            },
+            "desc": "연속 공격마다 {aspd.png} +6% (최대 6중첩)",
+            "shortDesc": "연타가속"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/01Relentless.png",
+        "name": "집요함",
+        "id": "relentless",
+        "condition": "공격시",
+        "shortDesc": "연타가속"
+      },
+      "majesty": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/angry.png",
+        "levels": [
+          {
+            "stats": {
+              "atkDebuff": 0.12,
+              "hpDebuff": 0.15
+            },
+            "desc": "존재만으로 모든 적의 공격력 -12%, 최대 체력 -15% 감소",
+            "shortDesc": "적 약화"
+          },
+          {
+            "stats": {
+              "atkDebuff": 0.2,
+              "hpDebuff": 0.23
+            },
+            "desc": "존재만으로 모든 적의 공격력 -20%, 최대 체력 -23% 감소",
+            "shortDesc": "적 약화"
+          },
+          {
+            "stats": {
+              "atkDebuff": 0.27,
+              "hpDebuff": 0.3
+            },
+            "desc": "존재만으로 모든 적의 공격력 -27%, 최대 체력 -30% 감소",
+            "shortDesc": "적 약화"
+          },
+          {
+            "stats": {
+              "atkDebuff": 0.35,
+              "hpDebuff": 0.38
+            },
+            "desc": "존재만으로 모든 적의 공격력 -35%, 최대 체력 -38% 감소",
+            "shortDesc": "적 약화"
+          },
+          {
+            "stats": {
+              "atkDebuff": 0.42,
+              "hpDebuff": 0.45
+            },
+            "desc": "존재만으로 모든 적의 공격력 -42%, 최대 체력 -45% 감소",
+            "shortDesc": "적 약화"
+          }
+        ],
+        "tag": "debuff",
+        "icon": "src/sprites/icons/imprinticons/05Majesty.png",
+        "name": "위엄",
+        "id": "majesty",
+        "condition": "상시 (생존 시)",
+        "shortDesc": "적 약화"
+      },
+      "shrink": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/shrink.png",
+        "levels": [
+          {
+            "stats": {
+              "chance": 0.1,
+              "visualScale": 0.75,
+              "duration": 3,
+              "atkReduction": 0.1
+            },
+            "desc": "기본 공격 시 10% 확률로 적을 3초간 작아지게 만듭니다. 축소된 적은 {atk.png} -10%, {aspd.png}가 이 유닛보다 느려집니다.",
+            "shortDesc": "약체화"
+          },
+          {
+            "stats": {
+              "chance": 0.12,
+              "visualScale": 0.75,
+              "duration": 3,
+              "atkReduction": 0.1
+            },
+            "desc": "기본 공격 시 12% 확률로 적을 3초간 작아지게 만듭니다. 축소된 적은 {atk.png} -10%, {aspd.png}가 이 유닛보다 느려집니다.",
+            "shortDesc": "약체화"
+          },
+          {
+            "stats": {
+              "chance": 0.14,
+              "visualScale": 0.75,
+              "duration": 3,
+              "atkReduction": 0.1
+            },
+            "desc": "기본 공격 시 14% 확률로 적을 3초간 작아지게 만듭니다. 축소된 적은 {atk.png} -10%, {aspd.png}가 이 유닛보다 느려집니다.",
+            "shortDesc": "약체화"
+          },
+          {
+            "stats": {
+              "chance": 0.16,
+              "visualScale": 0.75,
+              "duration": 3,
+              "atkReduction": 0.1
+            },
+            "desc": "기본 공격 시 16% 확률로 적을 3초간 작아지게 만듭니다. 축소된 적은 {atk.png} -10%, {aspd.png}가 이 유닛보다 느려집니다.",
+            "shortDesc": "약체화"
+          },
+          {
+            "stats": {
+              "chance": 0.2,
+              "visualScale": 0.75,
+              "duration": 3,
+              "atkReduction": 0.1
+            },
+            "desc": "기본 공격 시 20% 확률로 적을 3초간 작아지게 만듭니다. 축소된 적은 {atk.png} -10%, {aspd.png}가 이 유닛보다 느려집니다.",
+            "shortDesc": "약체화"
+          }
+        ],
+        "tag": "debuff",
+        "icon": "src/sprites/icons/imprinticons/47Shrink.png",
+        "name": "축소",
+        "id": "shrink",
+        "condition": "기본 공격 시 확률 발동",
+        "shortDesc": "약체화"
+      },
+      "chill": {
+        "shortIcon": "src/sprites/icons/imprinticons/shortsicons/ice.png",
+        "levels": [
+          {
+            "stats": {
+              "dur": 2,
+              "bossSlowFrac": 0.125,
+              "slowFrac": 0.25
+            },
+            "desc": "공격 시 적의 이동 및 공격 속도가 25% 감소한다",
+            "shortDesc": "냉기둔화"
+          },
+          {
+            "stats": {
+              "dur": 2,
+              "bossSlowFrac": 0.15,
+              "slowFrac": 0.3
+            },
+            "desc": "공격 시 적의 이동 및 공격 속도가 30% 감소한다",
+            "shortDesc": "냉기둔화"
+          },
+          {
+            "stats": {
+              "dur": 2,
+              "bossSlowFrac": 0.175,
+              "slowFrac": 0.35
+            },
+            "desc": "공격 시 적의 이동 및 공격 속도가 35% 감소한다",
+            "shortDesc": "냉기둔화"
+          },
+          {
+            "stats": {
+              "dur": 2,
+              "bossSlowFrac": 0.2,
+              "slowFrac": 0.4
+            },
+            "desc": "공격 시 적의 이동 및 공격 속도가 40% 감소한다",
+            "shortDesc": "냉기둔화"
+          },
+          {
+            "stats": {
+              "dur": 2,
+              "bossSlowFrac": 0.225,
+              "slowFrac": 0.45
+            },
+            "desc": "공격 시 적의 이동 및 공격 속도가 45% 감소한다",
+            "shortDesc": "냉기둔화"
+          }
+        ],
+        "tag": "buff",
+        "icon": "src/sprites/icons/imprinticons/03Chill.png",
+        "name": "냉기",
+        "id": "chill",
+        "condition": "공격시",
+        "shortDesc": "냉기둔화"
+      }
+    }
+  },
+  "economy": {
+    "absorb": {
+      "rewardByRank": {}
+    },
+    "spins": {
+      "paidStartCost": 100,
+      "freePerWave": 3,
+      "refundOnFail": 0,
+      "paidMaxPerWave": 3,
+      "paidCostStep": 50
+    },
+    "wave": {
+      "survivalBonusMax": 10,
+      "fastClearTime": 20,
+      "fastClearBonusMax": 20,
+      "baseClear": 100,
+      "condolenceOnFail": 10
+    }
+  },
+  "slot": {
+    "winSuppressProb": 0,
+    "forceWinProb": 0,
+    "winTiers": [
+      {
+        "labelEn": "Jackpot!",
+        "lines": 5,
+        "key": "jackpot",
+        "labelKo": "잭팟!"
+      },
+      {
+        "labelEn": "Overdrive!",
+        "lines": 4,
+        "key": "overdrive",
+        "labelKo": "폭주!"
+      },
+      {
+        "labelEn": "Burst!",
+        "lines": 3,
+        "key": "burst",
+        "labelKo": "폭발!"
+      }
+    ],
+    "symbolWeights": {
+      "H": 0.15,
+      "S": 0.2,
+      "A": 0.2,
+      "M": 0.15,
+      "W": 0.2,
+      "D": 0.1
+    }
+  },
+  "vfx": {
+    "earthquake": {
+      "floatDuration": 1.2,
+      "visualDuration": 2,
+      "magnitude": 6,
+      "frameTime": 0.05,
+      "duration": 5
+    }
+  },
+  "virtual": {
+    "H": 360,
+    "W": 640
+  }
+}

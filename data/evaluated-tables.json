@@ -1,0 +1,149 @@
+[
+  {
+    "file": "asset2",
+    "status": "exported",
+    "top_level_keys": [
+      "unitSprites",
+      "footReviewed",
+      "footX",
+      "registerUnitSprites",
+      "applyFootReview"
+    ],
+    "dependency_note": null
+  },
+  {
+    "file": "assets",
+    "status": "exported",
+    "top_level_keys": [
+      "load",
+      "tooltipStatIconFiles",
+      "getTooltipStatIcon"
+    ],
+    "dependency_note": null
+  },
+  {
+    "file": "awakening",
+    "status": "exported",
+    "top_level_keys": [
+      "version",
+      "candidates",
+      "order",
+      "catalogs",
+      "units",
+      "milestones",
+      "inactive"
+    ],
+    "dependency_note": null
+  },
+  {
+    "file": "constants",
+    "status": "exported",
+    "top_level_keys": [
+      "ui",
+      "power",
+      "hiddenLuck",
+      "evolution",
+      "colors",
+      "unitGrades",
+      "imprint",
+      "economy",
+      "slot",
+      "vfx",
+      "virtual"
+    ],
+    "dependency_note": null
+  },
+  {
+    "file": "faction",
+    "status": "exported",
+    "top_level_keys": [
+      "getNextThreshold",
+      "getMaxThreshold",
+      "getForClass",
+      "normalizeId",
+      "getSynergyDef",
+      "getThresholds",
+      "getUnitTypeKey",
+      "getForUnit",
+      "ids",
+      "getIconPath",
+      "getName",
+      "apply",
+      "countUniqueTypes",
+      "getForChoice",
+      "getSynergyValue",
+      "byClass",
+      "getTierProgress",
+      "getSynergyTooltip",
+      "isEnabled"
+    ],
+    "dependency_note": null
+  },
+  {
+    "file": "font_resolver",
+    "status": "exported",
+    "top_level_keys": [
+      "styleOf",
+      "resolve",
+      "rememberPath",
+      "pagePath",
+      "attachFallbacks",
+      "developerFont",
+      "pathOf"
+    ],
+    "dependency_note": null
+  },
+  {
+    "file": "language",
+    "status": "not-evaluated",
+    "error": "[string \"language\"]:0: attempt to index global 'io' (a nil value)"
+  },
+  {
+    "file": "randomoption",
+    "status": "exported",
+    "top_level_keys": [
+      "catalog",
+      "isNudgeEnabledForRun",
+      "canBasicAttack",
+      "canRangedBasicAttack",
+      "canEarnBounty",
+      "isContextEligible",
+      "getCombatExperienceProgress",
+      "rollForSpawn",
+      "getCalculatedLuckStacks",
+      "rollForSpawnExcluding",
+      "rollForId",
+      "iconCanvasSize",
+      "normalizeOption",
+      "getIconPath",
+      "rollList",
+      "isUnlocked"
+    ],
+    "dependency_note": null
+  },
+  {
+    "file": "safe_lua_table",
+    "status": "exported",
+    "top_level_keys": [
+      "validate",
+      "decode"
+    ],
+    "dependency_note": null
+  },
+  {
+    "file": "skill",
+    "status": "exported",
+    "top_level_keys": [
+      "isTimedAttackSkill",
+      "getSkillsForUnit",
+      "definitions",
+      "hasActiveSkillForUnit",
+      "isAttackSkillKind",
+      "hasAttackSkillForUnit",
+      "get",
+      "applyToUnit",
+      "byOwner"
+    ],
+    "dependency_note": "language module replaced by an empty table; no game functions invoked"
+  }
+]

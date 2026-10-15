@@ -1,0 +1,7718 @@
+{
+  "file": "src/ui/imprint.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 0,
+      "instruction_count": 4,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_hoveredSlot"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 2,
+      "instruction_count": 67,
+      "numeric_constants": [
+        0.25
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hitRunes"
+        },
+        {
+          "constant_index": 1,
+          "value": "awakening"
+        },
+        {
+          "constant_index": 2,
+          "value": "src.ui.flow"
+        },
+        {
+          "constant_index": 3,
+          "value": "require"
+        },
+        {
+          "constant_index": 4,
+          "value": "_awakeningRuneRect"
+        },
+        {
+          "constant_index": 5,
+          "value": "drawnAt"
+        },
+        {
+          "constant_index": 6,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 7,
+          "value": "timer"
+        },
+        {
+          "constant_index": 8,
+          "value": "love"
+        },
+        {
+          "constant_index": 9,
+          "value": "_panelRect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 2,
+      "instruction_count": 57,
+      "numeric_constants": [
+        0.25
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "h"
+        },
+        {
+          "constant_index": 1,
+          "value": "y"
+        },
+        {
+          "constant_index": 2,
+          "value": "w"
+        },
+        {
+          "constant_index": 3,
+          "value": "x"
+        },
+        {
+          "constant_index": 4,
+          "value": "drawnAt"
+        },
+        {
+          "constant_index": 5,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 6,
+          "value": "timer"
+        },
+        {
+          "constant_index": 7,
+          "value": "love"
+        },
+        {
+          "constant_index": 8,
+          "value": "_skillFrameRect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6/42",
+      "argument_count": 3,
+      "instruction_count": 83,
+      "numeric_constants": [
+        0.15,
+        0.85,
+        0.9,
+        0.4,
+        1,
+        0.5,
+        2,
+        4
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "center"
+        },
+        {
+          "constant_index": 1,
+          "value": "floor"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "printf"
+        },
+        {
+          "constant_index": 4,
+          "value": "line"
+        },
+        {
+          "constant_index": 5,
+          "value": "h"
+        },
+        {
+          "constant_index": 6,
+          "value": "w"
+        },
+        {
+          "constant_index": 7,
+          "value": "y"
+        },
+        {
+          "constant_index": 8,
+          "value": "x"
+        },
+        {
+          "constant_index": 9,
+          "value": "fill"
+        },
+        {
+          "constant_index": 10,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 11,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 12,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 13,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6/78",
+      "argument_count": 2,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "send"
+        },
+        {
+          "constant_index": 1,
+          "value": "hasUniform"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6/94",
+      "argument_count": 3,
+      "instruction_count": 71,
+      "numeric_constants": [
+        1.15,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "previewUpgrade"
+        },
+        {
+          "constant_index": 1,
+          "value": "tooltipScale"
+        },
+        {
+          "constant_index": 2,
+          "value": "scale"
+        },
+        {
+          "constant_index": 3,
+          "value": "h"
+        },
+        {
+          "constant_index": 4,
+          "value": "w"
+        },
+        {
+          "constant_index": 5,
+          "value": "y"
+        },
+        {
+          "constant_index": 6,
+          "value": "x"
+        },
+        {
+          "constant_index": 7,
+          "value": "imprint"
+        },
+        {
+          "constant_index": 8,
+          "value": "index"
+        },
+        {
+          "constant_index": 10,
+          "value": "_hoveredSlot"
+        },
+        {
+          "constant_index": 11,
+          "value": "getWidth"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 3,
+      "instruction_count": 8276,
+      "numeric_constants": [
+        0.1,
+        0.8,
+        3,
+        0,
+        10,
+        8,
+        0.5,
+        0.02,
+        2,
+        0.95,
+        1,
+        1.5,
+        0.4,
+        0.6,
+        2.1,
+        0.3,
+        0.45,
+        4.2,
+        0.2,
+        12,
+        0.9,
+        0.25,
+        0.05,
+        1.15,
+        0.22,
+        6,
+        9,
+        0.75,
+        1.6,
+        0.35,
+        1.3,
+        4,
+        0.7,
+        52,
+        15,
+        10000,
+        2.5,
+        1.8,
+        0.32,
+        0.35294117647058826,
+        0.1568627450980392,
+        0.47058823529411764,
+        0.44313725490196076,
+        0.20392156862745098,
+        0.3843137254901961,
+        0.43137254901960786,
+        0.3333333333333333,
+        0.19607843137254902,
+        0.20784313725490197,
+        0.29411764705882354,
+        0.4196078431372549,
+        0.30196078431372547,
+        0.18823529411764706,
+        0.6509803921568628,
+        0.37254901960784315,
+        0.6039215686274509,
+        0.2901960784313726,
+        0.5568627450980392,
+        0.34901960784313724,
+        5,
+        18,
+        90,
+        14,
+        0.85,
+        16,
+        50,
+        0.15,
+        0.016,
+        0.55,
+        1.7,
+        180
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "option"
+        },
+        {
+          "constant_index": 4,
+          "value": "u_frameUV"
+        },
+        {
+          "constant_index": 5,
+          "value": "mixBP"
+        },
+        {
+          "constant_index": 6,
+          "value": "saturation"
+        },
+        {
+          "constant_index": 7,
+          "value": "colorGain"
+        },
+        {
+          "constant_index": 8,
+          "value": "fresnelPow"
+        },
+        {
+          "constant_index": 9,
+          "value": "specular"
+        },
+        {
+          "constant_index": 10,
+          "value": "freq"
+        },
+        {
+          "constant_index": 11,
+          "value": "amp"
+        },
+        {
+          "constant_index": 12,
+          "value": "film"
+        },
+        {
+          "constant_index": 13,
+          "value": "grain"
+        },
+        {
+          "constant_index": 14,
+          "value": "u_alpha"
+        },
+        {
+          "constant_index": 15,
+          "value": "getPhasedSweepTime"
+        },
+        {
+          "constant_index": 16,
+          "value": "cos"
+        },
+        {
+          "constant_index": 17,
+          "value": "angleDeg"
+        },
+        {
+          "constant_index": 18,
+          "value": "getPrismFoilShader"
+        },
+        {
+          "constant_index": 19,
+          "value": "drawLegendarySpriteEffects"
+        },
+        {
+          "constant_index": 20,
+          "value": "Render"
+        },
+        {
+          "constant_index": 22,
+          "value": "glowColor"
+        },
+        {
+          "constant_index": 24,
+          "value": "getShader"
+        },
+        {
+          "constant_index": 25,
+          "value": "iconCanvasSize"
+        },
+        {
+          "constant_index": 26,
+          "value": "_roHoverProgs"
+        },
+        {
+          "constant_index": 27,
+          "value": "maxSlots"
+        },
+        {
+          "constant_index": 28,
+          "value": "size"
+        },
+        {
+          "constant_index": 29,
+          "value": "rosterSpawnMeta"
+        },
+        {
+          "constant_index": 30,
+          "value": "meta"
+        },
+        {
+          "constant_index": 31,
+          "value": "randomOptions"
+        },
+        {
+          "constant_index": 32,
+          "value": "lockedText"
+        },
+        {
+          "constant_index": 33,
+          "value": "imprint_locked"
+        },
+        {
+          "constant_index": 34,
+          "value": "emptyText"
+        },
+        {
+          "constant_index": 35,
+          "value": "imprint_empty_slot"
+        },
+        {
+          "constant_index": 36,
+          "value": "Unknown Imprint"
+        },
+        {
+          "constant_index": 37,
+          "value": "gapY"
+        },
+        {
+          "constant_index": 38,
+          "value": "imprintDesc"
+        },
+        {
+          "constant_index": 39,
+          "value": "imprintName"
+        },
+        {
+          "constant_index": 40,
+          "value": "imprint_mode_keep"
+        },
+        {
+          "constant_index": 41,
+          "value": "imprint_mode_replace"
+        },
+        {
+          "constant_index": 43,
+          "value": "keepBtn"
+        },
+        {
+          "constant_index": 44,
+          "value": "replaceBtn"
+        },
+        {
+          "constant_index": 47,
+          "value": "center"
+        },
+        {
+          "constant_index": 48,
+          "value": "printf"
+        },
+        {
+          "constant_index": 51,
+          "value": "keep"
+        },
+        {
+          "constant_index": 52,
+          "value": "replaceMode"
+        },
+        {
+          "constant_index": 53,
+          "value": "replaceSlot"
+        },
+        {
+          "constant_index": 54,
+          "value": "replaceUI"
+        },
+        {
+          "constant_index": 55,
+          "value": "shortDesc"
+        },
+        {
+          "constant_index": 56,
+          "value": "getImprintShortDesc"
+        },
+        {
+          "constant_index": 57,
+          "value": "getShortIconImage"
+        },
+        {
+          "constant_index": 58,
+          "value": "Empty"
+        },
+        {
+          "constant_index": 59,
+          "value": "getImprintName"
+        },
+        {
+          "constant_index": 60,
+          "value": "_printFitted"
+        },
+        {
+          "constant_index": 61,
+          "value": "getLineWidth"
+        },
+        {
+          "constant_index": 62,
+          "value": "previewUpgrade"
+        },
+        {
+          "constant_index": 63,
+          "value": "u_mixBP"
+        },
+        {
+          "constant_index": 64,
+          "value": "u_saturation"
+        },
+        {
+          "constant_index": 65,
+          "value": "u_colorGain"
+        },
+        {
+          "constant_index": 66,
+          "value": "u_fresnelPow"
+        },
+        {
+          "constant_index": 67,
+          "value": "u_specular"
+        },
+        {
+          "constant_index": 68,
+          "value": "u_filmAmp"
+        },
+        {
+          "constant_index": 69,
+          "value": "u_filmFreq"
+        },
+        {
+          "constant_index": 70,
+          "value": "u_grainAmp"
+        },
+        {
+          "constant_index": 71,
+          "value": "u_grainScale"
+        },
+        {
+          "constant_index": 72,
+          "value": "u_scale"
+        },
+        {
+          "constant_index": 73,
+          "value": "u_cycle"
+        },
+        {
+          "constant_index": 75,
+          "value": "u_dir"
+        },
+        {
+          "constant_index": 77,
+          "value": "u_uiBase"
+        },
+        {
+          "constant_index": 79,
+          "value": "u_time"
+        },
+        {
+          "constant_index": 80,
+          "value": "hasUniform"
+        },
+        {
+          "constant_index": 81,
+          "value": "p"
+        },
+        {
+          "constant_index": 82,
+          "value": "l"
+        },
+        {
+          "constant_index": 83,
+          "value": "legend"
+        },
+        {
+          "constant_index": 84,
+          "value": "r"
+        },
+        {
+          "constant_index": 85,
+          "value": "lower"
+        },
+        {
+          "constant_index": 86,
+          "value": "iconOffset"
+        },
+        {
+          "constant_index": 87,
+          "value": "table"
+        },
+        {
+          "constant_index": 89,
+          "value": "pop"
+        },
+        {
+          "constant_index": 90,
+          "value": "upgrade"
+        },
+        {
+          "constant_index": 91,
+          "value": "slot"
+        },
+        {
+          "constant_index": 92,
+          "value": "translate"
+        },
+        {
+          "constant_index": 93,
+          "value": "push"
+        },
+        {
+          "constant_index": 95,
+          "value": "slotScales"
+        },
+        {
+          "constant_index": 96,
+          "value": "upgradeBtn"
+        },
+        {
+          "constant_index": 97,
+          "value": "slotBg"
+        },
+        {
+          "constant_index": 98,
+          "value": "upgradeBtnScale"
+        },
+        {
+          "constant_index": 100,
+          "value": "_hit"
+        },
+        {
+          "constant_index": 101,
+          "value": "slotGap"
+        },
+        {
+          "constant_index": 102,
+          "value": "src/sprites/icons/imprinticons/00locked.png"
+        },
+        {
+          "constant_index": 103,
+          "value": "_lockedIconImage"
+        },
+        {
+          "constant_index": 104,
+          "value": "src/sprites/background/button/imprintchange.png"
+        },
+        {
+          "constant_index": 105,
+          "value": "_changeBtnImage"
+        },
+        {
+          "constant_index": 106,
+          "value": "src/sprites/background/button/imprintconfirm.png"
+        },
+        {
+          "constant_index": 107,
+          "value": "_confirmBtnImage"
+        },
+        {
+          "constant_index": 108,
+          "value": "src/sprites/background/button/imprintupgrade.png"
+        },
+        {
+          "constant_index": 109,
+          "value": "_upgradeBtnImage"
+        },
+        {
+          "constant_index": 110,
+          "value": "src/sprites/background/button/cancelbutton.png"
+        },
+        {
+          "constant_index": 111,
+          "value": "_cancelBtnImage"
+        },
+        {
+          "constant_index": 112,
+          "value": "src/sprites/background/mainbackground/Imprintgainbackground.png"
+        },
+        {
+          "constant_index": 113,
+          "value": "_gainBgImage"
+        },
+        {
+          "constant_index": 114,
+          "value": "_slotTrimmedOffsetX"
+        },
+        {
+          "constant_index": 115,
+          "value": "_slotTrimmedW"
+        },
+        {
+          "constant_index": 116,
+          "value": "getPixel"
+        },
+        {
+          "constant_index": 117,
+          "value": "newImageData"
+        },
+        {
+          "constant_index": 118,
+          "value": "image"
+        },
+        {
+          "constant_index": 119,
+          "value": "src/sprites/background/mainbackground/Imprintslot.png"
+        },
+        {
+          "constant_index": 120,
+          "value": "_slotBgImage"
+        },
+        {
+          "constant_index": 121,
+          "value": "slotH"
+        },
+        {
+          "constant_index": 122,
+          "value": "slotY"
+        },
+        {
+          "constant_index": 123,
+          "value": "_isPrediction"
+        },
+        {
+          "constant_index": 124,
+          "value": "number"
+        },
+        {
+          "constant_index": 125,
+          "value": "type"
+        },
+        {
+          "constant_index": 126,
+          "value": "predictionSlot"
+        },
+        {
+          "constant_index": 127,
+          "value": "predictionSource"
+        },
+        {
+          "constant_index": 128,
+          "value": "imprints"
+        },
+        {
+          "constant_index": 129,
+          "value": "slots"
+        },
+        {
+          "constant_index": 130,
+          "value": "imprint"
+        },
+        {
+          "constant_index": 131,
+          "value": "maxImprintSlots"
+        },
+        {
+          "constant_index": 132,
+          "value": "label"
+        },
+        {
+          "constant_index": 134,
+          "value": "ko"
+        },
+        {
+          "constant_index": 135,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 136,
+          "value": "_G"
+        },
+        {
+          "constant_index": 137,
+          "value": "imprint_convert_prefix"
+        },
+        {
+          "constant_index": 138,
+          "value": "getText"
+        },
+        {
+          "constant_index": 139,
+          "value": "needsChoice"
+        },
+        {
+          "constant_index": 140,
+          "value": "각인 유지: "
+        },
+        {
+          "constant_index": 141,
+          "value": "각인 최대: "
+        },
+        {
+          "constant_index": 142,
+          "value": "각인 업그레이드: "
+        },
+        {
+          "constant_index": 143,
+          "value": "→Lv."
+        },
+        {
+          "constant_index": 144,
+          "value": " (Lv."
+        },
+        {
+          "constant_index": 145,
+          "value": "toLevel"
+        },
+        {
+          "constant_index": 146,
+          "value": "curLevel"
+        },
+        {
+          "constant_index": 147,
+          "value": "upgradeLevel"
+        },
+        {
+          "constant_index": 148,
+          "value": " (슬롯 선택)"
+        },
+        {
+          "constant_index": 149,
+          "value": "각인 교체: "
+        },
+        {
+          "constant_index": 150,
+          "value": "replace"
+        },
+        {
+          "constant_index": 151,
+          "value": "각인 획득: "
+        },
+        {
+          "constant_index": 152,
+          "value": "insert"
+        },
+        {
+          "constant_index": 153,
+          "value": "kind"
+        },
+        {
+          "constant_index": 154,
+          "value": "level"
+        },
+        {
+          "constant_index": 155,
+          "value": " "
+        },
+        {
+          "constant_index": 156,
+          "value": "각인"
+        },
+        {
+          "constant_index": 157,
+          "value": "("
+        },
+        {
+          "constant_index": 158,
+          "value": "labels"
+        },
+        {
+          "constant_index": 159,
+          "value": "unitGrades"
+        },
+        {
+          "constant_index": 160,
+          "value": "rarity"
+        },
+        {
+          "constant_index": 161,
+          "value": "각인: 변화 없음"
+        },
+        {
+          "constant_index": 163,
+          "value": "action"
+        },
+        {
+          "constant_index": 164,
+          "value": "incomingImprint"
+        },
+        {
+          "constant_index": 165,
+          "value": ")"
+        },
+        {
+          "constant_index": 166,
+          "value": " (전환 +"
+        },
+        {
+          "constant_index": 167,
+          "value": "흡수 결과: 흡수 LV +"
+        },
+        {
+          "constant_index": 168,
+          "value": "stats"
+        },
+        {
+          "constant_index": 170,
+          "value": "getAbsorbLvStats"
+        },
+        {
+          "constant_index": 172,
+          "value": "_absorbLvAnchor"
+        },
+        {
+          "constant_index": 174,
+          "value": "_absorbLvRect"
+        },
+        {
+          "constant_index": 175,
+          "value": "setLineWidth"
+        },
+        {
+          "constant_index": 176,
+          "value": "awakening_star"
+        },
+        {
+          "constant_index": 177,
+          "value": "stage"
+        },
+        {
+          "constant_index": 178,
+          "value": "starOffsetY"
+        },
+        {
+          "constant_index": 179,
+          "value": "starOffsetX"
+        },
+        {
+          "constant_index": 180,
+          "value": "star"
+        },
+        {
+          "constant_index": 181,
+          "value": "maxRank"
+        },
+        {
+          "constant_index": 182,
+          "value": "src.game.awakening"
+        },
+        {
+          "constant_index": 184,
+          "value": "MAX"
+        },
+        {
+          "constant_index": 186,
+          "value": "textColor"
+        },
+        {
+          "constant_index": 187,
+          "value": "textOffsetY"
+        },
+        {
+          "constant_index": 188,
+          "value": "textOffsetX"
+        },
+        {
+          "constant_index": 189,
+          "value": "textScale"
+        },
+        {
+          "constant_index": 190,
+          "value": " / "
+        },
+        {
+          "constant_index": 192,
+          "value": "gridColor"
+        },
+        {
+          "constant_index": 194,
+          "value": "drawGrid"
+        },
+        {
+          "constant_index": 195,
+          "value": "previewWhiteMixMax"
+        },
+        {
+          "constant_index": 196,
+          "value": "previewPulseHz"
+        },
+        {
+          "constant_index": 197,
+          "value": "previewAlphaMax"
+        },
+        {
+          "constant_index": 198,
+          "value": "previewAlphaMin"
+        },
+        {
+          "constant_index": 199,
+          "value": "bloom"
+        },
+        {
+          "constant_index": 201,
+          "value": "drawFill"
+        },
+        {
+          "constant_index": 202,
+          "value": "alphaMul"
+        },
+        {
+          "constant_index": 204,
+          "value": "drawTrack"
+        },
+        {
+          "constant_index": 206,
+          "value": "accentColor"
+        },
+        {
+          "constant_index": 208,
+          "value": "borderColor"
+        },
+        {
+          "constant_index": 210,
+          "value": "bgColor"
+        },
+        {
+          "constant_index": 211,
+          "value": "previewColor"
+        },
+        {
+          "constant_index": 213,
+          "value": "fillColor"
+        },
+        {
+          "constant_index": 214,
+          "value": "rankThresholds"
+        },
+        {
+          "constant_index": 215,
+          "value": "evolution"
+        },
+        {
+          "constant_index": 216,
+          "value": "normal"
+        },
+        {
+          "constant_index": 217,
+          "value": "jackpot5th"
+        },
+        {
+          "constant_index": 218,
+          "value": "rank"
+        },
+        {
+          "constant_index": 219,
+          "value": "width"
+        },
+        {
+          "constant_index": 220,
+          "value": "slotX"
+        },
+        {
+          "constant_index": 221,
+          "value": "min"
+        },
+        {
+          "constant_index": 222,
+          "value": "slotW"
+        },
+        {
+          "constant_index": 223,
+          "value": "promotionBar"
+        },
+        {
+          "constant_index": 225,
+          "value": "locked"
+        },
+        {
+          "constant_index": 226,
+          "value": "absorbLocked"
+        },
+        {
+          "constant_index": 227,
+          "value": "unlocked"
+        },
+        {
+          "constant_index": 228,
+          "value": "absorbLockIcon"
+        },
+        {
+          "constant_index": 229,
+          "value": "LV. 0"
+        },
+        {
+          "constant_index": 230,
+          "value": "infoIcon"
+        },
+        {
+          "constant_index": 231,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 232,
+          "value": "hoverBrightAlpha"
+        },
+        {
+          "constant_index": 233,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 234,
+          "value": "add"
+        },
+        {
+          "constant_index": 235,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 236,
+          "value": "getBlendMode"
+        },
+        {
+          "constant_index": 237,
+          "value": "radiusPx"
+        },
+        {
+          "constant_index": 238,
+          "value": "threshold"
+        },
+        {
+          "constant_index": 240,
+          "value": "outlineColor"
+        },
+        {
+          "constant_index": 241,
+          "value": "randomOption"
+        },
+        {
+          "constant_index": 242,
+          "value": "texelStep"
+        },
+        {
+          "constant_index": 243,
+          "value": "send"
+        },
+        {
+          "constant_index": 244,
+          "value": "outline"
+        },
+        {
+          "constant_index": 246,
+          "value": "factionId"
+        },
+        {
+          "constant_index": 248,
+          "value": "hoverPad"
+        },
+        {
+          "constant_index": 249,
+          "value": "dy"
+        },
+        {
+          "constant_index": 250,
+          "value": "dx"
+        },
+        {
+          "constant_index": 251,
+          "value": "gap"
+        },
+        {
+          "constant_index": 252,
+          "value": "faction"
+        },
+        {
+          "constant_index": 253,
+          "value": "getIconPath"
+        },
+        {
+          "constant_index": 254,
+          "value": "getForUnit"
+        },
+        {
+          "constant_index": 255,
+          "value": "print"
+        },
+        {
+          "constant_index": 256,
+          "value": "dyFromName"
+        },
+        {
+          "constant_index": 257,
+          "value": "absorbLv"
+        },
+        {
+          "constant_index": 258,
+          "value": " +"
+        },
+        {
+          "constant_index": 259,
+          "value": "convertHovering"
+        },
+        {
+          "constant_index": 260,
+          "value": "convertAvailable"
+        },
+        {
+          "constant_index": 261,
+          "value": "convertBonus"
+        },
+        {
+          "constant_index": 262,
+          "value": "totalAbsorbLvGain"
+        },
+        {
+          "constant_index": 263,
+          "value": "preview"
+        },
+        {
+          "constant_index": 264,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 265,
+          "value": "LV. "
+        },
+        {
+          "constant_index": 266,
+          "value": "absorbLV"
+        },
+        {
+          "constant_index": 267,
+          "value": "prism"
+        },
+        {
+          "constant_index": 268,
+          "value": "unit_name_sweep"
+        },
+        {
+          "constant_index": 269,
+          "value": "small"
+        },
+        {
+          "constant_index": 270,
+          "value": "font"
+        },
+        {
+          "constant_index": 271,
+          "value": "scroll"
+        },
+        {
+          "constant_index": 272,
+          "value": "key"
+        },
+        {
+          "constant_index": 274,
+          "value": "imprint_title:"
+        },
+        {
+          "constant_index": 275,
+          "value": "steps"
+        },
+        {
+          "constant_index": 278,
+          "value": "fit"
+        },
+        {
+          "constant_index": 279,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 280,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 281,
+          "value": "text_fit"
+        },
+        {
+          "constant_index": 282,
+          "value": "sin"
+        },
+        {
+          "constant_index": 283,
+          "value": "pi"
+        },
+        {
+          "constant_index": 284,
+          "value": "cycleSec"
+        },
+        {
+          "constant_index": 285,
+          "value": "jackpotRainbow"
+        },
+        {
+          "constant_index": 286,
+          "value": "jackpotFoil"
+        },
+        {
+          "constant_index": 287,
+          "value": "battle"
+        },
+        {
+          "constant_index": 288,
+          "value": "tooltip"
+        },
+        {
+          "constant_index": 289,
+          "value": "iconFoil"
+        },
+        {
+          "constant_index": 290,
+          "value": "tooltipCfg"
+        },
+        {
+          "constant_index": 291,
+          "value": "drawIconFoil"
+        },
+        {
+          "constant_index": 292,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 293,
+          "value": "J"
+        },
+        {
+          "constant_index": 294,
+          "value": "Joker"
+        },
+        {
+          "constant_index": 295,
+          "value": "icons"
+        },
+        {
+          "constant_index": 296,
+          "value": "iconsSmall"
+        },
+        {
+          "constant_index": 297,
+          "value": "W"
+        },
+        {
+          "constant_index": 298,
+          "value": "S"
+        },
+        {
+          "constant_index": 299,
+          "value": "spear"
+        },
+        {
+          "constant_index": 300,
+          "value": "A"
+        },
+        {
+          "constant_index": 301,
+          "value": "archer"
+        },
+        {
+          "constant_index": 302,
+          "value": "role"
+        },
+        {
+          "constant_index": 303,
+          "value": "sym"
+        },
+        {
+          "constant_index": 304,
+          "value": "text"
+        },
+        {
+          "constant_index": 305,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 306,
+          "value": "line"
+        },
+        {
+          "constant_index": 307,
+          "value": "fill"
+        },
+        {
+          "constant_index": 308,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 309,
+          "value": "draw"
+        },
+        {
+          "constant_index": 310,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 311,
+          "value": "iconOffsetY"
+        },
+        {
+          "constant_index": 312,
+          "value": "iconOffsetX"
+        },
+        {
+          "constant_index": 313,
+          "value": "max"
+        },
+        {
+          "constant_index": 315,
+          "value": "skill"
+        },
+        {
+          "constant_index": 317,
+          "value": "cooldown"
+        },
+        {
+          "constant_index": 318,
+          "value": "cooldownLabel"
+        },
+        {
+          "constant_index": 319,
+          "value": "desc"
+        },
+        {
+          "constant_index": 320,
+          "value": "description"
+        },
+        {
+          "constant_index": 321,
+          "value": "name"
+        },
+        {
+          "constant_index": 323,
+          "value": "id"
+        },
+        {
+          "constant_index": 324,
+          "value": "shift"
+        },
+        {
+          "constant_index": 325,
+          "value": "step"
+        },
+        {
+          "constant_index": 326,
+          "value": "panel_hover_motion"
+        },
+        {
+          "constant_index": 327,
+          "value": "src.ui.widgets"
+        },
+        {
+          "constant_index": 328,
+          "value": "_skillHoverProg"
+        },
+        {
+          "constant_index": 330,
+          "value": "iconInsetPx"
+        },
+        {
+          "constant_index": 331,
+          "value": "battlefield"
+        },
+        {
+          "constant_index": 332,
+          "value": "drawRunes"
+        },
+        {
+          "constant_index": 333,
+          "value": "awakening"
+        },
+        {
+          "constant_index": 334,
+          "value": "src.ui.flow"
+        },
+        {
+          "constant_index": 335,
+          "value": "offsetY"
+        },
+        {
+          "constant_index": 336,
+          "value": "topOffsetPx"
+        },
+        {
+          "constant_index": 337,
+          "value": "offsetX"
+        },
+        {
+          "constant_index": 338,
+          "value": "rightInsetPx"
+        },
+        {
+          "constant_index": 339,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 340,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 341,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 342,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 343,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 344,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 345,
+          "value": "_imprintSkillIconCache"
+        },
+        {
+          "constant_index": 346,
+          "value": ""
+        },
+        {
+          "constant_index": 347,
+          "value": "icon"
+        },
+        {
+          "constant_index": 348,
+          "value": "getSkillsForUnit"
+        },
+        {
+          "constant_index": 349,
+          "value": "classCardSkillFrameShadow"
+        },
+        {
+          "constant_index": 350,
+          "value": "classCardSkillFrameAdvanced"
+        },
+        {
+          "constant_index": 351,
+          "value": "advanced"
+        },
+        {
+          "constant_index": 352,
+          "value": "classCardSkillFrameSpecial"
+        },
+        {
+          "constant_index": 353,
+          "value": "special"
+        },
+        {
+          "constant_index": 354,
+          "value": "classCardSkillFrameRare"
+        },
+        {
+          "constant_index": 355,
+          "value": "rare"
+        },
+        {
+          "constant_index": 356,
+          "value": "classCardSkillFrameLegendary"
+        },
+        {
+          "constant_index": 357,
+          "value": "legendary"
+        },
+        {
+          "constant_index": 358,
+          "value": "grade"
+        },
+        {
+          "constant_index": 359,
+          "value": "classCardSkillFramePrism"
+        },
+        {
+          "constant_index": 360,
+          "value": "isPrism"
+        },
+        {
+          "constant_index": 361,
+          "value": "grade_filter"
+        },
+        {
+          "constant_index": 362,
+          "value": "src.ui.effects"
+        },
+        {
+          "constant_index": 363,
+          "value": "require"
+        },
+        {
+          "constant_index": 364,
+          "value": "classCardSkillFrame"
+        },
+        {
+          "constant_index": 365,
+          "value": "ui"
+        },
+        {
+          "constant_index": 366,
+          "value": "enabled"
+        },
+        {
+          "constant_index": 367,
+          "value": "skillFrame"
+        },
+        {
+          "constant_index": 368,
+          "value": "imprintPanel"
+        },
+        {
+          "constant_index": 369,
+          "value": "arrows"
+        },
+        {
+          "constant_index": 370,
+          "value": "buttons"
+        },
+        {
+          "constant_index": 372,
+          "value": "_modalHit"
+        },
+        {
+          "constant_index": 374,
+          "value": "drawnAt"
+        },
+        {
+          "constant_index": 376,
+          "value": "_bgVisibleBounds"
+        },
+        {
+          "constant_index": 377,
+          "value": "_panelRect"
+        },
+        {
+          "constant_index": 378,
+          "value": "v"
+        },
+        {
+          "constant_index": 379,
+          "value": "scale"
+        },
+        {
+          "constant_index": 380,
+          "value": "floor"
+        },
+        {
+          "constant_index": 381,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 382,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 383,
+          "value": "y"
+        },
+        {
+          "constant_index": 384,
+          "value": "x"
+        },
+        {
+          "constant_index": 385,
+          "value": "h"
+        },
+        {
+          "constant_index": 386,
+          "value": "left"
+        },
+        {
+          "constant_index": 387,
+          "value": "w"
+        },
+        {
+          "constant_index": 388,
+          "value": "slotPanel"
+        },
+        {
+          "constant_index": 389,
+          "value": "compute"
+        },
+        {
+          "constant_index": 390,
+          "value": "isShadowMinion"
+        },
+        {
+          "constant_index": 391,
+          "value": "absorbLockUnit"
+        },
+        {
+          "constant_index": 392,
+          "value": "lastUnit"
+        },
+        {
+          "constant_index": 393,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 394,
+          "value": "progress"
+        },
+        {
+          "constant_index": 395,
+          "value": "absorber"
+        },
+        {
+          "constant_index": 396,
+          "value": "abs"
+        },
+        {
+          "constant_index": 397,
+          "value": "exp"
+        },
+        {
+          "constant_index": 398,
+          "value": "math"
+        },
+        {
+          "constant_index": 399,
+          "value": "floatOffsets"
+        },
+        {
+          "constant_index": 400,
+          "value": "impactScales"
+        },
+        {
+          "constant_index": 401,
+          "value": "_changeSlot"
+        },
+        {
+          "constant_index": 402,
+          "value": "_changeTriggered"
+        },
+        {
+          "constant_index": 403,
+          "value": "changeBtnPressed"
+        },
+        {
+          "constant_index": 404,
+          "value": "changeBtnTimer"
+        },
+        {
+          "constant_index": 405,
+          "value": "actionBtnScales"
+        },
+        {
+          "constant_index": 406,
+          "value": "_confirmAction"
+        },
+        {
+          "constant_index": 407,
+          "value": "_confirmSlot"
+        },
+        {
+          "constant_index": 408,
+          "value": "_confirmTriggered"
+        },
+        {
+          "constant_index": 409,
+          "value": "confirmBtnPressed"
+        },
+        {
+          "constant_index": 410,
+          "value": "confirmBtnTimer"
+        },
+        {
+          "constant_index": 411,
+          "value": "_upgradeSlot"
+        },
+        {
+          "constant_index": 412,
+          "value": "active"
+        },
+        {
+          "constant_index": 413,
+          "value": "modal"
+        },
+        {
+          "constant_index": 414,
+          "value": "_upgradeTriggered"
+        },
+        {
+          "constant_index": 415,
+          "value": "upgradeBtnPressed"
+        },
+        {
+          "constant_index": 416,
+          "value": "upgradeBtnTimer"
+        },
+        {
+          "constant_index": 417,
+          "value": "blinkSlot"
+        },
+        {
+          "constant_index": 418,
+          "value": "blinkUnit"
+        },
+        {
+          "constant_index": 419,
+          "value": "blinkTimer"
+        },
+        {
+          "constant_index": 420,
+          "value": "holdTimer"
+        },
+        {
+          "constant_index": 421,
+          "value": "lastTime"
+        },
+        {
+          "constant_index": 422,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 423,
+          "value": "timer"
+        },
+        {
+          "constant_index": 424,
+          "value": "love"
+        },
+        {
+          "constant_index": 425,
+          "value": "replaceHoveringNext"
+        },
+        {
+          "constant_index": 426,
+          "value": "replaceHovering"
+        },
+        {
+          "constant_index": 427,
+          "value": "_awakeningInfo"
+        },
+        {
+          "constant_index": 428,
+          "value": "_awakeningPanelRect"
+        },
+        {
+          "constant_index": 429,
+          "value": "_awakeningRuneRect"
+        },
+        {
+          "constant_index": 430,
+          "value": "_skillFrameRect"
+        },
+        {
+          "constant_index": 431,
+          "value": "_hoveredSkill"
+        },
+        {
+          "constant_index": 432,
+          "value": "_previewConvertInfo"
+        },
+        {
+          "constant_index": 433,
+          "value": "_absorbLockDisplayUnit"
+        },
+        {
+          "constant_index": 434,
+          "value": "_absorbLockUnit"
+        },
+        {
+          "constant_index": 435,
+          "value": "_absorbLockRect"
+        },
+        {
+          "constant_index": 436,
+          "value": "_hoveredFaction"
+        },
+        {
+          "constant_index": 437,
+          "value": "_hoveredAbsorbIcon"
+        },
+        {
+          "constant_index": 438,
+          "value": "_hoveredSlot"
+        },
+        {
+          "constant_index": 439,
+          "value": "index"
+        },
+        {
+          "constant_index": 440,
+          "value": "anchor"
+        },
+        {
+          "constant_index": 441,
+          "value": "_hoveredRandomOption"
+        },
+        {
+          "constant_index": 442,
+          "value": "my"
+        },
+        {
+          "constant_index": 443,
+          "value": "mx"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "source",
+              "imprint"
+            ]
+          ]
+        },
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            0,
+            0,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 21,
+          "array": [
+            null,
+            0.55,
+            0.48,
+            0.43,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 23,
+          "array": [
+            null,
+            0.99,
+            0.82,
+            0.18
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 45,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 46,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 49,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 50,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 74,
+          "array": [
+            null,
+            1,
+            0.4
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 76,
+          "array": [
+            null,
+            0.24313725490196078,
+            0.20784313725490197,
+            0.27450980392156865
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 88,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 99,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 133,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 162,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "none"
+            ]
+          ]
+        },
+        {
+          "constant_index": 169,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 171,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 173,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 183,
+          "array": [
+            null,
+            0.9,
+            0.7,
+            0.2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 185,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 191,
+          "array": [
+            null,
+            0,
+            0,
+            0,
+            0.15
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 193,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 200,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 203,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 205,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            0.15
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 207,
+          "array": [
+            null,
+            0.6,
+            0.6,
+            0.6,
+            0.8
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 209,
+          "array": [
+            null,
+            0.05,
+            0.05,
+            0.05,
+            0.85
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 212,
+          "array": [
+            null,
+            0.2,
+            0.8,
+            0.4,
+            0.95
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 224,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 239,
+          "array": [
+            null,
+            0.55,
+            0.48,
+            0.43,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 245,
+          "array": [],
+          "dictionary": [
+            [
+              "source",
+              "imprintFaction"
+            ]
+          ]
+        },
+        {
+          "constant_index": 247,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 273,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 276,
+          "array": [
+            null,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 277,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 314,
+          "array": [],
+          "dictionary": [
+            [
+              "source",
+              "imprintSkill"
+            ]
+          ]
+        },
+        {
+          "constant_index": 316,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 322,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 329,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 371,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 373,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 375,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/8/69",
+      "argument_count": 2,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "send"
+        },
+        {
+          "constant_index": 1,
+          "value": "hasUniform"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/8",
+      "argument_count": 5,
+      "instruction_count": 1972,
+      "numeric_constants": [
+        10,
+        0.5,
+        80,
+        12,
+        8,
+        2,
+        1.15,
+        16,
+        0.95,
+        0.8,
+        10000,
+        0.2,
+        0.25,
+        2.5,
+        1.8,
+        1.5,
+        0.32,
+        0.9,
+        4,
+        5,
+        3,
+        26,
+        6,
+        1.08,
+        15,
+        0.12,
+        0.94,
+        0.55,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "_cancelTriggered"
+        },
+        {
+          "constant_index": 2,
+          "value": "cancelBtnTimer"
+        },
+        {
+          "constant_index": 3,
+          "value": "_convertTriggered"
+        },
+        {
+          "constant_index": 4,
+          "value": "insert"
+        },
+        {
+          "constant_index": 5,
+          "value": "table"
+        },
+        {
+          "constant_index": 6,
+          "value": "active"
+        },
+        {
+          "constant_index": 7,
+          "value": "arrows"
+        },
+        {
+          "constant_index": 8,
+          "value": "buttons"
+        },
+        {
+          "constant_index": 10,
+          "value": "_modalHit"
+        },
+        {
+          "constant_index": 13,
+          "value": "_hudHit"
+        },
+        {
+          "constant_index": 15,
+          "value": "cancelLabel"
+        },
+        {
+          "constant_index": 16,
+          "value": "print"
+        },
+        {
+          "constant_index": 17,
+          "value": "imprint_absorb_cancel"
+        },
+        {
+          "constant_index": 18,
+          "value": "cancelBtnScale"
+        },
+        {
+          "constant_index": 19,
+          "value": "cancelBtnPressed"
+        },
+        {
+          "constant_index": 20,
+          "value": "convertBtnTimer"
+        },
+        {
+          "constant_index": 22,
+          "value": "_buttonTextW"
+        },
+        {
+          "constant_index": 23,
+          "value": "convertLabel"
+        },
+        {
+          "constant_index": 24,
+          "value": "line"
+        },
+        {
+          "constant_index": 25,
+          "value": "fill"
+        },
+        {
+          "constant_index": 26,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 27,
+          "value": "getShader"
+        },
+        {
+          "constant_index": 28,
+          "value": "convertBtnScale"
+        },
+        {
+          "constant_index": 29,
+          "value": "convertBtnPressed"
+        },
+        {
+          "constant_index": 31,
+          "value": "convertBtn"
+        },
+        {
+          "constant_index": 32,
+          "value": "cancelBtn"
+        },
+        {
+          "constant_index": 33,
+          "value": "extraDown"
+        },
+        {
+          "constant_index": 34,
+          "value": "cancelBtnWhenConvert"
+        },
+        {
+          "constant_index": 35,
+          "value": "label"
+        },
+        {
+          "constant_index": 36,
+          "value": "_previewConvertInfo"
+        },
+        {
+          "constant_index": 37,
+          "value": "_cancelBtnImage"
+        },
+        {
+          "constant_index": 38,
+          "value": "pop"
+        },
+        {
+          "constant_index": 39,
+          "value": "shortDesc"
+        },
+        {
+          "constant_index": 40,
+          "value": "getImprintShortDesc"
+        },
+        {
+          "constant_index": 41,
+          "value": "getShortIconImage"
+        },
+        {
+          "constant_index": 42,
+          "value": "_printFitted"
+        },
+        {
+          "constant_index": 43,
+          "value": "level"
+        },
+        {
+          "constant_index": 44,
+          "value": " "
+        },
+        {
+          "constant_index": 45,
+          "value": "Unknown Imprint"
+        },
+        {
+          "constant_index": 46,
+          "value": "name"
+        },
+        {
+          "constant_index": 47,
+          "value": "getImprintName"
+        },
+        {
+          "constant_index": 48,
+          "value": "gapY"
+        },
+        {
+          "constant_index": 49,
+          "value": "imprintDesc"
+        },
+        {
+          "constant_index": 50,
+          "value": "imprintName"
+        },
+        {
+          "constant_index": 51,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 52,
+          "value": "u_mixBP"
+        },
+        {
+          "constant_index": 53,
+          "value": "u_saturation"
+        },
+        {
+          "constant_index": 54,
+          "value": "u_colorGain"
+        },
+        {
+          "constant_index": 55,
+          "value": "u_fresnelPow"
+        },
+        {
+          "constant_index": 56,
+          "value": "u_specular"
+        },
+        {
+          "constant_index": 57,
+          "value": "u_filmAmp"
+        },
+        {
+          "constant_index": 58,
+          "value": "u_filmFreq"
+        },
+        {
+          "constant_index": 59,
+          "value": "u_grainAmp"
+        },
+        {
+          "constant_index": 60,
+          "value": "u_grainScale"
+        },
+        {
+          "constant_index": 61,
+          "value": "u_scale"
+        },
+        {
+          "constant_index": 62,
+          "value": "u_cycle"
+        },
+        {
+          "constant_index": 64,
+          "value": "u_dir"
+        },
+        {
+          "constant_index": 66,
+          "value": "u_uiBase"
+        },
+        {
+          "constant_index": 67,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 68,
+          "value": "timer"
+        },
+        {
+          "constant_index": 70,
+          "value": "u_time"
+        },
+        {
+          "constant_index": 71,
+          "value": "hasUniform"
+        },
+        {
+          "constant_index": 72,
+          "value": "p"
+        },
+        {
+          "constant_index": 73,
+          "value": "prism"
+        },
+        {
+          "constant_index": 74,
+          "value": "l"
+        },
+        {
+          "constant_index": 75,
+          "value": "legend"
+        },
+        {
+          "constant_index": 76,
+          "value": "legendary"
+        },
+        {
+          "constant_index": 77,
+          "value": "r"
+        },
+        {
+          "constant_index": 78,
+          "value": "rare"
+        },
+        {
+          "constant_index": 79,
+          "value": "advanced"
+        },
+        {
+          "constant_index": 80,
+          "value": "special"
+        },
+        {
+          "constant_index": 81,
+          "value": "lower"
+        },
+        {
+          "constant_index": 82,
+          "value": ""
+        },
+        {
+          "constant_index": 83,
+          "value": "rarity"
+        },
+        {
+          "constant_index": 84,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 85,
+          "value": "iconOffset"
+        },
+        {
+          "constant_index": 86,
+          "value": "icon"
+        },
+        {
+          "constant_index": 87,
+          "value": "translate"
+        },
+        {
+          "constant_index": 88,
+          "value": "push"
+        },
+        {
+          "constant_index": 89,
+          "value": "key"
+        },
+        {
+          "constant_index": 91,
+          "value": "imprint_gain:"
+        },
+        {
+          "constant_index": 92,
+          "value": "fit"
+        },
+        {
+          "constant_index": 93,
+          "value": "draw"
+        },
+        {
+          "constant_index": 94,
+          "value": "text_fit"
+        },
+        {
+          "constant_index": 95,
+          "value": "src.ui.widgets"
+        },
+        {
+          "constant_index": 96,
+          "value": "require"
+        },
+        {
+          "constant_index": 97,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 98,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 99,
+          "value": "_drawGainPlate"
+        },
+        {
+          "constant_index": 100,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 101,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 102,
+          "value": "love"
+        },
+        {
+          "constant_index": 103,
+          "value": "GAIN_TAB_MAX_EXTRA"
+        },
+        {
+          "constant_index": 104,
+          "value": "GAIN_TAB_INNER_W"
+        },
+        {
+          "constant_index": 105,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 106,
+          "value": "font"
+        },
+        {
+          "constant_index": 107,
+          "value": "ko"
+        },
+        {
+          "constant_index": 108,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 109,
+          "value": "_G"
+        },
+        {
+          "constant_index": 110,
+          "value": "imprint_gained_label"
+        },
+        {
+          "constant_index": 111,
+          "value": "getText"
+        },
+        {
+          "constant_index": 112,
+          "value": "text"
+        },
+        {
+          "constant_index": 113,
+          "value": "gainLabel"
+        },
+        {
+          "constant_index": 114,
+          "value": "gainBg"
+        },
+        {
+          "constant_index": 115,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 116,
+          "value": "_gainBgImage"
+        },
+        {
+          "constant_index": 117,
+          "value": "tooltipScale"
+        },
+        {
+          "constant_index": 118,
+          "value": "h"
+        },
+        {
+          "constant_index": 119,
+          "value": "imprint"
+        },
+        {
+          "constant_index": 121,
+          "value": "_slotTrimmedW"
+        },
+        {
+          "constant_index": 122,
+          "value": "_slotTrimmedOffsetX"
+        },
+        {
+          "constant_index": 123,
+          "value": "slotBg"
+        },
+        {
+          "constant_index": 124,
+          "value": "_hoveredSlot"
+        },
+        {
+          "constant_index": 125,
+          "value": "offsetY"
+        },
+        {
+          "constant_index": 126,
+          "value": "offsetX"
+        },
+        {
+          "constant_index": 127,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 128,
+          "value": "preview"
+        },
+        {
+          "constant_index": 129,
+          "value": "w"
+        },
+        {
+          "constant_index": 130,
+          "value": "x"
+        },
+        {
+          "constant_index": 131,
+          "value": "slotW"
+        },
+        {
+          "constant_index": 132,
+          "value": "imprintPanel"
+        },
+        {
+          "constant_index": 133,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 134,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 135,
+          "value": "_slotBgImage"
+        },
+        {
+          "constant_index": 136,
+          "value": "previewScale"
+        },
+        {
+          "constant_index": 137,
+          "value": "max"
+        },
+        {
+          "constant_index": 138,
+          "value": "min"
+        },
+        {
+          "constant_index": 139,
+          "value": "id"
+        },
+        {
+          "constant_index": 140,
+          "value": "previewY"
+        },
+        {
+          "constant_index": 141,
+          "value": "lastPreviewImprint"
+        },
+        {
+          "constant_index": 142,
+          "value": "previewAlpha"
+        },
+        {
+          "constant_index": 143,
+          "value": "previewImprint"
+        },
+        {
+          "constant_index": 144,
+          "value": "floor"
+        },
+        {
+          "constant_index": 145,
+          "value": "math"
+        },
+        {
+          "constant_index": 146,
+          "value": "y"
+        },
+        {
+          "constant_index": 147,
+          "value": "scale"
+        },
+        {
+          "constant_index": 148,
+          "value": "right"
+        },
+        {
+          "constant_index": 149,
+          "value": "compute"
+        },
+        {
+          "constant_index": 150,
+          "value": "convertHovering"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 11,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "cancel"
+            ]
+          ]
+        },
+        {
+          "constant_index": 12,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 14,
+          "array": [],
+          "dictionary": [
+            [
+              "align",
+              "center"
+            ],
+            [
+              "key",
+              "imprint_absorb_cancel"
+            ]
+          ]
+        },
+        {
+          "constant_index": 21,
+          "array": [],
+          "dictionary": [
+            [
+              "align",
+              "center"
+            ],
+            [
+              "key",
+              "imprint_convert"
+            ]
+          ]
+        },
+        {
+          "constant_index": 30,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "convert"
+            ]
+          ]
+        },
+        {
+          "constant_index": 63,
+          "array": [
+            null,
+            1,
+            0.4
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 65,
+          "array": [
+            null,
+            0.24313725490196078,
+            0.20784313725490197,
+            0.27450980392156865
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 90,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 120,
+          "array": [],
+          "dictionary": [
+            [
+              "index",
+              -1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/10",
+      "argument_count": 0,
+      "instruction_count": 5,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "previewImprint"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 1,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "previewImprint"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/14",
+      "argument_count": 0,
+      "instruction_count": 84,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_absorbLockDisplayUnit"
+        },
+        {
+          "constant_index": 1,
+          "value": "_absorbLockUnit"
+        },
+        {
+          "constant_index": 2,
+          "value": "_absorbLockRect"
+        },
+        {
+          "constant_index": 3,
+          "value": "_hoveredSkill"
+        },
+        {
+          "constant_index": 4,
+          "value": "_hoveredRandomOption"
+        },
+        {
+          "constant_index": 5,
+          "value": "_hoveredFaction"
+        },
+        {
+          "constant_index": 6,
+          "value": "_awakeningInfo"
+        },
+        {
+          "constant_index": 7,
+          "value": "_awakeningPanelRect"
+        },
+        {
+          "constant_index": 8,
+          "value": "ui"
+        },
+        {
+          "constant_index": 9,
+          "value": "_awakeningRuneRect"
+        },
+        {
+          "constant_index": 10,
+          "value": "_hoveredAbsorbIcon"
+        },
+        {
+          "constant_index": 11,
+          "value": "_hoveredSlot"
+        },
+        {
+          "constant_index": 13,
+          "value": "_hit"
+        },
+        {
+          "constant_index": 14,
+          "value": "_panelRect"
+        },
+        {
+          "constant_index": 15,
+          "value": "floatOffsets"
+        },
+        {
+          "constant_index": 16,
+          "value": "impactScales"
+        },
+        {
+          "constant_index": 17,
+          "value": "previewAlpha"
+        },
+        {
+          "constant_index": 18,
+          "value": "lastPreviewImprint"
+        },
+        {
+          "constant_index": 19,
+          "value": "previewImprint"
+        },
+        {
+          "constant_index": 20,
+          "value": "blinkUnit"
+        },
+        {
+          "constant_index": 21,
+          "value": "blinkSlot"
+        },
+        {
+          "constant_index": 22,
+          "value": "blinkTimer"
+        },
+        {
+          "constant_index": 23,
+          "value": "holdTimer"
+        },
+        {
+          "constant_index": 24,
+          "value": "lastUnit"
+        },
+        {
+          "constant_index": 25,
+          "value": "v"
+        },
+        {
+          "constant_index": 26,
+          "value": "x"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 12,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/16",
+      "argument_count": 0,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floatOffsets"
+        },
+        {
+          "constant_index": 1,
+          "value": "impactScales"
+        },
+        {
+          "constant_index": 2,
+          "value": "blinkUnit"
+        },
+        {
+          "constant_index": 3,
+          "value": "blinkSlot"
+        },
+        {
+          "constant_index": 4,
+          "value": "blinkTimer"
+        },
+        {
+          "constant_index": 5,
+          "value": "holdTimer"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/18",
+      "argument_count": 0,
+      "instruction_count": 13,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "holdTimer"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20",
+      "argument_count": 2,
+      "instruction_count": 27,
+      "numeric_constants": [
+        1.3
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floatOffsets"
+        },
+        {
+          "constant_index": 1,
+          "value": "impactScales"
+        },
+        {
+          "constant_index": 2,
+          "value": "blinkTimer"
+        },
+        {
+          "constant_index": 3,
+          "value": "blinkSlot"
+        },
+        {
+          "constant_index": 4,
+          "value": "blinkUnit"
+        },
+        {
+          "constant_index": 5,
+          "value": "holdTimer"
+        },
+        {
+          "constant_index": 6,
+          "value": "lastUnit"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/22",
+      "argument_count": 2,
+      "instruction_count": 812,
+      "numeric_constants": [
+        520,
+        0.5,
+        190,
+        2,
+        40,
+        6,
+        26,
+        0.08,
+        0.96,
+        0.55,
+        1,
+        10,
+        0.62,
+        4,
+        24,
+        12,
+        7,
+        5,
+        20,
+        18,
+        0.14,
+        0.25,
+        8,
+        0.1,
+        0.9,
+        3,
+        0.6,
+        28,
+        0.65
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "New Imprint"
+        },
+        {
+          "constant_index": 1,
+          "value": "imprint_empty_slot"
+        },
+        {
+          "constant_index": 2,
+          "value": "getText"
+        },
+        {
+          "constant_index": 3,
+          "value": "print"
+        },
+        {
+          "constant_index": 4,
+          "value": ""
+        },
+        {
+          "constant_index": 5,
+          "value": "desc"
+        },
+        {
+          "constant_index": 6,
+          "value": "getImprintDesc"
+        },
+        {
+          "constant_index": 7,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 8,
+          "value": "_printFitted"
+        },
+        {
+          "constant_index": 9,
+          "value": "level"
+        },
+        {
+          "constant_index": 10,
+          "value": " "
+        },
+        {
+          "constant_index": 11,
+          "value": "ko"
+        },
+        {
+          "constant_index": 12,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 13,
+          "value": "_G"
+        },
+        {
+          "constant_index": 14,
+          "value": "Unknown"
+        },
+        {
+          "constant_index": 15,
+          "value": "name"
+        },
+        {
+          "constant_index": 16,
+          "value": "id"
+        },
+        {
+          "constant_index": 17,
+          "value": "getImprintName"
+        },
+        {
+          "constant_index": 18,
+          "value": "center"
+        },
+        {
+          "constant_index": 19,
+          "value": ">"
+        },
+        {
+          "constant_index": 20,
+          "value": "printf"
+        },
+        {
+          "constant_index": 21,
+          "value": "slot"
+        },
+        {
+          "constant_index": 22,
+          "value": "h"
+        },
+        {
+          "constant_index": 23,
+          "value": "w"
+        },
+        {
+          "constant_index": 24,
+          "value": "x"
+        },
+        {
+          "constant_index": 26,
+          "value": "insert"
+        },
+        {
+          "constant_index": 27,
+          "value": "table"
+        },
+        {
+          "constant_index": 28,
+          "value": "icon"
+        },
+        {
+          "constant_index": 29,
+          "value": "arrows"
+        },
+        {
+          "constant_index": 31,
+          "value": "imprints"
+        },
+        {
+          "constant_index": 32,
+          "value": "maxSlots"
+        },
+        {
+          "constant_index": 33,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 34,
+          "value": "min"
+        },
+        {
+          "constant_index": 35,
+          "value": "line"
+        },
+        {
+          "constant_index": 36,
+          "value": "fill"
+        },
+        {
+          "constant_index": 37,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 38,
+          "value": "draw"
+        },
+        {
+          "constant_index": 39,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 40,
+          "value": "margin"
+        },
+        {
+          "constant_index": 41,
+          "value": "max"
+        },
+        {
+          "constant_index": 42,
+          "value": "y"
+        },
+        {
+          "constant_index": 43,
+          "value": "right"
+        },
+        {
+          "constant_index": 44,
+          "value": "floor"
+        },
+        {
+          "constant_index": 45,
+          "value": "math"
+        },
+        {
+          "constant_index": 46,
+          "value": "H"
+        },
+        {
+          "constant_index": 47,
+          "value": "screen"
+        },
+        {
+          "constant_index": 48,
+          "value": "W"
+        },
+        {
+          "constant_index": 49,
+          "value": "virtual"
+        },
+        {
+          "constant_index": 50,
+          "value": "compute"
+        },
+        {
+          "constant_index": 51,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 52,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 53,
+          "value": "love"
+        },
+        {
+          "constant_index": 54,
+          "value": "font"
+        },
+        {
+          "constant_index": 55,
+          "value": "scale"
+        },
+        {
+          "constant_index": 57,
+          "value": "_modalHit"
+        },
+        {
+          "constant_index": 58,
+          "value": "pending"
+        },
+        {
+          "constant_index": 59,
+          "value": "absorber"
+        },
+        {
+          "constant_index": 60,
+          "value": "active"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 25,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 30,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 56,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/24",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hp"
+        },
+        {
+          "constant_index": 1,
+          "value": "aspd"
+        },
+        {
+          "constant_index": 2,
+          "value": "atk"
+        },
+        {
+          "constant_index": 3,
+          "value": "ko"
+        },
+        {
+          "constant_index": 4,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 5,
+          "value": "_G"
+        },
+        {
+          "constant_index": 6,
+          "value": "imprint_absorb_stat_fmt"
+        },
+        {
+          "constant_index": 7,
+          "value": "getText"
+        },
+        {
+          "constant_index": 8,
+          "value": "format"
+        },
+        {
+          "constant_index": 9,
+          "value": "string"
+        },
+        {
+          "constant_index": 10,
+          "value": "getAbsorbLvStats"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/26",
+      "argument_count": 1,
+      "instruction_count": 41,
+      "numeric_constants": [
+        1,
+        100
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hp"
+        },
+        {
+          "constant_index": 1,
+          "value": "aspd"
+        },
+        {
+          "constant_index": 3,
+          "value": "atk"
+        },
+        {
+          "constant_index": 4,
+          "value": "grade"
+        },
+        {
+          "constant_index": 5,
+          "value": "getAbsorbLvMultipliers"
+        },
+        {
+          "constant_index": 6,
+          "value": "evolution"
+        },
+        {
+          "constant_index": 7,
+          "value": "absorbLV"
+        },
+        {
+          "constant_index": 8,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 9,
+          "value": "floor"
+        },
+        {
+          "constant_index": 10,
+          "value": "max"
+        },
+        {
+          "constant_index": 11,
+          "value": "math"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/28",
+      "argument_count": 2,
+      "instruction_count": 32,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "h"
+        },
+        {
+          "constant_index": 1,
+          "value": "y"
+        },
+        {
+          "constant_index": 2,
+          "value": "w"
+        },
+        {
+          "constant_index": 3,
+          "value": "x"
+        },
+        {
+          "constant_index": 4,
+          "value": "_absorbLockUnit"
+        },
+        {
+          "constant_index": 5,
+          "value": "_absorbLockRect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/30",
+      "argument_count": 2,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "h"
+        },
+        {
+          "constant_index": 1,
+          "value": "y"
+        },
+        {
+          "constant_index": 2,
+          "value": "w"
+        },
+        {
+          "constant_index": 3,
+          "value": "x"
+        },
+        {
+          "constant_index": 4,
+          "value": "_absorbLvRect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/32",
+      "argument_count": 2,
+      "instruction_count": 54,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "arrows"
+        },
+        {
+          "constant_index": 2,
+          "value": "slot"
+        },
+        {
+          "constant_index": 4,
+          "value": "kind"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "buttons"
+        },
+        {
+          "constant_index": 7,
+          "value": "active"
+        },
+        {
+          "constant_index": 8,
+          "value": "_modalHit"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "arrow"
+            ]
+          ]
+        },
+        {
+          "constant_index": 3,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/34",
+      "argument_count": 2,
+      "instruction_count": 50,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "keepBtn"
+        },
+        {
+          "constant_index": 3,
+          "value": "replaceBtn"
+        },
+        {
+          "constant_index": 4,
+          "value": "slot"
+        },
+        {
+          "constant_index": 6,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 7,
+          "value": "slots"
+        },
+        {
+          "constant_index": 8,
+          "value": "active"
+        },
+        {
+          "constant_index": 9,
+          "value": "_hit"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "mode"
+            ],
+            [
+              "mode",
+              "keep"
+            ]
+          ]
+        },
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "mode"
+            ],
+            [
+              "mode",
+              "replace"
+            ]
+          ]
+        },
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "slot"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/36",
+      "argument_count": 3,
+      "instruction_count": 23,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "h"
+        },
+        {
+          "constant_index": 1,
+          "value": "y"
+        },
+        {
+          "constant_index": 2,
+          "value": "w"
+        },
+        {
+          "constant_index": 3,
+          "value": "x"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/37",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [
+        0.15
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_changeTriggered"
+        },
+        {
+          "constant_index": 1,
+          "value": "_changeSlot"
+        },
+        {
+          "constant_index": 2,
+          "value": "changeBtnTimer"
+        },
+        {
+          "constant_index": 3,
+          "value": "changeBtnPressed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/39",
+      "argument_count": 2,
+      "instruction_count": 15,
+      "numeric_constants": [
+        0.15
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_confirmTriggered"
+        },
+        {
+          "constant_index": 1,
+          "value": "_confirmAction"
+        },
+        {
+          "constant_index": 2,
+          "value": "_confirmSlot"
+        },
+        {
+          "constant_index": 3,
+          "value": "confirmBtnTimer"
+        },
+        {
+          "constant_index": 4,
+          "value": "confirmBtnPressed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/41",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [
+        0.15
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_upgradeTriggered"
+        },
+        {
+          "constant_index": 1,
+          "value": "_upgradeSlot"
+        },
+        {
+          "constant_index": 2,
+          "value": "upgradeBtnTimer"
+        },
+        {
+          "constant_index": 3,
+          "value": "upgradeBtnPressed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/43",
+      "argument_count": 0,
+      "instruction_count": 11,
+      "numeric_constants": [
+        0.15
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_convertTriggered"
+        },
+        {
+          "constant_index": 1,
+          "value": "convertBtnTimer"
+        },
+        {
+          "constant_index": 2,
+          "value": "convertBtnPressed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/45",
+      "argument_count": 0,
+      "instruction_count": 11,
+      "numeric_constants": [
+        0.15
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_cancelTriggered"
+        },
+        {
+          "constant_index": 1,
+          "value": "cancelBtnTimer"
+        },
+        {
+          "constant_index": 2,
+          "value": "cancelBtnPressed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/47",
+      "argument_count": 2,
+      "instruction_count": 33,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "h"
+        },
+        {
+          "constant_index": 2,
+          "value": "y"
+        },
+        {
+          "constant_index": 3,
+          "value": "w"
+        },
+        {
+          "constant_index": 4,
+          "value": "x"
+        },
+        {
+          "constant_index": 5,
+          "value": "cancelBtn"
+        },
+        {
+          "constant_index": 6,
+          "value": "active"
+        },
+        {
+          "constant_index": 7,
+          "value": "_hudHit"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "cancel"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/49",
+      "argument_count": 3,
+      "instruction_count": 494,
+      "numeric_constants": [
+        200,
+        0.5,
+        56,
+        4,
+        6,
+        22,
+        12,
+        7,
+        5,
+        3,
+        2,
+        0.1,
+        0.92,
+        0.45,
+        1,
+        0.65,
+        0.9,
+        26,
+        0.12,
+        0.94,
+        0.55,
+        0.95
+      ],
+      "strings": [
+        {
+          "constant_index": 2,
+          "value": "cancelBtn"
+        },
+        {
+          "constant_index": 3,
+          "value": "h"
+        },
+        {
+          "constant_index": 6,
+          "value": "_hudHit"
+        },
+        {
+          "constant_index": 7,
+          "value": "print"
+        },
+        {
+          "constant_index": 8,
+          "value": "imprint_absorb_cancel"
+        },
+        {
+          "constant_index": 9,
+          "value": "getText"
+        },
+        {
+          "constant_index": 10,
+          "value": "cancelLabel"
+        },
+        {
+          "constant_index": 11,
+          "value": "showCancel"
+        },
+        {
+          "constant_index": 12,
+          "value": "level"
+        },
+        {
+          "constant_index": 13,
+          "value": "getImprintDesc"
+        },
+        {
+          "constant_index": 14,
+          "value": "ko"
+        },
+        {
+          "constant_index": 15,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 16,
+          "value": "_G"
+        },
+        {
+          "constant_index": 17,
+          "value": "New Imprint"
+        },
+        {
+          "constant_index": 18,
+          "value": "name"
+        },
+        {
+          "constant_index": 19,
+          "value": "id"
+        },
+        {
+          "constant_index": 20,
+          "value": "getImprintName"
+        },
+        {
+          "constant_index": 21,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 22,
+          "value": "_printFitted"
+        },
+        {
+          "constant_index": 23,
+          "value": "icon"
+        },
+        {
+          "constant_index": 24,
+          "value": "line"
+        },
+        {
+          "constant_index": 25,
+          "value": "fill"
+        },
+        {
+          "constant_index": 26,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 27,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 28,
+          "value": "margin"
+        },
+        {
+          "constant_index": 29,
+          "value": "y"
+        },
+        {
+          "constant_index": 30,
+          "value": "w"
+        },
+        {
+          "constant_index": 31,
+          "value": "x"
+        },
+        {
+          "constant_index": 32,
+          "value": "right"
+        },
+        {
+          "constant_index": 33,
+          "value": ""
+        },
+        {
+          "constant_index": 34,
+          "value": "desc"
+        },
+        {
+          "constant_index": 35,
+          "value": "max"
+        },
+        {
+          "constant_index": 36,
+          "value": "floor"
+        },
+        {
+          "constant_index": 37,
+          "value": "math"
+        },
+        {
+          "constant_index": 38,
+          "value": "H"
+        },
+        {
+          "constant_index": 39,
+          "value": "screen"
+        },
+        {
+          "constant_index": 40,
+          "value": "W"
+        },
+        {
+          "constant_index": 41,
+          "value": "virtual"
+        },
+        {
+          "constant_index": 42,
+          "value": "compute"
+        },
+        {
+          "constant_index": 43,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 44,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 45,
+          "value": "love"
+        },
+        {
+          "constant_index": 46,
+          "value": "font"
+        },
+        {
+          "constant_index": 47,
+          "value": "scale"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 1,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "cancel"
+            ]
+          ]
+        },
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              true
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/57",
+      "argument_count": 1,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 2,
+          "value": "legendary"
+        },
+        {
+          "constant_index": 4,
+          "value": "rare"
+        },
+        {
+          "constant_index": 6,
+          "value": "advanced"
+        },
+        {
+          "constant_index": 8,
+          "value": "special"
+        },
+        {
+          "constant_index": 9,
+          "value": "normal"
+        },
+        {
+          "constant_index": 10,
+          "value": "grade"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 1,
+          "array": [
+            null,
+            0.9215686274509803,
+            0.5725490196078431,
+            0.16862745098039217,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            0.6,
+            0.75,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 5,
+          "array": [
+            null,
+            0.6,
+            0.85,
+            0.65,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            0.9411764705882353,
+            0.30980392156862746,
+            0.8470588235294118,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 11,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/58",
+      "argument_count": 0,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/61",
+      "argument_count": 0,
+      "instruction_count": 41,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "|"
+        },
+        {
+          "constant_index": 1,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 2,
+          "value": "src/data/font/Galmuri9WS.fnt"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/62",
+      "argument_count": 0,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "    extern number u_time;     // seconds\n    extern number u_alpha;    // overlay opacity (0..1), masked by sprite alpha\n    extern vec2   u_dir;      // normalized drift direction in UV space\n    extern number u_cycle;    // seconds per full color cycle (3..5)\n    extern number u_scale;    // spatial scale of pattern\n    extern number u_grainScale; // grain density (screen-space)\n    extern number u_grainAmp; // grain strength (0..1)\n    extern number u_filmFreq; // thin-film interference frequency\n    extern number u_filmAmp;  // thin-film amplitude\n    extern number u_specular; // metallic/specular band strength\n    extern number u_fresnelPow; // fresnel shaping power (>=1)\n    extern vec4   u_frameUV;  // {minU, minV, sizeU, sizeV}; for full images use {0,0,1,1}\n    extern number u_colorGain; // overall color gain (1.0 = neutral)\n    extern number u_saturation; // color saturation multiplier (1.0 = neutral)\n    extern number u_mixBP;    // mix factor between wide and blue-purple palette (0..1)\n\n    vec3 palette(float x, vec3 a, vec3 b, vec3 c, vec3 d){\n      return a + b * cos(6.28318 * (c * x + d));\n    }\n    float hash(vec2 p){\n      return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453);\n    }\n    vec4 effect(vec4 color, Image tex, vec2 tc, vec2 sc){\n      // IMPORTANT: treat input as an ALPHA MASK (text canvas). Only alpha matters.\n      float maskA = Texel(tex, tc).a;\n      if (maskA <= 0.001) return vec4(0.0);\n      float alpha = clamp(u_alpha, 0.0, 1.0) * maskA;\n      if (alpha <= 0.0) return vec4(0.0);\n\n      vec2 dir = u_dir;\n      if (length(dir) < 0.001) dir = vec2(0.94, 0.34);\n      else dir = normalize(dir);\n      vec2 ortho = vec2(-dir.y, dir.x);\n      vec2 tcL = tc;\n      if (u_frameUV.z > 0.0 && u_frameUV.w > 0.0){\n        tcL = (tc - u_frameUV.xy) / u_frameUV.zw;\n        tcL = clamp(tcL, 0.0, 1.0);\n      }\n      float u = dot(tcL, dir) * u_scale + (u_time / max(u_cycle, 0.001));\n      float v = dot(tcL, ortho) * u_scale;\n      float grainLine = abs(sin(dot(tcL, ortho) * u_grainScale));\n      float grainNoise = hash(tcL * 97.0 + vec2(13.3,7.7));\n      float grain = mix(grainLine, grainNoise, 0.25);\n      float film = u_filmAmp * (0.5 + 0.5 * sin(6.28318 * (u * u_filmFreq + grainNoise * 0.15)));\n      float x = u + film;\n      vec3 colBP = palette(x,\n        vec3(0.55, 0.50, 0.58),\n        vec3(0.25, 0.20, 0.28),\n        vec3(1.00, 1.00, 1.00),\n        vec3(0.10, 0.43, 0.78)\n      );\n      vec3 colWide = palette(u, vec3(0.52), vec3(0.12), vec3(1.0), vec3(0.00, 0.33, 0.66));\n      vec3 foil = mix(colWide, colBP, clamp(u_mixBP, 0.0, 1.0));\n      float band = 0.5 + 0.5 * sin(6.28318 * (u * 0.05 + v * 0.03));\n      float fres = pow(0.5 + 0.5 * sin(6.28318 * v * 0.10), max(1.0, u_fresnelPow));\n      float spec = u_specular * band * (0.2 + 0.8 * fres) * 0.15;\n      float grainMul = 1.0 + u_grainAmp * (grain * 0.15 - 0.03);\n      vec3 outRGB = foil * grainMul + spec;\n      float Y = dot(outRGB, vec3(0.2126, 0.7152, 0.0722));\n      outRGB = mix(vec3(Y), outRGB, max(0.0, u_saturation));\n      outRGB *= max(0.0, u_colorGain);\n      // Premultiply to guarantee no color outside the mask.\n      return vec4(outRGB * alpha, alpha);\n    }\n  "
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/63",
+      "argument_count": 0,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "    extern number u_time;     // seconds\n    extern number u_alpha;    // overlay opacity (0..1), masked by sprite alpha\n    extern vec2   u_dir;      // normalized drift direction in UV space\n    extern number u_cycle;    // seconds per full color cycle (3..5)\n    extern number u_scale;    // spatial scale of pattern\n    extern number u_grainScale; // grain density (screen-space)\n    extern number u_grainAmp; // grain strength (0..1)\n    extern number u_filmFreq; // thin-film interference frequency\n    extern number u_filmAmp;  // thin-film amplitude\n    extern number u_specular; // metallic/specular band strength\n    extern number u_fresnelPow; // fresnel shaping power (>=1)\n    extern vec4   u_frameUV;  // {minU, minV, sizeU, sizeV}; for full images use {0,0,1,1}\n    extern number u_colorGain; // overall color gain (1.0 = neutral)\n    extern number u_saturation; // color saturation multiplier (1.0 = neutral)\n    extern number u_mixBP;    // mix factor between wide and blue-purple palette (0..1)\n\n    vec3 palette(float x, vec3 a, vec3 b, vec3 c, vec3 d){\n      return a + b * cos(6.28318 * (c * x + d));\n    }\n    float hash(vec2 p){\n      return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453);\n    }\n    vec4 effect(vec4 color, Image tex, vec2 tc, vec2 sc){\n      vec4 base = Texel(tex, tc) * color; // includes source alpha\n      if (base.a <= 0.001) return vec4(0.0);\n      float alpha = clamp(u_alpha, 0.0, 1.0) * base.a;\n      if (alpha <= 0.0) return vec4(0.0);\n\n      vec2 dir = u_dir;\n      if (length(dir) < 0.001) dir = vec2(0.94, 0.34);\n      else dir = normalize(dir);\n      vec2 ortho = vec2(-dir.y, dir.x); \n      vec2 tcL = tc;\n      if (u_frameUV.z > 0.0 && u_frameUV.w > 0.0){\n        tcL = (tc - u_frameUV.xy) / u_frameUV.zw;\n        tcL = clamp(tcL, 0.0, 1.0);\n      }\n      float u = dot(tcL, dir) * u_scale + (u_time / max(u_cycle, 0.001));\n      float v = dot(tcL, ortho) * u_scale;\n      float grainLine = abs(sin(dot(tcL, ortho) * u_grainScale));\n      float grainNoise = hash(tcL * 97.0 + vec2(13.3,7.7));\n      float grain = mix(grainLine, grainNoise, 0.25);\n      float film = u_filmAmp * (0.5 + 0.5 * sin(6.28318 * (u * u_filmFreq + grainNoise * 0.15)));\n      float x = u + film;\n      vec3 colBP = palette(x,\n        vec3(0.55, 0.50, 0.58),\n        vec3(0.25, 0.20, 0.28),\n        vec3(1.00, 1.00, 1.00),\n        vec3(0.10, 0.43, 0.78)\n      );\n      vec3 colWide = palette(u, vec3(0.52), vec3(0.12), vec3(1.0), vec3(0.00, 0.33, 0.66));\n      vec3 foil = mix(colWide, colBP, clamp(u_mixBP, 0.0, 1.0));\n      float band = 0.5 + 0.5 * sin(6.28318 * (u * 0.05 + v * 0.03));\n      float fres = pow(0.5 + 0.5 * sin(6.28318 * v * 0.10), max(1.0, u_fresnelPow));\n      float spec = u_specular * band * (0.2 + 0.8 * fres) * 0.15;\n      float grainMul = 1.0 + u_grainAmp * (grain * 0.15 - 0.03);\n      vec3 outRGB = foil * grainMul + spec;\n      // Apply saturation boost and color gain (icon-sized legibility)\n      float Y = dot(outRGB, vec3(0.2126, 0.7152, 0.0722));\n      outRGB = mix(vec3(Y), outRGB, max(0.0, u_saturation));\n      outRGB *= max(0.0, u_colorGain);\n      return vec4(outRGB, alpha);\n    }\n  "
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/64",
+      "argument_count": 0,
+      "instruction_count": 28,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "    vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 screen_coords){\n      vec4 t = Texel(texture, texture_coords);\n      return vec4(color.rgb, t.a * color.a);\n    }\n  "
+        },
+        {
+          "constant_index": 1,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 2,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 3,
+          "value": "love"
+        },
+        {
+          "constant_index": 4,
+          "value": "pcall"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/65",
+      "argument_count": 6,
+      "instruction_count": 96,
+      "numeric_constants": [
+        0.5,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "draw"
+        },
+        {
+          "constant_index": 1,
+          "value": "floor"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "min"
+        },
+        {
+          "constant_index": 4,
+          "value": "math"
+        },
+        {
+          "constant_index": 5,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 6,
+          "value": "fill"
+        },
+        {
+          "constant_index": 7,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 8,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 9,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/66",
+      "argument_count": 2,
+      "instruction_count": 187,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 6,
+          "value": "src/sprites/icons/imprinticons/shortsicons/stardebuff.png"
+        },
+        {
+          "constant_index": 7,
+          "value": "starlight_theft"
+        },
+        {
+          "constant_index": 8,
+          "value": "src/sprites/icons/imprinticons/shortsicons/skillsizeupgrade.png"
+        },
+        {
+          "constant_index": 9,
+          "value": "amplify"
+        },
+        {
+          "constant_index": 10,
+          "value": "rewind"
+        },
+        {
+          "constant_index": 11,
+          "value": "src/sprites/icons/imprinticons/shortsicons/hourglass.png"
+        },
+        {
+          "constant_index": 12,
+          "value": "timeless"
+        },
+        {
+          "constant_index": 13,
+          "value": "src/sprites/icons/imprinticons/shortsicons/holy.png"
+        },
+        {
+          "constant_index": 14,
+          "value": "undying_soul"
+        },
+        {
+          "constant_index": 15,
+          "value": "src/sprites/icons/imprinticons/shortsicons/fear.png"
+        },
+        {
+          "constant_index": 16,
+          "value": "overlord"
+        },
+        {
+          "constant_index": 17,
+          "value": "src/sprites/icons/imprinticons/shortsicons/golem.png"
+        },
+        {
+          "constant_index": 18,
+          "value": "colossus_descent"
+        },
+        {
+          "constant_index": 19,
+          "value": "src/sprites/icons/imprinticons/shortsicons/eye.png"
+        },
+        {
+          "constant_index": 20,
+          "value": "ruin"
+        },
+        {
+          "constant_index": 21,
+          "value": "src/sprites/icons/imprinticons/shortsicons/angry.png"
+        },
+        {
+          "constant_index": 22,
+          "value": "majesty"
+        },
+        {
+          "constant_index": 23,
+          "value": "src/sprites/icons/imprinticons/shortsicons/cross.png"
+        },
+        {
+          "constant_index": 24,
+          "value": "revival"
+        },
+        {
+          "constant_index": 25,
+          "value": "src/sprites/icons/imprinticons/shortsicons/soul.png"
+        },
+        {
+          "constant_index": 26,
+          "value": "soul_split"
+        },
+        {
+          "constant_index": 27,
+          "value": "src/sprites/icons/imprinticons/shortsicons/shadowclone.png"
+        },
+        {
+          "constant_index": 28,
+          "value": "shadow_clone"
+        },
+        {
+          "constant_index": 29,
+          "value": "src/sprites/icons/imprinticons/shortsicons/meteor.png"
+        },
+        {
+          "constant_index": 30,
+          "value": "meteor"
+        },
+        {
+          "constant_index": 31,
+          "value": "src/sprites/icons/imprinticons/shortsicons/fire.png"
+        },
+        {
+          "constant_index": 32,
+          "value": "annihilation"
+        },
+        {
+          "constant_index": 33,
+          "value": "src/sprites/icons/imprinticons/shortsicons/execute.png"
+        },
+        {
+          "constant_index": 34,
+          "value": "execute"
+        },
+        {
+          "constant_index": 35,
+          "value": "src/sprites/icons/imprinticons/shortsicons/enlarge.png"
+        },
+        {
+          "constant_index": 36,
+          "value": "enlarge"
+        },
+        {
+          "constant_index": 37,
+          "value": "src/sprites/icons/imprinticons/shortsicons/shrink.png"
+        },
+        {
+          "constant_index": 38,
+          "value": "shrink"
+        },
+        {
+          "constant_index": 39,
+          "value": "src/sprites/icons/imprinticons/shortsicons/ice.png"
+        },
+        {
+          "constant_index": 40,
+          "value": "chill"
+        },
+        {
+          "constant_index": 41,
+          "value": "chain"
+        },
+        {
+          "constant_index": 42,
+          "value": "src/sprites/icons/imprinticons/shortsicons/fireskeleton.png"
+        },
+        {
+          "constant_index": 43,
+          "value": "fear"
+        },
+        {
+          "constant_index": 44,
+          "value": "src/sprites/icons/imprinticons/shortsicons/earthquake.png"
+        },
+        {
+          "constant_index": 45,
+          "value": "earthquake"
+        },
+        {
+          "constant_index": 46,
+          "value": "src/sprites/icons/imprinticons/shortsicons/explosion.png"
+        },
+        {
+          "constant_index": 47,
+          "value": "self_destruct"
+        },
+        {
+          "constant_index": 48,
+          "value": "src/sprites/icons/imprinticons/shortsicons/teeth.png"
+        },
+        {
+          "constant_index": 49,
+          "value": "lifesteal"
+        },
+        {
+          "constant_index": 50,
+          "value": "src/sprites/icons/imprinticons/shortsicons/blockshield.png"
+        },
+        {
+          "constant_index": 51,
+          "value": "block"
+        },
+        {
+          "constant_index": 52,
+          "value": "src/sprites/icons/imprinticons/shortsicons/poison.png"
+        },
+        {
+          "constant_index": 53,
+          "value": "poison"
+        },
+        {
+          "constant_index": 54,
+          "value": "src/sprites/icons/imprinticons/shortsicons/noskill.png"
+        },
+        {
+          "constant_index": 55,
+          "value": "noskill"
+        },
+        {
+          "constant_index": 56,
+          "value": "src/sprites/icons/imprinticons/shortsicons/blindx.png"
+        },
+        {
+          "constant_index": 57,
+          "value": "blind"
+        },
+        {
+          "constant_index": 58,
+          "value": "src/sprites/icons/imprinticons/shortsicons/fist.png"
+        },
+        {
+          "constant_index": 59,
+          "value": "knockback"
+        },
+        {
+          "constant_index": 60,
+          "value": "src/sprites/icons/imprinticons/shortsicons/dizzy.png"
+        },
+        {
+          "constant_index": 61,
+          "value": "bash"
+        },
+        {
+          "constant_index": 62,
+          "value": "src/sprites/icons/imprinticons/shortsicons/hit.png"
+        },
+        {
+          "constant_index": 63,
+          "value": "overdrive"
+        },
+        {
+          "constant_index": 64,
+          "value": "src/sprites/icons/imprinticons/shortsicons/diffusion.png"
+        },
+        {
+          "constant_index": 65,
+          "value": "transfer"
+        },
+        {
+          "constant_index": 66,
+          "value": "src/sprites/icons/imprinticons/shortsicons/mad.png"
+        },
+        {
+          "constant_index": 67,
+          "value": "relentless"
+        },
+        {
+          "constant_index": 68,
+          "value": "src/sprites/icons/imprinticons/shortsicons/swordupgrade.png"
+        },
+        {
+          "constant_index": 69,
+          "value": "brace"
+        },
+        {
+          "constant_index": 70,
+          "value": "src/sprites/icons/imprinticons/shortsicons/swordplus.png"
+        },
+        {
+          "constant_index": 71,
+          "value": "volley"
+        },
+        {
+          "constant_index": 72,
+          "value": "src/sprites/icons/imprinticons/shortsicons/multihit.png"
+        },
+        {
+          "constant_index": 73,
+          "value": "pierce"
+        },
+        {
+          "constant_index": 74,
+          "value": "src/sprites/icons/imprinticons/shortsicons/shield.png"
+        },
+        {
+          "constant_index": 75,
+          "value": "fortify"
+        },
+        {
+          "constant_index": 76,
+          "value": "_shortIconCache"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/68",
+      "argument_count": 2,
+      "instruction_count": 117,
+      "numeric_constants": [
+        1,
+        0.05
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxY"
+        },
+        {
+          "constant_index": 1,
+          "value": "maxX"
+        },
+        {
+          "constant_index": 2,
+          "value": "minY"
+        },
+        {
+          "constant_index": 3,
+          "value": "minX"
+        },
+        {
+          "constant_index": 5,
+          "value": "getPixel"
+        },
+        {
+          "constant_index": 6,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 7,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 8,
+          "value": "newImageData"
+        },
+        {
+          "constant_index": 9,
+          "value": "image"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        },
+        {
+          "constant_index": 11,
+          "value": "_iconBounds"
+        },
+        {
+          "constant_index": 12,
+          "value": "string"
+        },
+        {
+          "constant_index": 13,
+          "value": "type"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/69",
+      "argument_count": 2,
+      "instruction_count": 43,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newImageData"
+        },
+        {
+          "constant_index": 1,
+          "value": "image"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 4,
+          "value": "_iconDataCache"
+        },
+        {
+          "constant_index": 5,
+          "value": "string"
+        },
+        {
+          "constant_index": 6,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/70",
+      "argument_count": 2,
+      "instruction_count": 54,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 6,
+          "value": "_iconCache"
+        },
+        {
+          "constant_index": 7,
+          "value": "string"
+        },
+        {
+          "constant_index": 8,
+          "value": "userdata"
+        },
+        {
+          "constant_index": 9,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/71",
+      "argument_count": 1,
+      "instruction_count": 90,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "h"
+        },
+        {
+          "constant_index": 1,
+          "value": "w"
+        },
+        {
+          "constant_index": 2,
+          "value": "y"
+        },
+        {
+          "constant_index": 3,
+          "value": "x"
+        },
+        {
+          "constant_index": 5,
+          "value": "_bgVisibleBounds"
+        },
+        {
+          "constant_index": 6,
+          "value": "getPixel"
+        },
+        {
+          "constant_index": 7,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 8,
+          "value": "newImageData"
+        },
+        {
+          "constant_index": 9,
+          "value": "image"
+        },
+        {
+          "constant_index": 10,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 11,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 12,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 13,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 14,
+          "value": "love"
+        },
+        {
+          "constant_index": 15,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 16,
+          "value": "src/sprites/background/mainbackground/Imprintbackground.png"
+        },
+        {
+          "constant_index": 17,
+          "value": "_bgImage"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/72",
+      "argument_count": 1,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/73",
+      "argument_count": 1,
+      "instruction_count": 119,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "levels"
+        },
+        {
+          "constant_index": 1,
+          "value": "level"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "maxLevel"
+        },
+        {
+          "constant_index": 4,
+          "value": "definitions"
+        },
+        {
+          "constant_index": 5,
+          "value": "imprint"
+        },
+        {
+          "constant_index": 6,
+          "value": "icon"
+        },
+        {
+          "constant_index": 7,
+          "value": "shortDesc"
+        },
+        {
+          "constant_index": 8,
+          "value": "desc"
+        },
+        {
+          "constant_index": 9,
+          "value": "name"
+        },
+        {
+          "constant_index": 10,
+          "value": "id"
+        },
+        {
+          "constant_index": 11,
+          "value": "migrate"
+        },
+        {
+          "constant_index": 12,
+          "value": "soul_split"
+        },
+        {
+          "constant_index": 13,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 14,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/75",
+      "argument_count": 1,
+      "instruction_count": 176,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "rarity"
+        },
+        {
+          "constant_index": 1,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "jackpot5th"
+        },
+        {
+          "constant_index": 3,
+          "value": "relentless"
+        },
+        {
+          "constant_index": 4,
+          "value": "lifesteal"
+        },
+        {
+          "constant_index": 5,
+          "value": "execute"
+        },
+        {
+          "constant_index": 6,
+          "value": "shadow_clone"
+        },
+        {
+          "constant_index": 7,
+          "value": "overlord"
+        },
+        {
+          "constant_index": 8,
+          "value": "D"
+        },
+        {
+          "constant_index": 9,
+          "value": "overdrive"
+        },
+        {
+          "constant_index": 10,
+          "value": "block"
+        },
+        {
+          "constant_index": 11,
+          "value": "enlarge"
+        },
+        {
+          "constant_index": 12,
+          "value": "revival"
+        },
+        {
+          "constant_index": 13,
+          "value": "ruin"
+        },
+        {
+          "constant_index": 14,
+          "value": "H"
+        },
+        {
+          "constant_index": 15,
+          "value": "transfer"
+        },
+        {
+          "constant_index": 16,
+          "value": "poison"
+        },
+        {
+          "constant_index": 17,
+          "value": "chill"
+        },
+        {
+          "constant_index": 18,
+          "value": "meteor"
+        },
+        {
+          "constant_index": 19,
+          "value": "colossus_descent"
+        },
+        {
+          "constant_index": 20,
+          "value": "M"
+        },
+        {
+          "constant_index": 21,
+          "value": "volley"
+        },
+        {
+          "constant_index": 22,
+          "value": "blind"
+        },
+        {
+          "constant_index": 23,
+          "value": "chain"
+        },
+        {
+          "constant_index": 24,
+          "value": "rewind"
+        },
+        {
+          "constant_index": 25,
+          "value": "timeless"
+        },
+        {
+          "constant_index": 26,
+          "value": "A"
+        },
+        {
+          "constant_index": 27,
+          "value": "pierce"
+        },
+        {
+          "constant_index": 28,
+          "value": "knockback"
+        },
+        {
+          "constant_index": 29,
+          "value": "fear"
+        },
+        {
+          "constant_index": 30,
+          "value": "soul_split"
+        },
+        {
+          "constant_index": 31,
+          "value": "undying_soul"
+        },
+        {
+          "constant_index": 32,
+          "value": "S"
+        },
+        {
+          "constant_index": 33,
+          "value": "brace"
+        },
+        {
+          "constant_index": 34,
+          "value": "bash"
+        },
+        {
+          "constant_index": 35,
+          "value": "advanced"
+        },
+        {
+          "constant_index": 36,
+          "value": "self_destruct"
+        },
+        {
+          "constant_index": 37,
+          "value": "rare"
+        },
+        {
+          "constant_index": 38,
+          "value": "earthquake"
+        },
+        {
+          "constant_index": 39,
+          "value": "legendary"
+        },
+        {
+          "constant_index": 40,
+          "value": "majesty"
+        },
+        {
+          "constant_index": 41,
+          "value": "prism"
+        },
+        {
+          "constant_index": 42,
+          "value": "W"
+        },
+        {
+          "constant_index": 43,
+          "value": "shrink"
+        },
+        {
+          "constant_index": 44,
+          "value": "special"
+        },
+        {
+          "constant_index": 45,
+          "value": "J"
+        },
+        {
+          "constant_index": 46,
+          "value": "Joker"
+        },
+        {
+          "constant_index": 47,
+          "value": "sym"
+        },
+        {
+          "constant_index": 48,
+          "value": "grade"
+        },
+        {
+          "constant_index": 49,
+          "value": "definitions"
+        },
+        {
+          "constant_index": 50,
+          "value": "imprint"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/76",
+      "argument_count": 1,
+      "instruction_count": 47,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "p"
+        },
+        {
+          "constant_index": 1,
+          "value": "prism"
+        },
+        {
+          "constant_index": 2,
+          "value": "l"
+        },
+        {
+          "constant_index": 3,
+          "value": "legend"
+        },
+        {
+          "constant_index": 4,
+          "value": "legendary"
+        },
+        {
+          "constant_index": 5,
+          "value": "r"
+        },
+        {
+          "constant_index": 6,
+          "value": "rare"
+        },
+        {
+          "constant_index": 7,
+          "value": "advanced"
+        },
+        {
+          "constant_index": 8,
+          "value": "special"
+        },
+        {
+          "constant_index": 9,
+          "value": "common"
+        },
+        {
+          "constant_index": 10,
+          "value": "lower"
+        },
+        {
+          "constant_index": 11,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 12,
+          "value": "normal"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/77",
+      "argument_count": 1,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": " "
+        },
+        {
+          "constant_index": 1,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/78",
+      "argument_count": 1,
+      "instruction_count": 34,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "🗡"
+        },
+        {
+          "constant_index": 1,
+          "value": "D"
+        },
+        {
+          "constant_index": 2,
+          "value": "🐎"
+        },
+        {
+          "constant_index": 3,
+          "value": "H"
+        },
+        {
+          "constant_index": 4,
+          "value": "✨"
+        },
+        {
+          "constant_index": 5,
+          "value": "M"
+        },
+        {
+          "constant_index": 6,
+          "value": "🔱"
+        },
+        {
+          "constant_index": 7,
+          "value": "S"
+        },
+        {
+          "constant_index": 8,
+          "value": "spear"
+        },
+        {
+          "constant_index": 9,
+          "value": "🏹"
+        },
+        {
+          "constant_index": 10,
+          "value": "A"
+        },
+        {
+          "constant_index": 11,
+          "value": "archer"
+        },
+        {
+          "constant_index": 12,
+          "value": "role"
+        },
+        {
+          "constant_index": 13,
+          "value": "sym"
+        },
+        {
+          "constant_index": 14,
+          "value": "⚔"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/79",
+      "argument_count": 1,
+      "instruction_count": 96,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "subclass"
+        },
+        {
+          "constant_index": 1,
+          "value": "name"
+        },
+        {
+          "constant_index": 2,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 3,
+          "value": "translateUnitName"
+        },
+        {
+          "constant_index": 4,
+          "value": "subclassName"
+        },
+        {
+          "constant_index": 5,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 6,
+          "value": "function"
+        },
+        {
+          "constant_index": 7,
+          "value": "classNameBy"
+        },
+        {
+          "constant_index": 8,
+          "value": "type"
+        },
+        {
+          "constant_index": 9,
+          "value": "star"
+        },
+        {
+          "constant_index": 10,
+          "value": "rank"
+        },
+        {
+          "constant_index": 11,
+          "value": "W"
+        },
+        {
+          "constant_index": 12,
+          "value": "S"
+        },
+        {
+          "constant_index": 13,
+          "value": "spear"
+        },
+        {
+          "constant_index": 14,
+          "value": "A"
+        },
+        {
+          "constant_index": 15,
+          "value": "archer"
+        },
+        {
+          "constant_index": 16,
+          "value": "role"
+        },
+        {
+          "constant_index": 17,
+          "value": "sym"
+        },
+        {
+          "constant_index": 18,
+          "value": "ko"
+        },
+        {
+          "constant_index": 19,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 20,
+          "value": "_G"
+        },
+        {
+          "constant_index": 21,
+          "value": "unit.name.유닛"
+        },
+        {
+          "constant_index": 22,
+          "value": "getText"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/80",
+      "argument_count": 3,
+      "instruction_count": 62,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "font"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "__slotWrapRichTextWithStatIcons"
+        },
+        {
+          "constant_index": 5,
+          "value": "_G"
+        },
+        {
+          "constant_index": 6,
+          "value": "{hp.png}"
+        },
+        {
+          "constant_index": 7,
+          "value": "find"
+        },
+        {
+          "constant_index": 8,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 9,
+          "value": "getWrap"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/81",
+      "argument_count": 2,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/82",
+      "argument_count": 4,
+      "instruction_count": 214,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "body"
+        },
+        {
+          "constant_index": 1,
+          "value": "lipCorner"
+        },
+        {
+          "constant_index": 2,
+          "value": "lipRight"
+        },
+        {
+          "constant_index": 3,
+          "value": "lipMid"
+        },
+        {
+          "constant_index": 4,
+          "value": "lipLeft"
+        },
+        {
+          "constant_index": 5,
+          "value": "tabRight"
+        },
+        {
+          "constant_index": 6,
+          "value": "tabMid"
+        },
+        {
+          "constant_index": 7,
+          "value": "tabLeft"
+        },
+        {
+          "constant_index": 8,
+          "value": "newQuad"
+        },
+        {
+          "constant_index": 10,
+          "value": "extra"
+        },
+        {
+          "constant_index": 11,
+          "value": "h"
+        },
+        {
+          "constant_index": 12,
+          "value": "w"
+        },
+        {
+          "constant_index": 13,
+          "value": "_gainPlateQuads"
+        },
+        {
+          "constant_index": 14,
+          "value": "GAIN_TAB_MAX_EXTRA"
+        },
+        {
+          "constant_index": 15,
+          "value": "min"
+        },
+        {
+          "constant_index": 16,
+          "value": "math"
+        },
+        {
+          "constant_index": 17,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 18,
+          "value": "draw"
+        },
+        {
+          "constant_index": 19,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 20,
+          "value": "love"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/86",
+      "argument_count": 2,
+      "instruction_count": 12,
+      "numeric_constants": [
+        6,
+        16
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/88",
+      "argument_count": 5,
+      "instruction_count": 34,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "scale"
+        },
+        {
+          "constant_index": 1,
+          "value": "font"
+        },
+        {
+          "constant_index": 2,
+          "value": "width"
+        },
+        {
+          "constant_index": 3,
+          "value": "key"
+        },
+        {
+          "constant_index": 5,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 6,
+          "value": "imprint_name:"
+        },
+        {
+          "constant_index": 7,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 8,
+          "value": "draw"
+        },
+        {
+          "constant_index": 9,
+          "value": "fit"
+        },
+        {
+          "constant_index": 10,
+          "value": "text_fit"
+        },
+        {
+          "constant_index": 11,
+          "value": "src.ui.widgets"
+        },
+        {
+          "constant_index": 12,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/90",
+      "argument_count": 7,
+      "instruction_count": 178,
+      "numeric_constants": [
+        1,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "print"
+        },
+        {
+          "constant_index": 4,
+          "value": "fit"
+        },
+        {
+          "constant_index": 5,
+          "value": "getWrap"
+        },
+        {
+          "constant_index": 6,
+          "value": "draw"
+        },
+        {
+          "constant_index": 7,
+          "value": "key"
+        },
+        {
+          "constant_index": 9,
+          "value": "imprint:"
+        },
+        {
+          "constant_index": 10,
+          "value": "wrap"
+        },
+        {
+          "constant_index": 11,
+          "value": "lineH"
+        },
+        {
+          "constant_index": 13,
+          "value": "fitBlock"
+        },
+        {
+          "constant_index": 14,
+          "value": "drawBlock"
+        },
+        {
+          "constant_index": 15,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 16,
+          "value": "max"
+        },
+        {
+          "constant_index": 17,
+          "value": "math"
+        },
+        {
+          "constant_index": 18,
+          "value": "font"
+        },
+        {
+          "constant_index": 20,
+          "value": "text_fit"
+        },
+        {
+          "constant_index": 21,
+          "value": "src.ui.widgets"
+        },
+        {
+          "constant_index": 22,
+          "value": "require"
+        },
+        {
+          "constant_index": 23,
+          "value": "__slotDrawRichTextWithStatIcons"
+        },
+        {
+          "constant_index": 24,
+          "value": "__slotWrapRichTextWithStatIcons"
+        },
+        {
+          "constant_index": 25,
+          "value": "_G"
+        },
+        {
+          "constant_index": 26,
+          "value": "{hp.png}"
+        },
+        {
+          "constant_index": 27,
+          "value": "find"
+        },
+        {
+          "constant_index": 28,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 29,
+          "value": "left"
+        },
+        {
+          "constant_index": 30,
+          "value": ""
+        },
+        {
+          "constant_index": 31,
+          "value": "printf"
+        },
+        {
+          "constant_index": 32,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 33,
+          "value": "love"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 12,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 19,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/91",
+      "argument_count": 3,
+      "instruction_count": 48,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "[%z\u0001-\\xc2-\\xf4][\\x80-\\xbf]*$"
+        },
+        {
+          "constant_index": 1,
+          "value": "gsub"
+        },
+        {
+          "constant_index": 2,
+          "value": "…"
+        },
+        {
+          "constant_index": 3,
+          "value": ""
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/92",
+      "argument_count": 1,
+      "instruction_count": 8,
+      "numeric_constants": [
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/93",
+      "argument_count": 1,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V"
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/94",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/95",
+      "argument_count": 0,
+      "instruction_count": 43,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "u_new2"
+        },
+        {
+          "constant_index": 3,
+          "value": "u_old2"
+        },
+        {
+          "constant_index": 5,
+          "value": "u_new1"
+        },
+        {
+          "constant_index": 7,
+          "value": "u_old1"
+        },
+        {
+          "constant_index": 8,
+          "value": "send"
+        },
+        {
+          "constant_index": 9,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 10,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 11,
+          "value": "love"
+        },
+        {
+          "constant_index": 12,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 13,
+          "value": "      extern vec3 u_old1; extern vec3 u_new1;\n      extern vec3 u_old2; extern vec3 u_new2;\n\n      vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 screen_coords) {\n          vec4 texColor = Texel(texture, texture_coords);\n          vec3 rgb = texColor.rgb;\n          float tol = 0.05;\n          if (distance(rgb, u_old1) < tol) {\n              rgb = u_new1;\n          } else if (distance(rgb, u_old2) < tol) {\n              rgb = u_new2;\n          }\n          return vec4(rgb, texColor.a) * color;\n      }\n    "
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            0.24313725490196078,
+            0.35294117647058826,
+            0.24705882352941178
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            0.30980392156862746,
+            0.20392156862745098,
+            0.23921568627450981
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            0.43137254901960786,
+            0.5411764705882353,
+            0.43529411764705883
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            0.5411764705882353,
+            0.35294117647058826,
+            0.41568627450980394
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/96",
+      "argument_count": 0,
+      "instruction_count": 23,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 4,
+          "value": "      extern number u_time;\n      extern vec3   u_uiBase;   // #3e3546\n      extern vec2   u_dir;      \n      extern number u_cycle;    \n      extern number u_scale;    \n      extern number u_grainScale;\n      extern number u_grainAmp;\n      extern number u_filmFreq;\n      extern number u_filmAmp;\n      extern number u_specular;\n      extern number u_fresnelPow;\n      extern number u_colorGain;\n      extern number u_saturation;\n      extern number u_mixBP;\n\n      vec3 palette(float x, vec3 a, vec3 b, vec3 c, vec3 d){\n        return a + b * cos(6.28318 * (c * x + d));\n      }\n      float hash(vec2 p){\n        return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453);\n      }\n      vec4 effect(vec4 color, Image tex, vec2 tc, vec2 sc){\n        vec4 base = Texel(tex, tc); // The slot background image\n        if (base.a <= 0.001) return vec4(0.0);\n        \n        vec2 dir = u_dir;\n        if (length(dir) < 0.001) dir = vec2(0.94, 0.34);\n        else dir = normalize(dir);\n        vec2 ortho = vec2(-dir.y, dir.x); \n        \n        float u = dot(tc, dir) * u_scale + (u_time / max(u_cycle, 0.001));\n        float v = dot(tc, ortho) * u_scale;\n        \n        // Use grain uniforms as requested to match the tooltip filter perfectly\n        float grainLine = abs(sin(dot(tc, ortho) * u_grainScale));\n        float grainNoise = hash(tc * 97.0);\n        float grain = mix(grainLine, grainNoise, 0.25);\n        \n        float film = u_filmAmp * (0.5 + 0.5 * sin(6.28318 * (u * u_filmFreq + grainNoise * 0.15)));\n        float x = u + film;\n        \n        // Rainbow palettes matching the tooltip specifically (Substantially increased brightness)\n        vec3 colBP = palette(x, vec3(0.75, 0.70, 0.78), vec3(0.25, 0.20, 0.28), vec3(1.00, 1.00, 1.00), vec3(0.10, 0.43, 0.78));\n        vec3 colWide = palette(u, vec3(0.72), vec3(0.12), vec3(1.0), vec3(0.00, 0.33, 0.66));\n        vec3 foil = mix(colWide, colBP, clamp(u_mixBP, 0.0, 1.0));\n        \n        float band = 0.5 + 0.5 * sin(6.28318 * (u * 0.05 + v * 0.03));\n        float fres = pow(0.5 + 0.5 * sin(6.28318 * v * 0.10), max(1.0, u_fresnelPow));\n        float spec = u_specular * band * (0.2 + 0.8 * fres) * 0.15;\n        \n        // Apply grain multiplier like in tooltip foil\n        float grainMul = 1.0 + u_grainAmp * (grain * 0.15 - 0.03);\n        vec3 outRGB = foil * grainMul + spec;\n        \n        // Harmonize with UI Base (#3e3546) - Reduced UI base weight to let rainbow shine through much more\n        outRGB = mix(u_uiBase, outRGB, 0.82);\n        \n        // Saturation & Gain\n        float Y = dot(outRGB, vec3(0.2126, 0.7152, 0.0722));\n        outRGB = mix(vec3(Y), outRGB, max(0.0, u_saturation));\n        \n        // Apply to base slot lighting with massive gain multiplier to prevent \"darkening\" the slot\n        float luma = dot(base.rgb, vec3(0.299, 0.587, 0.114));\n        outRGB *= (luma * u_colorGain * 1.5);\n        \n        return vec4(outRGB, base.a) * color;\n      }\n    "
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/97",
+      "argument_count": 0,
+      "instruction_count": 53,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "u_new3"
+        },
+        {
+          "constant_index": 3,
+          "value": "u_old3"
+        },
+        {
+          "constant_index": 5,
+          "value": "u_new2"
+        },
+        {
+          "constant_index": 7,
+          "value": "u_old2"
+        },
+        {
+          "constant_index": 9,
+          "value": "u_new1"
+        },
+        {
+          "constant_index": 11,
+          "value": "u_old1"
+        },
+        {
+          "constant_index": 12,
+          "value": "send"
+        },
+        {
+          "constant_index": 13,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 14,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 15,
+          "value": "love"
+        },
+        {
+          "constant_index": 16,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 17,
+          "value": "      extern vec3 u_old1; extern vec3 u_new1;\n      extern vec3 u_old2; extern vec3 u_new2;\n      extern vec3 u_old3; extern vec3 u_new3;\n\n      vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 screen_coords) {\n          vec4 texColor = Texel(texture, texture_coords);\n          vec3 rgb = texColor.rgb;\n          float tol = 0.05;\n          if (distance(rgb, u_old1) < tol) {\n              rgb = u_new1;\n          } else if (distance(rgb, u_old2) < tol) {\n              rgb = u_new2;\n          } else if (distance(rgb, u_old3) < tol) {\n              rgb = u_new3;\n          }\n          return vec4(rgb, texColor.a) * color;\n      }\n    "
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            0.43137254901960786,
+            0.3333333333333333,
+            0.19607843137254902
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            0.24313725490196078,
+            0.20784313725490197,
+            0.27450980392156865
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            0.21568627450980393,
+            0.16470588235294117,
+            0.11764705882352941
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            0.1803921568627451,
+            0.13333333333333333,
+            0.1843137254901961
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            0.6274509803921569,
+            0.5294117647058824,
+            0.35294117647058826
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 10,
+          "array": [
+            null,
+            0.3843137254901961,
+            0.3333333333333333,
+            0.396078431372549
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/98",
+      "argument_count": 0,
+      "instruction_count": 53,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "u_new3"
+        },
+        {
+          "constant_index": 3,
+          "value": "u_old3"
+        },
+        {
+          "constant_index": 5,
+          "value": "u_new2"
+        },
+        {
+          "constant_index": 7,
+          "value": "u_old2"
+        },
+        {
+          "constant_index": 9,
+          "value": "u_new1"
+        },
+        {
+          "constant_index": 11,
+          "value": "u_old1"
+        },
+        {
+          "constant_index": 12,
+          "value": "send"
+        },
+        {
+          "constant_index": 13,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 14,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 15,
+          "value": "love"
+        },
+        {
+          "constant_index": 16,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 17,
+          "value": "      extern vec3 u_old1; extern vec3 u_new1;\n      extern vec3 u_old2; extern vec3 u_new2;\n      extern vec3 u_old3; extern vec3 u_new3;\n\n      vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 screen_coords) {\n          vec4 texColor = Texel(texture, texture_coords);\n          vec3 rgb = texColor.rgb;\n          float tol = 0.05; // Increased tolerance for robust color matching\n          if (distance(rgb, u_old1) < tol) {\n              rgb = u_new1;\n          } else if (distance(rgb, u_old2) < tol) {\n              rgb = u_new2;\n          } else if (distance(rgb, u_old3) < tol) {\n              rgb = u_new3;\n          }\n          return vec4(rgb, texColor.a) * color;\n      }\n    "
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            0.20784313725490197,
+            0.29411764705882354,
+            0.4196078431372549
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            0.24313725490196078,
+            0.20784313725490197,
+            0.27450980392156865
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            0.13725490196078433,
+            0.17647058823529413,
+            0.23921568627450981
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            0.1803921568627451,
+            0.13333333333333333,
+            0.1843137254901961
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            0.3607843137254902,
+            0.4549019607843137,
+            0.5725490196078431
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 10,
+          "array": [
+            null,
+            0.3843137254901961,
+            0.3333333333333333,
+            0.396078431372549
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/99",
+      "argument_count": 0,
+      "instruction_count": 53,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "u_new3"
+        },
+        {
+          "constant_index": 3,
+          "value": "u_old3"
+        },
+        {
+          "constant_index": 5,
+          "value": "u_new2"
+        },
+        {
+          "constant_index": 7,
+          "value": "u_old2"
+        },
+        {
+          "constant_index": 9,
+          "value": "u_new1"
+        },
+        {
+          "constant_index": 11,
+          "value": "u_old1"
+        },
+        {
+          "constant_index": 12,
+          "value": "send"
+        },
+        {
+          "constant_index": 13,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 14,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 15,
+          "value": "love"
+        },
+        {
+          "constant_index": 16,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 17,
+          "value": "      extern vec3 u_old1; extern vec3 u_new1;\n      extern vec3 u_old2; extern vec3 u_new2;\n      extern vec3 u_old3; extern vec3 u_new3;\n\n      vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 screen_coords) {\n          vec4 texColor = Texel(texture, texture_coords);\n          vec3 rgb = texColor.rgb;\n          float tol = 0.05; // Increased tolerance for robust color matching\n          if (distance(rgb, u_old1) < tol) {\n              rgb = u_new1;\n          } else if (distance(rgb, u_old2) < tol) {\n              rgb = u_new2;\n          } else if (distance(rgb, u_old3) < tol) {\n              rgb = u_new3;\n          }\n          return vec4(rgb, texColor.a) * color;\n      }\n    "
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            0.25882352941176473,
+            0.3607843137254902,
+            0.28627450980392155
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            0.24313725490196078,
+            0.20784313725490197,
+            0.27450980392156865
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            0.17647058823529413,
+            0.23921568627450981,
+            0.19215686274509805
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            0.1803921568627451,
+            0.13333333333333333,
+            0.1843137254901961
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            0.41568627450980394,
+            0.5490196078431373,
+            0.4470588235294118
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 10,
+          "array": [
+            null,
+            0.3843137254901961,
+            0.3333333333333333,
+            0.396078431372549
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/100",
+      "argument_count": 0,
+      "instruction_count": 53,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "u_new3"
+        },
+        {
+          "constant_index": 3,
+          "value": "u_old3"
+        },
+        {
+          "constant_index": 5,
+          "value": "u_new2"
+        },
+        {
+          "constant_index": 7,
+          "value": "u_old2"
+        },
+        {
+          "constant_index": 9,
+          "value": "u_new1"
+        },
+        {
+          "constant_index": 11,
+          "value": "u_old1"
+        },
+        {
+          "constant_index": 12,
+          "value": "send"
+        },
+        {
+          "constant_index": 13,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 14,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 15,
+          "value": "love"
+        },
+        {
+          "constant_index": 16,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 17,
+          "value": "      extern vec3 u_old1; extern vec3 u_new1;\n      extern vec3 u_old2; extern vec3 u_new2;\n      extern vec3 u_old3; extern vec3 u_new3;\n\n      vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 screen_coords) {\n          vec4 texColor = Texel(texture, texture_coords);\n          vec3 rgb = texColor.rgb;\n          float tol = 0.05;\n          if (distance(rgb, u_old1) < tol) {\n              rgb = u_new1;\n          } else if (distance(rgb, u_old2) < tol) {\n              rgb = u_new2;\n          } else if (distance(rgb, u_old3) < tol) {\n              rgb = u_new3;\n          }\n          return vec4(rgb, texColor.a) * color;\n      }\n    "
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            0.44313725490196076,
+            0.20392156862745098,
+            0.3843137254901961
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            0.24313725490196078,
+            0.20784313725490197,
+            0.27450980392156865
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            0.25882352941176473,
+            0.13333333333333333,
+            0.23529411764705882
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            0.1803921568627451,
+            0.13333333333333333,
+            0.1843137254901961
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            0.6509803921568628,
+            0.37254901960784315,
+            0.6039215686274509
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 10,
+          "array": [
+            null,
+            0.3843137254901961,
+            0.3333333333333333,
+            0.396078431372549
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/101",
+      "argument_count": 0,
+      "instruction_count": 41,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "|"
+        },
+        {
+          "constant_index": 1,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 2,
+          "value": "src/data/font/Galmuri9WS.fnt"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/111",
+      "argument_count": 0,
+      "instruction_count": 39,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 6,
+          "value": "pairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": [
+            [
+              "unlocked",
+              "src/sprites/icons/sloticons/absorbunlock.png"
+            ],
+            [
+              "locked",
+              "src/sprites/icons/sloticons/absorblock.png"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/112",
+      "argument_count": 0,
+      "instruction_count": 32,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "src/sprites/icons/sloticons/statinfo.png"
+        },
+        {
+          "constant_index": 3,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 4,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 5,
+          "value": "love"
+        },
+        {
+          "constant_index": 6,
+          "value": "pcall"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/113",
+      "argument_count": 0,
+      "instruction_count": 29,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "setPixel"
+        },
+        {
+          "constant_index": 3,
+          "value": "newImageData"
+        },
+        {
+          "constant_index": 4,
+          "value": "image"
+        },
+        {
+          "constant_index": 5,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/114",
+      "argument_count": 0,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "    extern vec4 glowColor;\n    vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 screen_coords) {\n        vec2 uv = texture_coords - 0.5;\n        vec2 d = abs(uv) - 0.22; // Slightly larger core\n        float dist = length(max(d, 0.0)) + min(max(d.x, d.y), 0.0);\n        // Sharper transition for \"less blurry\" look\n        float alpha = 1.0 - smoothstep(0.0, 0.12, dist);\n        alpha = pow(alpha, 1.2);\n        return glowColor * alpha;\n    }\n  "
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/115",
+      "argument_count": 0,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "    extern vec2 texelStep;      // texture coord offset equal to 1 screen pixel\n    extern vec4 outlineColor;   // RGBA\n    extern float threshold;     // alpha threshold\n    extern float radiusPx;      // outline radius in px (1.0 to 2.0 for sub-pixel logic)\n    vec4 effect(vec4 color, Image tex, vec2 tc, vec2 sc){\n      float a0 = Texel(tex, tc).a;\n      if (a0 <= threshold){\n        vec2 s = texelStep;\n\n        // Layer 1: Immediate cardinal neighbors (1px) -> Always Solid\n        float aL = Texel(tex, tc + vec2(-s.x, 0.0)).a;\n        float aR = Texel(tex, tc + vec2( s.x, 0.0)).a;\n        float aU = Texel(tex, tc + vec2(0.0, -s.y)).a;\n        float aD = Texel(tex, tc + vec2(0.0,  s.y)).a;\n        \n        if (max(max(aL, aR), max(aU, aD)) > threshold) {\n            return outlineColor;\n        }\n\n        // Layer 2: Sub-pixel extension (Hard Cut)\n        // If radius is 1.15, we draw 15% of the 2nd pixel layer solid, then cut off.\n        if (radiusPx > 1.0) {\n            float extra = radiusPx - 1.0;\n            vec2 pos = tc / texelStep;\n            vec2 f = fract(pos); // 0..1 within current texel\n\n            // Left-Left Source (Expanding Right)\n            float aLL = Texel(tex, tc + vec2(-s.x * 2.0, 0.0)).a;\n            if (aLL > threshold && f.x < extra) return outlineColor;\n\n            // Right-Right Source (Expanding Left)\n            float aRR = Texel(tex, tc + vec2( s.x * 2.0, 0.0)).a;\n            if (aRR > threshold && f.x > (1.0 - extra)) return outlineColor;\n\n            // Up-Up Source (Expanding Down)\n            float aUU = Texel(tex, tc + vec2(0.0, -s.y * 2.0)).a;\n            if (aUU > threshold && f.y < extra) return outlineColor;\n\n            // Down-Down Source (Expanding Up)\n            float aDD = Texel(tex, tc + vec2(0.0,  s.y * 2.0)).a;\n            if (aDD > threshold && f.y > (1.0 - extra)) return outlineColor;\n        }\n      }\n      return vec4(0.0);\n    }\n  "
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/116",
+      "argument_count": 1,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": ""
+        },
+        {
+          "constant_index": 1,
+          "value": "string"
+        },
+        {
+          "constant_index": 2,
+          "value": "type"
+        },
+        {
+          "constant_index": 3,
+          "value": "resolve"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/117",
+      "argument_count": 4,
+      "instruction_count": 40,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "resolveChineseLatinFallbackPath"
+        },
+        {
+          "constant_index": 1,
+          "value": "registerChineseLatinFallbackFont"
+        },
+        {
+          "constant_index": 2,
+          "value": "maybeRegisterSLineTtfTextEffect"
+        },
+        {
+          "constant_index": 3,
+          "value": "_G"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/118",
+      "argument_count": 2,
+      "instruction_count": 69,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "newFont"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 5,
+          "value": "%.otf$"
+        },
+        {
+          "constant_index": 6,
+          "value": "%.ttf$"
+        },
+        {
+          "constant_index": 7,
+          "value": "match"
+        },
+        {
+          "constant_index": 8,
+          "value": "lower"
+        },
+        {
+          "constant_index": 9,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 10,
+          "value": "getInfo"
+        },
+        {
+          "constant_index": 11,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 12,
+          "value": "love"
+        },
+        {
+          "constant_index": 13,
+          "value": ""
+        },
+        {
+          "constant_index": 14,
+          "value": "string"
+        },
+        {
+          "constant_index": 15,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/119",
+      "argument_count": 2,
+      "instruction_count": 94,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "registerChineseShadowFont"
+        },
+        {
+          "constant_index": 1,
+          "value": "_G"
+        },
+        {
+          "constant_index": 2,
+          "value": "attachFallbacks"
+        },
+        {
+          "constant_index": 3,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 4,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 5,
+          "value": "newFont"
+        },
+        {
+          "constant_index": 6,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 7,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 8,
+          "value": "%.otf$"
+        },
+        {
+          "constant_index": 9,
+          "value": "%.ttf$"
+        },
+        {
+          "constant_index": 10,
+          "value": "match"
+        },
+        {
+          "constant_index": 11,
+          "value": "lower"
+        },
+        {
+          "constant_index": 12,
+          "value": "getInfo"
+        },
+        {
+          "constant_index": 13,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 14,
+          "value": "love"
+        },
+        {
+          "constant_index": 15,
+          "value": ""
+        },
+        {
+          "constant_index": 16,
+          "value": "string"
+        },
+        {
+          "constant_index": 17,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/120",
+      "argument_count": 2,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getHeight"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/121",
+      "argument_count": 2,
+      "instruction_count": 39,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 1,
+          "value": "number"
+        },
+        {
+          "constant_index": 2,
+          "value": ""
+        },
+        {
+          "constant_index": 3,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 4,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 5,
+          "value": "function"
+        },
+        {
+          "constant_index": 6,
+          "value": "type"
+        },
+        {
+          "constant_index": 7,
+          "value": "measureChineseMixedTextWidth"
+        },
+        {
+          "constant_index": 8,
+          "value": "_G"
+        },
+        {
+          "constant_index": 9,
+          "value": "rawget"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/122",
+      "argument_count": 1,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "function"
+        },
+        {
+          "constant_index": 1,
+          "value": "type"
+        },
+        {
+          "constant_index": 2,
+          "value": "getChineseLatinFallbackFont"
+        },
+        {
+          "constant_index": 3,
+          "value": "_G"
+        },
+        {
+          "constant_index": 4,
+          "value": "rawget"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/123",
+      "argument_count": 0,
+      "instruction_count": 7,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ko"
+        },
+        {
+          "constant_index": 1,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 2,
+          "value": "_G"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/124",
+      "argument_count": 0,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "zh"
+        },
+        {
+          "constant_index": 1,
+          "value": "ko"
+        },
+        {
+          "constant_index": 2,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 3,
+          "value": "_G"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 206,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "getHoveredSlot"
+        },
+        {
+          "constant_index": 3,
+          "value": "isPanelHovered"
+        },
+        {
+          "constant_index": 5,
+          "value": "isSkillFrameHovered"
+        },
+        {
+          "constant_index": 7,
+          "value": "draw"
+        },
+        {
+          "constant_index": 9,
+          "value": "drawBattlefieldPreview"
+        },
+        {
+          "constant_index": 11,
+          "value": "hideBattlefieldPreview"
+        },
+        {
+          "constant_index": 13,
+          "value": "showBattlefieldPreview"
+        },
+        {
+          "constant_index": 15,
+          "value": "hidePanelImmediately"
+        },
+        {
+          "constant_index": 17,
+          "value": "cancelHold"
+        },
+        {
+          "constant_index": 19,
+          "value": "isHoldActive"
+        },
+        {
+          "constant_index": 21,
+          "value": "notifyAbsorb"
+        },
+        {
+          "constant_index": 23,
+          "value": "drawModal"
+        },
+        {
+          "constant_index": 25,
+          "value": "getAbsorbLvHoverText"
+        },
+        {
+          "constant_index": 27,
+          "value": "getAbsorbLvStats"
+        },
+        {
+          "constant_index": 29,
+          "value": "absorbLockHitTest"
+        },
+        {
+          "constant_index": 31,
+          "value": "absorbLvHitTest"
+        },
+        {
+          "constant_index": 33,
+          "value": "modalHitTest"
+        },
+        {
+          "constant_index": 35,
+          "value": "hitTest"
+        },
+        {
+          "constant_index": 38,
+          "value": "triggerChange"
+        },
+        {
+          "constant_index": 40,
+          "value": "triggerConfirm"
+        },
+        {
+          "constant_index": 42,
+          "value": "triggerUpgrade"
+        },
+        {
+          "constant_index": 44,
+          "value": "triggerConvert"
+        },
+        {
+          "constant_index": 46,
+          "value": "triggerCancel"
+        },
+        {
+          "constant_index": 48,
+          "value": "hudHitTest"
+        },
+        {
+          "constant_index": 50,
+          "value": "drawHudTab"
+        },
+        {
+          "constant_index": 52,
+          "value": "_hudHit"
+        },
+        {
+          "constant_index": 54,
+          "value": "_modalHit"
+        },
+        {
+          "constant_index": 56,
+          "value": "_hit"
+        },
+        {
+          "constant_index": 59,
+          "value": "reloadLanguageFonts"
+        },
+        {
+          "constant_index": 60,
+          "value": "getNameFont"
+        },
+        {
+          "constant_index": 67,
+          "value": "getShortIconImage"
+        },
+        {
+          "constant_index": 74,
+          "value": "getImprintFromUnit"
+        },
+        {
+          "constant_index": 83,
+          "value": "_drawGainPlate"
+        },
+        {
+          "constant_index": 84,
+          "value": "GAIN_TAB_MAX_EXTRA"
+        },
+        {
+          "constant_index": 85,
+          "value": "GAIN_TAB_INNER_W"
+        },
+        {
+          "constant_index": 87,
+          "value": "_buttonTextW"
+        },
+        {
+          "constant_index": 89,
+          "value": "_printFitted"
+        },
+        {
+          "constant_index": 102,
+          "value": "actionBtnScales"
+        },
+        {
+          "constant_index": 104,
+          "value": "floatOffsets"
+        },
+        {
+          "constant_index": 106,
+          "value": "impactScales"
+        },
+        {
+          "constant_index": 108,
+          "value": "slotScales"
+        },
+        {
+          "constant_index": 125,
+          "value": "normal"
+        },
+        {
+          "constant_index": 126,
+          "value": "src/data/font/Chinese/arkpixel10.ttf"
+        },
+        {
+          "constant_index": 127,
+          "value": "progress_bar"
+        },
+        {
+          "constant_index": 128,
+          "value": "src.ui.widgets"
+        },
+        {
+          "constant_index": 129,
+          "value": "src.data.faction"
+        },
+        {
+          "constant_index": 130,
+          "value": "src.data.skill"
+        },
+        {
+          "constant_index": 131,
+          "value": "src.data.font_resolver"
+        },
+        {
+          "constant_index": 132,
+          "value": "src.data.language"
+        },
+        {
+          "constant_index": 133,
+          "value": "src.data.randomoption"
+        },
+        {
+          "constant_index": 134,
+          "value": "src.data.assets"
+        },
+        {
+          "constant_index": 135,
+          "value": "layout"
+        },
+        {
+          "constant_index": 136,
+          "value": "src.ui.screen"
+        },
+        {
+          "constant_index": 137,
+          "value": "src.data.constants"
+        },
+        {
+          "constant_index": 138,
+          "value": "require"
+        },
+        {
+          "constant_index": 139,
+          "value": "_changeSlot"
+        },
+        {
+          "constant_index": 140,
+          "value": "_changeTriggered"
+        },
+        {
+          "constant_index": 141,
+          "value": "_confirmAction"
+        },
+        {
+          "constant_index": 142,
+          "value": "_confirmSlot"
+        },
+        {
+          "constant_index": 143,
+          "value": "_confirmTriggered"
+        },
+        {
+          "constant_index": 144,
+          "value": "_upgradeSlot"
+        },
+        {
+          "constant_index": 145,
+          "value": "_upgradeTriggered"
+        },
+        {
+          "constant_index": 146,
+          "value": "_convertTriggered"
+        },
+        {
+          "constant_index": 147,
+          "value": "_cancelTriggered"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 51,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 53,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 55,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 103,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 105,
+          "array": [
+            null,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 107,
+          "array": [
+            null,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 109,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 110,
+          "array": [],
+          "dictionary": [
+            [
+              "confirmBtnPressed",
+              false
+            ],
+            [
+              "upgradeBtnPressed",
+              false
+            ],
+            [
+              "convertBtnPressed",
+              false
+            ],
+            [
+              "cancelBtnPressed",
+              false
+            ],
+            [
+              "changeBtnScale",
+              1
+            ],
+            [
+              "confirmBtnScale",
+              1
+            ],
+            [
+              "upgradeBtnScale",
+              1
+            ],
+            [
+              "convertBtnScale",
+              1
+            ],
+            [
+              "cancelBtnScale",
+              1
+            ],
+            [
+              "previewScale",
+              1
+            ],
+            [
+              "previewTargetY",
+              0
+            ],
+            [
+              "previewAlpha",
+              0
+            ],
+            [
+              "previewY",
+              -100
+            ],
+            [
+              "blinkTimer",
+              0
+            ],
+            [
+              "holdTimer",
+              0
+            ],
+            [
+              "v",
+              0
+            ],
+            [
+              "replaceHoveringNext",
+              false
+            ],
+            [
+              "replaceHovering",
+              false
+            ],
+            [
+              "convertHovering",
+              false
+            ],
+            [
+              "changeBtnTimer",
+              0
+            ],
+            [
+              "confirmBtnTimer",
+              0
+            ],
+            [
+              "upgradeBtnTimer",
+              0
+            ],
+            [
+              "convertBtnTimer",
+              0
+            ],
+            [
+              "cancelBtnTimer",
+              0
+            ],
+            [
+              "changeBtnPressed",
+              false
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "styleOf": {
+    "_lua_type": "function"
+  },
+  "resolve": {
+    "_lua_type": "function"
+  },
+  "rememberPath": {
+    "_lua_type": "function"
+  },
+  "pagePath": {
+    "_lua_type": "function"
+  },
+  "attachFallbacks": {
+    "_lua_type": "function"
+  },
+  "developerFont": {
+    "_lua_type": "function"
+  },
+  "pathOf": {
+    "_lua_type": "function"
+  }
+}

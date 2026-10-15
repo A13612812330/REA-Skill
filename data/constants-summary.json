@@ -1,0 +1,326 @@
+[
+  {
+    "file": "conf.lua",
+    "prototypes": 5,
+    "tables": 0,
+    "numeric_constants": 1
+  },
+  {
+    "file": "main.lua",
+    "prototypes": 469,
+    "tables": 708,
+    "numeric_constants": 1019
+  },
+  {
+    "file": "src/audio/device_router.lua",
+    "prototypes": 21,
+    "tables": 8,
+    "numeric_constants": 12
+  },
+  {
+    "file": "src/audio/procedural_audio.lua",
+    "prototypes": 21,
+    "tables": 3,
+    "numeric_constants": 133
+  },
+  {
+    "file": "src/audio/runtime_bootstrap.lua",
+    "prototypes": 5,
+    "tables": 0,
+    "numeric_constants": 2
+  },
+  {
+    "file": "src/data/asset2.lua",
+    "prototypes": 4,
+    "tables": 1184,
+    "numeric_constants": 0
+  },
+  {
+    "file": "src/data/assets.lua",
+    "prototypes": 38,
+    "tables": 2108,
+    "numeric_constants": 86
+  },
+  {
+    "file": "src/data/awakening.lua",
+    "prototypes": 1,
+    "tables": 2430,
+    "numeric_constants": 1
+  },
+  {
+    "file": "src/data/constants.lua",
+    "prototypes": 3,
+    "tables": 462,
+    "numeric_constants": 11
+  },
+  {
+    "file": "src/data/faction.lua",
+    "prototypes": 18,
+    "tables": 48,
+    "numeric_constants": 6
+  },
+  {
+    "file": "src/data/font_resolver.lua",
+    "prototypes": 12,
+    "tables": 3,
+    "numeric_constants": 1
+  },
+  {
+    "file": "src/data/language.lua",
+    "prototypes": 65,
+    "tables": 47,
+    "numeric_constants": 19
+  },
+  {
+    "file": "src/data/randomoption.lua",
+    "prototypes": 19,
+    "tables": 169,
+    "numeric_constants": 15
+  },
+  {
+    "file": "src/data/safe_lua_table.lua",
+    "prototypes": 14,
+    "tables": 2,
+    "numeric_constants": 18
+  },
+  {
+    "file": "src/data/skill.lua",
+    "prototypes": 9,
+    "tables": 575,
+    "numeric_constants": 1
+  },
+  {
+    "file": "src/game/alpha_ray_glow.lua",
+    "prototypes": 6,
+    "tables": 0,
+    "numeric_constants": 4
+  },
+  {
+    "file": "src/game/awakening.lua",
+    "prototypes": 306,
+    "tables": 360,
+    "numeric_constants": 236
+  },
+  {
+    "file": "src/game/battlefield.lua",
+    "prototypes": 570,
+    "tables": 4101,
+    "numeric_constants": 992
+  },
+  {
+    "file": "src/game/bossSkill.lua",
+    "prototypes": 107,
+    "tables": 89,
+    "numeric_constants": 233
+  },
+  {
+    "file": "src/game/combat.lua",
+    "prototypes": 384,
+    "tables": 164,
+    "numeric_constants": 321
+  },
+  {
+    "file": "src/game/cores.lua",
+    "prototypes": 123,
+    "tables": 255,
+    "numeric_constants": 64
+  },
+  {
+    "file": "src/game/enemy_skills.lua",
+    "prototypes": 370,
+    "tables": 180,
+    "numeric_constants": 549
+  },
+  {
+    "file": "src/game/item.lua",
+    "prototypes": 97,
+    "tables": 250,
+    "numeric_constants": 55
+  },
+  {
+    "file": "src/game/luck.lua",
+    "prototypes": 27,
+    "tables": 9,
+    "numeric_constants": 13
+  },
+  {
+    "file": "src/game/postprocess.lua",
+    "prototypes": 5,
+    "tables": 0,
+    "numeric_constants": 1
+  },
+  {
+    "file": "src/game/power.lua",
+    "prototypes": 22,
+    "tables": 3,
+    "numeric_constants": 35
+  },
+  {
+    "file": "src/game/projectiles.lua",
+    "prototypes": 380,
+    "tables": 215,
+    "numeric_constants": 693
+  },
+  {
+    "file": "src/game/promotion.lua",
+    "prototypes": 14,
+    "tables": 285,
+    "numeric_constants": 10
+  },
+  {
+    "file": "src/game/promotion_stats.lua",
+    "prototypes": 3,
+    "tables": 149,
+    "numeric_constants": 0
+  },
+  {
+    "file": "src/game/quest.lua",
+    "prototypes": 48,
+    "tables": 31,
+    "numeric_constants": 15
+  },
+  {
+    "file": "src/game/run_save.lua",
+    "prototypes": 9,
+    "tables": 6,
+    "numeric_constants": 1
+  },
+  {
+    "file": "src/game/sim.lua",
+    "prototypes": 8,
+    "tables": 30,
+    "numeric_constants": 11
+  },
+  {
+    "file": "src/game/slot.lua",
+    "prototypes": 50,
+    "tables": 125,
+    "numeric_constants": 79
+  },
+  {
+    "file": "src/game/stone.lua",
+    "prototypes": 29,
+    "tables": 50,
+    "numeric_constants": 47
+  },
+  {
+    "file": "src/game/unit_abilities.lua",
+    "prototypes": 869,
+    "tables": 384,
+    "numeric_constants": 724
+  },
+  {
+    "file": "src/platform_window.lua",
+    "prototypes": 10,
+    "tables": 1,
+    "numeric_constants": 3
+  },
+  {
+    "file": "src/presentation_pacer.lua",
+    "prototypes": 17,
+    "tables": 2,
+    "numeric_constants": 3
+  },
+  {
+    "file": "src/release_integrity.lua",
+    "prototypes": 7,
+    "tables": 1,
+    "numeric_constants": 6
+  },
+  {
+    "file": "src/release_package.lua",
+    "prototypes": 19,
+    "tables": 2,
+    "numeric_constants": 10
+  },
+  {
+    "file": "src/runtime_diagnostics.lua",
+    "prototypes": 36,
+    "tables": 3,
+    "numeric_constants": 36
+  },
+  {
+    "file": "src/save.lua",
+    "prototypes": 44,
+    "tables": 7,
+    "numeric_constants": 47
+  },
+  {
+    "file": "src/ui/config.lua",
+    "prototypes": 65,
+    "tables": 571,
+    "numeric_constants": 43
+  },
+  {
+    "file": "src/ui/controller.lua",
+    "prototypes": 215,
+    "tables": 234,
+    "numeric_constants": 200
+  },
+  {
+    "file": "src/ui/effects.lua",
+    "prototypes": 2202,
+    "tables": 1426,
+    "numeric_constants": 12955
+  },
+  {
+    "file": "src/ui/flow.lua",
+    "prototypes": 46,
+    "tables": 75,
+    "numeric_constants": 112
+  },
+  {
+    "file": "src/ui/imprint.lua",
+    "prototypes": 81,
+    "tables": 124,
+    "numeric_constants": 184
+  },
+  {
+    "file": "src/ui/mainmenu.lua",
+    "prototypes": 108,
+    "tables": 159,
+    "numeric_constants": 360
+  },
+  {
+    "file": "src/ui/render.lua",
+    "prototypes": 381,
+    "tables": 668,
+    "numeric_constants": 1943
+  },
+  {
+    "file": "src/ui/render2.lua",
+    "prototypes": 230,
+    "tables": 261,
+    "numeric_constants": 889
+  },
+  {
+    "file": "src/ui/screen.lua",
+    "prototypes": 14,
+    "tables": 12,
+    "numeric_constants": 44
+  },
+  {
+    "file": "src/ui/tooltip.lua",
+    "prototypes": 154,
+    "tables": 224,
+    "numeric_constants": 277
+  },
+  {
+    "file": "src/ui/tutorial.lua",
+    "prototypes": 148,
+    "tables": 111,
+    "numeric_constants": 130
+  },
+  {
+    "file": "src/ui/upgrade.lua",
+    "prototypes": 94,
+    "tables": 240,
+    "numeric_constants": 182
+  },
+  {
+    "file": "src/ui/widgets.lua",
+    "prototypes": 114,
+    "tables": 70,
+    "numeric_constants": 259
+  }
+]

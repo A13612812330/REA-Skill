@@ -1,0 +1,674 @@
+{
+  "file": "src/data/safe_lua_table.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0/1",
+      "argument_count": 2,
+      "instruction_count": 97,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxEntries"
+        },
+        {
+          "constant_index": 1,
+          "value": "next"
+        },
+        {
+          "constant_index": 2,
+          "value": "getmetatable"
+        },
+        {
+          "constant_index": 3,
+          "value": "maxDepth"
+        },
+        {
+          "constant_index": 4,
+          "value": "table"
+        },
+        {
+          "constant_index": 5,
+          "value": "nil"
+        },
+        {
+          "constant_index": 6,
+          "value": "boolean"
+        },
+        {
+          "constant_index": 7,
+          "value": "maxTotalStringBytes"
+        },
+        {
+          "constant_index": 8,
+          "value": "maxStringBytes"
+        },
+        {
+          "constant_index": 9,
+          "value": "string"
+        },
+        {
+          "constant_index": 10,
+          "value": "number"
+        },
+        {
+          "constant_index": 11,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0",
+      "argument_count": 2,
+      "instruction_count": 30,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "invalid save value or data limit exceeded"
+        },
+        {
+          "constant_index": 2,
+          "value": "save root must be a table"
+        },
+        {
+          "constant_index": 3,
+          "value": "table"
+        },
+        {
+          "constant_index": 4,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 2,
+      "instruction_count": 43,
+      "numeric_constants": [
+        27
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 1,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 2,
+          "value": "Lua bytecode is not allowed"
+        },
+        {
+          "constant_index": 3,
+          "value": "byte"
+        },
+        {
+          "constant_index": 4,
+          "value": "save source limit exceeded"
+        },
+        {
+          "constant_index": 5,
+          "value": "maxSourceBytes"
+        },
+        {
+          "constant_index": 6,
+          "value": "empty save data"
+        },
+        {
+          "constant_index": 7,
+          "value": ""
+        },
+        {
+          "constant_index": 8,
+          "value": "string"
+        },
+        {
+          "constant_index": 9,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4/10",
+      "argument_count": 1,
+      "instruction_count": 99,
+      "numeric_constants": [
+        3,
+        4,
+        5,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "invalid or non-finite number"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 2,
+          "value": "non-literal value is not allowed"
+        },
+        {
+          "constant_index": 3,
+          "value": "^%-?%d+%.?%d*"
+        },
+        {
+          "constant_index": 4,
+          "value": "^%-?%d+%.?%d*[eE][%+%-]?%d+"
+        },
+        {
+          "constant_index": 5,
+          "value": "match"
+        },
+        {
+          "constant_index": 6,
+          "value": "nil"
+        },
+        {
+          "constant_index": 7,
+          "value": "false"
+        },
+        {
+          "constant_index": 8,
+          "value": "true"
+        },
+        {
+          "constant_index": 9,
+          "value": "'"
+        },
+        {
+          "constant_index": 10,
+          "value": "\""
+        },
+        {
+          "constant_index": 11,
+          "value": "{"
+        },
+        {
+          "constant_index": 12,
+          "value": "sub"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4/11",
+      "argument_count": 1,
+      "instruction_count": 114,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "expected table separator"
+        },
+        {
+          "constant_index": 1,
+          "value": ","
+        },
+        {
+          "constant_index": 2,
+          "value": "="
+        },
+        {
+          "constant_index": 3,
+          "value": "]"
+        },
+        {
+          "constant_index": 4,
+          "value": "invalid table key"
+        },
+        {
+          "constant_index": 5,
+          "value": "boolean"
+        },
+        {
+          "constant_index": 6,
+          "value": "string"
+        },
+        {
+          "constant_index": 7,
+          "value": "number"
+        },
+        {
+          "constant_index": 8,
+          "value": "type"
+        },
+        {
+          "constant_index": 9,
+          "value": "["
+        },
+        {
+          "constant_index": 10,
+          "value": "table entry limit exceeded"
+        },
+        {
+          "constant_index": 11,
+          "value": "maxEntries"
+        },
+        {
+          "constant_index": 12,
+          "value": "}"
+        },
+        {
+          "constant_index": 13,
+          "value": "sub"
+        },
+        {
+          "constant_index": 14,
+          "value": "{"
+        },
+        {
+          "constant_index": 15,
+          "value": "table depth limit exceeded"
+        },
+        {
+          "constant_index": 16,
+          "value": "maxDepth"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4/12",
+      "argument_count": 0,
+      "instruction_count": 240,
+      "numeric_constants": [
+        1,
+        2,
+        3
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "invalid string escape"
+        },
+        {
+          "constant_index": 1,
+          "value": "\n"
+        },
+        {
+          "constant_index": 2,
+          "value": "\r"
+        },
+        {
+          "constant_index": 3,
+          "value": ""
+        },
+        {
+          "constant_index": 4,
+          "value": "z"
+        },
+        {
+          "constant_index": 5,
+          "value": "invalid hexadecimal escape"
+        },
+        {
+          "constant_index": 6,
+          "value": "^%x%x$"
+        },
+        {
+          "constant_index": 7,
+          "value": "x"
+        },
+        {
+          "constant_index": 8,
+          "value": "char"
+        },
+        {
+          "constant_index": 9,
+          "value": "string"
+        },
+        {
+          "constant_index": 10,
+          "value": "invalid decimal escape"
+        },
+        {
+          "constant_index": 11,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 12,
+          "value": "^(%d%d?%d?)"
+        },
+        {
+          "constant_index": 13,
+          "value": "%d"
+        },
+        {
+          "constant_index": 14,
+          "value": "match"
+        },
+        {
+          "constant_index": 15,
+          "value": "unterminated string"
+        },
+        {
+          "constant_index": 16,
+          "value": "\\"
+        },
+        {
+          "constant_index": 17,
+          "value": "concat"
+        },
+        {
+          "constant_index": 18,
+          "value": "table"
+        },
+        {
+          "constant_index": 19,
+          "value": "string limit exceeded"
+        },
+        {
+          "constant_index": 20,
+          "value": "maxStringBytes"
+        },
+        {
+          "constant_index": 21,
+          "value": "find"
+        },
+        {
+          "constant_index": 22,
+          "value": "['\\\r\n]"
+        },
+        {
+          "constant_index": 23,
+          "value": "[\"\\\r\n]"
+        },
+        {
+          "constant_index": 24,
+          "value": "\""
+        },
+        {
+          "constant_index": 25,
+          "value": "sub"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4/14",
+      "argument_count": 1,
+      "instruction_count": 19,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "string limit exceeded"
+        },
+        {
+          "constant_index": 1,
+          "value": "maxTotalStringBytes"
+        },
+        {
+          "constant_index": 2,
+          "value": "maxStringBytes"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4/15",
+      "argument_count": 1,
+      "instruction_count": 24,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "expected "
+        },
+        {
+          "constant_index": 1,
+          "value": "sub"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4/16",
+      "argument_count": 0,
+      "instruction_count": 32,
+      "numeric_constants": [
+        32,
+        9,
+        10,
+        13,
+        11,
+        12,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "^[ \t\r\n\u000b\f]*"
+        },
+        {
+          "constant_index": 1,
+          "value": "find"
+        },
+        {
+          "constant_index": 2,
+          "value": "byte"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4/17",
+      "argument_count": 1,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "error"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 2,
+      "instruction_count": 59,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "trailing save data"
+        },
+        {
+          "constant_index": 1,
+          "value": "save root must be a table"
+        },
+        {
+          "constant_index": 2,
+          "value": "table"
+        },
+        {
+          "constant_index": 3,
+          "value": "type"
+        },
+        {
+          "constant_index": 4,
+          "value": "invalid return token"
+        },
+        {
+          "constant_index": 5,
+          "value": "[%w_]"
+        },
+        {
+          "constant_index": 6,
+          "value": "match"
+        },
+        {
+          "constant_index": 7,
+          "value": "return"
+        },
+        {
+          "constant_index": 8,
+          "value": "﻿"
+        },
+        {
+          "constant_index": 9,
+          "value": "sub"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 13,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              "\t"
+            ],
+            [
+              "a",
+              "\u0007"
+            ],
+            [
+              "v",
+              "\u000b"
+            ],
+            [
+              "r",
+              "\r"
+            ],
+            [
+              "n",
+              "\n"
+            ],
+            [
+              "f",
+              "\f"
+            ],
+            [
+              "b",
+              "\b"
+            ],
+            [
+              "\\",
+              "\\"
+            ],
+            [
+              "\"",
+              "\""
+            ],
+            [
+              "'",
+              "'"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/5",
+      "argument_count": 1,
+      "instruction_count": 38,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "table"
+        },
+        {
+          "constant_index": 4,
+          "value": "type"
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 1,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "huge"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "validate"
+        },
+        {
+          "constant_index": 3,
+          "value": "decode"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": [
+            [
+              "maxTotalStringBytes",
+              33554432
+            ],
+            [
+              "maxStringBytes",
+              4194304
+            ],
+            [
+              "maxEntries",
+              250000
+            ],
+            [
+              "maxDepth",
+              64
+            ],
+            [
+              "maxSourceBytes",
+              16777216
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

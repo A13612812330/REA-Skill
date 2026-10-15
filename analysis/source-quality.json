@@ -1,0 +1,442 @@
+[
+  {
+    "path": "conf.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "main.lua",
+    "decompiler_result": "failed",
+    "text_exists": false,
+    "syntax_valid": false,
+    "error": "No source text recovered",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/audio/device_router.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\audio\\device_router.lua\"]:387: 'end' expected (to close 'if' at line 376) near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/audio/procedural_audio.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/audio/runtime_bootstrap.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/asset2.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\asset2.lua\"]:6080: 'then' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/assets.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\assets.lua\"]:324: '<name>' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/awakening.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/constants.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/faction.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\faction.lua\"]:454: unexpected symbol near ','",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/font_resolver.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/language.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\language.lua\"]:1427: '<name>' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/randomoption.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\randomoption.lua\"]:1270: unexpected symbol near ','",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/safe_lua_table.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\safe_lua_table.lua\"]:340: 'then' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/data/skill.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/alpha_ray_glow.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/awakening.lua",
+    "decompiler_result": "failed",
+    "text_exists": false,
+    "syntax_valid": false,
+    "error": "No source text recovered",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/battlefield.lua",
+    "decompiler_result": "failed",
+    "text_exists": false,
+    "syntax_valid": false,
+    "error": "No source text recovered",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/bossSkill.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/combat.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\combat.lua\"]:224: unexpected symbol near 'end'",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/cores.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\cores.lua\"]:1008: unexpected symbol near 'end'",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/enemy_skills.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\enemy_skills.lua\"]:3667: ')' expected (to close '(' at line 3665) near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/item.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\item.lua\"]:2018: 'then' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/luck.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/postprocess.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/power.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/projectiles.lua",
+    "decompiler_result": "partial",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled-partial\\src\\game\\projectiles.lua\"]:9205: unexpected symbol near ','",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/promotion.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\promotion.lua\"]:82: 'then' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/promotion_stats.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/quest.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/run_save.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\run_save.lua\"]:146: unexpected symbol near ')'",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/sim.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/slot.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\slot.lua\"]:762: ']' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/stone.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/game/unit_abilities.lua",
+    "decompiler_result": "partial",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled-partial\\src\\game\\unit_abilities.lua\"]:126: 'end' expected (to close 'function' at line 104) near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/platform_window.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/presentation_pacer.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/release_integrity.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/release_package.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\release_package.lua\"]:289: '<name>' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/runtime_diagnostics.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": true,
+    "error": null,
+    "semantics_verified": false
+  },
+  {
+    "path": "src/save.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\save.lua\"]:272: 'then' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/config.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\config.lua\"]:6: '<name>' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/controller.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\controller.lua\"]:1506: '<name>' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/effects.lua",
+    "decompiler_result": "failed",
+    "text_exists": false,
+    "syntax_valid": false,
+    "error": "No source text recovered",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/flow.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\flow.lua\"]:657: syntax error near 'slot22'",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/imprint.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\imprint.lua\"]:3947: '<name>' expected near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/mainmenu.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\mainmenu.lua\"]:1894: syntax error near 'if'",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/render.lua",
+    "decompiler_result": "partial",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled-partial\\src\\ui\\render.lua\"]:1549: ')' expected near ','",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/render2.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\render2.lua\"]:2371: unexpected symbol near ','",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/screen.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\screen.lua\"]:144: '}' expected (to close '{' at line 92) near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/tooltip.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\tooltip.lua\"]:749: '}' expected (to close '{' at line 733) near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/tutorial.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\tutorial.lua\"]:468: ')' expected (to close '(' at line 462) near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/upgrade.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\upgrade.lua\"]:533: '}' expected (to close '{' at line 517) near '('",
+    "semantics_verified": false
+  },
+  {
+    "path": "src/ui/widgets.lua",
+    "decompiler_result": "failed",
+    "text_exists": false,
+    "syntax_valid": false,
+    "error": "No source text recovered",
+    "semantics_verified": false
+  },
+  {
+    "path": "startup.lua",
+    "decompiler_result": "decompiled",
+    "text_exists": true,
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\startup.lua\"]:4: '<name>' expected near '('",
+    "semantics_verified": false
+  }
+]

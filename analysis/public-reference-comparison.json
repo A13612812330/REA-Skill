@@ -1,0 +1,332 @@
+{
+  "reference_files": 46,
+  "syntax_valid": 44,
+  "local_game_script_count": 54,
+  "local_only_paths": [
+    "src/audio/device_router.lua",
+    "src/audio/runtime_bootstrap.lua",
+    "src/data/asset2.lua",
+    "src/data/awakening.lua",
+    "src/data/faction.lua",
+    "src/game/awakening.lua",
+    "src/game/bossSkill.lua",
+    "src/game/combat.lua",
+    "src/game/enemy_skills.lua",
+    "src/game/luck.lua",
+    "src/game/projectiles.lua",
+    "src/game/run_save.lua",
+    "src/game/unit_abilities.lua",
+    "src/presentation_pacer.lua",
+    "src/release_package.lua",
+    "src/runtime_diagnostics.lua",
+    "src/ui/controller.lua",
+    "src/ui/effects.lua",
+    "src/ui/flow.lua",
+    "src/ui/screen.lua",
+    "src/ui/widgets.lua"
+  ],
+  "reference_only_paths": [
+    "src/game/atmosphere.lua",
+    "src/game/battle_start_guard.lua",
+    "src/game/hidden_luck.lua",
+    "src/game/postprocess_v2.lua",
+    "src/game/postprocess_v3.lua",
+    "src/game/postprocess_v4.lua",
+    "src/release_integrity_manifest.lua",
+    "src/runtime_performance.lua",
+    "src/ui/core_select_flow.lua",
+    "src/ui/count_impact.lua",
+    "src/ui/layout.lua",
+    "src/ui/pause_motion.lua",
+    "src/ui/shadow.lua"
+  ],
+  "reference_skill_definitions": 48,
+  "local_skill_definitions": 125,
+  "constants_equal": false,
+  "different_top_level_constant_keys": [
+    "evolution",
+    "hiddenLuck",
+    "imprint",
+    "power",
+    "unitGrades"
+  ],
+  "interpretation": "Different file sets and data; public reference is not a verified match or original developer source.",
+  "files": [
+    {
+      "path": "conf.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "main.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/audio/procedural_audio.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/data/assets.lua",
+      "syntax_valid": false,
+      "error": "[string \"syntax-check\"]:8873: function at line 91 has more than 200 local variables",
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/data/constants.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/data/font_resolver.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/data/language.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/data/randomoption.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/data/safe_lua_table.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/data/skill.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/alpha_ray_glow.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": true
+    },
+    {
+      "path": "src/game/atmosphere.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/battle_start_guard.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/battlefield.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/cores.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/hidden_luck.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/item.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/postprocess.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/postprocess_v2.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/postprocess_v3.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/postprocess_v4.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/power.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/promotion.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/promotion_stats.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/quest.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/sim.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/slot.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/game/stone.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/platform_window.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/release_integrity.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/release_integrity_manifest.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/runtime_performance.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/save.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/config.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/core_select_flow.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/count_impact.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/imprint.lua",
+      "syntax_valid": false,
+      "error": "[string \"syntax-check\"]:4313: function at line 2424 has more than 200 local variables",
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/layout.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/mainmenu.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/pause_motion.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/render.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/render2.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/shadow.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/tooltip.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/tutorial.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    },
+    {
+      "path": "src/ui/upgrade.lua",
+      "syntax_valid": true,
+      "error": null,
+      "same_text_as_local_recovery": false
+    }
+  ]
+}

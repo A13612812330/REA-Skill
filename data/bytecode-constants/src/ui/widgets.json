@@ -1,0 +1,7248 @@
+{
+  "file": "src/ui/widgets.lua",
+  "prototypes": [
+    {
+      "prototype": "root/24",
+      "argument_count": 6,
+      "instruction_count": 123,
+      "numeric_constants": [
+        1,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "right"
+        },
+        {
+          "constant_index": 1,
+          "value": "mid"
+        },
+        {
+          "constant_index": 2,
+          "value": "left"
+        },
+        {
+          "constant_index": 3,
+          "value": "ih"
+        },
+        {
+          "constant_index": 4,
+          "value": "iw"
+        },
+        {
+          "constant_index": 5,
+          "value": "newQuad"
+        },
+        {
+          "constant_index": 7,
+          "value": "key"
+        },
+        {
+          "constant_index": 8,
+          "value": "h"
+        },
+        {
+          "constant_index": 9,
+          "value": "w"
+        },
+        {
+          "constant_index": 10,
+          "value": ":"
+        },
+        {
+          "constant_index": 11,
+          "value": "y"
+        },
+        {
+          "constant_index": 12,
+          "value": "x"
+        },
+        {
+          "constant_index": 13,
+          "value": "draw"
+        },
+        {
+          "constant_index": 14,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 15,
+          "value": "love"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/25",
+      "argument_count": 3,
+      "instruction_count": 88,
+      "numeric_constants": [
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "smallFont"
+        },
+        {
+          "constant_index": 4,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 5,
+          "value": "\u0000"
+        },
+        {
+          "constant_index": 6,
+          "value": "ko"
+        },
+        {
+          "constant_index": 7,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 8,
+          "value": "_G"
+        },
+        {
+          "constant_index": 9,
+          "value": ""
+        },
+        {
+          "constant_index": 10,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/28",
+      "argument_count": 2,
+      "instruction_count": 16,
+      "numeric_constants": [
+        16
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/30",
+      "argument_count": 2,
+      "instruction_count": 24,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/32/2",
+      "argument_count": 2,
+      "instruction_count": 22,
+      "numeric_constants": [
+        100
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newQuad"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/32",
+      "argument_count": 5,
+      "instruction_count": 93,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 4,
+          "value": "draw"
+        },
+        {
+          "constant_index": 5,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 6,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/34",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "[%z\u0001-\\xc2-\\xf4][\\x80-\\xbf]*"
+        },
+        {
+          "constant_index": 1,
+          "value": "gsub"
+        },
+        {
+          "constant_index": 2,
+          "value": ""
+        },
+        {
+          "constant_index": 3,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/36",
+      "argument_count": 1,
+      "instruction_count": 51,
+      "numeric_constants": [
+        192,
+        64,
+        128,
+        224,
+        223
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "SS"
+        },
+        {
+          "constant_index": 1,
+          "value": "byte"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/37",
+      "argument_count": 1,
+      "instruction_count": 37,
+      "numeric_constants": [
+        64,
+        192,
+        128,
+        4096,
+        224
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "char"
+        },
+        {
+          "constant_index": 3,
+          "value": "string"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/38",
+      "argument_count": 1,
+      "instruction_count": 89,
+      "numeric_constants": [
+        32,
+        247,
+        255,
+        305,
+        383,
+        312,
+        329,
+        2,
+        0,
+        1,
+        80
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/39/7",
+      "argument_count": 4,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "print"
+        },
+        {
+          "constant_index": 1,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 2,
+          "value": "bodyColor"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/39/8/0",
+      "argument_count": 1,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getWidth"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/39/8",
+      "argument_count": 2,
+      "instruction_count": 8,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "wrap"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/39",
+      "argument_count": 6,
+      "instruction_count": 124,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "print"
+        },
+        {
+          "constant_index": 1,
+          "value": "scale"
+        },
+        {
+          "constant_index": 3,
+          "value": "lines"
+        },
+        {
+          "constant_index": 4,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 5,
+          "value": "small"
+        },
+        {
+          "constant_index": 6,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 9,
+          "value": "wrap"
+        },
+        {
+          "constant_index": 10,
+          "value": "bodyColor"
+        },
+        {
+          "constant_index": 11,
+          "value": "lineGapPx"
+        },
+        {
+          "constant_index": 12,
+          "value": "lineH"
+        },
+        {
+          "constant_index": 14,
+          "value": "text"
+        },
+        {
+          "constant_index": 15,
+          "value": "key"
+        },
+        {
+          "constant_index": 16,
+          "value": "draw"
+        },
+        {
+          "constant_index": 17,
+          "value": "scrollState"
+        },
+        {
+          "constant_index": 18,
+          "value": "getColor"
+        },
+        {
+          "constant_index": 19,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 20,
+          "value": "scroll"
+        },
+        {
+          "constant_index": 21,
+          "value": "font"
+        },
+        {
+          "constant_index": 22,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 23,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 24,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 25,
+          "value": "love"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 13,
+          "array": [],
+          "dictionary": [
+            [
+              "inkBottomPx",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/41/9/0",
+      "argument_count": 1,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 1,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/41/9",
+      "argument_count": 2,
+      "instruction_count": 21,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "scale"
+        },
+        {
+          "constant_index": 2,
+          "value": "font"
+        },
+        {
+          "constant_index": 4,
+          "value": "wrap"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 3,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/41",
+      "argument_count": 5,
+      "instruction_count": 140,
+      "numeric_constants": [
+        2,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "text"
+        },
+        {
+          "constant_index": 2,
+          "value": "scale"
+        },
+        {
+          "constant_index": 4,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 5,
+          "value": "smallFont"
+        },
+        {
+          "constant_index": 6,
+          "value": "lines"
+        },
+        {
+          "constant_index": 7,
+          "value": "font"
+        },
+        {
+          "constant_index": 10,
+          "value": "wrap"
+        },
+        {
+          "constant_index": 11,
+          "value": "\u0000"
+        },
+        {
+          "constant_index": 12,
+          "value": "block\u0000"
+        },
+        {
+          "constant_index": 13,
+          "value": "lineH"
+        },
+        {
+          "constant_index": 14,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 15,
+          "value": "ko"
+        },
+        {
+          "constant_index": 16,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 17,
+          "value": "_G"
+        },
+        {
+          "constant_index": 18,
+          "value": "lang"
+        },
+        {
+          "constant_index": 19,
+          "value": "floor"
+        },
+        {
+          "constant_index": 20,
+          "value": "max"
+        },
+        {
+          "constant_index": 21,
+          "value": "math"
+        },
+        {
+          "constant_index": 22,
+          "value": ""
+        },
+        {
+          "constant_index": 23,
+          "value": "tostring"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [],
+          "dictionary": [
+            [
+              "scale",
+              1
+            ],
+            [
+              "scroll",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 3,
+          "array": [],
+          "dictionary": [
+            [
+              "small",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 8,
+          "array": [],
+          "dictionary": [
+            [
+              "scale",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/43",
+      "argument_count": 6,
+      "instruction_count": 128,
+      "numeric_constants": [
+        1,
+        0.5,
+        2,
+        0.75
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "print"
+        },
+        {
+          "constant_index": 1,
+          "value": "right"
+        },
+        {
+          "constant_index": 2,
+          "value": "center"
+        },
+        {
+          "constant_index": 3,
+          "value": "align"
+        },
+        {
+          "constant_index": 4,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "inkTop"
+        },
+        {
+          "constant_index": 8,
+          "value": "key"
+        },
+        {
+          "constant_index": 9,
+          "value": "drawHorizontal"
+        },
+        {
+          "constant_index": 10,
+          "value": "scrollState"
+        },
+        {
+          "constant_index": 11,
+          "value": "scrollInset"
+        },
+        {
+          "constant_index": 12,
+          "value": "scroll"
+        },
+        {
+          "constant_index": 13,
+          "value": "small"
+        },
+        {
+          "constant_index": 14,
+          "value": "dy"
+        },
+        {
+          "constant_index": 15,
+          "value": "floor"
+        },
+        {
+          "constant_index": 16,
+          "value": "lines"
+        },
+        {
+          "constant_index": 17,
+          "value": "lineGap"
+        },
+        {
+          "constant_index": 18,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 19,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 20,
+          "value": "math"
+        },
+        {
+          "constant_index": 21,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 22,
+          "value": "scale"
+        },
+        {
+          "constant_index": 23,
+          "value": "font"
+        },
+        {
+          "constant_index": 24,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 25,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 26,
+          "value": "love"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/44/11",
+      "argument_count": 3,
+      "instruction_count": 24,
+      "numeric_constants": [
+        1,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 1,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/44",
+      "argument_count": 4,
+      "instruction_count": 218,
+      "numeric_constants": [
+        1,
+        4503599627370497.0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxW"
+        },
+        {
+          "constant_index": 1,
+          "value": "width"
+        },
+        {
+          "constant_index": 2,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 3,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 6,
+          "value": "smallFont"
+        },
+        {
+          "constant_index": 7,
+          "value": "lines"
+        },
+        {
+          "constant_index": 8,
+          "value": "font"
+        },
+        {
+          "constant_index": 10,
+          "value": "min"
+        },
+        {
+          "constant_index": 12,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 13,
+          "value": ","
+        },
+        {
+          "constant_index": 14,
+          "value": "concat"
+        },
+        {
+          "constant_index": 15,
+          "value": "table"
+        },
+        {
+          "constant_index": 16,
+          "value": "\u0000"
+        },
+        {
+          "constant_index": 17,
+          "value": "maxH"
+        },
+        {
+          "constant_index": 18,
+          "value": "steps"
+        },
+        {
+          "constant_index": 19,
+          "value": "scale"
+        },
+        {
+          "constant_index": 20,
+          "value": "ko"
+        },
+        {
+          "constant_index": 21,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 22,
+          "value": "_G"
+        },
+        {
+          "constant_index": 23,
+          "value": "lang"
+        },
+        {
+          "constant_index": 24,
+          "value": "maxLines"
+        },
+        {
+          "constant_index": 25,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 26,
+          "value": "floor"
+        },
+        {
+          "constant_index": 27,
+          "value": "max"
+        },
+        {
+          "constant_index": 28,
+          "value": "math"
+        },
+        {
+          "constant_index": 29,
+          "value": ""
+        },
+        {
+          "constant_index": 30,
+          "value": "tostring"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": [
+            [
+              "scale",
+              1
+            ],
+            [
+              "scroll",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": [
+            [
+              "small",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/46/0",
+      "argument_count": 1,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 1,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/46",
+      "argument_count": 6,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/47/9",
+      "argument_count": 2,
+      "instruction_count": 19,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/47",
+      "argument_count": 4,
+      "instruction_count": 178,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "-"
+        },
+        {
+          "constant_index": 1,
+          "value": ""
+        },
+        {
+          "constant_index": 2,
+          "value": "find"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "/"
+        },
+        {
+          "constant_index": 5,
+          "value": "sub"
+        },
+        {
+          "constant_index": 6,
+          "value": " "
+        },
+        {
+          "constant_index": 7,
+          "value": "concat"
+        },
+        {
+          "constant_index": 8,
+          "value": "table"
+        },
+        {
+          "constant_index": 10,
+          "value": "%S+"
+        },
+        {
+          "constant_index": 11,
+          "value": "gmatch"
+        },
+        {
+          "constant_index": 12,
+          "value": "wrap"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/48",
+      "argument_count": 1,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "zh"
+        },
+        {
+          "constant_index": 1,
+          "value": "ja"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/49",
+      "argument_count": 1,
+      "instruction_count": 7,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": ""
+        },
+        {
+          "constant_index": 1,
+          "value": "gsub"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/51",
+      "argument_count": 2,
+      "instruction_count": 84,
+      "numeric_constants": [
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "scale"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 2,
+          "value": "font"
+        },
+        {
+          "constant_index": 4,
+          "value": "attachFallbacks"
+        },
+        {
+          "constant_index": 5,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 6,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 7,
+          "value": "newFont"
+        },
+        {
+          "constant_index": 8,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 9,
+          "value": "love"
+        },
+        {
+          "constant_index": 10,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 11,
+          "value": "src/data/font/Galmuri7W.fnt"
+        },
+        {
+          "constant_index": 12,
+          "value": "src/data/font/Galmuri7WS.fnt"
+        },
+        {
+          "constant_index": 13,
+          "value": "resolve"
+        },
+        {
+          "constant_index": 14,
+          "value": "zh"
+        },
+        {
+          "constant_index": 15,
+          "value": ":w"
+        },
+        {
+          "constant_index": 16,
+          "value": ":ws"
+        },
+        {
+          "constant_index": 17,
+          "value": "shadow"
+        },
+        {
+          "constant_index": 18,
+          "value": "styleOf"
+        },
+        {
+          "constant_index": 19,
+          "value": "src.data.font_resolver"
+        },
+        {
+          "constant_index": 20,
+          "value": "require"
+        },
+        {
+          "constant_index": 21,
+          "value": "ko"
+        },
+        {
+          "constant_index": 22,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 23,
+          "value": "_G"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 3,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/54",
+      "argument_count": 1,
+      "instruction_count": 183,
+      "numeric_constants": [
+        0.1,
+        0.3,
+        0.5,
+        1,
+        6,
+        2,
+        0.10980392156862745,
+        0.0784313725490196,
+        0.12156862745098039,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "print"
+        },
+        {
+          "constant_index": 1,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 2,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 3,
+          "value": "y"
+        },
+        {
+          "constant_index": 4,
+          "value": "max"
+        },
+        {
+          "constant_index": 5,
+          "value": "w"
+        },
+        {
+          "constant_index": 6,
+          "value": "x"
+        },
+        {
+          "constant_index": 7,
+          "value": "W"
+        },
+        {
+          "constant_index": 8,
+          "value": "virtual"
+        },
+        {
+          "constant_index": 9,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 10,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 11,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 12,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 13,
+          "value": "love"
+        },
+        {
+          "constant_index": 14,
+          "value": "floor"
+        },
+        {
+          "constant_index": 15,
+          "value": "min"
+        },
+        {
+          "constant_index": 16,
+          "value": "math"
+        },
+        {
+          "constant_index": 17,
+          "value": "ko"
+        },
+        {
+          "constant_index": 18,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 19,
+          "value": "_G"
+        },
+        {
+          "constant_index": 20,
+          "value": "rawget"
+        },
+        {
+          "constant_index": 21,
+          "value": "shop_not_enough_essence"
+        },
+        {
+          "constant_index": 22,
+          "value": "getText"
+        },
+        {
+          "constant_index": 23,
+          "value": "src.data.language"
+        },
+        {
+          "constant_index": 24,
+          "value": "require"
+        },
+        {
+          "constant_index": 25,
+          "value": "nameFont"
+        },
+        {
+          "constant_index": 26,
+          "value": "itemLayout"
+        },
+        {
+          "constant_index": 27,
+          "value": "itemShop"
+        },
+        {
+          "constant_index": 28,
+          "value": "key"
+        },
+        {
+          "constant_index": 29,
+          "value": "_shopMode"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/56",
+      "argument_count": 4,
+      "instruction_count": 53,
+      "numeric_constants": [
+        0.3,
+        13,
+        2,
+        1,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pi"
+        },
+        {
+          "constant_index": 1,
+          "value": "sin"
+        },
+        {
+          "constant_index": 2,
+          "value": "floor"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/58",
+      "argument_count": 2,
+      "instruction_count": 33,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "index"
+        },
+        {
+          "constant_index": 1,
+          "value": "kind"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "getItemShopSlotRects"
+        },
+        {
+          "constant_index": 4,
+          "value": "loadedAssets"
+        },
+        {
+          "constant_index": 5,
+          "value": "_G"
+        },
+        {
+          "constant_index": 6,
+          "value": "rawget"
+        },
+        {
+          "constant_index": 7,
+          "value": "src.ui.render"
+        },
+        {
+          "constant_index": 8,
+          "value": "loaded"
+        },
+        {
+          "constant_index": 9,
+          "value": "package"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/59",
+      "argument_count": 4,
+      "instruction_count": 65,
+      "numeric_constants": [
+        1,
+        0.86,
+        0.8
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "key"
+        },
+        {
+          "constant_index": 1,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 2,
+          "value": "isShort"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/61",
+      "argument_count": 2,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "t0"
+        },
+        {
+          "constant_index": 1,
+          "value": "key"
+        },
+        {
+          "constant_index": 3,
+          "value": "_shopFundsDeny"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/63",
+      "argument_count": 2,
+      "instruction_count": 21,
+      "numeric_constants": [
+        0.08,
+        1
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/64",
+      "argument_count": 1,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "t0"
+        },
+        {
+          "constant_index": 1,
+          "value": "_shopFundsDeny"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/65",
+      "argument_count": 1,
+      "instruction_count": 27,
+      "numeric_constants": [
+        0.5215686275
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "color"
+        },
+        {
+          "constant_index": 1,
+          "value": "heartNumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/66",
+      "argument_count": 2,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "balance"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/68",
+      "argument_count": 1,
+      "instruction_count": 23,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "jungsuBalance"
+        },
+        {
+          "constant_index": 1,
+          "value": "jungsuBalanceTarget"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "number"
+        },
+        {
+          "constant_index": 4,
+          "value": "type"
+        },
+        {
+          "constant_index": 5,
+          "value": "jungsu"
+        },
+        {
+          "constant_index": 6,
+          "value": "_G"
+        },
+        {
+          "constant_index": 7,
+          "value": "rawget"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/70",
+      "argument_count": 0,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 1,
+          "value": "timer"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/71",
+      "argument_count": 3,
+      "instruction_count": 42,
+      "numeric_constants": [
+        0.08,
+        0.14,
+        1,
+        6,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "t0"
+        },
+        {
+          "constant_index": 5,
+          "value": "lastDraw"
+        },
+        {
+          "constant_index": 6,
+          "value": "key"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/73",
+      "argument_count": 2,
+      "instruction_count": 12,
+      "numeric_constants": [
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hoverShiftLeftPx"
+        },
+        {
+          "constant_index": 1,
+          "value": "floor"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/75",
+      "argument_count": 4,
+      "instruction_count": 31,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "hoverLerpOut"
+        },
+        {
+          "constant_index": 4,
+          "value": "hoverLerpIn"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/77",
+      "argument_count": 7,
+      "instruction_count": 175,
+      "numeric_constants": [
+        0.5,
+        0.22,
+        0,
+        1.2,
+        0.1,
+        0.85,
+        0.75,
+        0.07,
+        0.16,
+        2,
+        4,
+        4.4,
+        0.65,
+        1.65,
+        1.95,
+        -0.3,
+        0.018,
+        0.01,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fill"
+        },
+        {
+          "constant_index": 1,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 2,
+          "value": "mask"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "pop"
+        },
+        {
+          "constant_index": 5,
+          "value": "u_lift"
+        },
+        {
+          "constant_index": 6,
+          "value": "u_center"
+        },
+        {
+          "constant_index": 7,
+          "value": "send"
+        },
+        {
+          "constant_index": 8,
+          "value": "draw"
+        },
+        {
+          "constant_index": 9,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 10,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 11,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 12,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 13,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 14,
+          "value": "all"
+        },
+        {
+          "constant_index": 15,
+          "value": "push"
+        },
+        {
+          "constant_index": 16,
+          "value": "sin"
+        },
+        {
+          "constant_index": 17,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 18,
+          "value": "timer"
+        },
+        {
+          "constant_index": 19,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 20,
+          "value": "love"
+        },
+        {
+          "constant_index": 21,
+          "value": "min"
+        },
+        {
+          "constant_index": 22,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 23,
+          "value": "floor"
+        },
+        {
+          "constant_index": 24,
+          "value": "max"
+        },
+        {
+          "constant_index": 25,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/78",
+      "argument_count": 0,
+      "instruction_count": 160,
+      "numeric_constants": [
+        1,
+        0.5,
+        4,
+        2,
+        0.72
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "    extern number u_center;\n    extern number u_lift;\n    vec4 effect(vec4 color, Image tex, vec2 tc, vec2 sc) {\n      vec4 pixel = Texel(tex, tc);\n      float diagonal = tc.x + tc.y * 0.35;\n      float band = 1.0 - smoothstep(0.07, 0.32, abs(diagonal - u_center));\n      vec3 base = pixel.rgb + vec3(0.35, 0.60, 0.65) * u_lift;\n      vec3 sheen = mix(base, vec3(0.62, 0.98, 0.90), band * 0.78);\n      return vec4(sheen, pixel.a) * color;\n    }\n  "
+        },
+        {
+          "constant_index": 1,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 2,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 3,
+          "value": "linear"
+        },
+        {
+          "constant_index": 4,
+          "value": "exp"
+        },
+        {
+          "constant_index": 5,
+          "value": "min"
+        },
+        {
+          "constant_index": 6,
+          "value": "max"
+        },
+        {
+          "constant_index": 7,
+          "value": "huge"
+        },
+        {
+          "constant_index": 8,
+          "value": "math"
+        },
+        {
+          "constant_index": 9,
+          "value": "release"
+        },
+        {
+          "constant_index": 10,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 11,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 12,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 13,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 14,
+          "value": "setPixel"
+        },
+        {
+          "constant_index": 15,
+          "value": "mask"
+        },
+        {
+          "constant_index": 16,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 17,
+          "value": "newImageData"
+        },
+        {
+          "constant_index": 18,
+          "value": "image"
+        },
+        {
+          "constant_index": 19,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/94",
+      "argument_count": 9,
+      "instruction_count": 153,
+      "numeric_constants": [
+        3.6,
+        4.4,
+        0.11,
+        0.18
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "draw"
+        },
+        {
+          "constant_index": 4,
+          "value": "u_tint"
+        },
+        {
+          "constant_index": 5,
+          "value": "u_width"
+        },
+        {
+          "constant_index": 6,
+          "value": "u_alpha"
+        },
+        {
+          "constant_index": 7,
+          "value": "u_cycle"
+        },
+        {
+          "constant_index": 8,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 9,
+          "value": "timer"
+        },
+        {
+          "constant_index": 10,
+          "value": "u_time"
+        },
+        {
+          "constant_index": 11,
+          "value": "send"
+        },
+        {
+          "constant_index": 12,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 13,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 14,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 15,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 16,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 17,
+          "value": "all"
+        },
+        {
+          "constant_index": 18,
+          "value": "push"
+        },
+        {
+          "constant_index": 19,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 20,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 21,
+          "value": "love"
+        },
+        {
+          "constant_index": 22,
+          "value": ""
+        },
+        {
+          "constant_index": 23,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 24,
+          "value": "prism"
+        },
+        {
+          "constant_index": 25,
+          "value": "legendary"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            1,
+            0.91,
+            0.67
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            0.94,
+            0.93,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/95",
+      "argument_count": 2,
+      "instruction_count": 121,
+      "numeric_constants": [
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "print"
+        },
+        {
+          "constant_index": 2,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 3,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 4,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 5,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 6,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 7,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 8,
+          "value": "setStencilTest"
+        },
+        {
+          "constant_index": 9,
+          "value": "setScissor"
+        },
+        {
+          "constant_index": 10,
+          "value": "clear"
+        },
+        {
+          "constant_index": 11,
+          "value": "setCanvas"
+        },
+        {
+          "constant_index": 12,
+          "value": "origin"
+        },
+        {
+          "constant_index": 13,
+          "value": "all"
+        },
+        {
+          "constant_index": 14,
+          "value": "push"
+        },
+        {
+          "constant_index": 15,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 16,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 18,
+          "value": "newCanvas"
+        },
+        {
+          "constant_index": 19,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 20,
+          "value": "love"
+        },
+        {
+          "constant_index": 21,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 22,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 23,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 24,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 25,
+          "value": "max"
+        },
+        {
+          "constant_index": 26,
+          "value": "math"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 17,
+          "array": [],
+          "dictionary": [
+            [
+              "dpiscale",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/96",
+      "argument_count": 0,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "    extern number u_time;\n    extern number u_cycle;\n    extern number u_alpha;\n    extern number u_width;\n    extern vec3 u_tint;\n\n    vec4 effect(vec4 color, Image tex, vec2 tc, vec2 sc) {\n      float mask = Texel(tex, tc).a;\n      if (mask <= 0.001) return vec4(0.0);\n      float width = max(0.001, u_width);\n      float diagonal = tc.x + tc.y * 0.35;\n      float center = fract(u_time / max(0.001, u_cycle)) * (1.35 + 2.0 * width) - width;\n      float distanceToBand = abs(diagonal - center);\n      float band = 1.0 - smoothstep(width * 0.15, width, distanceToBand);\n      return vec4(u_tint, mask * color.a * clamp(u_alpha, 0.0, 1.0) * band * band);\n    }\n  "
+        },
+        {
+          "constant_index": 1,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 2,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 3,
+          "value": "love"
+        },
+        {
+          "constant_index": 4,
+          "value": "pcall"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/98",
+      "argument_count": 2,
+      "instruction_count": 34,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 4,
+          "value": "cOut2"
+        },
+        {
+          "constant_index": 6,
+          "value": "cOut1"
+        },
+        {
+          "constant_index": 8,
+          "value": "cIn2"
+        },
+        {
+          "constant_index": 10,
+          "value": "cIn1"
+        },
+        {
+          "constant_index": 11,
+          "value": "send"
+        },
+        {
+          "constant_index": 12,
+          "value": "L"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            0.4392156862745098,
+            0.27450980392156865,
+            0.13725490196078433
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 5,
+          "array": [
+            null,
+            0.4392156862745098,
+            0.27450980392156865,
+            0.13725490196078433
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            0.20392156862745098,
+            0.21568627450980393,
+            0.30980392156862746
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 9,
+          "array": [
+            null,
+            0.20392156862745098,
+            0.21568627450980393,
+            0.30980392156862746
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/100",
+      "argument_count": 3,
+      "instruction_count": 42,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "cOut2"
+        },
+        {
+          "constant_index": 4,
+          "value": "cOut1"
+        },
+        {
+          "constant_index": 6,
+          "value": "cIn2"
+        },
+        {
+          "constant_index": 8,
+          "value": "cIn1"
+        },
+        {
+          "constant_index": 9,
+          "value": "send"
+        },
+        {
+          "constant_index": 10,
+          "value": "stone"
+        },
+        {
+          "constant_index": 11,
+          "value": "palettes"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [
+            null,
+            0.2235294117647059,
+            0.17254901960784313,
+            0.22745098039215686
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            0.3843137254901961,
+            0.3333333333333333,
+            0.396078431372549
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/102",
+      "argument_count": 1,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "shadows"
+        },
+        {
+          "constant_index": 1,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 2,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 3,
+          "value": ".png"
+        },
+        {
+          "constant_index": 4,
+          "value": "src/sprites/background/button/itempanelshadow"
+        },
+        {
+          "constant_index": 6,
+          "value": "pairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": [
+            [
+              "R",
+              "rare"
+            ],
+            [
+              "L",
+              "legend"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/119",
+      "argument_count": 4,
+      "instruction_count": 88,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "sub"
+        },
+        {
+          "constant_index": 1,
+          "value": "find"
+        },
+        {
+          "constant_index": 2,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/121",
+      "argument_count": 4,
+      "instruction_count": 180,
+      "numeric_constants": [
+        1,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "splitUnits"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": " "
+        },
+        {
+          "constant_index": 3,
+          "value": "^[%+%-]?%d[%d,%.]*%%?$"
+        },
+        {
+          "constant_index": 4,
+          "value": "^[%+%-]?%d"
+        },
+        {
+          "constant_index": 5,
+          "value": "%{[%w_%-]+%.png%}$"
+        },
+        {
+          "constant_index": 6,
+          "value": "match"
+        },
+        {
+          "constant_index": 7,
+          "value": "%S+"
+        },
+        {
+          "constant_index": 8,
+          "value": "(.-)\n"
+        },
+        {
+          "constant_index": 9,
+          "value": "gmatch"
+        },
+        {
+          "constant_index": 10,
+          "value": "\n"
+        },
+        {
+          "constant_index": 11,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 12,
+          "value": "max"
+        },
+        {
+          "constant_index": 13,
+          "value": "math"
+        },
+        {
+          "constant_index": 14,
+          "value": ""
+        },
+        {
+          "constant_index": 15,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/123",
+      "argument_count": 1,
+      "instruction_count": 84,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "gmatch"
+        },
+        {
+          "constant_index": 1,
+          "value": "^"
+        },
+        {
+          "constant_index": 2,
+          "value": "^[%+%-]?%d[%d,%.]*%%?"
+        },
+        {
+          "constant_index": 3,
+          "value": "^%s*[%+%-]?%d[%d,%.]*%%?"
+        },
+        {
+          "constant_index": 4,
+          "value": "^%{[%w_%-]+%.png%}"
+        },
+        {
+          "constant_index": 5,
+          "value": "match"
+        },
+        {
+          "constant_index": 6,
+          "value": "sub"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/129",
+      "argument_count": 0,
+      "instruction_count": 47,
+      "numeric_constants": [
+        255
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "release"
+        },
+        {
+          "constant_index": 1,
+          "value": "clamp"
+        },
+        {
+          "constant_index": 2,
+          "value": "setWrap"
+        },
+        {
+          "constant_index": 3,
+          "value": "linear"
+        },
+        {
+          "constant_index": 4,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 5,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 6,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 7,
+          "value": "setPixel"
+        },
+        {
+          "constant_index": 8,
+          "value": "newImageData"
+        },
+        {
+          "constant_index": 9,
+          "value": "image"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/130",
+      "argument_count": 7,
+      "instruction_count": 223,
+      "numeric_constants": [
+        8,
+        0.42,
+        0.5,
+        2,
+        0.4
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "drawSymbol"
+        },
+        {
+          "constant_index": 2,
+          "value": "src.ui.render"
+        },
+        {
+          "constant_index": 3,
+          "value": "draw"
+        },
+        {
+          "constant_index": 4,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 5,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 6,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 7,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 8,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 9,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 10,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 11,
+          "value": "all"
+        },
+        {
+          "constant_index": 12,
+          "value": "push"
+        },
+        {
+          "constant_index": 13,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 14,
+          "value": "love"
+        },
+        {
+          "constant_index": 15,
+          "value": "hp"
+        },
+        {
+          "constant_index": 16,
+          "value": "dying"
+        },
+        {
+          "constant_index": 17,
+          "value": "alive"
+        },
+        {
+          "constant_index": 18,
+          "value": "battle"
+        },
+        {
+          "constant_index": 19,
+          "value": "mode"
+        },
+        {
+          "constant_index": 20,
+          "value": "iconsSmall"
+        },
+        {
+          "constant_index": 21,
+          "value": "min"
+        },
+        {
+          "constant_index": 22,
+          "value": "floor"
+        },
+        {
+          "constant_index": 23,
+          "value": "max"
+        },
+        {
+          "constant_index": 24,
+          "value": "math"
+        },
+        {
+          "constant_index": 25,
+          "value": "sym"
+        },
+        {
+          "constant_index": 26,
+          "value": "target"
+        },
+        {
+          "constant_index": 27,
+          "value": "frontline_armor"
+        },
+        {
+          "constant_index": 28,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 29,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/131",
+      "argument_count": 8,
+      "instruction_count": 181,
+      "numeric_constants": [
+        1,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "print"
+        },
+        {
+          "constant_index": 2,
+          "value": "inverseTransformPoint"
+        },
+        {
+          "constant_index": 3,
+          "value": "getDPIScale"
+        },
+        {
+          "constant_index": 4,
+          "value": "canvas"
+        },
+        {
+          "constant_index": 5,
+          "value": "table"
+        },
+        {
+          "constant_index": 6,
+          "value": "type"
+        },
+        {
+          "constant_index": 7,
+          "value": "getCanvas"
+        },
+        {
+          "constant_index": 8,
+          "value": "intersectScissor"
+        },
+        {
+          "constant_index": 9,
+          "value": "floor"
+        },
+        {
+          "constant_index": 10,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 11,
+          "value": "inkTop"
+        },
+        {
+          "constant_index": 12,
+          "value": "transformPoint"
+        },
+        {
+          "constant_index": 13,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 14,
+          "value": "all"
+        },
+        {
+          "constant_index": 15,
+          "value": "push"
+        },
+        {
+          "constant_index": 16,
+          "value": "text_scroll_motion"
+        },
+        {
+          "constant_index": 17,
+          "value": "src.ui.effects"
+        },
+        {
+          "constant_index": 18,
+          "value": "require"
+        },
+        {
+          "constant_index": 19,
+          "value": "offset"
+        },
+        {
+          "constant_index": 20,
+          "value": "overflow"
+        },
+        {
+          "constant_index": 21,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 22,
+          "value": "max"
+        },
+        {
+          "constant_index": 23,
+          "value": "math"
+        },
+        {
+          "constant_index": 24,
+          "value": "started"
+        },
+        {
+          "constant_index": 26,
+          "value": "height"
+        },
+        {
+          "constant_index": 27,
+          "value": "width"
+        },
+        {
+          "constant_index": 28,
+          "value": "text"
+        },
+        {
+          "constant_index": 29,
+          "value": "key"
+        },
+        {
+          "constant_index": 30,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 31,
+          "value": "timer"
+        },
+        {
+          "constant_index": 32,
+          "value": "now"
+        },
+        {
+          "constant_index": 33,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 34,
+          "value": "font"
+        },
+        {
+          "constant_index": 35,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 36,
+          "value": "love"
+        },
+        {
+          "constant_index": 37,
+          "value": " "
+        },
+        {
+          "constant_index": 38,
+          "value": "[\r\n]+"
+        },
+        {
+          "constant_index": 39,
+          "value": "gsub"
+        },
+        {
+          "constant_index": 40,
+          "value": ""
+        },
+        {
+          "constant_index": 41,
+          "value": "tostring"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 25,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/133",
+      "argument_count": 2,
+      "instruction_count": 43,
+      "numeric_constants": [
+        0,
+        2,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 2,
+          "value": "lineStep"
+        },
+        {
+          "constant_index": 3,
+          "value": "offset"
+        },
+        {
+          "constant_index": 4,
+          "value": "min"
+        },
+        {
+          "constant_index": 5,
+          "value": "max"
+        },
+        {
+          "constant_index": 6,
+          "value": "math"
+        },
+        {
+          "constant_index": 7,
+          "value": "manualOffset"
+        },
+        {
+          "constant_index": 8,
+          "value": "overflow"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/135",
+      "argument_count": 8,
+      "instruction_count": 512,
+      "numeric_constants": [
+        1,
+        0.5,
+        0,
+        0.85,
+        1.65,
+        0.01,
+        0.22,
+        0.4,
+        0.9,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "draw"
+        },
+        {
+          "constant_index": 2,
+          "value": "concat"
+        },
+        {
+          "constant_index": 3,
+          "value": "table"
+        },
+        {
+          "constant_index": 4,
+          "value": "intersectScissor"
+        },
+        {
+          "constant_index": 5,
+          "value": "transformPoint"
+        },
+        {
+          "constant_index": 6,
+          "value": "all"
+        },
+        {
+          "constant_index": 7,
+          "value": "push"
+        },
+        {
+          "constant_index": 8,
+          "value": "huge"
+        },
+        {
+          "constant_index": 9,
+          "value": "effectTermColors"
+        },
+        {
+          "constant_index": 10,
+          "value": "termColors"
+        },
+        {
+          "constant_index": 11,
+          "value": "08"
+        },
+        {
+          "constant_index": 12,
+          "value": "getById"
+        },
+        {
+          "constant_index": 13,
+          "value": "src.game.item"
+        },
+        {
+          "constant_index": 14,
+          "value": "require"
+        },
+        {
+          "constant_index": 15,
+          "value": "ko"
+        },
+        {
+          "constant_index": 16,
+          "value": "^08:(%a%a)"
+        },
+        {
+          "constant_index": 17,
+          "value": "^08:"
+        },
+        {
+          "constant_index": 18,
+          "value": "match"
+        },
+        {
+          "constant_index": 20,
+          "value": "outlineColor"
+        },
+        {
+          "constant_index": 22,
+          "value": "numberColor"
+        },
+        {
+          "constant_index": 24,
+          "value": "bodyColor"
+        },
+        {
+          "constant_index": 25,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 26,
+          "value": "lastDraw"
+        },
+        {
+          "constant_index": 27,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 28,
+          "value": "offset"
+        },
+        {
+          "constant_index": 29,
+          "value": "min"
+        },
+        {
+          "constant_index": 30,
+          "value": "speedPxPerSec"
+        },
+        {
+          "constant_index": 31,
+          "value": "rampSec"
+        },
+        {
+          "constant_index": 32,
+          "value": "resetFadeSec"
+        },
+        {
+          "constant_index": 33,
+          "value": "bottomHoldSec"
+        },
+        {
+          "constant_index": 34,
+          "value": "topHoldSec"
+        },
+        {
+          "constant_index": 35,
+          "value": "manualOffset"
+        },
+        {
+          "constant_index": 36,
+          "value": "revealDelay"
+        },
+        {
+          "constant_index": 37,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 38,
+          "value": "overflow"
+        },
+        {
+          "constant_index": 39,
+          "value": "inkBottomPx"
+        },
+        {
+          "constant_index": 40,
+          "value": "contentHeight"
+        },
+        {
+          "constant_index": 41,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 42,
+          "value": "floor"
+        },
+        {
+          "constant_index": 43,
+          "value": "max"
+        },
+        {
+          "constant_index": 44,
+          "value": "math"
+        },
+        {
+          "constant_index": 45,
+          "value": "lineStep"
+        },
+        {
+          "constant_index": 46,
+          "value": "wrap"
+        },
+        {
+          "constant_index": 47,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 48,
+          "value": "(.-)\n"
+        },
+        {
+          "constant_index": 49,
+          "value": "gmatch"
+        },
+        {
+          "constant_index": 50,
+          "value": "\n"
+        },
+        {
+          "constant_index": 51,
+          "value": "units"
+        },
+        {
+          "constant_index": 52,
+          "value": "lines"
+        },
+        {
+          "constant_index": 53,
+          "value": "started"
+        },
+        {
+          "constant_index": 55,
+          "value": "cps"
+        },
+        {
+          "constant_index": 56,
+          "value": "gap"
+        },
+        {
+          "constant_index": 57,
+          "value": "height"
+        },
+        {
+          "constant_index": 58,
+          "value": "width"
+        },
+        {
+          "constant_index": 59,
+          "value": "text"
+        },
+        {
+          "constant_index": 60,
+          "value": "key"
+        },
+        {
+          "constant_index": 61,
+          "value": "typeCharsPerSec"
+        },
+        {
+          "constant_index": 62,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 63,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 64,
+          "value": "timer"
+        },
+        {
+          "constant_index": 65,
+          "value": "now"
+        },
+        {
+          "constant_index": 66,
+          "value": "lineGapPx"
+        },
+        {
+          "constant_index": 67,
+          "value": "scale"
+        },
+        {
+          "constant_index": 68,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 69,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 70,
+          "value": "love"
+        },
+        {
+          "constant_index": 71,
+          "value": "font"
+        },
+        {
+          "constant_index": 72,
+          "value": ""
+        },
+        {
+          "constant_index": 73,
+          "value": "tostring"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 19,
+          "array": [
+            null,
+            0.1294,
+            0.098,
+            0.1333,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 21,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 23,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 54,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/136",
+      "argument_count": 2,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/137",
+      "argument_count": 1,
+      "instruction_count": 39,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "^[%z\u0001-\\xc2-\\xf4][\\x80-\\xbf]*"
+        },
+        {
+          "constant_index": 1,
+          "value": "^%{[%w_%-]+%.png%}"
+        },
+        {
+          "constant_index": 2,
+          "value": "match"
+        },
+        {
+          "constant_index": 3,
+          "value": "sub"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/138",
+      "argument_count": 10,
+      "instruction_count": 336,
+      "numeric_constants": [
+        0.01,
+        1000000,
+        0.5,
+        2,
+        1,
+        0.05,
+        1.15,
+        0.22,
+        4
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "anchor"
+        },
+        {
+          "constant_index": 1,
+          "value": "h"
+        },
+        {
+          "constant_index": 2,
+          "value": "w"
+        },
+        {
+          "constant_index": 3,
+          "value": "y"
+        },
+        {
+          "constant_index": 4,
+          "value": "x"
+        },
+        {
+          "constant_index": 6,
+          "value": "factionId"
+        },
+        {
+          "constant_index": 8,
+          "value": "pop"
+        },
+        {
+          "constant_index": 9,
+          "value": "add"
+        },
+        {
+          "constant_index": 10,
+          "value": "draw"
+        },
+        {
+          "constant_index": 11,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 12,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 13,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 14,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 15,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 16,
+          "value": "all"
+        },
+        {
+          "constant_index": 17,
+          "value": "push"
+        },
+        {
+          "constant_index": 18,
+          "value": "radiusPx"
+        },
+        {
+          "constant_index": 19,
+          "value": "threshold"
+        },
+        {
+          "constant_index": 20,
+          "value": "texelStep"
+        },
+        {
+          "constant_index": 21,
+          "value": "send"
+        },
+        {
+          "constant_index": 23,
+          "value": "outlineColor"
+        },
+        {
+          "constant_index": 24,
+          "value": "randomOption"
+        },
+        {
+          "constant_index": 25,
+          "value": "imprintPanel"
+        },
+        {
+          "constant_index": 26,
+          "value": "inverseTransformPoint"
+        },
+        {
+          "constant_index": 27,
+          "value": "snapVisualScale"
+        },
+        {
+          "constant_index": 28,
+          "value": "shrink_imprint"
+        },
+        {
+          "constant_index": 29,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 30,
+          "value": "min"
+        },
+        {
+          "constant_index": 31,
+          "value": "floor"
+        },
+        {
+          "constant_index": 32,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 33,
+          "value": "abs"
+        },
+        {
+          "constant_index": 34,
+          "value": "max"
+        },
+        {
+          "constant_index": 35,
+          "value": "math"
+        },
+        {
+          "constant_index": 36,
+          "value": "getDPIScale"
+        },
+        {
+          "constant_index": 37,
+          "value": "getCanvas"
+        },
+        {
+          "constant_index": 38,
+          "value": "transformPoint"
+        },
+        {
+          "constant_index": 39,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 40,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 41,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 42,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 43,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 44,
+          "value": "love"
+        },
+        {
+          "constant_index": 45,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 46,
+          "value": "getIconPath"
+        },
+        {
+          "constant_index": 47,
+          "value": "getForChoice"
+        },
+        {
+          "constant_index": 48,
+          "value": "src.data.faction"
+        },
+        {
+          "constant_index": 49,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": [
+            [
+              "source",
+              "classSelectFaction"
+            ]
+          ]
+        },
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 22,
+          "array": [
+            null,
+            0.55,
+            0.48,
+            0.43,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/140",
+      "argument_count": 0,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "    extern vec2 texelStep;      // texture coord offset equal to 1 screen pixel\n    extern vec4 outlineColor;   // RGBA\n    extern float threshold;     // alpha threshold\n    extern float radiusPx;      // outline radius in px (1.0 to 2.0 for sub-pixel logic)\n    vec4 effect(vec4 color, Image tex, vec2 tc, vec2 sc){\n      float a0 = Texel(tex, tc).a;\n      if (a0 <= threshold){\n        vec2 s = texelStep;\n\n        // Layer 1: Immediate cardinal neighbors (1px) -> Always Solid\n        float aL = Texel(tex, tc + vec2(-s.x, 0.0)).a;\n        float aR = Texel(tex, tc + vec2( s.x, 0.0)).a;\n        float aU = Texel(tex, tc + vec2(0.0, -s.y)).a;\n        float aD = Texel(tex, tc + vec2(0.0,  s.y)).a;\n        \n        if (max(max(aL, aR), max(aU, aD)) > threshold) {\n            return outlineColor;\n        }\n\n        // Layer 2: Sub-pixel extension (Hard Cut)\n        // If radius is 1.15, we draw 15% of the 2nd pixel layer solid, then cut off.\n        if (radiusPx > 1.0) {\n            float extra = radiusPx - 1.0;\n            vec2 pos = tc / texelStep;\n            vec2 f = fract(pos); // 0..1 within current texel\n\n            // Left-Left Source (Expanding Right)\n            float aLL = Texel(tex, tc + vec2(-s.x * 2.0, 0.0)).a;\n            if (aLL > threshold && f.x < extra) return outlineColor;\n\n            // Right-Right Source (Expanding Left)\n            float aRR = Texel(tex, tc + vec2( s.x * 2.0, 0.0)).a;\n            if (aRR > threshold && f.x > (1.0 - extra)) return outlineColor;\n\n            // Up-Up Source (Expanding Down)\n            float aUU = Texel(tex, tc + vec2(0.0, -s.y * 2.0)).a;\n            if (aUU > threshold && f.y < extra) return outlineColor;\n\n            // Down-Down Source (Expanding Up)\n            float aDD = Texel(tex, tc + vec2(0.0,  s.y * 2.0)).a;\n            if (aDD > threshold && f.y > (1.0 - extra)) return outlineColor;\n        }\n      }\n      return vec4(0.0);\n    }\n  "
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/141",
+      "argument_count": 4,
+      "instruction_count": 24,
+      "numeric_constants": [
+        0.5,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 1,
+          "value": "frameW"
+        },
+        {
+          "constant_index": 2,
+          "value": "floor"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/143",
+      "argument_count": 2,
+      "instruction_count": 32,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 1,
+          "value": "frameW"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "pixelScaleBase"
+        },
+        {
+          "constant_index": 4,
+          "value": "M"
+        },
+        {
+          "constant_index": 5,
+          "value": "D"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/145",
+      "argument_count": 4,
+      "instruction_count": 186,
+      "numeric_constants": [
+        0.5,
+        1e-06
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "H"
+        },
+        {
+          "constant_index": 1,
+          "value": "A"
+        },
+        {
+          "constant_index": 2,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 3,
+          "value": "D"
+        },
+        {
+          "constant_index": 4,
+          "value": "M"
+        },
+        {
+          "constant_index": 5,
+          "value": "allyShift"
+        },
+        {
+          "constant_index": 6,
+          "value": "isFlameSpirit"
+        },
+        {
+          "constant_index": 7,
+          "value": "S"
+        },
+        {
+          "constant_index": 8,
+          "value": "W"
+        },
+        {
+          "constant_index": 9,
+          "value": "pixelScaleBase"
+        },
+        {
+          "constant_index": 10,
+          "value": "floor"
+        },
+        {
+          "constant_index": 11,
+          "value": "uniformScale"
+        },
+        {
+          "constant_index": 12,
+          "value": "sym"
+        },
+        {
+          "constant_index": 13,
+          "value": "y"
+        },
+        {
+          "constant_index": 14,
+          "value": "x"
+        },
+        {
+          "constant_index": 15,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 16,
+          "value": "max"
+        },
+        {
+          "constant_index": 17,
+          "value": "math"
+        },
+        {
+          "constant_index": 18,
+          "value": "frameW"
+        },
+        {
+          "constant_index": 19,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/147/17",
+      "argument_count": 1,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "subclassKey"
+        },
+        {
+          "constant_index": 1,
+          "value": "subclassName"
+        },
+        {
+          "constant_index": 2,
+          "value": "subclass"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/147",
+      "argument_count": 5,
+      "instruction_count": 153,
+      "numeric_constants": [
+        0.45,
+        0.5,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "magnusSpriteOffset"
+        },
+        {
+          "constant_index": 1,
+          "value": "h"
+        },
+        {
+          "constant_index": 2,
+          "value": "y"
+        },
+        {
+          "constant_index": 3,
+          "value": "floor"
+        },
+        {
+          "constant_index": 4,
+          "value": "w"
+        },
+        {
+          "constant_index": 5,
+          "value": "idle"
+        },
+        {
+          "constant_index": 6,
+          "value": "bounds"
+        },
+        {
+          "constant_index": 7,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 8,
+          "value": "max"
+        },
+        {
+          "constant_index": 9,
+          "value": "math"
+        },
+        {
+          "constant_index": 10,
+          "value": "frameW"
+        },
+        {
+          "constant_index": 11,
+          "value": "x"
+        },
+        {
+          "constant_index": 12,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 13,
+          "value": "hold"
+        },
+        {
+          "constant_index": 14,
+          "value": "t"
+        },
+        {
+          "constant_index": 15,
+          "value": "promoteVis"
+        },
+        {
+          "constant_index": 16,
+          "value": "마그누스"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/149",
+      "argument_count": 3,
+      "instruction_count": 36,
+      "numeric_constants": [
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "abs"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "frameW"
+        },
+        {
+          "constant_index": 3,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 4,
+          "value": "idleFootX"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/151",
+      "argument_count": 3,
+      "instruction_count": 153,
+      "numeric_constants": [
+        0.66,
+        32,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "x"
+        },
+        {
+          "constant_index": 1,
+          "value": "floor"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "facing"
+        },
+        {
+          "constant_index": 5,
+          "value": "allyTransform"
+        },
+        {
+          "constant_index": 6,
+          "value": "allySize32"
+        },
+        {
+          "constant_index": 7,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 8,
+          "value": "battle"
+        },
+        {
+          "constant_index": 9,
+          "value": "ui"
+        },
+        {
+          "constant_index": 10,
+          "value": "h"
+        },
+        {
+          "constant_index": 11,
+          "value": "y"
+        },
+        {
+          "constant_index": 12,
+          "value": "idle"
+        },
+        {
+          "constant_index": 13,
+          "value": "bounds"
+        },
+        {
+          "constant_index": 14,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 15,
+          "value": "frameW"
+        },
+        {
+          "constant_index": 16,
+          "value": "idleFootX"
+        },
+        {
+          "constant_index": 17,
+          "value": "getUnitAssetForEnemy"
+        },
+        {
+          "constant_index": 18,
+          "value": "getUnitAssetForAlly"
+        },
+        {
+          "constant_index": 19,
+          "value": "ally"
+        },
+        {
+          "constant_index": 20,
+          "value": "side"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/153",
+      "argument_count": 1,
+      "instruction_count": 21,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "foot"
+        },
+        {
+          "constant_index": 1,
+          "value": "idleFootScan"
+        },
+        {
+          "constant_index": 2,
+          "value": "reviewedFootX"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/155/1",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "r"
+        },
+        {
+          "constant_index": 1,
+          "value": "l"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/155/8",
+      "argument_count": 2,
+      "instruction_count": 21,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/155",
+      "argument_count": 1,
+      "instruction_count": 386,
+      "numeric_constants": [
+        1,
+        0.5,
+        2,
+        0.2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "mid"
+        },
+        {
+          "constant_index": 3,
+          "value": "floor"
+        },
+        {
+          "constant_index": 4,
+          "value": "sort"
+        },
+        {
+          "constant_index": 5,
+          "value": "table"
+        },
+        {
+          "constant_index": 6,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 7,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 9,
+          "value": "lowest"
+        },
+        {
+          "constant_index": 10,
+          "value": "row"
+        },
+        {
+          "constant_index": 11,
+          "value": "foot"
+        },
+        {
+          "constant_index": 13,
+          "value": "_idleFootCenterX"
+        },
+        {
+          "constant_index": 14,
+          "value": "max"
+        },
+        {
+          "constant_index": 15,
+          "value": "min"
+        },
+        {
+          "constant_index": 16,
+          "value": "math"
+        },
+        {
+          "constant_index": 17,
+          "value": "r"
+        },
+        {
+          "constant_index": 18,
+          "value": "l"
+        },
+        {
+          "constant_index": 20,
+          "value": "select"
+        },
+        {
+          "constant_index": 21,
+          "value": "getPixel"
+        },
+        {
+          "constant_index": 22,
+          "value": "getViewport"
+        },
+        {
+          "constant_index": 23,
+          "value": "imageData"
+        },
+        {
+          "constant_index": 24,
+          "value": "idle"
+        },
+        {
+          "constant_index": 25,
+          "value": "quads"
+        },
+        {
+          "constant_index": 26,
+          "value": "_idleFootScan"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 12,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 19,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/157",
+      "argument_count": 7,
+      "instruction_count": 232,
+      "numeric_constants": [
+        1e-06,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "yOffsetPx"
+        },
+        {
+          "constant_index": 1,
+          "value": "cavalryOffsetXPx"
+        },
+        {
+          "constant_index": 2,
+          "value": "footOffsetX"
+        },
+        {
+          "constant_index": 3,
+          "value": "shadowFromIdleFoot"
+        },
+        {
+          "constant_index": 4,
+          "value": "h"
+        },
+        {
+          "constant_index": 5,
+          "value": "y"
+        },
+        {
+          "constant_index": 6,
+          "value": "w"
+        },
+        {
+          "constant_index": 7,
+          "value": "x"
+        },
+        {
+          "constant_index": 8,
+          "value": "magnusSpriteOffset"
+        },
+        {
+          "constant_index": 9,
+          "value": "idle"
+        },
+        {
+          "constant_index": 10,
+          "value": "bounds"
+        },
+        {
+          "constant_index": 11,
+          "value": "H"
+        },
+        {
+          "constant_index": 12,
+          "value": "D"
+        },
+        {
+          "constant_index": 13,
+          "value": "M"
+        },
+        {
+          "constant_index": 14,
+          "value": "S"
+        },
+        {
+          "constant_index": 15,
+          "value": "A"
+        },
+        {
+          "constant_index": 16,
+          "value": "W"
+        },
+        {
+          "constant_index": 17,
+          "value": "ENEMY_"
+        },
+        {
+          "constant_index": 18,
+          "value": "find"
+        },
+        {
+          "constant_index": 19,
+          "value": "string"
+        },
+        {
+          "constant_index": 20,
+          "value": "type"
+        },
+        {
+          "constant_index": 21,
+          "value": "floor"
+        },
+        {
+          "constant_index": 22,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 23,
+          "value": "quantized"
+        },
+        {
+          "constant_index": 24,
+          "value": "uniformScale"
+        },
+        {
+          "constant_index": 25,
+          "value": "allySize32"
+        },
+        {
+          "constant_index": 26,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 27,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 28,
+          "value": "max"
+        },
+        {
+          "constant_index": 29,
+          "value": "math"
+        },
+        {
+          "constant_index": 30,
+          "value": "frameW"
+        },
+        {
+          "constant_index": 31,
+          "value": "shadow"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/159",
+      "argument_count": 5,
+      "instruction_count": 50,
+      "numeric_constants": [
+        32,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 1,
+          "value": "h"
+        },
+        {
+          "constant_index": 2,
+          "value": "y"
+        },
+        {
+          "constant_index": 3,
+          "value": "idle"
+        },
+        {
+          "constant_index": 4,
+          "value": "bounds"
+        },
+        {
+          "constant_index": 5,
+          "value": "floor"
+        },
+        {
+          "constant_index": 6,
+          "value": "min"
+        },
+        {
+          "constant_index": 7,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/161",
+      "argument_count": 2,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 1,
+          "value": "pixelScaleBase"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/163",
+      "argument_count": 0,
+      "instruction_count": 167,
+      "numeric_constants": [
+        0.5,
+        2,
+        0.025,
+        0.03,
+        0.07,
+        0.86,
+        0.44,
+        0.48,
+        0.7,
+        0.95,
+        1,
+        0.8,
+        0.92,
+        0.94
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "print"
+        },
+        {
+          "constant_index": 2,
+          "value": "line"
+        },
+        {
+          "constant_index": 3,
+          "value": "fill"
+        },
+        {
+          "constant_index": 4,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 5,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 6,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 7,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 8,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 9,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 10,
+          "value": "setStencilTest"
+        },
+        {
+          "constant_index": 11,
+          "value": "setScissor"
+        },
+        {
+          "constant_index": 12,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 13,
+          "value": "origin"
+        },
+        {
+          "constant_index": 14,
+          "value": "setCanvas"
+        },
+        {
+          "constant_index": 15,
+          "value": "all"
+        },
+        {
+          "constant_index": 16,
+          "value": "push"
+        },
+        {
+          "constant_index": 17,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 18,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 19,
+          "value": "format"
+        },
+        {
+          "constant_index": 20,
+          "value": "FPS: %d"
+        },
+        {
+          "constant_index": 21,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 22,
+          "value": "floor"
+        },
+        {
+          "constant_index": 23,
+          "value": "max"
+        },
+        {
+          "constant_index": 24,
+          "value": "math"
+        },
+        {
+          "constant_index": 25,
+          "value": "getFPS"
+        },
+        {
+          "constant_index": 26,
+          "value": "timer"
+        },
+        {
+          "constant_index": 27,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 28,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/164",
+      "argument_count": 0,
+      "instruction_count": 44,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 1,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 2,
+          "value": "newFont"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/165",
+      "argument_count": 3,
+      "instruction_count": 185,
+      "numeric_constants": [
+        0.05
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "alphaThreshold"
+        },
+        {
+          "constant_index": 1,
+          "value": "hitSlopPx"
+        },
+        {
+          "constant_index": 2,
+          "value": "restCY"
+        },
+        {
+          "constant_index": 3,
+          "value": "restCX"
+        },
+        {
+          "constant_index": 4,
+          "value": "cy"
+        },
+        {
+          "constant_index": 5,
+          "value": "cx"
+        },
+        {
+          "constant_index": 6,
+          "value": "baseSy"
+        },
+        {
+          "constant_index": 7,
+          "value": "sy"
+        },
+        {
+          "constant_index": 8,
+          "value": "baseSx"
+        },
+        {
+          "constant_index": 9,
+          "value": "sx"
+        },
+        {
+          "constant_index": 10,
+          "value": "abs"
+        },
+        {
+          "constant_index": 11,
+          "value": "ih"
+        },
+        {
+          "constant_index": 12,
+          "value": "iw"
+        },
+        {
+          "constant_index": 13,
+          "value": "max"
+        },
+        {
+          "constant_index": 14,
+          "value": "math"
+        },
+        {
+          "constant_index": 15,
+          "value": "idata"
+        },
+        {
+          "constant_index": 16,
+          "value": "getBounds"
+        },
+        {
+          "constant_index": 17,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/167",
+      "argument_count": 11,
+      "instruction_count": 123,
+      "numeric_constants": [
+        0.5,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "floor"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 4,
+          "value": "math"
+        },
+        {
+          "constant_index": 5,
+          "value": "function"
+        },
+        {
+          "constant_index": 6,
+          "value": "getPixel"
+        },
+        {
+          "constant_index": 7,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/168",
+      "argument_count": 1,
+      "instruction_count": 150,
+      "numeric_constants": [
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "hitSlopPx"
+        },
+        {
+          "constant_index": 2,
+          "value": "restCY"
+        },
+        {
+          "constant_index": 3,
+          "value": "restCX"
+        },
+        {
+          "constant_index": 4,
+          "value": "cy"
+        },
+        {
+          "constant_index": 5,
+          "value": "cx"
+        },
+        {
+          "constant_index": 6,
+          "value": "baseSy"
+        },
+        {
+          "constant_index": 7,
+          "value": "baseSx"
+        },
+        {
+          "constant_index": 8,
+          "value": "sy"
+        },
+        {
+          "constant_index": 9,
+          "value": "sx"
+        },
+        {
+          "constant_index": 10,
+          "value": "abs"
+        },
+        {
+          "constant_index": 11,
+          "value": "ih"
+        },
+        {
+          "constant_index": 12,
+          "value": "iw"
+        },
+        {
+          "constant_index": 13,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 14,
+          "value": "max"
+        },
+        {
+          "constant_index": 15,
+          "value": "math"
+        },
+        {
+          "constant_index": 16,
+          "value": "hidden"
+        },
+        {
+          "constant_index": 17,
+          "value": "table"
+        },
+        {
+          "constant_index": 18,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/170",
+      "argument_count": 0,
+      "instruction_count": 41,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 1,
+          "value": "release"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/172/3",
+      "argument_count": 0,
+      "instruction_count": 64,
+      "numeric_constants": [
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 1,
+          "value": "floor"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "draw"
+        },
+        {
+          "constant_index": 4,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 5,
+          "value": "premultiplied"
+        },
+        {
+          "constant_index": 6,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 7,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 8,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 9,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        },
+        {
+          "constant_index": 11,
+          "value": "h"
+        },
+        {
+          "constant_index": 12,
+          "value": "w"
+        },
+        {
+          "constant_index": 13,
+          "value": "y"
+        },
+        {
+          "constant_index": 14,
+          "value": "x"
+        },
+        {
+          "constant_index": 15,
+          "value": "setViewport"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/172",
+      "argument_count": 7,
+      "instruction_count": 106,
+      "numeric_constants": [
+        1e-06
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 1,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 2,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 4,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 5,
+          "value": "min"
+        },
+        {
+          "constant_index": 6,
+          "value": "max"
+        },
+        {
+          "constant_index": 7,
+          "value": "getColor"
+        },
+        {
+          "constant_index": 8,
+          "value": "getBlendMode"
+        },
+        {
+          "constant_index": 9,
+          "value": "getShader"
+        },
+        {
+          "constant_index": 10,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 11,
+          "value": "love"
+        },
+        {
+          "constant_index": 12,
+          "value": "scale"
+        },
+        {
+          "constant_index": 13,
+          "value": "abs"
+        },
+        {
+          "constant_index": 14,
+          "value": "math"
+        },
+        {
+          "constant_index": 15,
+          "value": "font"
+        },
+        {
+          "constant_index": 16,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 17,
+          "value": "text"
+        },
+        {
+          "constant_index": 18,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/173",
+      "argument_count": 0,
+      "instruction_count": 5,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "prepare"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/175/1",
+      "argument_count": 0,
+      "instruction_count": 67,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ready"
+        },
+        {
+          "constant_index": 1,
+          "value": "clear"
+        },
+        {
+          "constant_index": 2,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 3,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 4,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 5,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 6,
+          "value": "setColorMask"
+        },
+        {
+          "constant_index": 7,
+          "value": "setDepthMode"
+        },
+        {
+          "constant_index": 8,
+          "value": "setStencilTest"
+        },
+        {
+          "constant_index": 9,
+          "value": "setScissor"
+        },
+        {
+          "constant_index": 10,
+          "value": "origin"
+        },
+        {
+          "constant_index": 11,
+          "value": "setCanvas"
+        },
+        {
+          "constant_index": 12,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 13,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/175",
+      "argument_count": 2,
+      "instruction_count": 61,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 2,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 3,
+          "value": "all"
+        },
+        {
+          "constant_index": 4,
+          "value": "push"
+        },
+        {
+          "constant_index": 5,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 6,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/177",
+      "argument_count": 1,
+      "instruction_count": 155,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fillB"
+        },
+        {
+          "constant_index": 1,
+          "value": "fillG"
+        },
+        {
+          "constant_index": 2,
+          "value": "fillR"
+        },
+        {
+          "constant_index": 3,
+          "value": "function"
+        },
+        {
+          "constant_index": 4,
+          "value": "type"
+        },
+        {
+          "constant_index": 5,
+          "value": "__slotPrintPixelTextTinted"
+        },
+        {
+          "constant_index": 6,
+          "value": "_G"
+        },
+        {
+          "constant_index": 7,
+          "value": "rawget"
+        },
+        {
+          "constant_index": 8,
+          "value": "text"
+        },
+        {
+          "constant_index": 9,
+          "value": "print"
+        },
+        {
+          "constant_index": 10,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 11,
+          "value": "font"
+        },
+        {
+          "constant_index": 12,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 13,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 14,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 15,
+          "value": "love"
+        },
+        {
+          "constant_index": 16,
+          "value": "outline"
+        },
+        {
+          "constant_index": 17,
+          "value": "scale"
+        },
+        {
+          "constant_index": 18,
+          "value": "y"
+        },
+        {
+          "constant_index": 19,
+          "value": "x"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/178",
+      "argument_count": 0,
+      "instruction_count": 92,
+      "numeric_constants": [
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "key"
+        },
+        {
+          "constant_index": 1,
+          "value": "ready"
+        },
+        {
+          "constant_index": 2,
+          "value": "h"
+        },
+        {
+          "constant_index": 3,
+          "value": "w"
+        },
+        {
+          "constant_index": 4,
+          "value": "y"
+        },
+        {
+          "constant_index": 5,
+          "value": "x"
+        },
+        {
+          "constant_index": 6,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 7,
+          "value": "scale"
+        },
+        {
+          "constant_index": 8,
+          "value": "text"
+        },
+        {
+          "constant_index": 9,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 10,
+          "value": "font"
+        },
+        {
+          "constant_index": 11,
+          "value": "ceil"
+        },
+        {
+          "constant_index": 12,
+          "value": "max"
+        },
+        {
+          "constant_index": 13,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/179",
+      "argument_count": 2,
+      "instruction_count": 128,
+      "numeric_constants": [
+        0.5,
+        0.6274509803921569,
+        0.9019607843137255,
+        0.42,
+        0.37,
+        0.52
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "enemies"
+        },
+        {
+          "constant_index": 1,
+          "value": "allies"
+        },
+        {
+          "constant_index": 2,
+          "value": "popupScale"
+        },
+        {
+          "constant_index": 3,
+          "value": "_hpPopups"
+        },
+        {
+          "constant_index": 4,
+          "value": "baseHP"
+        },
+        {
+          "constant_index": 5,
+          "value": "_jungsuPopups"
+        },
+        {
+          "constant_index": 7,
+          "value": "color"
+        },
+        {
+          "constant_index": 8,
+          "value": "heartNumber"
+        },
+        {
+          "constant_index": 9,
+          "value": "jungsuDisplay"
+        },
+        {
+          "constant_index": 10,
+          "value": "_goldPopups"
+        },
+        {
+          "constant_index": 11,
+          "value": "floor"
+        },
+        {
+          "constant_index": 12,
+          "value": "max"
+        },
+        {
+          "constant_index": 13,
+          "value": "math"
+        },
+        {
+          "constant_index": 14,
+          "value": "integerScale"
+        },
+        {
+          "constant_index": 15,
+          "value": "scale"
+        },
+        {
+          "constant_index": 16,
+          "value": "enabled"
+        },
+        {
+          "constant_index": 17,
+          "value": "goldDisplay"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            1,
+            0.5215686275,
+            0.5215686275,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/180",
+      "argument_count": 2,
+      "instruction_count": 185,
+      "numeric_constants": [
+        0.0001,
+        0.24,
+        2,
+        3,
+        0.64,
+        0.36,
+        0.3,
+        0.48,
+        0.26,
+        0.14,
+        0.86,
+        0.25,
+        0.6,
+        0.2,
+        0.19,
+        0.15,
+        0.38,
+        0.33,
+        0.001,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "enemy"
+        },
+        {
+          "constant_index": 1,
+          "value": "side"
+        },
+        {
+          "constant_index": 2,
+          "value": "enemySkill"
+        },
+        {
+          "constant_index": 3,
+          "value": "heal"
+        },
+        {
+          "constant_index": 4,
+          "value": "kind"
+        },
+        {
+          "constant_index": 5,
+          "value": "!"
+        },
+        {
+          "constant_index": 6,
+          "value": "amt"
+        },
+        {
+          "constant_index": 7,
+          "value": "abs"
+        },
+        {
+          "constant_index": 8,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 9,
+          "value": "skillBig"
+        },
+        {
+          "constant_index": 10,
+          "value": "t"
+        },
+        {
+          "constant_index": 11,
+          "value": "min"
+        },
+        {
+          "constant_index": 12,
+          "value": "dur"
+        },
+        {
+          "constant_index": 13,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 14,
+          "value": "max"
+        },
+        {
+          "constant_index": 15,
+          "value": "math"
+        },
+        {
+          "constant_index": 16,
+          "value": "damagePopups"
+        },
+        {
+          "constant_index": 17,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/181",
+      "argument_count": 9,
+      "instruction_count": 56,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "abs"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 3,
+          "value": "-"
+        },
+        {
+          "constant_index": 4,
+          "value": "+"
+        },
+        {
+          "constant_index": 5,
+          "value": "amt"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/182",
+      "argument_count": 8,
+      "instruction_count": 70,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ready"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "outline"
+        },
+        {
+          "constant_index": 5,
+          "value": "fillB"
+        },
+        {
+          "constant_index": 6,
+          "value": "fillG"
+        },
+        {
+          "constant_index": 7,
+          "value": "fillR"
+        },
+        {
+          "constant_index": 8,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 9,
+          "value": "scale"
+        },
+        {
+          "constant_index": 10,
+          "value": "font"
+        },
+        {
+          "constant_index": 11,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 12,
+          "value": "text"
+        },
+        {
+          "constant_index": 13,
+          "value": "key"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/183",
+      "argument_count": 1,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "font"
+        },
+        {
+          "constant_index": 1,
+          "value": "path"
+        },
+        {
+          "constant_index": 2,
+          "value": "fontInfo"
+        },
+        {
+          "constant_index": 3,
+          "value": "src/data/font/Galmuri9W.fnt"
+        },
+        {
+          "constant_index": 4,
+          "value": "resolve"
+        },
+        {
+          "constant_index": 5,
+          "value": "combatNumberFont"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/184",
+      "argument_count": 0,
+      "instruction_count": 58,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "release"
+        },
+        {
+          "constant_index": 1,
+          "value": "newQuad"
+        },
+        {
+          "constant_index": 2,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 3,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 5,
+          "value": "newCanvas"
+        },
+        {
+          "constant_index": 6,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 7,
+          "value": "love"
+        },
+        {
+          "constant_index": 8,
+          "value": "pcall"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": [
+            [
+              "dpiscale",
+              1
+            ],
+            [
+              "msaa",
+              0
+            ],
+            [
+              "format",
+              "rgba8"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/185",
+      "argument_count": 0,
+      "instruction_count": 37,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 1,
+          "value": "release"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/186",
+      "argument_count": 1,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ready"
+        },
+        {
+          "constant_index": 1,
+          "value": "font"
+        },
+        {
+          "constant_index": 2,
+          "value": "text"
+        },
+        {
+          "constant_index": 3,
+          "value": "key"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/187",
+      "argument_count": 0,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/191",
+      "argument_count": 7,
+      "instruction_count": 188,
+      "numeric_constants": [
+        1,
+        0.62,
+        0.16,
+        0.73,
+        0.72,
+        -3,
+        0.3,
+        0.14,
+        0.57,
+        1.45,
+        5,
+        1.5,
+        0.5,
+        0.46,
+        0.2,
+        0.88,
+        0.54,
+        0.08,
+        1.08
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 2,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 3,
+          "value": "print"
+        },
+        {
+          "constant_index": 4,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 5,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 6,
+          "value": "scale"
+        },
+        {
+          "constant_index": 7,
+          "value": "translate"
+        },
+        {
+          "constant_index": 8,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 9,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 10,
+          "value": "all"
+        },
+        {
+          "constant_index": 11,
+          "value": "push"
+        },
+        {
+          "constant_index": 12,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 13,
+          "value": "love"
+        },
+        {
+          "constant_index": 14,
+          "value": "pi"
+        },
+        {
+          "constant_index": 15,
+          "value": "sin"
+        },
+        {
+          "constant_index": 16,
+          "value": "floor"
+        },
+        {
+          "constant_index": 17,
+          "value": "min"
+        },
+        {
+          "constant_index": 18,
+          "value": "max"
+        },
+        {
+          "constant_index": 19,
+          "value": "math"
+        },
+        {
+          "constant_index": 20,
+          "value": "displayed"
+        },
+        {
+          "constant_index": 21,
+          "value": "started"
+        },
+        {
+          "constant_index": 22,
+          "value": "previous"
+        },
+        {
+          "constant_index": 23,
+          "value": "value"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 24,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/195",
+      "argument_count": 1,
+      "instruction_count": 55,
+      "numeric_constants": [
+        0.28,
+        0.18,
+        0.82,
+        1,
+        2,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "damageSerial"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "damageT"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/197",
+      "argument_count": 1,
+      "instruction_count": 43,
+      "numeric_constants": [
+        0.09,
+        -32,
+        2,
+        0,
+        0.18,
+        1,
+        1.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "serial"
+        },
+        {
+          "constant_index": 1,
+          "value": "exp"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "impactT"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/199",
+      "argument_count": 3,
+      "instruction_count": 46,
+      "numeric_constants": [
+        0.5,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "damageSerial"
+        },
+        {
+          "constant_index": 1,
+          "value": "damageT"
+        },
+        {
+          "constant_index": 2,
+          "value": "serial"
+        },
+        {
+          "constant_index": 3,
+          "value": "impactT"
+        },
+        {
+          "constant_index": 4,
+          "value": "value"
+        },
+        {
+          "constant_index": 5,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 6,
+          "value": "floor"
+        },
+        {
+          "constant_index": 7,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/201",
+      "argument_count": 2,
+      "instruction_count": 107,
+      "numeric_constants": [
+        0.035,
+        1,
+        0.28,
+        2,
+        0.03,
+        1.15
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "play"
+        },
+        {
+          "constant_index": 1,
+          "value": "serial"
+        },
+        {
+          "constant_index": 2,
+          "value": "setPitch"
+        },
+        {
+          "constant_index": 3,
+          "value": "setVolume"
+        },
+        {
+          "constant_index": 4,
+          "value": "sfxVolume"
+        },
+        {
+          "constant_index": 5,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 6,
+          "value": "isPlaying"
+        },
+        {
+          "constant_index": 7,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 8,
+          "value": "sounds"
+        },
+        {
+          "constant_index": 9,
+          "value": "clone"
+        },
+        {
+          "constant_index": 10,
+          "value": "buttonHover"
+        },
+        {
+          "constant_index": 11,
+          "value": "audio"
+        },
+        {
+          "constant_index": 12,
+          "value": "loadedAssets"
+        },
+        {
+          "constant_index": 13,
+          "value": "_G"
+        },
+        {
+          "constant_index": 14,
+          "value": "rawget"
+        },
+        {
+          "constant_index": 15,
+          "value": "lastSoundT"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/202",
+      "argument_count": 0,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 1,
+          "value": "timer"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/203",
+      "argument_count": 1,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "drawGrid"
+        },
+        {
+          "constant_index": 1,
+          "value": "drawFill"
+        },
+        {
+          "constant_index": 2,
+          "value": "drawTrack"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/204",
+      "argument_count": 1,
+      "instruction_count": 160,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fill"
+        },
+        {
+          "constant_index": 1,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 2,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "alphaMul"
+        },
+        {
+          "constant_index": 6,
+          "value": "cellTintColor"
+        },
+        {
+          "constant_index": 8,
+          "value": "gridColor"
+        },
+        {
+          "constant_index": 9,
+          "value": "h"
+        },
+        {
+          "constant_index": 10,
+          "value": "w"
+        },
+        {
+          "constant_index": 11,
+          "value": "y"
+        },
+        {
+          "constant_index": 12,
+          "value": "x"
+        },
+        {
+          "constant_index": 13,
+          "value": "steps"
+        },
+        {
+          "constant_index": 14,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 15,
+          "value": "floor"
+        },
+        {
+          "constant_index": 16,
+          "value": "max"
+        },
+        {
+          "constant_index": 17,
+          "value": "math"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            0,
+            0,
+            0,
+            0.15
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/206",
+      "argument_count": 1,
+      "instruction_count": 274,
+      "numeric_constants": [
+        0.16,
+        2.4,
+        2,
+        0.5,
+        1.05,
+        0.7,
+        0.6
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "exp"
+        },
+        {
+          "constant_index": 1,
+          "value": "scale"
+        },
+        {
+          "constant_index": 2,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 3,
+          "value": "add"
+        },
+        {
+          "constant_index": 4,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 5,
+          "value": "getBlendMode"
+        },
+        {
+          "constant_index": 6,
+          "value": "pi"
+        },
+        {
+          "constant_index": 7,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 8,
+          "value": "timer"
+        },
+        {
+          "constant_index": 9,
+          "value": "sin"
+        },
+        {
+          "constant_index": 10,
+          "value": "softness"
+        },
+        {
+          "constant_index": 11,
+          "value": "layers"
+        },
+        {
+          "constant_index": 12,
+          "value": "floor"
+        },
+        {
+          "constant_index": 13,
+          "value": "expand"
+        },
+        {
+          "constant_index": 14,
+          "value": "pulseHz"
+        },
+        {
+          "constant_index": 15,
+          "value": "pulseAmp"
+        },
+        {
+          "constant_index": 16,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 17,
+          "value": "previewColor"
+        },
+        {
+          "constant_index": 18,
+          "value": "color"
+        },
+        {
+          "constant_index": 19,
+          "value": "bloomProgress"
+        },
+        {
+          "constant_index": 20,
+          "value": "enabled"
+        },
+        {
+          "constant_index": 21,
+          "value": "bloom"
+        },
+        {
+          "constant_index": 22,
+          "value": "fill"
+        },
+        {
+          "constant_index": 23,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 24,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 25,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 26,
+          "value": "love"
+        },
+        {
+          "constant_index": 27,
+          "value": "alphaMul"
+        },
+        {
+          "constant_index": 29,
+          "value": "fillColor"
+        },
+        {
+          "constant_index": 30,
+          "value": "progress"
+        },
+        {
+          "constant_index": 31,
+          "value": "h"
+        },
+        {
+          "constant_index": 32,
+          "value": "w"
+        },
+        {
+          "constant_index": 33,
+          "value": "max"
+        },
+        {
+          "constant_index": 34,
+          "value": "math"
+        },
+        {
+          "constant_index": 35,
+          "value": "y"
+        },
+        {
+          "constant_index": 36,
+          "value": "x"
+        },
+        {
+          "constant_index": 37,
+          "value": "tonumber"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 28,
+          "array": [
+            null,
+            0.2,
+            0.8,
+            0.4,
+            0.95
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/208",
+      "argument_count": 1,
+      "instruction_count": 69,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "h"
+        },
+        {
+          "constant_index": 1,
+          "value": "w"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "y"
+        },
+        {
+          "constant_index": 5,
+          "value": "x"
+        },
+        {
+          "constant_index": 6,
+          "value": "fill"
+        },
+        {
+          "constant_index": 7,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 8,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 9,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        },
+        {
+          "constant_index": 11,
+          "value": "alphaMul"
+        },
+        {
+          "constant_index": 12,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 14,
+          "value": "bgColor"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 13,
+          "array": [
+            null,
+            0.05,
+            0.05,
+            0.05,
+            0.85
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/210",
+      "argument_count": 1,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/211",
+      "argument_count": 8,
+      "instruction_count": 96,
+      "numeric_constants": [
+        0.5,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "draw"
+        },
+        {
+          "constant_index": 3,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 4,
+          "value": "table"
+        },
+        {
+          "constant_index": 5,
+          "value": "type"
+        },
+        {
+          "constant_index": 6,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 7,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 8,
+          "value": "getBlendMode"
+        },
+        {
+          "constant_index": 9,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        },
+        {
+          "constant_index": 11,
+          "value": "get"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/213",
+      "argument_count": 3,
+      "instruction_count": 44,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/215",
+      "argument_count": 3,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "p"
+        },
+        {
+          "constant_index": 1,
+          "value": "x"
+        },
+        {
+          "constant_index": 2,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/216",
+      "argument_count": 3,
+      "instruction_count": 85,
+      "numeric_constants": [
+        1,
+        0.5,
+        0.62,
+        2,
+        0.36
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "setPixel"
+        },
+        {
+          "constant_index": 5,
+          "value": "abs"
+        },
+        {
+          "constant_index": 6,
+          "value": "pow"
+        },
+        {
+          "constant_index": 7,
+          "value": "max"
+        },
+        {
+          "constant_index": 8,
+          "value": "math"
+        },
+        {
+          "constant_index": 9,
+          "value": "newImageData"
+        },
+        {
+          "constant_index": 10,
+          "value": "image"
+        },
+        {
+          "constant_index": 11,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/217",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 413,
+      "numeric_constants": [
+        0.95,
+        0.45,
+        0.7
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fps_counter"
+        },
+        {
+          "constant_index": 1,
+          "value": "core_inventory_hit"
+        },
+        {
+          "constant_index": 2,
+          "value": "popup_text"
+        },
+        {
+          "constant_index": 3,
+          "value": "count_impact"
+        },
+        {
+          "constant_index": 4,
+          "value": "progress_bar"
+        },
+        {
+          "constant_index": 5,
+          "value": "shadow"
+        },
+        {
+          "constant_index": 6,
+          "value": "sprite_anchor"
+        },
+        {
+          "constant_index": 7,
+          "value": "faction_badge"
+        },
+        {
+          "constant_index": 8,
+          "value": "scrolling_text"
+        },
+        {
+          "constant_index": 9,
+          "value": "item_target_badge"
+        },
+        {
+          "constant_index": 10,
+          "value": "vertical_gradient"
+        },
+        {
+          "constant_index": 11,
+          "value": "text_color"
+        },
+        {
+          "constant_index": 12,
+          "value": "text_wrap"
+        },
+        {
+          "constant_index": 13,
+          "value": "item_panel_style"
+        },
+        {
+          "constant_index": 14,
+          "value": "unit_name_sweep"
+        },
+        {
+          "constant_index": 15,
+          "value": "awakening_star"
+        },
+        {
+          "constant_index": 16,
+          "value": "panel_hover_motion"
+        },
+        {
+          "constant_index": 17,
+          "value": "shop_funds"
+        },
+        {
+          "constant_index": 18,
+          "value": "title_plaque"
+        },
+        {
+          "constant_index": 19,
+          "value": "core_button"
+        },
+        {
+          "constant_index": 20,
+          "value": "text_fit"
+        },
+        {
+          "constant_index": 22,
+          "value": "PAPER_W"
+        },
+        {
+          "constant_index": 23,
+          "value": "PAPER_X"
+        },
+        {
+          "constant_index": 29,
+          "value": "extraFor"
+        },
+        {
+          "constant_index": 31,
+          "value": "sourceX"
+        },
+        {
+          "constant_index": 35,
+          "value": "upper"
+        },
+        {
+          "constant_index": 40,
+          "value": "drawBlock"
+        },
+        {
+          "constant_index": 42,
+          "value": "fitBlock"
+        },
+        {
+          "constant_index": 45,
+          "value": "fit"
+        },
+        {
+          "constant_index": 50,
+          "value": "­"
+        },
+        {
+          "constant_index": 52,
+          "value": "smallFont"
+        },
+        {
+          "constant_index": 55,
+          "value": "drawLabel"
+        },
+        {
+          "constant_index": 57,
+          "value": "counter"
+        },
+        {
+          "constant_index": 60,
+          "value": "setPriceColor"
+        },
+        {
+          "constant_index": 62,
+          "value": "deny"
+        },
+        {
+          "constant_index": 67,
+          "value": "isShort"
+        },
+        {
+          "constant_index": 69,
+          "value": "balance"
+        },
+        {
+          "constant_index": 72,
+          "value": "appear"
+        },
+        {
+          "constant_index": 74,
+          "value": "shift"
+        },
+        {
+          "constant_index": 76,
+          "value": "step"
+        },
+        {
+          "constant_index": 93,
+          "value": "mask"
+        },
+        {
+          "constant_index": 99,
+          "value": "applyShadow"
+        },
+        {
+          "constant_index": 101,
+          "value": "apply"
+        },
+        {
+          "constant_index": 103,
+          "value": "loadShadows"
+        },
+        {
+          "constant_index": 104,
+          "value": "shadows"
+        },
+        {
+          "constant_index": 105,
+          "value": "stone"
+        },
+        {
+          "constant_index": 108,
+          "value": "L"
+        },
+        {
+          "constant_index": 111,
+          "value": "R"
+        },
+        {
+          "constant_index": 114,
+          "value": "U"
+        },
+        {
+          "constant_index": 118,
+          "value": "palettes"
+        },
+        {
+          "constant_index": 120,
+          "value": "drawTerms"
+        },
+        {
+          "constant_index": 122,
+          "value": "wrap"
+        },
+        {
+          "constant_index": 124,
+          "value": "splitUnits"
+        },
+        {
+          "constant_index": 125,
+          "value": "([{（［｛〈《「『【〔〖〘〚‘“«"
+        },
+        {
+          "constant_index": 126,
+          "value": "gmatch"
+        },
+        {
+          "constant_index": 127,
+          "value": ".。,，、!！?？;；:：%％‰)]}）］｝〉》」』】〕〗〙〛’”»…"
+        },
+        {
+          "constant_index": 128,
+          "value": "[%z\u0001-\\xc2-\\xf4][\\x80-\\xbf]*"
+        },
+        {
+          "constant_index": 132,
+          "value": "drawHorizontal"
+        },
+        {
+          "constant_index": 134,
+          "value": "wheel"
+        },
+        {
+          "constant_index": 139,
+          "value": "drawChoice"
+        },
+        {
+          "constant_index": 142,
+          "value": "rosterOffset"
+        },
+        {
+          "constant_index": 144,
+          "value": "quantized"
+        },
+        {
+          "constant_index": 146,
+          "value": "allyTransform"
+        },
+        {
+          "constant_index": 148,
+          "value": "allyShift"
+        },
+        {
+          "constant_index": 150,
+          "value": "footOffsetX"
+        },
+        {
+          "constant_index": 152,
+          "value": "idleMark"
+        },
+        {
+          "constant_index": 154,
+          "value": "idleFootX"
+        },
+        {
+          "constant_index": 156,
+          "value": "idleFootScan"
+        },
+        {
+          "constant_index": 158,
+          "value": "classCardShadow"
+        },
+        {
+          "constant_index": 160,
+          "value": "classCardY"
+        },
+        {
+          "constant_index": 162,
+          "value": "uniformScale"
+        },
+        {
+          "constant_index": 166,
+          "value": "contains"
+        },
+        {
+          "constant_index": 169,
+          "value": "getBounds"
+        },
+        {
+          "constant_index": 171,
+          "value": "release"
+        },
+        {
+          "constant_index": 174,
+          "value": "prewarm"
+        },
+        {
+          "constant_index": 176,
+          "value": "prepare"
+        },
+        {
+          "constant_index": 189,
+          "value": "src.data.font_resolver"
+        },
+        {
+          "constant_index": 190,
+          "value": "require"
+        },
+        {
+          "constant_index": 192,
+          "value": "drawCounter"
+        },
+        {
+          "constant_index": 194,
+          "value": "setmetatable"
+        },
+        {
+          "constant_index": 196,
+          "value": "getDamageSlice"
+        },
+        {
+          "constant_index": 198,
+          "value": "getPunch"
+        },
+        {
+          "constant_index": 200,
+          "value": "track"
+        },
+        {
+          "constant_index": 205,
+          "value": "drawGrid"
+        },
+        {
+          "constant_index": 207,
+          "value": "drawFill"
+        },
+        {
+          "constant_index": 209,
+          "value": "drawTrack"
+        },
+        {
+          "constant_index": 212,
+          "value": "draw"
+        },
+        {
+          "constant_index": 214,
+          "value": "get"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 21,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 26,
+          "array": [],
+          "dictionary": [
+            [
+              "__mode",
+              "k"
+            ]
+          ]
+        },
+        {
+          "constant_index": 27,
+          "array": [],
+          "dictionary": [
+            [
+              "__mode",
+              "k"
+            ]
+          ]
+        },
+        {
+          "constant_index": 33,
+          "array": [],
+          "dictionary": [
+            [
+              "__mode",
+              "k"
+            ]
+          ]
+        },
+        {
+          "constant_index": 53,
+          "array": [],
+          "dictionary": [
+            [
+              "__mode",
+              "k"
+            ]
+          ]
+        },
+        {
+          "constant_index": 79,
+          "array": [
+            null,
+            0.16,
+            0.6,
+            0.62
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 80,
+          "array": [
+            null,
+            0.17,
+            0.63,
+            0.64
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 81,
+          "array": [
+            null,
+            0.18,
+            0.66,
+            0.66
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 82,
+          "array": [
+            null,
+            0.2,
+            0.69,
+            0.68
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 83,
+          "array": [
+            null,
+            0.22,
+            0.72,
+            0.7
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 84,
+          "array": [
+            null,
+            0.26,
+            0.75,
+            0.71
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 85,
+          "array": [
+            null,
+            0.31,
+            0.78,
+            0.72
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 86,
+          "array": [
+            null,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 87,
+          "array": [
+            null,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 88,
+          "array": [
+            null,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 89,
+          "array": [
+            null,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 90,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 91,
+          "array": [
+            null,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 92,
+          "array": [
+            null,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 97,
+          "array": [],
+          "dictionary": [
+            [
+              "__mode",
+              "k"
+            ]
+          ]
+        },
+        {
+          "constant_index": 106,
+          "array": [
+            null,
+            0.173,
+            0.227,
+            0.173
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 107,
+          "array": [
+            null,
+            0.333,
+            0.396,
+            0.333
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 109,
+          "array": [
+            null,
+            0.5568627450980392,
+            0.3607843137254902,
+            0.1803921568627451
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 110,
+          "array": [
+            null,
+            0.7764705882352941,
+            0.5333333333333333,
+            0.30980392156862746
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 112,
+          "array": [
+            null,
+            0.22745098039215686,
+            0.23921568627450981,
+            0.3411764705882353
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 113,
+          "array": [
+            null,
+            0.4235294117647059,
+            0.43529411764705883,
+            0.5568627450980392
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 115,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 116,
+          "array": [
+            null,
+            0.24313725490196078,
+            0.35294117647058826,
+            0.24705882352941178
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 117,
+          "array": [
+            null,
+            0.43137254901960786,
+            0.5411764705882353,
+            0.43529411764705883
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 188,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 193,
+          "array": [],
+          "dictionary": [
+            [
+              "__mode",
+              "k"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

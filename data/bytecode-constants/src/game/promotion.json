@@ -1,0 +1,7602 @@
+{
+  "file": "src/game/promotion.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0/2",
+      "argument_count": 1,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "random"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0",
+      "argument_count": 4,
+      "instruction_count": 55,
+      "numeric_constants": [
+        3,
+        0,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "table"
+        },
+        {
+          "constant_index": 4,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2/97",
+      "argument_count": 1,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "id"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2/349",
+      "argument_count": 1,
+      "instruction_count": 7,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "명사수"
+            ],
+            [
+              "skillDesc",
+              "약해진 적을 노려 강한 한 발을 발사"
+            ],
+            [
+              "id",
+              "명사수"
+            ],
+            [
+              "skillName",
+              "헤드샷"
+            ],
+            [
+              "asset",
+              "명사수"
+            ]
+          ]
+        },
+        {
+          "constant_index": 1,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "장궁병"
+            ],
+            [
+              "asset",
+              "MiniArcherMan03"
+            ],
+            [
+              "id",
+              "MiniArcherMan03"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/2/523",
+      "argument_count": 1,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getForChoice"
+        },
+        {
+          "constant_index": 1,
+          "value": "faction"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2/524",
+      "argument_count": 1,
+      "instruction_count": 41,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "icon"
+        },
+        {
+          "constant_index": 1,
+          "value": "subclassName"
+        },
+        {
+          "constant_index": 2,
+          "value": "name"
+        },
+        {
+          "constant_index": 3,
+          "value": "subclassKey"
+        },
+        {
+          "constant_index": 4,
+          "value": "asset"
+        },
+        {
+          "constant_index": 5,
+          "value": "subclass"
+        },
+        {
+          "constant_index": 7,
+          "value": "id"
+        },
+        {
+          "constant_index": 8,
+          "value": "getSkillsForUnit"
+        },
+        {
+          "constant_index": 9,
+          "value": ""
+        },
+        {
+          "constant_index": 10,
+          "value": "skillIcon"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 2,
+      "instruction_count": 3105,
+      "numeric_constants": [
+        3,
+        2,
+        5,
+        4,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 7,
+          "value": "Grizzle"
+        },
+        {
+          "constant_index": 8,
+          "value": "그리즐"
+        },
+        {
+          "constant_index": 9,
+          "value": "Death Knight"
+        },
+        {
+          "constant_index": 10,
+          "value": "데스 나이트"
+        },
+        {
+          "constant_index": 12,
+          "value": "엘프 중기병"
+        },
+        {
+          "constant_index": 13,
+          "value": "해골 중기병"
+        },
+        {
+          "constant_index": 15,
+          "value": "워베어"
+        },
+        {
+          "constant_index": 16,
+          "value": "중기병"
+        },
+        {
+          "constant_index": 17,
+          "value": "MiniHorseMan03"
+        },
+        {
+          "constant_index": 19,
+          "value": "광폭 기병"
+        },
+        {
+          "constant_index": 20,
+          "value": "하이 엘프 기병"
+        },
+        {
+          "constant_index": 25,
+          "value": "도끼 기병"
+        },
+        {
+          "constant_index": 26,
+          "value": "야만 기병"
+        },
+        {
+          "constant_index": 27,
+          "value": "엘프 기병"
+        },
+        {
+          "constant_index": 28,
+          "value": "돌격병"
+        },
+        {
+          "constant_index": 31,
+          "value": "후사르 (Hussar)"
+        },
+        {
+          "constant_index": 32,
+          "value": "Hussar"
+        },
+        {
+          "constant_index": 33,
+          "value": "후사르"
+        },
+        {
+          "constant_index": 36,
+          "value": "초원 기병 (Steppe Cavalry)"
+        },
+        {
+          "constant_index": 37,
+          "value": "Steppe Cavalry"
+        },
+        {
+          "constant_index": 38,
+          "value": "초원 기병"
+        },
+        {
+          "constant_index": 41,
+          "value": "나이트메어 (Nightmare)"
+        },
+        {
+          "constant_index": 42,
+          "value": "Nightmare"
+        },
+        {
+          "constant_index": 43,
+          "value": "나이트메어"
+        },
+        {
+          "constant_index": 46,
+          "value": "월광사제 (Moon Priestess)"
+        },
+        {
+          "constant_index": 47,
+          "value": "Moon Priestess"
+        },
+        {
+          "constant_index": 48,
+          "value": "월광사제"
+        },
+        {
+          "constant_index": 52,
+          "value": "실반 (Sylvan)"
+        },
+        {
+          "constant_index": 53,
+          "value": "Sylvan"
+        },
+        {
+          "constant_index": 54,
+          "value": "실반"
+        },
+        {
+          "constant_index": 58,
+          "value": "페이즈 (Phase)"
+        },
+        {
+          "constant_index": 59,
+          "value": "Phase"
+        },
+        {
+          "constant_index": 60,
+          "value": "페이즈"
+        },
+        {
+          "constant_index": 66,
+          "value": ""
+        },
+        {
+          "constant_index": 67,
+          "value": "철기병"
+        },
+        {
+          "constant_index": 72,
+          "value": "경기병 (Light Cavalry)"
+        },
+        {
+          "constant_index": 73,
+          "value": "Light Cavalry"
+        },
+        {
+          "constant_index": 74,
+          "value": "경기병"
+        },
+        {
+          "constant_index": 79,
+          "value": "사령기병 (Dread Cavalry)"
+        },
+        {
+          "constant_index": 80,
+          "value": "Dread Cavalry"
+        },
+        {
+          "constant_index": 81,
+          "value": "사령기병"
+        },
+        {
+          "constant_index": 87,
+          "value": "환수기병 (Beast Cavalry)"
+        },
+        {
+          "constant_index": 88,
+          "value": "Beast Cavalry"
+        },
+        {
+          "constant_index": 89,
+          "value": "환수기병"
+        },
+        {
+          "constant_index": 91,
+          "value": "H"
+        },
+        {
+          "constant_index": 95,
+          "value": "insert"
+        },
+        {
+          "constant_index": 96,
+          "value": "table"
+        },
+        {
+          "constant_index": 104,
+          "value": "hp"
+        },
+        {
+          "constant_index": 106,
+          "value": "루나 현자"
+        },
+        {
+          "constant_index": 108,
+          "value": "원시법사"
+        },
+        {
+          "constant_index": 109,
+          "value": "해골 마도사"
+        },
+        {
+          "constant_index": 110,
+          "value": "엘프 현자"
+        },
+        {
+          "constant_index": 111,
+          "value": "대주술사"
+        },
+        {
+          "constant_index": 114,
+          "value": "엘프 주술사"
+        },
+        {
+          "constant_index": 116,
+          "value": "엘프법사"
+        },
+        {
+          "constant_index": 118,
+          "value": "야생법사"
+        },
+        {
+          "constant_index": 120,
+          "value": "치유술사"
+        },
+        {
+          "constant_index": 122,
+          "value": "주술사"
+        },
+        {
+          "constant_index": 125,
+          "value": "화령술사 (Flamecaller)"
+        },
+        {
+          "constant_index": 126,
+          "value": "Flamecaller"
+        },
+        {
+          "constant_index": 127,
+          "value": "화령술사"
+        },
+        {
+          "constant_index": 130,
+          "value": "수정술사 (Crystal Mage)"
+        },
+        {
+          "constant_index": 131,
+          "value": "Crystal Mage"
+        },
+        {
+          "constant_index": 132,
+          "value": "수정술사"
+        },
+        {
+          "constant_index": 135,
+          "value": "흑마법사 (Dark Mage)"
+        },
+        {
+          "constant_index": 136,
+          "value": "Dark Mage"
+        },
+        {
+          "constant_index": 137,
+          "value": "흑마법사"
+        },
+        {
+          "constant_index": 140,
+          "value": "심연술사 (Abyss Mage)"
+        },
+        {
+          "constant_index": 141,
+          "value": "Abyss Mage"
+        },
+        {
+          "constant_index": 142,
+          "value": "심연술사"
+        },
+        {
+          "constant_index": 146,
+          "value": "isDiviner"
+        },
+        {
+          "constant_index": 149,
+          "value": "isLich"
+        },
+        {
+          "constant_index": 154,
+          "value": "마도사"
+        },
+        {
+          "constant_index": 159,
+          "value": "비술사 (Arcanist)"
+        },
+        {
+          "constant_index": 160,
+          "value": "Arcanist"
+        },
+        {
+          "constant_index": 161,
+          "value": "비술사"
+        },
+        {
+          "constant_index": 166,
+          "value": "해골술사 (Bone Mage)"
+        },
+        {
+          "constant_index": 167,
+          "value": "Bone Mage"
+        },
+        {
+          "constant_index": 168,
+          "value": "해골술사"
+        },
+        {
+          "constant_index": 174,
+          "value": "isForbiddenMage"
+        },
+        {
+          "constant_index": 175,
+          "value": "M"
+        },
+        {
+          "constant_index": 184,
+          "value": "엘프창병"
+        },
+        {
+          "constant_index": 185,
+          "value": "바이킹"
+        },
+        {
+          "constant_index": 186,
+          "value": "엘프 보병"
+        },
+        {
+          "constant_index": 187,
+          "value": "약탈자"
+        },
+        {
+          "constant_index": 188,
+          "value": "창위병"
+        },
+        {
+          "constant_index": 189,
+          "value": "MiniSpearMan02"
+        },
+        {
+          "constant_index": 191,
+          "value": "고대 창병"
+        },
+        {
+          "constant_index": 193,
+          "value": "투기 창병"
+        },
+        {
+          "constant_index": 196,
+          "value": "망령병 (Wraith Spearman)"
+        },
+        {
+          "constant_index": 197,
+          "value": "Wraith Spearman"
+        },
+        {
+          "constant_index": 198,
+          "value": "망령병"
+        },
+        {
+          "constant_index": 201,
+          "value": "흑위병 (Black Guard)"
+        },
+        {
+          "constant_index": 202,
+          "value": "Black Guard"
+        },
+        {
+          "constant_index": 203,
+          "value": "흑위병"
+        },
+        {
+          "constant_index": 206,
+          "value": "창술사 (Spear Adept)"
+        },
+        {
+          "constant_index": 207,
+          "value": "Spear Adept"
+        },
+        {
+          "constant_index": 208,
+          "value": "창술사"
+        },
+        {
+          "constant_index": 211,
+          "value": "천공병 (Sky Spearman)"
+        },
+        {
+          "constant_index": 212,
+          "value": "Sky Spearman"
+        },
+        {
+          "constant_index": 213,
+          "value": "천공병"
+        },
+        {
+          "constant_index": 217,
+          "value": "해골 근위병"
+        },
+        {
+          "constant_index": 218,
+          "value": "엘프 근위병"
+        },
+        {
+          "constant_index": 219,
+          "value": "허스칼"
+        },
+        {
+          "constant_index": 220,
+          "value": "근위병"
+        },
+        {
+          "constant_index": 221,
+          "value": "MiniSpearMan03"
+        },
+        {
+          "constant_index": 226,
+          "value": "보병"
+        },
+        {
+          "constant_index": 229,
+          "value": "창투사"
+        },
+        {
+          "constant_index": 238,
+          "value": "백골 창병 (Bone Spearman)"
+        },
+        {
+          "constant_index": 239,
+          "value": "Bone Spearman"
+        },
+        {
+          "constant_index": 240,
+          "value": "백골 창병"
+        },
+        {
+          "constant_index": 245,
+          "value": "랜서 (Lancer)"
+        },
+        {
+          "constant_index": 246,
+          "value": "Lancer"
+        },
+        {
+          "constant_index": 247,
+          "value": "랜서"
+        },
+        {
+          "constant_index": 250,
+          "value": "크러셔"
+        },
+        {
+          "constant_index": 251,
+          "value": "S"
+        },
+        {
+          "constant_index": 257,
+          "value": "망령"
+        },
+        {
+          "constant_index": 258,
+          "value": "검황"
+        },
+        {
+          "constant_index": 259,
+          "value": "검성제"
+        },
+        {
+          "constant_index": 260,
+          "value": "성황"
+        },
+        {
+          "constant_index": 263,
+          "value": "글룸"
+        },
+        {
+          "constant_index": 264,
+          "value": "글로리"
+        },
+        {
+          "constant_index": 267,
+          "value": "해적왕"
+        },
+        {
+          "constant_index": 270,
+          "value": "빅터"
+        },
+        {
+          "constant_index": 272,
+          "value": "엔트"
+        },
+        {
+          "constant_index": 274,
+          "value": "베테랑"
+        },
+        {
+          "constant_index": 276,
+          "value": "황제"
+        },
+        {
+          "constant_index": 279,
+          "value": "팔라딘 (Paladin)"
+        },
+        {
+          "constant_index": 280,
+          "value": "팔라딘"
+        },
+        {
+          "constant_index": 281,
+          "value": "Paladin"
+        },
+        {
+          "constant_index": 282,
+          "value": "RarePaladin"
+        },
+        {
+          "constant_index": 285,
+          "value": "서리칼날 (Frostblade)"
+        },
+        {
+          "constant_index": 286,
+          "value": "Frostblade"
+        },
+        {
+          "constant_index": 287,
+          "value": "서리칼날"
+        },
+        {
+          "constant_index": 289,
+          "value": "r"
+        },
+        {
+          "constant_index": 290,
+          "value": "rare"
+        },
+        {
+          "constant_index": 291,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 294,
+          "value": "리퍼 (Reaper)"
+        },
+        {
+          "constant_index": 295,
+          "value": "Reaper"
+        },
+        {
+          "constant_index": 296,
+          "value": "리퍼"
+        },
+        {
+          "constant_index": 299,
+          "value": "스펙터 (Specter)"
+        },
+        {
+          "constant_index": 300,
+          "value": "Specter"
+        },
+        {
+          "constant_index": 301,
+          "value": "스펙터"
+        },
+        {
+          "constant_index": 302,
+          "value": "LegendarySpecter"
+        },
+        {
+          "constant_index": 306,
+          "value": "타락천사 (Fallen Angel)"
+        },
+        {
+          "constant_index": 307,
+          "value": "Fallen Angel"
+        },
+        {
+          "constant_index": 308,
+          "value": "타락천사"
+        },
+        {
+          "constant_index": 312,
+          "value": "대천사 (Archangel)"
+        },
+        {
+          "constant_index": 313,
+          "value": "Archangel"
+        },
+        {
+          "constant_index": 314,
+          "value": "대천사"
+        },
+        {
+          "constant_index": 320,
+          "value": "advanced"
+        },
+        {
+          "constant_index": 321,
+          "value": "lower"
+        },
+        {
+          "constant_index": 322,
+          "value": "string"
+        },
+        {
+          "constant_index": 323,
+          "value": "type"
+        },
+        {
+          "constant_index": 328,
+          "value": "수호자 (Guardian)"
+        },
+        {
+          "constant_index": 329,
+          "value": "Guardian"
+        },
+        {
+          "constant_index": 330,
+          "value": "수호자"
+        },
+        {
+          "constant_index": 335,
+          "value": "셰이드 (Shade)"
+        },
+        {
+          "constant_index": 336,
+          "value": "Shade"
+        },
+        {
+          "constant_index": 337,
+          "value": "셰이드"
+        },
+        {
+          "constant_index": 343,
+          "value": "천사 (Angel)"
+        },
+        {
+          "constant_index": 344,
+          "value": "Angel"
+        },
+        {
+          "constant_index": 345,
+          "value": "천사"
+        },
+        {
+          "constant_index": 347,
+          "value": "D"
+        },
+        {
+          "constant_index": 348,
+          "value": "resolveDominantAxis"
+        },
+        {
+          "constant_index": 352,
+          "value": "바이올"
+        },
+        {
+          "constant_index": 353,
+          "value": "로빈 후드"
+        },
+        {
+          "constant_index": 356,
+          "value": "해골 사수"
+        },
+        {
+          "constant_index": 357,
+          "value": "엘프 사수"
+        },
+        {
+          "constant_index": 358,
+          "value": "장궁병"
+        },
+        {
+          "constant_index": 359,
+          "value": "MiniArcherMan03"
+        },
+        {
+          "constant_index": 364,
+          "value": "레인저"
+        },
+        {
+          "constant_index": 365,
+          "value": "엘프 궁수"
+        },
+        {
+          "constant_index": 366,
+          "value": "엘프궁수"
+        },
+        {
+          "constant_index": 367,
+          "value": "순찰자"
+        },
+        {
+          "constant_index": 369,
+          "value": "척탄병"
+        },
+        {
+          "constant_index": 371,
+          "value": "화포수"
+        },
+        {
+          "constant_index": 374,
+          "value": "환영사수 (Illusion Archer)"
+        },
+        {
+          "constant_index": 375,
+          "value": "Illusion Archer"
+        },
+        {
+          "constant_index": 376,
+          "value": "환영사수"
+        },
+        {
+          "constant_index": 379,
+          "value": "암흑사수 (Dark Archer)"
+        },
+        {
+          "constant_index": 380,
+          "value": "Dark Archer"
+        },
+        {
+          "constant_index": 381,
+          "value": "암흑사수"
+        },
+        {
+          "constant_index": 383,
+          "value": "석궁수"
+        },
+        {
+          "constant_index": 384,
+          "value": "MiniArcherMan02"
+        },
+        {
+          "constant_index": 387,
+          "value": "isCupid"
+        },
+        {
+          "constant_index": 390,
+          "value": "isSilverSniper"
+        },
+        {
+          "constant_index": 395,
+          "value": "정찰병"
+        },
+        {
+          "constant_index": 398,
+          "value": "총포수"
+        },
+        {
+          "constant_index": 403,
+          "value": "해골궁수 (Skeleton Archer)"
+        },
+        {
+          "constant_index": 404,
+          "value": "Skeleton Archer"
+        },
+        {
+          "constant_index": 405,
+          "value": "해골궁수"
+        },
+        {
+          "constant_index": 411,
+          "value": "isSharpshooter"
+        },
+        {
+          "constant_index": 412,
+          "value": "gunslinger_bullet"
+        },
+        {
+          "constant_index": 413,
+          "value": "src.game.projectiles"
+        },
+        {
+          "constant_index": 414,
+          "value": "require"
+        },
+        {
+          "constant_index": 415,
+          "value": "A"
+        },
+        {
+          "constant_index": 416,
+          "value": "random"
+        },
+        {
+          "constant_index": 417,
+          "value": "math"
+        },
+        {
+          "constant_index": 418,
+          "value": "love"
+        },
+        {
+          "constant_index": 434,
+          "value": "백기사 (White Knight)"
+        },
+        {
+          "constant_index": 435,
+          "value": "White Knight"
+        },
+        {
+          "constant_index": 436,
+          "value": "백기사"
+        },
+        {
+          "constant_index": 439,
+          "value": "듀라한 (Dullahan)"
+        },
+        {
+          "constant_index": 440,
+          "value": "Dullahan"
+        },
+        {
+          "constant_index": 441,
+          "value": "듀라한"
+        },
+        {
+          "constant_index": 443,
+          "value": "4초마다 공격력 100%를 최대 2명에게 파동 타격"
+        },
+        {
+          "constant_index": 444,
+          "value": "침묵 오라 특화 승급"
+        },
+        {
+          "constant_index": 445,
+          "value": "화염 수호 특화 승급"
+        },
+        {
+          "constant_index": 446,
+          "value": "자연 특화 승급"
+        },
+        {
+          "constant_index": 447,
+          "value": "skillName"
+        },
+        {
+          "constant_index": 448,
+          "value": "칼날 파동"
+        },
+        {
+          "constant_index": 449,
+          "value": "승급 특성"
+        },
+        {
+          "constant_index": 451,
+          "value": "치명형"
+        },
+        {
+          "constant_index": 452,
+          "value": "해적"
+        },
+        {
+          "constant_index": 454,
+          "value": "염투사"
+        },
+        {
+          "constant_index": 455,
+          "value": "사수 병사"
+        },
+        {
+          "constant_index": 456,
+          "value": "skillDesc"
+        },
+        {
+          "constant_index": 457,
+          "value": "기본 전사 상위 승급"
+        },
+        {
+          "constant_index": 458,
+          "value": "공포 시선 특화 승급"
+        },
+        {
+          "constant_index": 459,
+          "value": "성역 수호 특화 승급"
+        },
+        {
+          "constant_index": 460,
+          "value": "민첩 특화 승급"
+        },
+        {
+          "constant_index": 462,
+          "value": "classType"
+        },
+        {
+          "constant_index": 463,
+          "value": "균형형"
+        },
+        {
+          "constant_index": 464,
+          "value": "asset"
+        },
+        {
+          "constant_index": 465,
+          "value": "name"
+        },
+        {
+          "constant_index": 466,
+          "value": "병사"
+        },
+        {
+          "constant_index": 467,
+          "value": "id"
+        },
+        {
+          "constant_index": 468,
+          "value": "MiniSwordMan02"
+        },
+        {
+          "constant_index": 470,
+          "value": "엘프병사"
+        },
+        {
+          "constant_index": 471,
+          "value": "투사"
+        },
+        {
+          "constant_index": 472,
+          "value": "철퇴병"
+        },
+        {
+          "constant_index": 477,
+          "value": "jackpot5th"
+        },
+        {
+          "constant_index": 478,
+          "value": "prism"
+        },
+        {
+          "constant_index": 479,
+          "value": "grade"
+        },
+        {
+          "constant_index": 480,
+          "value": "슬레이어 (Slayer)"
+        },
+        {
+          "constant_index": 481,
+          "value": "Slayer"
+        },
+        {
+          "constant_index": 482,
+          "value": "슬레이어"
+        },
+        {
+          "constant_index": 484,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 493,
+          "value": "해골기사"
+        },
+        {
+          "constant_index": 494,
+          "value": "해골 투사"
+        },
+        {
+          "constant_index": 495,
+          "value": "엘프기사"
+        },
+        {
+          "constant_index": 496,
+          "value": "성기사"
+        },
+        {
+          "constant_index": 497,
+          "value": "기사"
+        },
+        {
+          "constant_index": 498,
+          "value": "MiniSwordMan03"
+        },
+        {
+          "constant_index": 500,
+          "value": "마검사"
+        },
+        {
+          "constant_index": 501,
+          "value": "암검사"
+        },
+        {
+          "constant_index": 502,
+          "value": "드루이드"
+        },
+        {
+          "constant_index": 503,
+          "value": "W"
+        },
+        {
+          "constant_index": 510,
+          "value": "statArrows"
+        },
+        {
+          "constant_index": 513,
+          "value": "페럿 조련사"
+        },
+        {
+          "constant_index": 514,
+          "value": "FerretTamer"
+        },
+        {
+          "constant_index": 515,
+          "value": "subclassKey"
+        },
+        {
+          "constant_index": 516,
+          "value": "트릭스터"
+        },
+        {
+          "constant_index": 517,
+          "value": "subclassName"
+        },
+        {
+          "constant_index": 518,
+          "value": "Trickster"
+        },
+        {
+          "constant_index": 519,
+          "value": "subclass"
+        },
+        {
+          "constant_index": 520,
+          "value": "J"
+        },
+        {
+          "constant_index": 521,
+          "value": "Joker"
+        },
+        {
+          "constant_index": 522,
+          "value": "sym"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "C3"
+            ],
+            [
+              "name",
+              "클래스 C"
+            ]
+          ]
+        },
+        {
+          "constant_index": 1,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "C2"
+            ],
+            [
+              "name",
+              "클래스 B"
+            ]
+          ]
+        },
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "C1"
+            ],
+            [
+              "name",
+              "클래스 A"
+            ]
+          ]
+        },
+        {
+          "constant_index": 3,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "워베어"
+            ],
+            [
+              "asset",
+              "워베어"
+            ],
+            [
+              "id",
+              "워베어"
+            ]
+          ]
+        },
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "중기병"
+            ],
+            [
+              "asset",
+              "MiniHorseMan03"
+            ],
+            [
+              "id",
+              "MiniHorseMan03"
+            ]
+          ]
+        },
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "데스 로드"
+            ],
+            [
+              "asset",
+              "데스 로드"
+            ],
+            [
+              "id",
+              "데스 로드"
+            ]
+          ]
+        },
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "우르간"
+            ],
+            [
+              "asset",
+              "우르간"
+            ],
+            [
+              "id",
+              "우르간"
+            ]
+          ]
+        },
+        {
+          "constant_index": 11,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "데스 나이트"
+            ],
+            [
+              "asset",
+              "데스 나이트"
+            ],
+            [
+              "id",
+              "데스 나이트"
+            ]
+          ]
+        },
+        {
+          "constant_index": 14,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "그리즐"
+            ],
+            [
+              "asset",
+              "그리즐"
+            ],
+            [
+              "id",
+              "그리즐"
+            ]
+          ]
+        },
+        {
+          "constant_index": 18,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "그리즐"
+            ],
+            [
+              "asset",
+              "그리즐"
+            ],
+            [
+              "id",
+              "그리즐"
+            ]
+          ]
+        },
+        {
+          "constant_index": 21,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "하이 엘프 기병"
+            ],
+            [
+              "skillDesc",
+              "하이 엘프 기병으로 승급"
+            ],
+            [
+              "id",
+              "하이 엘프 기병"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "하이 엘프 기병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 22,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "광폭 기병"
+            ],
+            [
+              "skillDesc",
+              "광폭 기병으로 승급"
+            ],
+            [
+              "id",
+              "광폭 기병"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "광폭 기병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 23,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "무법 기병"
+            ],
+            [
+              "skillDesc",
+              "무법 기병으로 승급"
+            ],
+            [
+              "id",
+              "무법 기병"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "무법 기병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 24,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "중기병"
+            ],
+            [
+              "asset",
+              "MiniHorseMan03"
+            ],
+            [
+              "id",
+              "MiniHorseMan03"
+            ]
+          ]
+        },
+        {
+          "constant_index": 29,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              4
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 30,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "윙드 후사르"
+            ],
+            [
+              "id",
+              "윙드 후사르"
+            ],
+            [
+              "name",
+              "윙드 후사르"
+            ]
+          ]
+        },
+        {
+          "constant_index": 34,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 35,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "범위형"
+            ],
+            [
+              "asset",
+              "켄타로우스"
+            ],
+            [
+              "id",
+              "켄타로우스"
+            ],
+            [
+              "name",
+              "켄타우로스"
+            ]
+          ]
+        },
+        {
+          "constant_index": 39,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              4
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 40,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "치명형"
+            ],
+            [
+              "asset",
+              "아포칼립스"
+            ],
+            [
+              "id",
+              "아포칼립스"
+            ],
+            [
+              "name",
+              "아포칼립스"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 44,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 45,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "초승달 여왕"
+            ],
+            [
+              "id",
+              "초승달 여왕"
+            ],
+            [
+              "name",
+              "초승달 여왕"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 49,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 50,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              4
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 51,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "방어형"
+            ],
+            [
+              "asset",
+              "숲의 심장"
+            ],
+            [
+              "id",
+              "숲의 심장"
+            ],
+            [
+              "name",
+              "숲의 심장"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 55,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 56,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 57,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "크로노워커"
+            ],
+            [
+              "id",
+              "크로노워커"
+            ],
+            [
+              "name",
+              "크로노워커"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 61,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 62,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "도끼 기병"
+            ],
+            [
+              "skillDesc",
+              "도끼 기병으로 승급"
+            ],
+            [
+              "id",
+              "도끼 기병"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "도끼 기병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 63,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "돌격병"
+            ],
+            [
+              "skillDesc",
+              "기본 기병 상위 승급"
+            ],
+            [
+              "id",
+              "돌격병"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "돌격병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 64,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "야만 기병"
+            ],
+            [
+              "skillDesc",
+              "야만 기병으로 승급"
+            ],
+            [
+              "id",
+              "야만 기병"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "야만 기병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 65,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "엘프 기병"
+            ],
+            [
+              "skillDesc",
+              "엘프 기병으로 승급"
+            ],
+            [
+              "id",
+              "엘프 기병"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "엘프 기병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 68,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              1
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 69,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "후사르"
+            ],
+            [
+              "id",
+              "후사르"
+            ],
+            [
+              "name",
+              "후사르"
+            ]
+          ]
+        },
+        {
+          "constant_index": 70,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              1
+            ],
+            [
+              "aspd",
+              -3
+            ]
+          ]
+        },
+        {
+          "constant_index": 71,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "범위형"
+            ],
+            [
+              "asset",
+              "초원 기병"
+            ],
+            [
+              "id",
+              "초원 기병"
+            ],
+            [
+              "name",
+              "초원 기병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 75,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              1
+            ],
+            [
+              "distance",
+              5
+            ],
+            [
+              "hp",
+              1
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 76,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "월광사제"
+            ],
+            [
+              "id",
+              "월광사제"
+            ],
+            [
+              "name",
+              "월광사제"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 77,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              -1
+            ]
+          ]
+        },
+        {
+          "constant_index": 78,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "치명형"
+            ],
+            [
+              "asset",
+              "나이트메어"
+            ],
+            [
+              "id",
+              "나이트메어"
+            ],
+            [
+              "name",
+              "나이트메어"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 82,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 83,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              1
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 84,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "페이즈"
+            ],
+            [
+              "id",
+              "페이즈"
+            ],
+            [
+              "name",
+              "페이즈"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 85,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              -1
+            ]
+          ]
+        },
+        {
+          "constant_index": 86,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "방어형"
+            ],
+            [
+              "asset",
+              "실반"
+            ],
+            [
+              "id",
+              "실반"
+            ],
+            [
+              "name",
+              "실반"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 90,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 92,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "본메이지"
+            ],
+            [
+              "skillDesc",
+              "4초마다 적 1명에게 3초간 부패의 저주 (받는 피해 +20%)"
+            ],
+            [
+              "id",
+              "본메이지"
+            ],
+            [
+              "skillName",
+              "부패의 저주"
+            ],
+            [
+              "asset",
+              "본메이지"
+            ]
+          ]
+        },
+        {
+          "constant_index": 93,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "암흑술사"
+            ],
+            [
+              "skillDesc",
+              "3초마다 ATK 170% 강화된 어둠의 탄환 발사"
+            ],
+            [
+              "id",
+              "암흑술사"
+            ],
+            [
+              "skillName",
+              "어둠의 탄환"
+            ],
+            [
+              "asset",
+              "암흑술사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 94,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "현자 엘프"
+            ],
+            [
+              "skillDesc",
+              "4초마다 아군 중 ATK 가장 높은 유닛 1명에게 3초간 ATK +30%"
+            ],
+            [
+              "id",
+              "현자 엘프"
+            ],
+            [
+              "skillName",
+              "정령의 축복"
+            ],
+            [
+              "asset",
+              "현자 엘프"
+            ]
+          ]
+        },
+        {
+          "constant_index": 98,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "본메이지"
+            ],
+            [
+              "skillDesc",
+              "4초마다 적 1명에게 3초간 부패의 저주 (받는 피해 +20%)"
+            ],
+            [
+              "id",
+              "본메이지"
+            ],
+            [
+              "skillName",
+              "부패의 저주"
+            ],
+            [
+              "asset",
+              "본메이지"
+            ]
+          ]
+        },
+        {
+          "constant_index": 99,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "암흑술사"
+            ],
+            [
+              "skillDesc",
+              "3초마다 ATK 170% 강화된 어둠의 탄환 발사"
+            ],
+            [
+              "id",
+              "암흑술사"
+            ],
+            [
+              "skillName",
+              "어둠의 탄환"
+            ],
+            [
+              "asset",
+              "암흑술사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 100,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "현자 엘프"
+            ],
+            [
+              "skillDesc",
+              "4초마다 아군 중 ATK 가장 높은 유닛 1명에게 3초간 ATK +30%"
+            ],
+            [
+              "id",
+              "현자 엘프"
+            ],
+            [
+              "skillName",
+              "정령의 축복"
+            ],
+            [
+              "asset",
+              "현자 엘프"
+            ]
+          ]
+        },
+        {
+          "constant_index": 101,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "본메이지"
+            ],
+            [
+              "skillDesc",
+              "4초마다 적 1명에게 3초간 부패의 저주 (받는 피해 +20%)"
+            ],
+            [
+              "id",
+              "본메이지"
+            ],
+            [
+              "skillName",
+              "부패의 저주"
+            ],
+            [
+              "asset",
+              "본메이지"
+            ]
+          ]
+        },
+        {
+          "constant_index": 102,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "암흑술사"
+            ],
+            [
+              "skillDesc",
+              "3초마다 ATK 170% 강화된 어둠의 탄환 발사"
+            ],
+            [
+              "id",
+              "암흑술사"
+            ],
+            [
+              "skillName",
+              "어둠의 탄환"
+            ],
+            [
+              "asset",
+              "암흑술사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 103,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "현자 엘프"
+            ],
+            [
+              "skillDesc",
+              "4초마다 아군 중 ATK 가장 높은 유닛 1명에게 3초간 ATK +30%"
+            ],
+            [
+              "id",
+              "현자 엘프"
+            ],
+            [
+              "skillName",
+              "정령의 축복"
+            ],
+            [
+              "asset",
+              "현자 엘프"
+            ]
+          ]
+        },
+        {
+          "constant_index": 105,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "안틀러"
+            ],
+            [
+              "skillDesc",
+              "안틀러 승급"
+            ],
+            [
+              "id",
+              "안틀러"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "안틀러"
+            ]
+          ]
+        },
+        {
+          "constant_index": 107,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "루나 현자"
+            ],
+            [
+              "skillDesc",
+              "루나 현자 승급"
+            ],
+            [
+              "id",
+              "루나 현자"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "루나 현자"
+            ]
+          ]
+        },
+        {
+          "constant_index": 112,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "해골 마도사"
+            ],
+            [
+              "skillDesc",
+              "해골 마도사 승급"
+            ],
+            [
+              "id",
+              "해골 마도사"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "해골 마도사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 113,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "엘프 현자"
+            ],
+            [
+              "skillDesc",
+              "엘프 현자 승급"
+            ],
+            [
+              "id",
+              "엘프 현자"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "엘프 현자"
+            ]
+          ]
+        },
+        {
+          "constant_index": 115,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "엘프 현자"
+            ],
+            [
+              "skillDesc",
+              "엘프 현자 승급"
+            ],
+            [
+              "id",
+              "엘프 현자"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "엘프 현자"
+            ]
+          ]
+        },
+        {
+          "constant_index": 117,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "원시법사"
+            ],
+            [
+              "skillDesc",
+              "원시법사 승급"
+            ],
+            [
+              "id",
+              "원시법사"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "원시법사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 119,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "대사제"
+            ],
+            [
+              "skillDesc",
+              "치유 성역을 생성해, 3초 동안 범위 내 체력이 가장 낮은 아군 3명의 체력을 7%씩 회복"
+            ],
+            [
+              "id",
+              "대사제"
+            ],
+            [
+              "skillName",
+              "치유 성역"
+            ],
+            [
+              "asset",
+              "대사제"
+            ]
+          ]
+        },
+        {
+          "constant_index": 121,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "대주술사"
+            ],
+            [
+              "skillDesc",
+              "대주술사 승급"
+            ],
+            [
+              "id",
+              "대주술사"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "대주술사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 123,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 124,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "소환형"
+            ],
+            [
+              "asset",
+              "샐러맨더"
+            ],
+            [
+              "id",
+              "샐러맨더"
+            ],
+            [
+              "name",
+              "샐러맨더"
+            ]
+          ]
+        },
+        {
+          "constant_index": 128,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 129,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "운디네"
+            ],
+            [
+              "id",
+              "운디네"
+            ],
+            [
+              "name",
+              "운디네"
+            ]
+          ]
+        },
+        {
+          "constant_index": 133,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 134,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "워록"
+            ],
+            [
+              "id",
+              "워록"
+            ],
+            [
+              "name",
+              "워록"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 138,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 139,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "아크메이지"
+            ],
+            [
+              "id",
+              "아크메이지"
+            ],
+            [
+              "name",
+              "아크메이지"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 143,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 144,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 145,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "예언자"
+            ],
+            [
+              "id",
+              "예언자"
+            ],
+            [
+              "name",
+              "예언자"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 147,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 148,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "소환형"
+            ],
+            [
+              "asset",
+              "리치로드"
+            ],
+            [
+              "id",
+              "리치로드"
+            ],
+            [
+              "name",
+              "리치로드"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 150,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "치유술사"
+            ],
+            [
+              "skillDesc",
+              "치유의 장을 생성해, 3초 동안 범위 내 체력이 가장 낮은 아군 2명의 체력을 5%씩 회복"
+            ],
+            [
+              "id",
+              "치유술사"
+            ],
+            [
+              "skillName",
+              "치유의 장"
+            ],
+            [
+              "asset",
+              "치유술사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 151,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "주술사"
+            ],
+            [
+              "skillDesc",
+              "4초마다 마력 구체를 발사해 최대 3명의 적에게 ATK 110% 피해"
+            ],
+            [
+              "id",
+              "주술사"
+            ],
+            [
+              "skillName",
+              "마력 구체"
+            ],
+            [
+              "asset",
+              "주술사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 152,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "야생법사"
+            ],
+            [
+              "skillDesc",
+              "4초마다 마력 구체를 발사해 최대 3명의 적에게 ATK 110% 피해"
+            ],
+            [
+              "id",
+              "야생법사"
+            ],
+            [
+              "skillName",
+              "마력 구체"
+            ],
+            [
+              "asset",
+              "야생법사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 153,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "엘프법사"
+            ],
+            [
+              "skillDesc",
+              "엘프 마법사 상위 승급"
+            ],
+            [
+              "id",
+              "엘프법사"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "엘프법사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 155,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              1
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              1
+            ],
+            [
+              "aspd",
+              -1
+            ]
+          ]
+        },
+        {
+          "constant_index": 156,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "소환형"
+            ],
+            [
+              "asset",
+              "화령술사"
+            ],
+            [
+              "id",
+              "화령술사"
+            ],
+            [
+              "name",
+              "화령술사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 157,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 158,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "수정술사"
+            ],
+            [
+              "id",
+              "수정술사"
+            ],
+            [
+              "name",
+              "수정술사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 162,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              1
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 163,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "흑마법사"
+            ],
+            [
+              "id",
+              "흑마법사"
+            ],
+            [
+              "name",
+              "흑마법사"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 164,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              -3
+            ]
+          ]
+        },
+        {
+          "constant_index": 165,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "심연술사"
+            ],
+            [
+              "id",
+              "심연술사"
+            ],
+            [
+              "name",
+              "심연술사"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 169,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 170,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              1
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              -1
+            ]
+          ]
+        },
+        {
+          "constant_index": 171,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "소환형"
+            ],
+            [
+              "asset",
+              "리치"
+            ],
+            [
+              "id",
+              "리치"
+            ],
+            [
+              "name",
+              "리치"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 172,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 173,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "예지술사"
+            ],
+            [
+              "id",
+              "예지술사"
+            ],
+            [
+              "name",
+              "예지술사"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 176,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "허스칼"
+            ],
+            [
+              "skillDesc",
+              "상위 창병 승급"
+            ],
+            [
+              "id",
+              "허스칼"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "허스칼"
+            ]
+          ]
+        },
+        {
+          "constant_index": 177,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "근위병"
+            ],
+            [
+              "skillDesc",
+              "2초마다 1초간 받는 피해 -40%. 해당 시간 피격 시 즉시 반격 (ATK 50%)"
+            ],
+            [
+              "id",
+              "MiniSpearMan03"
+            ],
+            [
+              "skillName",
+              "결벽의 방진"
+            ],
+            [
+              "asset",
+              "MiniSpearMan03"
+            ]
+          ]
+        },
+        {
+          "constant_index": 178,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "해골 근위병"
+            ],
+            [
+              "asset",
+              "해골 근위병"
+            ],
+            [
+              "id",
+              "해골 근위병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 179,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "엘프 근위병"
+            ],
+            [
+              "asset",
+              "엘프 근위병"
+            ],
+            [
+              "id",
+              "엘프 근위병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 180,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "무법자"
+            ],
+            [
+              "skillDesc",
+              "무법자 특화 승급"
+            ],
+            [
+              "id",
+              "무법자"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "무법자"
+            ]
+          ]
+        },
+        {
+          "constant_index": 181,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "근위병"
+            ],
+            [
+              "skillDesc",
+              "2초마다 1초간 받는 피해 -40%. 해당 시간 피격 시 즉시 반격 (ATK 50%)"
+            ],
+            [
+              "id",
+              "MiniSpearMan03"
+            ],
+            [
+              "skillName",
+              "결벽의 방진"
+            ],
+            [
+              "asset",
+              "MiniSpearMan03"
+            ]
+          ]
+        },
+        {
+          "constant_index": 182,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "바바리안"
+            ],
+            [
+              "skillDesc",
+              "바바리안으로 승급"
+            ],
+            [
+              "id",
+              "바바리안"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "바바리안"
+            ]
+          ]
+        },
+        {
+          "constant_index": 183,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "하이 엘프 보병"
+            ],
+            [
+              "skillDesc",
+              "하이 엘프 보병으로 승급"
+            ],
+            [
+              "id",
+              "하이 엘프 보병"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "하이 엘프 보병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 190,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "스파르타"
+            ],
+            [
+              "asset",
+              "스파르타"
+            ],
+            [
+              "id",
+              "스파르타"
+            ],
+            [
+              "classType",
+              "균형형"
+            ]
+          ]
+        },
+        {
+          "constant_index": 192,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "글래디에이터"
+            ],
+            [
+              "asset",
+              "글래디에이터"
+            ],
+            [
+              "id",
+              "글래디에이터"
+            ],
+            [
+              "classType",
+              "공격형"
+            ]
+          ]
+        },
+        {
+          "constant_index": 194,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              5
+            ],
+            [
+              "distance",
+              -1
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 195,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "SpearRevenant"
+            ],
+            [
+              "id",
+              "SpearRevenant"
+            ],
+            [
+              "name",
+              "레버넌트"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 199,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              2
+            ],
+            [
+              "hp",
+              5
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 200,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "방어형"
+            ],
+            [
+              "asset",
+              "처형자"
+            ],
+            [
+              "id",
+              "처형자"
+            ],
+            [
+              "name",
+              "처형자"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 204,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 205,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "범위형"
+            ],
+            [
+              "asset",
+              "랜스마스터"
+            ],
+            [
+              "id",
+              "랜스마스터"
+            ],
+            [
+              "name",
+              "랜스마스터"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 209,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 210,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "발키리"
+            ],
+            [
+              "id",
+              "발키리"
+            ],
+            [
+              "name",
+              "발키리"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 214,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 215,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "소울 리퍼"
+            ],
+            [
+              "asset",
+              "소울 리퍼"
+            ],
+            [
+              "id",
+              "소울 리퍼"
+            ]
+          ]
+        },
+        {
+          "constant_index": 216,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "크러셔"
+            ],
+            [
+              "asset",
+              "크러셔"
+            ],
+            [
+              "id",
+              "크러셔"
+            ]
+          ]
+        },
+        {
+          "constant_index": 222,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "약탈자"
+            ],
+            [
+              "skillDesc",
+              "약탈 특화 승급"
+            ],
+            [
+              "id",
+              "약탈자"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "약탈자"
+            ]
+          ]
+        },
+        {
+          "constant_index": 223,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "창위병"
+            ],
+            [
+              "skillDesc",
+              "기본 창병 상위 승급"
+            ],
+            [
+              "id",
+              "MiniSpearMan02"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "MiniSpearMan02"
+            ]
+          ]
+        },
+        {
+          "constant_index": 224,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "바이킹"
+            ],
+            [
+              "skillDesc",
+              "강인한 전사로 승급"
+            ],
+            [
+              "id",
+              "바이킹"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "바이킹"
+            ]
+          ]
+        },
+        {
+          "constant_index": 225,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "엘프 보병"
+            ],
+            [
+              "skillDesc",
+              "정예 엘프 보병으로 승급"
+            ],
+            [
+              "id",
+              "엘프 보병"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "엘프 보병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 227,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "투기 창병"
+            ],
+            [
+              "asset",
+              "투기 창병"
+            ],
+            [
+              "id",
+              "투기 창병"
+            ],
+            [
+              "classType",
+              "공격형"
+            ]
+          ]
+        },
+        {
+          "constant_index": 228,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "고대 창병"
+            ],
+            [
+              "asset",
+              "고대 창병"
+            ],
+            [
+              "id",
+              "고대 창병"
+            ],
+            [
+              "classType",
+              "균형형"
+            ]
+          ]
+        },
+        {
+          "constant_index": 230,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              2
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              -2
+            ]
+          ]
+        },
+        {
+          "constant_index": 231,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "범위형"
+            ],
+            [
+              "asset",
+              "창술사"
+            ],
+            [
+              "id",
+              "창술사"
+            ],
+            [
+              "name",
+              "창술사"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 232,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 233,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "천공병"
+            ],
+            [
+              "id",
+              "천공병"
+            ],
+            [
+              "name",
+              "천공병"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 234,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              -1
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 235,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "망령병"
+            ],
+            [
+              "id",
+              "망령병"
+            ],
+            [
+              "name",
+              "망령병"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 236,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              4
+            ],
+            [
+              "aspd",
+              -1
+            ]
+          ]
+        },
+        {
+          "constant_index": 237,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "방어형"
+            ],
+            [
+              "asset",
+              "흑위병"
+            ],
+            [
+              "id",
+              "흑위병"
+            ],
+            [
+              "name",
+              "흑위병"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 241,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              2
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              -2
+            ]
+          ]
+        },
+        {
+          "constant_index": 242,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "범위형"
+            ],
+            [
+              "asset",
+              "창술사"
+            ],
+            [
+              "id",
+              "창술사"
+            ],
+            [
+              "name",
+              "창술사"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 243,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 244,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "천공병"
+            ],
+            [
+              "id",
+              "천공병"
+            ],
+            [
+              "name",
+              "천공병"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 248,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 249,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "젠"
+            ],
+            [
+              "asset",
+              "젠"
+            ],
+            [
+              "id",
+              "젠"
+            ]
+          ]
+        },
+        {
+          "constant_index": 252,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "우드워든"
+            ],
+            [
+              "skillDesc",
+              "4초마다, 지면에서 뿌리가 튀어나와 적 최대 3명에게 ATK 140% 피해."
+            ],
+            [
+              "id",
+              "우드워든"
+            ],
+            [
+              "skillName",
+              "뿌리 일격"
+            ],
+            [
+              "asset",
+              "우드워든"
+            ]
+          ]
+        },
+        {
+          "constant_index": 253,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "암흑장군"
+            ],
+            [
+              "skillDesc",
+              "4초마다, 구체로 적 최대 3명에게 ATK 120% 피해를 주고 1초간 스턴."
+            ],
+            [
+              "id",
+              "암흑장군"
+            ],
+            [
+              "skillName",
+              "어둠의 구체"
+            ],
+            [
+              "asset",
+              "암흑장군"
+            ]
+          ]
+        },
+        {
+          "constant_index": 254,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "검황"
+            ],
+            [
+              "asset",
+              "검황"
+            ],
+            [
+              "id",
+              "검황"
+            ]
+          ]
+        },
+        {
+          "constant_index": 255,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "글룸"
+            ],
+            [
+              "asset",
+              "글룸"
+            ],
+            [
+              "id",
+              "글룸"
+            ]
+          ]
+        },
+        {
+          "constant_index": 256,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "글로리"
+            ],
+            [
+              "asset",
+              "글로리"
+            ],
+            [
+              "id",
+              "글로리"
+            ]
+          ]
+        },
+        {
+          "constant_index": 261,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "카오스"
+            ],
+            [
+              "asset",
+              "카오스"
+            ],
+            [
+              "id",
+              "카오스"
+            ]
+          ]
+        },
+        {
+          "constant_index": 262,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "루시엘"
+            ],
+            [
+              "asset",
+              "루시엘"
+            ],
+            [
+              "id",
+              "루시엘"
+            ]
+          ]
+        },
+        {
+          "constant_index": 265,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "망령"
+            ],
+            [
+              "asset",
+              "망령"
+            ],
+            [
+              "id",
+              "망령"
+            ]
+          ]
+        },
+        {
+          "constant_index": 266,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "검황"
+            ],
+            [
+              "asset",
+              "검황"
+            ],
+            [
+              "id",
+              "검황"
+            ]
+          ]
+        },
+        {
+          "constant_index": 268,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "바그"
+            ],
+            [
+              "skillDesc",
+              "자연의 힘으로 각성한 상위 승급"
+            ],
+            [
+              "id",
+              "바그"
+            ],
+            [
+              "skillName",
+              "자연의 맹세"
+            ],
+            [
+              "asset",
+              "바그"
+            ]
+          ]
+        },
+        {
+          "constant_index": 269,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "프랑켄슈타인"
+            ],
+            [
+              "skillDesc",
+              "금단의 힘으로 완성된 괴물 보디입니다."
+            ],
+            [
+              "id",
+              "프랑켄슈타인"
+            ],
+            [
+              "skillName",
+              "인조 각성"
+            ],
+            [
+              "asset",
+              "프랑켄슈타인"
+            ]
+          ]
+        },
+        {
+          "constant_index": 271,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "엔트로드"
+            ],
+            [
+              "skillDesc",
+              "고대 수목의 정수를 이어받은 최종 분기입니다."
+            ],
+            [
+              "id",
+              "엔트로드"
+            ],
+            [
+              "skillName",
+              "숲주의 계승"
+            ],
+            [
+              "asset",
+              "엔트로드"
+            ]
+          ]
+        },
+        {
+          "constant_index": 273,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "장군"
+            ],
+            [
+              "asset",
+              "장군"
+            ],
+            [
+              "id",
+              "장군"
+            ]
+          ]
+        },
+        {
+          "constant_index": 275,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "검황"
+            ],
+            [
+              "asset",
+              "검황"
+            ],
+            [
+              "id",
+              "검황"
+            ]
+          ]
+        },
+        {
+          "constant_index": 277,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 278,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "균형형"
+            ],
+            [
+              "asset",
+              "심판관"
+            ],
+            [
+              "id",
+              "심판관"
+            ],
+            [
+              "name",
+              "심판관"
+            ]
+          ]
+        },
+        {
+          "constant_index": 283,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 284,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "빙결여제"
+            ],
+            [
+              "id",
+              "빙결여제"
+            ],
+            [
+              "name",
+              "빙결여제"
+            ]
+          ]
+        },
+        {
+          "constant_index": 288,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 292,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 293,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "치명형"
+            ],
+            [
+              "asset",
+              "소울리퍼"
+            ],
+            [
+              "id",
+              "소울리퍼"
+            ],
+            [
+              "name",
+              "소울리퍼"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 297,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              4
+            ],
+            [
+              "aspd",
+              -1
+            ]
+          ]
+        },
+        {
+          "constant_index": 298,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "방어형"
+            ],
+            [
+              "asset",
+              "CrownRevenant"
+            ],
+            [
+              "id",
+              "CrownRevenant"
+            ],
+            [
+              "name",
+              "레버넌트"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 303,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 304,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              -1
+            ]
+          ]
+        },
+        {
+          "constant_index": 305,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "범위형"
+            ],
+            [
+              "asset",
+              "파멸의 천사"
+            ],
+            [
+              "id",
+              "파멸의 천사"
+            ],
+            [
+              "name",
+              "파멸의 천사"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 309,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 310,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              4
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 311,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "균형형"
+            ],
+            [
+              "asset",
+              "도미니온"
+            ],
+            [
+              "id",
+              "도미니온"
+            ],
+            [
+              "name",
+              "도미니온"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 315,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 316,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "베테랑"
+            ],
+            [
+              "skillDesc",
+              "기본 결투사 분기 승급"
+            ],
+            [
+              "id",
+              "베테랑"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "베테랑"
+            ]
+          ]
+        },
+        {
+          "constant_index": 317,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "황제"
+            ],
+            [
+              "skillDesc",
+              "기본 결투사 상위 승급"
+            ],
+            [
+              "id",
+              "황제"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "황제"
+            ]
+          ]
+        },
+        {
+          "constant_index": 318,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "빅터"
+            ],
+            [
+              "skillDesc",
+              "칼 끝에서 피가 타오르는 결투사로 각성합니다."
+            ],
+            [
+              "id",
+              "빅터"
+            ],
+            [
+              "skillName",
+              "피의 각성"
+            ],
+            [
+              "asset",
+              "빅터"
+            ]
+          ]
+        },
+        {
+          "constant_index": 319,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "엔트"
+            ],
+            [
+              "skillDesc",
+              "고대 수목의 힘으로 결투사의 형태를 완성합니다."
+            ],
+            [
+              "id",
+              "엔트"
+            ],
+            [
+              "skillName",
+              "숲의 각성"
+            ],
+            [
+              "asset",
+              "엔트"
+            ]
+          ]
+        },
+        {
+          "constant_index": 324,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              1
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              1
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 325,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "서리칼날"
+            ],
+            [
+              "id",
+              "서리칼날"
+            ],
+            [
+              "name",
+              "서리칼날"
+            ]
+          ]
+        },
+        {
+          "constant_index": 326,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              -2
+            ]
+          ]
+        },
+        {
+          "constant_index": 327,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "균형형"
+            ],
+            [
+              "asset",
+              "RarePaladin"
+            ],
+            [
+              "id",
+              "RarePaladin"
+            ],
+            [
+              "name",
+              "팔라딘"
+            ]
+          ]
+        },
+        {
+          "constant_index": 331,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              -2
+            ]
+          ]
+        },
+        {
+          "constant_index": 332,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "치명형"
+            ],
+            [
+              "asset",
+              "리퍼"
+            ],
+            [
+              "id",
+              "리퍼"
+            ],
+            [
+              "name",
+              "리퍼"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 333,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              4
+            ],
+            [
+              "aspd",
+              -3
+            ]
+          ]
+        },
+        {
+          "constant_index": 334,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "방어형"
+            ],
+            [
+              "asset",
+              "LegendarySpecter"
+            ],
+            [
+              "id",
+              "LegendarySpecter"
+            ],
+            [
+              "name",
+              "스펙터"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 338,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 339,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              1
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              1
+            ],
+            [
+              "aspd",
+              -3
+            ]
+          ]
+        },
+        {
+          "constant_index": 340,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "범위형"
+            ],
+            [
+              "asset",
+              "타락천사"
+            ],
+            [
+              "id",
+              "타락천사"
+            ],
+            [
+              "name",
+              "타락천사"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 341,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              -1
+            ]
+          ]
+        },
+        {
+          "constant_index": 342,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "균형형"
+            ],
+            [
+              "asset",
+              "대천사"
+            ],
+            [
+              "id",
+              "대천사"
+            ],
+            [
+              "name",
+              "대천사"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 346,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 350,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "바이올렛 둠"
+            ],
+            [
+              "asset",
+              "바이올렛 둠"
+            ],
+            [
+              "id",
+              "바이올렛 둠"
+            ]
+          ]
+        },
+        {
+          "constant_index": 351,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "그린 섀도우"
+            ],
+            [
+              "asset",
+              "그린 섀도우"
+            ],
+            [
+              "id",
+              "그린 섀도우"
+            ]
+          ]
+        },
+        {
+          "constant_index": 354,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "바이올"
+            ],
+            [
+              "asset",
+              "바이올"
+            ],
+            [
+              "id",
+              "바이올"
+            ]
+          ]
+        },
+        {
+          "constant_index": 355,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "로빈 후드"
+            ],
+            [
+              "asset",
+              "로빈 후드"
+            ],
+            [
+              "id",
+              "로빈 후드"
+            ]
+          ]
+        },
+        {
+          "constant_index": 360,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "데드아이"
+            ],
+            [
+              "asset",
+              "데드아이"
+            ],
+            [
+              "id",
+              "데드아이"
+            ]
+          ]
+        },
+        {
+          "constant_index": 361,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "하이 엘프"
+            ],
+            [
+              "asset",
+              "하이 엘프"
+            ],
+            [
+              "id",
+              "하이 엘프"
+            ]
+          ]
+        },
+        {
+          "constant_index": 362,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "명사수"
+            ],
+            [
+              "skillDesc",
+              "적의 약점을 노려 공격력의 180% 피해"
+            ],
+            [
+              "id",
+              "명사수"
+            ],
+            [
+              "skillName",
+              "정밀 사격"
+            ],
+            [
+              "asset",
+              "명사수"
+            ]
+          ]
+        },
+        {
+          "constant_index": 363,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "장궁병"
+            ],
+            [
+              "skillDesc",
+              "3개의 화살로 최대 3명에게 각 100% 피해"
+            ],
+            [
+              "id",
+              "MiniArcherMan03"
+            ],
+            [
+              "skillName",
+              "트리플샷"
+            ],
+            [
+              "asset",
+              "MiniArcherMan03"
+            ]
+          ]
+        },
+        {
+          "constant_index": 368,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "폭파대장"
+            ],
+            [
+              "asset",
+              "폭파대장"
+            ],
+            [
+              "id",
+              "폭파대장"
+            ]
+          ]
+        },
+        {
+          "constant_index": 370,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "캐노니어"
+            ],
+            [
+              "asset",
+              "캐노니어"
+            ],
+            [
+              "id",
+              "캐노니어"
+            ]
+          ]
+        },
+        {
+          "constant_index": 372,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 373,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "미라지"
+            ],
+            [
+              "id",
+              "미라지"
+            ],
+            [
+              "name",
+              "미라지"
+            ]
+          ]
+        },
+        {
+          "constant_index": 377,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 378,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공속형"
+            ],
+            [
+              "asset",
+              "레이븐"
+            ],
+            [
+              "id",
+              "레이븐"
+            ],
+            [
+              "name",
+              "레이븐"
+            ]
+          ]
+        },
+        {
+          "constant_index": 382,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 385,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 386,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "세라프"
+            ],
+            [
+              "id",
+              "세라프"
+            ],
+            [
+              "name",
+              "세라프"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 388,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              4
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 389,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "이클립스"
+            ],
+            [
+              "id",
+              "이클립스"
+            ],
+            [
+              "name",
+              "이클립스"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 391,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "순찰자"
+            ],
+            [
+              "skillDesc",
+              "적의 약점을 노려 ATK 180% 피해"
+            ],
+            [
+              "id",
+              "순찰자"
+            ],
+            [
+              "skillName",
+              "정밀 사격"
+            ],
+            [
+              "asset",
+              "순찰자"
+            ]
+          ]
+        },
+        {
+          "constant_index": 392,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "석궁수"
+            ],
+            [
+              "skillDesc",
+              "2개의 화살로 최대 2명에게 각 80% 피해"
+            ],
+            [
+              "id",
+              "MiniArcherMan02"
+            ],
+            [
+              "skillName",
+              "멀티샷"
+            ],
+            [
+              "asset",
+              "MiniArcherMan02"
+            ]
+          ]
+        },
+        {
+          "constant_index": 393,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "레인저"
+            ],
+            [
+              "skillDesc",
+              "빠른 연사력을 지닌 정찰병 상위 승급"
+            ],
+            [
+              "id",
+              "레인저"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "레인저"
+            ]
+          ]
+        },
+        {
+          "constant_index": 394,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "엘프 궁수"
+            ],
+            [
+              "skillDesc",
+              "자연의 기운을 깃든 정찰병 상위 승급"
+            ],
+            [
+              "id",
+              "엘프 궁수"
+            ],
+            [
+              "skillName",
+              "승급 특성"
+            ],
+            [
+              "asset",
+              "엘프 궁수"
+            ]
+          ]
+        },
+        {
+          "constant_index": 396,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "척탄병"
+            ],
+            [
+              "asset",
+              "척탄병"
+            ],
+            [
+              "id",
+              "척탄병"
+            ]
+          ]
+        },
+        {
+          "constant_index": 397,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "화포수"
+            ],
+            [
+              "asset",
+              "화포수"
+            ],
+            [
+              "id",
+              "화포수"
+            ]
+          ]
+        },
+        {
+          "constant_index": 399,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              1
+            ],
+            [
+              "aspd",
+              -3
+            ]
+          ]
+        },
+        {
+          "constant_index": 400,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "환영사수"
+            ],
+            [
+              "id",
+              "환영사수"
+            ],
+            [
+              "name",
+              "환영사수"
+            ]
+          ]
+        },
+        {
+          "constant_index": 401,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              3
+            ]
+          ]
+        },
+        {
+          "constant_index": 402,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공속형"
+            ],
+            [
+              "asset",
+              "암흑사수"
+            ],
+            [
+              "id",
+              "암흑사수"
+            ],
+            [
+              "name",
+              "암흑사수"
+            ]
+          ]
+        },
+        {
+          "constant_index": 406,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 407,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              3
+            ],
+            [
+              "hp",
+              1
+            ],
+            [
+              "aspd",
+              -3
+            ]
+          ]
+        },
+        {
+          "constant_index": 408,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공격형"
+            ],
+            [
+              "asset",
+              "은빛사수"
+            ],
+            [
+              "id",
+              "은빛사수"
+            ],
+            [
+              "name",
+              "은빛사수"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 409,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              2
+            ]
+          ]
+        },
+        {
+          "constant_index": 410,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "큐피드"
+            ],
+            [
+              "id",
+              "큐피드"
+            ],
+            [
+              "name",
+              "큐피드"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 419,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "성기사"
+            ],
+            [
+              "skillDesc",
+              "1초마다 최저 체력 아군 HP 2% 회복"
+            ],
+            [
+              "id",
+              "성기사"
+            ],
+            [
+              "skillName",
+              "성스러운 회복"
+            ],
+            [
+              "asset",
+              "성기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 420,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "암기사"
+            ],
+            [
+              "skillDesc",
+              "다음 공격 피해의 25% 회복 (재사용 2초)"
+            ],
+            [
+              "id",
+              "암기사"
+            ],
+            [
+              "skillName",
+              "암영 흡혈"
+            ],
+            [
+              "asset",
+              "암기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 421,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "기사"
+            ],
+            [
+              "skillDesc",
+              "4초마다 1.5초간 모든 피해를 막고 공격한 적에게 피해 반사"
+            ],
+            [
+              "id",
+              "MiniSwordMan03"
+            ],
+            [
+              "skillName",
+              "반격 태세"
+            ],
+            [
+              "asset",
+              "MiniSwordMan03"
+            ]
+          ]
+        },
+        {
+          "constant_index": 422,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              5
+            ],
+            [
+              "aspd",
+              -4
+            ]
+          ]
+        },
+        {
+          "constant_index": 423,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "범위형"
+            ],
+            [
+              "skillDesc",
+              "어둠의 힘을 완성한 단일 상위 승급"
+            ],
+            [
+              "id",
+              "마그누스"
+            ],
+            [
+              "skillName",
+              "심연의 군주"
+            ],
+            [
+              "name",
+              "마그누스"
+            ],
+            [
+              "asset",
+              "마그누스"
+            ]
+          ]
+        },
+        {
+          "constant_index": 424,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              4
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 425,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "증폭형"
+            ],
+            [
+              "skillDesc",
+              "심연의 눈을 뜬 단일 상위 승급"
+            ],
+            [
+              "id",
+              "게이즈"
+            ],
+            [
+              "skillName",
+              "심연의 응시"
+            ],
+            [
+              "name",
+              "게이즈"
+            ],
+            [
+              "asset",
+              "게이즈"
+            ]
+          ]
+        },
+        {
+          "constant_index": 426,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "플레어"
+            ],
+            [
+              "skillDesc",
+              "화염의 힘으로 각성한 단일 상위 승급"
+            ],
+            [
+              "id",
+              "플레어"
+            ],
+            [
+              "skillName",
+              "화염 각성"
+            ],
+            [
+              "asset",
+              "플레어"
+            ]
+          ]
+        },
+        {
+          "constant_index": 427,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "템플러"
+            ],
+            [
+              "skillDesc",
+              "신격에 각성한 단일 상위 승급"
+            ],
+            [
+              "id",
+              "템플러"
+            ],
+            [
+              "skillName",
+              "신성 강림"
+            ],
+            [
+              "asset",
+              "템플러"
+            ]
+          ]
+        },
+        {
+          "constant_index": 428,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "바그"
+            ],
+            [
+              "skillDesc",
+              "자연의 힘으로 각성한 상위 승급"
+            ],
+            [
+              "id",
+              "바그"
+            ],
+            [
+              "skillName",
+              "자연의 맹세"
+            ],
+            [
+              "asset",
+              "바그"
+            ]
+          ]
+        },
+        {
+          "constant_index": 429,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "엘프기사"
+            ],
+            [
+              "skillDesc",
+              "1.5초마다 ATK 110% 연속 베기"
+            ],
+            [
+              "id",
+              "엘프기사"
+            ],
+            [
+              "skillName",
+              "질풍 연격"
+            ],
+            [
+              "asset",
+              "엘프기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 430,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "해적왕"
+            ],
+            [
+              "skillDesc",
+              "전방으로 ATK 130% 폭풍의 칼날을 날려 최대 3명 피해"
+            ],
+            [
+              "id",
+              "해적왕"
+            ],
+            [
+              "skillName",
+              "폭풍의 칼날"
+            ],
+            [
+              "asset",
+              "해적왕"
+            ]
+          ]
+        },
+        {
+          "constant_index": 431,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "기사"
+            ],
+            [
+              "skillDesc",
+              "4초마다 1.5초간 모든 피해를 막고 공격한 적에게 피해 반사"
+            ],
+            [
+              "id",
+              "MiniSwordMan03"
+            ],
+            [
+              "skillName",
+              "반격 태세"
+            ],
+            [
+              "asset",
+              "MiniSwordMan03"
+            ]
+          ]
+        },
+        {
+          "constant_index": 432,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              5
+            ],
+            [
+              "aspd",
+              -2
+            ]
+          ]
+        },
+        {
+          "constant_index": 433,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "방어형"
+            ],
+            [
+              "asset",
+              "성배기사"
+            ],
+            [
+              "id",
+              "성배기사"
+            ],
+            [
+              "name",
+              "성배기사"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 437,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              1
+            ],
+            [
+              "aspd",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 438,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공속형"
+            ],
+            [
+              "asset",
+              "팬텀"
+            ],
+            [
+              "id",
+              "팬텀"
+            ],
+            [
+              "name",
+              "팬텀"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 442,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 450,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              5
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              -2
+            ]
+          ]
+        },
+        {
+          "constant_index": 453,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 461,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 469,
+          "array": [],
+          "dictionary": [
+            [
+              "skillName",
+              "승급 특성"
+            ]
+          ]
+        },
+        {
+          "constant_index": 473,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              4
+            ],
+            [
+              "aspd",
+              -1
+            ]
+          ]
+        },
+        {
+          "constant_index": 474,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "방어형"
+            ],
+            [
+              "asset",
+              "백기사"
+            ],
+            [
+              "id",
+              "백기사"
+            ],
+            [
+              "name",
+              "백기사"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 475,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              4
+            ]
+          ]
+        },
+        {
+          "constant_index": 476,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "공속형"
+            ],
+            [
+              "asset",
+              "듀라한"
+            ],
+            [
+              "id",
+              "듀라한"
+            ],
+            [
+              "name",
+              "듀라한"
+            ],
+            [
+              "keepStatArrows",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 483,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 485,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              5
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              -2
+            ]
+          ]
+        },
+        {
+          "constant_index": 486,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "치명형"
+            ],
+            [
+              "skillDesc",
+              "공격 시 15% 확률로 대상을 1.5초간 침묵 상태로 만듭니다"
+            ],
+            [
+              "id",
+              "암검사"
+            ],
+            [
+              "skillName",
+              "어둠의 침묵"
+            ],
+            [
+              "name",
+              "암검사"
+            ],
+            [
+              "asset",
+              "암검사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 487,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 488,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "균형형"
+            ],
+            [
+              "skillDesc",
+              "3초마다 주변 적들에게 ATK 60% 피해를 입히고 1초간 둔화시킵니다"
+            ],
+            [
+              "id",
+              "마검사"
+            ],
+            [
+              "skillName",
+              "공포의 시선"
+            ],
+            [
+              "name",
+              "마검사"
+            ],
+            [
+              "asset",
+              "마검사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 489,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "드루이드"
+            ],
+            [
+              "skillDesc",
+              "공격 시 25% 확률로 대상을 관통하는 검기 발사"
+            ],
+            [
+              "id",
+              "드루이드"
+            ],
+            [
+              "skillName",
+              "바람의 상처"
+            ],
+            [
+              "asset",
+              "드루이드"
+            ]
+          ]
+        },
+        {
+          "constant_index": 490,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "레버넌트"
+            ],
+            [
+              "skillDesc",
+              "공격 시 20% 확률로 준 피해의 50%만큼 광역 피해"
+            ],
+            [
+              "id",
+              "레버넌트"
+            ],
+            [
+              "skillName",
+              "심연의 복수"
+            ],
+            [
+              "asset",
+              "레버넌트"
+            ]
+          ]
+        },
+        {
+          "constant_index": 491,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "팔라딘"
+            ],
+            [
+              "skillDesc",
+              "3초마다 모든 아군에게 2초간 받는 피해 20% 감소 보호막 부여"
+            ],
+            [
+              "id",
+              "팔라딘"
+            ],
+            [
+              "skillName",
+              "천상의 보호"
+            ],
+            [
+              "asset",
+              "팔라딘"
+            ]
+          ]
+        },
+        {
+          "constant_index": 492,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "플레어"
+            ],
+            [
+              "asset",
+              "플레어"
+            ],
+            [
+              "id",
+              "플레어"
+            ]
+          ]
+        },
+        {
+          "constant_index": 499,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "마그누스"
+            ],
+            [
+              "asset",
+              "마그누스"
+            ],
+            [
+              "id",
+              "마그누스"
+            ]
+          ]
+        },
+        {
+          "constant_index": 504,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              1
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 505,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "소환형"
+            ],
+            [
+              "asset",
+              "FerretTamer"
+            ],
+            [
+              "id",
+              "FerretTamer"
+            ],
+            [
+              "name",
+              "페럿 조련사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 506,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              2
+            ],
+            [
+              "aspd",
+              -1
+            ]
+          ]
+        },
+        {
+          "constant_index": 507,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "Trickster"
+            ],
+            [
+              "id",
+              "Trickster"
+            ],
+            [
+              "name",
+              "트릭스터"
+            ]
+          ]
+        },
+        {
+          "constant_index": 508,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              2
+            ],
+            [
+              "distance",
+              0
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 509,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "소환형"
+            ],
+            [
+              "asset",
+              "Ringmaster"
+            ],
+            [
+              "id",
+              "Ringmaster"
+            ],
+            [
+              "name",
+              "서커스 단장"
+            ]
+          ]
+        },
+        {
+          "constant_index": 511,
+          "array": [],
+          "dictionary": [
+            [
+              "atk",
+              3
+            ],
+            [
+              "distance",
+              1
+            ],
+            [
+              "hp",
+              3
+            ],
+            [
+              "aspd",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 512,
+          "array": [],
+          "dictionary": [
+            [
+              "classType",
+              "지원형"
+            ],
+            [
+              "asset",
+              "Illusionist"
+            ],
+            [
+              "id",
+              "Illusionist"
+            ],
+            [
+              "name",
+              "환술사"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/4/3",
+      "argument_count": 1,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "id"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 1,
+      "instruction_count": 93,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "insert"
+        },
+        {
+          "constant_index": 1,
+          "value": "table"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "random"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        },
+        {
+          "constant_index": 6,
+          "value": "love"
+        },
+        {
+          "constant_index": 23,
+          "value": "aspd"
+        },
+        {
+          "constant_index": 25,
+          "value": "atk"
+        },
+        {
+          "constant_index": 27,
+          "value": "hp"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "야수기사"
+            ],
+            [
+              "name",
+              "야수기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 8,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "해골 투사"
+            ],
+            [
+              "name",
+              "해골 투사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "엘프기사"
+            ],
+            [
+              "name",
+              "엘프기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 10,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "사신기사"
+            ],
+            [
+              "name",
+              "사신기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 11,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "화염기사"
+            ],
+            [
+              "name",
+              "화염기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 12,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "공허기사"
+            ],
+            [
+              "name",
+              "공허기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 13,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "성기사"
+            ],
+            [
+              "name",
+              "성기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 14,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "암기사"
+            ],
+            [
+              "name",
+              "암기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 15,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "MiniSwordMan03"
+            ],
+            [
+              "name",
+              "기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 16,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "야수기사"
+            ],
+            [
+              "name",
+              "야수기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 17,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "해골 투사"
+            ],
+            [
+              "name",
+              "해골 투사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 18,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "사신기사"
+            ],
+            [
+              "name",
+              "사신기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 19,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "화염기사"
+            ],
+            [
+              "name",
+              "화염기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 20,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 21,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "성기사"
+            ],
+            [
+              "name",
+              "성기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 22,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "암기사"
+            ],
+            [
+              "name",
+              "암기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 24,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "엘프기사"
+            ],
+            [
+              "name",
+              "엘프기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 26,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "공허기사"
+            ],
+            [
+              "name",
+              "공허기사"
+            ]
+          ]
+        },
+        {
+          "constant_index": 28,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 29,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "MiniSwordMan03"
+            ],
+            [
+              "name",
+              "기사"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/6/5",
+      "argument_count": 1,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "aspd"
+        },
+        {
+          "constant_index": 1,
+          "value": "A"
+        },
+        {
+          "constant_index": 2,
+          "value": "atk"
+        },
+        {
+          "constant_index": 3,
+          "value": "S"
+        },
+        {
+          "constant_index": 4,
+          "value": "hp"
+        },
+        {
+          "constant_index": 5,
+          "value": "W"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 1,
+      "instruction_count": 118,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "random"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "sym"
+        },
+        {
+          "constant_index": 4,
+          "value": "lastAbsorbType"
+        },
+        {
+          "constant_index": 6,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 7,
+          "value": "aspd"
+        },
+        {
+          "constant_index": 8,
+          "value": "atk"
+        },
+        {
+          "constant_index": 9,
+          "value": "insert"
+        },
+        {
+          "constant_index": 10,
+          "value": "table"
+        },
+        {
+          "constant_index": 11,
+          "value": "ASPD_count"
+        },
+        {
+          "constant_index": 12,
+          "value": "ATK_count"
+        },
+        {
+          "constant_index": 13,
+          "value": "HP_count"
+        },
+        {
+          "constant_index": 14,
+          "value": "hp"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/8",
+      "argument_count": 2,
+      "instruction_count": 26,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getWaveMessage"
+        },
+        {
+          "constant_index": 1,
+          "value": "random"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "love"
+        },
+        {
+          "constant_index": 4,
+          "value": "waveMessages"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/10",
+      "argument_count": 2,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ko"
+        },
+        {
+          "constant_index": 1,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 2,
+          "value": "_G"
+        },
+        {
+          "constant_index": 3,
+          "value": "core_wave_message."
+        },
+        {
+          "constant_index": 4,
+          "value": "getText"
+        },
+        {
+          "constant_index": 5,
+          "value": "src.data.language"
+        },
+        {
+          "constant_index": 6,
+          "value": "require"
+        },
+        {
+          "constant_index": 7,
+          "value": "waveMessages"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 24,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "expandTraitChoices"
+        },
+        {
+          "constant_index": 3,
+          "value": "getPromotionOptions"
+        },
+        {
+          "constant_index": 5,
+          "value": "buildKnightOptionsForAxis"
+        },
+        {
+          "constant_index": 7,
+          "value": "resolveDominantAxis"
+        },
+        {
+          "constant_index": 9,
+          "value": "getRandomWaveMessage"
+        },
+        {
+          "constant_index": 11,
+          "value": "getWaveMessage"
+        },
+        {
+          "constant_index": 13,
+          "value": "waveMessages"
+        },
+        {
+          "constant_index": 14,
+          "value": "src.data.faction"
+        },
+        {
+          "constant_index": 15,
+          "value": "src.data.skill"
+        },
+        {
+          "constant_index": 16,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 12,
+          "array": [
+            null,
+            "균형이 흔들린다",
+            "흐름이 변하고 있다",
+            "새로운 회로가 열렸다",
+            "기운이 응축된다",
+            "형태가 바뀌기 시작한다",
+            "기운이 응축된다",
+            "조용한 진동이 퍼진다",
+            "빛의 결이 달라졌다",
+            "다른 층위가 감지된다",
+            "정지된 파동이 깨어난다",
+            "계산되지 않은 변화가 다가온다",
+            "고요 속에 진동이 남는다",
+            "공기가 흔들린다",
+            "새로운 패턴이 떠오른다"
+          ],
+          "dictionary": []
+        }
+      ]
+    }
+  ]
+}

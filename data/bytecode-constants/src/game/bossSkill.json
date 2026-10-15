@@ -1,0 +1,7361 @@
+{
+  "file": "src/game/bossSkill.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 2,
+      "instruction_count": 54,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "drawDepthVfx"
+        },
+        {
+          "constant_index": 2,
+          "value": "isDepthVfx"
+        },
+        {
+          "constant_index": 3,
+          "value": "bossSkillVfx"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/1",
+      "argument_count": 1,
+      "instruction_count": 42,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "isDepthVfx"
+        },
+        {
+          "constant_index": 2,
+          "value": "bossSkillVfx"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 1,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "drawAbove"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/3",
+      "argument_count": 1,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "drawBehind"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 3,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "notifyAllyDamaged"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHandler"
+        },
+        {
+          "constant_index": 2,
+          "value": "owner"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 3,
+      "instruction_count": 24,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "notifyEnemyDamaged"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHandler"
+        },
+        {
+          "constant_index": 2,
+          "value": "_soulBody"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/7",
+      "argument_count": 3,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "retainsAllyTarget"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHandler"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/9",
+      "argument_count": 4,
+      "instruction_count": 50,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "blocksDamageToEnemyGlobal"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "blocksDamageToEnemy"
+        },
+        {
+          "constant_index": 3,
+          "value": "getHandler"
+        },
+        {
+          "constant_index": 4,
+          "value": "_soulBody"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/11",
+      "argument_count": 3,
+      "instruction_count": 28,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "consumeEffectDamage"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHandler"
+        },
+        {
+          "constant_index": 2,
+          "value": "owner"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/13",
+      "argument_count": 2,
+      "instruction_count": 30,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "consumeAllyBasicAttack"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHandler"
+        },
+        {
+          "constant_index": 2,
+          "value": "owner"
+        },
+        {
+          "constant_index": 3,
+          "value": "_skeletonDragonSoulBackflow"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/15",
+      "argument_count": 4,
+      "instruction_count": 54,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "modifyDamageToEnemyGlobal"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "modifyDamageToEnemy"
+        },
+        {
+          "constant_index": 4,
+          "value": "getHandler"
+        },
+        {
+          "constant_index": 5,
+          "value": "_soulBody"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/16",
+      "argument_count": 3,
+      "instruction_count": 30,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 1,
+          "value": "modifyDamageToAlly"
+        },
+        {
+          "constant_index": 2,
+          "value": "getHandler"
+        },
+        {
+          "constant_index": 3,
+          "value": "owner"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/17",
+      "argument_count": 3,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "onProjectileHit"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHandler"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/18",
+      "argument_count": 4,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "afterBasicAttackHit"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHandler"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20",
+      "argument_count": 3,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "onBasicAttackHit"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHandler"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/21",
+      "argument_count": 2,
+      "instruction_count": 21,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "onEnemyDeath"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/23",
+      "argument_count": 1,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "releaseOnDeath"
+        },
+        {
+          "constant_index": 1,
+          "value": "getHandler"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24",
+      "argument_count": 5,
+      "instruction_count": 48,
+      "numeric_constants": [
+        0.2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "updateWorld"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "min"
+        },
+        {
+          "constant_index": 3,
+          "value": "max"
+        },
+        {
+          "constant_index": 4,
+          "value": "huge"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        },
+        {
+          "constant_index": 6,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/25",
+      "argument_count": 6,
+      "instruction_count": 67,
+      "numeric_constants": [
+        0.2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "observeEnemy"
+        },
+        {
+          "constant_index": 1,
+          "value": "retaliation_sigil"
+        },
+        {
+          "constant_index": 2,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 3,
+          "value": "require"
+        },
+        {
+          "constant_index": 4,
+          "value": "_condemningSealT"
+        },
+        {
+          "constant_index": 5,
+          "value": "update"
+        },
+        {
+          "constant_index": 6,
+          "value": "getHandler"
+        },
+        {
+          "constant_index": 7,
+          "value": "min"
+        },
+        {
+          "constant_index": 8,
+          "value": "max"
+        },
+        {
+          "constant_index": 9,
+          "value": "huge"
+        },
+        {
+          "constant_index": 10,
+          "value": "math"
+        },
+        {
+          "constant_index": 11,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/69",
+      "argument_count": 1,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "constants"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/71",
+      "argument_count": 1,
+      "instruction_count": 35,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "active"
+        },
+        {
+          "constant_index": 1,
+          "value": "precast"
+        },
+        {
+          "constant_index": 2,
+          "value": "casting"
+        },
+        {
+          "constant_index": 3,
+          "value": "state"
+        },
+        {
+          "constant_index": 4,
+          "value": "skill"
+        },
+        {
+          "constant_index": 6,
+          "value": "ipairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [
+            null,
+            "_casting",
+            "_bossSkillBusy",
+            "_venomMawBusy",
+            "_venomMawState",
+            "_caveBasiliskState",
+            "_wastelandPiperState",
+            "_cosmicPressureState",
+            "_starJudgeScaleState",
+            "_twinStarBarrierPosing",
+            "_demonLordDominionAnimating",
+            "_bloodMoonSlashCasting",
+            "_bloodtailStingCasting",
+            "_dragonkinBoilingCasting",
+            "_spineCarapaceCasting",
+            "_razorscaleRainCasting",
+            "_razorscaleRainActive",
+            "_archRageCasting",
+            "_beholderGazePending",
+            "_summonPending",
+            "_howlPending"
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/73",
+      "argument_count": 2,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getHandler"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/75",
+      "argument_count": 2,
+      "instruction_count": 37,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "matches"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/77",
+      "argument_count": 2,
+      "instruction_count": 42,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "boss skill handler requires a matches function"
+        },
+        {
+          "constant_index": 1,
+          "value": "function"
+        },
+        {
+          "constant_index": 2,
+          "value": "matches"
+        },
+        {
+          "constant_index": 3,
+          "value": "table"
+        },
+        {
+          "constant_index": 4,
+          "value": "boss skill id is required"
+        },
+        {
+          "constant_index": 5,
+          "value": ""
+        },
+        {
+          "constant_index": 6,
+          "value": "string"
+        },
+        {
+          "constant_index": 7,
+          "value": "type"
+        },
+        {
+          "constant_index": 8,
+          "value": "assert"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/147",
+      "argument_count": 1,
+      "instruction_count": 133,
+      "numeric_constants": [
+        8,
+        0.35,
+        0.65,
+        10,
+        40,
+        0.93,
+        0.76,
+        0.32,
+        0.95,
+        7,
+        48,
+        0.88,
+        0.45,
+        0.82,
+        2,
+        30,
+        0.78,
+        0.42,
+        0.92
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 1,
+          "value": "_wastelandPiperCharm"
+        },
+        {
+          "constant_index": 2,
+          "value": "allies"
+        },
+        {
+          "constant_index": 3,
+          "value": "y"
+        },
+        {
+          "constant_index": 4,
+          "value": "x"
+        },
+        {
+          "constant_index": 5,
+          "value": "_wastelandPiperState"
+        },
+        {
+          "constant_index": 6,
+          "value": "dying"
+        },
+        {
+          "constant_index": 7,
+          "value": "alive"
+        },
+        {
+          "constant_index": 8,
+          "value": "enemies"
+        },
+        {
+          "constant_index": 9,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 10,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 11,
+          "value": "timer"
+        },
+        {
+          "constant_index": 12,
+          "value": "sin"
+        },
+        {
+          "constant_index": 13,
+          "value": "math"
+        },
+        {
+          "constant_index": 14,
+          "value": "getColor"
+        },
+        {
+          "constant_index": 15,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 16,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/148",
+      "argument_count": 7,
+      "instruction_count": 55,
+      "numeric_constants": [
+        2,
+        7,
+        4
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "fill"
+        },
+        {
+          "constant_index": 3,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 4,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 5,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 6,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/149",
+      "argument_count": 1,
+      "instruction_count": 19,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_bossSkillManualAnim"
+        },
+        {
+          "constant_index": 1,
+          "value": "_bossSkillBusy"
+        },
+        {
+          "constant_index": 2,
+          "value": "_wastelandPiperRecovery"
+        },
+        {
+          "constant_index": 3,
+          "value": "_wastelandPiperState"
+        },
+        {
+          "constant_index": 4,
+          "value": "_wastelandPiperCharmedTarget"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/150",
+      "argument_count": 3,
+      "instruction_count": 358,
+      "numeric_constants": [
+        0.45,
+        1,
+        0.55,
+        0.5,
+        60,
+        0.1,
+        0.24,
+        0.6,
+        0.001,
+        0.03333333333333333
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "walk"
+        },
+        {
+          "constant_index": 1,
+          "value": "speed"
+        },
+        {
+          "constant_index": 2,
+          "value": "sqrt"
+        },
+        {
+          "constant_index": 3,
+          "value": "y"
+        },
+        {
+          "constant_index": 4,
+          "value": "x"
+        },
+        {
+          "constant_index": 6,
+          "value": "atkTicks"
+        },
+        {
+          "constant_index": 7,
+          "value": "atkPeriod"
+        },
+        {
+          "constant_index": 8,
+          "value": "distance"
+        },
+        {
+          "constant_index": 10,
+          "value": "dmg"
+        },
+        {
+          "constant_index": 11,
+          "value": "function"
+        },
+        {
+          "constant_index": 12,
+          "value": "type"
+        },
+        {
+          "constant_index": 13,
+          "value": "hit"
+        },
+        {
+          "constant_index": 14,
+          "value": "floor"
+        },
+        {
+          "constant_index": 15,
+          "value": "min"
+        },
+        {
+          "constant_index": 16,
+          "value": "frameCount"
+        },
+        {
+          "constant_index": 17,
+          "value": "idle"
+        },
+        {
+          "constant_index": 18,
+          "value": "separated"
+        },
+        {
+          "constant_index": 19,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 20,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 21,
+          "value": "require"
+        },
+        {
+          "constant_index": 22,
+          "value": "target"
+        },
+        {
+          "constant_index": 23,
+          "value": "attack"
+        },
+        {
+          "constant_index": 24,
+          "value": "cooldown"
+        },
+        {
+          "constant_index": 25,
+          "value": "duration"
+        },
+        {
+          "constant_index": 26,
+          "value": "_suppressAttack"
+        },
+        {
+          "constant_index": 27,
+          "value": "t"
+        },
+        {
+          "constant_index": 28,
+          "value": "_venomMawSwallowed"
+        },
+        {
+          "constant_index": 29,
+          "value": "dying"
+        },
+        {
+          "constant_index": 30,
+          "value": "alive"
+        },
+        {
+          "constant_index": 31,
+          "value": "owner"
+        },
+        {
+          "constant_index": 32,
+          "value": "_wastelandPiperCharm"
+        },
+        {
+          "constant_index": 33,
+          "value": "allies"
+        },
+        {
+          "constant_index": 34,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 35,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 36,
+          "value": "max"
+        },
+        {
+          "constant_index": 37,
+          "value": "math"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": [
+            [
+              "hit",
+              false
+            ],
+            [
+              "t",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": [
+            [
+              "wastelandPiperCharm",
+              true
+            ],
+            [
+              "basicAttack",
+              true
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/151",
+      "argument_count": 3,
+      "instruction_count": 52,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "huge"
+        },
+        {
+          "constant_index": 1,
+          "value": "sqrt"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "separated"
+        },
+        {
+          "constant_index": 4,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 5,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 6,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 7,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/152",
+      "argument_count": 6,
+      "instruction_count": 222,
+      "numeric_constants": [
+        0.1,
+        6,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "piperMelodyCd"
+        },
+        {
+          "constant_index": 1,
+          "value": "attack2"
+        },
+        {
+          "constant_index": 2,
+          "value": "floor"
+        },
+        {
+          "constant_index": 3,
+          "value": "pow"
+        },
+        {
+          "constant_index": 4,
+          "value": "min"
+        },
+        {
+          "constant_index": 5,
+          "value": "piperMelodyCastDur"
+        },
+        {
+          "constant_index": 6,
+          "value": "t"
+        },
+        {
+          "constant_index": 7,
+          "value": "allies"
+        },
+        {
+          "constant_index": 8,
+          "value": "idle"
+        },
+        {
+          "constant_index": 9,
+          "value": "_bossSkillManualAnim"
+        },
+        {
+          "constant_index": 10,
+          "value": "_bossSkillBusy"
+        },
+        {
+          "constant_index": 11,
+          "value": "_wastelandPiperRecovery"
+        },
+        {
+          "constant_index": 12,
+          "value": "_wastelandPiperState"
+        },
+        {
+          "constant_index": 13,
+          "value": "piperMelodyFirstDelay"
+        },
+        {
+          "constant_index": 14,
+          "value": "_wastelandPiperNextMelody"
+        },
+        {
+          "constant_index": 15,
+          "value": "_wastelandPiperClock"
+        },
+        {
+          "constant_index": 16,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 17,
+          "value": "max"
+        },
+        {
+          "constant_index": 18,
+          "value": "math"
+        },
+        {
+          "constant_index": 19,
+          "value": "dying"
+        },
+        {
+          "constant_index": 20,
+          "value": "alive"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/153",
+      "argument_count": 1,
+      "instruction_count": 31,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_kb"
+        },
+        {
+          "constant_index": 1,
+          "value": "bindingT"
+        },
+        {
+          "constant_index": 2,
+          "value": "fearT"
+        },
+        {
+          "constant_index": 3,
+          "value": "stunT"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/154",
+      "argument_count": 2,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "attack2"
+        },
+        {
+          "constant_index": 1,
+          "value": "_bossSkillManualAnim"
+        },
+        {
+          "constant_index": 2,
+          "value": "_bossSkillBusy"
+        },
+        {
+          "constant_index": 4,
+          "value": "_wastelandPiperState"
+        },
+        {
+          "constant_index": 5,
+          "value": "allies"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 3,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "melody"
+            ],
+            [
+              "t",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/155",
+      "argument_count": 2,
+      "instruction_count": 68,
+      "numeric_constants": [
+        0.1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "idle"
+        },
+        {
+          "constant_index": 1,
+          "value": "onDebuff"
+        },
+        {
+          "constant_index": 2,
+          "value": "spitecap"
+        },
+        {
+          "constant_index": 3,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 4,
+          "value": "_suppressAttack"
+        },
+        {
+          "constant_index": 5,
+          "value": "duration"
+        },
+        {
+          "constant_index": 6,
+          "value": "owner"
+        },
+        {
+          "constant_index": 8,
+          "value": "_wastelandPiperCharm"
+        },
+        {
+          "constant_index": 9,
+          "value": "piperCharmDur"
+        },
+        {
+          "constant_index": 10,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 11,
+          "value": "max"
+        },
+        {
+          "constant_index": 12,
+          "value": "math"
+        },
+        {
+          "constant_index": 13,
+          "value": "_wastelandPiperCharmedTarget"
+        },
+        {
+          "constant_index": 14,
+          "value": "separated"
+        },
+        {
+          "constant_index": 15,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 16,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 17,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": [
+            [
+              "cooldown",
+              0
+            ],
+            [
+              "t",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/156",
+      "argument_count": 1,
+      "instruction_count": 55,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "idle"
+        },
+        {
+          "constant_index": 1,
+          "value": "dying"
+        },
+        {
+          "constant_index": 2,
+          "value": "alive"
+        },
+        {
+          "constant_index": 3,
+          "value": "_wastelandPiperCharmedTarget"
+        },
+        {
+          "constant_index": 4,
+          "value": "_suppressAttack"
+        },
+        {
+          "constant_index": 5,
+          "value": "_marshDriveAir"
+        },
+        {
+          "constant_index": 6,
+          "value": "_caveBasiliskPetrified"
+        },
+        {
+          "constant_index": 7,
+          "value": "_forceRetarget"
+        },
+        {
+          "constant_index": 8,
+          "value": "_casting"
+        },
+        {
+          "constant_index": 9,
+          "value": "_meleeLoop"
+        },
+        {
+          "constant_index": 10,
+          "value": "shotPending"
+        },
+        {
+          "constant_index": 11,
+          "value": "pendingTarget"
+        },
+        {
+          "constant_index": 12,
+          "value": "target"
+        },
+        {
+          "constant_index": 13,
+          "value": "_wastelandPiperCharmAttack"
+        },
+        {
+          "constant_index": 14,
+          "value": "owner"
+        },
+        {
+          "constant_index": 15,
+          "value": "_wastelandPiperCharm"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/157",
+      "argument_count": 2,
+      "instruction_count": 47,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "attack"
+        },
+        {
+          "constant_index": 4,
+          "value": "quads"
+        },
+        {
+          "constant_index": 5,
+          "value": "sym"
+        },
+        {
+          "constant_index": 6,
+          "value": "kind"
+        },
+        {
+          "constant_index": 7,
+          "value": ""
+        },
+        {
+          "constant_index": 8,
+          "value": "skin"
+        },
+        {
+          "constant_index": 9,
+          "value": "units"
+        },
+        {
+          "constant_index": 10,
+          "value": "assets"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/158",
+      "argument_count": 2,
+      "instruction_count": 32,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "timeless"
+        },
+        {
+          "constant_index": 1,
+          "value": "id"
+        },
+        {
+          "constant_index": 2,
+          "value": "imprints"
+        },
+        {
+          "constant_index": 3,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "timeStopT"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/159",
+      "argument_count": 1,
+      "instruction_count": 24,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_caveBasiliskPetrified"
+        },
+        {
+          "constant_index": 1,
+          "value": "_wastelandPiperCharm"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/160",
+      "argument_count": 2,
+      "instruction_count": 70,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "y"
+        },
+        {
+          "constant_index": 1,
+          "value": "x"
+        },
+        {
+          "constant_index": 2,
+          "value": "separated"
+        },
+        {
+          "constant_index": 3,
+          "value": "_caveBasiliskPetrified"
+        },
+        {
+          "constant_index": 4,
+          "value": "_wastelandPiperCharm"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 7,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 8,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/161",
+      "argument_count": 1,
+      "instruction_count": 41,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "combatPower"
+        },
+        {
+          "constant_index": 3,
+          "value": "fixedPower"
+        },
+        {
+          "constant_index": 4,
+          "value": "_powerRaw"
+        },
+        {
+          "constant_index": 5,
+          "value": "power"
+        },
+        {
+          "constant_index": 6,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/162/4",
+      "argument_count": 1,
+      "instruction_count": 64,
+      "numeric_constants": [
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "pi"
+        },
+        {
+          "constant_index": 2,
+          "value": "sin"
+        },
+        {
+          "constant_index": 3,
+          "value": "targetY"
+        },
+        {
+          "constant_index": 4,
+          "value": "startY"
+        },
+        {
+          "constant_index": 5,
+          "value": "targetX"
+        },
+        {
+          "constant_index": 6,
+          "value": "startX"
+        },
+        {
+          "constant_index": 7,
+          "value": "min"
+        },
+        {
+          "constant_index": 8,
+          "value": "max"
+        },
+        {
+          "constant_index": 9,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/162",
+      "argument_count": 1,
+      "instruction_count": 153,
+      "numeric_constants": [
+        0.001,
+        0.4,
+        0.035,
+        3,
+        2,
+        0.16,
+        0.2,
+        0.5254901960784314,
+        0.796078431372549,
+        0.27058823529411763,
+        4,
+        0.73,
+        0.94,
+        0.42,
+        0.92
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "fill"
+        },
+        {
+          "constant_index": 2,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 3,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 5,
+          "value": "dur"
+        },
+        {
+          "constant_index": 6,
+          "value": "max"
+        },
+        {
+          "constant_index": 7,
+          "value": "t"
+        },
+        {
+          "constant_index": 8,
+          "value": "min"
+        },
+        {
+          "constant_index": 9,
+          "value": "math"
+        },
+        {
+          "constant_index": 10,
+          "value": "_venomMawGlobs"
+        },
+        {
+          "constant_index": 11,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 12,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 13,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 14,
+          "value": "getBlendMode"
+        },
+        {
+          "constant_index": 15,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 16,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/163",
+      "argument_count": 1,
+      "instruction_count": 388,
+      "numeric_constants": [
+        0.18,
+        0.45,
+        3.2,
+        0.01,
+        0.99,
+        0.5,
+        11,
+        0.07,
+        1,
+        2,
+        3,
+        0.035,
+        1.07,
+        7,
+        1.7,
+        0.025,
+        0.5254901960784314,
+        0.796078431372549,
+        0.27058823529411763,
+        0.3215686274509804,
+        0.5098039215686274,
+        0.24705882352941178,
+        0.72,
+        0.17,
+        0.2,
+        0.3,
+        0.7098039215686275,
+        0.9294117647058824,
+        0.47058823529411764,
+        0.86,
+        0.25,
+        0.16,
+        0.075,
+        0.13,
+        0.055,
+        0.9,
+        0.05,
+        0.38,
+        1.91,
+        0.58,
+        0.001,
+        0.75,
+        0.08,
+        0.28,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "radius"
+        },
+        {
+          "constant_index": 1,
+          "value": "dur"
+        },
+        {
+          "constant_index": 2,
+          "value": "t"
+        },
+        {
+          "constant_index": 3,
+          "value": "pool"
+        },
+        {
+          "constant_index": 4,
+          "value": "kind"
+        },
+        {
+          "constant_index": 5,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 6,
+          "value": "ellipse"
+        },
+        {
+          "constant_index": 7,
+          "value": "unpack"
+        },
+        {
+          "constant_index": 8,
+          "value": "fill"
+        },
+        {
+          "constant_index": 9,
+          "value": "polygon"
+        },
+        {
+          "constant_index": 10,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 11,
+          "value": "cos"
+        },
+        {
+          "constant_index": 12,
+          "value": "pi"
+        },
+        {
+          "constant_index": 13,
+          "value": "y"
+        },
+        {
+          "constant_index": 14,
+          "value": "x"
+        },
+        {
+          "constant_index": 15,
+          "value": "floor"
+        },
+        {
+          "constant_index": 16,
+          "value": "yScale"
+        },
+        {
+          "constant_index": 17,
+          "value": "sin"
+        },
+        {
+          "constant_index": 18,
+          "value": "max"
+        },
+        {
+          "constant_index": 19,
+          "value": "min"
+        },
+        {
+          "constant_index": 20,
+          "value": "math"
+        },
+        {
+          "constant_index": 21,
+          "value": "age"
+        },
+        {
+          "constant_index": 22,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 23,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 24,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 25,
+          "value": "getBlendMode"
+        },
+        {
+          "constant_index": 26,
+          "value": "_venomMawImpacts"
+        },
+        {
+          "constant_index": 27,
+          "value": "_venomMawPools"
+        },
+        {
+          "constant_index": 28,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 29,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/164",
+      "argument_count": 4,
+      "instruction_count": 397,
+      "numeric_constants": [
+        0.001,
+        0.4,
+        0.1,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_venomMawImpacts"
+        },
+        {
+          "constant_index": 1,
+          "value": "addPoisonTickEffect"
+        },
+        {
+          "constant_index": 2,
+          "value": "Render2"
+        },
+        {
+          "constant_index": 3,
+          "value": "_G"
+        },
+        {
+          "constant_index": 5,
+          "value": "poisonHitFlash"
+        },
+        {
+          "constant_index": 7,
+          "value": "unit"
+        },
+        {
+          "constant_index": 8,
+          "value": "floor"
+        },
+        {
+          "constant_index": 9,
+          "value": "due"
+        },
+        {
+          "constant_index": 10,
+          "value": "tickT"
+        },
+        {
+          "constant_index": 11,
+          "value": "age"
+        },
+        {
+          "constant_index": 12,
+          "value": "justCreated"
+        },
+        {
+          "constant_index": 13,
+          "value": "remove"
+        },
+        {
+          "constant_index": 14,
+          "value": "table"
+        },
+        {
+          "constant_index": 15,
+          "value": "pool"
+        },
+        {
+          "constant_index": 16,
+          "value": "yScale"
+        },
+        {
+          "constant_index": 17,
+          "value": "damage"
+        },
+        {
+          "constant_index": 18,
+          "value": "poolDamage"
+        },
+        {
+          "constant_index": 20,
+          "value": "_venomMawPools"
+        },
+        {
+          "constant_index": 22,
+          "value": "impactDamage"
+        },
+        {
+          "constant_index": 23,
+          "value": "separated"
+        },
+        {
+          "constant_index": 24,
+          "value": "owner"
+        },
+        {
+          "constant_index": 25,
+          "value": "target"
+        },
+        {
+          "constant_index": 26,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 27,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 28,
+          "value": "require"
+        },
+        {
+          "constant_index": 29,
+          "value": "targetY"
+        },
+        {
+          "constant_index": 30,
+          "value": "startY"
+        },
+        {
+          "constant_index": 31,
+          "value": "y"
+        },
+        {
+          "constant_index": 32,
+          "value": "targetX"
+        },
+        {
+          "constant_index": 33,
+          "value": "startX"
+        },
+        {
+          "constant_index": 34,
+          "value": "x"
+        },
+        {
+          "constant_index": 35,
+          "value": "dur"
+        },
+        {
+          "constant_index": 36,
+          "value": "min"
+        },
+        {
+          "constant_index": 37,
+          "value": "t"
+        },
+        {
+          "constant_index": 38,
+          "value": "_venomMawGlobs"
+        },
+        {
+          "constant_index": 39,
+          "value": "dying"
+        },
+        {
+          "constant_index": 40,
+          "value": "alive"
+        },
+        {
+          "constant_index": 41,
+          "value": "_venomMawSwallowedBy"
+        },
+        {
+          "constant_index": 42,
+          "value": "_venomMawSwallowed"
+        },
+        {
+          "constant_index": 43,
+          "value": "_poisonVisualT"
+        },
+        {
+          "constant_index": 44,
+          "value": "allies"
+        },
+        {
+          "constant_index": 45,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 46,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 47,
+          "value": "max"
+        },
+        {
+          "constant_index": 48,
+          "value": "math"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ],
+            [
+              "dur",
+              0.32
+            ]
+          ]
+        },
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": [
+            [
+              "dot",
+              true
+            ],
+            [
+              "poison",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 19,
+          "array": [],
+          "dictionary": [
+            [
+              "tickT",
+              0
+            ],
+            [
+              "age",
+              0
+            ],
+            [
+              "due",
+              0
+            ],
+            [
+              "justCreated",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 21,
+          "array": [],
+          "dictionary": [
+            [
+              "skillBig",
+              true
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/165/0",
+      "argument_count": 2,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "d2"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/165",
+      "argument_count": 2,
+      "instruction_count": 97,
+      "numeric_constants": [
+        0.001,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "sort"
+        },
+        {
+          "constant_index": 2,
+          "value": "table"
+        },
+        {
+          "constant_index": 3,
+          "value": "d2"
+        },
+        {
+          "constant_index": 4,
+          "value": "unit"
+        },
+        {
+          "constant_index": 6,
+          "value": "max"
+        },
+        {
+          "constant_index": 7,
+          "value": "math"
+        },
+        {
+          "constant_index": 8,
+          "value": "entityGroundPoint"
+        },
+        {
+          "constant_index": 9,
+          "value": "y"
+        },
+        {
+          "constant_index": 10,
+          "value": "x"
+        },
+        {
+          "constant_index": 11,
+          "value": "separated"
+        },
+        {
+          "constant_index": 12,
+          "value": "owner"
+        },
+        {
+          "constant_index": 13,
+          "value": "allies"
+        },
+        {
+          "constant_index": 14,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 15,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 16,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 17,
+          "value": "require"
+        },
+        {
+          "constant_index": 18,
+          "value": "yScale"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/166",
+      "argument_count": 6,
+      "instruction_count": 865,
+      "numeric_constants": [
+        0.001,
+        0.016666666666666666,
+        4,
+        1,
+        7,
+        1e-07,
+        5,
+        0.01
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "landingY"
+        },
+        {
+          "constant_index": 1,
+          "value": "landingX"
+        },
+        {
+          "constant_index": 2,
+          "value": "startY"
+        },
+        {
+          "constant_index": 3,
+          "value": "startX"
+        },
+        {
+          "constant_index": 4,
+          "value": "fixedLandingFlightPosition"
+        },
+        {
+          "constant_index": 5,
+          "value": "flightArc"
+        },
+        {
+          "constant_index": 6,
+          "value": "flightDuration"
+        },
+        {
+          "constant_index": 7,
+          "value": "victim"
+        },
+        {
+          "constant_index": 8,
+          "value": "throwing"
+        },
+        {
+          "constant_index": 9,
+          "value": "nextChewFrameT"
+        },
+        {
+          "constant_index": 10,
+          "value": "chewFrame"
+        },
+        {
+          "constant_index": 11,
+          "value": "pi"
+        },
+        {
+          "constant_index": 12,
+          "value": "sin"
+        },
+        {
+          "constant_index": 13,
+          "value": "fromY"
+        },
+        {
+          "constant_index": 14,
+          "value": "fromX"
+        },
+        {
+          "constant_index": 15,
+          "value": "dur"
+        },
+        {
+          "constant_index": 16,
+          "value": "_venomMawTransition"
+        },
+        {
+          "constant_index": 17,
+          "value": "_venomMawSwallowed"
+        },
+        {
+          "constant_index": 18,
+          "value": "_venomMawVictim"
+        },
+        {
+          "constant_index": 19,
+          "value": "swallowing"
+        },
+        {
+          "constant_index": 20,
+          "value": "devour"
+        },
+        {
+          "constant_index": 21,
+          "value": "specialTarget"
+        },
+        {
+          "constant_index": 22,
+          "value": "wooden_watchtower"
+        },
+        {
+          "constant_index": 23,
+          "value": "floor"
+        },
+        {
+          "constant_index": 24,
+          "value": "attack2"
+        },
+        {
+          "constant_index": 25,
+          "value": "vomit_aim"
+        },
+        {
+          "constant_index": 26,
+          "value": "frame"
+        },
+        {
+          "constant_index": 27,
+          "value": "walk"
+        },
+        {
+          "constant_index": 28,
+          "value": "name"
+        },
+        {
+          "constant_index": 29,
+          "value": "anim"
+        },
+        {
+          "constant_index": 30,
+          "value": "min"
+        },
+        {
+          "constant_index": 31,
+          "value": "movementMultiplier"
+        },
+        {
+          "constant_index": 32,
+          "value": "slow_effects"
+        },
+        {
+          "constant_index": 33,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 34,
+          "value": "__slotStage4MarshMoveSpeed"
+        },
+        {
+          "constant_index": 35,
+          "value": "_G"
+        },
+        {
+          "constant_index": 36,
+          "value": "rawget"
+        },
+        {
+          "constant_index": 37,
+          "value": "speed"
+        },
+        {
+          "constant_index": 38,
+          "value": "sqrt"
+        },
+        {
+          "constant_index": 39,
+          "value": "y"
+        },
+        {
+          "constant_index": 40,
+          "value": "x"
+        },
+        {
+          "constant_index": 41,
+          "value": "attack3"
+        },
+        {
+          "constant_index": 42,
+          "value": "t"
+        },
+        {
+          "constant_index": 43,
+          "value": "throw_aim"
+        },
+        {
+          "constant_index": 44,
+          "value": "idle"
+        },
+        {
+          "constant_index": 45,
+          "value": "separated"
+        },
+        {
+          "constant_index": 46,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 47,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 48,
+          "value": "require"
+        },
+        {
+          "constant_index": 49,
+          "value": "target"
+        },
+        {
+          "constant_index": 50,
+          "value": "allies"
+        },
+        {
+          "constant_index": 51,
+          "value": "throw_approach"
+        },
+        {
+          "constant_index": 52,
+          "value": "pendingTarget"
+        },
+        {
+          "constant_index": 53,
+          "value": "shotPending"
+        },
+        {
+          "constant_index": 54,
+          "value": "_meleeLoop"
+        },
+        {
+          "constant_index": 55,
+          "value": "_venomMawManualAnim"
+        },
+        {
+          "constant_index": 56,
+          "value": "_venomMawBusy"
+        },
+        {
+          "constant_index": 57,
+          "value": "_venomMawThrowUses"
+        },
+        {
+          "constant_index": 58,
+          "value": "_venomMawNextThrow"
+        },
+        {
+          "constant_index": 59,
+          "value": "_venomMawNextVomit"
+        },
+        {
+          "constant_index": 60,
+          "value": "chewing"
+        },
+        {
+          "constant_index": 61,
+          "value": "kind"
+        },
+        {
+          "constant_index": 62,
+          "value": "_venomMawClock"
+        },
+        {
+          "constant_index": 63,
+          "value": "_venomMawState"
+        },
+        {
+          "constant_index": 64,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 65,
+          "value": "max"
+        },
+        {
+          "constant_index": 66,
+          "value": "math"
+        },
+        {
+          "constant_index": 67,
+          "value": "dying"
+        },
+        {
+          "constant_index": 68,
+          "value": "alive"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/167",
+      "argument_count": 2,
+      "instruction_count": 548,
+      "numeric_constants": [
+        0.5,
+        1000000,
+        -1000000,
+        0.55,
+        1.3,
+        0.82,
+        0.42,
+        1,
+        14,
+        0.8,
+        11,
+        0.6,
+        0.25,
+        0.65,
+        0.08,
+        0.75,
+        9,
+        0.12,
+        8,
+        0.1,
+        20,
+        0.06
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "facing"
+        },
+        {
+          "constant_index": 1,
+          "value": "frame"
+        },
+        {
+          "constant_index": 2,
+          "value": "anim"
+        },
+        {
+          "constant_index": 3,
+          "value": "min"
+        },
+        {
+          "constant_index": 4,
+          "value": "fill"
+        },
+        {
+          "constant_index": 5,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 6,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 7,
+          "value": "abs"
+        },
+        {
+          "constant_index": 8,
+          "value": "ry"
+        },
+        {
+          "constant_index": 9,
+          "value": "rx"
+        },
+        {
+          "constant_index": 10,
+          "value": "cy"
+        },
+        {
+          "constant_index": 11,
+          "value": "cx"
+        },
+        {
+          "constant_index": 13,
+          "value": "ryFactor"
+        },
+        {
+          "constant_index": 14,
+          "value": "rxFactor"
+        },
+        {
+          "constant_index": 15,
+          "value": "baseRadiusSrc"
+        },
+        {
+          "constant_index": 16,
+          "value": "vy"
+        },
+        {
+          "constant_index": 17,
+          "value": "offsetY"
+        },
+        {
+          "constant_index": 18,
+          "value": "vx"
+        },
+        {
+          "constant_index": 19,
+          "value": "offsetX"
+        },
+        {
+          "constant_index": 20,
+          "value": "cos"
+        },
+        {
+          "constant_index": 21,
+          "value": "phase"
+        },
+        {
+          "constant_index": 22,
+          "value": "pi"
+        },
+        {
+          "constant_index": 23,
+          "value": "sin"
+        },
+        {
+          "constant_index": 24,
+          "value": "lifespan"
+        },
+        {
+          "constant_index": 25,
+          "value": "delay"
+        },
+        {
+          "constant_index": 26,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 27,
+          "value": "table"
+        },
+        {
+          "constant_index": 28,
+          "value": "type"
+        },
+        {
+          "constant_index": 30,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 31,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 32,
+          "value": "getColor"
+        },
+        {
+          "constant_index": 33,
+          "value": "getBlendMode"
+        },
+        {
+          "constant_index": 34,
+          "value": "puffs"
+        },
+        {
+          "constant_index": 35,
+          "value": "t"
+        },
+        {
+          "constant_index": 36,
+          "value": "y"
+        },
+        {
+          "constant_index": 37,
+          "value": "x"
+        },
+        {
+          "constant_index": 38,
+          "value": "floor"
+        },
+        {
+          "constant_index": 39,
+          "value": "pixelScale"
+        },
+        {
+          "constant_index": 40,
+          "value": "sourceFrameH"
+        },
+        {
+          "constant_index": 41,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 42,
+          "value": "max"
+        },
+        {
+          "constant_index": 43,
+          "value": "math"
+        },
+        {
+          "constant_index": 44,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 45,
+          "value": "love"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 12,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 29,
+          "array": [
+            null,
+            0.92,
+            0.89,
+            0.83
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/168",
+      "argument_count": 4,
+      "instruction_count": 51,
+      "numeric_constants": [
+        1.05
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "abs"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/169",
+      "argument_count": 1,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "venom_maw_landing"
+        },
+        {
+          "constant_index": 1,
+          "value": "kind"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/170/16",
+      "argument_count": 2,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "d2"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/170",
+      "argument_count": 5,
+      "instruction_count": 195,
+      "numeric_constants": [
+        1,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_venomMawLastThrown"
+        },
+        {
+          "constant_index": 1,
+          "value": "startX"
+        },
+        {
+          "constant_index": 3,
+          "value": "min"
+        },
+        {
+          "constant_index": 4,
+          "value": "onDebuff"
+        },
+        {
+          "constant_index": 5,
+          "value": "spitecap"
+        },
+        {
+          "constant_index": 6,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 7,
+          "value": "stun"
+        },
+        {
+          "constant_index": 8,
+          "value": "statusDuration"
+        },
+        {
+          "constant_index": 9,
+          "value": "src.game.awakening"
+        },
+        {
+          "constant_index": 10,
+          "value": "stunT"
+        },
+        {
+          "constant_index": 12,
+          "value": "dmg"
+        },
+        {
+          "constant_index": 13,
+          "value": "floor"
+        },
+        {
+          "constant_index": 14,
+          "value": "max"
+        },
+        {
+          "constant_index": 15,
+          "value": "math"
+        },
+        {
+          "constant_index": 17,
+          "value": "sort"
+        },
+        {
+          "constant_index": 18,
+          "value": "table"
+        },
+        {
+          "constant_index": 19,
+          "value": "d2"
+        },
+        {
+          "constant_index": 20,
+          "value": "unit"
+        },
+        {
+          "constant_index": 22,
+          "value": "separated"
+        },
+        {
+          "constant_index": 23,
+          "value": "allies"
+        },
+        {
+          "constant_index": 24,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 25,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 26,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 27,
+          "value": "require"
+        },
+        {
+          "constant_index": 28,
+          "value": "y"
+        },
+        {
+          "constant_index": 29,
+          "value": "landingY"
+        },
+        {
+          "constant_index": 30,
+          "value": "x"
+        },
+        {
+          "constant_index": 31,
+          "value": "landingX"
+        },
+        {
+          "constant_index": 32,
+          "value": "_venomMawVictim"
+        },
+        {
+          "constant_index": 33,
+          "value": "victim"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": [
+            [
+              "area_damage",
+              true
+            ],
+            [
+              "skillBig",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 11,
+          "array": [],
+          "dictionary": [
+            [
+              "skillBig",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 21,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/171",
+      "argument_count": 3,
+      "instruction_count": 38,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "entityGroundPoint"
+        },
+        {
+          "constant_index": 1,
+          "value": "x"
+        },
+        {
+          "constant_index": 2,
+          "value": "y"
+        },
+        {
+          "constant_index": 3,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/173/23",
+      "argument_count": 0,
+      "instruction_count": 9,
+      "numeric_constants": [
+        9301,
+        49297,
+        233280
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/173",
+      "argument_count": 6,
+      "instruction_count": 286,
+      "numeric_constants": [
+        2.6,
+        17,
+        31,
+        101,
+        100000,
+        0.5,
+        0.9,
+        0.07,
+        0.02,
+        25,
+        10,
+        15,
+        1,
+        12,
+        6,
+        1.8,
+        1.2,
+        2,
+        0.3,
+        1.3,
+        0.2,
+        0.8,
+        0.14,
+        0.48,
+        6.28
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "facing"
+        },
+        {
+          "constant_index": 1,
+          "value": "anim"
+        },
+        {
+          "constant_index": 2,
+          "value": "frames"
+        },
+        {
+          "constant_index": 3,
+          "value": "speed"
+        },
+        {
+          "constant_index": 5,
+          "value": "puffs"
+        },
+        {
+          "constant_index": 6,
+          "value": "unitWidthWorld"
+        },
+        {
+          "constant_index": 7,
+          "value": "sourceFrameH"
+        },
+        {
+          "constant_index": 8,
+          "value": "pixelScale"
+        },
+        {
+          "constant_index": 9,
+          "value": "depthY"
+        },
+        {
+          "constant_index": 11,
+          "value": "vfx"
+        },
+        {
+          "constant_index": 12,
+          "value": "phase"
+        },
+        {
+          "constant_index": 13,
+          "value": "lifespan"
+        },
+        {
+          "constant_index": 14,
+          "value": "delay"
+        },
+        {
+          "constant_index": 15,
+          "value": "ryFactor"
+        },
+        {
+          "constant_index": 16,
+          "value": "rxFactor"
+        },
+        {
+          "constant_index": 17,
+          "value": "baseRadiusSrc"
+        },
+        {
+          "constant_index": 18,
+          "value": "vy"
+        },
+        {
+          "constant_index": 19,
+          "value": "vx"
+        },
+        {
+          "constant_index": 20,
+          "value": "offsetX"
+        },
+        {
+          "constant_index": 22,
+          "value": "abs"
+        },
+        {
+          "constant_index": 24,
+          "value": "rosterIndex"
+        },
+        {
+          "constant_index": 25,
+          "value": "floor"
+        },
+        {
+          "constant_index": 26,
+          "value": "min"
+        },
+        {
+          "constant_index": 27,
+          "value": "allySize32"
+        },
+        {
+          "constant_index": 28,
+          "value": "enemySize32"
+        },
+        {
+          "constant_index": 29,
+          "value": "battle"
+        },
+        {
+          "constant_index": 30,
+          "value": "ui"
+        },
+        {
+          "constant_index": 31,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 32,
+          "value": "max"
+        },
+        {
+          "constant_index": 33,
+          "value": "math"
+        },
+        {
+          "constant_index": 34,
+          "value": "getUnitAssetForAlly"
+        },
+        {
+          "constant_index": 35,
+          "value": "getUnitAssetForEnemy"
+        },
+        {
+          "constant_index": 36,
+          "value": "enemy"
+        },
+        {
+          "constant_index": 37,
+          "value": "side"
+        },
+        {
+          "constant_index": 38,
+          "value": "entityGroundPoint"
+        },
+        {
+          "constant_index": 39,
+          "value": "y"
+        },
+        {
+          "constant_index": 40,
+          "value": "x"
+        },
+        {
+          "constant_index": 41,
+          "value": "tonumber"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ],
+            [
+              "frame",
+              1
+            ],
+            [
+              "loop",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 10,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "venom_maw_landing"
+            ],
+            [
+              "t",
+              0
+            ],
+            [
+              "dur",
+              0.65
+            ],
+            [
+              "sortAgainstUnitY",
+              true
+            ],
+            [
+              "bossSkillVfx",
+              "venom_maw"
+            ]
+          ]
+        },
+        {
+          "constant_index": 21,
+          "array": [],
+          "dictionary": [
+            [
+              "offsetY",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/174",
+      "argument_count": 3,
+      "instruction_count": 90,
+      "numeric_constants": [
+        0.05
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "attack3"
+        },
+        {
+          "constant_index": 1,
+          "value": "dur"
+        },
+        {
+          "constant_index": 3,
+          "value": "_venomMawTransition"
+        },
+        {
+          "constant_index": 4,
+          "value": "y"
+        },
+        {
+          "constant_index": 5,
+          "value": "flightDistance"
+        },
+        {
+          "constant_index": 6,
+          "value": "flightArc"
+        },
+        {
+          "constant_index": 7,
+          "value": "flightDuration"
+        },
+        {
+          "constant_index": 8,
+          "value": "landingY"
+        },
+        {
+          "constant_index": 9,
+          "value": "landingX"
+        },
+        {
+          "constant_index": 10,
+          "value": "startY"
+        },
+        {
+          "constant_index": 11,
+          "value": "startX"
+        },
+        {
+          "constant_index": 12,
+          "value": "victim"
+        },
+        {
+          "constant_index": 13,
+          "value": "nextChewFrameT"
+        },
+        {
+          "constant_index": 14,
+          "value": "t"
+        },
+        {
+          "constant_index": 15,
+          "value": "throwing"
+        },
+        {
+          "constant_index": 16,
+          "value": "kind"
+        },
+        {
+          "constant_index": 17,
+          "value": "min"
+        },
+        {
+          "constant_index": 18,
+          "value": "max"
+        },
+        {
+          "constant_index": 19,
+          "value": "sqrt"
+        },
+        {
+          "constant_index": 20,
+          "value": "facing"
+        },
+        {
+          "constant_index": 21,
+          "value": "abs"
+        },
+        {
+          "constant_index": 22,
+          "value": "math"
+        },
+        {
+          "constant_index": 23,
+          "value": "x"
+        },
+        {
+          "constant_index": 24,
+          "value": "allies"
+        },
+        {
+          "constant_index": 25,
+          "value": "_venomMawVictim"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "out"
+            ],
+            [
+              "t",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/175",
+      "argument_count": 2,
+      "instruction_count": 73,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_venomMawVictim"
+        },
+        {
+          "constant_index": 1,
+          "value": "t"
+        },
+        {
+          "constant_index": 2,
+          "value": "frame"
+        },
+        {
+          "constant_index": 3,
+          "value": "idle"
+        },
+        {
+          "constant_index": 4,
+          "value": "name"
+        },
+        {
+          "constant_index": 5,
+          "value": "anim"
+        },
+        {
+          "constant_index": 6,
+          "value": "fromY"
+        },
+        {
+          "constant_index": 7,
+          "value": "fromX"
+        },
+        {
+          "constant_index": 8,
+          "value": "dur"
+        },
+        {
+          "constant_index": 10,
+          "value": "_venomMawTransition"
+        },
+        {
+          "constant_index": 11,
+          "value": "_suppressAttack"
+        },
+        {
+          "constant_index": 12,
+          "value": "_venomMawSwallowedBy"
+        },
+        {
+          "constant_index": 13,
+          "value": "onDebuff"
+        },
+        {
+          "constant_index": 14,
+          "value": "spitecap"
+        },
+        {
+          "constant_index": 15,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 16,
+          "value": "_venomMawSwallowed"
+        },
+        {
+          "constant_index": 17,
+          "value": "y"
+        },
+        {
+          "constant_index": 18,
+          "value": "_venomMawOriginalY"
+        },
+        {
+          "constant_index": 19,
+          "value": "x"
+        },
+        {
+          "constant_index": 20,
+          "value": "_venomMawOriginalX"
+        },
+        {
+          "constant_index": 21,
+          "value": "separated"
+        },
+        {
+          "constant_index": 22,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 23,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 24,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "in"
+            ],
+            [
+              "t",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/176",
+      "argument_count": 3,
+      "instruction_count": 138,
+      "numeric_constants": [
+        1,
+        0.28,
+        0.68,
+        250,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "poolDamage"
+        },
+        {
+          "constant_index": 1,
+          "value": "impactDamage"
+        },
+        {
+          "constant_index": 2,
+          "value": "dmg"
+        },
+        {
+          "constant_index": 3,
+          "value": "floor"
+        },
+        {
+          "constant_index": 4,
+          "value": "dur"
+        },
+        {
+          "constant_index": 5,
+          "value": "min"
+        },
+        {
+          "constant_index": 6,
+          "value": "max"
+        },
+        {
+          "constant_index": 7,
+          "value": "startY"
+        },
+        {
+          "constant_index": 8,
+          "value": "startX"
+        },
+        {
+          "constant_index": 9,
+          "value": "owner"
+        },
+        {
+          "constant_index": 11,
+          "value": "_venomMawGlobs"
+        },
+        {
+          "constant_index": 12,
+          "value": "sqrt"
+        },
+        {
+          "constant_index": 13,
+          "value": "math"
+        },
+        {
+          "constant_index": 14,
+          "value": "facing"
+        },
+        {
+          "constant_index": 15,
+          "value": "entityGroundPoint"
+        },
+        {
+          "constant_index": 16,
+          "value": "targetY"
+        },
+        {
+          "constant_index": 17,
+          "value": "y"
+        },
+        {
+          "constant_index": 18,
+          "value": "targetX"
+        },
+        {
+          "constant_index": 19,
+          "value": "x"
+        },
+        {
+          "constant_index": 20,
+          "value": "target"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 10,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/177",
+      "argument_count": 2,
+      "instruction_count": 75,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "t"
+        },
+        {
+          "constant_index": 1,
+          "value": "frame"
+        },
+        {
+          "constant_index": 2,
+          "value": "walk"
+        },
+        {
+          "constant_index": 3,
+          "value": "name"
+        },
+        {
+          "constant_index": 4,
+          "value": "anim"
+        },
+        {
+          "constant_index": 5,
+          "value": "attack3"
+        },
+        {
+          "constant_index": 6,
+          "value": "_meleeLoop"
+        },
+        {
+          "constant_index": 7,
+          "value": "pendingTarget"
+        },
+        {
+          "constant_index": 8,
+          "value": "shotPending"
+        },
+        {
+          "constant_index": 9,
+          "value": "_venomMawManualAnim"
+        },
+        {
+          "constant_index": 10,
+          "value": "_venomMawBusy"
+        },
+        {
+          "constant_index": 11,
+          "value": "target"
+        },
+        {
+          "constant_index": 12,
+          "value": "kind"
+        },
+        {
+          "constant_index": 13,
+          "value": "throw_approach"
+        },
+        {
+          "constant_index": 15,
+          "value": "throw_aim"
+        },
+        {
+          "constant_index": 16,
+          "value": "_venomMawState"
+        },
+        {
+          "constant_index": 17,
+          "value": "allies"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 14,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/178",
+      "argument_count": 2,
+      "instruction_count": 34,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "attack2"
+        },
+        {
+          "constant_index": 1,
+          "value": "_meleeLoop"
+        },
+        {
+          "constant_index": 2,
+          "value": "pendingTarget"
+        },
+        {
+          "constant_index": 3,
+          "value": "shotPending"
+        },
+        {
+          "constant_index": 4,
+          "value": "_venomMawManualAnim"
+        },
+        {
+          "constant_index": 5,
+          "value": "_venomMawBusy"
+        },
+        {
+          "constant_index": 6,
+          "value": "target"
+        },
+        {
+          "constant_index": 8,
+          "value": "_venomMawState"
+        },
+        {
+          "constant_index": 9,
+          "value": "allies"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "vomit_aim"
+            ],
+            [
+              "t",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/179",
+      "argument_count": 2,
+      "instruction_count": 46,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_venomMawSwallowedBy"
+        },
+        {
+          "constant_index": 1,
+          "value": "_venomMawVictim"
+        },
+        {
+          "constant_index": 2,
+          "value": "chewing"
+        },
+        {
+          "constant_index": 3,
+          "value": "swallowing"
+        },
+        {
+          "constant_index": 4,
+          "value": "kind"
+        },
+        {
+          "constant_index": 5,
+          "value": "_venomMawState"
+        },
+        {
+          "constant_index": 6,
+          "value": "dying"
+        },
+        {
+          "constant_index": 7,
+          "value": "alive"
+        },
+        {
+          "constant_index": 8,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 9,
+          "value": "max"
+        },
+        {
+          "constant_index": 10,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/180",
+      "argument_count": 1,
+      "instruction_count": 19,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_venomMawManualAnim"
+        },
+        {
+          "constant_index": 1,
+          "value": "_venomMawBusy"
+        },
+        {
+          "constant_index": 2,
+          "value": "_venomMawState"
+        },
+        {
+          "constant_index": 3,
+          "value": "_venomMawVictim"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/181",
+      "argument_count": 1,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_bossSkillManualAnim"
+        },
+        {
+          "constant_index": 1,
+          "value": "_bossSkillBusy"
+        },
+        {
+          "constant_index": 2,
+          "value": "_caveBasiliskState"
+        },
+        {
+          "constant_index": 3,
+          "value": "_caveBasiliskPetrifiedTargets"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/182",
+      "argument_count": 3,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "caveBasiliskPetrify"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/183",
+      "argument_count": 3,
+      "instruction_count": 84,
+      "numeric_constants": [
+        1,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "remove"
+        },
+        {
+          "constant_index": 1,
+          "value": "table"
+        },
+        {
+          "constant_index": 2,
+          "value": "hitLimit"
+        },
+        {
+          "constant_index": 3,
+          "value": "owner"
+        },
+        {
+          "constant_index": 4,
+          "value": "ownerHitsAtApply"
+        },
+        {
+          "constant_index": 5,
+          "value": "_caveBasiliskPetrifiedTargets"
+        },
+        {
+          "constant_index": 6,
+          "value": "_caveBasiliskDamageHits"
+        },
+        {
+          "constant_index": 7,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/184",
+      "argument_count": 3,
+      "instruction_count": 32,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 1,
+          "value": "owner"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/185",
+      "argument_count": 3,
+      "instruction_count": 51,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "random"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "_caveBasiliskSweepIcdT"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/186/2",
+      "argument_count": 2,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "d2"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/186",
+      "argument_count": 5,
+      "instruction_count": 101,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "sort"
+        },
+        {
+          "constant_index": 4,
+          "value": "table"
+        },
+        {
+          "constant_index": 5,
+          "value": "d2"
+        },
+        {
+          "constant_index": 6,
+          "value": "unit"
+        },
+        {
+          "constant_index": 8,
+          "value": "y"
+        },
+        {
+          "constant_index": 9,
+          "value": "x"
+        },
+        {
+          "constant_index": 10,
+          "value": "separated"
+        },
+        {
+          "constant_index": 11,
+          "value": "allies"
+        },
+        {
+          "constant_index": 12,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 13,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 14,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 15,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/187",
+      "argument_count": 4,
+      "instruction_count": 136,
+      "numeric_constants": [
+        0.001,
+        0.01,
+        0.35
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "addKnockbackEffect"
+        },
+        {
+          "constant_index": 1,
+          "value": "Render2"
+        },
+        {
+          "constant_index": 2,
+          "value": "_G"
+        },
+        {
+          "constant_index": 3,
+          "value": "dur"
+        },
+        {
+          "constant_index": 4,
+          "value": "t"
+        },
+        {
+          "constant_index": 5,
+          "value": "vy"
+        },
+        {
+          "constant_index": 6,
+          "value": "vx"
+        },
+        {
+          "constant_index": 7,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 8,
+          "value": "max"
+        },
+        {
+          "constant_index": 9,
+          "value": "_kb"
+        },
+        {
+          "constant_index": 10,
+          "value": "facing"
+        },
+        {
+          "constant_index": 11,
+          "value": "sqrt"
+        },
+        {
+          "constant_index": 12,
+          "value": "math"
+        },
+        {
+          "constant_index": 13,
+          "value": "y"
+        },
+        {
+          "constant_index": 14,
+          "value": "x"
+        },
+        {
+          "constant_index": 15,
+          "value": "separated"
+        },
+        {
+          "constant_index": 16,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 17,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 18,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/188",
+      "argument_count": 2,
+      "instruction_count": 112,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hitLimit"
+        },
+        {
+          "constant_index": 1,
+          "value": "duration"
+        },
+        {
+          "constant_index": 2,
+          "value": "ownerHitsAtApply"
+        },
+        {
+          "constant_index": 3,
+          "value": "_caveBasiliskDamageHits"
+        },
+        {
+          "constant_index": 4,
+          "value": "owner"
+        },
+        {
+          "constant_index": 5,
+          "value": "_suppressAttack"
+        },
+        {
+          "constant_index": 6,
+          "value": "t"
+        },
+        {
+          "constant_index": 7,
+          "value": "_caveBasiliskPetrifyImmuneT"
+        },
+        {
+          "constant_index": 8,
+          "value": "enemies"
+        },
+        {
+          "constant_index": 9,
+          "value": "allies"
+        },
+        {
+          "constant_index": 10,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 11,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 12,
+          "value": "max"
+        },
+        {
+          "constant_index": 13,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/189",
+      "argument_count": 6,
+      "instruction_count": 366,
+      "numeric_constants": [
+        6,
+        1,
+        9
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "dmg"
+        },
+        {
+          "constant_index": 1,
+          "value": "function"
+        },
+        {
+          "constant_index": 2,
+          "value": "type"
+        },
+        {
+          "constant_index": 3,
+          "value": "hit"
+        },
+        {
+          "constant_index": 4,
+          "value": "attack"
+        },
+        {
+          "constant_index": 5,
+          "value": "floor"
+        },
+        {
+          "constant_index": 6,
+          "value": "min"
+        },
+        {
+          "constant_index": 7,
+          "value": "attack2"
+        },
+        {
+          "constant_index": 8,
+          "value": "fired"
+        },
+        {
+          "constant_index": 9,
+          "value": "t"
+        },
+        {
+          "constant_index": 10,
+          "value": "gaze"
+        },
+        {
+          "constant_index": 11,
+          "value": "idle"
+        },
+        {
+          "constant_index": 12,
+          "value": "allies"
+        },
+        {
+          "constant_index": 13,
+          "value": "separated"
+        },
+        {
+          "constant_index": 14,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 15,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 16,
+          "value": "require"
+        },
+        {
+          "constant_index": 17,
+          "value": "pre_gaze_attack"
+        },
+        {
+          "constant_index": 18,
+          "value": "kind"
+        },
+        {
+          "constant_index": 19,
+          "value": "target"
+        },
+        {
+          "constant_index": 20,
+          "value": "_bossSkillManualAnim"
+        },
+        {
+          "constant_index": 21,
+          "value": "_bossSkillBusy"
+        },
+        {
+          "constant_index": 22,
+          "value": "_caveBasiliskState"
+        },
+        {
+          "constant_index": 23,
+          "value": "_caveBasiliskNextGaze"
+        },
+        {
+          "constant_index": 24,
+          "value": "_caveBasiliskClock"
+        },
+        {
+          "constant_index": 25,
+          "value": "_caveBasiliskSweepIcdT"
+        },
+        {
+          "constant_index": 26,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 27,
+          "value": "max"
+        },
+        {
+          "constant_index": 28,
+          "value": "math"
+        },
+        {
+          "constant_index": 29,
+          "value": "dying"
+        },
+        {
+          "constant_index": 30,
+          "value": "alive"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/190",
+      "argument_count": 2,
+      "instruction_count": 80,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "attack2"
+        },
+        {
+          "constant_index": 1,
+          "value": "attack"
+        },
+        {
+          "constant_index": 2,
+          "value": "_bossSkillManualAnim"
+        },
+        {
+          "constant_index": 3,
+          "value": "_bossSkillBusy"
+        },
+        {
+          "constant_index": 4,
+          "value": "target"
+        },
+        {
+          "constant_index": 5,
+          "value": "kind"
+        },
+        {
+          "constant_index": 6,
+          "value": "gaze"
+        },
+        {
+          "constant_index": 8,
+          "value": "pre_gaze_attack"
+        },
+        {
+          "constant_index": 9,
+          "value": "_caveBasiliskState"
+        },
+        {
+          "constant_index": 10,
+          "value": "distance"
+        },
+        {
+          "constant_index": 11,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 12,
+          "value": "max"
+        },
+        {
+          "constant_index": 13,
+          "value": "math"
+        },
+        {
+          "constant_index": 14,
+          "value": "y"
+        },
+        {
+          "constant_index": 15,
+          "value": "x"
+        },
+        {
+          "constant_index": 16,
+          "value": "allies"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ],
+            [
+              "hit",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/191",
+      "argument_count": 2,
+      "instruction_count": 45,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "idle"
+        },
+        {
+          "constant_index": 1,
+          "value": "caveBasiliskPetrify"
+        },
+        {
+          "constant_index": 2,
+          "value": "owner"
+        },
+        {
+          "constant_index": 3,
+          "value": "alive"
+        },
+        {
+          "constant_index": 4,
+          "value": "projectiles"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "_bossSkillManualAnim"
+        },
+        {
+          "constant_index": 7,
+          "value": "_bossSkillBusy"
+        },
+        {
+          "constant_index": 8,
+          "value": "_caveBasiliskState"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/192",
+      "argument_count": 1,
+      "instruction_count": 24,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_kb"
+        },
+        {
+          "constant_index": 1,
+          "value": "fearT"
+        },
+        {
+          "constant_index": 2,
+          "value": "stunT"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/193",
+      "argument_count": 3,
+      "instruction_count": 116,
+      "numeric_constants": [
+        0.0001,
+        0,
+        0.5,
+        1,
+        24
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hitTargets"
+        },
+        {
+          "constant_index": 1,
+          "value": "laserCoreColor"
+        },
+        {
+          "constant_index": 2,
+          "value": "laserOuterColor"
+        },
+        {
+          "constant_index": 3,
+          "value": "laserColor"
+        },
+        {
+          "constant_index": 4,
+          "value": "laserThickness"
+        },
+        {
+          "constant_index": 5,
+          "value": "scale"
+        },
+        {
+          "constant_index": 6,
+          "value": "maxTravel"
+        },
+        {
+          "constant_index": 7,
+          "value": "max"
+        },
+        {
+          "constant_index": 8,
+          "value": "rot"
+        },
+        {
+          "constant_index": 9,
+          "value": "dirY"
+        },
+        {
+          "constant_index": 10,
+          "value": "dirX"
+        },
+        {
+          "constant_index": 11,
+          "value": "vy"
+        },
+        {
+          "constant_index": 12,
+          "value": "vx"
+        },
+        {
+          "constant_index": 13,
+          "value": "startY"
+        },
+        {
+          "constant_index": 14,
+          "value": "startX"
+        },
+        {
+          "constant_index": 15,
+          "value": "y"
+        },
+        {
+          "constant_index": 16,
+          "value": "x"
+        },
+        {
+          "constant_index": 17,
+          "value": "targetOnly"
+        },
+        {
+          "constant_index": 18,
+          "value": "owner"
+        },
+        {
+          "constant_index": 20,
+          "value": "projectiles"
+        },
+        {
+          "constant_index": 21,
+          "value": "atan"
+        },
+        {
+          "constant_index": 22,
+          "value": "pi"
+        },
+        {
+          "constant_index": 23,
+          "value": "atan2"
+        },
+        {
+          "constant_index": 24,
+          "value": "sqrt"
+        },
+        {
+          "constant_index": 25,
+          "value": "math"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 19,
+          "array": [],
+          "dictionary": [
+            [
+              "anchoredLaser",
+              true
+            ],
+            [
+              "minHitTravel",
+              0
+            ],
+            [
+              "frame",
+              1
+            ],
+            [
+              "animT",
+              0
+            ],
+            [
+              "dmg",
+              0
+            ],
+            [
+              "kind",
+              "arrow"
+            ],
+            [
+              "noObserverSlow",
+              true
+            ],
+            [
+              "caveBasiliskPetrify",
+              true
+            ],
+            [
+              "side",
+              "enemy"
+            ],
+            [
+              "life",
+              1.2
+            ],
+            [
+              "asset",
+              "ObserverLaser"
+            ],
+            [
+              "alive",
+              true
+            ],
+            [
+              "renderAboveOwner",
+              true
+            ],
+            [
+              "laserStyle",
+              "beholder"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/194",
+      "argument_count": 1,
+      "instruction_count": 37,
+      "numeric_constants": [
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "y"
+        },
+        {
+          "constant_index": 1,
+          "value": "x"
+        },
+        {
+          "constant_index": 2,
+          "value": "colH"
+        },
+        {
+          "constant_index": 3,
+          "value": "colW"
+        },
+        {
+          "constant_index": 4,
+          "value": "colY"
+        },
+        {
+          "constant_index": 5,
+          "value": "colX"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/195",
+      "argument_count": 2,
+      "instruction_count": 158,
+      "numeric_constants": [
+        1,
+        0.01,
+        255,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "y"
+        },
+        {
+          "constant_index": 1,
+          "value": "x"
+        },
+        {
+          "constant_index": 2,
+          "value": "facing"
+        },
+        {
+          "constant_index": 3,
+          "value": "floor"
+        },
+        {
+          "constant_index": 4,
+          "value": "math"
+        },
+        {
+          "constant_index": 5,
+          "value": "getPixel"
+        },
+        {
+          "constant_index": 6,
+          "value": "getViewport"
+        },
+        {
+          "constant_index": 7,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 8,
+          "value": "frameW"
+        },
+        {
+          "constant_index": 9,
+          "value": "imageData"
+        },
+        {
+          "constant_index": 10,
+          "value": "attack2"
+        },
+        {
+          "constant_index": 11,
+          "value": "quads"
+        },
+        {
+          "constant_index": 12,
+          "value": "Cave Basilisk"
+        },
+        {
+          "constant_index": 13,
+          "value": "kind"
+        },
+        {
+          "constant_index": 14,
+          "value": ""
+        },
+        {
+          "constant_index": 15,
+          "value": "skin"
+        },
+        {
+          "constant_index": 16,
+          "value": "units"
+        },
+        {
+          "constant_index": 17,
+          "value": "assets"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/196",
+      "argument_count": 2,
+      "instruction_count": 58,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "holdCaveBasiliskPose"
+        },
+        {
+          "constant_index": 1,
+          "value": "_suppressAttack"
+        },
+        {
+          "constant_index": 2,
+          "value": "onDebuff"
+        },
+        {
+          "constant_index": 3,
+          "value": "spitecap"
+        },
+        {
+          "constant_index": 4,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 5,
+          "value": "require"
+        },
+        {
+          "constant_index": 6,
+          "value": "_caveBasiliskPetrifiedTargets"
+        },
+        {
+          "constant_index": 7,
+          "value": "hitLimit"
+        },
+        {
+          "constant_index": 8,
+          "value": "ownerHitsAtApply"
+        },
+        {
+          "constant_index": 9,
+          "value": "_caveBasiliskDamageHits"
+        },
+        {
+          "constant_index": 10,
+          "value": "riseDuration"
+        },
+        {
+          "constant_index": 11,
+          "value": "duration"
+        },
+        {
+          "constant_index": 12,
+          "value": "owner"
+        },
+        {
+          "constant_index": 14,
+          "value": "_caveBasiliskPetrified"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 13,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/197",
+      "argument_count": 3,
+      "instruction_count": 59,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "y"
+        },
+        {
+          "constant_index": 1,
+          "value": "x"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 4,
+          "value": "max"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/198",
+      "argument_count": 2,
+      "instruction_count": 38,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "separated"
+        },
+        {
+          "constant_index": 1,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 2,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 3,
+          "value": "require"
+        },
+        {
+          "constant_index": 4,
+          "value": "_caveBasiliskPetrifyImmuneT"
+        },
+        {
+          "constant_index": 5,
+          "value": "_oathHelmStone"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/200",
+      "argument_count": 2,
+      "instruction_count": 94,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "_caveBasiliskPetrifyImmuneT"
+        },
+        {
+          "constant_index": 3,
+          "value": "_suppressAttack"
+        },
+        {
+          "constant_index": 4,
+          "value": "stunT"
+        },
+        {
+          "constant_index": 5,
+          "value": "_casting"
+        },
+        {
+          "constant_index": 6,
+          "value": "_desynced"
+        },
+        {
+          "constant_index": 7,
+          "value": "reverse"
+        },
+        {
+          "constant_index": 8,
+          "value": "idle"
+        },
+        {
+          "constant_index": 9,
+          "value": "t"
+        },
+        {
+          "constant_index": 10,
+          "value": "frame"
+        },
+        {
+          "constant_index": 11,
+          "value": "name"
+        },
+        {
+          "constant_index": 12,
+          "value": "anim"
+        },
+        {
+          "constant_index": 13,
+          "value": "frozenAnim"
+        },
+        {
+          "constant_index": 14,
+          "value": "_caveBasiliskPetrifyIdleApplied"
+        },
+        {
+          "constant_index": 15,
+          "value": "remove"
+        },
+        {
+          "constant_index": 16,
+          "value": "table"
+        },
+        {
+          "constant_index": 17,
+          "value": "_caveBasiliskPetrifiedTargets"
+        },
+        {
+          "constant_index": 18,
+          "value": "_caveBasiliskPetrified"
+        },
+        {
+          "constant_index": 19,
+          "value": "owner"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/201",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "holdStonePose"
+        },
+        {
+          "constant_index": 1,
+          "value": "holdPose"
+        },
+        {
+          "constant_index": 2,
+          "value": "oath_helm"
+        },
+        {
+          "constant_index": 3,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 4,
+          "value": "require"
+        },
+        {
+          "constant_index": 5,
+          "value": "_oathHelmStone"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/203",
+      "argument_count": 2,
+      "instruction_count": 49,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "facing"
+        },
+        {
+          "constant_index": 1,
+          "value": "frozenFacing"
+        },
+        {
+          "constant_index": 2,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "frozenAnim"
+        },
+        {
+          "constant_index": 4,
+          "value": "anim"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/206",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_caveBasiliskPetrifyIdleApplied"
+        },
+        {
+          "constant_index": 1,
+          "value": "table"
+        },
+        {
+          "constant_index": 2,
+          "value": "type"
+        },
+        {
+          "constant_index": 3,
+          "value": "_caveBasiliskPetrified"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/207",
+      "argument_count": 1,
+      "instruction_count": 31,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "황야의 피리꾼 (Wasteland Piper)"
+        },
+        {
+          "constant_index": 1,
+          "value": "황야의 피리꾼"
+        },
+        {
+          "constant_index": 2,
+          "value": "Wasteland Piper"
+        },
+        {
+          "constant_index": 3,
+          "value": "skin"
+        },
+        {
+          "constant_index": 4,
+          "value": ""
+        },
+        {
+          "constant_index": 5,
+          "value": "kind"
+        },
+        {
+          "constant_index": 6,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/208",
+      "argument_count": 1,
+      "instruction_count": 29,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "암굴 바실리스크 (Cave Basilisk)"
+        },
+        {
+          "constant_index": 1,
+          "value": "암굴 바실리스크"
+        },
+        {
+          "constant_index": 2,
+          "value": "Cave Basilisk"
+        },
+        {
+          "constant_index": 3,
+          "value": "skin"
+        },
+        {
+          "constant_index": 4,
+          "value": ""
+        },
+        {
+          "constant_index": 5,
+          "value": "kind"
+        },
+        {
+          "constant_index": 6,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/209",
+      "argument_count": 1,
+      "instruction_count": 29,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "맹독아귀 (Venom Maw)"
+        },
+        {
+          "constant_index": 1,
+          "value": "맹독아귀"
+        },
+        {
+          "constant_index": 2,
+          "value": "Venom Maw"
+        },
+        {
+          "constant_index": 3,
+          "value": "skin"
+        },
+        {
+          "constant_index": 4,
+          "value": ""
+        },
+        {
+          "constant_index": 5,
+          "value": "kind"
+        },
+        {
+          "constant_index": 6,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/210",
+      "argument_count": 3,
+      "instruction_count": 55,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_venomMawVictim"
+        },
+        {
+          "constant_index": 1,
+          "value": "hitShake"
+        },
+        {
+          "constant_index": 2,
+          "value": "hitFlash"
+        },
+        {
+          "constant_index": 3,
+          "value": "t"
+        },
+        {
+          "constant_index": 4,
+          "value": "frame"
+        },
+        {
+          "constant_index": 5,
+          "value": "idle"
+        },
+        {
+          "constant_index": 6,
+          "value": "name"
+        },
+        {
+          "constant_index": 7,
+          "value": "dying"
+        },
+        {
+          "constant_index": 8,
+          "value": "alive"
+        },
+        {
+          "constant_index": 9,
+          "value": "anim"
+        },
+        {
+          "constant_index": 10,
+          "value": "_suppressAttack"
+        },
+        {
+          "constant_index": 11,
+          "value": "_venomMawTransition"
+        },
+        {
+          "constant_index": 12,
+          "value": "_venomMawSwallowedBy"
+        },
+        {
+          "constant_index": 13,
+          "value": "_venomMawSwallowed"
+        },
+        {
+          "constant_index": 14,
+          "value": "y"
+        },
+        {
+          "constant_index": 15,
+          "value": "_venomMawOriginalY"
+        },
+        {
+          "constant_index": 16,
+          "value": "x"
+        },
+        {
+          "constant_index": 17,
+          "value": "_venomMawOriginalX"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/211",
+      "argument_count": 1,
+      "instruction_count": 29,
+      "numeric_constants": [
+        9,
+        5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "y"
+        },
+        {
+          "constant_index": 1,
+          "value": "x"
+        },
+        {
+          "constant_index": 2,
+          "value": "facing"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/212",
+      "argument_count": 7,
+      "instruction_count": 76,
+      "numeric_constants": [
+        0.01
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pi"
+        },
+        {
+          "constant_index": 1,
+          "value": "sin"
+        },
+        {
+          "constant_index": 2,
+          "value": "min"
+        },
+        {
+          "constant_index": 3,
+          "value": "max"
+        },
+        {
+          "constant_index": 4,
+          "value": "math"
+        },
+        {
+          "constant_index": 5,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/214",
+      "argument_count": 1,
+      "instruction_count": 17,
+      "numeric_constants": [
+        2,
+        3
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/215",
+      "argument_count": 5,
+      "instruction_count": 23,
+      "numeric_constants": [
+        1,
+        0.45,
+        0.38
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "dur"
+        },
+        {
+          "constant_index": 1,
+          "value": "spit"
+        },
+        {
+          "constant_index": 2,
+          "value": "radius"
+        },
+        {
+          "constant_index": 3,
+          "value": "y"
+        },
+        {
+          "constant_index": 4,
+          "value": "x"
+        },
+        {
+          "constant_index": 5,
+          "value": "kind"
+        },
+        {
+          "constant_index": 7,
+          "value": "_venomMawImpacts"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/216",
+      "argument_count": 3,
+      "instruction_count": 188,
+      "numeric_constants": [
+        1,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "y"
+        },
+        {
+          "constant_index": 1,
+          "value": "_venomMawOriginalY"
+        },
+        {
+          "constant_index": 2,
+          "value": "x"
+        },
+        {
+          "constant_index": 3,
+          "value": "_venomMawOriginalX"
+        },
+        {
+          "constant_index": 4,
+          "value": "separated"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 7,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 8,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/217",
+      "argument_count": 3,
+      "instruction_count": 104,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "power"
+        },
+        {
+          "constant_index": 1,
+          "value": "distance"
+        },
+        {
+          "constant_index": 2,
+          "value": "unit"
+        },
+        {
+          "constant_index": 4,
+          "value": "sqrt"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        },
+        {
+          "constant_index": 6,
+          "value": "separated"
+        },
+        {
+          "constant_index": 7,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 8,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 9,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 10,
+          "value": "targets"
+        },
+        {
+          "constant_index": 11,
+          "value": "wooden_watchtower"
+        },
+        {
+          "constant_index": 12,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 13,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 3,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/218",
+      "argument_count": 1,
+      "instruction_count": 19,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fixedPower"
+        },
+        {
+          "constant_index": 1,
+          "value": "_powerRaw"
+        },
+        {
+          "constant_index": 2,
+          "value": "power"
+        },
+        {
+          "constant_index": 3,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 4,
+          "value": "max"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/219",
+      "argument_count": 3,
+      "instruction_count": 32,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "separated"
+        },
+        {
+          "constant_index": 1,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 2,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 3,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/220",
+      "argument_count": 1,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "distance"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/221",
+      "argument_count": 3,
+      "instruction_count": 53,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "separated"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 3,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 4,
+          "value": "targets"
+        },
+        {
+          "constant_index": 5,
+          "value": "wooden_watchtower"
+        },
+        {
+          "constant_index": 6,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 7,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/222",
+      "argument_count": 3,
+      "instruction_count": 75,
+      "numeric_constants": [
+        0.5,
+        0.1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "rangeEllipseYScale"
+        },
+        {
+          "constant_index": 3,
+          "value": "battle"
+        },
+        {
+          "constant_index": 4,
+          "value": "ui"
+        },
+        {
+          "constant_index": 5,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 6,
+          "value": "entityGroundPoint"
+        },
+        {
+          "constant_index": 7,
+          "value": "y"
+        },
+        {
+          "constant_index": 8,
+          "value": "x"
+        },
+        {
+          "constant_index": 9,
+          "value": "huge"
+        },
+        {
+          "constant_index": 10,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/223",
+      "argument_count": 3,
+      "instruction_count": 66,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "y"
+        },
+        {
+          "constant_index": 1,
+          "value": "x"
+        },
+        {
+          "constant_index": 2,
+          "value": "separated"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "dimensional_duel"
+        },
+        {
+          "constant_index": 5,
+          "value": "src.game.unit_abilities"
+        },
+        {
+          "constant_index": 6,
+          "value": "targets"
+        },
+        {
+          "constant_index": 7,
+          "value": "wooden_watchtower"
+        },
+        {
+          "constant_index": 8,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 9,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/224",
+      "argument_count": 1,
+      "instruction_count": 107,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_pendingTwinBolt"
+        },
+        {
+          "constant_index": 1,
+          "value": "_pendingTripleShot"
+        },
+        {
+          "constant_index": 2,
+          "value": "_pendingStormBlade"
+        },
+        {
+          "constant_index": 3,
+          "value": "_pendingShackleArrow"
+        },
+        {
+          "constant_index": 4,
+          "value": "_pendingSavageSlash"
+        },
+        {
+          "constant_index": 5,
+          "value": "_pendingPiercingThrust"
+        },
+        {
+          "constant_index": 6,
+          "value": "_pendingPiercingBullet"
+        },
+        {
+          "constant_index": 7,
+          "value": "_pendingImpactStrike"
+        },
+        {
+          "constant_index": 8,
+          "value": "_pendingGuardblade"
+        },
+        {
+          "constant_index": 9,
+          "value": "_pendingGroundSlam"
+        },
+        {
+          "constant_index": 10,
+          "value": "_pendingEmperorsRoar"
+        },
+        {
+          "constant_index": 11,
+          "value": "_pendingEarthCrush"
+        },
+        {
+          "constant_index": 12,
+          "value": "_pendingDownStrike"
+        },
+        {
+          "constant_index": 13,
+          "value": "_pendingDeadlyBullet"
+        },
+        {
+          "constant_index": 14,
+          "value": "_pendingDarkOrbCrash"
+        },
+        {
+          "constant_index": 15,
+          "value": "_pendingCrushingSlam"
+        },
+        {
+          "constant_index": 16,
+          "value": "_pendingCleaveBurst"
+        },
+        {
+          "constant_index": 17,
+          "value": "_pendingCavalryDH"
+        },
+        {
+          "constant_index": 18,
+          "value": "_pendingCavalryAbyss"
+        },
+        {
+          "constant_index": 19,
+          "value": "_pendingBloodPrice"
+        },
+        {
+          "constant_index": 20,
+          "value": "_pendingBleedingStrike"
+        },
+        {
+          "constant_index": 21,
+          "value": "_pendingBladeWave"
+        },
+        {
+          "constant_index": 22,
+          "value": "_pendingBindingBolt"
+        },
+        {
+          "constant_index": 23,
+          "value": "_pendingBerserkAxe"
+        },
+        {
+          "constant_index": 24,
+          "value": "_pendingAssaultStrike"
+        },
+        {
+          "constant_index": 25,
+          "value": "_pendingAssaultGuard"
+        },
+        {
+          "constant_index": 26,
+          "value": "_pendingArcaneOrb"
+        },
+        {
+          "constant_index": 27,
+          "value": "_pendingArcaneCore"
+        },
+        {
+          "constant_index": 28,
+          "value": "_pendingBloodSurge"
+        },
+        {
+          "constant_index": 29,
+          "value": "_pendingGaleBow"
+        },
+        {
+          "constant_index": 30,
+          "value": "_pendingHeadshot"
+        },
+        {
+          "constant_index": 31,
+          "value": "_pendingPrecisionShot"
+        },
+        {
+          "constant_index": 32,
+          "value": "_pendingBeastKick"
+        },
+        {
+          "constant_index": 33,
+          "value": "_pendingHeavyKick"
+        },
+        {
+          "constant_index": 34,
+          "value": "_pendingGuardThrust"
+        },
+        {
+          "constant_index": 35,
+          "value": "_pendingColossusHit"
+        },
+        {
+          "constant_index": 36,
+          "value": "_pendingPantherHit"
+        },
+        {
+          "constant_index": 37,
+          "value": "_pendingBoarHit"
+        },
+        {
+          "constant_index": 38,
+          "value": "_pendingSpearHit"
+        },
+        {
+          "constant_index": 39,
+          "value": "_pendingWarriorHit"
+        },
+        {
+          "constant_index": 40,
+          "value": "_pendingDuelistHit"
+        },
+        {
+          "constant_index": 41,
+          "value": "_pendingCavalryHit"
+        },
+        {
+          "constant_index": 42,
+          "value": "_pendingBerserkHit"
+        },
+        {
+          "constant_index": 43,
+          "value": "_pendingHowlHit"
+        },
+        {
+          "constant_index": 44,
+          "value": "_pendingGoblinHit"
+        },
+        {
+          "constant_index": 45,
+          "value": "_pendingOrcHit"
+        },
+        {
+          "constant_index": 46,
+          "value": "_meleeLoop"
+        },
+        {
+          "constant_index": 47,
+          "value": "_casting"
+        },
+        {
+          "constant_index": 48,
+          "value": "shotPending"
+        },
+        {
+          "constant_index": 49,
+          "value": "pendingTarget"
+        },
+        {
+          "constant_index": 50,
+          "value": "target"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/225",
+      "argument_count": 2,
+      "instruction_count": 30,
+      "numeric_constants": [
+        0.05
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "facing"
+        },
+        {
+          "constant_index": 1,
+          "value": "abs"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "x"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/226",
+      "argument_count": 2,
+      "instruction_count": 19,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "t"
+        },
+        {
+          "constant_index": 1,
+          "value": "frame"
+        },
+        {
+          "constant_index": 2,
+          "value": "name"
+        },
+        {
+          "constant_index": 3,
+          "value": "anim"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/227",
+      "argument_count": 3,
+      "instruction_count": 32,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "frame"
+        },
+        {
+          "constant_index": 1,
+          "value": "t"
+        },
+        {
+          "constant_index": 2,
+          "value": "name"
+        },
+        {
+          "constant_index": 3,
+          "value": "anim"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/228",
+      "argument_count": 1,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_venomMawSwallowed"
+        },
+        {
+          "constant_index": 1,
+          "value": "isUndyingSoul"
+        },
+        {
+          "constant_index": 2,
+          "value": "hp"
+        },
+        {
+          "constant_index": 3,
+          "value": "dying"
+        },
+        {
+          "constant_index": 4,
+          "value": "alive"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/231",
+      "argument_count": 2,
+      "instruction_count": 243,
+      "numeric_constants": [
+        1,
+        0.05,
+        0.25,
+        2,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "x"
+        },
+        {
+          "constant_index": 1,
+          "value": "w"
+        },
+        {
+          "constant_index": 2,
+          "value": "bounds"
+        },
+        {
+          "constant_index": 3,
+          "value": "floor"
+        },
+        {
+          "constant_index": 4,
+          "value": "getPixel"
+        },
+        {
+          "constant_index": 5,
+          "value": "getViewport"
+        },
+        {
+          "constant_index": 6,
+          "value": "table"
+        },
+        {
+          "constant_index": 7,
+          "value": "type"
+        },
+        {
+          "constant_index": 8,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 9,
+          "value": "move"
+        },
+        {
+          "constant_index": 10,
+          "value": "std"
+        },
+        {
+          "constant_index": 11,
+          "value": "idle"
+        },
+        {
+          "constant_index": 12,
+          "value": "quads"
+        },
+        {
+          "constant_index": 13,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 14,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 15,
+          "value": "imageData"
+        },
+        {
+          "constant_index": 16,
+          "value": "frameH"
+        },
+        {
+          "constant_index": 17,
+          "value": "frameW"
+        },
+        {
+          "constant_index": 18,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 19,
+          "value": "max"
+        },
+        {
+          "constant_index": 20,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 600,
+      "numeric_constants": [
+        0.6,
+        0.8,
+        0.4,
+        0.2,
+        0.5,
+        0.24,
+        0.1,
+        0.28,
+        0.35,
+        0.55,
+        0.95,
+        0.07,
+        1.08,
+        0.14,
+        3.8,
+        32.5,
+        1.2,
+        0.3,
+        1.22
+      ],
+      "strings": [
+        {
+          "constant_index": 5,
+          "value": "notifyAllyDamaged"
+        },
+        {
+          "constant_index": 8,
+          "value": "retainsAllyTarget"
+        },
+        {
+          "constant_index": 10,
+          "value": "blocksDamageToEnemy"
+        },
+        {
+          "constant_index": 12,
+          "value": "consumeVfxDamage"
+        },
+        {
+          "constant_index": 14,
+          "value": "consumeAllyBasicAttack"
+        },
+        {
+          "constant_index": 19,
+          "value": "afterBasicAttackHit"
+        },
+        {
+          "constant_index": 22,
+          "value": "notifyEnemyDeath"
+        },
+        {
+          "constant_index": 26,
+          "value": "updateBoss"
+        },
+        {
+          "constant_index": 27,
+          "value": "cosmic_sovereign"
+        },
+        {
+          "constant_index": 28,
+          "value": "star_judge"
+        },
+        {
+          "constant_index": 29,
+          "value": "twin_star_lords"
+        },
+        {
+          "constant_index": 30,
+          "value": "twin_star_barrier"
+        },
+        {
+          "constant_index": 31,
+          "value": "star_priestess"
+        },
+        {
+          "constant_index": 32,
+          "value": "starlight_paladin"
+        },
+        {
+          "constant_index": 33,
+          "value": "crystal_guard"
+        },
+        {
+          "constant_index": 34,
+          "value": "crescent_raider"
+        },
+        {
+          "constant_index": 35,
+          "value": "space_wizard"
+        },
+        {
+          "constant_index": 36,
+          "value": "space_cavalry"
+        },
+        {
+          "constant_index": 37,
+          "value": "space_knight"
+        },
+        {
+          "constant_index": 38,
+          "value": "space_hunter"
+        },
+        {
+          "constant_index": 39,
+          "value": "space_guardian"
+        },
+        {
+          "constant_index": 40,
+          "value": "space_assassin"
+        },
+        {
+          "constant_index": 41,
+          "value": "dark_lord"
+        },
+        {
+          "constant_index": 42,
+          "value": "doom_dragon"
+        },
+        {
+          "constant_index": 43,
+          "value": "skeleton_dragon"
+        },
+        {
+          "constant_index": 44,
+          "value": "demon_lord"
+        },
+        {
+          "constant_index": 45,
+          "value": "hell_warden"
+        },
+        {
+          "constant_index": 46,
+          "value": "high_demon"
+        },
+        {
+          "constant_index": 47,
+          "value": "clawed_demon"
+        },
+        {
+          "constant_index": 48,
+          "value": "src.game.enemy_skills"
+        },
+        {
+          "constant_index": 49,
+          "value": "succubus"
+        },
+        {
+          "constant_index": 50,
+          "value": "wasteland_piper"
+        },
+        {
+          "constant_index": 52,
+          "value": "cave_basilisk"
+        },
+        {
+          "constant_index": 53,
+          "value": "notifyEnemyDamaged"
+        },
+        {
+          "constant_index": 54,
+          "value": "modifyDamageToAlly"
+        },
+        {
+          "constant_index": 55,
+          "value": "onProjectileHit"
+        },
+        {
+          "constant_index": 56,
+          "value": "onBasicAttackHit"
+        },
+        {
+          "constant_index": 58,
+          "value": "venom_maw"
+        },
+        {
+          "constant_index": 59,
+          "value": "constants"
+        },
+        {
+          "constant_index": 60,
+          "value": "modifyDamageToEnemy"
+        },
+        {
+          "constant_index": 61,
+          "value": "drawAbove"
+        },
+        {
+          "constant_index": 62,
+          "value": "drawBehind"
+        },
+        {
+          "constant_index": 63,
+          "value": "drawDepthVfx"
+        },
+        {
+          "constant_index": 64,
+          "value": "isDepthVfx"
+        },
+        {
+          "constant_index": 65,
+          "value": "releaseOnDeath"
+        },
+        {
+          "constant_index": 66,
+          "value": "updateWorld"
+        },
+        {
+          "constant_index": 67,
+          "value": "update"
+        },
+        {
+          "constant_index": 70,
+          "value": "getConstants"
+        },
+        {
+          "constant_index": 72,
+          "value": "isCasting"
+        },
+        {
+          "constant_index": 74,
+          "value": "matches"
+        },
+        {
+          "constant_index": 76,
+          "value": "getHandler"
+        },
+        {
+          "constant_index": 78,
+          "value": "register"
+        },
+        {
+          "constant_index": 79,
+          "value": "MELODY_ANIM_EASE"
+        },
+        {
+          "constant_index": 80,
+          "value": "CHARM_DURATION"
+        },
+        {
+          "constant_index": 81,
+          "value": "MELODY_CAST"
+        },
+        {
+          "constant_index": 82,
+          "value": "MELODY_COOLDOWN"
+        },
+        {
+          "constant_index": 83,
+          "value": "MELODY_FIRST"
+        },
+        {
+          "constant_index": 85,
+          "value": "PRE_GAZE_KB_DURATION"
+        },
+        {
+          "constant_index": 86,
+          "value": "PRE_GAZE_FORCE"
+        },
+        {
+          "constant_index": 87,
+          "value": "PRE_GAZE_HIT_FRAME"
+        },
+        {
+          "constant_index": 88,
+          "value": "PRE_GAZE_ATTACK_DURATION"
+        },
+        {
+          "constant_index": 89,
+          "value": "SWEEP_DURATION"
+        },
+        {
+          "constant_index": 90,
+          "value": "SWEEP_FORCE"
+        },
+        {
+          "constant_index": 91,
+          "value": "SWEEP_MAX_EXTRA"
+        },
+        {
+          "constant_index": 92,
+          "value": "SWEEP_RADIUS"
+        },
+        {
+          "constant_index": 93,
+          "value": "SWEEP_COOLDOWN"
+        },
+        {
+          "constant_index": 94,
+          "value": "SWEEP_CHANCE"
+        },
+        {
+          "constant_index": 95,
+          "value": "DAMAGE_TAKEN_MUL"
+        },
+        {
+          "constant_index": 96,
+          "value": "PETRIFY_RISE_DURATION"
+        },
+        {
+          "constant_index": 97,
+          "value": "PETRIFY_IMMUNITY"
+        },
+        {
+          "constant_index": 98,
+          "value": "PETRIFY_HIT_LIMIT"
+        },
+        {
+          "constant_index": 99,
+          "value": "PETRIFY_DURATION"
+        },
+        {
+          "constant_index": 100,
+          "value": "PROJECTILE_OUTER_COLOR"
+        },
+        {
+          "constant_index": 101,
+          "value": "PROJECTILE_COLOR"
+        },
+        {
+          "constant_index": 102,
+          "value": "MUZZLE_FALLBACK_Y"
+        },
+        {
+          "constant_index": 103,
+          "value": "MUZZLE_FALLBACK_X"
+        },
+        {
+          "constant_index": 104,
+          "value": "MUZZLE_B"
+        },
+        {
+          "constant_index": 105,
+          "value": "MUZZLE_G"
+        },
+        {
+          "constant_index": 106,
+          "value": "MUZZLE_R"
+        },
+        {
+          "constant_index": 107,
+          "value": "GAZE_PROJECTILE_THICKNESS"
+        },
+        {
+          "constant_index": 108,
+          "value": "GAZE_PROJECTILE_SPEED"
+        },
+        {
+          "constant_index": 109,
+          "value": "GAZE_RELEASE_FRAME"
+        },
+        {
+          "constant_index": 110,
+          "value": "GAZE_RANGE"
+        },
+        {
+          "constant_index": 111,
+          "value": "GAZE_RECOVERY"
+        },
+        {
+          "constant_index": 112,
+          "value": "GAZE_CAST"
+        },
+        {
+          "constant_index": 113,
+          "value": "GAZE_COOLDOWN"
+        },
+        {
+          "constant_index": 114,
+          "value": "GAZE_FIRST"
+        },
+        {
+          "constant_index": 116,
+          "value": "THROW_NEAR_DISTANCE_TOLERANCE"
+        },
+        {
+          "constant_index": 117,
+          "value": "THROW_FLIGHT_DISTANCE_FOR_MAX"
+        },
+        {
+          "constant_index": 118,
+          "value": "THROW_FLIGHT_MAX_ARC"
+        },
+        {
+          "constant_index": 119,
+          "value": "THROW_FLIGHT_ARC"
+        },
+        {
+          "constant_index": 120,
+          "value": "THROW_FLIGHT_MAX_DURATION"
+        },
+        {
+          "constant_index": 121,
+          "value": "THROW_FLIGHT_DURATION"
+        },
+        {
+          "constant_index": 122,
+          "value": "DEVOUR_DAMAGE_REDUCTION"
+        },
+        {
+          "constant_index": 123,
+          "value": "THROW_SWALLOW_TRANSITION"
+        },
+        {
+          "constant_index": 124,
+          "value": "THROW_CHEW_FRAME_TIME"
+        },
+        {
+          "constant_index": 125,
+          "value": "THROW_SPIT_RECOVERY"
+        },
+        {
+          "constant_index": 126,
+          "value": "THROW_STUN_DURATION"
+        },
+        {
+          "constant_index": 127,
+          "value": "THROW_SPLASH_MAX_TARGETS"
+        },
+        {
+          "constant_index": 128,
+          "value": "THROW_SPLASH_RADIUS"
+        },
+        {
+          "constant_index": 129,
+          "value": "CHEW_DURATION"
+        },
+        {
+          "constant_index": 130,
+          "value": "THROW_AIM"
+        },
+        {
+          "constant_index": 131,
+          "value": "THROW_MAX_USES"
+        },
+        {
+          "constant_index": 132,
+          "value": "THROW_COOLDOWN"
+        },
+        {
+          "constant_index": 133,
+          "value": "THROW_FIRST"
+        },
+        {
+          "constant_index": 134,
+          "value": "POOL_MAX_TARGETS"
+        },
+        {
+          "constant_index": 135,
+          "value": "POOL_Y_SCALE"
+        },
+        {
+          "constant_index": 136,
+          "value": "POOL_RADIUS"
+        },
+        {
+          "constant_index": 137,
+          "value": "POOL_DURATION"
+        },
+        {
+          "constant_index": 138,
+          "value": "VOMIT_ARC_HEIGHT"
+        },
+        {
+          "constant_index": 139,
+          "value": "VOMIT_SPRITE_SCALE"
+        },
+        {
+          "constant_index": 140,
+          "value": "VOMIT_MOUTH_LOCAL_Y"
+        },
+        {
+          "constant_index": 141,
+          "value": "VOMIT_MOUTH_LOCAL_X"
+        },
+        {
+          "constant_index": 142,
+          "value": "VOMIT_TARGET_RANGE"
+        },
+        {
+          "constant_index": 143,
+          "value": "VOMIT_AIM"
+        },
+        {
+          "constant_index": 144,
+          "value": "VOMIT_COOLDOWN"
+        },
+        {
+          "constant_index": 145,
+          "value": "VOMIT_FIRST"
+        },
+        {
+          "constant_index": 172,
+          "value": "spawnLandingDust"
+        },
+        {
+          "constant_index": 199,
+          "value": "releaseCaveBasiliskPetrify"
+        },
+        {
+          "constant_index": 202,
+          "value": "holdCaveBasiliskPose"
+        },
+        {
+          "constant_index": 204,
+          "value": "holdStonePose"
+        },
+        {
+          "constant_index": 205,
+          "value": "cancelStoneActions"
+        },
+        {
+          "constant_index": 213,
+          "value": "fixedLandingFlightPosition"
+        },
+        {
+          "constant_index": 284,
+          "value": "src.game.power"
+        },
+        {
+          "constant_index": 285,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 51,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 57,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 68,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 84,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 115,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 146,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 229,
+          "array": [
+            null,
+            0.3176470588235294,
+            0.20392156862745098,
+            0.3568627450980392,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 230,
+          "array": [
+            null,
+            0.4627450980392157,
+            0.3176470588235294,
+            0.5137254901960784,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 232,
+          "array": [
+            null,
+            -5,
+            -5,
+            3,
+            3,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 233,
+          "array": [
+            null,
+            8,
+            -8,
+            4,
+            4,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 234,
+          "array": [
+            null,
+            -9,
+            -7,
+            4,
+            4,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 235,
+          "array": [
+            null,
+            11,
+            -5,
+            5,
+            4,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 236,
+          "array": [
+            null,
+            -14,
+            -5,
+            5,
+            4,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 237,
+          "array": [
+            null,
+            8,
+            -1,
+            4,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 238,
+          "array": [
+            null,
+            -2,
+            -1,
+            3,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 239,
+          "array": [
+            null,
+            -12,
+            -1,
+            4,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 240,
+          "array": [
+            null,
+            -18,
+            -4,
+            2,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 241,
+          "array": [
+            null,
+            6,
+            -8,
+            5,
+            4,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 242,
+          "array": [
+            null,
+            -8,
+            -7,
+            4,
+            4,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 243,
+          "array": [
+            null,
+            12,
+            -9,
+            5,
+            5,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 244,
+          "array": [
+            null,
+            -12,
+            -8,
+            5,
+            5,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 245,
+          "array": [
+            null,
+            10,
+            -5,
+            6,
+            4,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 246,
+          "array": [
+            null,
+            -16,
+            -5,
+            6,
+            4,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 247,
+          "array": [
+            null,
+            6,
+            -1,
+            5,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 248,
+          "array": [
+            null,
+            -4,
+            -1,
+            3,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 249,
+          "array": [
+            null,
+            -14,
+            -1,
+            5,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 250,
+          "array": [
+            null,
+            17,
+            -6,
+            2,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 251,
+          "array": [
+            null,
+            -17,
+            -7,
+            3,
+            3,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 252,
+          "array": [
+            null,
+            5,
+            -9,
+            6,
+            5,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 253,
+          "array": [
+            null,
+            -8,
+            -10,
+            5,
+            5,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 254,
+          "array": [
+            null,
+            11,
+            -10,
+            6,
+            5,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 255,
+          "array": [
+            null,
+            -12,
+            -8,
+            6,
+            5,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 256,
+          "array": [
+            null,
+            9,
+            -6,
+            7,
+            5,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 257,
+          "array": [
+            null,
+            -15,
+            -5,
+            7,
+            4,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 258,
+          "array": [
+            null,
+            12,
+            -1,
+            4,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 259,
+          "array": [
+            null,
+            4,
+            -1,
+            5,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 260,
+          "array": [
+            null,
+            -5,
+            -1,
+            4,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 261,
+          "array": [
+            null,
+            -15,
+            -1,
+            7,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 262,
+          "array": [
+            null,
+            -14,
+            -4,
+            3,
+            2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 263,
+          "array": [
+            null,
+            1,
+            -7,
+            5,
+            5,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 264,
+          "array": [
+            null,
+            -5,
+            -6,
+            5,
+            4,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 265,
+          "array": [
+            null,
+            8,
+            -9,
+            4,
+            4,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 266,
+          "array": [
+            null,
+            -9,
+            -8,
+            4,
+            4,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 267,
+          "array": [
+            null,
+            5,
+            -6,
+            7,
+            5,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 268,
+          "array": [
+            null,
+            -11,
+            -5,
+            7,
+            4,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 269,
+          "array": [
+            null,
+            5,
+            -1,
+            8,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 270,
+          "array": [
+            null,
+            -1,
+            -1,
+            4,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 271,
+          "array": [
+            null,
+            -12,
+            -1,
+            9,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 272,
+          "array": [
+            null,
+            -1,
+            -4,
+            4,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 273,
+          "array": [
+            null,
+            3,
+            -7,
+            4,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 274,
+          "array": [
+            null,
+            -5,
+            -6,
+            4,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 275,
+          "array": [
+            null,
+            1,
+            -5,
+            7,
+            4,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 276,
+          "array": [
+            null,
+            -7,
+            -4,
+            6,
+            3,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 277,
+          "array": [
+            null,
+            -8,
+            -1,
+            16,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 278,
+          "array": [
+            null,
+            -1,
+            -4,
+            3,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 279,
+          "array": [
+            null,
+            -3,
+            -3,
+            6,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 280,
+          "array": [
+            null,
+            -4,
+            -1,
+            8,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 281,
+          "array": [
+            null,
+            0.9725490196078431,
+            0.9764705882352941,
+            0.9803921568627451,
+            0.94
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 282,
+          "array": [
+            null,
+            0.8666666666666667,
+            0.8784313725490196,
+            0.8901960784313725,
+            0.76
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 283,
+          "array": [
+            null,
+            0.7254901960784313,
+            0.7450980392156863,
+            0.7686274509803922,
+            0.58
+          ],
+          "dictionary": []
+        }
+      ]
+    }
+  ]
+}

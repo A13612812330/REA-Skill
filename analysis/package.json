@@ -1,0 +1,2793 @@
+{
+  "source": "E:\\SteamLibrary\\steamapps\\common\\Slotbound Demo\\Slotbound.exe",
+  "sha256": "2db4b93b52cd6daec9014f6e8ee42f78d32f683a496af35a8b03d8b97f4fccb7",
+  "file_size": 71138190,
+  "machine": "0x8664",
+  "image_base": "0x140000000",
+  "entry_point": "0x140003a70",
+  "sections": [
+    {
+      "name": ".text",
+      "offset": 1024,
+      "size": 53248,
+      "rva": 4096
+    },
+    {
+      "name": ".rdata",
+      "offset": 54272,
+      "size": 41984,
+      "rva": 57344
+    },
+    {
+      "name": ".data",
+      "offset": 96256,
+      "size": 3072,
+      "rva": 102400
+    },
+    {
+      "name": ".pdata",
+      "offset": 99328,
+      "size": 4096,
+      "rva": 110592
+    },
+    {
+      "name": "_RDATA",
+      "offset": 103424,
+      "size": 512,
+      "rva": 114688
+    },
+    {
+      "name": ".rsrc",
+      "offset": 103936,
+      "size": 482304,
+      "rva": 118784
+    },
+    {
+      "name": ".reloc",
+      "offset": 586240,
+      "size": 2048,
+      "rva": 602112
+    }
+  ],
+  "overlay_offset": 588288,
+  "overlay_size": 70549902,
+  "overlay_entropy": 7.999997455298729,
+  "overlay_prefix_hex": "53424e415430303200fa080000000000428134040000000045fd895c85774fa6c1a4dd6fb3a540b2b488ca0c1dab431e35b6733ca72a53b50051550e07d3b8a6",
+  "footer": {
+    "magic": "SBNAT002",
+    "offset": 588288,
+    "length": 70549826
+  },
+  "strings": {
+    "0x14000103a": "UVWATAUAVAWH",
+    "0x140001297": "A_A^A]A\\_^]",
+    "0x1400012b5": "[ UVATAVAWH",
+    "0x1400013f0": "L$HE3",
+    "0x140001414": "L$HE3",
+    "0x1400014cc": "`A_A^A\\^]",
+    "0x1400014e2": "\\$ UVATAVAWH",
+    "0x140001637": "A_A^A\\^]",
+    "0x140001787": "\\$ E3",
+    "0x1400018ed": "H;D$Pt",
+    "0x140001c04": "H;D$x",
+    "0x140001c3b": "\\$ E3",
+    "0x140001c67": "D$ E3",
+    "0x140001e7e": "t*B8\\.",
+    "0x140002589": "D$<9D$tuH",
+    "0x140002975": "SVWAVAWH",
+    "0x140002b74": "@A_A^_^[",
+    "0x140002ded": "8restu",
+    "0x140002e46": "@A_A^_^[",
+    "0x140002e61": "x AVH",
+    "0x140002f3c": "t$ WATAUAVAW3",
+    "0x140003310": "t$HA_A^A]A\\_",
+    "0x140003606": "\\$ WH",
+    "0x140003674": "@SVWH",
+    "0x140003ce2": "\\$ UH",
+    "0x140003d30": "M H1E",
+    "0x140003d46": " H3E H3E",
+    "0x140003f8e": "ED$`H",
+    "0x140003fbd": "u0HcH<H",
+    "0x14000410d": "ntelA",
+    "0x140004114": "GenuD",
+    "0x140004492": "ffffff",
+    "0x140004701": "fffffff",
+    "0x1400048a3": "fffff",
+    "0x140004957": "WATAUAVAWH",
+    "0x14000499b": "|$8;3",
+    "0x140004aab": " tDE3",
+    "0x140004b49": "A_A^A]A\\_",
+    "0x140004bcf": "t7HcP",
+    "0x140005063": "WATAUAVAWH",
+    "0x140005197": " A_A^A]A\\_",
+    "0x1400055a7": "WAVAWH",
+    "0x140005615": "fD93s",
+    "0x140005650": "fD96s",
+    "0x1400056b8": "@A_A^_",
+    "0x1400058e5": "` AWL",
+    "0x140005912": "fD9!u",
+    "0x140005a6e": "d$(A_",
+    "0x140005ad9": "UVWAVAWH",
+    "0x140005b53": "D$ E3",
+    "0x140005c4d": "0A_A^_^]",
+    "0x140005ccf": "WAVAWH",
+    "0x140005cfe": "fA94@u",
+    "0x140005d3e": "fA94nu",
+    "0x140005db9": "0A_A^_",
+    "0x140005dc5": "t$ E3",
+    "0x140005f8f": "L$ WH",
+    "0x1400060c2": "u3HcH<H",
+    "0x1400062bc": "L$ WH",
+    "0x14000640f": "L$ WH",
+    "0x14000644b": "L$ WH",
+    "0x14000648c": "t$ WAVAWH",
+    "0x1400064ba": "H33M3",
+    "0x140006629": " A_A^_",
+    "0x14000663f": "WAVAWH",
+    "0x14000673f": " A_A^_",
+    "0x140006ada": "UWAVH",
+    "0x140006ee7": "L$ WH",
+    "0x140006f27": "L$ WH",
+    "0x140006f67": "L$ WH",
+    "0x140006faf": "L$ WH",
+    "0x1400077c9": "UVWATAUAVAWH",
+    "0x140007878": "L$0E3",
+    "0x1400078d4": "L$0E3",
+    "0x1400079a6": "D$PI+",
+    "0x140007a4e": "fA9<Cu",
+    "0x140007ab3": "fC9<`u",
+    "0x140007b6d": "A_A^A]A\\_^]",
+    "0x140007b7e": "|$ E3",
+    "0x140007b9f": "WATAUAVAWH",
+    "0x140007bc1": "f94iu",
+    "0x140007bec": "0A_A^A]A\\_",
+    "0x140007c5e": "H97u+A",
+    "0x140007c8d": "mL+7H",
+    "0x140007d09": "t$ E3",
+    "0x140007d2b": "L$ WH",
+    "0x1400083de": "\\$0H;",
+    "0x140008400": "L$0H;",
+    "0x1400084d1": "UVWATAUAVAWH",
+    "0x1400085b9": "L$&8\\$&t,8Y",
+    "0x140008762": "L$8H3",
+    "0x140008778": "@A_A^A]A\\_^]",
+    "0x140008a3d": "\\$0eH",
+    "0x140008dcd": "x AVH",
+    "0x140008de5": "fD9t$b",
+    "0x140008ebd": "x AVH",
+    "0x140009584": "@UATAUAVAWH",
+    "0x140009705": "e0A_A^A]A\\]",
+    "0x140009b2f": "WATAUAVAWH",
+    "0x140009ceb": " A_A^A]A\\_",
+    "0x14000a28b": "L$ WH",
+    "0x14000a31e": "\\$ VWATAUAVH",
+    "0x14000a332": "D!l$xA",
+    "0x14000a3b0": "@A^A]A\\_^",
+    "0x14000a4d6": "D$(H;",
+    "0x14000a58f": "L$ WH",
+    "0x14000a62b": "L$ VWAVH",
+    "0x14000a658": "\\$8I;",
+    "0x14000a6fe": "`A^_^",
+    "0x14000a851": "x AVH",
+    "0x14000aa71": "@8l$Ht",
+    "0x14000aae1": "r>@8o",
+    "0x14000ac10": "ATAUAVH",
+    "0x14000aca2": "L$ fff",
+    "0x14000af0c": "L$ |+L;",
+    "0x14000af28": "L$ I;",
+    "0x14000af53": "L$ L;",
+    "0x14000afa6": "A^A]A\\",
+    "0x14000afb0": "@UATAUAVAWH",
+    "0x14000afdd": "Hc]`M",
+    "0x14000b229": "H!T$0D",
+    "0x14000b23c": "ue!T$(H!T$ ",
+    "0x14000b299": "A_A^A]A\\]",
+    "0x14000b3d3": "WAVAWH",
+    "0x14000b46c": " A_A^_",
+    "0x14000b533": "L$ WH",
+    "0x14000b651": "UVWATAUAVAWH",
+    "0x14000b6d2": "L$XE3",
+    "0x14000b73f": "D8\\0>t",
+    "0x14000bada": "L$@D8]",
+    "0x14000bb1a": "A_A^A]A\\_^]",
+    "0x14000bb30": "L$@8]",
+    "0x14000bba2": "\\$@H;",
+    "0x14000bcaa": "\\$@H;",
+    "0x14000bceb": "D$@H+",
+    "0x14000bd62": "VWATAVAW",
+    "0x14000bdcd": "D$PI;",
+    "0x14000be15": "D$PH+",
+    "0x14000bebf": "A_A^A\\_^",
+    "0x14000bed6": "WATAUAVAWH",
+    "0x14000bfa8": " A_A^A]A\\_",
+    "0x14000bfb6": "\\$ UVWATAUAVAWH",
+    "0x14000c1d7": "H!D$ H",
+    "0x14000c28a": "`A_A^A]A\\_^]",
+    "0x14000c47e": "WATAUAVAWH",
+    "0x14000c589": " A_A^A]A\\_",
+    "0x14000c7d1": "UVWAVAWH",
+    "0x14000c7e8": "D$0E3",
+    "0x14000c985": "L$0H3",
+    "0x14000c998": "@A_A^_^]",
+    "0x14000cb29": "ot$ H",
+    "0x14000cb32": "ffffff",
+    "0x14000cbfe": "ot$ H",
+    "0x14000cca2": "ot$ H",
+    "0x14000cde6": "ot$ H",
+    "0x14000ce90": "ot$ H",
+    "0x14000cee8": "ot$ H",
+    "0x14000cef1": "fffffff",
+    "0x14000cf16": "ot$ H",
+    "0x14000cf52": "ot$ H",
+    "0x14000d093": "L$ WH",
+    "0x14000d3a7": "USVWAVH",
+    "0x14000d4c4": "A^_^[]",
+    "0x14000d5ed": "(t$PH",
+    "0x14000d9ef": "t$ WH",
+    "0x14000daa0": "LcA<E3",
+    "0x14000db48": "u HcA<H",
+    "0x14000e798": "BCryptOpenAlgorithmProvider",
+    "0x14000e7b8": "BCryptCloseAlgorithmProvider",
+    "0x14000e7d8": "BCryptGetProperty",
+    "0x14000e7f0": "BCryptSetProperty",
+    "0x14000e808": "BCryptCreateHash",
+    "0x14000e820": "BCryptHashData",
+    "0x14000e830": "BCryptFinishHash",
+    "0x14000e848": "BCryptDestroyHash",
+    "0x14000e860": "BCryptGenerateSymmetricKey",
+    "0x14000e880": "BCryptDecrypt",
+    "0x14000e890": "BCryptDestroyKey",
+    "0x14000e8a8": "BCryptImportKeyPair",
+    "0x14000e8c0": "BCryptVerifySignature",
+    "0x14000e958": "luaL_newstate",
+    "0x14000e968": "luaL_openlibs",
+    "0x14000e978": "lua_close",
+    "0x14000e988": "luaL_loadbuffer",
+    "0x14000e998": "lua_pcall",
+    "0x14000e9a8": "lua_getfield",
+    "0x14000e9b8": "lua_setfield",
+    "0x14000e9c8": "lua_settop",
+    "0x14000e9d8": "lua_pushcclosure",
+    "0x14000e9f0": "lua_pushlstring",
+    "0x14000ea00": "lua_pushvalue",
+    "0x14000ea10": "lua_newthread",
+    "0x14000ea20": "lua_xmove",
+    "0x14000ea30": "lua_resume",
+    "0x14000ea40": "lua_type",
+    "0x14000ea50": "lua_tonumber",
+    "0x14000ea60": "lua_tolstring",
+    "0x14000ea70": "package",
+    "0x14000ea78": "preload",
+    "0x14000ea80": "require",
+    "0x14000ea88": "SBMEM002",
+    "0x14000eb70": "luaopen_love",
+    "0x14000eb80": "luaopen_love_jitsetup",
+    "0x14000ec68": "love.jitsetup",
+    "0x14000ec80": "@protected-startup",
+    "0x14000ef90": "SBNAT002",
+    "0x14000f3a0": "SDL_SetMainReady",
+    "0x14000fb10": "__based(",
+    "0x14000fb20": "__cdecl",
+    "0x14000fb28": "__pascal",
+    "0x14000fb38": "__stdcall",
+    "0x14000fb48": "__thiscall",
+    "0x14000fb58": "__fastcall",
+    "0x14000fb68": "__vectorcall",
+    "0x14000fb78": "__clrcall",
+    "0x14000fb84": "__eabi",
+    "0x14000fb90": "__swift_1",
+    "0x14000fba0": "__swift_2",
+    "0x14000fbb0": "__ptr64",
+    "0x14000fbb8": "__restrict",
+    "0x14000fbc8": "__unaligned",
+    "0x14000fbd8": "restrict(",
+    "0x14000fbf0": " delete",
+    "0x14000fc18": "operator",
+    "0x14000fca0": "`vftable'",
+    "0x14000fcb0": "`vbtable'",
+    "0x14000fcc0": "`vcall'",
+    "0x14000fcc8": "`typeof'",
+    "0x14000fcd8": "`local static guard'",
+    "0x14000fcf0": "`string'",
+    "0x14000fd00": "`vbase destructor'",
+    "0x14000fd18": "`vector deleting destructor'",
+    "0x14000fd38": "`default constructor closure'",
+    "0x14000fd58": "`scalar deleting destructor'",
+    "0x14000fd78": "`vector constructor iterator'",
+    "0x14000fd98": "`vector destructor iterator'",
+    "0x14000fdb8": "`vector vbase constructor iterator'",
+    "0x14000fde0": "`virtual displacement map'",
+    "0x14000fe00": "`eh vector constructor iterator'",
+    "0x14000fe28": "`eh vector destructor iterator'",
+    "0x14000fe48": "`eh vector vbase constructor iterator'",
+    "0x14000fe70": "`copy constructor closure'",
+    "0x14000fe90": "`udt returning'",
+    "0x14000fea4": "`RTTI",
+    "0x14000feb0": "`local vftable'",
+    "0x14000fec0": "`local vftable constructor closure'",
+    "0x14000fee4": " new[]",
+    "0x14000fef0": " delete[]",
+    "0x14000ff00": "`omni callsig'",
+    "0x14000ff10": "`placement delete closure'",
+    "0x14000ff30": "`placement delete[] closure'",
+    "0x14000ff50": "`managed vector constructor iterator'",
+    "0x14000ff78": "`managed vector destructor iterator'",
+    "0x14000ffa0": "`eh vector copy constructor iterator'",
+    "0x14000ffc8": "`eh vector vbase copy constructor iterator'",
+    "0x14000fff8": "`dynamic initializer for '",
+    "0x140010018": "`dynamic atexit destructor for '",
+    "0x140010040": "`vector copy constructor iterator'",
+    "0x140010068": "`vector vbase copy constructor iterator'",
+    "0x140010098": "`managed vector copy constructor iterator'",
+    "0x1400100c8": "`local static thread guard'",
+    "0x1400100e8": "operator \"\" ",
+    "0x1400100f8": "operator co_await",
+    "0x140010110": "operator<=>",
+    "0x140010120": " Type Descriptor'",
+    "0x140010138": " Base Class Descriptor at (",
+    "0x140010158": " Base Class Array'",
+    "0x140010170": " Class Hierarchy Descriptor'",
+    "0x140010190": " Complete Object Locator'",
+    "0x1400101b0": "`anonymous namespace'",
+    "0x140010290": "FlsAlloc",
+    "0x1400102a8": "FlsFree",
+    "0x1400102b8": "FlsGetValue",
+    "0x1400102d0": "FlsSetValue",
+    "0x1400102e8": "InitializeCriticalSectionEx",
+    "0x140010400": "CorExitProcess",
+    "0x14001095c": "Sunday",
+    "0x140010964": "Monday",
+    "0x140010970": "Tuesday",
+    "0x140010978": "Wednesday",
+    "0x140010988": "Thursday",
+    "0x140010994": "Friday",
+    "0x1400109a0": "Saturday",
+    "0x1400109e0": "January",
+    "0x1400109e8": "February",
+    "0x1400109f4": "March",
+    "0x1400109fc": "April",
+    "0x140010a14": "August",
+    "0x140010a20": "September",
+    "0x140010a30": "October",
+    "0x140010a38": "November",
+    "0x140010a48": "December",
+    "0x140010a60": "MM/dd/yy",
+    "0x140010a70": "dddd, MMMM dd, yyyy",
+    "0x140010a88": "HH:mm:ss",
+    "0x1400110a0": " !\"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~",
+    "0x140011220": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~",
+    "0x140011aa8": "LCMapStringEx",
+    "0x140011ac0": "LocaleNameToLCID",
+    "0x140011ad8": "AppPolicyGetProcessTerminationMethod",
+    "0x14000e5c0": "love.dll",
+    "0x14000e5d8": "lua51.dll",
+    "0x14000e5f0": "SDL2.dll",
+    "0x14000e608": "OpenAL32.dll",
+    "0x14000e628": "mpg123.dll",
+    "0x14000e640": "msvcp120.dll",
+    "0x14000e660": "msvcr120.dll",
+    "0x14000e680": "libEGL.dll",
+    "0x14000e698": "libGLESv2.dll",
+    "0x14000e6c0": "The protected game could not start.",
+    "0x14000e710": "The installation path is invalid.",
+    "0x14000e758": "\\\\?\\UNC\\",
+    "0x14000e770": "\\\\?\\",
+    "0x14000e780": "\\bcrypt.dll",
+    "0x14000e8d8": "SHA256",
+    "0x14000e8e8": "ObjectLength",
+    "0x14000e910": "ChainingModeGCM",
+    "0x14000e930": "ChainingMode",
+    "0x14000eaa0": "The authenticated content envelope is invalid.",
+    "0x14000eb10": "The authenticated startup bytecode is invalid.",
+    "0x14000eba0": "The official game runtime is incompatible.",
+    "0x14000ec00": "The game could not allocate its virtual machine.",
+    "0x14000eca0": "Please reopen Slotbound to restart the application.",
+    "0x14000ed10": "The executable path is invalid.",
+    "0x14000ed50": "The installation directory is invalid.",
+    "0x14000edb0": "Secure Windows DLL loading is unavailable.",
+    "0x14000ee08": "SDL_DYNAMIC_API",
+    "0x14000ee28": "SDL_VIDEO_GL_DRIVER",
+    "0x14000ee50": "SDL_VIDEO_EGL_DRIVER",
+    "0x14000ee80": "The process runtime settings could not be secured.",
+    "0x14000eef0": "Windows cryptography is unavailable.",
+    "0x14000ef40": "The executable package is incomplete.",
+    "0x14000efa0": "The executable is not a protected release for this publisher policy.",
+    "0x14000f030": "The executable layout was modified.",
+    "0x14000f080": "The protected package header was modified.",
+    "0x14000f0e0": "The game could not allocate its protected content.",
+    "0x14000f150": "The game package authentication failed. Please reinstall an official copy.",
+    "0x14000f1f0": "A required runtime file is missing or modified. Please reinstall an official copy.",
+    "0x14000f2a0": "The runtime trust policy is incomplete.",
+    "0x14000f2f0": "The official runtime could not load securely.",
+    "0x14000f350": "The official runtime could not load.",
+    "0x14000f3b8": "Slotbound",
+    "0x1400101e0": "api-ms-win-core-fibers-l1-1-1",
+    "0x140010220": "api-ms-win-core-synch-l1-2-0",
+    "0x140010260": "kernel32",
+    "0x140010278": "api-ms-",
+    "0x1400103e8": "mscoree.dll",
+    "0x140010ad0": "Sunday",
+    "0x140010ae0": "Monday",
+    "0x140010af0": "Tuesday",
+    "0x140010b00": "Wednesday",
+    "0x140010b18": "Thursday",
+    "0x140010b30": "Friday",
+    "0x140010b40": "Saturday",
+    "0x140010bb8": "January",
+    "0x140010bc8": "February",
+    "0x140010be0": "March",
+    "0x140010bf0": "April",
+    "0x140010c00": "June",
+    "0x140010c10": "July",
+    "0x140010c20": "August",
+    "0x140010c30": "September",
+    "0x140010c48": "October",
+    "0x140010c58": "November",
+    "0x140010c70": "December",
+    "0x140010c98": "MM/dd/yy",
+    "0x140010cb0": "dddd, MMMM dd, yyyy",
+    "0x140010cd8": "HH:mm:ss",
+    "0x140010cf0": "en-US",
+    "0x140010e00": "         (((((                  H",
+    "0x140011302": "         (((((                  H",
+    "0x140011400": "      (                          ",
+    "0x140011528": "ja-JP",
+    "0x140011538": "zh-CN",
+    "0x140011548": "ko-KR",
+    "0x140011558": "zh-TW",
+    "0x140011610": "api-ms-win-core-datetime-l1-1-1",
+    "0x140011650": "api-ms-win-core-file-l1-2-2",
+    "0x140011690": "api-ms-win-core-localization-l1-2-1",
+    "0x1400116e0": "api-ms-win-core-localization-obsolete-l1-2-0",
+    "0x140011740": "api-ms-win-core-processthreads-l1-1-2",
+    "0x140011790": "api-ms-win-core-string-l1-1-0",
+    "0x1400117d0": "api-ms-win-core-sysinfo-l1-2-1",
+    "0x140011810": "api-ms-win-core-winrt-l1-1-0",
+    "0x140011850": "api-ms-win-core-xstate-l2-1-0",
+    "0x140011890": "api-ms-win-rtcore-ntuser-window-l1-1-0",
+    "0x1400118e0": "api-ms-win-security-systemfunctions-l1-1-0",
+    "0x140011940": "ext-ms-win-ntuser-dialogbox-l1-1-0",
+    "0x140011990": "ext-ms-win-ntuser-windowstation-l1-1-0",
+    "0x1400119e0": "advapi32",
+    "0x1400119f8": "ntdll",
+    "0x140011a10": "api-ms-win-appmodel-runtime-l1-1-2",
+    "0x140011a58": "user32",
+    "0x140011a68": "ext-ms-",
+    "0x140012958": "zh-CHS",
+    "0x140012b50": "ar-SA",
+    "0x140012b60": "bg-BG",
+    "0x140012b70": "ca-ES",
+    "0x140012b80": "cs-CZ",
+    "0x140012b90": "da-DK",
+    "0x140012ba0": "de-DE",
+    "0x140012bb0": "el-GR",
+    "0x140012bc0": "fi-FI",
+    "0x140012bd0": "fr-FR",
+    "0x140012be0": "he-IL",
+    "0x140012bf0": "hu-HU",
+    "0x140012c00": "is-IS",
+    "0x140012c10": "it-IT",
+    "0x140012c20": "nl-NL",
+    "0x140012c30": "nb-NO",
+    "0x140012c40": "pl-PL",
+    "0x140012c50": "pt-BR",
+    "0x140012c60": "ro-RO",
+    "0x140012c70": "ru-RU",
+    "0x140012c80": "hr-HR",
+    "0x140012c90": "sk-SK",
+    "0x140012ca0": "sq-AL",
+    "0x140012cb0": "sv-SE",
+    "0x140012cc0": "th-TH",
+    "0x140012cd0": "tr-TR",
+    "0x140012ce0": "ur-PK",
+    "0x140012cf0": "id-ID",
+    "0x140012d00": "uk-UA",
+    "0x140012d10": "be-BY",
+    "0x140012d20": "sl-SI",
+    "0x140012d30": "et-EE",
+    "0x140012d40": "lv-LV",
+    "0x140012d50": "lt-LT",
+    "0x140012d60": "fa-IR",
+    "0x140012d70": "vi-VN",
+    "0x140012d80": "hy-AM",
+    "0x140012d90": "az-AZ-Latn",
+    "0x140012da8": "eu-ES",
+    "0x140012db8": "mk-MK",
+    "0x140012dc8": "tn-ZA",
+    "0x140012dd8": "xh-ZA",
+    "0x140012de8": "zu-ZA",
+    "0x140012df8": "af-ZA",
+    "0x140012e08": "ka-GE",
+    "0x140012e18": "fo-FO",
+    "0x140012e28": "hi-IN",
+    "0x140012e38": "mt-MT",
+    "0x140012e48": "se-NO",
+    "0x140012e58": "ms-MY",
+    "0x140012e68": "kk-KZ",
+    "0x140012e78": "ky-KG",
+    "0x140012e88": "sw-KE",
+    "0x140012e98": "uz-UZ-Latn",
+    "0x140012eb0": "tt-RU",
+    "0x140012ec0": "bn-IN",
+    "0x140012ed0": "pa-IN",
+    "0x140012ee0": "gu-IN",
+    "0x140012ef0": "ta-IN",
+    "0x140012f00": "te-IN",
+    "0x140012f10": "kn-IN",
+    "0x140012f20": "ml-IN",
+    "0x140012f30": "mr-IN",
+    "0x140012f40": "sa-IN",
+    "0x140012f50": "mn-MN",
+    "0x140012f60": "cy-GB",
+    "0x140012f70": "gl-ES",
+    "0x140012f80": "kok-IN",
+    "0x140012f90": "syr-SY",
+    "0x140012fa0": "div-MV",
+    "0x140012fb0": "quz-BO",
+    "0x140012fc0": "ns-ZA",
+    "0x140012fd0": "mi-NZ",
+    "0x140012fe0": "ar-IQ",
+    "0x140012ff0": "de-CH",
+    "0x140013000": "en-GB",
+    "0x140013010": "es-MX",
+    "0x140013020": "fr-BE",
+    "0x140013030": "it-CH",
+    "0x140013040": "nl-BE",
+    "0x140013050": "nn-NO",
+    "0x140013060": "pt-PT",
+    "0x140013070": "sr-SP-Latn",
+    "0x140013088": "sv-FI",
+    "0x140013098": "az-AZ-Cyrl",
+    "0x1400130b0": "se-SE",
+    "0x1400130c0": "ms-BN",
+    "0x1400130d0": "uz-UZ-Cyrl",
+    "0x1400130e8": "quz-EC",
+    "0x1400130f8": "ar-EG",
+    "0x140013108": "zh-HK",
+    "0x140013118": "de-AT",
+    "0x140013128": "en-AU",
+    "0x140013138": "es-ES",
+    "0x140013148": "fr-CA",
+    "0x140013158": "sr-SP-Cyrl",
+    "0x140013170": "se-FI",
+    "0x140013180": "quz-PE",
+    "0x140013190": "ar-LY",
+    "0x1400131a0": "zh-SG",
+    "0x1400131b0": "de-LU",
+    "0x1400131c0": "en-CA",
+    "0x1400131d0": "es-GT",
+    "0x1400131e0": "fr-CH",
+    "0x1400131f0": "hr-BA",
+    "0x140013200": "smj-NO",
+    "0x140013210": "ar-DZ",
+    "0x140013220": "zh-MO",
+    "0x140013230": "de-LI",
+    "0x140013240": "en-NZ",
+    "0x140013250": "es-CR",
+    "0x140013260": "fr-LU",
+    "0x140013270": "bs-BA-Latn",
+    "0x140013288": "smj-SE",
+    "0x140013298": "ar-MA",
+    "0x1400132a8": "en-IE",
+    "0x1400132b8": "es-PA",
+    "0x1400132c8": "fr-MC",
+    "0x1400132d8": "sr-BA-Latn",
+    "0x1400132f0": "sma-NO",
+    "0x140013300": "ar-TN",
+    "0x140013310": "en-ZA",
+    "0x140013320": "es-DO",
+    "0x140013330": "sr-BA-Cyrl",
+    "0x140013348": "sma-SE",
+    "0x140013358": "ar-OM",
+    "0x140013368": "en-JM",
+    "0x140013378": "es-VE",
+    "0x140013388": "sms-FI",
+    "0x140013398": "ar-YE",
+    "0x1400133a8": "en-CB",
+    "0x1400133b8": "es-CO",
+    "0x1400133c8": "smn-FI",
+    "0x1400133d8": "ar-SY",
+    "0x1400133e8": "en-BZ",
+    "0x1400133f8": "es-PE",
+    "0x140013408": "ar-JO",
+    "0x140013418": "en-TT",
+    "0x140013428": "es-AR",
+    "0x140013438": "ar-LB",
+    "0x140013448": "en-ZW",
+    "0x140013458": "es-EC",
+    "0x140013468": "ar-KW",
+    "0x140013478": "en-PH",
+    "0x140013488": "es-CL",
+    "0x140013498": "ar-AE",
+    "0x1400134a8": "es-UY",
+    "0x1400134b8": "ar-BH",
+    "0x1400134c8": "es-PY",
+    "0x1400134d8": "ar-QA",
+    "0x1400134e8": "es-BO",
+    "0x1400134f8": "es-SV",
+    "0x140013508": "es-HN",
+    "0x140013518": "es-NI",
+    "0x140013528": "es-PR",
+    "0x140013538": "zh-CHT"
+  },
+  "xrefs": [
+    {
+      "address": "0x140001012",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140001000"
+    },
+    {
+      "address": "0x140001028",
+      "target": "0x14000e050",
+      "label": "KERNEL32.dll!HeapAlloc",
+      "function": "0x140001000"
+    },
+    {
+      "address": "0x1400010a5",
+      "target": "0x14000e910",
+      "label": "ChainingModeGCM",
+      "function": "0x140001030"
+    },
+    {
+      "address": "0x1400010ac",
+      "target": "0x14000e930",
+      "label": "ChainingMode",
+      "function": "0x140001030"
+    },
+    {
+      "address": "0x1400010e5",
+      "target": "0x14000e8e8",
+      "label": "ObjectLength",
+      "function": "0x140001030"
+    },
+    {
+      "address": "0x14000111f",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140001030"
+    },
+    {
+      "address": "0x14000112e",
+      "target": "0x14000e050",
+      "label": "KERNEL32.dll!HeapAlloc",
+      "function": "0x140001030"
+    },
+    {
+      "address": "0x14000124c",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140001030"
+    },
+    {
+      "address": "0x14000125a",
+      "target": "0x14000e058",
+      "label": "KERNEL32.dll!HeapFree",
+      "function": "0x140001030"
+    },
+    {
+      "address": "0x140001301",
+      "target": "0x14000e8d8",
+      "label": "SHA256",
+      "function": "0x1400012b0"
+    },
+    {
+      "address": "0x14000134a",
+      "target": "0x14000e8e8",
+      "label": "ObjectLength",
+      "function": "0x14000130b"
+    },
+    {
+      "address": "0x140001395",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140001381"
+    },
+    {
+      "address": "0x1400013a4",
+      "target": "0x14000e050",
+      "label": "KERNEL32.dll!HeapAlloc",
+      "function": "0x140001381"
+    },
+    {
+      "address": "0x14000148a",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140001460"
+    },
+    {
+      "address": "0x140001498",
+      "target": "0x14000e058",
+      "label": "KERNEL32.dll!HeapFree",
+      "function": "0x140001460"
+    },
+    {
+      "address": "0x1400015a0",
+      "target": "0x14000e090",
+      "label": "KERNEL32.dll!GetModuleFileNameW",
+      "function": "0x1400014e0"
+    },
+    {
+      "address": "0x140001601",
+      "target": "0x14000ed50",
+      "label": "The installation directory is invalid.",
+      "function": "0x1400015be"
+    },
+    {
+      "address": "0x14000167d",
+      "target": "0x14000e0b0",
+      "label": "KERNEL32.dll!SetDllDirectoryW",
+      "function": "0x140001640"
+    },
+    {
+      "address": "0x140001690",
+      "target": "0x14000e0a8",
+      "label": "KERNEL32.dll!SetDefaultDllDirectories",
+      "function": "0x140001640"
+    },
+    {
+      "address": "0x1400016a0",
+      "target": "0x14000ee08",
+      "label": "SDL_DYNAMIC_API",
+      "function": "0x140001640"
+    },
+    {
+      "address": "0x1400016a7",
+      "target": "0x14000e008",
+      "label": "KERNEL32.dll!SetEnvironmentVariableW",
+      "function": "0x140001640"
+    },
+    {
+      "address": "0x1400016b7",
+      "target": "0x14000ee28",
+      "label": "SDL_VIDEO_GL_DRIVER",
+      "function": "0x140001640"
+    },
+    {
+      "address": "0x1400016be",
+      "target": "0x14000e008",
+      "label": "KERNEL32.dll!SetEnvironmentVariableW",
+      "function": "0x140001640"
+    },
+    {
+      "address": "0x1400016ce",
+      "target": "0x14000ee50",
+      "label": "SDL_VIDEO_EGL_DRIVER",
+      "function": "0x140001640"
+    },
+    {
+      "address": "0x1400016d5",
+      "target": "0x14000e008",
+      "label": "KERNEL32.dll!SetEnvironmentVariableW",
+      "function": "0x140001640"
+    },
+    {
+      "address": "0x1400016f1",
+      "target": "0x14000eef0",
+      "label": "Windows cryptography is unavailable.",
+      "function": "0x140001640"
+    },
+    {
+      "address": "0x140001730",
+      "target": "0x14000e020",
+      "label": "KERNEL32.dll!GetFileSizeEx",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x14000176e",
+      "target": "0x14000e070",
+      "label": "KERNEL32.dll!CreateFileMappingW",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001794",
+      "target": "0x14000e078",
+      "label": "KERNEL32.dll!MapViewOfFile",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x1400017b0",
+      "target": "0x14000ef90",
+      "label": "SBNAT002",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x1400017fb",
+      "target": "0x14000efa0",
+      "label": "The executable is not a protected release for this publisher policy.",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x1400018f4",
+      "target": "0x14000f030",
+      "label": "The executable layout was modified.",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001958",
+      "target": "0x14000f080",
+      "label": "The protected package header was modified.",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001a25",
+      "target": "0x14000f0e0",
+      "label": "The game could not allocate its protected content.",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001be0",
+      "target": "0x14000e020",
+      "label": "KERNEL32.dll!GetFileSizeEx",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001c24",
+      "target": "0x14000e070",
+      "label": "KERNEL32.dll!CreateFileMappingW",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001c48",
+      "target": "0x14000e078",
+      "label": "KERNEL32.dll!MapViewOfFile",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001ceb",
+      "target": "0x14000e080",
+      "label": "KERNEL32.dll!UnmapViewOfFile",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001cf9",
+      "target": "0x14000e048",
+      "label": "KERNEL32.dll!CloseHandle",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001db5",
+      "target": "0x14000f350",
+      "label": "The official runtime could not load.",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001e38",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001e46",
+      "target": "0x14000e058",
+      "label": "KERNEL32.dll!HeapFree",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001e67",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001e75",
+      "target": "0x14000e058",
+      "label": "KERNEL32.dll!HeapFree",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001e96",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001ea4",
+      "target": "0x14000e058",
+      "label": "KERNEL32.dll!HeapFree",
+      "function": "0x140001704"
+    },
+    {
+      "address": "0x140001ec8",
+      "target": "0x14000e088",
+      "label": "KERNEL32.dll!FreeLibrary",
+      "function": "0x140001ec0"
+    },
+    {
+      "address": "0x140001eef",
+      "target": "0x14000e048",
+      "label": "KERNEL32.dll!CloseHandle",
+      "function": "0x140001ec0"
+    },
+    {
+      "address": "0x140001f06",
+      "target": "0x14000e080",
+      "label": "KERNEL32.dll!UnmapViewOfFile",
+      "function": "0x140001ec0"
+    },
+    {
+      "address": "0x140001f19",
+      "target": "0x14000e048",
+      "label": "KERNEL32.dll!CloseHandle",
+      "function": "0x140001ec0"
+    },
+    {
+      "address": "0x140001f29",
+      "target": "0x14000e048",
+      "label": "KERNEL32.dll!CloseHandle",
+      "function": "0x140001ec0"
+    },
+    {
+      "address": "0x140001f33",
+      "target": "0x14000e088",
+      "label": "KERNEL32.dll!FreeLibrary",
+      "function": "0x140001ec0"
+    },
+    {
+      "address": "0x140001f46",
+      "target": "0x14000f3a0",
+      "label": "SDL_SetMainReady",
+      "function": "0x140001f42"
+    },
+    {
+      "address": "0x140001f4d",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140001f42"
+    },
+    {
+      "address": "0x140001fc1",
+      "target": "0x14000f2f0",
+      "label": "The official runtime could not load securely.",
+      "function": "0x140001f42"
+    },
+    {
+      "address": "0x140001fcd",
+      "target": "0x14000f2a0",
+      "label": "The runtime trust policy is incomplete.",
+      "function": "0x140001f42"
+    },
+    {
+      "address": "0x140001fd9",
+      "target": "0x14000f1f0",
+      "label": "A required runtime file is missing or modified. Please reinstall an official copy.",
+      "function": "0x140001f42"
+    },
+    {
+      "address": "0x140001fe5",
+      "target": "0x14000e710",
+      "label": "The installation path is invalid.",
+      "function": "0x140001f42"
+    },
+    {
+      "address": "0x140001ff1",
+      "target": "0x14000f150",
+      "label": "The game package authentication failed. Please reinstall an official copy.",
+      "function": "0x140001f42"
+    },
+    {
+      "address": "0x14000200a",
+      "target": "0x14000ef40",
+      "label": "The executable package is incomplete.",
+      "function": "0x140001f42"
+    },
+    {
+      "address": "0x14000201d",
+      "target": "0x14000ee80",
+      "label": "The process runtime settings could not be secured.",
+      "function": "0x14000201d"
+    },
+    {
+      "address": "0x140002029",
+      "target": "0x14000edb0",
+      "label": "Secure Windows DLL loading is unavailable.",
+      "function": "0x14000201d"
+    },
+    {
+      "address": "0x140002035",
+      "target": "0x14000ed10",
+      "label": "The executable path is invalid.",
+      "function": "0x140002035"
+    },
+    {
+      "address": "0x14000207b",
+      "target": "0x14000e068",
+      "label": "KERNEL32.dll!GetSystemDirectoryW",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002098",
+      "target": "0x14000e780",
+      "label": "\\bcrypt.dll",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400020c1",
+      "target": "0x14000e0a0",
+      "label": "KERNEL32.dll!LoadLibraryExW",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400020d3",
+      "target": "0x14000e798",
+      "label": "BCryptOpenAlgorithmProvider",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400020dd",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400020f3",
+      "target": "0x14000e7b8",
+      "label": "BCryptCloseAlgorithmProvider",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400020fd",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002113",
+      "target": "0x14000e7d8",
+      "label": "BCryptGetProperty",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x14000211d",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002133",
+      "target": "0x14000e7f0",
+      "label": "BCryptSetProperty",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x14000213d",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002153",
+      "target": "0x14000e808",
+      "label": "BCryptCreateHash",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x14000215d",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002173",
+      "target": "0x14000e820",
+      "label": "BCryptHashData",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x14000217d",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002193",
+      "target": "0x14000e830",
+      "label": "BCryptFinishHash",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x14000219d",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400021b3",
+      "target": "0x14000e848",
+      "label": "BCryptDestroyHash",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400021bd",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400021d3",
+      "target": "0x14000e860",
+      "label": "BCryptGenerateSymmetricKey",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400021dd",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400021ef",
+      "target": "0x14000e880",
+      "label": "BCryptDecrypt",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x1400021f9",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x14000220b",
+      "target": "0x14000e890",
+      "label": "BCryptDestroyKey",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002215",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002227",
+      "target": "0x14000e8a8",
+      "label": "BCryptImportKeyPair",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002231",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002243",
+      "target": "0x14000e8c0",
+      "label": "BCryptVerifySignature",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x14000224d",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002267",
+      "target": "0x14000e088",
+      "label": "KERNEL32.dll!FreeLibrary",
+      "function": "0x140002050"
+    },
+    {
+      "address": "0x140002296",
+      "target": "0x14000e958",
+      "label": "luaL_newstate",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400022a0",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400022b6",
+      "target": "0x14000e968",
+      "label": "luaL_openlibs",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400022c0",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400022d6",
+      "target": "0x14000e978",
+      "label": "lua_close",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400022e0",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400022f6",
+      "target": "0x14000e988",
+      "label": "luaL_loadbuffer",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002300",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002316",
+      "target": "0x14000e998",
+      "label": "lua_pcall",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002320",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002336",
+      "target": "0x14000e9a8",
+      "label": "lua_getfield",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002340",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002356",
+      "target": "0x14000e9b8",
+      "label": "lua_setfield",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002360",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002376",
+      "target": "0x14000e9c8",
+      "label": "lua_settop",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002380",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002396",
+      "target": "0x14000e9d8",
+      "label": "lua_pushcclosure",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400023a0",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400023b6",
+      "target": "0x14000e9f0",
+      "label": "lua_pushlstring",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400023c0",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400023d6",
+      "target": "0x14000ea00",
+      "label": "lua_pushvalue",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400023e0",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x1400023f6",
+      "target": "0x14000ea10",
+      "label": "lua_newthread",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002400",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002416",
+      "target": "0x14000ea20",
+      "label": "lua_xmove",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002420",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002432",
+      "target": "0x14000ea30",
+      "label": "lua_resume",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x14000243c",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x14000244e",
+      "target": "0x14000ea40",
+      "label": "lua_type",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002458",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x14000246a",
+      "target": "0x14000ea50",
+      "label": "lua_tonumber",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002474",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002486",
+      "target": "0x14000ea60",
+      "label": "lua_tolstring",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002490",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002290"
+    },
+    {
+      "address": "0x140002510",
+      "target": "0x14000e0a0",
+      "label": "KERNEL32.dll!LoadLibraryExW",
+      "function": "0x1400024c0"
+    },
+    {
+      "address": "0x14000253b",
+      "target": "0x14000e090",
+      "label": "KERNEL32.dll!GetModuleFileNameW",
+      "function": "0x140002528"
+    },
+    {
+      "address": "0x14000256c",
+      "target": "0x14000e018",
+      "label": "KERNEL32.dll!GetFileInformationByHandle",
+      "function": "0x140002528"
+    },
+    {
+      "address": "0x14000257e",
+      "target": "0x14000e018",
+      "label": "KERNEL32.dll!GetFileInformationByHandle",
+      "function": "0x140002528"
+    },
+    {
+      "address": "0x1400025af",
+      "target": "0x14000e048",
+      "label": "KERNEL32.dll!CloseHandle",
+      "function": "0x140002528"
+    },
+    {
+      "address": "0x1400025dd",
+      "target": "0x14000e048",
+      "label": "KERNEL32.dll!CloseHandle",
+      "function": "0x1400025da"
+    },
+    {
+      "address": "0x1400025e6",
+      "target": "0x14000e088",
+      "label": "KERNEL32.dll!FreeLibrary",
+      "function": "0x1400025da"
+    },
+    {
+      "address": "0x14000264d",
+      "target": "0x14000e010",
+      "label": "KERNEL32.dll!CreateFileW",
+      "function": "0x140002600"
+    },
+    {
+      "address": "0x140002668",
+      "target": "0x14000e018",
+      "label": "KERNEL32.dll!GetFileInformationByHandle",
+      "function": "0x140002600"
+    },
+    {
+      "address": "0x140002697",
+      "target": "0x14000e030",
+      "label": "KERNEL32.dll!GetFullPathNameW",
+      "function": "0x140002600"
+    },
+    {
+      "address": "0x1400026c0",
+      "target": "0x14000e038",
+      "label": "KERNEL32.dll!GetLongPathNameW",
+      "function": "0x140002600"
+    },
+    {
+      "address": "0x1400026e7",
+      "target": "0x14000e028",
+      "label": "KERNEL32.dll!GetFinalPathNameByHandleW",
+      "function": "0x140002600"
+    },
+    {
+      "address": "0x140002708",
+      "target": "0x14000e758",
+      "label": "\\\\?\\UNC\\",
+      "function": "0x140002700"
+    },
+    {
+      "address": "0x14000273d",
+      "target": "0x14000e770",
+      "label": "\\\\?\\",
+      "function": "0x140002700"
+    },
+    {
+      "address": "0x14000276d",
+      "target": "0x14000e758",
+      "label": "\\\\?\\UNC\\",
+      "function": "0x140002700"
+    },
+    {
+      "address": "0x14000279d",
+      "target": "0x14000e770",
+      "label": "\\\\?\\",
+      "function": "0x140002700"
+    },
+    {
+      "address": "0x1400027e3",
+      "target": "0x14000e048",
+      "label": "KERNEL32.dll!CloseHandle",
+      "function": "0x1400027db"
+    },
+    {
+      "address": "0x1400028a6",
+      "target": "0x14000e710",
+      "label": "The installation path is invalid.",
+      "function": "0x140002820"
+    },
+    {
+      "address": "0x1400028ec",
+      "target": "0x14000ea70",
+      "label": "package",
+      "function": "0x1400028d0"
+    },
+    {
+      "address": "0x140002908",
+      "target": "0x14000ea78",
+      "label": "preload",
+      "function": "0x1400028d0"
+    },
+    {
+      "address": "0x140002996",
+      "target": "0x14000ea88",
+      "label": "SBMEM002",
+      "function": "0x140002970"
+    },
+    {
+      "address": "0x140002afa",
+      "target": "0x14000eb70",
+      "label": "luaopen_love",
+      "function": "0x140002a0c"
+    },
+    {
+      "address": "0x140002b0c",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002b01"
+    },
+    {
+      "address": "0x140002b12",
+      "target": "0x14000eb80",
+      "label": "luaopen_love_jitsetup",
+      "function": "0x140002b01"
+    },
+    {
+      "address": "0x140002b1f",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140002b01"
+    },
+    {
+      "address": "0x140002b4f",
+      "target": "0x14000ec00",
+      "label": "The game could not allocate its virtual machine.",
+      "function": "0x140002b01"
+    },
+    {
+      "address": "0x140002b90",
+      "target": "0x14000ec68",
+      "label": "love.jitsetup",
+      "function": "0x140002b7d"
+    },
+    {
+      "address": "0x140002ba6",
+      "target": "0x14000ea80",
+      "label": "require",
+      "function": "0x140002b7d"
+    },
+    {
+      "address": "0x140002bc2",
+      "target": "0x14000ec68",
+      "label": "love.jitsetup",
+      "function": "0x140002b7d"
+    },
+    {
+      "address": "0x140002c17",
+      "target": "0x14000ec80",
+      "label": "@protected-startup",
+      "function": "0x140002b7d"
+    },
+    {
+      "address": "0x140002e02",
+      "target": "0x14000eca0",
+      "label": "Please reopen Slotbound to restart the application.",
+      "function": "0x140002b7d"
+    },
+    {
+      "address": "0x140002e12",
+      "target": "0x14000eba0",
+      "label": "The official game runtime is incompatible.",
+      "function": "0x140002b7d"
+    },
+    {
+      "address": "0x140002e1e",
+      "target": "0x14000eb10",
+      "label": "The authenticated startup bytecode is invalid.",
+      "function": "0x140002e1e"
+    },
+    {
+      "address": "0x140002e33",
+      "target": "0x14000eaa0",
+      "label": "The authenticated content envelope is invalid.",
+      "function": "0x140002e33"
+    },
+    {
+      "address": "0x140002e90",
+      "target": "0x14000e0b8",
+      "label": "KERNEL32.dll!WideCharToMultiByte",
+      "function": "0x140002e50"
+    },
+    {
+      "address": "0x140002ea0",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140002e50"
+    },
+    {
+      "address": "0x140002eb0",
+      "target": "0x14000e050",
+      "label": "KERNEL32.dll!HeapAlloc",
+      "function": "0x140002e50"
+    },
+    {
+      "address": "0x140002ee2",
+      "target": "0x14000e0b8",
+      "label": "KERNEL32.dll!WideCharToMultiByte",
+      "function": "0x140002e50"
+    },
+    {
+      "address": "0x140002ef4",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140002e50"
+    },
+    {
+      "address": "0x140002f02",
+      "target": "0x14000e058",
+      "label": "KERNEL32.dll!HeapFree",
+      "function": "0x140002e50"
+    },
+    {
+      "address": "0x140003357",
+      "target": "0x14000e000",
+      "label": "KERNEL32.dll!GetStdHandle",
+      "function": "0x140003320"
+    },
+    {
+      "address": "0x1400033ae",
+      "target": "0x14000e040",
+      "label": "KERNEL32.dll!WriteFile",
+      "function": "0x140003320"
+    },
+    {
+      "address": "0x1400033d6",
+      "target": "0x14000e040",
+      "label": "KERNEL32.dll!WriteFile",
+      "function": "0x140003320"
+    },
+    {
+      "address": "0x1400033e5",
+      "target": "0x14000f3b8",
+      "label": "Slotbound",
+      "function": "0x140003320"
+    },
+    {
+      "address": "0x1400033f4",
+      "target": "0x14000e270",
+      "label": "USER32.dll!MessageBoxW",
+      "function": "0x140003320"
+    },
+    {
+      "address": "0x140003416",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x140003320"
+    },
+    {
+      "address": "0x140003424",
+      "target": "0x14000e058",
+      "label": "KERNEL32.dll!HeapFree",
+      "function": "0x140003320"
+    },
+    {
+      "address": "0x14000344f",
+      "target": "0x14000e0e8",
+      "label": "KERNEL32.dll!SetUnhandledExceptionFilter",
+      "function": "0x140003444"
+    },
+    {
+      "address": "0x140003458",
+      "target": "0x14000e0e0",
+      "label": "KERNEL32.dll!UnhandledExceptionFilter",
+      "function": "0x140003444"
+    },
+    {
+      "address": "0x14000345e",
+      "target": "0x14000e0f0",
+      "label": "KERNEL32.dll!GetCurrentProcess",
+      "function": "0x140003444"
+    },
+    {
+      "address": "0x140003471",
+      "target": "0x14000e0f8",
+      "label": "KERNEL32.dll!TerminateProcess",
+      "function": "0x140003444"
+    },
+    {
+      "address": "0x14000348e",
+      "target": "0x14000e100",
+      "label": "KERNEL32.dll!IsProcessorFeaturePresent",
+      "function": "0x140003480"
+    },
+    {
+      "address": "0x1400034a6",
+      "target": "0x140003674",
+      "label": "@SVWH",
+      "function": "0x140003480"
+    },
+    {
+      "address": "0x140003575",
+      "target": "0x14000e100",
+      "label": "KERNEL32.dll!IsProcessorFeaturePresent",
+      "function": "0x140003568"
+    },
+    {
+      "address": "0x140003611",
+      "target": "0x14000e0c8",
+      "label": "KERNEL32.dll!RtlCaptureContext",
+      "function": "0x140003604"
+    },
+    {
+      "address": "0x140003629",
+      "target": "0x14000e0d0",
+      "label": "KERNEL32.dll!RtlLookupFunctionEntry",
+      "function": "0x140003604"
+    },
+    {
+      "address": "0x140003660",
+      "target": "0x14000e0d8",
+      "label": "KERNEL32.dll!RtlVirtualUnwind",
+      "function": "0x140003604"
+    },
+    {
+      "address": "0x14000367f",
+      "target": "0x14000e0c8",
+      "label": "KERNEL32.dll!RtlCaptureContext",
+      "function": "0x140003674"
+    },
+    {
+      "address": "0x140003699",
+      "target": "0x14000e0d0",
+      "label": "KERNEL32.dll!RtlLookupFunctionEntry",
+      "function": "0x140003674"
+    },
+    {
+      "address": "0x1400036d0",
+      "target": "0x14000e0d8",
+      "label": "KERNEL32.dll!RtlVirtualUnwind",
+      "function": "0x140003674"
+    },
+    {
+      "address": "0x140003d0c",
+      "target": "0x14000e120",
+      "label": "KERNEL32.dll!GetSystemTimeAsFileTime",
+      "function": "0x140003ce0"
+    },
+    {
+      "address": "0x140003d1a",
+      "target": "0x14000e118",
+      "label": "KERNEL32.dll!GetCurrentThreadId",
+      "function": "0x140003ce0"
+    },
+    {
+      "address": "0x140003d26",
+      "target": "0x14000e110",
+      "label": "KERNEL32.dll!GetCurrentProcessId",
+      "function": "0x140003ce0"
+    },
+    {
+      "address": "0x140003d36",
+      "target": "0x14000e108",
+      "label": "KERNEL32.dll!QueryPerformanceCounter",
+      "function": "0x140003ce0"
+    },
+    {
+      "address": "0x140003dab",
+      "target": "0x14000e128",
+      "label": "KERNEL32.dll!InitializeSListHead",
+      "function": null
+    },
+    {
+      "address": "0x140003e30",
+      "target": "0x14000e100",
+      "label": "KERNEL32.dll!IsProcessorFeaturePresent",
+      "function": "0x140003e14"
+    },
+    {
+      "address": "0x140003e5d",
+      "target": "0x14000e0c8",
+      "label": "KERNEL32.dll!RtlCaptureContext",
+      "function": "0x140003e14"
+    },
+    {
+      "address": "0x140003e77",
+      "target": "0x14000e0d0",
+      "label": "KERNEL32.dll!RtlLookupFunctionEntry",
+      "function": "0x140003e14"
+    },
+    {
+      "address": "0x140003eb8",
+      "target": "0x14000e0d8",
+      "label": "KERNEL32.dll!RtlVirtualUnwind",
+      "function": "0x140003e14"
+    },
+    {
+      "address": "0x140003f0c",
+      "target": "0x14000e130",
+      "label": "KERNEL32.dll!IsDebuggerPresent",
+      "function": "0x140003e14"
+    },
+    {
+      "address": "0x140003f2d",
+      "target": "0x14000e0e8",
+      "label": "KERNEL32.dll!SetUnhandledExceptionFilter",
+      "function": "0x140003e14"
+    },
+    {
+      "address": "0x140003f38",
+      "target": "0x14000e0e0",
+      "label": "KERNEL32.dll!UnhandledExceptionFilter",
+      "function": "0x140003e14"
+    },
+    {
+      "address": "0x140003f7c",
+      "target": "0x14000e138",
+      "label": "KERNEL32.dll!GetStartupInfoW",
+      "function": "0x140003f60"
+    },
+    {
+      "address": "0x140003faa",
+      "target": "0x14000e140",
+      "label": "KERNEL32.dll!GetModuleHandleW",
+      "function": "0x140003fa4"
+    },
+    {
+      "address": "0x140003fff",
+      "target": "0x14000e0e8",
+      "label": "KERNEL32.dll!SetUnhandledExceptionFilter",
+      "function": null
+    },
+    {
+      "address": "0x140004a57",
+      "target": "0x14000e148",
+      "label": "KERNEL32.dll!RtlUnwindEx",
+      "function": "0x140004948"
+    },
+    {
+      "address": "0x140004edb",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x140004ebc"
+    },
+    {
+      "address": "0x140004f62",
+      "target": "0x14000e158",
+      "label": "KERNEL32.dll!SetLastError",
+      "function": "0x140004ebc"
+    },
+    {
+      "address": "0x14000503b",
+      "target": "0x14000e170",
+      "label": "KERNEL32.dll!DeleteCriticalSection",
+      "function": "0x14000501c"
+    },
+    {
+      "address": "0x1400050d9",
+      "target": "0x14000e0a0",
+      "label": "KERNEL32.dll!LoadLibraryExW",
+      "function": "0x140005054"
+    },
+    {
+      "address": "0x1400050e7",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x140005054"
+    },
+    {
+      "address": "0x1400050f9",
+      "target": "0x140010278",
+      "label": "api-ms-",
+      "function": "0x140005054"
+    },
+    {
+      "address": "0x140005111",
+      "target": "0x14000e0a0",
+      "label": "KERNEL32.dll!LoadLibraryExW",
+      "function": "0x140005054"
+    },
+    {
+      "address": "0x140005157",
+      "target": "0x14000e088",
+      "label": "KERNEL32.dll!FreeLibrary",
+      "function": "0x140005054"
+    },
+    {
+      "address": "0x140005163",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140005054"
+    },
+    {
+      "address": "0x1400051ad",
+      "target": "0x140010290",
+      "label": "FlsAlloc",
+      "function": "0x1400051a4"
+    },
+    {
+      "address": "0x1400051bd",
+      "target": "0x140010290",
+      "label": "FlsAlloc",
+      "function": "0x1400051a4"
+    },
+    {
+      "address": "0x1400051e2",
+      "target": "0x14000e180",
+      "label": "KERNEL32.dll!TlsAlloc",
+      "function": "0x1400051a4"
+    },
+    {
+      "address": "0x1400051f4",
+      "target": "0x1400102a8",
+      "label": "FlsFree",
+      "function": "0x1400051ec"
+    },
+    {
+      "address": "0x140005207",
+      "target": "0x1400102a8",
+      "label": "FlsFree",
+      "function": "0x1400051ec"
+    },
+    {
+      "address": "0x14000522b",
+      "target": "0x14000e198",
+      "label": "KERNEL32.dll!TlsFree",
+      "function": "0x1400051ec"
+    },
+    {
+      "address": "0x14000523c",
+      "target": "0x1400102b8",
+      "label": "FlsGetValue",
+      "function": "0x140005234"
+    },
+    {
+      "address": "0x14000524f",
+      "target": "0x1400102b8",
+      "label": "FlsGetValue",
+      "function": "0x140005234"
+    },
+    {
+      "address": "0x140005273",
+      "target": "0x14000e188",
+      "label": "KERNEL32.dll!TlsGetValue",
+      "function": "0x140005234"
+    },
+    {
+      "address": "0x140005289",
+      "target": "0x1400102d0",
+      "label": "FlsSetValue",
+      "function": "0x14000527c"
+    },
+    {
+      "address": "0x140005292",
+      "target": "0x1400102d0",
+      "label": "FlsSetValue",
+      "function": "0x14000527c"
+    },
+    {
+      "address": "0x1400052bc",
+      "target": "0x14000e190",
+      "label": "KERNEL32.dll!TlsSetValue",
+      "function": "0x14000527c"
+    },
+    {
+      "address": "0x1400052e2",
+      "target": "0x1400102e8",
+      "label": "InitializeCriticalSectionEx",
+      "function": "0x1400052d0"
+    },
+    {
+      "address": "0x1400052f5",
+      "target": "0x1400102e8",
+      "label": "InitializeCriticalSectionEx",
+      "function": "0x1400052d0"
+    },
+    {
+      "address": "0x14000531b",
+      "target": "0x14000e178",
+      "label": "KERNEL32.dll!InitializeCriticalSectionAndSpinCount",
+      "function": "0x1400052d0"
+    },
+    {
+      "address": "0x14000568f",
+      "target": "0x140005615",
+      "label": "fD93s",
+      "function": "0x140005598"
+    },
+    {
+      "address": "0x14000594b",
+      "target": "0x140005912",
+      "label": "fD9!u",
+      "function": "0x1400058d4"
+    },
+    {
+      "address": "0x140005957",
+      "target": "0x140005912",
+      "label": "fD9!u",
+      "function": "0x1400058d4"
+    },
+    {
+      "address": "0x140005b24",
+      "target": "0x14000e090",
+      "label": "KERNEL32.dll!GetModuleFileNameW",
+      "function": "0x140005ad4"
+    },
+    {
+      "address": "0x1400060af",
+      "target": "0x14000e140",
+      "label": "KERNEL32.dll!GetModuleHandleW",
+      "function": "0x140006090"
+    },
+    {
+      "address": "0x140006175",
+      "target": "0x14000e0f0",
+      "label": "KERNEL32.dll!GetCurrentProcess",
+      "function": "0x14000614c"
+    },
+    {
+      "address": "0x140006180",
+      "target": "0x14000e0f8",
+      "label": "KERNEL32.dll!TerminateProcess",
+      "function": "0x14000614c"
+    },
+    {
+      "address": "0x14000618f",
+      "target": "0x14000e1a8",
+      "label": "KERNEL32.dll!ExitProcess",
+      "function": "0x14000614c"
+    },
+    {
+      "address": "0x1400061ab",
+      "target": "0x1400103e8",
+      "label": "mscoree.dll",
+      "function": "0x140006198"
+    },
+    {
+      "address": "0x1400061b4",
+      "target": "0x14000e1b0",
+      "label": "KERNEL32.dll!GetModuleHandleExW",
+      "function": "0x140006198"
+    },
+    {
+      "address": "0x1400061c3",
+      "target": "0x140010400",
+      "label": "CorExitProcess",
+      "function": "0x140006198"
+    },
+    {
+      "address": "0x1400061ca",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140006198"
+    },
+    {
+      "address": "0x1400061e7",
+      "target": "0x14000e088",
+      "label": "KERNEL32.dll!FreeLibrary",
+      "function": "0x140006198"
+    },
+    {
+      "address": "0x140006a02",
+      "target": "0x14000e100",
+      "label": "KERNEL32.dll!IsProcessorFeaturePresent",
+      "function": "0x1400069dc"
+    },
+    {
+      "address": "0x140006b49",
+      "target": "0x14000e0c8",
+      "label": "KERNEL32.dll!RtlCaptureContext",
+      "function": "0x140006ad0"
+    },
+    {
+      "address": "0x140006b61",
+      "target": "0x14000e0d0",
+      "label": "KERNEL32.dll!RtlLookupFunctionEntry",
+      "function": "0x140006ad0"
+    },
+    {
+      "address": "0x140006b9c",
+      "target": "0x14000e0d8",
+      "label": "KERNEL32.dll!RtlVirtualUnwind",
+      "function": "0x140006ad0"
+    },
+    {
+      "address": "0x140006bd5",
+      "target": "0x14000e130",
+      "label": "KERNEL32.dll!IsDebuggerPresent",
+      "function": "0x140006ad0"
+    },
+    {
+      "address": "0x140006bdf",
+      "target": "0x14000e0e8",
+      "label": "KERNEL32.dll!SetUnhandledExceptionFilter",
+      "function": "0x140006ad0"
+    },
+    {
+      "address": "0x140006bea",
+      "target": "0x14000e0e0",
+      "label": "KERNEL32.dll!UnhandledExceptionFilter",
+      "function": "0x140006ad0"
+    },
+    {
+      "address": "0x140006d0d",
+      "target": "0x14000e100",
+      "label": "KERNEL32.dll!IsProcessorFeaturePresent",
+      "function": "0x140006d04"
+    },
+    {
+      "address": "0x140006d32",
+      "target": "0x14000e0f0",
+      "label": "KERNEL32.dll!GetCurrentProcess",
+      "function": "0x140006d04"
+    },
+    {
+      "address": "0x140006d44",
+      "target": "0x14000e0f8",
+      "label": "KERNEL32.dll!TerminateProcess",
+      "function": "0x140006d04"
+    },
+    {
+      "address": "0x140006d81",
+      "target": "0x140011302",
+      "label": "         (((((                  H",
+      "function": "0x140006d4c"
+    },
+    {
+      "address": "0x14000726f",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x140007260"
+    },
+    {
+      "address": "0x14000730d",
+      "target": "0x14000e158",
+      "label": "KERNEL32.dll!SetLastError",
+      "function": "0x140007260"
+    },
+    {
+      "address": "0x1400073eb",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x1400073dc"
+    },
+    {
+      "address": "0x140007489",
+      "target": "0x14000e158",
+      "label": "KERNEL32.dll!SetLastError",
+      "function": "0x1400073dc"
+    },
+    {
+      "address": "0x14000774d",
+      "target": "0x14000e050",
+      "label": "KERNEL32.dll!HeapAlloc",
+      "function": "0x1400076f8"
+    },
+    {
+      "address": "0x140007786",
+      "target": "0x14000e058",
+      "label": "KERNEL32.dll!HeapFree",
+      "function": "0x140007770"
+    },
+    {
+      "address": "0x140007798",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x140007770"
+    },
+    {
+      "address": "0x140007930",
+      "target": "0x14000e1c0",
+      "label": "KERNEL32.dll!FindFirstFileExW",
+      "function": "0x1400077c4"
+    },
+    {
+      "address": "0x14000798d",
+      "target": "0x14000e1c8",
+      "label": "KERNEL32.dll!FindNextFileW",
+      "function": "0x1400077c4"
+    },
+    {
+      "address": "0x1400079b8",
+      "target": "0x14000e1b8",
+      "label": "KERNEL32.dll!FindClose",
+      "function": "0x1400077c4"
+    },
+    {
+      "address": "0x1400079d4",
+      "target": "0x14000ac10",
+      "label": "ATAUAVH",
+      "function": "0x1400077c4"
+    },
+    {
+      "address": "0x1400079dc",
+      "target": "0x14000e1b8",
+      "label": "KERNEL32.dll!FindClose",
+      "function": "0x1400077c4"
+    },
+    {
+      "address": "0x1400079ea",
+      "target": "0x14000e1b8",
+      "label": "KERNEL32.dll!FindClose",
+      "function": "0x1400077c4"
+    },
+    {
+      "address": "0x140007f0a",
+      "target": "0x14000e1e0",
+      "label": "KERNEL32.dll!GetOEMCP",
+      "function": "0x140007ee0"
+    },
+    {
+      "address": "0x140007f21",
+      "target": "0x14000e1d8",
+      "label": "KERNEL32.dll!GetACP",
+      "function": "0x140007ee0"
+    },
+    {
+      "address": "0x140008032",
+      "target": "0x14000e1e8",
+      "label": "KERNEL32.dll!GetCPInfo",
+      "function": "0x140007ff0"
+    },
+    {
+      "address": "0x1400080b2",
+      "target": "0x140009584",
+      "label": "@UATAUAVAWH",
+      "function": "0x140007ff0"
+    },
+    {
+      "address": "0x140008537",
+      "target": "0x14000e1d0",
+      "label": "KERNEL32.dll!IsValidCodePage",
+      "function": "0x1400084cc"
+    },
+    {
+      "address": "0x140008583",
+      "target": "0x14000e1e8",
+      "label": "KERNEL32.dll!GetCPInfo",
+      "function": "0x1400084cc"
+    },
+    {
+      "address": "0x140008794",
+      "target": "0x14000e1f0",
+      "label": "KERNEL32.dll!GetCommandLineA",
+      "function": "0x140008790"
+    },
+    {
+      "address": "0x1400087a1",
+      "target": "0x14000e1f8",
+      "label": "KERNEL32.dll!GetCommandLineW",
+      "function": "0x140008790"
+    },
+    {
+      "address": "0x14000880b",
+      "target": "0x14000e200",
+      "label": "KERNEL32.dll!MultiByteToWideChar",
+      "function": null
+    },
+    {
+      "address": "0x1400088ba",
+      "target": "0x14000e0b8",
+      "label": "KERNEL32.dll!WideCharToMultiByte",
+      "function": "0x140008814"
+    },
+    {
+      "address": "0x1400088d8",
+      "target": "0x14000e208",
+      "label": "KERNEL32.dll!GetEnvironmentStringsW",
+      "function": "0x1400088c4"
+    },
+    {
+      "address": "0x140008945",
+      "target": "0x14000e210",
+      "label": "KERNEL32.dll!FreeEnvironmentStringsW",
+      "function": "0x1400088c4"
+    },
+    {
+      "address": "0x1400089ca",
+      "target": "0x14000e160",
+      "label": "KERNEL32.dll!EnterCriticalSection",
+      "function": null
+    },
+    {
+      "address": "0x1400089ff",
+      "target": "0x14000e170",
+      "label": "KERNEL32.dll!DeleteCriticalSection",
+      "function": "0x1400089e0"
+    },
+    {
+      "address": "0x140008a2a",
+      "target": "0x14000e168",
+      "label": "KERNEL32.dll!LeaveCriticalSection",
+      "function": null
+    },
+    {
+      "address": "0x140008b41",
+      "target": "0x14000e170",
+      "label": "KERNEL32.dll!DeleteCriticalSection",
+      "function": "0x140008b18"
+    },
+    {
+      "address": "0x140008c30",
+      "target": "0x14000e160",
+      "label": "KERNEL32.dll!EnterCriticalSection",
+      "function": null
+    },
+    {
+      "address": "0x140008c58",
+      "target": "0x14000e168",
+      "label": "KERNEL32.dll!LeaveCriticalSection",
+      "function": null
+    },
+    {
+      "address": "0x140008cda",
+      "target": "0x14000e218",
+      "label": "KERNEL32.dll!SetStdHandle",
+      "function": "0x140008c60"
+    },
+    {
+      "address": "0x140008ddc",
+      "target": "0x14000e138",
+      "label": "KERNEL32.dll!GetStartupInfoW",
+      "function": "0x140008dbc"
+    },
+    {
+      "address": "0x140008e47",
+      "target": "0x14000e220",
+      "label": "KERNEL32.dll!GetFileType",
+      "function": "0x140008dbc"
+    },
+    {
+      "address": "0x140008f25",
+      "target": "0x14000e000",
+      "label": "KERNEL32.dll!GetStdHandle",
+      "function": "0x140008eac"
+    },
+    {
+      "address": "0x140008f3b",
+      "target": "0x14000e220",
+      "label": "KERNEL32.dll!GetFileType",
+      "function": "0x140008eac"
+    },
+    {
+      "address": "0x140009356",
+      "target": "0x14000e050",
+      "label": "KERNEL32.dll!HeapAlloc",
+      "function": "0x140009318"
+    },
+    {
+      "address": "0x1400096b6",
+      "target": "0x14000e228",
+      "label": "KERNEL32.dll!GetStringTypeW",
+      "function": "0x140009584"
+    },
+    {
+      "address": "0x140009bc3",
+      "target": "0x14000e0a0",
+      "label": "KERNEL32.dll!LoadLibraryExW",
+      "function": "0x140009b20"
+    },
+    {
+      "address": "0x140009bd1",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x140009b20"
+    },
+    {
+      "address": "0x140009be5",
+      "target": "0x140010278",
+      "label": "api-ms-",
+      "function": "0x140009b20"
+    },
+    {
+      "address": "0x140009bf8",
+      "target": "0x140011a68",
+      "label": "ext-ms-",
+      "function": "0x140009b20"
+    },
+    {
+      "address": "0x140009c13",
+      "target": "0x14000e0a0",
+      "label": "KERNEL32.dll!LoadLibraryExW",
+      "function": "0x140009b20"
+    },
+    {
+      "address": "0x140009c4c",
+      "target": "0x14000e088",
+      "label": "KERNEL32.dll!FreeLibrary",
+      "function": "0x140009b20"
+    },
+    {
+      "address": "0x140009c78",
+      "target": "0x14000e098",
+      "label": "KERNEL32.dll!GetProcAddress",
+      "function": "0x140009b20"
+    },
+    {
+      "address": "0x140009d01",
+      "target": "0x140011ad8",
+      "label": "AppPolicyGetProcessTerminationMethod",
+      "function": "0x140009cf8"
+    },
+    {
+      "address": "0x140009d14",
+      "target": "0x140011ad8",
+      "label": "AppPolicyGetProcessTerminationMethod",
+      "function": "0x140009cf8"
+    },
+    {
+      "address": "0x140009d64",
+      "target": "0x140010290",
+      "label": "FlsAlloc",
+      "function": "0x140009d48"
+    },
+    {
+      "address": "0x140009d89",
+      "target": "0x14000e180",
+      "label": "KERNEL32.dll!TlsAlloc",
+      "function": "0x140009d48"
+    },
+    {
+      "address": "0x140009dab",
+      "target": "0x1400102a8",
+      "label": "FlsFree",
+      "function": "0x140009d90"
+    },
+    {
+      "address": "0x140009dcf",
+      "target": "0x14000e198",
+      "label": "KERNEL32.dll!TlsFree",
+      "function": "0x140009d90"
+    },
+    {
+      "address": "0x140009df3",
+      "target": "0x1400102b8",
+      "label": "FlsGetValue",
+      "function": "0x140009dd8"
+    },
+    {
+      "address": "0x140009e17",
+      "target": "0x14000e188",
+      "label": "KERNEL32.dll!TlsGetValue",
+      "function": "0x140009dd8"
+    },
+    {
+      "address": "0x140009e36",
+      "target": "0x1400102d0",
+      "label": "FlsSetValue",
+      "function": "0x140009e20"
+    },
+    {
+      "address": "0x140009e60",
+      "target": "0x14000e190",
+      "label": "KERNEL32.dll!TlsSetValue",
+      "function": "0x140009e20"
+    },
+    {
+      "address": "0x140009e99",
+      "target": "0x1400102e8",
+      "label": "InitializeCriticalSectionEx",
+      "function": "0x140009e74"
+    },
+    {
+      "address": "0x140009ebf",
+      "target": "0x14000e178",
+      "label": "KERNEL32.dll!InitializeCriticalSectionAndSpinCount",
+      "function": "0x140009e74"
+    },
+    {
+      "address": "0x140009ef4",
+      "target": "0x140011aa8",
+      "label": "LCMapStringEx",
+      "function": "0x140009ed8"
+    },
+    {
+      "address": "0x140009f05",
+      "target": "0x140011aa8",
+      "label": "LCMapStringEx",
+      "function": "0x140009ed8"
+    },
+    {
+      "address": "0x140009f99",
+      "target": "0x14000e230",
+      "label": "KERNEL32.dll!LCMapStringW",
+      "function": "0x140009ed8"
+    },
+    {
+      "address": "0x140009fc0",
+      "target": "0x140011ac0",
+      "label": "LocaleNameToLCID",
+      "function": "0x140009fb4"
+    },
+    {
+      "address": "0x140009fca",
+      "target": "0x140011ac0",
+      "label": "LocaleNameToLCID",
+      "function": "0x140009fb4"
+    },
+    {
+      "address": "0x14000a06f",
+      "target": "0x14000e088",
+      "label": "KERNEL32.dll!FreeLibrary",
+      "function": "0x14000a050"
+    },
+    {
+      "address": "0x14000a134",
+      "target": "0x14000e060",
+      "label": "KERNEL32.dll!GetProcessHeap",
+      "function": "0x14000a130"
+    },
+    {
+      "address": "0x14000a991",
+      "target": "0x14000e170",
+      "label": "KERNEL32.dll!DeleteCriticalSection",
+      "function": "0x14000a960"
+    },
+    {
+      "address": "0x14000a9c0",
+      "target": "0x14000e160",
+      "label": "KERNEL32.dll!EnterCriticalSection",
+      "function": null
+    },
+    {
+      "address": "0x14000a9cc",
+      "target": "0x14000e168",
+      "label": "KERNEL32.dll!LeaveCriticalSection",
+      "function": null
+    },
+    {
+      "address": "0x14000aa56",
+      "target": "0x14000aa71",
+      "label": "@8l$Ht",
+      "function": "0x14000a9d4"
+    },
+    {
+      "address": "0x14000aaec",
+      "target": "0x14000aa71",
+      "label": "@8l$Ht",
+      "function": "0x14000a9d4"
+    },
+    {
+      "address": "0x14000ab2f",
+      "target": "0x14000aa71",
+      "label": "@8l$Ht",
+      "function": "0x14000a9d4"
+    },
+    {
+      "address": "0x14000b334",
+      "target": "0x14000afb0",
+      "label": "@UATAUAVAWH",
+      "function": "0x14000b2c8"
+    },
+    {
+      "address": "0x14000b4a6",
+      "target": "0x14000e238",
+      "label": "KERNEL32.dll!HeapSize",
+      "function": "0x14000b474"
+    },
+    {
+      "address": "0x14000b51d",
+      "target": "0x14000e240",
+      "label": "KERNEL32.dll!HeapReAlloc",
+      "function": "0x14000b4b0"
+    },
+    {
+      "address": "0x14000b57a",
+      "target": "0x14000e248",
+      "label": "KERNEL32.dll!FlushFileBuffers",
+      "function": "0x14000b52c"
+    },
+    {
+      "address": "0x14000b58e",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000b52c"
+    },
+    {
+      "address": "0x14000b6bb",
+      "target": "0x14000e250",
+      "label": "KERNEL32.dll!GetConsoleOutputCP",
+      "function": "0x14000b64c"
+    },
+    {
+      "address": "0x14000b74f",
+      "target": "0x14000b73f",
+      "label": "D8\\0>t",
+      "function": "0x14000b64c"
+    },
+    {
+      "address": "0x14000b972",
+      "target": "0x14000e040",
+      "label": "KERNEL32.dll!WriteFile",
+      "function": "0x14000b64c"
+    },
+    {
+      "address": "0x14000b9c4",
+      "target": "0x14000e040",
+      "label": "KERNEL32.dll!WriteFile",
+      "function": "0x14000b64c"
+    },
+    {
+      "address": "0x14000bac6",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000b64c"
+    },
+    {
+      "address": "0x14000bb26",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000b64c"
+    },
+    {
+      "address": "0x14000bbeb",
+      "target": "0x14000e040",
+      "label": "KERNEL32.dll!WriteFile",
+      "function": "0x14000bb38"
+    },
+    {
+      "address": "0x14000bc07",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000bb38"
+    },
+    {
+      "address": "0x14000bd06",
+      "target": "0x14000e040",
+      "label": "KERNEL32.dll!WriteFile",
+      "function": "0x14000bc3c"
+    },
+    {
+      "address": "0x14000bd22",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000bc3c"
+    },
+    {
+      "address": "0x14000be6f",
+      "target": "0x14000e040",
+      "label": "KERNEL32.dll!WriteFile",
+      "function": "0x14000bd58"
+    },
+    {
+      "address": "0x14000be91",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000bd58"
+    },
+    {
+      "address": "0x14000c0b4",
+      "target": "0x14000e258",
+      "label": "KERNEL32.dll!GetConsoleMode",
+      "function": "0x14000bfb4"
+    },
+    {
+      "address": "0x14000c13e",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000bfb4"
+    },
+    {
+      "address": "0x14000c1e6",
+      "target": "0x14000e040",
+      "label": "KERNEL32.dll!WriteFile",
+      "function": "0x14000bfb4"
+    },
+    {
+      "address": "0x14000c1f0",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000bfb4"
+    },
+    {
+      "address": "0x14000c30a",
+      "target": "0x14000e170",
+      "label": "KERNEL32.dll!DeleteCriticalSection",
+      "function": "0x14000c298"
+    },
+    {
+      "address": "0x14000c648",
+      "target": "0x14000e260",
+      "label": "KERNEL32.dll!SetFilePointerEx",
+      "function": "0x14000c604"
+    },
+    {
+      "address": "0x14000c652",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000c604"
+    },
+    {
+      "address": "0x14000ca95",
+      "target": "0x140014f60",
+      "label": "UUUUUU",
+      "function": "0x14000c9b0"
+    },
+    {
+      "address": "0x14000ca9d",
+      "target": "0x140014f30",
+      "label": "UUUUUU",
+      "function": "0x14000c9b0"
+    },
+    {
+      "address": "0x14000cd6f",
+      "target": "0x140014f60",
+      "label": "UUUUUU",
+      "function": "0x14000c9b0"
+    },
+    {
+      "address": "0x14000cd77",
+      "target": "0x140014f30",
+      "label": "UUUUUU",
+      "function": "0x14000c9b0"
+    },
+    {
+      "address": "0x14000cf7e",
+      "target": "0x140015040",
+      "label": "CONOUT$",
+      "function": "0x14000cf5c"
+    },
+    {
+      "address": "0x14000cf92",
+      "target": "0x14000e010",
+      "label": "KERNEL32.dll!CreateFileW",
+      "function": "0x14000cf5c"
+    },
+    {
+      "address": "0x14000cfc1",
+      "target": "0x14000e048",
+      "label": "KERNEL32.dll!CloseHandle",
+      "function": "0x14000cfb0"
+    },
+    {
+      "address": "0x14000cffd",
+      "target": "0x14000e0c0",
+      "label": "KERNEL32.dll!WriteConsoleW",
+      "function": "0x14000cfcc"
+    },
+    {
+      "address": "0x14000d009",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000cfcc"
+    },
+    {
+      "address": "0x14000d021",
+      "target": "0x14000e048",
+      "label": "KERNEL32.dll!CloseHandle",
+      "function": "0x14000cfcc"
+    },
+    {
+      "address": "0x14000d02d",
+      "target": "0x140015040",
+      "label": "CONOUT$",
+      "function": "0x14000cfcc"
+    },
+    {
+      "address": "0x14000d04c",
+      "target": "0x14000e010",
+      "label": "KERNEL32.dll!CreateFileW",
+      "function": "0x14000cfcc"
+    },
+    {
+      "address": "0x14000d06b",
+      "target": "0x14000e0c0",
+      "label": "KERNEL32.dll!WriteConsoleW",
+      "function": "0x14000cfcc"
+    },
+    {
+      "address": "0x14000d20a",
+      "target": "0x14000e048",
+      "label": "KERNEL32.dll!CloseHandle",
+      "function": "0x14000d1a4"
+    },
+    {
+      "address": "0x14000d214",
+      "target": "0x14000e150",
+      "label": "KERNEL32.dll!GetLastError",
+      "function": "0x14000d1a4"
+    },
+    {
+      "address": "0x14000d544",
+      "target": "0x140016880",
+      "label": "log10",
+      "function": "0x14000d540"
+    },
+    {
+      "address": "0x14000d8e8",
+      "target": "0x14000e1a0",
+      "label": "KERNEL32.dll!RaiseException",
+      "function": "0x14000d688"
+    },
+    {
+      "address": "0x14000db19",
+      "target": "0x14000daa0",
+      "label": "LcA<E3",
+      "function": "0x14000daf0"
+    }
+  ]
+}

@@ -1,0 +1,8736 @@
+{
+  "file": "src/ui/upgrade.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 2,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_padPanY"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 2,
+          "value": "_padPanX"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 0,
+      "instruction_count": 85,
+      "numeric_constants": [
+        2,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "rect"
+        },
+        {
+          "constant_index": 2,
+          "value": "id"
+        },
+        {
+          "constant_index": 4,
+          "value": "h"
+        },
+        {
+          "constant_index": 5,
+          "value": "w"
+        },
+        {
+          "constant_index": 6,
+          "value": "y"
+        },
+        {
+          "constant_index": 7,
+          "value": "x"
+        },
+        {
+          "constant_index": 8,
+          "value": "pairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "back"
+            ]
+          ]
+        },
+        {
+          "constant_index": 3,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 1,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "shoppin"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/8",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "itemresearch"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/10",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [
+        0.8,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "itemrefund"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 0,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "iteminventory"
+        },
+        {
+          "constant_index": 1,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 2,
+          "value": "iteminventory2"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/14",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "shopreroll"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/16",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "firstcoreuncommon"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/18",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "firstcorespin"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "corereroll"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/22",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "growthbranch"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "dormantpower"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/26",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "factionsynergy"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/28",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "interest"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/30",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/32",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "startingmerccontract"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/34",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/36",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "slotnudge"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/38",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/40",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "comebackgold"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/42",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "gateheal"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/44",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "comebackspin"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/46",
+      "argument_count": 0,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "startgold"
+        },
+        {
+          "constant_index": 1,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 2,
+          "value": "startgold2"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/48",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "noviceshield"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/50",
+      "argument_count": 0,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxhp"
+        },
+        {
+          "constant_index": 1,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 2,
+          "value": "maxhp2"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/52",
+      "argument_count": 0,
+      "instruction_count": 32,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxunit"
+        },
+        {
+          "constant_index": 1,
+          "value": "maxunit2"
+        },
+        {
+          "constant_index": 2,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 3,
+          "value": "maxunit3"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/54",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/56",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/58",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/60",
+      "argument_count": 4,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/62",
+      "argument_count": 3,
+      "instruction_count": 32,
+      "numeric_constants": [
+        1,
+        2,
+        0.0001
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "pressed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/64",
+      "argument_count": 4,
+      "instruction_count": 129,
+      "numeric_constants": [
+        0,
+        1,
+        0.0001,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "abs"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "huge"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        },
+        {
+          "constant_index": 6,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/66",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "back"
+        },
+        {
+          "constant_index": 1,
+          "value": "escape"
+        },
+        {
+          "constant_index": 2,
+          "value": "f2"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/68",
+      "argument_count": 3,
+      "instruction_count": 2446,
+      "numeric_constants": [
+        2,
+        1,
+        0.15,
+        0.3,
+        0.4,
+        1.2,
+        0.8,
+        0.2,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "minus"
+        },
+        {
+          "constant_index": 3,
+          "value": "plus"
+        },
+        {
+          "constant_index": 4,
+          "value": "action"
+        },
+        {
+          "constant_index": 6,
+          "value": "upgrade_"
+        },
+        {
+          "constant_index": 7,
+          "value": "appearTimer"
+        },
+        {
+          "constant_index": 8,
+          "value": "isAppearing"
+        },
+        {
+          "constant_index": 9,
+          "value": "flashT"
+        },
+        {
+          "constant_index": 10,
+          "value": "isPopping"
+        },
+        {
+          "constant_index": 11,
+          "value": "popTimer"
+        },
+        {
+          "constant_index": 12,
+          "value": "scaleY"
+        },
+        {
+          "constant_index": 13,
+          "value": "scaleX"
+        },
+        {
+          "constant_index": 14,
+          "value": "spendOriginite"
+        },
+        {
+          "constant_index": 15,
+          "value": "shakeAmp"
+        },
+        {
+          "constant_index": 16,
+          "value": "shakeDur"
+        },
+        {
+          "constant_index": 17,
+          "value": "shakeT"
+        },
+        {
+          "constant_index": 18,
+          "value": "cost"
+        },
+        {
+          "constant_index": 19,
+          "value": "getOriginiteAmount"
+        },
+        {
+          "constant_index": 20,
+          "value": "back"
+        },
+        {
+          "constant_index": 21,
+          "value": "pressed"
+        },
+        {
+          "constant_index": 22,
+          "value": "play"
+        },
+        {
+          "constant_index": 23,
+          "value": "stop"
+        },
+        {
+          "constant_index": 24,
+          "value": "isPlaying"
+        },
+        {
+          "constant_index": 25,
+          "value": "h"
+        },
+        {
+          "constant_index": 26,
+          "value": "y"
+        },
+        {
+          "constant_index": 27,
+          "value": "w"
+        },
+        {
+          "constant_index": 28,
+          "value": "x"
+        },
+        {
+          "constant_index": 29,
+          "value": "rect"
+        },
+        {
+          "constant_index": 31,
+          "value": "applyUpgradeEffects"
+        },
+        {
+          "constant_index": 32,
+          "value": "isDisappearing"
+        },
+        {
+          "constant_index": 33,
+          "value": "unlockLineProgress"
+        },
+        {
+          "constant_index": 34,
+          "value": "revealed"
+        },
+        {
+          "constant_index": 35,
+          "value": "parent"
+        },
+        {
+          "constant_index": 36,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 37,
+          "value": "shoppin"
+        },
+        {
+          "constant_index": 38,
+          "value": "itemresearch"
+        },
+        {
+          "constant_index": 39,
+          "value": "iteminventory2"
+        },
+        {
+          "constant_index": 40,
+          "value": "itemrefund"
+        },
+        {
+          "constant_index": 41,
+          "value": "iteminventory"
+        },
+        {
+          "constant_index": 42,
+          "value": "shopreroll"
+        },
+        {
+          "constant_index": 43,
+          "value": "firstcoreuncommon"
+        },
+        {
+          "constant_index": 44,
+          "value": "firstcorespin"
+        },
+        {
+          "constant_index": 45,
+          "value": "corereroll"
+        },
+        {
+          "constant_index": 46,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 47,
+          "value": "slotadvanced3"
+        },
+        {
+          "constant_index": 48,
+          "value": "slotadvanced2"
+        },
+        {
+          "constant_index": 49,
+          "value": "slotadvanced"
+        },
+        {
+          "constant_index": 50,
+          "value": "preptimerdisabled"
+        },
+        {
+          "constant_index": 51,
+          "value": "preptime2"
+        },
+        {
+          "constant_index": 52,
+          "value": "factionsynergy"
+        },
+        {
+          "constant_index": 53,
+          "value": "growthbranch"
+        },
+        {
+          "constant_index": 54,
+          "value": "dormantpower"
+        },
+        {
+          "constant_index": 55,
+          "value": "interest"
+        },
+        {
+          "constant_index": 56,
+          "value": "preptime"
+        },
+        {
+          "constant_index": 57,
+          "value": "slotnudge"
+        },
+        {
+          "constant_index": 58,
+          "value": "comebackgold"
+        },
+        {
+          "constant_index": 59,
+          "value": "startgold2"
+        },
+        {
+          "constant_index": 60,
+          "value": "startingmerccontract"
+        },
+        {
+          "constant_index": 61,
+          "value": "startgold"
+        },
+        {
+          "constant_index": 62,
+          "value": "gateheal"
+        },
+        {
+          "constant_index": 63,
+          "value": "comebackspin"
+        },
+        {
+          "constant_index": 64,
+          "value": "noviceshield"
+        },
+        {
+          "constant_index": 65,
+          "value": "maxhp2"
+        },
+        {
+          "constant_index": 66,
+          "value": "maxunit3"
+        },
+        {
+          "constant_index": 67,
+          "value": "maxunit2"
+        },
+        {
+          "constant_index": 68,
+          "value": "maxunit"
+        },
+        {
+          "constant_index": 69,
+          "value": "slotodds"
+        },
+        {
+          "constant_index": 70,
+          "value": "maxhp"
+        },
+        {
+          "constant_index": 71,
+          "value": "maxed"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "action",
+              "add_originite"
+            ],
+            [
+              "amount",
+              -10
+            ]
+          ]
+        },
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": [
+            [
+              "action",
+              "add_originite"
+            ],
+            [
+              "amount",
+              10
+            ]
+          ]
+        },
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 30,
+          "array": [],
+          "dictionary": [
+            [
+              "action",
+              "downgrade_maxhp"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/70",
+      "argument_count": 3,
+      "instruction_count": 1633,
+      "numeric_constants": [
+        1.6,
+        11,
+        1,
+        0.001,
+        0.05,
+        0,
+        250,
+        7.5,
+        0.5,
+        4,
+        1.5,
+        0.9,
+        20,
+        1.15,
+        12,
+        10,
+        2,
+        8,
+        -1,
+        0.1,
+        0.4,
+        0.2,
+        1.3,
+        0.3,
+        0.08,
+        0.85,
+        30,
+        0.22,
+        1.1,
+        18,
+        0.35,
+        1.05,
+        0.95,
+        15,
+        0.48,
+        0.98,
+        1.02,
+        0.005,
+        0.6
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pressTimer"
+        },
+        {
+          "constant_index": 1,
+          "value": "popTimer"
+        },
+        {
+          "constant_index": 2,
+          "value": "isPopping"
+        },
+        {
+          "constant_index": 3,
+          "value": "targetY"
+        },
+        {
+          "constant_index": 4,
+          "value": "targetX"
+        },
+        {
+          "constant_index": 5,
+          "value": "appearTimer"
+        },
+        {
+          "constant_index": 6,
+          "value": "isAppearing"
+        },
+        {
+          "constant_index": 7,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 8,
+          "value": "slotodds"
+        },
+        {
+          "constant_index": 9,
+          "value": "parent"
+        },
+        {
+          "constant_index": 10,
+          "value": "factionsynergy"
+        },
+        {
+          "constant_index": 11,
+          "value": "growthbranch"
+        },
+        {
+          "constant_index": 12,
+          "value": "dormantpower"
+        },
+        {
+          "constant_index": 13,
+          "value": "interest"
+        },
+        {
+          "constant_index": 14,
+          "value": "shoppin"
+        },
+        {
+          "constant_index": 15,
+          "value": "itemresearch"
+        },
+        {
+          "constant_index": 16,
+          "value": "iteminventory2"
+        },
+        {
+          "constant_index": 17,
+          "value": "itemrefund"
+        },
+        {
+          "constant_index": 18,
+          "value": "iteminventory"
+        },
+        {
+          "constant_index": 19,
+          "value": "shopreroll"
+        },
+        {
+          "constant_index": 20,
+          "value": "firstcoreuncommon"
+        },
+        {
+          "constant_index": 21,
+          "value": "firstcorespin"
+        },
+        {
+          "constant_index": 22,
+          "value": "corereroll"
+        },
+        {
+          "constant_index": 23,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 24,
+          "value": "slotadvanced3"
+        },
+        {
+          "constant_index": 25,
+          "value": "slotadvanced2"
+        },
+        {
+          "constant_index": 26,
+          "value": "slotadvanced"
+        },
+        {
+          "constant_index": 27,
+          "value": "slotnudge"
+        },
+        {
+          "constant_index": 28,
+          "value": "comebackgold"
+        },
+        {
+          "constant_index": 29,
+          "value": "gateheal"
+        },
+        {
+          "constant_index": 30,
+          "value": "comebackspin"
+        },
+        {
+          "constant_index": 31,
+          "value": "startgold2"
+        },
+        {
+          "constant_index": 32,
+          "value": "startingmerccontract"
+        },
+        {
+          "constant_index": 33,
+          "value": "startgold"
+        },
+        {
+          "constant_index": 34,
+          "value": "noviceshield"
+        },
+        {
+          "constant_index": 35,
+          "value": "maxhp2"
+        },
+        {
+          "constant_index": 36,
+          "value": "maxhp"
+        },
+        {
+          "constant_index": 37,
+          "value": "maxunit3"
+        },
+        {
+          "constant_index": 38,
+          "value": "maxunit2"
+        },
+        {
+          "constant_index": 39,
+          "value": "maxunit"
+        },
+        {
+          "constant_index": 40,
+          "value": "revealed"
+        },
+        {
+          "constant_index": 41,
+          "value": "unlockLineProgress"
+        },
+        {
+          "constant_index": 42,
+          "value": "scaleY"
+        },
+        {
+          "constant_index": 43,
+          "value": "scaleX"
+        },
+        {
+          "constant_index": 44,
+          "value": "disappearTimer"
+        },
+        {
+          "constant_index": 45,
+          "value": "isDisappearing"
+        },
+        {
+          "constant_index": 46,
+          "value": "flashT"
+        },
+        {
+          "constant_index": 47,
+          "value": "shineT"
+        },
+        {
+          "constant_index": 48,
+          "value": "pulseT"
+        },
+        {
+          "constant_index": 49,
+          "value": "shakeAmp"
+        },
+        {
+          "constant_index": 50,
+          "value": "shakeDur"
+        },
+        {
+          "constant_index": 51,
+          "value": "shakeT"
+        },
+        {
+          "constant_index": 52,
+          "value": "shakeX"
+        },
+        {
+          "constant_index": 53,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 54,
+          "value": "active"
+        },
+        {
+          "constant_index": 55,
+          "value": "_coreSelect"
+        },
+        {
+          "constant_index": 56,
+          "value": "scale"
+        },
+        {
+          "constant_index": 57,
+          "value": "pressed"
+        },
+        {
+          "constant_index": 58,
+          "value": "play"
+        },
+        {
+          "constant_index": 59,
+          "value": "stop"
+        },
+        {
+          "constant_index": 60,
+          "value": "isPlaying"
+        },
+        {
+          "constant_index": 61,
+          "value": "_hovered"
+        },
+        {
+          "constant_index": 62,
+          "value": "h"
+        },
+        {
+          "constant_index": 63,
+          "value": "rect"
+        },
+        {
+          "constant_index": 64,
+          "value": "remove"
+        },
+        {
+          "constant_index": 65,
+          "value": "life"
+        },
+        {
+          "constant_index": 66,
+          "value": "sin"
+        },
+        {
+          "constant_index": 67,
+          "value": "cos"
+        },
+        {
+          "constant_index": 68,
+          "value": "thickness"
+        },
+        {
+          "constant_index": 69,
+          "value": "angle"
+        },
+        {
+          "constant_index": 70,
+          "value": "pi"
+        },
+        {
+          "constant_index": 71,
+          "value": "speed"
+        },
+        {
+          "constant_index": 72,
+          "value": "len"
+        },
+        {
+          "constant_index": 73,
+          "value": "y"
+        },
+        {
+          "constant_index": 74,
+          "value": "x"
+        },
+        {
+          "constant_index": 76,
+          "value": "insert"
+        },
+        {
+          "constant_index": 77,
+          "value": "table"
+        },
+        {
+          "constant_index": 78,
+          "value": "random"
+        },
+        {
+          "constant_index": 79,
+          "value": "min"
+        },
+        {
+          "constant_index": 80,
+          "value": "sqrt"
+        },
+        {
+          "constant_index": 81,
+          "value": "_padPanY"
+        },
+        {
+          "constant_index": 82,
+          "value": "_padPanX"
+        },
+        {
+          "constant_index": 83,
+          "value": "down"
+        },
+        {
+          "constant_index": 84,
+          "value": "s"
+        },
+        {
+          "constant_index": 85,
+          "value": "up"
+        },
+        {
+          "constant_index": 86,
+          "value": "w"
+        },
+        {
+          "constant_index": 87,
+          "value": "right"
+        },
+        {
+          "constant_index": 88,
+          "value": "d"
+        },
+        {
+          "constant_index": 89,
+          "value": "left"
+        },
+        {
+          "constant_index": 90,
+          "value": "a"
+        },
+        {
+          "constant_index": 91,
+          "value": "isDown"
+        },
+        {
+          "constant_index": 92,
+          "value": "keyboard"
+        },
+        {
+          "constant_index": 93,
+          "value": "love"
+        },
+        {
+          "constant_index": 94,
+          "value": "abs"
+        },
+        {
+          "constant_index": 95,
+          "value": "max"
+        },
+        {
+          "constant_index": 96,
+          "value": "exp"
+        },
+        {
+          "constant_index": 97,
+          "value": "math"
+        },
+        {
+          "constant_index": 98,
+          "value": "setVolume"
+        },
+        {
+          "constant_index": 99,
+          "value": "sfxVolume"
+        },
+        {
+          "constant_index": 100,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 101,
+          "value": "ui"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 75,
+          "array": [],
+          "dictionary": [
+            [
+              "life",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/72/12",
+      "argument_count": 5,
+      "instruction_count": 48,
+      "numeric_constants": [
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "draw"
+        },
+        {
+          "constant_index": 1,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 2,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 3,
+          "value": "love"
+        },
+        {
+          "constant_index": 4,
+          "value": "floor"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        },
+        {
+          "constant_index": 6,
+          "value": "drawGlyphRow"
+        },
+        {
+          "constant_index": 7,
+          "value": "glyphRowSize"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/72/13",
+      "argument_count": 2,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 1,
+          "value": "glyphRowSize"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/72/23",
+      "argument_count": 2,
+      "instruction_count": 95,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 7,
+          "value": "fill"
+        },
+        {
+          "constant_index": 8,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 9,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [
+            null,
+            7,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            6,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            5,
+            4
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            4,
+            5
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 5,
+          "array": [
+            null,
+            3,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            2,
+            5
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/72/115/8",
+      "argument_count": 0,
+      "instruction_count": 16,
+      "numeric_constants": [
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "draw"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/72/115",
+      "argument_count": 4,
+      "instruction_count": 850,
+      "numeric_constants": [
+        4503599627370497.0,
+        2,
+        3,
+        0.2,
+        0.8,
+        0.5,
+        3.5,
+        0.04,
+        1,
+        0.05,
+        -3,
+        1.2,
+        0.6,
+        1.5,
+        0,
+        0.75,
+        12,
+        0.85,
+        0.92,
+        0.35,
+        20,
+        -0.5,
+        4,
+        6
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "rotate"
+        },
+        {
+          "constant_index": 2,
+          "value": "translate"
+        },
+        {
+          "constant_index": 3,
+          "value": "push"
+        },
+        {
+          "constant_index": 4,
+          "value": "abs"
+        },
+        {
+          "constant_index": 5,
+          "value": "greater"
+        },
+        {
+          "constant_index": 6,
+          "value": "setStencilTest"
+        },
+        {
+          "constant_index": 7,
+          "value": "replace"
+        },
+        {
+          "constant_index": 9,
+          "value": "stencil"
+        },
+        {
+          "constant_index": 10,
+          "value": "shineT"
+        },
+        {
+          "constant_index": 11,
+          "value": "flashT"
+        },
+        {
+          "constant_index": 12,
+          "value": "print"
+        },
+        {
+          "constant_index": 13,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 14,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 15,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 16,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 17,
+          "value": "nodeId"
+        },
+        {
+          "constant_index": 18,
+          "value": "pulseT"
+        },
+        {
+          "constant_index": 19,
+          "value": "fill"
+        },
+        {
+          "constant_index": 20,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 21,
+          "value": "floor"
+        },
+        {
+          "constant_index": 22,
+          "value": "pi"
+        },
+        {
+          "constant_index": 23,
+          "value": "remove"
+        },
+        {
+          "constant_index": 24,
+          "value": "life"
+        },
+        {
+          "constant_index": 25,
+          "value": "sparkle"
+        },
+        {
+          "constant_index": 26,
+          "value": "type"
+        },
+        {
+          "constant_index": 27,
+          "value": "size"
+        },
+        {
+          "constant_index": 29,
+          "value": "insert"
+        },
+        {
+          "constant_index": 30,
+          "value": "table"
+        },
+        {
+          "constant_index": 31,
+          "value": "random"
+        },
+        {
+          "constant_index": 32,
+          "value": "energyParticles"
+        },
+        {
+          "constant_index": 33,
+          "value": "exp"
+        },
+        {
+          "constant_index": 34,
+          "value": "getDelta"
+        },
+        {
+          "constant_index": 35,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 36,
+          "value": "draw"
+        },
+        {
+          "constant_index": 37,
+          "value": "glowColor"
+        },
+        {
+          "constant_index": 38,
+          "value": "send"
+        },
+        {
+          "constant_index": 39,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 40,
+          "value": "timer"
+        },
+        {
+          "constant_index": 41,
+          "value": "sin"
+        },
+        {
+          "constant_index": 42,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 43,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 44,
+          "value": "love"
+        },
+        {
+          "constant_index": 45,
+          "value": "h"
+        },
+        {
+          "constant_index": 46,
+          "value": "w"
+        },
+        {
+          "constant_index": 47,
+          "value": "y"
+        },
+        {
+          "constant_index": 48,
+          "value": "x"
+        },
+        {
+          "constant_index": 50,
+          "value": "max"
+        },
+        {
+          "constant_index": 51,
+          "value": "math"
+        },
+        {
+          "constant_index": 52,
+          "value": "shakeX"
+        },
+        {
+          "constant_index": 53,
+          "value": "shakeT"
+        },
+        {
+          "constant_index": 54,
+          "value": "scaleY"
+        },
+        {
+          "constant_index": 55,
+          "value": "scaleX"
+        },
+        {
+          "constant_index": 56,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 57,
+          "value": "#A84F5A"
+        },
+        {
+          "constant_index": 58,
+          "value": "#5FAF6F"
+        },
+        {
+          "constant_index": 59,
+          "value": "#6FAACC"
+        },
+        {
+          "constant_index": 61,
+          "value": "cost"
+        },
+        {
+          "constant_index": 62,
+          "value": "maxed"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 28,
+          "array": [],
+          "dictionary": [
+            [
+              "type",
+              "sparkle"
+            ],
+            [
+              "life",
+              0.6
+            ]
+          ]
+        },
+        {
+          "constant_index": 49,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 60,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/72/236",
+      "argument_count": 0,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newImageData"
+        },
+        {
+          "constant_index": 1,
+          "value": "image"
+        },
+        {
+          "constant_index": 2,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/72",
+      "argument_count": 3,
+      "instruction_count": 8998,
+      "numeric_constants": [
+        100,
+        720,
+        0.1,
+        0.08,
+        0.15,
+        2,
+        0.2,
+        10,
+        0.3,
+        0.7,
+        60,
+        140,
+        120,
+        200,
+        220,
+        300,
+        180,
+        260,
+        360,
+        280,
+        80,
+        160,
+        240,
+        4503599627370497.0,
+        0.18,
+        2.3,
+        0.5,
+        1.05,
+        1.2,
+        6,
+        0.4,
+        1,
+        0.6,
+        1.5,
+        1.1,
+        0.8,
+        5,
+        7,
+        1.4,
+        18,
+        9,
+        4,
+        20,
+        3,
+        1.15,
+        25,
+        0.9,
+        0.25,
+        0.45
+      ],
+      "strings": [
+        {
+          "constant_index": 2,
+          "value": "pad_hint_back"
+        },
+        {
+          "constant_index": 6,
+          "value": "upgrade_action_upgrade"
+        },
+        {
+          "constant_index": 9,
+          "value": "upgrade_action_zoom"
+        },
+        {
+          "constant_index": 11,
+          "value": "upgrade_action_select_move"
+        },
+        {
+          "constant_index": 14,
+          "value": "glyphRowSize"
+        },
+        {
+          "constant_index": 15,
+          "value": "isPad"
+        },
+        {
+          "constant_index": 16,
+          "value": "Controller"
+        },
+        {
+          "constant_index": 17,
+          "value": "rawget"
+        },
+        {
+          "constant_index": 18,
+          "value": "upgrade_title"
+        },
+        {
+          "constant_index": 19,
+          "value": "fontTitle"
+        },
+        {
+          "constant_index": 21,
+          "value": "rect"
+        },
+        {
+          "constant_index": 22,
+          "value": "kind"
+        },
+        {
+          "constant_index": 35,
+          "value": "printf"
+        },
+        {
+          "constant_index": 39,
+          "value": "separator"
+        },
+        {
+          "constant_index": 40,
+          "value": "costTextOffsetY"
+        },
+        {
+          "constant_index": 41,
+          "value": "costOffsetY"
+        },
+        {
+          "constant_index": 42,
+          "value": "statOffsetY"
+        },
+        {
+          "constant_index": 43,
+          "value": "descOffsetY"
+        },
+        {
+          "constant_index": 44,
+          "value": "nameOffsetY"
+        },
+        {
+          "constant_index": 45,
+          "value": "tooltip"
+        },
+        {
+          "constant_index": 46,
+          "value": "upgrade"
+        },
+        {
+          "constant_index": 48,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 49,
+          "value": "right"
+        },
+        {
+          "constant_index": 50,
+          "value": "left"
+        },
+        {
+          "constant_index": 51,
+          "value": "text"
+        },
+        {
+          "constant_index": 52,
+          "value": "full"
+        },
+        {
+          "constant_index": 53,
+          "value": "GameEditionMode"
+        },
+        {
+          "constant_index": 54,
+          "value": "reqFull"
+        },
+        {
+          "constant_index": 55,
+          "value": "zh"
+        },
+        {
+          "constant_index": 56,
+          "value": "ja"
+        },
+        {
+          "constant_index": 57,
+          "value": "^(.*%->%s*)(.*)$"
+        },
+        {
+          "constant_index": 58,
+          "value": "max"
+        },
+        {
+          "constant_index": 59,
+          "value": "min"
+        },
+        {
+          "constant_index": 60,
+          "value": "upgrade_maxed"
+        },
+        {
+          "constant_index": 61,
+          "value": "{gold.png} "
+        },
+        {
+          "constant_index": 62,
+          "value": "%->%s*(.+)$"
+        },
+        {
+          "constant_index": 63,
+          "value": "match"
+        },
+        {
+          "constant_index": 64,
+          "value": "{gold%.png}"
+        },
+        {
+          "constant_index": 65,
+          "value": "find"
+        },
+        {
+          "constant_index": 66,
+          "value": ""
+        },
+        {
+          "constant_index": 67,
+          "value": "maxedValue"
+        },
+        {
+          "constant_index": 68,
+          "value": " "
+        },
+        {
+          "constant_index": 69,
+          "value": "maxedGrade"
+        },
+        {
+          "constant_index": 70,
+          "value": " 2%"
+        },
+        {
+          "constant_index": 71,
+          "value": "Rare"
+        },
+        {
+          "constant_index": 72,
+          "value": "rare"
+        },
+        {
+          "constant_index": 73,
+          "value": " 15%"
+        },
+        {
+          "constant_index": 74,
+          "value": " 10%"
+        },
+        {
+          "constant_index": 75,
+          "value": " 5%"
+        },
+        {
+          "constant_index": 76,
+          "value": "Advanced"
+        },
+        {
+          "constant_index": 77,
+          "value": "advanced"
+        },
+        {
+          "constant_index": 78,
+          "value": "getGradeLabel"
+        },
+        {
+          "constant_index": 79,
+          "value": "stat"
+        },
+        {
+          "constant_index": 80,
+          "value": "statKey"
+        },
+        {
+          "constant_index": 81,
+          "value": "core.desc."
+        },
+        {
+          "constant_index": 82,
+          "value": "core.name."
+        },
+        {
+          "constant_index": 83,
+          "value": "upgrade_unlock_label"
+        },
+        {
+          "constant_index": 84,
+          "value": "unlockCoreKey"
+        },
+        {
+          "constant_index": 85,
+          "value": "descKey"
+        },
+        {
+          "constant_index": 86,
+          "value": "nameKey"
+        },
+        {
+          "constant_index": 87,
+          "value": "getText"
+        },
+        {
+          "constant_index": 88,
+          "value": "ko"
+        },
+        {
+          "constant_index": 89,
+          "value": "language"
+        },
+        {
+          "constant_index": 90,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 91,
+          "value": "setLineHeight"
+        },
+        {
+          "constant_index": 92,
+          "value": "getLineHeight"
+        },
+        {
+          "constant_index": 93,
+          "value": "font"
+        },
+        {
+          "constant_index": 96,
+          "value": "minus"
+        },
+        {
+          "constant_index": 97,
+          "value": "-"
+        },
+        {
+          "constant_index": 98,
+          "value": "h"
+        },
+        {
+          "constant_index": 99,
+          "value": "w"
+        },
+        {
+          "constant_index": 101,
+          "value": "plus"
+        },
+        {
+          "constant_index": 102,
+          "value": "+"
+        },
+        {
+          "constant_index": 103,
+          "value": "print"
+        },
+        {
+          "constant_index": 104,
+          "value": "draw"
+        },
+        {
+          "constant_index": 105,
+          "value": "getPunch"
+        },
+        {
+          "constant_index": 106,
+          "value": "track"
+        },
+        {
+          "constant_index": 107,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 108,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 109,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 110,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 111,
+          "value": "pop"
+        },
+        {
+          "constant_index": 129,
+          "value": "prepTime2Purchased"
+        },
+        {
+          "constant_index": 131,
+          "value": "prepTimePurchased"
+        },
+        {
+          "constant_index": 133,
+          "value": "parent"
+        },
+        {
+          "constant_index": 151,
+          "value": "exp"
+        },
+        {
+          "constant_index": 152,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 153,
+          "value": "add"
+        },
+        {
+          "constant_index": 154,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 155,
+          "value": "getBlendMode"
+        },
+        {
+          "constant_index": 156,
+          "value": "#A84F5A"
+        },
+        {
+          "constant_index": 157,
+          "value": "#5FAF6F"
+        },
+        {
+          "constant_index": 158,
+          "value": "#6FAACC"
+        },
+        {
+          "constant_index": 159,
+          "value": "cost"
+        },
+        {
+          "constant_index": 161,
+          "value": "isDisappearing"
+        },
+        {
+          "constant_index": 162,
+          "value": "unlockLineProgress"
+        },
+        {
+          "constant_index": 163,
+          "value": "revealed"
+        },
+        {
+          "constant_index": 164,
+          "value": "preptime"
+        },
+        {
+          "constant_index": 165,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 166,
+          "value": "posY"
+        },
+        {
+          "constant_index": 168,
+          "value": "posX"
+        },
+        {
+          "constant_index": 169,
+          "value": "shoppin"
+        },
+        {
+          "constant_index": 171,
+          "value": "itemresearch"
+        },
+        {
+          "constant_index": 173,
+          "value": "iteminventory2"
+        },
+        {
+          "constant_index": 175,
+          "value": "itemrefund"
+        },
+        {
+          "constant_index": 177,
+          "value": "iteminventory"
+        },
+        {
+          "constant_index": 179,
+          "value": "shopreroll"
+        },
+        {
+          "constant_index": 181,
+          "value": "firstcoreuncommon"
+        },
+        {
+          "constant_index": 183,
+          "value": "firstcorespin"
+        },
+        {
+          "constant_index": 185,
+          "value": "corereroll"
+        },
+        {
+          "constant_index": 187,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 189,
+          "value": "slotadvanced3"
+        },
+        {
+          "constant_index": 191,
+          "value": "slotadvanced2"
+        },
+        {
+          "constant_index": 193,
+          "value": "slotadvanced"
+        },
+        {
+          "constant_index": 195,
+          "value": "preptimerdisabled"
+        },
+        {
+          "constant_index": 197,
+          "value": "preptime2"
+        },
+        {
+          "constant_index": 199,
+          "value": "growthbranch"
+        },
+        {
+          "constant_index": 201,
+          "value": "dormantpower"
+        },
+        {
+          "constant_index": 203,
+          "value": "interest"
+        },
+        {
+          "constant_index": 205,
+          "value": "slotnudge"
+        },
+        {
+          "constant_index": 207,
+          "value": "maxunit3"
+        },
+        {
+          "constant_index": 209,
+          "value": "maxunit2"
+        },
+        {
+          "constant_index": 211,
+          "value": "maxunit"
+        },
+        {
+          "constant_index": 213,
+          "value": "factionsynergy"
+        },
+        {
+          "constant_index": 215,
+          "value": "slotodds"
+        },
+        {
+          "constant_index": 217,
+          "value": "startgold2"
+        },
+        {
+          "constant_index": 219,
+          "value": "maxhp2"
+        },
+        {
+          "constant_index": 221,
+          "value": "comebackgold"
+        },
+        {
+          "constant_index": 223,
+          "value": "gateheal"
+        },
+        {
+          "constant_index": 225,
+          "value": "comebackspin"
+        },
+        {
+          "constant_index": 227,
+          "value": "startingmerccontract"
+        },
+        {
+          "constant_index": 229,
+          "value": "startgold"
+        },
+        {
+          "constant_index": 231,
+          "value": "noviceshield"
+        },
+        {
+          "constant_index": 233,
+          "value": "maxhp"
+        },
+        {
+          "constant_index": 237,
+          "value": "whitePixel"
+        },
+        {
+          "constant_index": 238,
+          "value": "__slotUpgradeLazyFailed"
+        },
+        {
+          "constant_index": 239,
+          "value": "            extern vec4 glowColor;\n\n            vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 screen_coords) {\n                vec2 uv = texture_coords - 0.5;\n\n                // Improved Rounded Box SDF to eliminate \"X\" artifact\n                // Box half-size 0.25, Corner radius is handled by the distance field nature\n                vec2 d = abs(uv) - 0.2;\n                float dist = length(max(d, 0.0)) + min(max(d.x, d.y), 0.0);\n\n                // Smooth falloff from the edge of the box\n                // 0.0 is the edge of the box, 0.3 is the fade out distance\n                float alpha = 1.0 - smoothstep(0.0, 0.3, dist);\n\n                // Sharper falloff to reduce \"large area\" feel\n                alpha = pow(alpha, 2.0);\n\n                return glowColor * alpha;\n            }\n        "
+        },
+        {
+          "constant_index": 240,
+          "value": "glowShader"
+        },
+        {
+          "constant_index": 241,
+          "value": "            vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 screen_coords) {\n                vec4 texcolor = Texel(texture, texture_coords);\n                if (texcolor.a == 0.0) discard;\n                return color;\n            }\n        "
+        },
+        {
+          "constant_index": 242,
+          "value": "solidColorShader"
+        },
+        {
+          "constant_index": 243,
+          "value": "src/sprites/mainmenu/backbutton.png"
+        },
+        {
+          "constant_index": 244,
+          "value": "backButtonImg"
+        },
+        {
+          "constant_index": 245,
+          "value": "src/sprites/icons/menu/mousewheel.png"
+        },
+        {
+          "constant_index": 246,
+          "value": "mouseWheelIcon"
+        },
+        {
+          "constant_index": 247,
+          "value": "src/sprites/icons/menu/mouseleft.png"
+        },
+        {
+          "constant_index": 248,
+          "value": "mouseLeftIcon"
+        },
+        {
+          "constant_index": 249,
+          "value": "src/sprites/icons/menu/mouseright.png"
+        },
+        {
+          "constant_index": 250,
+          "value": "mouseRightIcon"
+        },
+        {
+          "constant_index": 251,
+          "value": "src/sprites/mainmenu/upgradetitle.png"
+        },
+        {
+          "constant_index": 252,
+          "value": "titleBg"
+        },
+        {
+          "constant_index": 253,
+          "value": "src/data/font/Galmuri9WS.fnt"
+        },
+        {
+          "constant_index": 254,
+          "value": "getOriginiteFont"
+        },
+        {
+          "constant_index": 255,
+          "value": "src/sprites/icons/tooltip/gold.png"
+        },
+        {
+          "constant_index": 256,
+          "value": "goldIcon"
+        },
+        {
+          "constant_index": 257,
+          "value": "src/sprites/icons/menu/originite.png"
+        },
+        {
+          "constant_index": 258,
+          "value": "originiteIcon"
+        },
+        {
+          "constant_index": 259,
+          "value": "__slotUpgradeLoadLazyImage"
+        },
+        {
+          "constant_index": 260,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 261,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 262,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 263,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 264,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 265,
+          "value": "translate"
+        },
+        {
+          "constant_index": 266,
+          "value": "push"
+        },
+        {
+          "constant_index": 267,
+          "value": "size"
+        },
+        {
+          "constant_index": 268,
+          "value": "floor"
+        },
+        {
+          "constant_index": 269,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 270,
+          "value": "blinkSpeed"
+        },
+        {
+          "constant_index": 271,
+          "value": "t"
+        },
+        {
+          "constant_index": 272,
+          "value": "speedY"
+        },
+        {
+          "constant_index": 273,
+          "value": "speedX"
+        },
+        {
+          "constant_index": 274,
+          "value": "getDelta"
+        },
+        {
+          "constant_index": 275,
+          "value": "line"
+        },
+        {
+          "constant_index": 276,
+          "value": "life"
+        },
+        {
+          "constant_index": 277,
+          "value": "thickness"
+        },
+        {
+          "constant_index": 278,
+          "value": "setLineWidth"
+        },
+        {
+          "constant_index": 279,
+          "value": "sin"
+        },
+        {
+          "constant_index": 280,
+          "value": "y"
+        },
+        {
+          "constant_index": 281,
+          "value": "len"
+        },
+        {
+          "constant_index": 282,
+          "value": "angle"
+        },
+        {
+          "constant_index": 283,
+          "value": "cos"
+        },
+        {
+          "constant_index": 284,
+          "value": "math"
+        },
+        {
+          "constant_index": 285,
+          "value": "x"
+        },
+        {
+          "constant_index": 286,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 287,
+          "value": "fill"
+        },
+        {
+          "constant_index": 288,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 289,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 290,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 291,
+          "value": "scale"
+        },
+        {
+          "constant_index": 292,
+          "value": "getCurrentTargetDPIScale"
+        },
+        {
+          "constant_index": 293,
+          "value": "Render2"
+        },
+        {
+          "constant_index": 294,
+          "value": "_G"
+        },
+        {
+          "constant_index": 295,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 296,
+          "value": "timer"
+        },
+        {
+          "constant_index": 297,
+          "value": "time"
+        },
+        {
+          "constant_index": 298,
+          "value": "send"
+        },
+        {
+          "constant_index": 299,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 300,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 301,
+          "value": "love"
+        },
+        {
+          "constant_index": 302,
+          "value": "bgShader"
+        },
+        {
+          "constant_index": 303,
+          "value": "__slotUpgradeLoadLazyShader"
+        },
+        {
+          "constant_index": 304,
+          "value": "H"
+        },
+        {
+          "constant_index": 305,
+          "value": "W"
+        },
+        {
+          "constant_index": 306,
+          "value": "virtual"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            "@back"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 1,
+          "array": [
+            null,
+            "@back"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            "leftshoulder",
+            "rightshoulder"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            "@confirm"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 5,
+          "array": [
+            null,
+            "@confirm"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            "rstick"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            "leftshoulder",
+            "rightshoulder"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 10,
+          "array": [
+            null,
+            "rstick"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 20,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 24,
+          "array": [
+            null,
+            null,
+            null,
+            null,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 25,
+          "array": [
+            null,
+            null,
+            null,
+            null,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 26,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 27,
+          "array": [
+            null,
+            0.2,
+            1,
+            0.2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 28,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 29,
+          "array": [
+            null,
+            0.2,
+            1,
+            0.2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 30,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 31,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 32,
+          "array": [
+            null,
+            0.45,
+            0.82,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 33,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 34,
+          "array": [
+            null,
+            0.9,
+            0.9,
+            0.9,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 36,
+          "array": [
+            null,
+            0.45,
+            0.82,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 37,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 38,
+          "array": [
+            null,
+            0.9,
+            0.9,
+            0.9,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 47,
+          "array": [
+            null,
+            0.05,
+            0.05,
+            0.05,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 94,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 95,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 100,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 112,
+          "array": [
+            null,
+            "growthbranch",
+            "factionsynergy"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 113,
+          "array": [
+            null,
+            "dormantpower",
+            "growthbranch"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 114,
+          "array": [
+            null,
+            "interest",
+            "dormantpower"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 116,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 117,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 118,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 119,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 120,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 121,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 122,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 123,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 124,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 125,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 126,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 127,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 128,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 130,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 132,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 134,
+          "array": [
+            null,
+            "growthbranch",
+            "factionsynergy"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 135,
+          "array": [
+            null,
+            "dormantpower",
+            "growthbranch"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 136,
+          "array": [
+            null,
+            "interest",
+            "dormantpower"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 137,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 138,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 139,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 140,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 141,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 142,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 143,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 144,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 145,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 146,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 147,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 148,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 149,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 150,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 160,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 167,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 170,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 172,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 174,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 176,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 178,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 180,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 182,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 184,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 186,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 188,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 190,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 192,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 194,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 196,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 198,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 200,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 202,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 204,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 206,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 208,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 210,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 212,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 214,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 216,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 218,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 220,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 222,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 224,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 226,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 228,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 230,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 232,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 234,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 235,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/74",
+      "argument_count": 2,
+      "instruction_count": 23,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newShader"
+        },
+        {
+          "constant_index": 1,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 4,
+          "value": "__slotUpgradeLazyFailed"
+        },
+        {
+          "constant_index": 5,
+          "value": "_G"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/76",
+      "argument_count": 2,
+      "instruction_count": 28,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 6,
+          "value": "__slotUpgradeLazyFailed"
+        },
+        {
+          "constant_index": 7,
+          "value": "_G"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/80/5",
+      "argument_count": 1,
+      "instruction_count": 49,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "^%s+$"
+        },
+        {
+          "constant_index": 1,
+          "value": "%s"
+        },
+        {
+          "constant_index": 2,
+          "value": "match"
+        },
+        {
+          "constant_index": 3,
+          "value": "[%z\u0001-\\xc2-\\xf4][\\x80-\\xbf]*"
+        },
+        {
+          "constant_index": 4,
+          "value": "gmatch"
+        },
+        {
+          "constant_index": 5,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 6,
+          "value": ""
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/80/6",
+      "argument_count": 0,
+      "instruction_count": 10,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "insert"
+        },
+        {
+          "constant_index": 1,
+          "value": "table"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/80",
+      "argument_count": 5,
+      "instruction_count": 169,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": ""
+        },
+        {
+          "constant_index": 2,
+          "value": "^%s+"
+        },
+        {
+          "constant_index": 3,
+          "value": "gsub"
+        },
+        {
+          "constant_index": 8,
+          "value": "insert"
+        },
+        {
+          "constant_index": 9,
+          "value": "table"
+        },
+        {
+          "constant_index": 10,
+          "value": "%s*%S+"
+        },
+        {
+          "constant_index": 11,
+          "value": "gmatch"
+        },
+        {
+          "constant_index": 12,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 13,
+          "value": "text"
+        },
+        {
+          "constant_index": 14,
+          "value": "type"
+        },
+        {
+          "constant_index": 15,
+          "value": "ipairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "type",
+              "text"
+            ]
+          ]
+        },
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": [
+            [
+              "type",
+              "text"
+            ]
+          ]
+        },
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": [
+            [
+              "type",
+              "text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/81/27",
+      "argument_count": 1,
+      "instruction_count": 168,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 2,
+          "value": "sub"
+        },
+        {
+          "constant_index": 3,
+          "value": "%d+"
+        },
+        {
+          "constant_index": 4,
+          "value": "find"
+        },
+        {
+          "constant_index": 5,
+          "value": "floor"
+        },
+        {
+          "constant_index": 6,
+          "value": "math"
+        },
+        {
+          "constant_index": 7,
+          "value": "print"
+        },
+        {
+          "constant_index": 9,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 10,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 11,
+          "value": "love"
+        },
+        {
+          "constant_index": 12,
+          "value": ""
+        },
+        {
+          "constant_index": 13,
+          "value": "tostring"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 1,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/81",
+      "argument_count": 9,
+      "instruction_count": 257,
+      "numeric_constants": [
+        2,
+        4,
+        7,
+        16
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fallback"
+        },
+        {
+          "constant_index": 1,
+          "value": "text"
+        },
+        {
+          "constant_index": 3,
+          "value": "infinity"
+        },
+        {
+          "constant_index": 4,
+          "value": "word"
+        },
+        {
+          "constant_index": 7,
+          "value": " "
+        },
+        {
+          "constant_index": 8,
+          "value": ""
+        },
+        {
+          "constant_index": 9,
+          "value": "suffix"
+        },
+        {
+          "constant_index": 10,
+          "value": "print"
+        },
+        {
+          "constant_index": 12,
+          "value": "number"
+        },
+        {
+          "constant_index": 14,
+          "value": "max"
+        },
+        {
+          "constant_index": 15,
+          "value": "iconword"
+        },
+        {
+          "constant_index": 16,
+          "value": "draw"
+        },
+        {
+          "constant_index": 17,
+          "value": "floor"
+        },
+        {
+          "constant_index": 18,
+          "value": "math"
+        },
+        {
+          "constant_index": 20,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 21,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 22,
+          "value": "love"
+        },
+        {
+          "constant_index": 23,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 24,
+          "value": "icon"
+        },
+        {
+          "constant_index": 25,
+          "value": "type"
+        },
+        {
+          "constant_index": 26,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 28,
+          "value": "getHeight"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 5,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 11,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 13,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 19,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/82/4",
+      "argument_count": 1,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fill"
+        },
+        {
+          "constant_index": 1,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 2,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 3,
+          "value": "love"
+        },
+        {
+          "constant_index": 4,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/82",
+      "argument_count": 3,
+      "instruction_count": 98,
+      "numeric_constants": [
+        0.45
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 2,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 3,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "floor"
+        },
+        {
+          "constant_index": 6,
+          "value": "math"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            12,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            11,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 9,
+          "array": [
+            null,
+            10,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 10,
+          "array": [
+            null,
+            4,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 11,
+          "array": [
+            null,
+            3,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 12,
+          "array": [
+            null,
+            2,
+            6
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 13,
+          "array": [
+            null,
+            13,
+            5
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 14,
+          "array": [
+            null,
+            9,
+            5
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 15,
+          "array": [
+            null,
+            5,
+            5
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 16,
+          "array": [
+            null,
+            1,
+            5
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 17,
+          "array": [
+            null,
+            14,
+            4
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 18,
+          "array": [
+            null,
+            8,
+            4
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 19,
+          "array": [
+            null,
+            6,
+            4
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 20,
+          "array": [
+            null,
+            0,
+            4
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 21,
+          "array": [
+            null,
+            14,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 22,
+          "array": [
+            null,
+            7,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 23,
+          "array": [
+            null,
+            0,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 24,
+          "array": [
+            null,
+            14,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 25,
+          "array": [
+            null,
+            8,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 26,
+          "array": [
+            null,
+            6,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 27,
+          "array": [
+            null,
+            0,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 28,
+          "array": [
+            null,
+            13,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 29,
+          "array": [
+            null,
+            9,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 30,
+          "array": [
+            null,
+            5,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 31,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 32,
+          "array": [
+            null,
+            12,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 33,
+          "array": [
+            null,
+            11,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 34,
+          "array": [
+            null,
+            10,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 35,
+          "array": [
+            null,
+            4,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 36,
+          "array": [
+            null,
+            3,
+            0
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 37,
+          "array": [
+            null,
+            2,
+            0
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/83",
+      "argument_count": 4,
+      "instruction_count": 130,
+      "numeric_constants": [
+        4,
+        16,
+        7
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fallback"
+        },
+        {
+          "constant_index": 1,
+          "value": "text"
+        },
+        {
+          "constant_index": 2,
+          "value": "infinity"
+        },
+        {
+          "constant_index": 3,
+          "value": "word"
+        },
+        {
+          "constant_index": 4,
+          "value": " "
+        },
+        {
+          "constant_index": 5,
+          "value": ""
+        },
+        {
+          "constant_index": 6,
+          "value": "suffix"
+        },
+        {
+          "constant_index": 7,
+          "value": "number"
+        },
+        {
+          "constant_index": 8,
+          "value": "floor"
+        },
+        {
+          "constant_index": 9,
+          "value": "iconword"
+        },
+        {
+          "constant_index": 10,
+          "value": "max"
+        },
+        {
+          "constant_index": 11,
+          "value": "math"
+        },
+        {
+          "constant_index": 12,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 13,
+          "value": "icon"
+        },
+        {
+          "constant_index": 14,
+          "value": "type"
+        },
+        {
+          "constant_index": 15,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 16,
+          "value": "getHeight"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/84",
+      "argument_count": 3,
+      "instruction_count": 39,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 1,
+          "value": "number"
+        },
+        {
+          "constant_index": 2,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 3,
+          "value": "function"
+        },
+        {
+          "constant_index": 4,
+          "value": "type"
+        },
+        {
+          "constant_index": 5,
+          "value": "measureChineseMixedTextWidth"
+        },
+        {
+          "constant_index": 6,
+          "value": "_G"
+        },
+        {
+          "constant_index": 7,
+          "value": "rawget"
+        },
+        {
+          "constant_index": 8,
+          "value": ""
+        },
+        {
+          "constant_index": 9,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/85",
+      "argument_count": 1,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "{infinity}"
+        },
+        {
+          "constant_index": 1,
+          "value": "{gold%.png}"
+        },
+        {
+          "constant_index": 2,
+          "value": "find"
+        },
+        {
+          "constant_index": 3,
+          "value": ""
+        },
+        {
+          "constant_index": 4,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/86",
+      "argument_count": 4,
+      "instruction_count": 156,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "fallback"
+        },
+        {
+          "constant_index": 2,
+          "value": "G"
+        },
+        {
+          "constant_index": 3,
+          "value": "suffix"
+        },
+        {
+          "constant_index": 4,
+          "value": "number"
+        },
+        {
+          "constant_index": 5,
+          "value": "word"
+        },
+        {
+          "constant_index": 6,
+          "value": "icon"
+        },
+        {
+          "constant_index": 8,
+          "value": "seconds"
+        },
+        {
+          "constant_index": 9,
+          "value": "sec"
+        },
+        {
+          "constant_index": 10,
+          "value": "s"
+        },
+        {
+          "constant_index": 11,
+          "value": "^(%s+)(%S+)"
+        },
+        {
+          "constant_index": 12,
+          "value": "^(%d+)(.*)$"
+        },
+        {
+          "constant_index": 13,
+          "value": "^(%s*)(%S+)"
+        },
+        {
+          "constant_index": 14,
+          "value": "match"
+        },
+        {
+          "constant_index": 17,
+          "value": "text"
+        },
+        {
+          "constant_index": 19,
+          "value": "insert"
+        },
+        {
+          "constant_index": 20,
+          "value": "table"
+        },
+        {
+          "constant_index": 21,
+          "value": "sub"
+        },
+        {
+          "constant_index": 22,
+          "value": "infinity"
+        },
+        {
+          "constant_index": 23,
+          "value": "gold"
+        },
+        {
+          "constant_index": 24,
+          "value": "{infinity}"
+        },
+        {
+          "constant_index": 25,
+          "value": "{gold%.png}"
+        },
+        {
+          "constant_index": 26,
+          "value": "find"
+        },
+        {
+          "constant_index": 27,
+          "value": ""
+        },
+        {
+          "constant_index": 28,
+          "value": "tostring"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "fallback",
+              "G"
+            ],
+            [
+              "type",
+              "icon"
+            ]
+          ]
+        },
+        {
+          "constant_index": 7,
+          "array": [],
+          "dictionary": [
+            [
+              "type",
+              "iconword"
+            ]
+          ]
+        },
+        {
+          "constant_index": 15,
+          "array": [],
+          "dictionary": [
+            [
+              "fallback",
+              "INF"
+            ],
+            [
+              "type",
+              "infinity"
+            ]
+          ]
+        },
+        {
+          "constant_index": 16,
+          "array": [],
+          "dictionary": [
+            [
+              "type",
+              "text"
+            ]
+          ]
+        },
+        {
+          "constant_index": 18,
+          "array": [],
+          "dictionary": [
+            [
+              "type",
+              "text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/87",
+      "argument_count": 1,
+      "instruction_count": 1422,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "applyUpgradeEffects"
+        },
+        {
+          "constant_index": 1,
+          "value": "parent"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "startingmerccontract"
+        },
+        {
+          "constant_index": 7,
+          "value": "isDisappearing"
+        },
+        {
+          "constant_index": 8,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 9,
+          "value": "slotadvanced3"
+        },
+        {
+          "constant_index": 10,
+          "value": "shoppin"
+        },
+        {
+          "constant_index": 11,
+          "value": "itemresearch"
+        },
+        {
+          "constant_index": 12,
+          "value": "iteminventory2"
+        },
+        {
+          "constant_index": 13,
+          "value": "itemrefund"
+        },
+        {
+          "constant_index": 14,
+          "value": "iteminventory"
+        },
+        {
+          "constant_index": 15,
+          "value": "shopreroll"
+        },
+        {
+          "constant_index": 16,
+          "value": "firstcoreuncommon"
+        },
+        {
+          "constant_index": 17,
+          "value": "firstcorespin"
+        },
+        {
+          "constant_index": 18,
+          "value": "corereroll"
+        },
+        {
+          "constant_index": 19,
+          "value": "slotadvanced2"
+        },
+        {
+          "constant_index": 20,
+          "value": "slotadvanced"
+        },
+        {
+          "constant_index": 21,
+          "value": "preptimerdisabled"
+        },
+        {
+          "constant_index": 22,
+          "value": "preptime2"
+        },
+        {
+          "constant_index": 23,
+          "value": "interest"
+        },
+        {
+          "constant_index": 24,
+          "value": "maxunit3"
+        },
+        {
+          "constant_index": 25,
+          "value": "maxunit2"
+        },
+        {
+          "constant_index": 26,
+          "value": "preptime"
+        },
+        {
+          "constant_index": 27,
+          "value": "slotnudge"
+        },
+        {
+          "constant_index": 28,
+          "value": "startgold2"
+        },
+        {
+          "constant_index": 29,
+          "value": "maxhp2"
+        },
+        {
+          "constant_index": 30,
+          "value": "comebackgold"
+        },
+        {
+          "constant_index": 31,
+          "value": "gateheal"
+        },
+        {
+          "constant_index": 32,
+          "value": "comebackspin"
+        },
+        {
+          "constant_index": 33,
+          "value": "startgold"
+        },
+        {
+          "constant_index": 34,
+          "value": "noviceshield"
+        },
+        {
+          "constant_index": 35,
+          "value": "maxhp"
+        },
+        {
+          "constant_index": 36,
+          "value": "scaleY"
+        },
+        {
+          "constant_index": 37,
+          "value": "scaleX"
+        },
+        {
+          "constant_index": 38,
+          "value": "isAppearing"
+        },
+        {
+          "constant_index": 39,
+          "value": "unlockLineProgress"
+        },
+        {
+          "constant_index": 40,
+          "value": "revealed"
+        },
+        {
+          "constant_index": 41,
+          "value": "maxunit"
+        },
+        {
+          "constant_index": 42,
+          "value": "slotodds"
+        },
+        {
+          "constant_index": 43,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 44,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 45,
+          "value": "stonespecial"
+        },
+        {
+          "constant_index": 46,
+          "value": "stonejester"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            "factionsynergy",
+            "growthbranch"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            "growthbranch",
+            "dormantpower"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            "dormantpower",
+            "interest"
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/89",
+      "argument_count": 0,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 1,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/91/21",
+      "argument_count": 1,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "maxed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/91",
+      "argument_count": 0,
+      "instruction_count": 149,
+      "numeric_constants": [
+        0.02,
+        0.15,
+        0.045,
+        0.03,
+        0.004,
+        0.002,
+        0.001,
+        0.0005,
+        0.0002,
+        0.1,
+        0.05,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "normal"
+        },
+        {
+          "constant_index": 1,
+          "value": "prism"
+        },
+        {
+          "constant_index": 2,
+          "value": "legendary"
+        },
+        {
+          "constant_index": 3,
+          "value": "rare"
+        },
+        {
+          "constant_index": 4,
+          "value": "slotadvanced"
+        },
+        {
+          "constant_index": 5,
+          "value": "slotadvanced2"
+        },
+        {
+          "constant_index": 6,
+          "value": "slotadvanced3"
+        },
+        {
+          "constant_index": 7,
+          "value": "slotprism2"
+        },
+        {
+          "constant_index": 8,
+          "value": "slotprism3"
+        },
+        {
+          "constant_index": 9,
+          "value": "slotprism"
+        },
+        {
+          "constant_index": 10,
+          "value": "slotlegend2"
+        },
+        {
+          "constant_index": 11,
+          "value": "slotlegend3"
+        },
+        {
+          "constant_index": 12,
+          "value": "slotlegend"
+        },
+        {
+          "constant_index": 13,
+          "value": "slotrare2"
+        },
+        {
+          "constant_index": 14,
+          "value": "slotrare3"
+        },
+        {
+          "constant_index": 15,
+          "value": "advanced"
+        },
+        {
+          "constant_index": 16,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 17,
+          "value": "semi_demo"
+        },
+        {
+          "constant_index": 18,
+          "value": "full"
+        },
+        {
+          "constant_index": 19,
+          "value": "GameEditionMode"
+        },
+        {
+          "constant_index": 20,
+          "value": "_G"
+        },
+        {
+          "constant_index": 22,
+          "value": "probabilities"
+        },
+        {
+          "constant_index": 23,
+          "value": "unitGrades"
+        },
+        {
+          "constant_index": 24,
+          "value": "forceWinProb"
+        },
+        {
+          "constant_index": 25,
+          "value": "winSuppressProb"
+        },
+        {
+          "constant_index": 26,
+          "value": "slot"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/93",
+      "argument_count": 2,
+      "instruction_count": 66,
+      "numeric_constants": [
+        4503599627370497.0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "#A84F5A"
+        },
+        {
+          "constant_index": 1,
+          "value": "#FFB05F"
+        },
+        {
+          "constant_index": 3,
+          "value": "#FF9A9A"
+        },
+        {
+          "constant_index": 4,
+          "value": "#5FAF6F"
+        },
+        {
+          "constant_index": 5,
+          "value": "#D7FF7A"
+        },
+        {
+          "constant_index": 7,
+          "value": "#8DFFB2"
+        },
+        {
+          "constant_index": 8,
+          "value": "clear"
+        },
+        {
+          "constant_index": 9,
+          "value": "#C7F1FF"
+        },
+        {
+          "constant_index": 10,
+          "value": "difficulty"
+        },
+        {
+          "constant_index": 11,
+          "value": "#6FAACC"
+        },
+        {
+          "constant_index": 12,
+          "value": "stage"
+        },
+        {
+          "constant_index": 14,
+          "value": "#9EDFFF"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 13,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/94",
+      "argument_count": 2,
+      "instruction_count": 93,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 3,
+          "value": "menu_stage_name_1"
+        },
+        {
+          "constant_index": 4,
+          "value": "slotadvanced"
+        },
+        {
+          "constant_index": 5,
+          "value": "shoppin"
+        },
+        {
+          "constant_index": 6,
+          "value": "itemresearch"
+        },
+        {
+          "constant_index": 7,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 9,
+          "value": "clear_label"
+        },
+        {
+          "constant_index": 11,
+          "value": "difficulty_easy"
+        },
+        {
+          "constant_index": 12,
+          "value": "reqDiff"
+        },
+        {
+          "constant_index": 13,
+          "value": "text"
+        },
+        {
+          "constant_index": 15,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 16,
+          "value": "menu_stage_name_"
+        },
+        {
+          "constant_index": 17,
+          "value": "getText"
+        },
+        {
+          "constant_index": 18,
+          "value": "full"
+        },
+        {
+          "constant_index": 19,
+          "value": "GameEditionMode"
+        },
+        {
+          "constant_index": 20,
+          "value": "_G"
+        },
+        {
+          "constant_index": 21,
+          "value": "reqFull"
+        },
+        {
+          "constant_index": 22,
+          "value": "reqStage"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "clear"
+            ]
+          ]
+        },
+        {
+          "constant_index": 1,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "difficulty"
+            ]
+          ]
+        },
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "stage"
+            ]
+          ]
+        },
+        {
+          "constant_index": 8,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "clear"
+            ]
+          ]
+        },
+        {
+          "constant_index": 10,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "difficulty"
+            ]
+          ]
+        },
+        {
+          "constant_index": 14,
+          "array": [],
+          "dictionary": [
+            [
+              "kind",
+              "stage"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/95",
+      "argument_count": 2,
+      "instruction_count": 71,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "clear_open_forest_easy_hint"
+        },
+        {
+          "constant_index": 1,
+          "value": "slotadvanced"
+        },
+        {
+          "constant_index": 2,
+          "value": "shoppin"
+        },
+        {
+          "constant_index": 3,
+          "value": "itemresearch"
+        },
+        {
+          "constant_index": 4,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 5,
+          "value": "clear_label"
+        },
+        {
+          "constant_index": 6,
+          "value": "difficulty_easy"
+        },
+        {
+          "constant_index": 7,
+          "value": "reqDiff"
+        },
+        {
+          "constant_index": 8,
+          "value": " "
+        },
+        {
+          "constant_index": 9,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 10,
+          "value": "menu_stage_name_"
+        },
+        {
+          "constant_index": 11,
+          "value": "full_version_hint"
+        },
+        {
+          "constant_index": 12,
+          "value": "getText"
+        },
+        {
+          "constant_index": 13,
+          "value": "full"
+        },
+        {
+          "constant_index": 14,
+          "value": "GameEditionMode"
+        },
+        {
+          "constant_index": 15,
+          "value": "_G"
+        },
+        {
+          "constant_index": 16,
+          "value": "reqFull"
+        },
+        {
+          "constant_index": 17,
+          "value": "reqStage"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/97",
+      "argument_count": 1,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "reqStage"
+        },
+        {
+          "constant_index": 1,
+          "value": "shoppin"
+        },
+        {
+          "constant_index": 2,
+          "value": "itemresearch"
+        },
+        {
+          "constant_index": 3,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 4,
+          "value": "slotadvanced"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/98",
+      "argument_count": 1,
+      "instruction_count": 465,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "shoppin"
+        },
+        {
+          "constant_index": 1,
+          "value": "itemresearch"
+        },
+        {
+          "constant_index": 2,
+          "value": "iteminventory2"
+        },
+        {
+          "constant_index": 3,
+          "value": "itemrefund"
+        },
+        {
+          "constant_index": 4,
+          "value": "iteminventory"
+        },
+        {
+          "constant_index": 5,
+          "value": "shopreroll"
+        },
+        {
+          "constant_index": 6,
+          "value": "firstcoreuncommon"
+        },
+        {
+          "constant_index": 7,
+          "value": "firstcorespin"
+        },
+        {
+          "constant_index": 8,
+          "value": "corereroll"
+        },
+        {
+          "constant_index": 9,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 10,
+          "value": "slotadvanced3"
+        },
+        {
+          "constant_index": 11,
+          "value": "slotadvanced2"
+        },
+        {
+          "constant_index": 12,
+          "value": "slotadvanced"
+        },
+        {
+          "constant_index": 13,
+          "value": "factionsynergy"
+        },
+        {
+          "constant_index": 14,
+          "value": "growthbranch"
+        },
+        {
+          "constant_index": 15,
+          "value": "dormantpower"
+        },
+        {
+          "constant_index": 16,
+          "value": "interest"
+        },
+        {
+          "constant_index": 17,
+          "value": "maxunit3"
+        },
+        {
+          "constant_index": 18,
+          "value": "maxunit2"
+        },
+        {
+          "constant_index": 19,
+          "value": "maxunit"
+        },
+        {
+          "constant_index": 20,
+          "value": "slotnudge"
+        },
+        {
+          "constant_index": 21,
+          "value": "maxhp2"
+        },
+        {
+          "constant_index": 22,
+          "value": "startgold2"
+        },
+        {
+          "constant_index": 23,
+          "value": "comebackgold"
+        },
+        {
+          "constant_index": 24,
+          "value": "gateheal"
+        },
+        {
+          "constant_index": 25,
+          "value": "comebackspin"
+        },
+        {
+          "constant_index": 26,
+          "value": "startingmerccontract"
+        },
+        {
+          "constant_index": 27,
+          "value": "startgold"
+        },
+        {
+          "constant_index": 28,
+          "value": "maxhp"
+        },
+        {
+          "constant_index": 29,
+          "value": "noviceshield"
+        },
+        {
+          "constant_index": 30,
+          "value": "maxed"
+        },
+        {
+          "constant_index": 31,
+          "value": "parent"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/99",
+      "argument_count": 1,
+      "instruction_count": 60,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "shoppin"
+        },
+        {
+          "constant_index": 1,
+          "value": "itemresearch"
+        },
+        {
+          "constant_index": 2,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 3,
+          "value": "slotadvanced"
+        },
+        {
+          "constant_index": 4,
+          "value": "reqDiff"
+        },
+        {
+          "constant_index": 5,
+          "value": "full"
+        },
+        {
+          "constant_index": 6,
+          "value": "GameEditionMode"
+        },
+        {
+          "constant_index": 7,
+          "value": "_G"
+        },
+        {
+          "constant_index": 8,
+          "value": "reqFull"
+        },
+        {
+          "constant_index": 9,
+          "value": "reqStage"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/100",
+      "argument_count": 2,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "clearedDifficulties"
+        },
+        {
+          "constant_index": 1,
+          "value": "stageSelect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/101",
+      "argument_count": 0,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "clearedDifficulties"
+        },
+        {
+          "constant_index": 1,
+          "value": "stageSelect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/102",
+      "argument_count": 0,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "clearedDifficulties"
+        },
+        {
+          "constant_index": 1,
+          "value": "stageSelect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/159",
+      "argument_count": 7,
+      "instruction_count": 37,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "reqFull"
+        },
+        {
+          "constant_index": 1,
+          "value": "reqDiff"
+        },
+        {
+          "constant_index": 2,
+          "value": "reqStage"
+        },
+        {
+          "constant_index": 3,
+          "value": "maxedValue"
+        },
+        {
+          "constant_index": 4,
+          "value": "value"
+        },
+        {
+          "constant_index": 5,
+          "value": "maxedGrade"
+        },
+        {
+          "constant_index": 6,
+          "value": "grade"
+        },
+        {
+          "constant_index": 7,
+          "value": "posY"
+        },
+        {
+          "constant_index": 8,
+          "value": "posX"
+        },
+        {
+          "constant_index": 9,
+          "value": "parent"
+        },
+        {
+          "constant_index": 10,
+          "value": "cost"
+        },
+        {
+          "constant_index": 11,
+          "value": "stat"
+        },
+        {
+          "constant_index": 12,
+          "value": "statKey"
+        },
+        {
+          "constant_index": 13,
+          "value": "_stat"
+        },
+        {
+          "constant_index": 14,
+          "value": "descKey"
+        },
+        {
+          "constant_index": 15,
+          "value": "_desc"
+        },
+        {
+          "constant_index": 16,
+          "value": "nameKey"
+        },
+        {
+          "constant_index": 17,
+          "value": "_name"
+        },
+        {
+          "constant_index": 18,
+          "value": "upgrade_"
+        },
+        {
+          "constant_index": 19,
+          "value": "nodeId"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 20,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/192",
+      "argument_count": 6,
+      "instruction_count": 364,
+      "numeric_constants": [
+        0.5,
+        2,
+        1,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fill"
+        },
+        {
+          "constant_index": 1,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 2,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "min"
+        },
+        {
+          "constant_index": 6,
+          "value": "floor"
+        },
+        {
+          "constant_index": 7,
+          "value": "max"
+        },
+        {
+          "constant_index": 8,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/193",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/197",
+      "argument_count": 0,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "#EDE6F3"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            null,
+            null,
+            null,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/199",
+      "argument_count": 0,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "#4FC3F7"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            null,
+            null,
+            null,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/201",
+      "argument_count": 0,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "#2A2A2A"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            null,
+            null,
+            null,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/205",
+      "argument_count": 0,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "#999999"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            null,
+            null,
+            null,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/209",
+      "argument_count": 1,
+      "instruction_count": 7,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/210",
+      "argument_count": 1,
+      "instruction_count": 50,
+      "numeric_constants": [
+        255
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "sub"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 2,
+          "value": "A65B67"
+        },
+        {
+          "constant_index": 3,
+          "value": "A84F5A"
+        },
+        {
+          "constant_index": 4,
+          "value": "69A873"
+        },
+        {
+          "constant_index": 5,
+          "value": "5FAF6F"
+        },
+        {
+          "constant_index": 6,
+          "value": "73A1B8"
+        },
+        {
+          "constant_index": 7,
+          "value": "6FAACC"
+        },
+        {
+          "constant_index": 8,
+          "value": ""
+        },
+        {
+          "constant_index": 9,
+          "value": "#"
+        },
+        {
+          "constant_index": 10,
+          "value": "gsub"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/211",
+      "argument_count": 0,
+      "instruction_count": 63,
+      "numeric_constants": [
+        0,
+        1,
+        0.9,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "y"
+        },
+        {
+          "constant_index": 1,
+          "value": "random"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "love"
+        },
+        {
+          "constant_index": 4,
+          "value": "x"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "scale"
+        },
+        {
+          "constant_index": 7,
+          "value": "shakeT"
+        },
+        {
+          "constant_index": 8,
+          "value": "pressed"
+        },
+        {
+          "constant_index": 9,
+          "value": "scaleY"
+        },
+        {
+          "constant_index": 10,
+          "value": "scaleX"
+        },
+        {
+          "constant_index": 11,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/227",
+      "argument_count": 0,
+      "instruction_count": 145,
+      "numeric_constants": [
+        3,
+        1.6
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "audio/ui/buttonclick1.wav"
+        },
+        {
+          "constant_index": 1,
+          "value": "src/audio/ui/buttonclick1.wav"
+        },
+        {
+          "constant_index": 2,
+          "value": "buttonClick"
+        },
+        {
+          "constant_index": 3,
+          "value": "setVolume"
+        },
+        {
+          "constant_index": 4,
+          "value": "sfxVolume"
+        },
+        {
+          "constant_index": 5,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 6,
+          "value": "ui"
+        },
+        {
+          "constant_index": 7,
+          "value": "audio/ui/buttonhover1.wav"
+        },
+        {
+          "constant_index": 8,
+          "value": "static"
+        },
+        {
+          "constant_index": 9,
+          "value": "newSource"
+        },
+        {
+          "constant_index": 10,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 11,
+          "value": "src/audio/ui/buttonhover1.wav"
+        },
+        {
+          "constant_index": 12,
+          "value": "buttonHover"
+        },
+        {
+          "constant_index": 13,
+          "value": "audio"
+        },
+        {
+          "constant_index": 14,
+          "value": "loadedAssets"
+        },
+        {
+          "constant_index": 15,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 16,
+          "value": "timer"
+        },
+        {
+          "constant_index": 17,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/263",
+      "argument_count": 1,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "isAppearing"
+        },
+        {
+          "constant_index": 1,
+          "value": "disappearTimer"
+        },
+        {
+          "constant_index": 2,
+          "value": "isDisappearing"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/264",
+      "argument_count": 1,
+      "instruction_count": 19,
+      "numeric_constants": [
+        -2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "energyParticles"
+        },
+        {
+          "constant_index": 1,
+          "value": "shineT"
+        },
+        {
+          "constant_index": 2,
+          "value": "random"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": [
+            [
+              "pulseT",
+              0
+            ],
+            [
+              "disappearTimer",
+              0
+            ],
+            [
+              "isDisappearing",
+              false
+            ],
+            [
+              "appearTimer",
+              0
+            ],
+            [
+              "isAppearing",
+              false
+            ],
+            [
+              "revealed",
+              false
+            ],
+            [
+              "unlockLineProgress",
+              0
+            ],
+            [
+              "popTimer",
+              0
+            ],
+            [
+              "isPopping",
+              false
+            ],
+            [
+              "flashT",
+              0
+            ],
+            [
+              "pressed",
+              false
+            ],
+            [
+              "shakeAmp",
+              0
+            ],
+            [
+              "shakeDur",
+              0
+            ],
+            [
+              "shakeT",
+              0
+            ],
+            [
+              "pressTimer",
+              0
+            ],
+            [
+              "scaleY",
+              1
+            ],
+            [
+              "scaleX",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/265",
+      "argument_count": 0,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/266",
+      "argument_count": 3,
+      "instruction_count": 31,
+      "numeric_constants": [
+        1,
+        0.5,
+        50,
+        190,
+        80
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/269",
+      "argument_count": 0,
+      "instruction_count": 8,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/271",
+      "argument_count": 0,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "src/data/font/Galmuri9WSLine.fnt"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/273",
+      "argument_count": 3,
+      "instruction_count": 74,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "resolveChineseLatinFallbackPath"
+        },
+        {
+          "constant_index": 1,
+          "value": "registerChineseLatinFallbackFont"
+        },
+        {
+          "constant_index": 2,
+          "value": "maybeRegisterSLineTtfTextEffect"
+        },
+        {
+          "constant_index": 3,
+          "value": "_G"
+        },
+        {
+          "constant_index": 4,
+          "value": "|"
+        },
+        {
+          "constant_index": 5,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/274",
+      "argument_count": 1,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": ""
+        },
+        {
+          "constant_index": 1,
+          "value": "string"
+        },
+        {
+          "constant_index": 2,
+          "value": "type"
+        },
+        {
+          "constant_index": 3,
+          "value": "resolve"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/275",
+      "argument_count": 2,
+      "instruction_count": 69,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "newFont"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 5,
+          "value": "%.otf$"
+        },
+        {
+          "constant_index": 6,
+          "value": "%.ttf$"
+        },
+        {
+          "constant_index": 7,
+          "value": "match"
+        },
+        {
+          "constant_index": 8,
+          "value": "lower"
+        },
+        {
+          "constant_index": 9,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 10,
+          "value": "getInfo"
+        },
+        {
+          "constant_index": 11,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 12,
+          "value": "love"
+        },
+        {
+          "constant_index": 13,
+          "value": ""
+        },
+        {
+          "constant_index": 14,
+          "value": "string"
+        },
+        {
+          "constant_index": 15,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/276",
+      "argument_count": 2,
+      "instruction_count": 94,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "registerChineseShadowFont"
+        },
+        {
+          "constant_index": 1,
+          "value": "_G"
+        },
+        {
+          "constant_index": 2,
+          "value": "attachFallbacks"
+        },
+        {
+          "constant_index": 3,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 4,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 5,
+          "value": "newFont"
+        },
+        {
+          "constant_index": 6,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 7,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 8,
+          "value": "%.otf$"
+        },
+        {
+          "constant_index": 9,
+          "value": "%.ttf$"
+        },
+        {
+          "constant_index": 10,
+          "value": "match"
+        },
+        {
+          "constant_index": 11,
+          "value": "lower"
+        },
+        {
+          "constant_index": 12,
+          "value": "getInfo"
+        },
+        {
+          "constant_index": 13,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 14,
+          "value": "love"
+        },
+        {
+          "constant_index": 15,
+          "value": ""
+        },
+        {
+          "constant_index": 16,
+          "value": "string"
+        },
+        {
+          "constant_index": 17,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/277",
+      "argument_count": 1,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "function"
+        },
+        {
+          "constant_index": 1,
+          "value": "type"
+        },
+        {
+          "constant_index": 2,
+          "value": "getChineseLatinFallbackFont"
+        },
+        {
+          "constant_index": 3,
+          "value": "_G"
+        },
+        {
+          "constant_index": 4,
+          "value": "rawget"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/278",
+      "argument_count": 0,
+      "instruction_count": 7,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ko"
+        },
+        {
+          "constant_index": 1,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 2,
+          "value": "_G"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/279",
+      "argument_count": 0,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "zh"
+        },
+        {
+          "constant_index": 1,
+          "value": "ko"
+        },
+        {
+          "constant_index": 2,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 3,
+          "value": "_G"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 651,
+      "numeric_constants": [
+        2,
+        0.5,
+        0.2,
+        100,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "setPadPan"
+        },
+        {
+          "constant_index": 3,
+          "value": "getPadTargets"
+        },
+        {
+          "constant_index": 5,
+          "value": "isOwned"
+        },
+        {
+          "constant_index": 7,
+          "value": "getShopPinCount"
+        },
+        {
+          "constant_index": 9,
+          "value": "getItemResearchTier"
+        },
+        {
+          "constant_index": 11,
+          "value": "getItemRefundRate"
+        },
+        {
+          "constant_index": 13,
+          "value": "getItemInventoryAdd"
+        },
+        {
+          "constant_index": 15,
+          "value": "getShopFirstRerollDiscount"
+        },
+        {
+          "constant_index": 17,
+          "value": "getFirstCoreUncommonGuarantee"
+        },
+        {
+          "constant_index": 19,
+          "value": "getFirstCoreSpinReqDelta"
+        },
+        {
+          "constant_index": 21,
+          "value": "getCoreFreeRerollBonus"
+        },
+        {
+          "constant_index": 23,
+          "value": "getPromotionTraitChoiceUnlocked"
+        },
+        {
+          "constant_index": 25,
+          "value": "getAwakeningUnlocked"
+        },
+        {
+          "constant_index": 27,
+          "value": "getFactionSynergyUnlocked"
+        },
+        {
+          "constant_index": 29,
+          "value": "getMaxInterestBonus"
+        },
+        {
+          "constant_index": 31,
+          "value": "isPrepTimerDisabled"
+        },
+        {
+          "constant_index": 33,
+          "value": "getStartingMercContractCount"
+        },
+        {
+          "constant_index": 35,
+          "value": "getPrepTimeBonusSec"
+        },
+        {
+          "constant_index": 37,
+          "value": "getNudgeMissDiscountEnabled"
+        },
+        {
+          "constant_index": 39,
+          "value": "getNudgeEnabled"
+        },
+        {
+          "constant_index": 41,
+          "value": "getComebackGoldBonus"
+        },
+        {
+          "constant_index": 43,
+          "value": "getGateRecoveryEnabled"
+        },
+        {
+          "constant_index": 45,
+          "value": "getComebackGuaranteedSpinEnabled"
+        },
+        {
+          "constant_index": 47,
+          "value": "getStartGoldBonus"
+        },
+        {
+          "constant_index": 49,
+          "value": "getEarlyBaseShieldEnabled"
+        },
+        {
+          "constant_index": 51,
+          "value": "getBaseHPBonus"
+        },
+        {
+          "constant_index": 53,
+          "value": "getMaxUnitBonus"
+        },
+        {
+          "constant_index": 55,
+          "value": "getSpinLuckSuppressDelta"
+        },
+        {
+          "constant_index": 57,
+          "value": "getSpinLuckForceWinProb"
+        },
+        {
+          "constant_index": 59,
+          "value": "getBattleSpeedMultiplier"
+        },
+        {
+          "constant_index": 61,
+          "value": "mousemoved"
+        },
+        {
+          "constant_index": 63,
+          "value": "mousereleased"
+        },
+        {
+          "constant_index": 65,
+          "value": "wheelmoved"
+        },
+        {
+          "constant_index": 67,
+          "value": "keypressed"
+        },
+        {
+          "constant_index": 69,
+          "value": "mousepressed"
+        },
+        {
+          "constant_index": 71,
+          "value": "update"
+        },
+        {
+          "constant_index": 73,
+          "value": "draw"
+        },
+        {
+          "constant_index": 75,
+          "value": "__slotUpgradeLoadLazyShader"
+        },
+        {
+          "constant_index": 77,
+          "value": "__slotUpgradeLoadLazyImage"
+        },
+        {
+          "constant_index": 78,
+          "value": "__slotUpgradeLazyFailed"
+        },
+        {
+          "constant_index": 79,
+          "value": "_G"
+        },
+        {
+          "constant_index": 88,
+          "value": "setUpgradeState"
+        },
+        {
+          "constant_index": 90,
+          "value": "getUpgradeState"
+        },
+        {
+          "constant_index": 92,
+          "value": "applyUpgradeEffects"
+        },
+        {
+          "constant_index": 103,
+          "value": "parent"
+        },
+        {
+          "constant_index": 104,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 106,
+          "value": "F10"
+        },
+        {
+          "constant_index": 107,
+          "value": "stonegambit"
+        },
+        {
+          "constant_index": 109,
+          "value": "F09"
+        },
+        {
+          "constant_index": 110,
+          "value": "stonesanctum"
+        },
+        {
+          "constant_index": 112,
+          "value": "F08"
+        },
+        {
+          "constant_index": 113,
+          "value": "stoneconstellation"
+        },
+        {
+          "constant_index": 115,
+          "value": "F07"
+        },
+        {
+          "constant_index": 116,
+          "value": "stonerift"
+        },
+        {
+          "constant_index": 118,
+          "value": "F06"
+        },
+        {
+          "constant_index": 119,
+          "value": "stonemastery"
+        },
+        {
+          "constant_index": 121,
+          "value": "F05"
+        },
+        {
+          "constant_index": 122,
+          "value": "stonespecial"
+        },
+        {
+          "constant_index": 124,
+          "value": "F04"
+        },
+        {
+          "constant_index": 125,
+          "value": "stoneomen"
+        },
+        {
+          "constant_index": 127,
+          "value": "F03"
+        },
+        {
+          "constant_index": 128,
+          "value": "stonebreeze"
+        },
+        {
+          "constant_index": 130,
+          "value": "F02"
+        },
+        {
+          "constant_index": 131,
+          "value": "stonetwin"
+        },
+        {
+          "constant_index": 133,
+          "value": "F01"
+        },
+        {
+          "constant_index": 134,
+          "value": "fatestone"
+        },
+        {
+          "constant_index": 136,
+          "value": "R12"
+        },
+        {
+          "constant_index": 137,
+          "value": "slotprism3"
+        },
+        {
+          "constant_index": 139,
+          "value": "R11"
+        },
+        {
+          "constant_index": 140,
+          "value": "slotprism2"
+        },
+        {
+          "constant_index": 142,
+          "value": "R10"
+        },
+        {
+          "constant_index": 143,
+          "value": "slotprism"
+        },
+        {
+          "constant_index": 145,
+          "value": "R09"
+        },
+        {
+          "constant_index": 146,
+          "value": "slotlegend3"
+        },
+        {
+          "constant_index": 148,
+          "value": "R08"
+        },
+        {
+          "constant_index": 149,
+          "value": "slotlegend2"
+        },
+        {
+          "constant_index": 151,
+          "value": "R07"
+        },
+        {
+          "constant_index": 152,
+          "value": "slotlegend"
+        },
+        {
+          "constant_index": 154,
+          "value": "R06"
+        },
+        {
+          "constant_index": 155,
+          "value": "slotrare3"
+        },
+        {
+          "constant_index": 157,
+          "value": "R05"
+        },
+        {
+          "constant_index": 158,
+          "value": "slotrare2"
+        },
+        {
+          "constant_index": 194,
+          "value": "separator"
+        },
+        {
+          "constant_index": 196,
+          "value": "hint"
+        },
+        {
+          "constant_index": 198,
+          "value": "gaugeFill"
+        },
+        {
+          "constant_index": 200,
+          "value": "gaugeBg"
+        },
+        {
+          "constant_index": 202,
+          "value": "value"
+        },
+        {
+          "constant_index": 204,
+          "value": "label"
+        },
+        {
+          "constant_index": 206,
+          "value": "boxFill"
+        },
+        {
+          "constant_index": 212,
+          "value": "resetCamera"
+        },
+        {
+          "constant_index": 213,
+          "value": "blinkSpeed"
+        },
+        {
+          "constant_index": 214,
+          "value": "t"
+        },
+        {
+          "constant_index": 215,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 216,
+          "value": "speedY"
+        },
+        {
+          "constant_index": 217,
+          "value": "speedX"
+        },
+        {
+          "constant_index": 218,
+          "value": "size"
+        },
+        {
+          "constant_index": 219,
+          "value": "y"
+        },
+        {
+          "constant_index": 220,
+          "value": "x"
+        },
+        {
+          "constant_index": 222,
+          "value": "random"
+        },
+        {
+          "constant_index": 223,
+          "value": "math"
+        },
+        {
+          "constant_index": 224,
+          "value": "love"
+        },
+        {
+          "constant_index": 225,
+          "value": "insert"
+        },
+        {
+          "constant_index": 226,
+          "value": "table"
+        },
+        {
+          "constant_index": 228,
+          "value": "preptimerdisabled"
+        },
+        {
+          "constant_index": 229,
+          "value": "preptime2"
+        },
+        {
+          "constant_index": 230,
+          "value": "factionsynergy"
+        },
+        {
+          "constant_index": 231,
+          "value": "growthbranch"
+        },
+        {
+          "constant_index": 232,
+          "value": "dormantpower"
+        },
+        {
+          "constant_index": 233,
+          "value": "interest"
+        },
+        {
+          "constant_index": 234,
+          "value": "preptime"
+        },
+        {
+          "constant_index": 235,
+          "value": "shoppin"
+        },
+        {
+          "constant_index": 236,
+          "value": "itemresearch"
+        },
+        {
+          "constant_index": 237,
+          "value": "iteminventory2"
+        },
+        {
+          "constant_index": 238,
+          "value": "itemrefund"
+        },
+        {
+          "constant_index": 239,
+          "value": "iteminventory"
+        },
+        {
+          "constant_index": 240,
+          "value": "shopreroll"
+        },
+        {
+          "constant_index": 241,
+          "value": "firstcoreuncommon"
+        },
+        {
+          "constant_index": 242,
+          "value": "firstcorespin"
+        },
+        {
+          "constant_index": 243,
+          "value": "corereroll"
+        },
+        {
+          "constant_index": 244,
+          "value": "slotrare"
+        },
+        {
+          "constant_index": 245,
+          "value": "slotadvanced3"
+        },
+        {
+          "constant_index": 246,
+          "value": "slotadvanced2"
+        },
+        {
+          "constant_index": 247,
+          "value": "slotadvanced"
+        },
+        {
+          "constant_index": 248,
+          "value": "slotnudge"
+        },
+        {
+          "constant_index": 249,
+          "value": "maxunit3"
+        },
+        {
+          "constant_index": 250,
+          "value": "maxunit2"
+        },
+        {
+          "constant_index": 251,
+          "value": "maxunit"
+        },
+        {
+          "constant_index": 252,
+          "value": "startgold2"
+        },
+        {
+          "constant_index": 253,
+          "value": "comebackgold"
+        },
+        {
+          "constant_index": 254,
+          "value": "gateheal"
+        },
+        {
+          "constant_index": 255,
+          "value": "comebackspin"
+        },
+        {
+          "constant_index": 256,
+          "value": "startingmerccontract"
+        },
+        {
+          "constant_index": 257,
+          "value": "startgold"
+        },
+        {
+          "constant_index": 258,
+          "value": "noviceshield"
+        },
+        {
+          "constant_index": 259,
+          "value": "maxhp2"
+        },
+        {
+          "constant_index": 260,
+          "value": "maxhp"
+        },
+        {
+          "constant_index": 261,
+          "value": "revealed"
+        },
+        {
+          "constant_index": 262,
+          "value": "slotodds"
+        },
+        {
+          "constant_index": 268,
+          "value": "    extern number time;\n    extern number scale;\n\n    // Precision-safe scalar hash. The old sin(dot(...)) hash multiplied a\n    // large trigonometric result by 43758, which becomes blocky on fragment\n    // hardware with reduced float precision. This version keeps coordinates\n    // bounded and uses only small fract/dot operations.\n    float hash12(vec2 p) {\n        p = mod(p, 71.0);\n        vec3 p3 = fract(vec3(p.x, p.y, p.x) * 0.1031);\n        p3 += dot(p3, vec3(p3.y, p3.z, p3.x) + 33.33);\n        return fract((p3.x + p3.y) * p3.z);\n    }\n\n    float valueNoise(vec2 st) {\n        vec2 i = floor(st);\n        vec2 f = fract(st);\n        float a = hash12(i);\n        float b = hash12(i + vec2(1.0, 0.0));\n        float c = hash12(i + vec2(0.0, 1.0));\n        float d = hash12(i + vec2(1.0, 1.0));\n        vec2 u = f * f * (3.0 - 2.0 * f);\n        return mix(a, b, u.x)\n            + (c - a) * u.y * (1.0 - u.x)\n            + (d - b) * u.x * u.y;\n    }\n\n    float fbm(vec2 st) {\n        float value = 0.0;\n        float amplitude = 0.5;\n        for (int i = 0; i < 4; i++) {\n            value += amplitude * valueNoise(st);\n            st *= 2.0;\n            amplitude *= 0.5;\n        }\n        return value;\n    }\n\n    vec4 effect(vec4 color, Image texture, vec2 texture_coords, vec2 screen_coords) {\n        // Preserve the original three-pixel cloudy/pixelated appearance.\n        float pixelSize = max(1.0, 3.0 * scale);\n        vec2 samplePx = floor(screen_coords / pixelSize);\n        vec2 uv = samplePx / 200.0;\n\n        // A cosine loop follows nearly the same slow drift as the old linear\n        // timer for its first half, then returns smoothly without ever sending\n        // large time values to the shader.\n        const float TAU = 6.28318530718;\n        float phase = time * (TAU / 100.0);\n        float drift = 0.5 - 0.5 * cos(phase);\n        uv += vec2(drift, drift * 0.5);\n        float n = fbm(uv);\n        float n2 = fbm(uv + vec2(n * 2.0, n * 0.5) - vec2(drift * 2.5));\n        float finalNoise = mix(n, n2, 0.6);\n\n        // Original upgrade-screen palette.\n\n        vec3 colDeep = vec3(0.10, 0.08, 0.14); // Darker than #2e222f (Abyss)\n        vec3 colBase = vec3(0.18, 0.13, 0.18); // #2e222f (UI Dark)\n        vec3 colMid  = vec3(0.24, 0.21, 0.28); // #3e3546 (UI Light)\n        vec3 colHigh = vec3(0.35, 0.25, 0.35); // Faint Highlight\n\n        vec3 col = colDeep;\n\n        // Smooth mixing based on noise height.\n        col = mix(col, colBase, smoothstep(0.2, 0.5, finalNoise));\n        col = mix(col, colMid,  smoothstep(0.5, 0.7, finalNoise));\n        col = mix(col, colHigh, smoothstep(0.7, 1.0, finalNoise));\n\n        // Darken edges to focus on the upgrade tree.\n        vec2 vUV = screen_coords / love_ScreenSize.xy;\n        float vignette = 1.0 - smoothstep(0.5, 1.5, length(vUV - 0.5) * 1.5);\n        col *= vignette;\n\n        // A one-LSB interleaved dither prevents visible color bands on 8/10-bit\n        // output without introducing another grid into the cloud field.\n        float dither = fract(52.9829189\n            * fract(dot(screen_coords, vec2(0.06711056, 0.00583715)))) - 0.5;\n        col += vec3(dither * (1.0 / 255.0));\n\n        return vec4(clamp(col, vec3(0.0), vec3(1.0)), 1.0) * color;\n    }\n"
+        },
+        {
+          "constant_index": 270,
+          "value": "reloadLanguageFonts"
+        },
+        {
+          "constant_index": 272,
+          "value": "getOriginiteFont"
+        },
+        {
+          "constant_index": 280,
+          "value": "normal"
+        },
+        {
+          "constant_index": 281,
+          "value": "src/data/font/Chinese/arkpixel10.ttf"
+        },
+        {
+          "constant_index": 284,
+          "value": "count_impact"
+        },
+        {
+          "constant_index": 285,
+          "value": "src.ui.widgets"
+        },
+        {
+          "constant_index": 286,
+          "value": "src.ui.config"
+        },
+        {
+          "constant_index": 287,
+          "value": "src.data.font_resolver"
+        },
+        {
+          "constant_index": 288,
+          "value": "src.data.language"
+        },
+        {
+          "constant_index": 289,
+          "value": "src.data.constants"
+        },
+        {
+          "constant_index": 290,
+          "value": "src.ui.mainmenu"
+        },
+        {
+          "constant_index": 291,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 96,
+          "array": [
+            null,
+            "difficulty_easy",
+            "difficulty_normal",
+            "difficulty_hard"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 105,
+          "array": [],
+          "dictionary": [
+            [
+              "stat",
+              "Locked -> Unlocked"
+            ]
+          ]
+        },
+        {
+          "constant_index": 108,
+          "array": [],
+          "dictionary": [
+            [
+              "stat",
+              "Locked -> Unlocked"
+            ]
+          ]
+        },
+        {
+          "constant_index": 111,
+          "array": [],
+          "dictionary": [
+            [
+              "stat",
+              "Locked -> Unlocked"
+            ]
+          ]
+        },
+        {
+          "constant_index": 114,
+          "array": [],
+          "dictionary": [
+            [
+              "stat",
+              "Locked -> Unlocked"
+            ]
+          ]
+        },
+        {
+          "constant_index": 117,
+          "array": [],
+          "dictionary": [
+            [
+              "stat",
+              "Locked -> Unlocked"
+            ]
+          ]
+        },
+        {
+          "constant_index": 120,
+          "array": [],
+          "dictionary": [
+            [
+              "stat",
+              "Locked -> Unlocked"
+            ]
+          ]
+        },
+        {
+          "constant_index": 123,
+          "array": [],
+          "dictionary": [
+            [
+              "stat",
+              "Locked -> Unlocked"
+            ]
+          ]
+        },
+        {
+          "constant_index": 126,
+          "array": [],
+          "dictionary": [
+            [
+              "stat",
+              "Locked -> Unlocked"
+            ]
+          ]
+        },
+        {
+          "constant_index": 129,
+          "array": [],
+          "dictionary": [
+            [
+              "stat",
+              "Locked -> Unlocked"
+            ]
+          ]
+        },
+        {
+          "constant_index": 132,
+          "array": [],
+          "dictionary": [
+            [
+              "stat",
+              "Locked -> Unlocked"
+            ]
+          ]
+        },
+        {
+          "constant_index": 135,
+          "array": [],
+          "dictionary": [
+            [
+              "grade",
+              "prism"
+            ],
+            [
+              "stat",
+              "Prism 0.05% -> 0.1%"
+            ],
+            [
+              "value",
+              "0.1%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 138,
+          "array": [],
+          "dictionary": [
+            [
+              "grade",
+              "prism"
+            ],
+            [
+              "stat",
+              "Prism 0.02% -> 0.05%"
+            ],
+            [
+              "value",
+              "0.05%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 141,
+          "array": [],
+          "dictionary": [
+            [
+              "grade",
+              "prism"
+            ],
+            [
+              "stat",
+              "Prism 0% -> 0.02%"
+            ],
+            [
+              "reqFull",
+              true
+            ],
+            [
+              "value",
+              "0.02%"
+            ],
+            [
+              "reqDiff",
+              2
+            ],
+            [
+              "reqStage",
+              5
+            ]
+          ]
+        },
+        {
+          "constant_index": 144,
+          "array": [],
+          "dictionary": [
+            [
+              "grade",
+              "legendary"
+            ],
+            [
+              "stat",
+              "Legendary 0.2% -> 0.4%"
+            ],
+            [
+              "value",
+              "0.4%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 147,
+          "array": [],
+          "dictionary": [
+            [
+              "grade",
+              "legendary"
+            ],
+            [
+              "stat",
+              "Legendary 0.1% -> 0.2%"
+            ],
+            [
+              "value",
+              "0.2%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 150,
+          "array": [],
+          "dictionary": [
+            [
+              "grade",
+              "legendary"
+            ],
+            [
+              "stat",
+              "Legendary 0% -> 0.1%"
+            ],
+            [
+              "reqFull",
+              true
+            ],
+            [
+              "value",
+              "0.1%"
+            ],
+            [
+              "reqDiff",
+              2
+            ],
+            [
+              "reqStage",
+              4
+            ]
+          ]
+        },
+        {
+          "constant_index": 153,
+          "array": [],
+          "dictionary": [
+            [
+              "grade",
+              "rare"
+            ],
+            [
+              "stat",
+              "Rare 3% -> 4.5%"
+            ],
+            [
+              "value",
+              "4.5%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 156,
+          "array": [],
+          "dictionary": [
+            [
+              "grade",
+              "rare"
+            ],
+            [
+              "stat",
+              "Rare 2% -> 3%"
+            ],
+            [
+              "value",
+              "3%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 160,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_maxunit3_name"
+            ],
+            [
+              "descKey",
+              "upgrade_maxunit3_desc"
+            ],
+            [
+              "nodeId",
+              "B09"
+            ],
+            [
+              "cost",
+              180
+            ],
+            [
+              "stat",
+              "7 -> 8"
+            ],
+            [
+              "statKey",
+              "upgrade_maxunit3_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 161,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_maxunit2_name"
+            ],
+            [
+              "descKey",
+              "upgrade_maxunit2_desc"
+            ],
+            [
+              "nodeId",
+              "B06"
+            ],
+            [
+              "cost",
+              70
+            ],
+            [
+              "stat",
+              "6 -> 7"
+            ],
+            [
+              "statKey",
+              "upgrade_maxunit2_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 162,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_maxunit_name"
+            ],
+            [
+              "cost",
+              6
+            ],
+            [
+              "nodeId",
+              "B01"
+            ],
+            [
+              "stat",
+              "5 -> 6"
+            ],
+            [
+              "descKey",
+              "upgrade_maxunit_desc"
+            ]
+          ]
+        },
+        {
+          "constant_index": 163,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_shoppin_name"
+            ],
+            [
+              "descKey",
+              "upgrade_shoppin_desc"
+            ],
+            [
+              "nodeId",
+              "M02"
+            ],
+            [
+              "cost",
+              30
+            ],
+            [
+              "stat",
+              "Pin product"
+            ],
+            [
+              "statKey",
+              "upgrade_shoppin_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 164,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_itemresearch_name"
+            ],
+            [
+              "descKey",
+              "upgrade_itemresearch_desc"
+            ],
+            [
+              "nodeId",
+              "M05"
+            ],
+            [
+              "cost",
+              24
+            ],
+            [
+              "stat",
+              "2 specialist items added"
+            ],
+            [
+              "statKey",
+              "upgrade_itemresearch_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 165,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_iteminventory2_name"
+            ],
+            [
+              "descKey",
+              "upgrade_iteminventory2_desc"
+            ],
+            [
+              "nodeId",
+              "M12"
+            ],
+            [
+              "cost",
+              160
+            ],
+            [
+              "stat",
+              "Item slots 7 -> 8"
+            ],
+            [
+              "statKey",
+              "upgrade_iteminventory2_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 166,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_itemrefund_name"
+            ],
+            [
+              "descKey",
+              "upgrade_itemrefund_desc"
+            ],
+            [
+              "nodeId",
+              "M04"
+            ],
+            [
+              "cost",
+              35
+            ],
+            [
+              "stat",
+              "Refund rate 50% -> 80%"
+            ],
+            [
+              "statKey",
+              "upgrade_itemrefund_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 167,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_iteminventory_name"
+            ],
+            [
+              "descKey",
+              "upgrade_iteminventory_desc"
+            ],
+            [
+              "nodeId",
+              "M03"
+            ],
+            [
+              "cost",
+              45
+            ],
+            [
+              "stat",
+              "Item slots 6 -> 7"
+            ],
+            [
+              "statKey",
+              "upgrade_iteminventory_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 168,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_shopreroll_name"
+            ],
+            [
+              "descKey",
+              "upgrade_shopreroll_desc"
+            ],
+            [
+              "nodeId",
+              "M01"
+            ],
+            [
+              "cost",
+              6
+            ],
+            [
+              "stat",
+              "Shop reroll discount 0 -> 1"
+            ],
+            [
+              "statKey",
+              "upgrade_shopreroll_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 169,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_firstcoreuncommon_name"
+            ],
+            [
+              "descKey",
+              "upgrade_firstcoreuncommon_desc"
+            ],
+            [
+              "nodeId",
+              "K03"
+            ],
+            [
+              "cost",
+              60
+            ],
+            [
+              "stat",
+              "Uncommon core appears"
+            ],
+            [
+              "statKey",
+              "upgrade_firstcoreuncommon_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 170,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_firstcorespin_name"
+            ],
+            [
+              "descKey",
+              "upgrade_firstcorespin_desc"
+            ],
+            [
+              "nodeId",
+              "K02"
+            ],
+            [
+              "cost",
+              30
+            ],
+            [
+              "stat",
+              "First core required spins 0 -> -1"
+            ],
+            [
+              "statKey",
+              "upgrade_firstcorespin_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 171,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_corereroll_name"
+            ],
+            [
+              "descKey",
+              "upgrade_corereroll_desc"
+            ],
+            [
+              "nodeId",
+              "K01"
+            ],
+            [
+              "cost",
+              10
+            ],
+            [
+              "stat",
+              "Free reroll 0 -> 1"
+            ],
+            [
+              "statKey",
+              "upgrade_corereroll_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 172,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_slotrare_name"
+            ],
+            [
+              "descKey",
+              "upgrade_slotrare_desc"
+            ],
+            [
+              "nodeId",
+              "R04"
+            ],
+            [
+              "cost",
+              70
+            ],
+            [
+              "stat",
+              "Rare 0% -> 2%"
+            ],
+            [
+              "statKey",
+              "upgrade_slotrare_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 173,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_slotadvanced3_name"
+            ],
+            [
+              "descKey",
+              "upgrade_slotadvanced3_desc"
+            ],
+            [
+              "nodeId",
+              "R03"
+            ],
+            [
+              "cost",
+              28
+            ],
+            [
+              "stat",
+              "Advanced 10% -> 15%"
+            ],
+            [
+              "statKey",
+              "upgrade_slotadvanced3_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 174,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_slotadvanced2_name"
+            ],
+            [
+              "descKey",
+              "upgrade_slotadvanced2_desc"
+            ],
+            [
+              "nodeId",
+              "R02"
+            ],
+            [
+              "cost",
+              12
+            ],
+            [
+              "stat",
+              "Advanced 5% -> 10%"
+            ],
+            [
+              "statKey",
+              "upgrade_slotadvanced2_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 175,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_slotadvanced_name"
+            ],
+            [
+              "descKey",
+              "upgrade_slotadvanced_desc"
+            ],
+            [
+              "nodeId",
+              "R01"
+            ],
+            [
+              "cost",
+              4
+            ],
+            [
+              "stat",
+              "怨좉툒 0% -> 5%"
+            ],
+            [
+              "statKey",
+              "upgrade_slotadvanced_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 176,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_slotodds_name"
+            ],
+            [
+              "descKey",
+              "upgrade_slotodds_desc"
+            ],
+            [
+              "nodeId",
+              "S01"
+            ],
+            [
+              "cost",
+              1
+            ],
+            [
+              "stat",
+              "Locked -> Unsealed"
+            ],
+            [
+              "statKey",
+              "upgrade_slotodds_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 177,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_factionsynergy_name"
+            ],
+            [
+              "descKey",
+              "upgrade_factionsynergy_desc"
+            ],
+            [
+              "nodeId",
+              "B10"
+            ],
+            [
+              "cost",
+              60
+            ],
+            [
+              "stat",
+              "factionSynergyUnlocked 0 -> 1"
+            ],
+            [
+              "statKey",
+              "upgrade_factionsynergy_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 178,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_growthbranch_name"
+            ],
+            [
+              "descKey",
+              "upgrade_growthbranch_desc"
+            ],
+            [
+              "nodeId",
+              "B05"
+            ],
+            [
+              "cost",
+              45
+            ],
+            [
+              "stat",
+              "promotionTraitChoice 0 -> 1"
+            ],
+            [
+              "statKey",
+              "upgrade_growthbranch_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 179,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_dormantpower_name"
+            ],
+            [
+              "descKey",
+              "upgrade_dormantpower_desc"
+            ],
+            [
+              "nodeId",
+              "B04"
+            ],
+            [
+              "cost",
+              12
+            ],
+            [
+              "stat",
+              "awakeningUnlocked 0 -> 1"
+            ],
+            [
+              "statKey",
+              "upgrade_dormantpower_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 180,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_interest_name"
+            ],
+            [
+              "descKey",
+              "upgrade_interest_desc"
+            ],
+            [
+              "nodeId",
+              "B03"
+            ],
+            [
+              "cost",
+              8
+            ],
+            [
+              "stat",
+              "Interest 0 -> 50"
+            ],
+            [
+              "statKey",
+              "upgrade_interest_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 181,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_slotnudge_name"
+            ],
+            [
+              "descKey",
+              "upgrade_slotnudge_desc"
+            ],
+            [
+              "nodeId",
+              "B02"
+            ],
+            [
+              "cost",
+              3
+            ],
+            [
+              "stat",
+              "Nudge spin cost reduction"
+            ],
+            [
+              "statKey",
+              "upgrade_slotnudge_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 182,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_startgold2_name"
+            ],
+            [
+              "descKey",
+              "upgrade_startgold2_desc"
+            ],
+            [
+              "nodeId",
+              "A04"
+            ],
+            [
+              "cost",
+              7
+            ],
+            [
+              "stat",
+              "Starting {gold.png} 500 -> 550"
+            ],
+            [
+              "statKey",
+              "upgrade_startgold2_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 183,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_comebackgold_name"
+            ],
+            [
+              "descKey",
+              "upgrade_comebackgold_desc"
+            ],
+            [
+              "nodeId",
+              "A05"
+            ],
+            [
+              "cost",
+              9
+            ],
+            [
+              "stat",
+              "After defeat {gold.png} 0 -> 100"
+            ],
+            [
+              "statKey",
+              "upgrade_comebackgold_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 184,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_gateheal_name"
+            ],
+            [
+              "descKey",
+              "upgrade_gateheal_desc"
+            ],
+            [
+              "nodeId",
+              "A09"
+            ],
+            [
+              "cost",
+              48
+            ],
+            [
+              "stat",
+              "Life recovery"
+            ],
+            [
+              "statKey",
+              "upgrade_gateheal_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 185,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_comebackspin_name"
+            ],
+            [
+              "descKey",
+              "upgrade_comebackspin_desc"
+            ],
+            [
+              "nodeId",
+              "A06"
+            ],
+            [
+              "cost",
+              20
+            ],
+            [
+              "stat",
+              "First spin guaranteed win"
+            ],
+            [
+              "statKey",
+              "upgrade_comebackspin_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 186,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_startingmerccontract_name"
+            ],
+            [
+              "cost",
+              12
+            ],
+            [
+              "nodeId",
+              "A07"
+            ],
+            [
+              "stat",
+              "startingmerccontract 0 -> 1"
+            ],
+            [
+              "unlockCoreKey",
+              "MercContract"
+            ],
+            [
+              "descKey",
+              "upgrade_startingmerccontract_desc"
+            ]
+          ]
+        },
+        {
+          "constant_index": 187,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_startgold_name"
+            ],
+            [
+              "descKey",
+              "upgrade_startgold_desc"
+            ],
+            [
+              "nodeId",
+              "A02"
+            ],
+            [
+              "cost",
+              2
+            ],
+            [
+              "stat",
+              "Starting {gold.png} 450 -> 500"
+            ],
+            [
+              "statKey",
+              "upgrade_startgold_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 188,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_noviceshield_name"
+            ],
+            [
+              "descKey",
+              "upgrade_noviceshield_desc"
+            ],
+            [
+              "nodeId",
+              "A03"
+            ],
+            [
+              "cost",
+              4
+            ],
+            [
+              "stat",
+              "First life loss 0 -> 1"
+            ],
+            [
+              "statKey",
+              "upgrade_noviceshield_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 189,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_maxhp2_name"
+            ],
+            [
+              "descKey",
+              "upgrade_maxhp2_desc"
+            ],
+            [
+              "nodeId",
+              "A11"
+            ],
+            [
+              "cost",
+              22
+            ],
+            [
+              "stat",
+              "6 -> 7"
+            ],
+            [
+              "statKey",
+              "upgrade_maxhp2_stat"
+            ]
+          ]
+        },
+        {
+          "constant_index": 190,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 191,
+          "array": [],
+          "dictionary": [
+            [
+              "nameKey",
+              "upgrade_maxhp_name"
+            ],
+            [
+              "cost",
+              1
+            ],
+            [
+              "nodeId",
+              "A01"
+            ],
+            [
+              "stat",
+              "5 -> 6"
+            ],
+            [
+              "descKey",
+              "upgrade_maxhp_desc"
+            ]
+          ]
+        },
+        {
+          "constant_index": 195,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            0.2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 203,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 207,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 208,
+          "array": [
+            null,
+            0,
+            0,
+            0,
+            0.8
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 221,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 267,
+          "array": [
+            null,
+            0.6,
+            0.8,
+            1,
+            1.2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 282,
+          "array": [],
+          "dictionary": [
+            [
+              "scale",
+              0.9
+            ],
+            [
+              "pressed",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 283,
+          "array": [],
+          "dictionary": [
+            [
+              "slotrare2",
+              "src/sprites/icons/menu/upgrade/21rareresearch2.png"
+            ],
+            [
+              "slotrare",
+              "src/sprites/icons/menu/upgrade/21rareresearch1.png"
+            ],
+            [
+              "slotrare3",
+              "src/sprites/icons/menu/upgrade/21rareresearch3.png"
+            ],
+            [
+              "slotadvanced3",
+              "src/sprites/icons/menu/upgrade/20advancedresearch3.png"
+            ],
+            [
+              "slotlegend",
+              "src/sprites/icons/menu/upgrade/35legendresearch1.png"
+            ],
+            [
+              "slotadvanced2",
+              "src/sprites/icons/menu/upgrade/19advancedresearch2.png"
+            ],
+            [
+              "slotlegend2",
+              "src/sprites/icons/menu/upgrade/35legendresearch2.png"
+            ],
+            [
+              "slotadvanced",
+              "src/sprites/icons/menu/upgrade/04advancedresearch1.png"
+            ],
+            [
+              "slotlegend3",
+              "src/sprites/icons/menu/upgrade/35legendresearch3.png"
+            ],
+            [
+              "slotodds",
+              "src/sprites/icons/menu/upgrade/01slotodds.png"
+            ],
+            [
+              "slotprism",
+              "src/sprites/icons/menu/upgrade/36prismresearch1.png"
+            ],
+            [
+              "factionsynergy",
+              "src/sprites/icons/menu/upgrade/34factionsynergy.png"
+            ],
+            [
+              "slotprism2",
+              "src/sprites/icons/menu/upgrade/36prismresearch2.png"
+            ],
+            [
+              "growthbranch",
+              "src/sprites/icons/menu/upgrade/33growthbranch.png"
+            ],
+            [
+              "slotprism3",
+              "src/sprites/icons/menu/upgrade/36prismresearch3.png"
+            ],
+            [
+              "dormantpower",
+              "src/sprites/icons/menu/upgrade/32dormantpower.png"
+            ],
+            [
+              "fatestone",
+              "src/sprites/icons/menu/upgrade/36fatestone.png"
+            ],
+            [
+              "interest",
+              "src/sprites/icons/menu/upgrade/07InterestBonus.png"
+            ],
+            [
+              "stonetwin",
+              "src/sprites/icons/menu/upgrade/37stonetwin.png"
+            ],
+            [
+              "preptime",
+              "src/sprites/icons/menu/upgrade/06prephourglass.png"
+            ],
+            [
+              "stonebreeze",
+              "src/sprites/icons/menu/upgrade/38stonebreeze.png"
+            ],
+            [
+              "slotnudge",
+              "src/sprites/icons/menu/upgrade/05nudge.png"
+            ],
+            [
+              "stoneomen",
+              "src/sprites/icons/menu/upgrade/39stoneomen.png"
+            ],
+            [
+              "startgold2",
+              "src/sprites/icons/menu/upgrade/17startgold2.png"
+            ],
+            [
+              "stonespecial",
+              "src/sprites/icons/menu/upgrade/40stonespecial.png"
+            ],
+            [
+              "comebackgold",
+              "src/sprites/icons/menu/upgrade/16comebackgold.png"
+            ],
+            [
+              "stonemastery",
+              "src/sprites/icons/menu/upgrade/41stonemastery.png"
+            ],
+            [
+              "gateheal",
+              "src/sprites/icons/menu/upgrade/15regenhp.png"
+            ],
+            [
+              "stonerift",
+              "src/sprites/icons/menu/upgrade/42stonerift.png"
+            ],
+            [
+              "comebackspin",
+              "src/sprites/icons/menu/upgrade/14emergencygrant.png"
+            ],
+            [
+              "stoneconstellation",
+              "src/sprites/icons/menu/upgrade/43stoneconstellation.png"
+            ],
+            [
+              "startingmerccontract",
+              "src/sprites/icons/menu/upgrade/31merccontract.png"
+            ],
+            [
+              "stonesanctum",
+              "src/sprites/icons/menu/upgrade/44stonesanctum.png"
+            ],
+            [
+              "startgold",
+              "src/sprites/icons/menu/upgrade/13startgold.png"
+            ],
+            [
+              "stonegambit",
+              "src/sprites/icons/menu/upgrade/45stonegambit.png"
+            ],
+            [
+              "noviceshield",
+              "src/sprites/icons/menu/upgrade/12noviceshield.png"
+            ],
+            [
+              "preptime2",
+              "src/sprites/icons/menu/upgrade/08prephourglass2.png"
+            ],
+            [
+              "maxhp2",
+              "src/sprites/icons/menu/upgrade/18heartII.png"
+            ],
+            [
+              "preptimerdisabled",
+              "src/sprites/icons/menu/upgrade/09prephourglass3.png"
+            ],
+            [
+              "maxhp",
+              "src/sprites/icons/menu/upgrade/02heart.png"
+            ],
+            [
+              "maxunit3",
+              "src/sprites/icons/menu/upgrade/11maxunit3.png"
+            ],
+            [
+              "maxunit2",
+              "src/sprites/icons/menu/upgrade/10maxunit2.png"
+            ],
+            [
+              "maxunit",
+              "src/sprites/icons/menu/upgrade/03maxunit.png"
+            ],
+            [
+              "shoppin",
+              "src/sprites/icons/menu/upgrade/28shoppin.png"
+            ],
+            [
+              "itemresearch",
+              "src/sprites/icons/menu/upgrade/27debuffitemresearch.png"
+            ],
+            [
+              "iteminventory2",
+              "src/sprites/icons/menu/upgrade/26iteminventory2.png"
+            ],
+            [
+              "itemrefund",
+              "src/sprites/icons/menu/upgrade/25refundbook.png"
+            ],
+            [
+              "iteminventory",
+              "src/sprites/icons/menu/upgrade/24iteminventory.png"
+            ],
+            [
+              "shopreroll",
+              "src/sprites/icons/menu/upgrade/23shopreroll.png"
+            ],
+            [
+              "firstcoreuncommon",
+              "src/sprites/icons/menu/upgrade/30corechoice.png"
+            ],
+            [
+              "firstcorespin",
+              "src/sprites/icons/menu/upgrade/29firstcorespin.png"
+            ],
+            [
+              "corereroll",
+              "src/sprites/icons/menu/upgrade/22corereroll.png"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

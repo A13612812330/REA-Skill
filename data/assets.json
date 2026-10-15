@@ -1,0 +1,22 @@
+{
+  "load": {
+    "_lua_type": "function"
+  },
+  "tooltipStatIconFiles": {
+    "spd": "spd",
+    "fire": "fire",
+    "mouserightsmall": "mouserightsmall",
+    "middle": "slot/middle",
+    "gold": "gold",
+    "essence": "essence",
+    "aspd": "aspd",
+    "atk": "atk",
+    "hp": "hp",
+    "dist": "dist",
+    "pwr": "pwr",
+    "joker_tooltip": "joker_tooltip"
+  },
+  "getTooltipStatIcon": {
+    "_lua_type": "function"
+  }
+}

@@ -1,0 +1,4746 @@
+{
+  "file": "src/game/slot.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0/0/14",
+      "argument_count": 1,
+      "instruction_count": 6,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/0/16",
+      "argument_count": 1,
+      "instruction_count": 7,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "stripLen"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/0/28",
+      "argument_count": 1,
+      "instruction_count": 7,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "stripLen"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/0/39",
+      "argument_count": 1,
+      "instruction_count": 7,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "stripLen"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/0/132",
+      "argument_count": 1,
+      "instruction_count": 40,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fromRow"
+        },
+        {
+          "constant_index": 1,
+          "value": "isNew"
+        },
+        {
+          "constant_index": 2,
+          "value": "dropMap"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/0",
+      "argument_count": 2,
+      "instruction_count": 2237,
+      "numeric_constants": [
+        0.35,
+        0.3,
+        0.42,
+        0.075,
+        0.76,
+        1,
+        0.24,
+        0.04,
+        0.15,
+        0.54,
+        0.12,
+        0.2,
+        0.5,
+        0.65,
+        0.23,
+        0.4,
+        0.18,
+        0.045,
+        0.001,
+        0.025,
+        0.035,
+        0.08,
+        4,
+        6,
+        2,
+        3
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "allowPostEvaluateChain"
+        },
+        {
+          "constant_index": 1,
+          "value": "_allowCorePostEvaluateChain"
+        },
+        {
+          "constant_index": 2,
+          "value": "coreRespinPhase"
+        },
+        {
+          "constant_index": 3,
+          "value": "_completedCoreRespinPhase"
+        },
+        {
+          "constant_index": 4,
+          "value": "_completedCoreRespinKey"
+        },
+        {
+          "constant_index": 5,
+          "value": "_skipPostEvaluateHookOnce"
+        },
+        {
+          "constant_index": 6,
+          "value": "_preRevealOutcomeMeta"
+        },
+        {
+          "constant_index": 7,
+          "value": "_twinCherriesApplied"
+        },
+        {
+          "constant_index": 8,
+          "value": "newWinsOnly"
+        },
+        {
+          "constant_index": 9,
+          "value": "_luckyNailRespin"
+        },
+        {
+          "constant_index": 10,
+          "value": "_luckyNailResolved"
+        },
+        {
+          "constant_index": 11,
+          "value": "LuckyNail"
+        },
+        {
+          "constant_index": 12,
+          "value": "coreKey"
+        },
+        {
+          "constant_index": 13,
+          "value": "pendingGrid"
+        },
+        {
+          "constant_index": 15,
+          "value": "rows"
+        },
+        {
+          "constant_index": 17,
+          "value": "stopped"
+        },
+        {
+          "constant_index": 18,
+          "value": "settleTime"
+        },
+        {
+          "constant_index": 19,
+          "value": "manual_stop"
+        },
+        {
+          "constant_index": 20,
+          "value": "decelTime"
+        },
+        {
+          "constant_index": 21,
+          "value": "decelAcc"
+        },
+        {
+          "constant_index": 22,
+          "value": "decelerate"
+        },
+        {
+          "constant_index": 23,
+          "value": "hardStop"
+        },
+        {
+          "constant_index": 24,
+          "value": "sequence"
+        },
+        {
+          "constant_index": 25,
+          "value": "sequenceLen"
+        },
+        {
+          "constant_index": 26,
+          "value": "reelStripPos"
+        },
+        {
+          "constant_index": 27,
+          "value": "stopIndex"
+        },
+        {
+          "constant_index": 29,
+          "value": "stripLen"
+        },
+        {
+          "constant_index": 30,
+          "value": "random"
+        },
+        {
+          "constant_index": 31,
+          "value": "love"
+        },
+        {
+          "constant_index": 32,
+          "value": "stopAt"
+        },
+        {
+          "constant_index": 33,
+          "value": "startPos"
+        },
+        {
+          "constant_index": 34,
+          "value": "settle"
+        },
+        {
+          "constant_index": 35,
+          "value": "manualStopRequestPos"
+        },
+        {
+          "constant_index": 36,
+          "value": "targetShift"
+        },
+        {
+          "constant_index": 37,
+          "value": "strip"
+        },
+        {
+          "constant_index": 38,
+          "value": "stripStart"
+        },
+        {
+          "constant_index": 40,
+          "value": "floor"
+        },
+        {
+          "constant_index": 41,
+          "value": "pos"
+        },
+        {
+          "constant_index": 42,
+          "value": "vmax"
+        },
+        {
+          "constant_index": 43,
+          "value": "speed"
+        },
+        {
+          "constant_index": 44,
+          "value": "accelTime"
+        },
+        {
+          "constant_index": 45,
+          "value": "manualStopRequested"
+        },
+        {
+          "constant_index": 46,
+          "value": "manualStop"
+        },
+        {
+          "constant_index": 47,
+          "value": "stopQueued"
+        },
+        {
+          "constant_index": 48,
+          "value": "_luckyNail"
+        },
+        {
+          "constant_index": 49,
+          "value": "timing"
+        },
+        {
+          "constant_index": 50,
+          "value": "targetFinalSymbols"
+        },
+        {
+          "constant_index": 51,
+          "value": "delay"
+        },
+        {
+          "constant_index": 52,
+          "value": "started"
+        },
+        {
+          "constant_index": 53,
+          "value": "_singleReelRespin"
+        },
+        {
+          "constant_index": 54,
+          "value": "onSpinEnd"
+        },
+        {
+          "constant_index": 55,
+          "value": "onPostEvaluate"
+        },
+        {
+          "constant_index": 56,
+          "value": "spin"
+        },
+        {
+          "constant_index": 58,
+          "value": "onCopycapImpact"
+        },
+        {
+          "constant_index": 59,
+          "value": "settleDelay"
+        },
+        {
+          "constant_index": 60,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 61,
+          "value": "_cellIconMorphImpactDelay"
+        },
+        {
+          "constant_index": 62,
+          "value": "_copycapApplied"
+        },
+        {
+          "constant_index": 63,
+          "value": "_corePostEvaluateComplete"
+        },
+        {
+          "constant_index": 64,
+          "value": "evaluateWin"
+        },
+        {
+          "constant_index": 66,
+          "value": "slamDur"
+        },
+        {
+          "constant_index": 67,
+          "value": "slam"
+        },
+        {
+          "constant_index": 68,
+          "value": "windupDur"
+        },
+        {
+          "constant_index": 69,
+          "value": "windup"
+        },
+        {
+          "constant_index": 70,
+          "value": "cycleInterval"
+        },
+        {
+          "constant_index": 71,
+          "value": "nextCycleT"
+        },
+        {
+          "constant_index": 72,
+          "value": "cycle"
+        },
+        {
+          "constant_index": 73,
+          "value": "_cellIconMorph"
+        },
+        {
+          "constant_index": 74,
+          "value": "onStart"
+        },
+        {
+          "constant_index": 75,
+          "value": "targetSymbol"
+        },
+        {
+          "constant_index": 76,
+          "value": "col"
+        },
+        {
+          "constant_index": 77,
+          "value": "row"
+        },
+        {
+          "constant_index": 78,
+          "value": "startCellIconMorph"
+        },
+        {
+          "constant_index": 79,
+          "value": "opts"
+        },
+        {
+          "constant_index": 80,
+          "value": "ready"
+        },
+        {
+          "constant_index": 81,
+          "value": "paidWinningSymbols"
+        },
+        {
+          "constant_index": 82,
+          "value": "nudgeWon"
+        },
+        {
+          "constant_index": 83,
+          "value": "nudged"
+        },
+        {
+          "constant_index": 84,
+          "value": "onWin"
+        },
+        {
+          "constant_index": 85,
+          "value": "isReboundAxisFollowup"
+        },
+        {
+          "constant_index": 86,
+          "value": "nudgeEvent"
+        },
+        {
+          "constant_index": 87,
+          "value": "nudgeCol"
+        },
+        {
+          "constant_index": 89,
+          "value": "onNudgeComplete"
+        },
+        {
+          "constant_index": 90,
+          "value": "visibleWinningLines"
+        },
+        {
+          "constant_index": 91,
+          "value": "winSeq"
+        },
+        {
+          "constant_index": 92,
+          "value": "fxStarted"
+        },
+        {
+          "constant_index": 93,
+          "value": "awarded"
+        },
+        {
+          "constant_index": 94,
+          "value": "allWinningLinesAfterNudge"
+        },
+        {
+          "constant_index": 95,
+          "value": "checked"
+        },
+        {
+          "constant_index": 96,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 97,
+          "value": "_copycapPending"
+        },
+        {
+          "constant_index": 98,
+          "value": "newRewardWinningLines"
+        },
+        {
+          "constant_index": 99,
+          "value": "resolved"
+        },
+        {
+          "constant_index": 100,
+          "value": "winningSymbolsBefore"
+        },
+        {
+          "constant_index": 101,
+          "value": "newSymbol"
+        },
+        {
+          "constant_index": 102,
+          "value": "oldSymbols"
+        },
+        {
+          "constant_index": 103,
+          "value": "nudge"
+        },
+        {
+          "constant_index": 104,
+          "value": "cellMorph"
+        },
+        {
+          "constant_index": 105,
+          "value": "pi"
+        },
+        {
+          "constant_index": 106,
+          "value": "sin"
+        },
+        {
+          "constant_index": 107,
+          "value": "min"
+        },
+        {
+          "constant_index": 108,
+          "value": "max"
+        },
+        {
+          "constant_index": 109,
+          "value": "math"
+        },
+        {
+          "constant_index": 110,
+          "value": "cruise"
+        },
+        {
+          "constant_index": 111,
+          "value": "accelerate"
+        },
+        {
+          "constant_index": 112,
+          "value": "state"
+        },
+        {
+          "constant_index": 113,
+          "value": "spinning"
+        },
+        {
+          "constant_index": 114,
+          "value": "spinSpark"
+        },
+        {
+          "constant_index": 115,
+          "value": "onDoubleLedgerCascadeComplete"
+        },
+        {
+          "constant_index": 116,
+          "value": "lineIds"
+        },
+        {
+          "constant_index": 117,
+          "value": "lineId"
+        },
+        {
+          "constant_index": 119,
+          "value": "_doubleLedgerCascadePending"
+        },
+        {
+          "constant_index": 120,
+          "value": "previousWinningLines"
+        },
+        {
+          "constant_index": 121,
+          "value": "isJackpotResult"
+        },
+        {
+          "constant_index": 122,
+          "value": "_jackpot"
+        },
+        {
+          "constant_index": 123,
+          "value": "symbolsByLine"
+        },
+        {
+          "constant_index": 124,
+          "value": "symbol"
+        },
+        {
+          "constant_index": 125,
+          "value": "allWinningLinesAfterCascade"
+        },
+        {
+          "constant_index": 126,
+          "value": "newWinningLines"
+        },
+        {
+          "constant_index": 127,
+          "value": "winningLines"
+        },
+        {
+          "constant_index": 128,
+          "value": "won"
+        },
+        {
+          "constant_index": 130,
+          "value": "insert"
+        },
+        {
+          "constant_index": 131,
+          "value": "table"
+        },
+        {
+          "constant_index": 133,
+          "value": "beforeWinningLines"
+        },
+        {
+          "constant_index": 134,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 135,
+          "value": "impactDur"
+        },
+        {
+          "constant_index": 136,
+          "value": "impact"
+        },
+        {
+          "constant_index": 137,
+          "value": "dropDur"
+        },
+        {
+          "constant_index": 138,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 139,
+          "value": "function"
+        },
+        {
+          "constant_index": 140,
+          "value": "onDoubleLedgerDropImpact"
+        },
+        {
+          "constant_index": 141,
+          "value": "type"
+        },
+        {
+          "constant_index": 142,
+          "value": "squashY"
+        },
+        {
+          "constant_index": 143,
+          "value": "squashX"
+        },
+        {
+          "constant_index": 144,
+          "value": "offset"
+        },
+        {
+          "constant_index": 145,
+          "value": "amp"
+        },
+        {
+          "constant_index": 146,
+          "value": "dur"
+        },
+        {
+          "constant_index": 147,
+          "value": "hit"
+        },
+        {
+          "constant_index": 148,
+          "value": "dropImpactPlayed"
+        },
+        {
+          "constant_index": 149,
+          "value": "dropContactRatio"
+        },
+        {
+          "constant_index": 150,
+          "value": "dropStagger"
+        },
+        {
+          "constant_index": 151,
+          "value": "dropTravelDur"
+        },
+        {
+          "constant_index": 152,
+          "value": "finalSymbols"
+        },
+        {
+          "constant_index": 153,
+          "value": "reels"
+        },
+        {
+          "constant_index": 154,
+          "value": "cols"
+        },
+        {
+          "constant_index": 155,
+          "value": "slot"
+        },
+        {
+          "constant_index": 156,
+          "value": "ui"
+        },
+        {
+          "constant_index": 157,
+          "value": "finalGrid"
+        },
+        {
+          "constant_index": 158,
+          "value": "grid"
+        },
+        {
+          "constant_index": 159,
+          "value": "drop"
+        },
+        {
+          "constant_index": 160,
+          "value": "vanishDur"
+        },
+        {
+          "constant_index": 161,
+          "value": "vanish"
+        },
+        {
+          "constant_index": 162,
+          "value": "phase"
+        },
+        {
+          "constant_index": 163,
+          "value": "t"
+        },
+        {
+          "constant_index": 164,
+          "value": "active"
+        },
+        {
+          "constant_index": 165,
+          "value": "_doubleLedgerCascade"
+        },
+        {
+          "constant_index": 166,
+          "value": "hd"
+        },
+        {
+          "constant_index": 167,
+          "value": "ht"
+        },
+        {
+          "constant_index": 168,
+          "value": "highlightActive"
+        },
+        {
+          "constant_index": 169,
+          "value": "result"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 57,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 65,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ],
+            [
+              "active",
+              true
+            ],
+            [
+              "phase",
+              "impact"
+            ]
+          ]
+        },
+        {
+          "constant_index": 88,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 118,
+          "array": [],
+          "dictionary": [
+            [
+              "chained",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 129,
+          "array": [],
+          "dictionary": [
+            [
+              "checked",
+              true
+            ],
+            [
+              "hd",
+              0.35
+            ],
+            [
+              "ht",
+              0
+            ],
+            [
+              "highlightActive",
+              false
+            ],
+            [
+              "awarded",
+              false
+            ],
+            [
+              "fxStarted",
+              false
+            ],
+            [
+              "_doubleLedgerCascade",
+              true
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/2",
+      "argument_count": 1,
+      "instruction_count": 17,
+      "numeric_constants": [
+        0.5,
+        2,
+        -2,
+        1
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/3",
+      "argument_count": 1,
+      "instruction_count": 7,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/4",
+      "argument_count": 1,
+      "instruction_count": 6,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/5",
+      "argument_count": 1,
+      "instruction_count": 6,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/6",
+      "argument_count": 3,
+      "instruction_count": 97,
+      "numeric_constants": [
+        1.35
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 1,
+          "value": "_impactCallbackPlayed"
+        },
+        {
+          "constant_index": 2,
+          "value": "onImpact"
+        },
+        {
+          "constant_index": 3,
+          "value": "play"
+        },
+        {
+          "constant_index": 4,
+          "value": "stop"
+        },
+        {
+          "constant_index": 5,
+          "value": "isPlaying"
+        },
+        {
+          "constant_index": 6,
+          "value": "stopSfxPitch"
+        },
+        {
+          "constant_index": 7,
+          "value": "setPitch"
+        },
+        {
+          "constant_index": 8,
+          "value": "stopSfxVolumeMul"
+        },
+        {
+          "constant_index": 9,
+          "value": "setVolume"
+        },
+        {
+          "constant_index": 10,
+          "value": "sfxVolume"
+        },
+        {
+          "constant_index": 11,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 12,
+          "value": "reelStopSfx"
+        },
+        {
+          "constant_index": 13,
+          "value": "stopSfx"
+        },
+        {
+          "constant_index": 14,
+          "value": "active"
+        },
+        {
+          "constant_index": 15,
+          "value": "pauseOverlayState"
+        },
+        {
+          "constant_index": 16,
+          "value": "ui"
+        },
+        {
+          "constant_index": 17,
+          "value": "_stopSfxPlayed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/7",
+      "argument_count": 3,
+      "instruction_count": 211,
+      "numeric_constants": [
+        0.18,
+        0.01
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "started"
+        },
+        {
+          "constant_index": 1,
+          "value": "isReboundAxisFollowup"
+        },
+        {
+          "constant_index": 2,
+          "value": "newSymbol"
+        },
+        {
+          "constant_index": 3,
+          "value": "oldSymbols"
+        },
+        {
+          "constant_index": 4,
+          "value": "dur"
+        },
+        {
+          "constant_index": 5,
+          "value": "winningSymbolsBefore"
+        },
+        {
+          "constant_index": 7,
+          "value": "symbol"
+        },
+        {
+          "constant_index": 8,
+          "value": "col"
+        },
+        {
+          "constant_index": 9,
+          "value": "_resonoscopeNudgePreview"
+        },
+        {
+          "constant_index": 10,
+          "value": "reelAnimDurSec"
+        },
+        {
+          "constant_index": 11,
+          "value": "nudgeButtons"
+        },
+        {
+          "constant_index": 12,
+          "value": "onNudgeUsed"
+        },
+        {
+          "constant_index": 13,
+          "value": "nudge_active"
+        },
+        {
+          "constant_index": 14,
+          "value": "nudge"
+        },
+        {
+          "constant_index": 15,
+          "value": "no_reel"
+        },
+        {
+          "constant_index": 16,
+          "value": "reels"
+        },
+        {
+          "constant_index": 17,
+          "value": "no_grid"
+        },
+        {
+          "constant_index": 18,
+          "value": "grid"
+        },
+        {
+          "constant_index": 19,
+          "value": "jackpot"
+        },
+        {
+          "constant_index": 20,
+          "value": "hasJackpotResult"
+        },
+        {
+          "constant_index": 21,
+          "value": "lucky_nail_resolved"
+        },
+        {
+          "constant_index": 22,
+          "value": "_luckyNailResolved"
+        },
+        {
+          "constant_index": 23,
+          "value": "result"
+        },
+        {
+          "constant_index": 24,
+          "value": "lucky_nail"
+        },
+        {
+          "constant_index": 25,
+          "value": "_luckyNail"
+        },
+        {
+          "constant_index": 26,
+          "value": "double_ledger_cascade"
+        },
+        {
+          "constant_index": 27,
+          "value": "_doubleLedgerCascade"
+        },
+        {
+          "constant_index": 28,
+          "value": "spinning"
+        },
+        {
+          "constant_index": 29,
+          "value": "spin"
+        },
+        {
+          "constant_index": 30,
+          "value": "core_activation"
+        },
+        {
+          "constant_index": 31,
+          "value": "canNudgeBeforeCopycap"
+        },
+        {
+          "constant_index": 32,
+          "value": "active"
+        },
+        {
+          "constant_index": 33,
+          "value": "_preSpinSeq"
+        },
+        {
+          "constant_index": 34,
+          "value": "bad_col"
+        },
+        {
+          "constant_index": 35,
+          "value": "cols"
+        },
+        {
+          "constant_index": 36,
+          "value": "slot"
+        },
+        {
+          "constant_index": 37,
+          "value": "ui"
+        },
+        {
+          "constant_index": 38,
+          "value": "tonumber"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ],
+            [
+              "active",
+              true
+            ],
+            [
+              "kind",
+              "nudge"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/9",
+      "argument_count": 2,
+      "instruction_count": 208,
+      "numeric_constants": [
+        0,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "beforeWinningLines"
+        },
+        {
+          "constant_index": 1,
+          "value": "dropMap"
+        },
+        {
+          "constant_index": 2,
+          "value": "finalGrid"
+        },
+        {
+          "constant_index": 3,
+          "value": "oldGrid"
+        },
+        {
+          "constant_index": 4,
+          "value": "targetCells"
+        },
+        {
+          "constant_index": 5,
+          "value": "lineIds"
+        },
+        {
+          "constant_index": 6,
+          "value": "lineId"
+        },
+        {
+          "constant_index": 7,
+          "value": "dropImpactPlayed"
+        },
+        {
+          "constant_index": 10,
+          "value": "fromRow"
+        },
+        {
+          "constant_index": 12,
+          "value": "jokerChance"
+        },
+        {
+          "constant_index": 13,
+          "value": "_coreSpinMods"
+        },
+        {
+          "constant_index": 14,
+          "value": ":"
+        },
+        {
+          "constant_index": 15,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 16,
+          "value": "hasJackpotResult"
+        },
+        {
+          "constant_index": 17,
+          "value": "_jackpot"
+        },
+        {
+          "constant_index": 18,
+          "value": "result"
+        },
+        {
+          "constant_index": 19,
+          "value": "active"
+        },
+        {
+          "constant_index": 20,
+          "value": "_doubleLedgerCascade"
+        },
+        {
+          "constant_index": 21,
+          "value": "bad_line"
+        },
+        {
+          "constant_index": 22,
+          "value": "grid"
+        },
+        {
+          "constant_index": 23,
+          "value": "insert"
+        },
+        {
+          "constant_index": 24,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 25,
+          "value": "floor"
+        },
+        {
+          "constant_index": 26,
+          "value": "math"
+        },
+        {
+          "constant_index": 27,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 28,
+          "value": "table"
+        },
+        {
+          "constant_index": 29,
+          "value": "type"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 8,
+          "array": [],
+          "dictionary": [
+            [
+              "phase",
+              "vanish"
+            ],
+            [
+              "active",
+              true
+            ],
+            [
+              "t",
+              0
+            ],
+            [
+              "dropDur",
+              0.54
+            ],
+            [
+              "dropContactRatio",
+              0.76
+            ],
+            [
+              "dropStagger",
+              0.075
+            ],
+            [
+              "dropTravelDur",
+              0.42
+            ],
+            [
+              "vanishDur",
+              0.3
+            ],
+            [
+              "impactDur",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": [
+            [
+              "isNew",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 11,
+          "array": [],
+          "dictionary": [
+            [
+              "isNew",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/11",
+      "argument_count": 1,
+      "instruction_count": 33,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "previousWinningLines"
+        },
+        {
+          "constant_index": 1,
+          "value": "isJackpotResult"
+        },
+        {
+          "constant_index": 2,
+          "value": "_jackpot"
+        },
+        {
+          "constant_index": 3,
+          "value": "symbolsByLine"
+        },
+        {
+          "constant_index": 4,
+          "value": "symbol"
+        },
+        {
+          "constant_index": 5,
+          "value": "winningLines"
+        },
+        {
+          "constant_index": 6,
+          "value": "won"
+        },
+        {
+          "constant_index": 7,
+          "value": "checked"
+        },
+        {
+          "constant_index": 8,
+          "value": "result"
+        },
+        {
+          "constant_index": 9,
+          "value": "grid"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/13",
+      "argument_count": 1,
+      "instruction_count": 122,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "forceCells"
+        },
+        {
+          "constant_index": 1,
+          "value": "forceJokerCell"
+        },
+        {
+          "constant_index": 2,
+          "value": "col"
+        },
+        {
+          "constant_index": 3,
+          "value": "row"
+        },
+        {
+          "constant_index": 4,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 5,
+          "value": "forceJokerCells"
+        },
+        {
+          "constant_index": 6,
+          "value": ":"
+        },
+        {
+          "constant_index": 7,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 8,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 9,
+          "value": "table"
+        },
+        {
+          "constant_index": 10,
+          "value": "type"
+        },
+        {
+          "constant_index": 11,
+          "value": "lockedReels"
+        },
+        {
+          "constant_index": 12,
+          "value": "_coreSpinMods"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/15",
+      "argument_count": 1,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "grid"
+        },
+        {
+          "constant_index": 1,
+          "value": "result"
+        },
+        {
+          "constant_index": 2,
+          "value": "isJackpotResult"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/17",
+      "argument_count": 2,
+      "instruction_count": 4,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/19",
+      "argument_count": 1,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/21",
+      "argument_count": 1,
+      "instruction_count": 48,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "insert"
+        },
+        {
+          "constant_index": 1,
+          "value": "table"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/22",
+      "argument_count": 2,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/47",
+      "argument_count": 5,
+      "instruction_count": 273,
+      "numeric_constants": [
+        0.1,
+        0.52,
+        0.025,
+        0.045,
+        0.28,
+        0.22,
+        0.3,
+        0.08
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "visibleWinningLines"
+        },
+        {
+          "constant_index": 1,
+          "value": "winSeq"
+        },
+        {
+          "constant_index": 2,
+          "value": "fxStarted"
+        },
+        {
+          "constant_index": 3,
+          "value": "highlightActive"
+        },
+        {
+          "constant_index": 4,
+          "value": "awarded"
+        },
+        {
+          "constant_index": 5,
+          "value": "symbol"
+        },
+        {
+          "constant_index": 6,
+          "value": "winningLines"
+        },
+        {
+          "constant_index": 7,
+          "value": "won"
+        },
+        {
+          "constant_index": 8,
+          "value": "checked"
+        },
+        {
+          "constant_index": 9,
+          "value": "t"
+        },
+        {
+          "constant_index": 10,
+          "value": "started"
+        },
+        {
+          "constant_index": 11,
+          "value": "active"
+        },
+        {
+          "constant_index": 12,
+          "value": "spin"
+        },
+        {
+          "constant_index": 13,
+          "value": "allWinningLinesAfterNudge"
+        },
+        {
+          "constant_index": 14,
+          "value": "newWinningLines"
+        },
+        {
+          "constant_index": 15,
+          "value": "result"
+        },
+        {
+          "constant_index": 17,
+          "value": "cellMorph"
+        },
+        {
+          "constant_index": 18,
+          "value": "nudgeWon"
+        },
+        {
+          "constant_index": 19,
+          "value": "paidWinningSymbols"
+        },
+        {
+          "constant_index": 20,
+          "value": "settleDelay"
+        },
+        {
+          "constant_index": 21,
+          "value": "impactDur"
+        },
+        {
+          "constant_index": 22,
+          "value": "slamDur"
+        },
+        {
+          "constant_index": 23,
+          "value": "windupDur"
+        },
+        {
+          "constant_index": 24,
+          "value": "cycleInterval"
+        },
+        {
+          "constant_index": 25,
+          "value": "dur"
+        },
+        {
+          "constant_index": 26,
+          "value": "targetSymbol"
+        },
+        {
+          "constant_index": 27,
+          "value": "col"
+        },
+        {
+          "constant_index": 28,
+          "value": "row"
+        },
+        {
+          "constant_index": 30,
+          "value": "_cellIconMorph"
+        },
+        {
+          "constant_index": 31,
+          "value": "duration"
+        },
+        {
+          "constant_index": 32,
+          "value": "max"
+        },
+        {
+          "constant_index": 33,
+          "value": "math"
+        },
+        {
+          "constant_index": 34,
+          "value": "finalSymbols"
+        },
+        {
+          "constant_index": 35,
+          "value": "reels"
+        },
+        {
+          "constant_index": 36,
+          "value": "grid"
+        },
+        {
+          "constant_index": 37,
+          "value": "cols"
+        },
+        {
+          "constant_index": 38,
+          "value": "rows"
+        },
+        {
+          "constant_index": 39,
+          "value": "slot"
+        },
+        {
+          "constant_index": 40,
+          "value": "ui"
+        },
+        {
+          "constant_index": 41,
+          "value": "tonumber"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 16,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ],
+            [
+              "active",
+              true
+            ],
+            [
+              "phase",
+              "cycle"
+            ]
+          ]
+        },
+        {
+          "constant_index": 29,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ],
+            [
+              "phase",
+              "cycle"
+            ],
+            [
+              "nextCycleT",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/49",
+      "argument_count": 1,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "active"
+        },
+        {
+          "constant_index": 1,
+          "value": "spin"
+        },
+        {
+          "constant_index": 2,
+          "value": "ready"
+        },
+        {
+          "constant_index": 3,
+          "value": "open"
+        },
+        {
+          "constant_index": 4,
+          "value": "_copycapPending"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/51",
+      "argument_count": 2,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_cellIconMorphImpactDelay"
+        },
+        {
+          "constant_index": 1,
+          "value": "_cellIconMorph"
+        },
+        {
+          "constant_index": 2,
+          "value": "_copycapPending"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/53",
+      "argument_count": 1,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "open"
+        },
+        {
+          "constant_index": 1,
+          "value": "_copycapPending"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/55",
+      "argument_count": 5,
+      "instruction_count": 21,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "paidWinningSymbols"
+        },
+        {
+          "constant_index": 1,
+          "value": "result"
+        },
+        {
+          "constant_index": 2,
+          "value": "opts"
+        },
+        {
+          "constant_index": 3,
+          "value": "targetSymbol"
+        },
+        {
+          "constant_index": 4,
+          "value": "col"
+        },
+        {
+          "constant_index": 5,
+          "value": "row"
+        },
+        {
+          "constant_index": 7,
+          "value": "_copycapPending"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": [
+            [
+              "open",
+              true
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/57",
+      "argument_count": 3,
+      "instruction_count": 186,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_completedCoreRespinPhase"
+        },
+        {
+          "constant_index": 1,
+          "value": "_completedCoreRespinKey"
+        },
+        {
+          "constant_index": 2,
+          "value": "twistedBellReroll"
+        },
+        {
+          "constant_index": 3,
+          "value": "_twistedBellRerolled"
+        },
+        {
+          "constant_index": 4,
+          "value": "visibleWinningLines"
+        },
+        {
+          "constant_index": 5,
+          "value": "winSeq"
+        },
+        {
+          "constant_index": 6,
+          "value": "fxStarted"
+        },
+        {
+          "constant_index": 7,
+          "value": "highlightActive"
+        },
+        {
+          "constant_index": 8,
+          "value": "awarded"
+        },
+        {
+          "constant_index": 9,
+          "value": "symbol"
+        },
+        {
+          "constant_index": 10,
+          "value": "winningLines"
+        },
+        {
+          "constant_index": 11,
+          "value": "won"
+        },
+        {
+          "constant_index": 12,
+          "value": "checked"
+        },
+        {
+          "constant_index": 13,
+          "value": "result"
+        },
+        {
+          "constant_index": 14,
+          "value": "t"
+        },
+        {
+          "constant_index": 15,
+          "value": "started"
+        },
+        {
+          "constant_index": 16,
+          "value": "active"
+        },
+        {
+          "constant_index": 17,
+          "value": "spin"
+        },
+        {
+          "constant_index": 18,
+          "value": "_skipPostEvaluateHookOnce"
+        },
+        {
+          "constant_index": 19,
+          "value": "coreRespinPhase"
+        },
+        {
+          "constant_index": 20,
+          "value": "coreKey"
+        },
+        {
+          "constant_index": 21,
+          "value": "allowPostEvaluateChain"
+        },
+        {
+          "constant_index": 22,
+          "value": "newWinsOnly"
+        },
+        {
+          "constant_index": 23,
+          "value": "delay"
+        },
+        {
+          "constant_index": 24,
+          "value": "max"
+        },
+        {
+          "constant_index": 25,
+          "value": "math"
+        },
+        {
+          "constant_index": 26,
+          "value": "reels"
+        },
+        {
+          "constant_index": 28,
+          "value": "_singleReelRespin"
+        },
+        {
+          "constant_index": 29,
+          "value": "timing"
+        },
+        {
+          "constant_index": 31,
+          "value": "insert"
+        },
+        {
+          "constant_index": 32,
+          "value": "targetFinalSymbols"
+        },
+        {
+          "constant_index": 33,
+          "value": "col"
+        },
+        {
+          "constant_index": 34,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 35,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 36,
+          "value": "cols"
+        },
+        {
+          "constant_index": 37,
+          "value": "slot"
+        },
+        {
+          "constant_index": 38,
+          "value": "ui"
+        },
+        {
+          "constant_index": 39,
+          "value": "table"
+        },
+        {
+          "constant_index": 40,
+          "value": "type"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 27,
+          "array": [],
+          "dictionary": [
+            [
+              "started",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 30,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/59",
+      "argument_count": 2,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_luckyNail"
+        },
+        {
+          "constant_index": 1,
+          "value": "selectLuckyNailCandidate"
+        },
+        {
+          "constant_index": 2,
+          "value": "random"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "beginLuckyNailChoice"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/61",
+      "argument_count": 1,
+      "instruction_count": 36,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "cruise"
+        },
+        {
+          "constant_index": 1,
+          "value": "accelerate"
+        },
+        {
+          "constant_index": 2,
+          "value": "state"
+        },
+        {
+          "constant_index": 3,
+          "value": "manualStopRequested"
+        },
+        {
+          "constant_index": 4,
+          "value": "manualStop"
+        },
+        {
+          "constant_index": 5,
+          "value": "col"
+        },
+        {
+          "constant_index": 6,
+          "value": "reels"
+        },
+        {
+          "constant_index": 7,
+          "value": "stopQueued"
+        },
+        {
+          "constant_index": 8,
+          "value": "stopping"
+        },
+        {
+          "constant_index": 9,
+          "value": "spinning"
+        },
+        {
+          "constant_index": 10,
+          "value": "phase"
+        },
+        {
+          "constant_index": 11,
+          "value": "active"
+        },
+        {
+          "constant_index": 12,
+          "value": "_luckyNail"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/63",
+      "argument_count": 2,
+      "instruction_count": 102,
+      "numeric_constants": [
+        4503599627370499.0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_luckyNailRespin"
+        },
+        {
+          "constant_index": 1,
+          "value": "result"
+        },
+        {
+          "constant_index": 2,
+          "value": "timing"
+        },
+        {
+          "constant_index": 3,
+          "value": "stopAt"
+        },
+        {
+          "constant_index": 4,
+          "value": "huge"
+        },
+        {
+          "constant_index": 7,
+          "value": "startSingleReelRespin"
+        },
+        {
+          "constant_index": 8,
+          "value": "col"
+        },
+        {
+          "constant_index": 9,
+          "value": "selected"
+        },
+        {
+          "constant_index": 10,
+          "value": "spinning"
+        },
+        {
+          "constant_index": 11,
+          "value": "jokerChance"
+        },
+        {
+          "constant_index": 12,
+          "value": "_coreSpinMods"
+        },
+        {
+          "constant_index": 13,
+          "value": "cols"
+        },
+        {
+          "constant_index": 14,
+          "value": "slot"
+        },
+        {
+          "constant_index": 15,
+          "value": "ui"
+        },
+        {
+          "constant_index": 16,
+          "value": "rerollCol"
+        },
+        {
+          "constant_index": 17,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 18,
+          "value": "floor"
+        },
+        {
+          "constant_index": 19,
+          "value": "math"
+        },
+        {
+          "constant_index": 20,
+          "value": "choose"
+        },
+        {
+          "constant_index": 21,
+          "value": "phase"
+        },
+        {
+          "constant_index": 22,
+          "value": "active"
+        },
+        {
+          "constant_index": 23,
+          "value": "_luckyNail"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": [
+            [
+              "accelTime",
+              0.09
+            ],
+            [
+              "settleTime",
+              0.03
+            ],
+            [
+              "impactAmp",
+              0.34
+            ],
+            [
+              "manualStop",
+              true
+            ],
+            [
+              "vmax",
+              8
+            ],
+            [
+              "decelTime",
+              0.01
+            ],
+            [
+              "impactDur",
+              0.3
+            ]
+          ]
+        },
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": [
+            [
+              "coreKey",
+              "LuckyNail"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/65",
+      "argument_count": 2,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "candidates"
+        },
+        {
+          "constant_index": 2,
+          "value": "_luckyNail"
+        },
+        {
+          "constant_index": 3,
+          "value": "active"
+        },
+        {
+          "constant_index": 4,
+          "value": "spin"
+        },
+        {
+          "constant_index": 5,
+          "value": "table"
+        },
+        {
+          "constant_index": 6,
+          "value": "type"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [],
+          "dictionary": [
+            [
+              "stopQueued",
+              false
+            ],
+            [
+              "active",
+              true
+            ],
+            [
+              "phase",
+              "choose"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/67",
+      "argument_count": 4,
+      "instruction_count": 131,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "twistedBellReroll"
+        },
+        {
+          "constant_index": 1,
+          "value": "_twistedBellRerolled"
+        },
+        {
+          "constant_index": 2,
+          "value": "visibleWinningLines"
+        },
+        {
+          "constant_index": 3,
+          "value": "winSeq"
+        },
+        {
+          "constant_index": 4,
+          "value": "fxStarted"
+        },
+        {
+          "constant_index": 5,
+          "value": "highlightActive"
+        },
+        {
+          "constant_index": 6,
+          "value": "awarded"
+        },
+        {
+          "constant_index": 7,
+          "value": "symbol"
+        },
+        {
+          "constant_index": 8,
+          "value": "winningLines"
+        },
+        {
+          "constant_index": 9,
+          "value": "won"
+        },
+        {
+          "constant_index": 10,
+          "value": "checked"
+        },
+        {
+          "constant_index": 11,
+          "value": "result"
+        },
+        {
+          "constant_index": 12,
+          "value": "t"
+        },
+        {
+          "constant_index": 13,
+          "value": "started"
+        },
+        {
+          "constant_index": 14,
+          "value": "active"
+        },
+        {
+          "constant_index": 15,
+          "value": "spin"
+        },
+        {
+          "constant_index": 16,
+          "value": "_skipPostEvaluateHookOnce"
+        },
+        {
+          "constant_index": 17,
+          "value": "coreRespinPhase"
+        },
+        {
+          "constant_index": 18,
+          "value": "coreKey"
+        },
+        {
+          "constant_index": 19,
+          "value": "allowPostEvaluateChain"
+        },
+        {
+          "constant_index": 20,
+          "value": "timing"
+        },
+        {
+          "constant_index": 21,
+          "value": "delay"
+        },
+        {
+          "constant_index": 22,
+          "value": "max"
+        },
+        {
+          "constant_index": 23,
+          "value": "math"
+        },
+        {
+          "constant_index": 24,
+          "value": "targetFinalSymbols"
+        },
+        {
+          "constant_index": 25,
+          "value": "col"
+        },
+        {
+          "constant_index": 27,
+          "value": "_singleReelRespin"
+        },
+        {
+          "constant_index": 28,
+          "value": "cols"
+        },
+        {
+          "constant_index": 29,
+          "value": "slot"
+        },
+        {
+          "constant_index": 30,
+          "value": "ui"
+        },
+        {
+          "constant_index": 31,
+          "value": "tonumber"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 26,
+          "array": [],
+          "dictionary": [
+            [
+              "started",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/69/40",
+      "argument_count": 1,
+      "instruction_count": 6,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/69",
+      "argument_count": 4,
+      "instruction_count": 265,
+      "numeric_constants": [
+        0.05,
+        1,
+        0.1,
+        0.22,
+        0.18,
+        0.34,
+        1.35,
+        0.5,
+        0.2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hit"
+        },
+        {
+          "constant_index": 1,
+          "value": "amp"
+        },
+        {
+          "constant_index": 2,
+          "value": "impactAmp"
+        },
+        {
+          "constant_index": 3,
+          "value": "dur"
+        },
+        {
+          "constant_index": 4,
+          "value": "impactDur"
+        },
+        {
+          "constant_index": 6,
+          "value": "onImpact"
+        },
+        {
+          "constant_index": 7,
+          "value": "stopSfxVolumeMul"
+        },
+        {
+          "constant_index": 8,
+          "value": "stopSfxPitch"
+        },
+        {
+          "constant_index": 9,
+          "value": "stopSfx"
+        },
+        {
+          "constant_index": 10,
+          "value": "spinSpark"
+        },
+        {
+          "constant_index": 11,
+          "value": "color"
+        },
+        {
+          "constant_index": 13,
+          "value": "sparkColor"
+        },
+        {
+          "constant_index": 14,
+          "value": "intensity"
+        },
+        {
+          "constant_index": 15,
+          "value": "sparkIntensity"
+        },
+        {
+          "constant_index": 16,
+          "value": "count"
+        },
+        {
+          "constant_index": 17,
+          "value": "sparkCount"
+        },
+        {
+          "constant_index": 18,
+          "value": "phase"
+        },
+        {
+          "constant_index": 19,
+          "value": "sparkPhase"
+        },
+        {
+          "constant_index": 21,
+          "value": "sparkWhileSpinning"
+        },
+        {
+          "constant_index": 22,
+          "value": "manualStop"
+        },
+        {
+          "constant_index": 23,
+          "value": "hardStop"
+        },
+        {
+          "constant_index": 24,
+          "value": "targetFinalSymbols"
+        },
+        {
+          "constant_index": 25,
+          "value": "stopAt"
+        },
+        {
+          "constant_index": 26,
+          "value": "sequenceLen"
+        },
+        {
+          "constant_index": 27,
+          "value": "sequence"
+        },
+        {
+          "constant_index": 28,
+          "value": "stripStart"
+        },
+        {
+          "constant_index": 29,
+          "value": "stripLen"
+        },
+        {
+          "constant_index": 30,
+          "value": "strip"
+        },
+        {
+          "constant_index": 31,
+          "value": "settleTime"
+        },
+        {
+          "constant_index": 32,
+          "value": "decelTime"
+        },
+        {
+          "constant_index": 33,
+          "value": "accelTime"
+        },
+        {
+          "constant_index": 34,
+          "value": "vmax"
+        },
+        {
+          "constant_index": 36,
+          "value": "reels"
+        },
+        {
+          "constant_index": 37,
+          "value": "random"
+        },
+        {
+          "constant_index": 38,
+          "value": "love"
+        },
+        {
+          "constant_index": 39,
+          "value": "grid"
+        },
+        {
+          "constant_index": 41,
+          "value": "reelStripLen"
+        },
+        {
+          "constant_index": 42,
+          "value": "reelStripPos"
+        },
+        {
+          "constant_index": 43,
+          "value": "reelStrips"
+        },
+        {
+          "constant_index": 44,
+          "value": "min"
+        },
+        {
+          "constant_index": 45,
+          "value": "max"
+        },
+        {
+          "constant_index": 46,
+          "value": "math"
+        },
+        {
+          "constant_index": 47,
+          "value": "jokerChance"
+        },
+        {
+          "constant_index": 48,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 49,
+          "value": "_coreSpinMods"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": [
+            [
+              "squashX",
+              1
+            ],
+            [
+              "offset",
+              0
+            ],
+            [
+              "active",
+              false
+            ],
+            [
+              "t",
+              0
+            ],
+            [
+              "squashY",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 12,
+          "array": [
+            null,
+            1,
+            0.62,
+            0.08
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 20,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 35,
+          "array": [],
+          "dictionary": [
+            [
+              "manualStopRequested",
+              false
+            ],
+            [
+              "state",
+              "accelerate"
+            ],
+            [
+              "t",
+              0
+            ],
+            [
+              "decelAcc",
+              0
+            ],
+            [
+              "speed",
+              0
+            ],
+            [
+              "pos",
+              0
+            ],
+            [
+              "spinning",
+              true
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/70/23",
+      "argument_count": 1,
+      "instruction_count": 6,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/70",
+      "argument_count": 1,
+      "instruction_count": 801,
+      "numeric_constants": [
+        0.05,
+        0,
+        1,
+        0.3,
+        0.6
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "spinning"
+        },
+        {
+          "constant_index": 1,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 2,
+          "value": "function"
+        },
+        {
+          "constant_index": 3,
+          "value": "onPreRevealOutcome"
+        },
+        {
+          "constant_index": 4,
+          "value": "_preRevealOutcomeMeta"
+        },
+        {
+          "constant_index": 5,
+          "value": "rows"
+        },
+        {
+          "constant_index": 7,
+          "value": "banStampMarkedSequence"
+        },
+        {
+          "constant_index": 8,
+          "value": "stopAt"
+        },
+        {
+          "constant_index": 9,
+          "value": "stopTimes"
+        },
+        {
+          "constant_index": 10,
+          "value": "sequenceLen"
+        },
+        {
+          "constant_index": 11,
+          "value": "sequence"
+        },
+        {
+          "constant_index": 13,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 14,
+          "value": "hit"
+        },
+        {
+          "constant_index": 16,
+          "value": "targetFinalSymbols"
+        },
+        {
+          "constant_index": 17,
+          "value": "finalSymbols"
+        },
+        {
+          "constant_index": 18,
+          "value": "stopIndex"
+        },
+        {
+          "constant_index": 19,
+          "value": "stripStart"
+        },
+        {
+          "constant_index": 20,
+          "value": "stripLen"
+        },
+        {
+          "constant_index": 21,
+          "value": "strip"
+        },
+        {
+          "constant_index": 24,
+          "value": "reelStripLen"
+        },
+        {
+          "constant_index": 25,
+          "value": "reelStripPos"
+        },
+        {
+          "constant_index": 26,
+          "value": "reelStrips"
+        },
+        {
+          "constant_index": 27,
+          "value": "reels"
+        },
+        {
+          "constant_index": 28,
+          "value": "pendingGrid"
+        },
+        {
+          "constant_index": 29,
+          "value": "random"
+        },
+        {
+          "constant_index": 30,
+          "value": "love"
+        },
+        {
+          "constant_index": 32,
+          "value": ":"
+        },
+        {
+          "constant_index": 33,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 34,
+          "value": "cols"
+        },
+        {
+          "constant_index": 35,
+          "value": "slot"
+        },
+        {
+          "constant_index": 36,
+          "value": "bannedSymbol"
+        },
+        {
+          "constant_index": 37,
+          "value": "lockedReels"
+        },
+        {
+          "constant_index": 38,
+          "value": "symbol"
+        },
+        {
+          "constant_index": 39,
+          "value": "forceCells"
+        },
+        {
+          "constant_index": 41,
+          "value": "forceJokerCell"
+        },
+        {
+          "constant_index": 43,
+          "value": "insert"
+        },
+        {
+          "constant_index": 44,
+          "value": "col"
+        },
+        {
+          "constant_index": 45,
+          "value": "row"
+        },
+        {
+          "constant_index": 46,
+          "value": "floor"
+        },
+        {
+          "constant_index": 47,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 48,
+          "value": "table"
+        },
+        {
+          "constant_index": 49,
+          "value": "type"
+        },
+        {
+          "constant_index": 50,
+          "value": "forceJokerCells"
+        },
+        {
+          "constant_index": 51,
+          "value": "min"
+        },
+        {
+          "constant_index": 52,
+          "value": "max"
+        },
+        {
+          "constant_index": 53,
+          "value": "math"
+        },
+        {
+          "constant_index": 54,
+          "value": "jokerChance"
+        },
+        {
+          "constant_index": 55,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 56,
+          "value": "_coreSpinMods"
+        },
+        {
+          "constant_index": 57,
+          "value": "buildResultGrid"
+        },
+        {
+          "constant_index": 58,
+          "value": "grid"
+        },
+        {
+          "constant_index": 59,
+          "value": "stonePack"
+        },
+        {
+          "constant_index": 60,
+          "value": "stonePackOnce"
+        },
+        {
+          "constant_index": 62,
+          "value": "result"
+        },
+        {
+          "constant_index": 63,
+          "value": "_spinInitiatedNearBattleStart"
+        },
+        {
+          "constant_index": 64,
+          "value": "dur"
+        },
+        {
+          "constant_index": 65,
+          "value": "countdown"
+        },
+        {
+          "constant_index": 66,
+          "value": "fading"
+        },
+        {
+          "constant_index": 67,
+          "value": "state"
+        },
+        {
+          "constant_index": 68,
+          "value": "_G"
+        },
+        {
+          "constant_index": 69,
+          "value": "waveTimer"
+        },
+        {
+          "constant_index": 70,
+          "value": "battlefield"
+        },
+        {
+          "constant_index": 71,
+          "value": "ui"
+        },
+        {
+          "constant_index": 72,
+          "value": "t"
+        },
+        {
+          "constant_index": 73,
+          "value": "started"
+        },
+        {
+          "constant_index": 74,
+          "value": "_resonoscopeNudgePreview"
+        },
+        {
+          "constant_index": 75,
+          "value": "_luckyNail"
+        },
+        {
+          "constant_index": 76,
+          "value": "_doubleLedgerCascade"
+        },
+        {
+          "constant_index": 77,
+          "value": "_copycapPending"
+        },
+        {
+          "constant_index": 78,
+          "value": "active"
+        },
+        {
+          "constant_index": 79,
+          "value": "spin"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 6,
+          "array": [],
+          "dictionary": [
+            [
+              "squashX",
+              1
+            ],
+            [
+              "dur",
+              0.5
+            ],
+            [
+              "amp",
+              0.2
+            ],
+            [
+              "offset",
+              0
+            ],
+            [
+              "active",
+              false
+            ],
+            [
+              "t",
+              0
+            ],
+            [
+              "squashY",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 12,
+          "array": [],
+          "dictionary": [
+            [
+              "settleTime",
+              0.2
+            ],
+            [
+              "decelTime",
+              0.25
+            ],
+            [
+              "accelTime",
+              0.15
+            ],
+            [
+              "state",
+              "accelerate"
+            ],
+            [
+              "t",
+              0
+            ],
+            [
+              "vmax",
+              18
+            ],
+            [
+              "decelAcc",
+              0
+            ],
+            [
+              "speed",
+              0
+            ],
+            [
+              "pos",
+              0
+            ],
+            [
+              "spinning",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 15,
+          "array": [],
+          "dictionary": [
+            [
+              "squashX",
+              1
+            ],
+            [
+              "dur",
+              0.5
+            ],
+            [
+              "amp",
+              0.2
+            ],
+            [
+              "offset",
+              0
+            ],
+            [
+              "active",
+              false
+            ],
+            [
+              "t",
+              0
+            ],
+            [
+              "squashY",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 22,
+          "array": [],
+          "dictionary": [
+            [
+              "stopAt",
+              0
+            ],
+            [
+              "targetShift",
+              0
+            ],
+            [
+              "settleTime",
+              0
+            ],
+            [
+              "decelTime",
+              0
+            ],
+            [
+              "accelTime",
+              0
+            ],
+            [
+              "state",
+              "stopped"
+            ],
+            [
+              "t",
+              0
+            ],
+            [
+              "vmax",
+              0
+            ],
+            [
+              "decelAcc",
+              0
+            ],
+            [
+              "speed",
+              0
+            ],
+            [
+              "pos",
+              0
+            ],
+            [
+              "spinning",
+              false
+            ],
+            [
+              "sequenceLen",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 31,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 40,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 42,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 61,
+          "array": [],
+          "dictionary": [
+            [
+              "won",
+              false
+            ],
+            [
+              "checked",
+              false
+            ],
+            [
+              "fxStarted",
+              false
+            ],
+            [
+              "hd",
+              0.35
+            ],
+            [
+              "ht",
+              0
+            ],
+            [
+              "highlightActive",
+              false
+            ],
+            [
+              "awarded",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/72",
+      "argument_count": 1,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_copycapPending"
+        },
+        {
+          "constant_index": 1,
+          "value": "_luckyNail"
+        },
+        {
+          "constant_index": 2,
+          "value": "_doubleLedgerCascadePending"
+        },
+        {
+          "constant_index": 3,
+          "value": "_doubleLedgerCascade"
+        },
+        {
+          "constant_index": 4,
+          "value": "_resonoscopeNudgePreview"
+        },
+        {
+          "constant_index": 5,
+          "value": "pendingGrid"
+        },
+        {
+          "constant_index": 6,
+          "value": "buildResultGrid"
+        },
+        {
+          "constant_index": 7,
+          "value": "grid"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/74/29/0",
+      "argument_count": 1,
+      "instruction_count": 18,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/74/29/1",
+      "argument_count": 1,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "random"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/74/29",
+      "argument_count": 1,
+      "instruction_count": 630,
+      "numeric_constants": [
+        0,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 3,
+          "value": "J"
+        },
+        {
+          "constant_index": 4,
+          "value": "sandboxNextWinSymbol"
+        },
+        {
+          "constant_index": 5,
+          "value": "random"
+        },
+        {
+          "constant_index": 6,
+          "value": "love"
+        },
+        {
+          "constant_index": 7,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 32,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 33,
+          "value": "floor"
+        },
+        {
+          "constant_index": 34,
+          "value": "min"
+        },
+        {
+          "constant_index": 35,
+          "value": "max"
+        },
+        {
+          "constant_index": 36,
+          "value": "math"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 9,
+          "array": [
+            null,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 10,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 11,
+          "array": [
+            null,
+            3,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 12,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 13,
+          "array": [
+            null,
+            1,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 14,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 15,
+          "array": [
+            null,
+            2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 16,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 17,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 18,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 19,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 20,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 21,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 22,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 23,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 24,
+          "array": [
+            null,
+            3,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 25,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 26,
+          "array": [
+            null,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 27,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 28,
+          "array": [
+            null,
+            2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 29,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 30,
+          "array": [
+            null,
+            1,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 31,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/74/30",
+      "argument_count": 1,
+      "instruction_count": 100,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ipairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            3,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 5,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            1,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 9,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 10,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 11,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 12,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 13,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 14,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 15,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 16,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 17,
+          "array": [
+            null,
+            3,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 18,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 19,
+          "array": [
+            null,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 20,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 21,
+          "array": [
+            null,
+            2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 22,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 23,
+          "array": [
+            null,
+            1,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 24,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/0/74/31",
+      "argument_count": 0,
+      "instruction_count": 13,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "rows"
+        },
+        {
+          "constant_index": 1,
+          "value": "slot"
+        },
+        {
+          "constant_index": 2,
+          "value": "ui"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/0/74",
+      "argument_count": 1,
+      "instruction_count": 247,
+      "numeric_constants": [
+        0.05,
+        1,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 16,
+          "value": "cols"
+        },
+        {
+          "constant_index": 17,
+          "value": "rows"
+        },
+        {
+          "constant_index": 18,
+          "value": "slot"
+        },
+        {
+          "constant_index": 19,
+          "value": "ui"
+        },
+        {
+          "constant_index": 20,
+          "value": "sandboxNextWinLines"
+        },
+        {
+          "constant_index": 21,
+          "value": "random"
+        },
+        {
+          "constant_index": 22,
+          "value": "love"
+        },
+        {
+          "constant_index": 24,
+          "value": "forceWinOnce"
+        },
+        {
+          "constant_index": 25,
+          "value": "floor"
+        },
+        {
+          "constant_index": 26,
+          "value": "number"
+        },
+        {
+          "constant_index": 27,
+          "value": "stoneWinLinesOnce"
+        },
+        {
+          "constant_index": 28,
+          "value": "type"
+        },
+        {
+          "constant_index": 32,
+          "value": "min"
+        },
+        {
+          "constant_index": 33,
+          "value": "max"
+        },
+        {
+          "constant_index": 34,
+          "value": "math"
+        },
+        {
+          "constant_index": 35,
+          "value": "jokerChance"
+        },
+        {
+          "constant_index": 36,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 37,
+          "value": "_coreSpinMods"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 2,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 3,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 5,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            3,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 9,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 10,
+          "array": [
+            null,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 11,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 12,
+          "array": [
+            null,
+            2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 13,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 14,
+          "array": [
+            null,
+            1,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 15,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 23,
+          "array": [
+            null,
+            1,
+            2,
+            3
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/0",
+      "argument_count": 1,
+      "instruction_count": 130,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "update"
+        },
+        {
+          "constant_index": 8,
+          "value": "nudgeColumn"
+        },
+        {
+          "constant_index": 10,
+          "value": "startDoubleLedgerCascade"
+        },
+        {
+          "constant_index": 12,
+          "value": "evaluateWin"
+        },
+        {
+          "constant_index": 14,
+          "value": "getProtectedSpinCells"
+        },
+        {
+          "constant_index": 16,
+          "value": "hasJackpotResult"
+        },
+        {
+          "constant_index": 18,
+          "value": "evaluateGrid"
+        },
+        {
+          "constant_index": 20,
+          "value": "getWinningLinesDefinition"
+        },
+        {
+          "constant_index": 48,
+          "value": "startCellIconMorph"
+        },
+        {
+          "constant_index": 50,
+          "value": "releaseCopycapMorph"
+        },
+        {
+          "constant_index": 52,
+          "value": "getNudgeSpinIndex"
+        },
+        {
+          "constant_index": 54,
+          "value": "canNudgeBeforeCopycap"
+        },
+        {
+          "constant_index": 56,
+          "value": "prepareCopycapMorph"
+        },
+        {
+          "constant_index": 58,
+          "value": "startMultiReelRespin"
+        },
+        {
+          "constant_index": 60,
+          "value": "beginLuckyNailAuto"
+        },
+        {
+          "constant_index": 62,
+          "value": "requestLuckyNailStop"
+        },
+        {
+          "constant_index": 64,
+          "value": "selectLuckyNailCandidate"
+        },
+        {
+          "constant_index": 66,
+          "value": "beginLuckyNailChoice"
+        },
+        {
+          "constant_index": 68,
+          "value": "startSingleReelRespin"
+        },
+        {
+          "constant_index": 71,
+          "value": "startSpin"
+        },
+        {
+          "constant_index": 73,
+          "value": "initGrid"
+        },
+        {
+          "constant_index": 75,
+          "value": "buildResultGrid"
+        },
+        {
+          "constant_index": 76,
+          "value": "result"
+        },
+        {
+          "constant_index": 78,
+          "value": "stopTimes"
+        },
+        {
+          "constant_index": 80,
+          "value": "reels"
+        },
+        {
+          "constant_index": 81,
+          "value": "spin"
+        },
+        {
+          "constant_index": 83,
+          "value": "ui"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 23,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 24,
+          "array": [
+            null,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 25,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 26,
+          "array": [
+            null,
+            3,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 27,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 28,
+          "array": [
+            null,
+            1,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 29,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 30,
+          "array": [
+            null,
+            2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 31,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 32,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 33,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 34,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 35,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 36,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 37,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 38,
+          "array": [
+            null,
+            3,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 39,
+          "array": [
+            null,
+            3,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 40,
+          "array": [
+            null,
+            3,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 41,
+          "array": [
+            null,
+            2,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 42,
+          "array": [
+            null,
+            2,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 43,
+          "array": [
+            null,
+            2,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 44,
+          "array": [
+            null,
+            1,
+            3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 45,
+          "array": [
+            null,
+            1,
+            2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 46,
+          "array": [
+            null,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 77,
+          "array": [],
+          "dictionary": [
+            [
+              "won",
+              false
+            ],
+            [
+              "checked",
+              false
+            ],
+            [
+              "fxStarted",
+              false
+            ],
+            [
+              "hd",
+              0.35
+            ],
+            [
+              "ht",
+              0
+            ],
+            [
+              "highlightActive",
+              false
+            ],
+            [
+              "awarded",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 79,
+          "array": [
+            null,
+            0.6,
+            0.9,
+            1.2
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 82,
+          "array": [],
+          "dictionary": [
+            [
+              "active",
+              false
+            ],
+            [
+              "t",
+              0
+            ],
+            [
+              "started",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 84,
+          "array": [],
+          "dictionary": [
+            [
+              "forceWinOnce",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 1,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/3",
+      "argument_count": 3,
+      "instruction_count": 48,
+      "numeric_constants": [
+        1,
+        3
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "J"
+        },
+        {
+          "constant_index": 1,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "Blank"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 1,
+      "instruction_count": 31,
+      "numeric_constants": [
+        0.05
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "random"
+        },
+        {
+          "constant_index": 1,
+          "value": "love"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "min"
+        },
+        {
+          "constant_index": 4,
+          "value": "max"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/5",
+      "argument_count": 0,
+      "instruction_count": 79,
+      "numeric_constants": [
+        1e-12,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "random"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "w"
+        },
+        {
+          "constant_index": 4,
+          "value": "key"
+        },
+        {
+          "constant_index": 6,
+          "value": "insert"
+        },
+        {
+          "constant_index": 7,
+          "value": "table"
+        },
+        {
+          "constant_index": 8,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 9,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 10,
+          "value": "symbolWeights"
+        },
+        {
+          "constant_index": 11,
+          "value": "slot"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 0,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "forceWinProb"
+        },
+        {
+          "constant_index": 1,
+          "value": "slot"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/7",
+      "argument_count": 2,
+      "instruction_count": 52,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "winningLines"
+        },
+        {
+          "constant_index": 1,
+          "value": "allWinningLinesAfterCascade"
+        },
+        {
+          "constant_index": 2,
+          "value": "allWinningLinesAfterNudge"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "_jackpot"
+        },
+        {
+          "constant_index": 5,
+          "value": "checked"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 21,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "new"
+        },
+        {
+          "constant_index": 8,
+          "value": "isJackpotResult"
+        },
+        {
+          "constant_index": 9,
+          "value": "Joker"
+        },
+        {
+          "constant_index": 11,
+          "value": "src.game.quest"
+        },
+        {
+          "constant_index": 12,
+          "value": "src.data.constants"
+        },
+        {
+          "constant_index": 13,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 10,
+          "array": [
+            null,
+            "W",
+            "A",
+            "S",
+            "M",
+            "H",
+            "D"
+          ],
+          "dictionary": []
+        }
+      ]
+    }
+  ]
+}
