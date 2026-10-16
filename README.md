@@ -8,6 +8,12 @@
 
 分析日期：2026-10-15（北京时间）。
 
+## 可复用 Skill
+
+本次方法已整理为 [luajit-game-recovery](skills/luajit-game-recovery/SKILL.md)，包含通用分析流程、Slotbound 固定版本适配、反编译与数值/资源导出命令、验证边界及只读预检脚本。完整重放需本仓库 `tools/` 和原游戏运行库，不是通用一键破解器。
+
+本仓库只提供 Skill 文件，未自动安装到 Codex。需要安装时，由用户授权后将 `skills/luajit-game-recovery` 整个目录交给 Skill 安装工具处理；安装完成后可调用 `$luajit-game-recovery`。仅阅读流程和运行只读预检不需要安装 Skill。
+
 ## 结果
 
 资源包已完整解出，55 份脚本均已恢复为可读 Lua 并通过语法编译检查。已经对照部分数值和纯逻辑，尚未制作或验证可玩的 Mod。先看 [Mod 参考入口](MOD_REFERENCE.md)。
