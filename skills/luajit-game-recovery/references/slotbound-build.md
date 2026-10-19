@@ -18,8 +18,8 @@
 | 资源 | 1,215 PNG、64 音频、11 语言 JSON |
 
 游戏路径：`E:\SteamLibrary\steamapps\common\Slotbound Demo`。
-本次项目：`E:\新建文件夹\Codex-GPT\games\Slotbound-Mod`。
-换电脑后以实际项目根目录为准，不把本机绝对路径写成通用默认值。
+本机案例：`E:\新建文件夹\Codex-GPT\games\Slotbound-Mod\cases\slotbound-demo`。
+仓库现名为 `REA-Skill`，原名 `ReverseGmae-Slotbound`。下文所有 `tools/`、`analysis/` 等相对路径与重放命令，均以 `cases/slotbound-demo` 为根目录；先进入该案例目录再执行。历史报告中的旧绝对路径保留为采集时证据。
 
 最终证据是 `analysis/recovered-source-quality.json`、`analysis/recovered-comparison.json` 和 `analysis/delivery-summary.json`。语言模块因依赖 `io` 未在受限 VM 中求值；其 JSON 直接提取。全部技能、整局可玩、存档兼容、Mod 加载仍未验证。
 
@@ -40,7 +40,7 @@
 
 ## 重放顺序
 
-以下命令都从完整仓库根目录执行。它们是按需阶段，不是应在已有结果目录直接粘贴执行的一键脚本。
+以下命令都从 `cases/slotbound-demo` 案例根目录执行。它们是按需阶段，不是应在已有结果目录直接粘贴执行的一键脚本。
 
 **先检查已有输出。** `extract_package.py`、导出器、整理器和报告脚本会写入/覆盖文件；`unpack_content.py` 拒绝覆盖已有目标。重放应在单独的完整仓库工作副本中，先选择新的输出或经用户批准备份已有产物。多数后续工具用自身位置推导固定项目根路径，不能通过切换 cwd 把输出重定向。
 
@@ -64,7 +64,7 @@ python tools/run_v2.py
 
 该脚本在缺少工具时会联网下载、验哈希并执行，需相应授权。它只处理 `extracted/game-files` 中的 **54 个** `.lua` 字节码。`analysis/v2-run.json` 的 54 不包含启动脚本。
 
-启动脚本需单独输入固定版 v2；从仓库根目录可按该工具的单文件接口操作：
+启动脚本需单独输入固定版 v2；从案例根目录可按该工具的单文件接口操作：
 
 ```powershell
 Push-Location tools/v2

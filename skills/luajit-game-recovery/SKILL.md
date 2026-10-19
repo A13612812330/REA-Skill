@@ -13,12 +13,12 @@ description: luajit-game-recovery 旧名称兼容入口。用户明确调用旧�
 
 - 新游戏或不同版本：先读 [通用流程](references/workflow.md)，识别格式后再选工具。
 - 重放本仓库 Slotbound Demo：先读 [样本适配与命令](references/slotbound-build.md)。其中的哈希、布局、路径和 AST 修正规则仅属于该样本。
-- 只查看已有结果：读取项目的 `MOD_REFERENCE.md`、`analysis/delivery-summary.json`、`analysis/recovered-source-quality.json` 和 `analysis/recovered-comparison.json`，不要重复提取。
+- 只查看已有结果：以 REA-Skill 仓库的 `cases/slotbound-demo` 为案例根目录，读取其中的 `MOD_REFERENCE.md`、`analysis/delivery-summary.json`、`analysis/recovered-source-quality.json` 和 `analysis/recovered-comparison.json`，不要重复提取。
 - 检查本仓库材料与样本匹配情况：执行本 Skill 的只读脚本：
 
 ```powershell
-python "<skill目录>/scripts/preflight.py" --project "<完整仓库根目录>"
-python "<skill目录>/scripts/preflight.py" --project "<完整仓库根目录>" --exe "<已授权的Slotbound.exe>"
+python "<skill目录>/scripts/preflight.py" --project "<REA-Skill仓库>/cases/slotbound-demo"
+python "<skill目录>/scripts/preflight.py" --project "<REA-Skill仓库>/cases/slotbound-demo" --exe "<已授权的Slotbound.exe>"
 ```
 
 预检仅用 Python 标准库，不安装依赖、不加载 DLL、不执行游戏或反编译器、不写文件。退出码 0 表示检查项通过，1 表示缺失/不匹配，2 表示参数错误。它读取历史报告，并非重新编译或行为验证；不传 `--exe` 时没有核对原游戏版本。
@@ -45,4 +45,4 @@ python "<skill目录>/scripts/preflight.py" --project "<完整仓库根目录>" 
 - 行为对照：具体函数、输入用例和差异；不要外推至未测试函数。
 - 实际可玩：只有独立运行副本的启动、交互、技能及存档等实测才可确认。
 
-本 Skill 的通用流程可以独立阅读；重放 Slotbound 专用步骤依赖完整 `ReverseGmae-Slotbound` 仓库的 `tools/`，仅复制 Skill 文件夹不会附带这些工具、游戏运行库或美术资源。
+本 Skill 的通用流程可以独立阅读；重放 Slotbound 专用步骤依赖完整 `REA-Skill` 仓库的 `cases/slotbound-demo/tools/`，仅复制 Skill 文件夹不会附带这些工具、游戏运行库或美术资源。`--project` 需传入案例根目录，不是仓库根目录。

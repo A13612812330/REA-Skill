@@ -11,6 +11,6 @@
 *.json text eol=lf
 *.csv text eol=lf
 *.asm text eol=lf -whitespace
-/extracted/** -text -whitespace
-/external-reference/SlotboundLua/** -text -whitespace
-/recovered-source/** -whitespace
+/cases/slotbound-demo/extracted/** -text -whitespace
+/cases/slotbound-demo/external-reference/SlotboundLua/** -text -whitespace
+/cases/slotbound-demo/recovered-source/** -whitespace

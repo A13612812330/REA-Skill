@@ -19,7 +19,7 @@ description: 用户说反编译、逆向某应用或游戏、分析 APK/IPA/EXE�
 
 默认静态只读识别；产物写入独立项目目录，不改原包、安装目录、存档或设备。区分本地文件分析、目标执行、设备连接、网络访问、修改重打包和远程发布的授权。不要从其中一种推导其他操作已获允许。
 
-新项目按用户当前确认规则执行。没有指定目录时提出独立分析目录建议，不把新的 APK 研究结果写进本 Slotbound 仓库。
+新项目按用户当前确认规则执行。没有指定目录时提出独立分析目录建议，不把新目标写入旧案例。REA-Skill 是通用工作流主体；本仓库的 `cases/slotbound-demo/` 是独立案例子项目，不是所有分析的默认输出目录。新增案例的归档与发布另行确认。
 
 ## 按目标加载
 
@@ -33,7 +33,7 @@ description: 用户说反编译、逆向某应用或游戏、分析 APK/IPA/EXE�
 | REA 工具缺失、版本差异或连接失败 | [工具接入](references/tool-connection.md) |
 | 证据分页、功能追踪、版本比较、重建或结果交付 | [证据与验证](references/evidence-workflows.md) |
 
-只查看已有 Slotbound 材料时，优先读取项目 `MOD_REFERENCE.md`、`analysis/delivery-summary.json`、`analysis/recovered-source-quality.json` 和 `analysis/recovered-comparison.json`，不重复提取。
+只查看已有 Slotbound 材料时，以 `cases/slotbound-demo/` 为案例根目录，优先读取其中的 `MOD_REFERENCE.md`、`analysis/delivery-summary.json`、`analysis/recovered-source-quality.json` 和 `analysis/recovered-comparison.json`，不重复提取。只安装 Skill 而未克隆完整案例时，这些材料和工具不随安装附带。
 
 ## 调查流程
 
@@ -56,11 +56,11 @@ description: 用户说反编译、逆向某应用或游戏、分析 APK/IPA/EXE�
 以下预检仅针对本仓库 Slotbound 交付材料，不是通用 APK/EXE 扫描器：
 
 ```powershell
-python "<rea-skill目录>/scripts/preflight.py" --project "<完整Slotbound仓库根目录>"
-python "<rea-skill目录>/scripts/preflight.py" --project "<完整Slotbound仓库根目录>" --exe "<已授权的Slotbound.exe>"
+python "<rea-skill目录>/scripts/preflight.py" --project "<REA-Skill仓库>/cases/slotbound-demo"
+python "<rea-skill目录>/scripts/preflight.py" --project "<REA-Skill仓库>/cases/slotbound-demo" --exe "<已授权的Slotbound.exe>"
 ```
 
-预检只用 Python 标准库，不写文件、不加载 DLL、不执行游戏或反编译器。退出码 0 为检查通过、1 为失败、2 为参数错误。它检查已存报告与路径集合，不重新验证语法或源码内容；未传 `--exe` 就没有核对游戏版本。完整重放依赖项目 `tools/` 和可信运行库，不随 Skill 目录分发。
+预检的 `--project` 指向案例根目录，不是仓库根目录。预检只用 Python 标准库，不写文件、不加载 DLL、不执行游戏或反编译器。退出码 0 为检查通过、1 为失败、2 为参数错误。它检查已存报告与路径集合，不重新验证语法或源码内容；未传 `--exe` 就没有核对游戏版本。完整重放依赖案例内 `tools/` 和可信运行库，不随 Skill 目录分发。
 
 Slotbound 适配必须匹配文档中的 EXE 哈希。不能将它的密钥定位、偏移、容器格式或 8 文件 AST 修正规则套用其他样本；哈希不匹配时停止专用流程，重新识别。
 

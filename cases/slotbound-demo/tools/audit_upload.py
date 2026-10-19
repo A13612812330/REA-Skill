@@ -7,7 +7,11 @@ import subprocess
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent.parent
+CASE_ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(subprocess.check_output(
+    ["git", "rev-parse", "--show-toplevel"], cwd=CASE_ROOT, text=True, encoding="utf-8",
+).strip())
+CASE_PREFIX = CASE_ROOT.relative_to(ROOT).as_posix() + "/"
 EXCLUDED = (
     "tools/vendor/", "tools/v2/", "tools/luajit-decompiler/",
     "tools/luajit-decompiler-v2-source/", "decompiled/", "decompiled-partial/",
@@ -35,13 +39,18 @@ def main():
         files.append({"path": path, "bytes": len(content)})
         if stage != "0":
             violations.append({"path": path, "reason": "unresolved-index-stage"})
-        if path.startswith(EXCLUDED) or path == "extracted/content.bin":
+        case_path = path[len(CASE_PREFIX):] if path.startswith(CASE_PREFIX) else None
+        if case_path is not None and (
+            case_path.startswith(EXCLUDED) or case_path == "extracted/content.bin"
+        ):
             violations.append({"path": path, "reason": "excluded-artifact"})
         if target.suffix.lower() in {".exe", ".dll", ".pem", ".key", ".pfx", ".p12"} or target.name.startswith(".env"):
             violations.append({"path": path, "reason": "sensitive-or-runtime-filename"})
         if len(content) >= 100 * 1024 * 1024:
             violations.append({"path": path, "reason": "github-file-size-limit"})
-        if path.startswith(("extracted/", "recovered-source/", "external-reference/SlotboundLua/")):
+        if case_path is not None and case_path.startswith(
+            ("extracted/", "recovered-source/", "external-reference/SlotboundLua/")
+        ):
             digest = hashlib.sha1(b"blob " + str(len(content)).encode() + b"\0" + content).hexdigest()
             if digest != object_id:
                 violations.append({"path": path, "reason": "raw-bytes-changed-in-index"})
@@ -59,7 +68,7 @@ def main():
         "violations": violations,
         "credential_scan_scope": "Common token/private-key signatures only; no secret values are recorded.",
     }
-    (ROOT / "analysis/upload-audit.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (CASE_ROOT / "analysis/upload-audit.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))
     if violations:
         raise SystemExit(1)

@@ -1,19 +1,19 @@
 # Local dependencies and downloaded tools.
-/tools/vendor/
-/tools/luajit-decompiler/
-/tools/luajit-decompiler-v2-source/
-/tools/v2/
+/cases/slotbound-demo/tools/vendor/
+/cases/slotbound-demo/tools/luajit-decompiler/
+/cases/slotbound-demo/tools/luajit-decompiler-v2-source/
+/cases/slotbound-demo/tools/v2/
 **/__pycache__/
 *.pyc
 *.pyo
 
 # Duplicate archives and previous decompiler attempts.
-/extracted/content.bin
-/decompiled/
-/decompiled-partial/
-/decompiled-alternative/
-/decompiled-v2/
-/analysis/decompiler-logs/
+/cases/slotbound-demo/extracted/content.bin
+/cases/slotbound-demo/decompiled/
+/cases/slotbound-demo/decompiled-partial/
+/cases/slotbound-demo/decompiled-alternative/
+/cases/slotbound-demo/decompiled-v2/
+/cases/slotbound-demo/analysis/decompiler-logs/
 
 # Machine-specific or sensitive files must never enter this repository.
 .env

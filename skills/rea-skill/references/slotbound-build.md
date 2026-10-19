@@ -18,14 +18,14 @@
 | 资源 | 1,215 PNG、64 音频、11 语言 JSON |
 
 游戏路径：`E:\SteamLibrary\steamapps\common\Slotbound Demo`。
-本次项目：`E:\新建文件夹\Codex-GPT\games\Slotbound-Mod`。
-换电脑后以实际项目根目录为准，不把本机绝对路径写成通用默认值。
+本机案例：`E:\新建文件夹\Codex-GPT\games\Slotbound-Mod\cases\slotbound-demo`。
+仓库现名为 `REA-Skill`，原名 `ReverseGmae-Slotbound`；本机检出目录保留旧文件夹名。换电脑后以实际 `cases/slotbound-demo` 案例根目录为准，不把本机绝对路径写成通用默认值。历史报告中的旧路径是采集时证据，不批量改写。
 
 最终证据是 `analysis/recovered-source-quality.json`、`analysis/recovered-comparison.json` 和 `analysis/delivery-summary.json`。语言模块因依赖 `io` 未在受限 VM 中求值；其 JSON 直接提取。全部技能、整局可玩、存档兼容、Mod 加载仍未验证。
 
 ## 环境和依赖
 
-专用重放需要克隆完整仓库。本 Skill 文件夹不附带游戏资源、`tools/` 或第三方二进制。
+专用重放需要克隆完整仓库，并进入 `cases/slotbound-demo`。本 Skill 文件夹不附带游戏资源、案例 `tools/` 或第三方二进制。
 
 - Windows、Python 3.11；重放编译检查还需原游戏的可信 `lua51.dll`。
 - 包分析：`pefile`、`capstone`；提取：`cryptography`。
@@ -40,7 +40,11 @@
 
 ## 重放顺序
 
-以下命令都从完整仓库根目录执行。它们是按需阶段，不是应在已有结果目录直接粘贴执行的一键脚本。
+以下命令都从 `cases/slotbound-demo` 案例根目录执行，不从 REA-Skill 仓库根目录执行。它们是按需阶段，不是应在已有结果目录直接粘贴执行的一键脚本。
+
+```powershell
+Set-Location "<REA-Skill仓库>/cases/slotbound-demo"
+```
 
 **先检查已有输出。** `extract_package.py`、导出器、整理器和报告脚本会写入/覆盖文件；`unpack_content.py` 拒绝覆盖已有目标。重放应在单独的完整仓库工作副本中，先选择新的输出或经用户批准备份已有产物。多数后续工具用自身位置推导固定项目根路径，不能通过切换 cwd 把输出重定向。
 
@@ -64,7 +68,7 @@ python tools/run_v2.py
 
 该脚本在缺少工具时会联网下载、验哈希并执行，需相应授权。它只处理 `extracted/game-files` 中的 **54 个** `.lua` 字节码。`analysis/v2-run.json` 的 54 不包含启动脚本。
 
-启动脚本需单独输入固定版 v2；从仓库根目录可按该工具的单文件接口操作：
+启动脚本需单独输入固定版 v2；从案例根目录可按该工具的单文件接口操作：
 
 ```powershell
 Push-Location tools/v2
@@ -117,4 +121,4 @@ python tools/audit_recovered.py
 - 旧 `decompiled*` 和旧 `source-quality.json` 不代表当前恢复质量，部分目录仅在本机保留。
 - 第三方参考 `liusu239113/SlotboundLua` 固定提交 `57492bbe9c273d2c3e13387024436119c886d341`，与本机版本不同，不能覆盖本机结果或视为官方源码；身份/许可尚未确认。
 
-上传前审查选定文件，使用已有 `tools/audit_upload.py` 检查常见凭据特征与文件范围，再运行 `git diff --cached --check`。该审计会写 `analysis/upload-audit.json`；它不是完整安全或版权审核。保持仓库当前私有性，不自动公开或给第三方内容增加许可。
+上传前审查选定文件，使用案例内 `tools/audit_upload.py` 检查整个仓库索引的常见凭据特征与文件范围，再运行 `git diff --cached --check`。该审计会写案例 `analysis/upload-audit.json`；它不是完整安全或版权审核。保持仓库当前私有性，不自动公开或给第三方内容增加许可。
