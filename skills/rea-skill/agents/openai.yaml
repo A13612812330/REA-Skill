@@ -1,0 +1,4 @@
+interface:
+  display_name: "REA-Skill"
+  short_description: "统一程序与移动端逆向、LuaJIT 游戏恢复、数值资源导出和证据验证"
+  default_prompt: "使用 $rea-skill 分析我授权的目标，先识别格式和工具，再追踪指定功能，交付可读代码、相关资源及验证报告。"

@@ -8,6 +8,8 @@
 
 先阅读 [解析文件说明](解析文件说明.md) 和 [Mod 参考入口](MOD_REFERENCE.md)。
 
+逆向工作流统一使用 [REA-Skill](skills/rea-skill/SKILL.md)。LuaJIT 能力、预检和专项资料已纳入新目录，旧 `luajit-game-recovery` 保留兼容；移动端入口见 [APK/IPA 操作](skills/rea-skill/references/mobile-applications.md)。Skill 文件不自动安装工具、注册 MCP 或授权设备操作。
+
 `recovered-source` 是本机 Demo 字节码恢复后的 55 份 Lua 文本；`data` 是数值导出；`extracted/game-files` 保留原始包内文件，含美术、音频和脚本字节码。
 
 这是个人 Mod 研究备份，恢复文本不是开发者原始工程。未赋予第三方游戏素材或恢复代码新的开源许可，也未验证完整可玩 Mod。

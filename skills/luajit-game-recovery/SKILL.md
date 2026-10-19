@@ -1,9 +1,11 @@
 ---
 name: luajit-game-recovery
-description: 分析已获授权的 LÖVE/LuaJIT 游戏发行包，提取脚本与资源、恢复可读 Lua、导出数值并验证恢复质量。包含 Slotbound Demo 固定版本适配；不适用于 Unity、Unreal 或普通 Lua 字节码。
+description: luajit-game-recovery 旧名称兼容入口。用户明确调用旧名称时使用；后续统一入口为 rea-skill，其中已完整纳入 LuaJIT 流程、固定样本适配和预检。
 ---
 
 # LÖVE / LuaJIT 游戏恢复
+
+后续统一使用 [REA-Skill](../rea-skill/SKILL.md)。本目录保留为兼容快照；下方旧流程、脚本与引用仍可使用，新功能维护在 `rea-skill`。若旧 Skill 被单独安装而没有同级新目录，继续使用本地旧流程，不能假装已迁移或自动安装新 Skill。
 
 将发行包分析结果整理成可检查的 Mod 研究材料，不将反编译文本称为开发者原始工程。
 

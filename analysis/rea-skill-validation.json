@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "skill": "skills/rea-skill",
+  "legacy_skill_preserved": "skills/luajit-game-recovery",
+  "checks": {
+    "new_skill_quick_validate": "passed",
+    "legacy_skill_quick_validate": "passed",
+    "new_preflight_tests_passed": 14,
+    "legacy_preflight_tests_passed": 11,
+    "local_markdown_links_checked": 7,
+    "missing_or_outside_skill_links": [],
+    "luajit_workflow_sections_preserved": true,
+    "preflight_bytes_identical_to_legacy": true,
+    "preflight_sha256": "960c494a93a5793a40acd54c080faa55529b7000249551840e355186fb2e258e",
+    "slotbound_reference_bytes_identical_to_legacy": true,
+    "slotbound_reference_sha256": "160211ec8df2815c8f3ffaa9cab18da8ca17b5e8b3b87911a40feb873eef4658",
+    "stored_report_preflight_errors": [],
+    "stored_report_source_files": 55,
+    "stored_report_syntax_valid": 55,
+    "git_diff_cached_check": "passed",
+    "upload_audit_violation_count": 0,
+    "upload_audit_scope": "Common credential signatures and tracked upload-boundary checks; not a complete security or rights audit.",
+    "stored_comparison_skipped_modules": [
+      "src.data.language"
+    ]
+  },
+  "upstream_read_commits": {
+    "morluto/rea": "974487f00f2d68912c7c2c9e033a2760a343a82e",
+    "bbylw/rea-cn": "e8fda7a778081bed8b377b888defffb723310dbd"
+  },
+  "limitations": [
+    "Preflight reads stored reports; it is not fresh syntax or behavior verification.",
+    "No EXE was supplied to this preflight run; original build was not rehashed.",
+    "No game, APK, IPA, device, runtime or native decompiler was executed.",
+    "Mobile and other non-LuaJIT routes are documented workflows, not end-to-end verified support.",
+    "Android APK Analyzer and apksigner web pages timed out; examples require installed-tool help verification.",
+    "No tools, global skill or MCP registration were installed or changed.",
+    "No independent-agent evaluation was performed."
+  ]
+}

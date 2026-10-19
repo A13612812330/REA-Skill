@@ -10,9 +10,11 @@
 
 ## 可复用 Skill
 
-本次方法已整理为 [luajit-game-recovery](skills/luajit-game-recovery/SKILL.md)，包含通用分析流程、Slotbound 固定版本适配、反编译与数值/资源导出命令、验证边界及只读预检脚本。完整重放需本仓库 `tools/` 和原游戏运行库，不是通用一键破解器。
+统一入口为 [REA-Skill](skills/rea-skill/SKILL.md)，已完整纳入旧 `luajit-game-recovery` 的 LuaJIT 流程、Slotbound 固定版本适配、反编译与数值/资源导出方法、验证边界及只读预检脚本。新增通用目标路由、功能追踪、证据工作流，以及 [APK/Android 与 IPA/iOS 操作说明](skills/rea-skill/references/mobile-applications.md)。
 
-本仓库只提供 Skill 文件，未自动安装到 Codex。需要安装时，由用户授权后将 `skills/luajit-game-recovery` 整个目录交给 Skill 安装工具处理；安装完成后可调用 `$luajit-game-recovery`。仅阅读流程和运行只读预检不需要安装 Skill。
+方法参考 `morluto/rea` 与 `bbylw/rea-cn`，固定阅读提交、继承关系和许可边界见 [来源说明](skills/rea-skill/references/sources.md)。REA-Skill 是工作流，不是反编译引擎；其他路线需要对应现成工具，不代表本机已安装或已实测。Slotbound 完整重放仍需本仓库 `tools/` 和原游戏运行库，不是通用一键破解器。
+
+本仓库只提供 Skill 文件，未自动安装到 Codex。需要安装时，由用户授权后将 `skills/rea-skill` 整个目录交给 Skill 安装工具处理；安装后统一调用 `$rea-skill`。未安装时可让代理读取该目录 `SKILL.md`，阅读流程和运行预检不需要安装。旧 [luajit-game-recovery](skills/luajit-game-recovery/SKILL.md) 保留为兼容快照，新目录不依赖旧目录。未自动注册 REA MCP 或安装任何逆向工具。
 
 ## 结果
 
