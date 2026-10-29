@@ -1,0 +1,4240 @@
+{
+  "file": "src/data/randomoption.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "icon"
+        },
+        {
+          "constant_index": 1,
+          "value": "normalizeOption"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 1,
+      "instruction_count": 244,
+      "numeric_constants": [
+        0.4,
+        0.8,
+        10,
+        0.5,
+        3
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "-%d%%"
+        },
+        {
+          "constant_index": 2,
+          "value": "abs"
+        },
+        {
+          "constant_index": 3,
+          "value": "+15%"
+        },
+        {
+          "constant_index": 5,
+          "value": "+8%"
+        },
+        {
+          "constant_index": 7,
+          "value": "4%"
+        },
+        {
+          "constant_index": 8,
+          "value": "%d+%.?%d*"
+        },
+        {
+          "constant_index": 9,
+          "value": "-20%"
+        },
+        {
+          "constant_index": 10,
+          "value": "damageReduction"
+        },
+        {
+          "constant_index": 11,
+          "value": "+20%"
+        },
+        {
+          "constant_index": 12,
+          "value": "format"
+        },
+        {
+          "constant_index": 13,
+          "value": "+%d%%"
+        },
+        {
+          "constant_index": 14,
+          "value": "floor"
+        },
+        {
+          "constant_index": 15,
+          "value": "min"
+        },
+        {
+          "constant_index": 16,
+          "value": "max"
+        },
+        {
+          "constant_index": 17,
+          "value": "math"
+        },
+        {
+          "constant_index": 18,
+          "value": "[-+]?%d+%.?%d*"
+        },
+        {
+          "constant_index": 19,
+          "value": "match"
+        },
+        {
+          "constant_index": 20,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 21,
+          "value": "value"
+        },
+        {
+          "constant_index": 22,
+          "value": "variant"
+        },
+        {
+          "constant_index": 23,
+          "value": "icon"
+        },
+        {
+          "constant_index": 24,
+          "value": "source"
+        },
+        {
+          "constant_index": 25,
+          "value": "effect"
+        },
+        {
+          "constant_index": 26,
+          "value": "rarity"
+        },
+        {
+          "constant_index": 27,
+          "value": "name"
+        },
+        {
+          "constant_index": 28,
+          "value": "catalog"
+        },
+        {
+          "constant_index": 29,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 30,
+          "value": "22"
+        },
+        {
+          "constant_index": 31,
+          "value": "19"
+        },
+        {
+          "constant_index": 32,
+          "value": "17"
+        },
+        {
+          "constant_index": 33,
+          "value": "16"
+        },
+        {
+          "constant_index": 34,
+          "value": "15"
+        },
+        {
+          "constant_index": 35,
+          "value": "10"
+        },
+        {
+          "constant_index": 36,
+          "value": ""
+        },
+        {
+          "constant_index": 37,
+          "value": "id"
+        },
+        {
+          "constant_index": 38,
+          "value": "tostring"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            true,
+            null,
+            true,
+            null,
+            true,
+            null,
+            true,
+            null,
+            true
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": [
+            [
+              15.0,
+              true
+            ],
+            [
+              25.0,
+              true
+            ],
+            [
+              20.0,
+              true
+            ],
+            [
+              30.0,
+              true
+            ],
+            [
+              35.0,
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "-3%",
+            null,
+            "-4%",
+            null,
+            "-5%",
+            null,
+            "-6%",
+            null,
+            "-7%"
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 4,
+      "instruction_count": 41,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "canEarnBounty"
+        },
+        {
+          "constant_index": 1,
+          "value": "canBasicAttack"
+        },
+        {
+          "constant_index": 2,
+          "value": "rollForSpawn"
+        },
+        {
+          "constant_index": 3,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 4,
+          "value": "floor"
+        },
+        {
+          "constant_index": 5,
+          "value": "min"
+        },
+        {
+          "constant_index": 6,
+          "value": "max"
+        },
+        {
+          "constant_index": 7,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 10,
+      "instruction_count": 295,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "weight"
+        },
+        {
+          "constant_index": 1,
+          "value": "chance"
+        },
+        {
+          "constant_index": 2,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "variant"
+        },
+        {
+          "constant_index": 4,
+          "value": "icon"
+        },
+        {
+          "constant_index": 5,
+          "value": "effect"
+        },
+        {
+          "constant_index": 6,
+          "value": "rarity"
+        },
+        {
+          "constant_index": 7,
+          "value": "name"
+        },
+        {
+          "constant_index": 9,
+          "value": "variants"
+        },
+        {
+          "constant_index": 10,
+          "value": "insert"
+        },
+        {
+          "constant_index": 11,
+          "value": "table"
+        },
+        {
+          "constant_index": 12,
+          "value": "requiresBasicAttack"
+        },
+        {
+          "constant_index": 13,
+          "value": "requiresNudge"
+        },
+        {
+          "constant_index": 14,
+          "value": "isContextEligible"
+        },
+        {
+          "constant_index": 15,
+          "value": "Both"
+        },
+        {
+          "constant_index": 16,
+          "value": "Promotion"
+        },
+        {
+          "constant_index": 17,
+          "value": "source"
+        },
+        {
+          "constant_index": 18,
+          "value": "requiresBountySource"
+        },
+        {
+          "constant_index": 19,
+          "value": "requiresRangedBasicAttack"
+        },
+        {
+          "constant_index": 20,
+          "value": "requiresAttackSkill"
+        },
+        {
+          "constant_index": 21,
+          "value": "requiresActiveSkill"
+        },
+        {
+          "constant_index": 22,
+          "value": "permittedGrades"
+        },
+        {
+          "constant_index": 23,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 24,
+          "value": "id"
+        },
+        {
+          "constant_index": 25,
+          "value": "catalog"
+        },
+        {
+          "constant_index": 26,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 27,
+          "value": "13"
+        },
+        {
+          "constant_index": 28,
+          "value": "12"
+        },
+        {
+          "constant_index": 29,
+          "value": "isRunning"
+        },
+        {
+          "constant_index": 30,
+          "value": "Tutorial"
+        },
+        {
+          "constant_index": 31,
+          "value": "_G"
+        },
+        {
+          "constant_index": 32,
+          "value": "rawget"
+        },
+        {
+          "constant_index": 33,
+          "value": "isNudgeEnabledForRun"
+        },
+        {
+          "constant_index": 34,
+          "value": "string"
+        },
+        {
+          "constant_index": 35,
+          "value": "type"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 8,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/8",
+      "argument_count": 1,
+      "instruction_count": 41,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "table"
+        },
+        {
+          "constant_index": 4,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/9",
+      "argument_count": 2,
+      "instruction_count": 58,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "weight"
+        },
+        {
+          "constant_index": 1,
+          "value": "chance"
+        },
+        {
+          "constant_index": 2,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "variant"
+        },
+        {
+          "constant_index": 4,
+          "value": "icon"
+        },
+        {
+          "constant_index": 5,
+          "value": "source"
+        },
+        {
+          "constant_index": 6,
+          "value": "effect"
+        },
+        {
+          "constant_index": 7,
+          "value": "rarity"
+        },
+        {
+          "constant_index": 8,
+          "value": "name"
+        },
+        {
+          "constant_index": 10,
+          "value": "variants"
+        },
+        {
+          "constant_index": 11,
+          "value": "isUnlocked"
+        },
+        {
+          "constant_index": 12,
+          "value": "id"
+        },
+        {
+          "constant_index": 13,
+          "value": "catalog"
+        },
+        {
+          "constant_index": 14,
+          "value": "ipairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/11",
+      "argument_count": 9,
+      "instruction_count": 277,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "weight"
+        },
+        {
+          "constant_index": 1,
+          "value": "chance"
+        },
+        {
+          "constant_index": 2,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "variant"
+        },
+        {
+          "constant_index": 4,
+          "value": "icon"
+        },
+        {
+          "constant_index": 5,
+          "value": "effect"
+        },
+        {
+          "constant_index": 6,
+          "value": "rarity"
+        },
+        {
+          "constant_index": 7,
+          "value": "name"
+        },
+        {
+          "constant_index": 9,
+          "value": "variants"
+        },
+        {
+          "constant_index": 10,
+          "value": "insert"
+        },
+        {
+          "constant_index": 11,
+          "value": "table"
+        },
+        {
+          "constant_index": 12,
+          "value": "requiresBasicAttack"
+        },
+        {
+          "constant_index": 13,
+          "value": "requiresNudge"
+        },
+        {
+          "constant_index": 14,
+          "value": "isContextEligible"
+        },
+        {
+          "constant_index": 15,
+          "value": "Both"
+        },
+        {
+          "constant_index": 16,
+          "value": "Promotion"
+        },
+        {
+          "constant_index": 17,
+          "value": "source"
+        },
+        {
+          "constant_index": 18,
+          "value": "requiresBountySource"
+        },
+        {
+          "constant_index": 19,
+          "value": "requiresRangedBasicAttack"
+        },
+        {
+          "constant_index": 20,
+          "value": "requiresAttackSkill"
+        },
+        {
+          "constant_index": 21,
+          "value": "requiresActiveSkill"
+        },
+        {
+          "constant_index": 22,
+          "value": "permittedGrades"
+        },
+        {
+          "constant_index": 23,
+          "value": "13"
+        },
+        {
+          "constant_index": 24,
+          "value": "12"
+        },
+        {
+          "constant_index": 25,
+          "value": "id"
+        },
+        {
+          "constant_index": 26,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 27,
+          "value": "catalog"
+        },
+        {
+          "constant_index": 28,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 29,
+          "value": "isNudgeEnabledForRun"
+        },
+        {
+          "constant_index": 30,
+          "value": "isRunning"
+        },
+        {
+          "constant_index": 31,
+          "value": "Tutorial"
+        },
+        {
+          "constant_index": 32,
+          "value": "_G"
+        },
+        {
+          "constant_index": 33,
+          "value": "rawget"
+        },
+        {
+          "constant_index": 34,
+          "value": "string"
+        },
+        {
+          "constant_index": 35,
+          "value": "type"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 8,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/13",
+      "argument_count": 3,
+      "instruction_count": 117,
+      "numeric_constants": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "insert"
+        },
+        {
+          "constant_index": 4,
+          "value": "table"
+        },
+        {
+          "constant_index": 5,
+          "value": "lower"
+        },
+        {
+          "constant_index": 6,
+          "value": "common"
+        },
+        {
+          "constant_index": 7,
+          "value": "rarity"
+        },
+        {
+          "constant_index": 8,
+          "value": "ipairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": [
+            [
+              "rare",
+              60
+            ],
+            [
+              "legend",
+              30
+            ],
+            [
+              "common",
+              10
+            ]
+          ]
+        },
+        {
+          "constant_index": 10,
+          "array": [],
+          "dictionary": [
+            [
+              "rare",
+              60
+            ],
+            [
+              "legend",
+              20
+            ],
+            [
+              "common",
+              20
+            ]
+          ]
+        },
+        {
+          "constant_index": 11,
+          "array": [],
+          "dictionary": [
+            [
+              "rare",
+              50
+            ],
+            [
+              "legend",
+              10
+            ],
+            [
+              "common",
+              40
+            ]
+          ]
+        },
+        {
+          "constant_index": 12,
+          "array": [],
+          "dictionary": [
+            [
+              "rare",
+              38
+            ],
+            [
+              "legend",
+              2
+            ],
+            [
+              "common",
+              60
+            ]
+          ]
+        },
+        {
+          "constant_index": 13,
+          "array": [],
+          "dictionary": [
+            [
+              "rare",
+              25
+            ],
+            [
+              "legend",
+              5
+            ],
+            [
+              "common",
+              70
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/14",
+      "argument_count": 2,
+      "instruction_count": 63,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "weight"
+        },
+        {
+          "constant_index": 1,
+          "value": "chance"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/15",
+      "argument_count": 1,
+      "instruction_count": 23,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "random"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/16",
+      "argument_count": 1,
+      "instruction_count": 37,
+      "numeric_constants": [
+        10
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "huge"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "combatExperienceKills"
+        },
+        {
+          "constant_index": 5,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/18",
+      "argument_count": 1,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "huge"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "calculatedLuckStacks"
+        },
+        {
+          "constant_index": 5,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20",
+      "argument_count": 0,
+      "instruction_count": 25,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getNudgeEnabled"
+        },
+        {
+          "constant_index": 1,
+          "value": "src.ui.upgrade"
+        },
+        {
+          "constant_index": 2,
+          "value": "require"
+        },
+        {
+          "constant_index": 3,
+          "value": "pcall"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/22",
+      "argument_count": 2,
+      "instruction_count": 87,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "J"
+        },
+        {
+          "constant_index": 1,
+          "value": "Joker"
+        },
+        {
+          "constant_index": 2,
+          "value": "M"
+        },
+        {
+          "constant_index": 3,
+          "value": "A"
+        },
+        {
+          "constant_index": 4,
+          "value": "sym"
+        },
+        {
+          "constant_index": 5,
+          "value": "distance"
+        },
+        {
+          "constant_index": 6,
+          "value": "name"
+        },
+        {
+          "constant_index": 7,
+          "value": "subclassName"
+        },
+        {
+          "constant_index": 9,
+          "value": "id"
+        },
+        {
+          "constant_index": 10,
+          "value": "asset"
+        },
+        {
+          "constant_index": 11,
+          "value": "subclass"
+        },
+        {
+          "constant_index": 12,
+          "value": "subclassKey"
+        },
+        {
+          "constant_index": 13,
+          "value": "getSubclassBaseStats"
+        },
+        {
+          "constant_index": 14,
+          "value": "src.game.promotion_stats"
+        },
+        {
+          "constant_index": 15,
+          "value": "require"
+        },
+        {
+          "constant_index": 16,
+          "value": "ranged"
+        },
+        {
+          "constant_index": 17,
+          "value": "mage"
+        },
+        {
+          "constant_index": 18,
+          "value": "archer"
+        },
+        {
+          "constant_index": 19,
+          "value": "base"
+        },
+        {
+          "constant_index": 20,
+          "value": "stats"
+        },
+        {
+          "constant_index": 21,
+          "value": "role"
+        },
+        {
+          "constant_index": 22,
+          "value": "canBasicAttack"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 8,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/24",
+      "argument_count": 1,
+      "instruction_count": 73,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "Primal Mage"
+        },
+        {
+          "constant_index": 1,
+          "value": "Wild Mage"
+        },
+        {
+          "constant_index": 2,
+          "value": "원시법사"
+        },
+        {
+          "constant_index": 3,
+          "value": "야생법사"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "MountainRoar"
+        },
+        {
+          "constant_index": 7,
+          "value": "SavageTusk"
+        },
+        {
+          "constant_index": 8,
+          "value": "kind"
+        },
+        {
+          "constant_index": 9,
+          "value": "skill"
+        },
+        {
+          "constant_index": 10,
+          "value": "canBasicAttack"
+        },
+        {
+          "constant_index": 11,
+          "value": "isClone"
+        },
+        {
+          "constant_index": 12,
+          "value": "isDecoyDummy"
+        },
+        {
+          "constant_index": 13,
+          "value": "isTower"
+        },
+        {
+          "constant_index": 14,
+          "value": "isFireSpirit"
+        },
+        {
+          "constant_index": 15,
+          "value": "isUndyingSoul"
+        },
+        {
+          "constant_index": 16,
+          "value": "isShadowMinion"
+        },
+        {
+          "constant_index": 17,
+          "value": "isSummon"
+        },
+        {
+          "constant_index": 18,
+          "value": "isStructure"
+        },
+        {
+          "constant_index": 19,
+          "value": "isGuardianGolem"
+        },
+        {
+          "constant_index": 20,
+          "value": "isItemEffect"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey",
+            "id",
+            "name",
+            "asset"
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/26",
+      "argument_count": 1,
+      "instruction_count": 56,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "Primal Mage"
+        },
+        {
+          "constant_index": 1,
+          "value": "Wild Mage"
+        },
+        {
+          "constant_index": 2,
+          "value": "원시법사"
+        },
+        {
+          "constant_index": 3,
+          "value": "야생법사"
+        },
+        {
+          "constant_index": 5,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "MountainRoar"
+        },
+        {
+          "constant_index": 7,
+          "value": "SavageTusk"
+        },
+        {
+          "constant_index": 8,
+          "value": "kind"
+        },
+        {
+          "constant_index": 9,
+          "value": "skill"
+        },
+        {
+          "constant_index": 10,
+          "value": "isClone"
+        },
+        {
+          "constant_index": 11,
+          "value": "isDecoyDummy"
+        },
+        {
+          "constant_index": 12,
+          "value": "isTower"
+        },
+        {
+          "constant_index": 13,
+          "value": "isFireSpirit"
+        },
+        {
+          "constant_index": 14,
+          "value": "isUndyingSoul"
+        },
+        {
+          "constant_index": 15,
+          "value": "isShadowMinion"
+        },
+        {
+          "constant_index": 16,
+          "value": "isSummon"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            "subclass",
+            "subclassName",
+            "subclassKey",
+            "id",
+            "name",
+            "asset"
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/28",
+      "argument_count": 3,
+      "instruction_count": 75,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "battlefield"
+        },
+        {
+          "constant_index": 1,
+          "value": "canAcquire"
+        },
+        {
+          "constant_index": 2,
+          "value": "heavyweight"
+        },
+        {
+          "constant_index": 3,
+          "value": "src.game.combat"
+        },
+        {
+          "constant_index": 4,
+          "value": "require"
+        },
+        {
+          "constant_index": 5,
+          "value": "requiresDeploymentRoom"
+        },
+        {
+          "constant_index": 6,
+          "value": "id"
+        },
+        {
+          "constant_index": 7,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 8,
+          "value": "randomOption"
+        },
+        {
+          "constant_index": 9,
+          "value": "randomOptions"
+        },
+        {
+          "constant_index": 10,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 11,
+          "value": "unit"
+        },
+        {
+          "constant_index": 12,
+          "value": "incompatibleWith"
+        },
+        {
+          "constant_index": 13,
+          "value": "isUnlocked"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/30",
+      "argument_count": 1,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "initiallyUnlocked"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 414,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "getIconPath"
+        },
+        {
+          "constant_index": 3,
+          "value": "normalizeOption"
+        },
+        {
+          "constant_index": 5,
+          "value": "rollList"
+        },
+        {
+          "constant_index": 7,
+          "value": "rollForSpawnExcluding"
+        },
+        {
+          "constant_index": 10,
+          "value": "rollForId"
+        },
+        {
+          "constant_index": 12,
+          "value": "rollForSpawn"
+        },
+        {
+          "constant_index": 17,
+          "value": "getCombatExperienceProgress"
+        },
+        {
+          "constant_index": 19,
+          "value": "getCalculatedLuckStacks"
+        },
+        {
+          "constant_index": 21,
+          "value": "isNudgeEnabledForRun"
+        },
+        {
+          "constant_index": 23,
+          "value": "canRangedBasicAttack"
+        },
+        {
+          "constant_index": 25,
+          "value": "canEarnBounty"
+        },
+        {
+          "constant_index": 27,
+          "value": "canBasicAttack"
+        },
+        {
+          "constant_index": 29,
+          "value": "isContextEligible"
+        },
+        {
+          "constant_index": 31,
+          "value": "isUnlocked"
+        },
+        {
+          "constant_index": 123,
+          "value": "permittedGrades"
+        },
+        {
+          "constant_index": 182,
+          "value": "variants"
+        },
+        {
+          "constant_index": 189,
+          "value": "catalog"
+        },
+        {
+          "constant_index": 190,
+          "value": "iconCanvasSize"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 32,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 33,
+          "array": [],
+          "dictionary": [
+            [
+              "requiresDeploymentRoom",
+              true
+            ],
+            [
+              "name",
+              "거물"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/32heavyweight.png"
+            ],
+            [
+              "initiallyUnlocked",
+              false
+            ],
+            [
+              "source",
+              "Promotion"
+            ],
+            [
+              "effect",
+              "유닛 슬롯을 2명분 차지하는 대신 {hp.png} +50%, {atk.png} +35%."
+            ],
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "id",
+              "32"
+            ],
+            [
+              "incompatibleWith",
+              "14"
+            ]
+          ]
+        },
+        {
+          "constant_index": 34,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+9"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 35,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+8"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 36,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+7"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 37,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+6"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 38,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+5"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 39,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "현상금"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/31bounty.png"
+            ],
+            [
+              "id",
+              "31"
+            ],
+            [
+              "requiresBountySource",
+              true
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "적을 처치할 때마다 {gold.png} +5~9."
+            ]
+          ]
+        },
+        {
+          "constant_index": 40,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "-35%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 41,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "-30%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 42,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "-25%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 43,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "-20%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 44,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "-15%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 45,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "name",
+              "연쇄 시전"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/30chaincasting.png"
+            ],
+            [
+              "id",
+              "30"
+            ],
+            [
+              "requiresAttackSkill",
+              true
+            ],
+            [
+              "source",
+              "Promotion"
+            ],
+            [
+              "effect",
+              "공격 스킬로 적을 처치하면 해당 스킬의 남은 쿨타임 -15~35%. 스킬 1회당 한 번만 발동합니다."
+            ]
+          ]
+        },
+        {
+          "constant_index": 46,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 47,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "고정 태세"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/29anchoredstance.png"
+            ],
+            [
+              "initiallyUnlocked",
+              false
+            ],
+            [
+              "source",
+              "Promotion"
+            ],
+            [
+              "effect",
+              "이동할 수 없는 대신 {dist.png} +40, {atk.png} +15%."
+            ],
+            [
+              "requiresRangedBasicAttack",
+              true
+            ],
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "id",
+              "29"
+            ]
+          ]
+        },
+        {
+          "constant_index": 48,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 49,
+          "array": [],
+          "dictionary": [
+            [
+              "effect",
+              "{aspd.png} +40%. {atk.png} -30%."
+            ],
+            [
+              "name",
+              "속공"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/28rapidstrikes.png"
+            ],
+            [
+              "initiallyUnlocked",
+              false
+            ],
+            [
+              "source",
+              "Promotion"
+            ],
+            [
+              "requiresBasicAttack",
+              true
+            ],
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "id",
+              "28"
+            ]
+          ]
+        },
+        {
+          "constant_index": 50,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+35%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 51,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+30%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 52,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+25%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 53,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+20%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 54,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+15%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 55,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "기회 포착"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/27opportunitystrikes.png"
+            ],
+            [
+              "id",
+              "27"
+            ],
+            [
+              "requiresBasicAttack",
+              true
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "디버프 상태인 적에게 기본 공격 피해 +15~35%."
+            ]
+          ]
+        },
+        {
+          "constant_index": 56,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 57,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "legend"
+            ],
+            [
+              "name",
+              "다재다능"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/26versatile.png"
+            ],
+            [
+              "id",
+              "26"
+            ],
+            [
+              "initiallyUnlocked",
+              false
+            ],
+            [
+              "source",
+              "Promotion"
+            ],
+            [
+              "effect",
+              "자신의 병종과 관계없이 모든 병종의 기본 훈련서 효과를 받습니다."
+            ]
+          ]
+        },
+        {
+          "constant_index": 58,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 59,
+          "array": [],
+          "dictionary": [
+            [
+              "effect",
+              "기본 공격 시, 공격 가능한 적 중 현재 {hp.png}이 가장 적은 적을 우선 공격합니다."
+            ],
+            [
+              "name",
+              "사냥 본능"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/25predatoryinstinct.png"
+            ],
+            [
+              "initiallyUnlocked",
+              false
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "requiresBasicAttack",
+              true
+            ],
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "id",
+              "25"
+            ]
+          ]
+        },
+        {
+          "constant_index": 60,
+          "array": [],
+          "dictionary": [
+            [
+              "chance",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 61,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "전투 경험"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/24combatexperience.png"
+            ],
+            [
+              "id",
+              "24"
+            ],
+            [
+              "requiresBasicAttack",
+              true
+            ],
+            [
+              "source",
+              "Spawn"
+            ],
+            [
+              "effect",
+              "적을 10명 처치할 때마다 기본 공격 피해 +1%."
+            ]
+          ]
+        },
+        {
+          "constant_index": 62,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+1%"
+            ],
+            [
+              "chance",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 63,
+          "array": [],
+          "dictionary": [
+            [
+              "id",
+              "23"
+            ],
+            [
+              "name",
+              "노림수"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/23calculatedluck.png"
+            ],
+            [
+              "initiallyUnlocked",
+              false
+            ],
+            [
+              "source",
+              "Spawn"
+            ],
+            [
+              "effect",
+              "넛지로 새 당첨선을 만들 때마다 {atk.png} +1%."
+            ],
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "requiresNudge",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 64,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "-16%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 65,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "-14%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 66,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "-12%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 67,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "-10%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 68,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "-8%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 69,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "name",
+              "기술 가속"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/22skillmastery.png"
+            ],
+            [
+              "id",
+              "22"
+            ],
+            [
+              "requiresActiveSkill",
+              true
+            ],
+            [
+              "source",
+              "Promotion"
+            ],
+            [
+              "effect",
+              "액티브 스킬 쿨타임 -8~16%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 70,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+50%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 71,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+45%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 72,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+40%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 73,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+35%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 74,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+30%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 75,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "legend"
+            ],
+            [
+              "name",
+              "보스 슬레이어"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/21bossprep.png"
+            ],
+            [
+              "id",
+              "21"
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "보스 웨이브 전투시 {atk.png} +30~50%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 76,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+50%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 77,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+45%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 78,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+40%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 79,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+35%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 80,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+30%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 81,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "legend"
+            ],
+            [
+              "name",
+              "결전의 날"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/20judgementprep.png"
+            ],
+            [
+              "id",
+              "20"
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "심판 웨이브 전투시 {atk.png} +30~50%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 82,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+35%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 83,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+30%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 84,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+25%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 85,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+20%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 86,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+15%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 87,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "name",
+              "기지 수호자"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/19baseguardian.png"
+            ],
+            [
+              "id",
+              "19"
+            ],
+            [
+              "source",
+              "Promotion"
+            ],
+            [
+              "effect",
+              "기지 근처의 적을 우선 공격하고, 해당 적에게 주는 피해 {atk.png} +15~35%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 88,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+250"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 89,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+150"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 90,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+100"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 91,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+75"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 92,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+50"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 93,
+          "array": [],
+          "dictionary": [
+            [
+              "rare",
+              true
+            ],
+            [
+              "normal",
+              true
+            ],
+            [
+              "advanced",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 94,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "비상금"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/18gold.png"
+            ],
+            [
+              "id",
+              "18"
+            ],
+            [
+              "source",
+              "Spawn"
+            ],
+            [
+              "effect",
+              "흡수될 시 {gold.png} +50~250"
+            ]
+          ]
+        },
+        {
+          "constant_index": 95,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              "-7%"
+            ],
+            [
+              "value",
+              "+16%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 96,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              "-6%"
+            ],
+            [
+              "value",
+              "+14%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 97,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              "-5%"
+            ],
+            [
+              "value",
+              "+12%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 98,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              "-4%"
+            ],
+            [
+              "value",
+              "+10%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 99,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              "-3%"
+            ],
+            [
+              "value",
+              "+8%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 100,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "name",
+              "독보적"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/17lonewolf.png"
+            ],
+            [
+              "id",
+              "17"
+            ],
+            [
+              "source",
+              "Promotion"
+            ],
+            [
+              "effect",
+              "같은 계열의 다른 아군이 없으면 {atk.png} +8~16%, 받는 피해 -3~7%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 101,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "8%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 102,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "7%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 103,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "6%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 104,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "5%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 105,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "4%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 106,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "name",
+              "처치 회복"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/16victoryfeast.png"
+            ],
+            [
+              "id",
+              "16"
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "적 처치 시 최대 {hp.png}의 4~8% 회복. 전투당 최대 3회"
+            ]
+          ]
+        },
+        {
+          "constant_index": 107,
+          "array": [],
+          "dictionary": [
+            [
+              "damageReduction",
+              "-20%"
+            ],
+            [
+              "value",
+              "+20%"
+            ],
+            [
+              "chance",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 108,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "legend"
+            ],
+            [
+              "name",
+              "공수 전환"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/15combatshift.png"
+            ],
+            [
+              "id",
+              "15"
+            ],
+            [
+              "source",
+              "Promotion"
+            ],
+            [
+              "effect",
+              "HP 50% 초과: {atk.png} +20%, HP 50% 이하: 받는 피해 -20%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 109,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "적용"
+            ],
+            [
+              "chance",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 110,
+          "array": [],
+          "dictionary": [
+            [
+              "name",
+              "통솔력"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/14slotsplus.png"
+            ],
+            [
+              "initiallyUnlocked",
+              false
+            ],
+            [
+              "source",
+              "Promotion"
+            ],
+            [
+              "effect",
+              "최대 유닛수에 해당 유닛 미적용"
+            ],
+            [
+              "rarity",
+              "legend"
+            ],
+            [
+              "id",
+              "14"
+            ],
+            [
+              "incompatibleWith",
+              "32"
+            ]
+          ]
+        },
+        {
+          "constant_index": 111,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+5"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 112,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+4"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 113,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+3"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 114,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+2"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 115,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+1"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 116,
+          "array": [],
+          "dictionary": [
+            [
+              "rare",
+              true
+            ],
+            [
+              "normal",
+              true
+            ],
+            [
+              "advanced",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 117,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "황금알"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/13jungsu.png"
+            ],
+            [
+              "id",
+              "13"
+            ],
+            [
+              "source",
+              "Spawn"
+            ],
+            [
+              "effect",
+              "흡수될 시 {essence.png} +1~5"
+            ]
+          ]
+        },
+        {
+          "constant_index": 118,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+5"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 119,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+4"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 120,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+3"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 121,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+2"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 122,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+1"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 124,
+          "array": [],
+          "dictionary": [
+            [
+              "rare",
+              true
+            ],
+            [
+              "normal",
+              true
+            ],
+            [
+              "advanced",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 125,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "도시락"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/12concentrate.png"
+            ],
+            [
+              "id",
+              "12"
+            ],
+            [
+              "source",
+              "Spawn"
+            ],
+            [
+              "effect",
+              "흡수될 시 흡수 LV +1~5"
+            ]
+          ]
+        },
+        {
+          "constant_index": 126,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+8%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 127,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+7%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 128,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+6%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 129,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+5%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 130,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+4%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 131,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "name",
+              "혈전"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/11allydeath.png"
+            ],
+            [
+              "id",
+              "11"
+            ],
+            [
+              "initiallyUnlocked",
+              false
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "쓰러진 아군 1명당 {atk.png} +4~8%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 132,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+7%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 133,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+6%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 134,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+5%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 135,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+4%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 136,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+3%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 137,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "name",
+              "전투 고조"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/10battlefervor.png"
+            ],
+            [
+              "id",
+              "10"
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "첫 교전 후 2초마다 {atk.png} +3~7% (최대 5중첩)"
+            ]
+          ]
+        },
+        {
+          "constant_index": 138,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+45%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 139,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+40%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 140,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+35%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 141,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+30%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 142,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+25%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 143,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "name",
+              "피의 사투"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/09bloodrage.png"
+            ],
+            [
+              "id",
+              "09"
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "잃은 HP 비례 {atk.png} 최대 +25~45%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 144,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+32%"
+            ],
+            [
+              "chance",
+              0.05
+            ],
+            [
+              "dmgTaken",
+              "+18%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 145,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+29%"
+            ],
+            [
+              "chance",
+              0.12
+            ],
+            [
+              "dmgTaken",
+              "+16%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 146,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+26%"
+            ],
+            [
+              "chance",
+              0.18
+            ],
+            [
+              "dmgTaken",
+              "+14%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 147,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+22%"
+            ],
+            [
+              "chance",
+              0.25
+            ],
+            [
+              "dmgTaken",
+              "+12%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 148,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+18%"
+            ],
+            [
+              "chance",
+              0.4
+            ],
+            [
+              "dmgTaken",
+              "+10%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 149,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "name",
+              "광기"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/08berserk.png"
+            ],
+            [
+              "id",
+              "08"
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "{atk.png} +18~32% / 받는 피해 +10~18%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 150,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "1회"
+            ],
+            [
+              "chance",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 151,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "불굴"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/07survive.png"
+            ],
+            [
+              "id",
+              "07"
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "사망시 {hp.png} 1로 한번 1초간 생존"
+            ]
+          ]
+        },
+        {
+          "constant_index": 152,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+35%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 153,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+30%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 154,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+25%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 155,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+20%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 156,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+15%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 157,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "rare"
+            ],
+            [
+              "name",
+              "처치 가속"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/06killhaste.png"
+            ],
+            [
+              "id",
+              "06"
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "적 처치 시 5초간 {aspd.png} +15~35%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 158,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+24%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 159,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+21%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 160,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+18%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 161,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+15%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 162,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+12%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 163,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "마무리 일격"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/05lasthit.png"
+            ],
+            [
+              "id",
+              "05"
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "마지막 적 피해 {atk.png} +12~24%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 164,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+120%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 165,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+105%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 166,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+90%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 167,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+75%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 168,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+60%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 169,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "개시 일격"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/04firsthit.png"
+            ],
+            [
+              "id",
+              "04"
+            ],
+            [
+              "source",
+              "Both"
+            ],
+            [
+              "effect",
+              "첫 공격 피해 {atk.png} +60~120%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 170,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+8%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 171,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+7%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 172,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+6%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 173,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+5%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 174,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+4%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 175,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "반사 신경"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/03aspdup.png"
+            ],
+            [
+              "id",
+              "03"
+            ],
+            [
+              "source",
+              "Spawn"
+            ],
+            [
+              "effect",
+              "{aspd.png} +4~8%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 176,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+12%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 177,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+11%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 178,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+10%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 179,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+9%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 180,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+8%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 181,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "생존 본능"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/02hpup.png"
+            ],
+            [
+              "id",
+              "02"
+            ],
+            [
+              "source",
+              "Spawn"
+            ],
+            [
+              "effect",
+              "{hp.png} +8~12%"
+            ]
+          ]
+        },
+        {
+          "constant_index": 183,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+10%"
+            ],
+            [
+              "chance",
+              0.05
+            ]
+          ]
+        },
+        {
+          "constant_index": 184,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+9%"
+            ],
+            [
+              "chance",
+              0.12
+            ]
+          ]
+        },
+        {
+          "constant_index": 185,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+8%"
+            ],
+            [
+              "chance",
+              0.18
+            ]
+          ]
+        },
+        {
+          "constant_index": 186,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+7%"
+            ],
+            [
+              "chance",
+              0.25
+            ]
+          ]
+        },
+        {
+          "constant_index": 187,
+          "array": [],
+          "dictionary": [
+            [
+              "value",
+              "+6%"
+            ],
+            [
+              "chance",
+              0.4
+            ]
+          ]
+        },
+        {
+          "constant_index": 188,
+          "array": [],
+          "dictionary": [
+            [
+              "rarity",
+              "common"
+            ],
+            [
+              "name",
+              "전투 본능"
+            ],
+            [
+              "icon",
+              "src/sprites/icons/randomoption/01attackup.png"
+            ],
+            [
+              "id",
+              "01"
+            ],
+            [
+              "source",
+              "Spawn"
+            ],
+            [
+              "effect",
+              "{atk.png} +6~10%"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "getNextThreshold": {
+    "_lua_type": "function"
+  },
+  "getMaxThreshold": {
+    "_lua_type": "function"
+  },
+  "getForClass": {
+    "_lua_type": "function"
+  },
+  "normalizeId": {
+    "_lua_type": "function"
+  },
+  "getSynergyDef": {
+    "_lua_type": "function"
+  },
+  "getThresholds": {
+    "_lua_type": "function"
+  },
+  "getUnitTypeKey": {
+    "_lua_type": "function"
+  },
+  "getForUnit": {
+    "_lua_type": "function"
+  },
+  "ids": [
+    "empire",
+    "outlaw",
+    "forest",
+    "tribe",
+    "abyss",
+    "celestial",
+    "arcane",
+    "undead",
+    "holy",
+    "engineer"
+  ],
+  "getIconPath": {
+    "_lua_type": "function"
+  },
+  "getName": {
+    "_lua_type": "function"
+  },
+  "apply": {
+    "_lua_type": "function"
+  },
+  "countUniqueTypes": {
+    "_lua_type": "function"
+  },
+  "getForChoice": {
+    "_lua_type": "function"
+  },
+  "getSynergyValue": {
+    "_lua_type": "function"
+  },
+  "byClass": {
+    "염투사": "arcane",
+    "플레어": "arcane",
+    "화령술사": "arcane",
+    "샐러맨더": "arcane",
+    "서리칼날": "arcane",
+    "빙결여제": "arcane",
+    "예지술사": "arcane",
+    "예언자": "arcane",
+    "페이즈": "arcane",
+    "크로노워커": "arcane",
+    "월광사제": "celestial",
+    "초승달 여왕": "celestial",
+    "큐피드": "celestial",
+    "세라프": "celestial",
+    "천공병": "celestial",
+    "발키리": "celestial",
+    "대천사": "celestial",
+    "도미니온": "celestial",
+    "마검사": "abyss",
+    "게이즈": "abyss",
+    "암검사": "abyss",
+    "이클립스": "engineer",
+    "은빛사수": "engineer",
+    "폭파대장": "engineer",
+    "척탄병": "engineer",
+    "프랑켄슈타인": "engineer",
+    "빅터": "engineer",
+    "성배기사": "holy",
+    "백기사": "holy",
+    "엘프 기병": "forest",
+    "하이 엘프 기병": "forest",
+    "랜스마스터": "empire",
+    "창술사": "empire",
+    "윙드 후사르": "empire",
+    "후사르": "empire",
+    "스파르타": "empire",
+    "고대 창병": "empire",
+    "검황": "empire",
+    "황제": "empire",
+    "중기병": "empire",
+    "MiniHorseMan03": "empire",
+    "돌격병": "empire",
+    "근위병": "empire",
+    "MiniSpearMan03": "empire",
+    "창위병": "empire",
+    "엔트": "forest",
+    "엔트로드": "forest",
+    "MiniArcherMan03": "empire",
+    "석궁수": "empire",
+    "MiniArcherMan02": "empire",
+    "기사": "empire",
+    "MiniSwordMan03": "empire",
+    "병사": "empire",
+    "MiniSwordMan02": "empire",
+    "수정술사": "forest",
+    "운디네": "forest",
+    "실반": "forest",
+    "숲의 심장": "forest",
+    "마그누스": "abyss",
+    "암흑사수": "abyss",
+    "레이븐": "abyss",
+    "흑위병": "abyss",
+    "처형자": "abyss",
+    "심연술사": "abyss",
+    "아크메이지": "abyss",
+    "리퍼": "abyss",
+    "소울리퍼": "abyss",
+    "타락천사": "abyss",
+    "파멸의 천사": "abyss",
+    "순찰자": "tribe",
+    "명사수": "tribe",
+    "주술사": "tribe",
+    "대주술사": "tribe",
+    "사수 병사": "tribe",
+    "바그": "tribe",
+    "바이킹": "tribe",
+    "바바리안": "tribe",
+    "야생법사": "tribe",
+    "원시법사": "tribe",
+    "야만 기병": "tribe",
+    "광폭 기병": "tribe",
+    "초원 기병": "tribe",
+    "켄타로우스": "tribe",
+    "켄타우로스": "tribe",
+    "엘프병사": "forest",
+    "엘프 병사": "forest",
+    "엘프기사": "forest",
+    "엘프 기사": "forest",
+    "엘프궁수": "forest",
+    "엘프 궁수": "forest",
+    "하이 엘프": "forest",
+    "엘프 보병": "forest",
+    "하이 엘프 보병": "forest",
+    "엘프법사": "forest",
+    "엘프 법사": "forest",
+    "엘프 현자": "forest",
+    "해적": "outlaw",
+    "해적대장": "outlaw",
+    "해적왕": "outlaw",
+    "약탈자": "outlaw",
+    "무법자": "outlaw",
+    "도끼 기병": "outlaw",
+    "무법 기병": "outlaw",
+    "베테랑": "outlaw",
+    "장군": "outlaw",
+    "레인저": "outlaw",
+    "데드아이": "outlaw",
+    "화포수": "outlaw",
+    "캐노니어": "outlaw",
+    "투기 창병": "outlaw",
+    "글래디에이터": "outlaw",
+    "치유술사": "holy",
+    "대사제": "holy",
+    "성기사": "holy",
+    "템플러": "holy",
+    "RarePaladin": "holy",
+    "팔라딘": "holy",
+    "심판관": "holy",
+    "장궁병": "empire",
+    "MiniSpearMan02": "empire",
+    "환영사수": "undead",
+    "미라지": "undead",
+    "망령병": "undead",
+    "SpearRevenant": "undead",
+    "흑마법사": "undead",
+    "워록": "undead",
+    "나이트메어": "undead",
+    "아포칼립스": "undead",
+    "LegendarySpecter": "undead",
+    "스펙터": "undead",
+    "CrownRevenant": "undead",
+    "레버넌트": "undead",
+    "듀라한": "undead",
+    "팬텀": "undead",
+    "리치": "undead",
+    "리치로드": "undead"
+  },
+  "getTierProgress": {
+    "_lua_type": "function"
+  },
+  "getSynergyTooltip": {
+    "_lua_type": "function"
+  },
+  "isEnabled": {
+    "_lua_type": "function"
+  }
+}

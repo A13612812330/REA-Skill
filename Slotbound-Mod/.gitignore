@@ -1,0 +1,30 @@
+# Local dependencies and downloaded tools.
+/cases/slotbound-demo/tools/vendor/
+/cases/slotbound-demo/tools/luajit-decompiler/
+/cases/slotbound-demo/tools/luajit-decompiler-v2-source/
+/cases/slotbound-demo/tools/v2/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Duplicate archives and previous decompiler attempts.
+/cases/slotbound-demo/extracted/content.bin
+/cases/slotbound-demo/decompiled/
+/cases/slotbound-demo/decompiled-partial/
+/cases/slotbound-demo/decompiled-alternative/
+/cases/slotbound-demo/decompiled-v2/
+/cases/slotbound-demo/analysis/decompiler-logs/
+
+# Machine-specific or sensitive files must never enter this repository.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.exe
+*.dll
+*.dmp
+Thumbs.db
+.DS_Store

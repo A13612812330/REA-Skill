@@ -1,0 +1,654 @@
+{
+  "counts": {
+    "decompiled": 47,
+    "failed": 5,
+    "partial": 3
+  },
+  "files": [
+    {
+      "path": "conf.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\conf.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "main.lua",
+      "status": "failed",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 1,
+          "log": "analysis\\decompiler-logs\\main.lua.log"
+        },
+        {
+          "partial_mode": true,
+          "returncode": -1,
+          "log": "analysis\\decompiler-logs\\main.lua.partial.log"
+        }
+      ]
+    },
+    {
+      "path": "src/audio/device_router.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__audio__device_router.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/audio/procedural_audio.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__audio__procedural_audio.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/audio/runtime_bootstrap.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__audio__runtime_bootstrap.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/data/asset2.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__data__asset2.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/data/assets.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__data__assets.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/data/awakening.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__data__awakening.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/data/constants.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__data__constants.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/data/faction.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__data__faction.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/data/font_resolver.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__data__font_resolver.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/data/language.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__data__language.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/data/randomoption.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__data__randomoption.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/data/safe_lua_table.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__data__safe_lua_table.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/data/skill.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__data__skill.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/alpha_ray_glow.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__alpha_ray_glow.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/awakening.lua",
+      "status": "failed",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 1,
+          "log": "analysis\\decompiler-logs\\src__game__awakening.lua.log"
+        },
+        {
+          "partial_mode": true,
+          "returncode": 1,
+          "log": "analysis\\decompiler-logs\\src__game__awakening.lua.partial.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/battlefield.lua",
+      "status": "failed",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": -1,
+          "log": "analysis\\decompiler-logs\\src__game__battlefield.lua.log"
+        },
+        {
+          "partial_mode": true,
+          "returncode": -1,
+          "log": "analysis\\decompiler-logs\\src__game__battlefield.lua.partial.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/bossSkill.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__bossSkill.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/combat.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__combat.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/cores.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__cores.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/enemy_skills.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__enemy_skills.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/item.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__item.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/luck.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__luck.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/postprocess.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__postprocess.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/power.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__power.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/projectiles.lua",
+      "status": "partial",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 1,
+          "log": "analysis\\decompiler-logs\\src__game__projectiles.lua.log"
+        },
+        {
+          "partial_mode": true,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__projectiles.lua.partial.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/promotion.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__promotion.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/promotion_stats.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__promotion_stats.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/quest.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__quest.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/run_save.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__run_save.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/sim.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__sim.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/slot.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__slot.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/stone.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__stone.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/game/unit_abilities.lua",
+      "status": "partial",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 1,
+          "log": "analysis\\decompiler-logs\\src__game__unit_abilities.lua.log"
+        },
+        {
+          "partial_mode": true,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__game__unit_abilities.lua.partial.log"
+        }
+      ]
+    },
+    {
+      "path": "src/platform_window.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__platform_window.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/presentation_pacer.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__presentation_pacer.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/release_integrity.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__release_integrity.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/release_package.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__release_package.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/runtime_diagnostics.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__runtime_diagnostics.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/save.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__save.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/config.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__config.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/controller.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__controller.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/effects.lua",
+      "status": "failed",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 1,
+          "log": "analysis\\decompiler-logs\\src__ui__effects.lua.log"
+        },
+        {
+          "partial_mode": true,
+          "returncode": 1,
+          "log": "analysis\\decompiler-logs\\src__ui__effects.lua.partial.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/flow.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__flow.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/imprint.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__imprint.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/mainmenu.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__mainmenu.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/render.lua",
+      "status": "partial",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 1,
+          "log": "analysis\\decompiler-logs\\src__ui__render.lua.log"
+        },
+        {
+          "partial_mode": true,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__render.lua.partial.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/render2.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__render2.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/screen.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__screen.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/tooltip.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__tooltip.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/tutorial.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__tutorial.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/upgrade.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\src__ui__upgrade.lua.log"
+        }
+      ]
+    },
+    {
+      "path": "src/ui/widgets.lua",
+      "status": "failed",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 1,
+          "log": "analysis\\decompiler-logs\\src__ui__widgets.lua.log"
+        },
+        {
+          "partial_mode": true,
+          "returncode": 1,
+          "log": "analysis\\decompiler-logs\\src__ui__widgets.lua.partial.log"
+        }
+      ]
+    },
+    {
+      "path": "startup.lua",
+      "status": "decompiled",
+      "attempts": [
+        {
+          "partial_mode": false,
+          "returncode": 0,
+          "log": "analysis\\decompiler-logs\\startup.lua.log"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1239 @@
+{
+  "file": "src/game/luck.lua",
+  "prototypes": [
+    {
+      "prototype": "root/3",
+      "argument_count": 1,
+      "instruction_count": 64,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "currentWaveWon"
+        },
+        {
+          "constant_index": 1,
+          "value": "currentWaveHadSpin"
+        },
+        {
+          "constant_index": 2,
+          "value": "currentWave"
+        },
+        {
+          "constant_index": 3,
+          "value": "guaranteePending"
+        },
+        {
+          "constant_index": 4,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 5,
+          "value": "floor"
+        },
+        {
+          "constant_index": 6,
+          "value": "min"
+        },
+        {
+          "constant_index": 7,
+          "value": "max"
+        },
+        {
+          "constant_index": 8,
+          "value": "math"
+        },
+        {
+          "constant_index": 9,
+          "value": "missedWaves"
+        },
+        {
+          "constant_index": 10,
+          "value": "table"
+        },
+        {
+          "constant_index": 11,
+          "value": "type"
+        },
+        {
+          "constant_index": 12,
+          "value": "reset"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 0,
+      "instruction_count": 49,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "currentWaveWon"
+        },
+        {
+          "constant_index": 1,
+          "value": "currentWaveHadSpin"
+        },
+        {
+          "constant_index": 2,
+          "value": "currentWave"
+        },
+        {
+          "constant_index": 3,
+          "value": "guaranteePending"
+        },
+        {
+          "constant_index": 4,
+          "value": "missedWaves"
+        },
+        {
+          "constant_index": 5,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 6,
+          "value": "max"
+        },
+        {
+          "constant_index": 7,
+          "value": "math"
+        },
+        {
+          "constant_index": 8,
+          "value": "missedWavesRequired"
+        },
+        {
+          "constant_index": 9,
+          "value": "minWave"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 10,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/5",
+      "argument_count": 1,
+      "instruction_count": 84,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "love"
+        },
+        {
+          "constant_index": 1,
+          "value": "random"
+        },
+        {
+          "constant_index": 2,
+          "value": "futureSpins"
+        },
+        {
+          "constant_index": 3,
+          "value": "max"
+        },
+        {
+          "constant_index": 4,
+          "value": "alreadyForced"
+        },
+        {
+          "constant_index": 5,
+          "value": "excluded"
+        },
+        {
+          "constant_index": 6,
+          "value": "guaranteePending"
+        },
+        {
+          "constant_index": 7,
+          "value": "waveId"
+        },
+        {
+          "constant_index": 8,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 9,
+          "value": "floor"
+        },
+        {
+          "constant_index": 10,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/7",
+      "argument_count": 1,
+      "instruction_count": 81,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "max"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "guaranteePending"
+        },
+        {
+          "constant_index": 3,
+          "value": "missedWaves"
+        },
+        {
+          "constant_index": 4,
+          "value": "currentWaveWon"
+        },
+        {
+          "constant_index": 5,
+          "value": "currentWaveHadSpin"
+        },
+        {
+          "constant_index": 6,
+          "value": "currentWave"
+        },
+        {
+          "constant_index": 7,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 8,
+          "value": "floor"
+        },
+        {
+          "constant_index": 9,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/9",
+      "argument_count": 3,
+      "instruction_count": 40,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "guaranteePending"
+        },
+        {
+          "constant_index": 1,
+          "value": "missedWaves"
+        },
+        {
+          "constant_index": 2,
+          "value": "currentWaveWon"
+        },
+        {
+          "constant_index": 3,
+          "value": "currentWaveHadSpin"
+        },
+        {
+          "constant_index": 4,
+          "value": "currentWave"
+        },
+        {
+          "constant_index": 5,
+          "value": "exclude"
+        },
+        {
+          "constant_index": 6,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 7,
+          "value": "floor"
+        },
+        {
+          "constant_index": 8,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/11",
+      "argument_count": 0,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "guaranteePending"
+        },
+        {
+          "constant_index": 1,
+          "value": "missedWaves"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 0,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "currentWaveWon"
+        },
+        {
+          "constant_index": 1,
+          "value": "currentWaveHadSpin"
+        },
+        {
+          "constant_index": 2,
+          "value": "currentWave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/13",
+      "argument_count": 3,
+      "instruction_count": 96,
+      "numeric_constants": [
+        0.2274,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "naturalWins"
+        },
+        {
+          "constant_index": 1,
+          "value": "natural"
+        },
+        {
+          "constant_index": 2,
+          "value": "automaticCoreWins"
+        },
+        {
+          "constant_index": 3,
+          "value": "core"
+        },
+        {
+          "constant_index": 4,
+          "value": "nudgeWins"
+        },
+        {
+          "constant_index": 5,
+          "value": "telemetry"
+        },
+        {
+          "constant_index": 6,
+          "value": "nudge"
+        },
+        {
+          "constant_index": 7,
+          "value": "luckDebt"
+        },
+        {
+          "constant_index": 8,
+          "value": "paidLossStreak"
+        },
+        {
+          "constant_index": 9,
+          "value": "debtMax"
+        },
+        {
+          "constant_index": 10,
+          "value": "debtMin"
+        },
+        {
+          "constant_index": 11,
+          "value": "naturalWinProbability"
+        },
+        {
+          "constant_index": 12,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 13,
+          "value": "eligible"
+        },
+        {
+          "constant_index": 14,
+          "value": "finalized"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/15",
+      "argument_count": 1,
+      "instruction_count": 172,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "format"
+        },
+        {
+          "constant_index": 1,
+          "value": "[hidden-luck] %s streak=%d debt=%.4f symbol=%s line=%d before=%s after=%s"
+        },
+        {
+          "constant_index": 2,
+          "value": "print"
+        },
+        {
+          "constant_index": 3,
+          "value": "debugLogs"
+        },
+        {
+          "constant_index": 4,
+          "value": "correctionType"
+        },
+        {
+          "constant_index": 5,
+          "value": "afterGrid"
+        },
+        {
+          "constant_index": 6,
+          "value": "beforeGrid"
+        },
+        {
+          "constant_index": 7,
+          "value": "lineKind"
+        },
+        {
+          "constant_index": 8,
+          "value": "lineId"
+        },
+        {
+          "constant_index": 9,
+          "value": "symbol"
+        },
+        {
+          "constant_index": 10,
+          "value": "luckDebt"
+        },
+        {
+          "constant_index": 11,
+          "value": "prospectiveLuckDebt"
+        },
+        {
+          "constant_index": 12,
+          "value": "lossStreak"
+        },
+        {
+          "constant_index": 14,
+          "value": "prospectiveLossStreak"
+        },
+        {
+          "constant_index": 15,
+          "value": "lastCorrection"
+        },
+        {
+          "constant_index": 16,
+          "value": "longTermCorrections"
+        },
+        {
+          "constant_index": 17,
+          "value": "wave3Corrections"
+        },
+        {
+          "constant_index": 18,
+          "value": "wave2Corrections"
+        },
+        {
+          "constant_index": 19,
+          "value": "correctionWins"
+        },
+        {
+          "constant_index": 20,
+          "value": "totalCorrections"
+        },
+        {
+          "constant_index": 21,
+          "value": "earlyCorrectionUsedThisWave"
+        },
+        {
+          "constant_index": 22,
+          "value": "wave3"
+        },
+        {
+          "constant_index": 23,
+          "value": "wave2"
+        },
+        {
+          "constant_index": 24,
+          "value": "noCandidate"
+        },
+        {
+          "constant_index": 25,
+          "value": "chooseWeightedCorrectionCandidate"
+        },
+        {
+          "constant_index": 26,
+          "value": "protectedCells"
+        },
+        {
+          "constant_index": 27,
+          "value": "evaluate"
+        },
+        {
+          "constant_index": 28,
+          "value": "lines"
+        },
+        {
+          "constant_index": 29,
+          "value": "collectSingleCellCorrectionCandidates"
+        },
+        {
+          "constant_index": 30,
+          "value": "grid"
+        },
+        {
+          "constant_index": 31,
+          "value": "probabilityMiss"
+        },
+        {
+          "constant_index": 32,
+          "value": "telemetry"
+        },
+        {
+          "constant_index": 33,
+          "value": "math"
+        },
+        {
+          "constant_index": 34,
+          "value": "random"
+        },
+        {
+          "constant_index": 35,
+          "value": "getCorrectionChance"
+        },
+        {
+          "constant_index": 36,
+          "value": "context"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 13,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/17",
+      "argument_count": 2,
+      "instruction_count": 123,
+      "numeric_constants": [
+        0,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "symbol"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "max"
+        },
+        {
+          "constant_index": 4,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 5,
+          "value": "symbolWeights"
+        },
+        {
+          "constant_index": 6,
+          "value": "slot"
+        },
+        {
+          "constant_index": 7,
+          "value": "random"
+        },
+        {
+          "constant_index": 8,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/19",
+      "argument_count": 4,
+      "instruction_count": 144,
+      "numeric_constants": [
+        1,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "winSymbol"
+        },
+        {
+          "constant_index": 1,
+          "value": "grid"
+        },
+        {
+          "constant_index": 2,
+          "value": "lineKind"
+        },
+        {
+          "constant_index": 3,
+          "value": "lineId"
+        },
+        {
+          "constant_index": 4,
+          "value": "symbol"
+        },
+        {
+          "constant_index": 5,
+          "value": "from"
+        },
+        {
+          "constant_index": 6,
+          "value": "col"
+        },
+        {
+          "constant_index": 7,
+          "value": "row"
+        },
+        {
+          "constant_index": 9,
+          "value": ":"
+        },
+        {
+          "constant_index": 10,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 11,
+          "value": "Blank"
+        },
+        {
+          "constant_index": 12,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 13,
+          "value": "ipairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 8,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/21",
+      "argument_count": 1,
+      "instruction_count": 76,
+      "numeric_constants": [
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 1,
+          "value": "wave"
+        },
+        {
+          "constant_index": 2,
+          "value": "chances"
+        },
+        {
+          "constant_index": 3,
+          "value": "maxPermanentUnits"
+        },
+        {
+          "constant_index": 4,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 5,
+          "value": "permanentUnitsEarnedThisRun"
+        },
+        {
+          "constant_index": 6,
+          "value": "earlyCorrectionUsedThisWave"
+        },
+        {
+          "constant_index": 7,
+          "value": "early"
+        },
+        {
+          "constant_index": 8,
+          "value": "prospectiveLossStreak"
+        },
+        {
+          "constant_index": 9,
+          "value": "waveId"
+        },
+        {
+          "constant_index": 10,
+          "value": "eligible"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/23",
+      "argument_count": 2,
+      "instruction_count": 63,
+      "numeric_constants": [
+        1,
+        0.2274
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "totalEligibleSpins"
+        },
+        {
+          "constant_index": 1,
+          "value": "prospectiveLuckDebt"
+        },
+        {
+          "constant_index": 2,
+          "value": "naturalWinProbability"
+        },
+        {
+          "constant_index": 3,
+          "value": "luckDebt"
+        },
+        {
+          "constant_index": 4,
+          "value": "prospectiveLossStreak"
+        },
+        {
+          "constant_index": 5,
+          "value": "paidLossStreak"
+        },
+        {
+          "constant_index": 6,
+          "value": "waveId"
+        },
+        {
+          "constant_index": 7,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 8,
+          "value": "floor"
+        },
+        {
+          "constant_index": 9,
+          "value": "max"
+        },
+        {
+          "constant_index": 10,
+          "value": "math"
+        },
+        {
+          "constant_index": 11,
+          "value": "eligible"
+        },
+        {
+          "constant_index": 13,
+          "value": "totalPaidSpins"
+        },
+        {
+          "constant_index": 14,
+          "value": "telemetry"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 12,
+          "array": [],
+          "dictionary": [
+            [
+              "finalized",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/25",
+      "argument_count": 1,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "permanentUnitsEarnedThisRun"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 2,
+          "value": "floor"
+        },
+        {
+          "constant_index": 3,
+          "value": "max"
+        },
+        {
+          "constant_index": 4,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/27",
+      "argument_count": 0,
+      "instruction_count": 8,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "luckDebt"
+        },
+        {
+          "constant_index": 1,
+          "value": "paidLossStreak"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/29",
+      "argument_count": 0,
+      "instruction_count": 5,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "earlyCorrectionUsedThisWave"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/31",
+      "argument_count": 1,
+      "instruction_count": 50,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "telemetry"
+        },
+        {
+          "constant_index": 1,
+          "value": "thread"
+        },
+        {
+          "constant_index": 2,
+          "value": "userdata"
+        },
+        {
+          "constant_index": 3,
+          "value": "function"
+        },
+        {
+          "constant_index": 4,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 5,
+          "value": "table"
+        },
+        {
+          "constant_index": 6,
+          "value": "type"
+        },
+        {
+          "constant_index": 7,
+          "value": "reset"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/33",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/35",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "vertical"
+        },
+        {
+          "constant_index": 1,
+          "value": "diagonal"
+        },
+        {
+          "constant_index": 2,
+          "value": "horizontal"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/36",
+      "argument_count": 1,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "/"
+        },
+        {
+          "constant_index": 1,
+          "value": ","
+        },
+        {
+          "constant_index": 2,
+          "value": "concat"
+        },
+        {
+          "constant_index": 3,
+          "value": "table"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/37",
+      "argument_count": 1,
+      "instruction_count": 28,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "\u001f"
+        },
+        {
+          "constant_index": 1,
+          "value": "concat"
+        },
+        {
+          "constant_index": 2,
+          "value": "table"
+        },
+        {
+          "constant_index": 3,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/38",
+      "argument_count": 1,
+      "instruction_count": 23,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/39",
+      "argument_count": 3,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/40",
+      "argument_count": 0,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hiddenLuck"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/41",
+      "argument_count": 0,
+      "instruction_count": 8,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "telemetry"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [],
+          "dictionary": [
+            [
+              "earlyCorrectionUsedThisWave",
+              false
+            ],
+            [
+              "luckDebt",
+              0
+            ],
+            [
+              "paidLossStreak",
+              0
+            ],
+            [
+              "totalCorrections",
+              0
+            ],
+            [
+              "totalEligibleSpins",
+              0
+            ],
+            [
+              "permanentUnitsEarnedThisRun",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/43",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [],
+          "dictionary": [
+            [
+              "probabilityMiss",
+              0
+            ],
+            [
+              "noCandidate",
+              0
+            ],
+            [
+              "longTermCorrections",
+              0
+            ],
+            [
+              "wave3Corrections",
+              0
+            ],
+            [
+              "wave2Corrections",
+              0
+            ],
+            [
+              "correctionWins",
+              0
+            ],
+            [
+              "nudgeWins",
+              0
+            ],
+            [
+              "automaticCoreWins",
+              0
+            ],
+            [
+              "naturalWins",
+              0
+            ],
+            [
+              "totalEligibleSpins",
+              0
+            ],
+            [
+              "totalPaidSpins",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 71,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pity"
+        },
+        {
+          "constant_index": 1,
+          "value": "hidden"
+        },
+        {
+          "constant_index": 6,
+          "value": "shouldForceSpin"
+        },
+        {
+          "constant_index": 8,
+          "value": "finishWave"
+        },
+        {
+          "constant_index": 10,
+          "value": "noteSpinResult"
+        },
+        {
+          "constant_index": 14,
+          "value": "finalizePaidSpinOutcome"
+        },
+        {
+          "constant_index": 16,
+          "value": "tryCorrection"
+        },
+        {
+          "constant_index": 18,
+          "value": "chooseWeightedCorrectionCandidate"
+        },
+        {
+          "constant_index": 20,
+          "value": "collectSingleCellCorrectionCandidates"
+        },
+        {
+          "constant_index": 22,
+          "value": "getCorrectionChance"
+        },
+        {
+          "constant_index": 24,
+          "value": "beginPaidSpin"
+        },
+        {
+          "constant_index": 26,
+          "value": "recordPermanentUnits"
+        },
+        {
+          "constant_index": 28,
+          "value": "resetDebtAfterWave1Guarantee"
+        },
+        {
+          "constant_index": 30,
+          "value": "onWaveStart"
+        },
+        {
+          "constant_index": 32,
+          "value": "importState"
+        },
+        {
+          "constant_index": 34,
+          "value": "getState"
+        },
+        {
+          "constant_index": 42,
+          "value": "reset"
+        },
+        {
+          "constant_index": 46,
+          "value": "src.data.constants"
+        },
+        {
+          "constant_index": 47,
+          "value": "require"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 44,
+          "array": [],
+          "dictionary": [
+            [
+              "J",
+              true
+            ],
+            [
+              "Joker",
+              true
+            ]
+          ]
+        },
+        {
+          "constant_index": 45,
+          "array": [
+            null,
+            "W",
+            "A",
+            "S",
+            "M",
+            "H",
+            "D"
+          ],
+          "dictionary": []
+        }
+      ]
+    }
+  ]
+}

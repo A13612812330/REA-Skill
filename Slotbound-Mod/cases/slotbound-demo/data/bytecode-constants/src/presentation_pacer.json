@@ -1,0 +1,687 @@
+{
+  "file": "src/presentation_pacer.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 1,
+      "instruction_count": 36,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "refresh"
+        },
+        {
+          "constant_index": 1,
+          "value": "love"
+        },
+        {
+          "constant_index": 2,
+          "value": "loveApi"
+        },
+        {
+          "constant_index": 3,
+          "value": "installed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 2,
+      "instruction_count": 2,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/6",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/8",
+      "argument_count": 0,
+      "instruction_count": 54,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "presentSeconds"
+        },
+        {
+          "constant_index": 1,
+          "value": "lastPresentSeconds"
+        },
+        {
+          "constant_index": 2,
+          "value": "drawSeconds"
+        },
+        {
+          "constant_index": 3,
+          "value": "lastDrawSeconds"
+        },
+        {
+          "constant_index": 4,
+          "value": "updateSeconds"
+        },
+        {
+          "constant_index": 5,
+          "value": "lastUpdateSeconds"
+        },
+        {
+          "constant_index": 6,
+          "value": "eventSeconds"
+        },
+        {
+          "constant_index": 7,
+          "value": "lastEventSeconds"
+        },
+        {
+          "constant_index": 8,
+          "value": "targetHz"
+        },
+        {
+          "constant_index": 9,
+          "value": "lastTargetHz"
+        },
+        {
+          "constant_index": 10,
+          "value": "vsync"
+        },
+        {
+          "constant_index": 11,
+          "value": "hidden"
+        },
+        {
+          "constant_index": 12,
+          "value": "focused"
+        },
+        {
+          "constant_index": 13,
+          "value": "foregroundRefreshHz"
+        },
+        {
+          "constant_index": 14,
+          "value": "presentSuppressed"
+        },
+        {
+          "constant_index": 15,
+          "value": "lastSleepSeconds"
+        },
+        {
+          "constant_index": 16,
+          "value": "refreshHz"
+        },
+        {
+          "constant_index": 17,
+          "value": "active"
+        },
+        {
+          "constant_index": 18,
+          "value": "love"
+        },
+        {
+          "constant_index": 19,
+          "value": "loveApi"
+        },
+        {
+          "constant_index": 21,
+          "value": "installed"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 20,
+          "array": [],
+          "dictionary": [
+            [
+              "fallbackActivated",
+              false
+            ],
+            [
+              "knownBlockedRenderer",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/10/0/0",
+      "argument_count": 0,
+      "instruction_count": 157,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "lastSleepSeconds"
+        },
+        {
+          "constant_index": 1,
+          "value": "lastTargetHz"
+        },
+        {
+          "constant_index": 2,
+          "value": "lastPresentSeconds"
+        },
+        {
+          "constant_index": 3,
+          "value": "lastDrawSeconds"
+        },
+        {
+          "constant_index": 4,
+          "value": "lastUpdateSeconds"
+        },
+        {
+          "constant_index": 5,
+          "value": "lastEventSeconds"
+        },
+        {
+          "constant_index": 6,
+          "value": "present"
+        },
+        {
+          "constant_index": 7,
+          "value": "draw"
+        },
+        {
+          "constant_index": 8,
+          "value": "getBackgroundColor"
+        },
+        {
+          "constant_index": 9,
+          "value": "clear"
+        },
+        {
+          "constant_index": 10,
+          "value": "origin"
+        },
+        {
+          "constant_index": 11,
+          "value": "isActive"
+        },
+        {
+          "constant_index": 12,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 13,
+          "value": "presentSuppressed"
+        },
+        {
+          "constant_index": 14,
+          "value": "update"
+        },
+        {
+          "constant_index": 15,
+          "value": "step"
+        },
+        {
+          "constant_index": 16,
+          "value": "timer"
+        },
+        {
+          "constant_index": 17,
+          "value": "handlers"
+        },
+        {
+          "constant_index": 18,
+          "value": "quit"
+        },
+        {
+          "constant_index": 19,
+          "value": "poll"
+        },
+        {
+          "constant_index": 20,
+          "value": "pump"
+        },
+        {
+          "constant_index": 21,
+          "value": "event"
+        },
+        {
+          "constant_index": 22,
+          "value": "hidden"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/10/0",
+      "argument_count": 0,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "step"
+        },
+        {
+          "constant_index": 2,
+          "value": "timer"
+        },
+        {
+          "constant_index": 3,
+          "value": "parseGameArguments"
+        },
+        {
+          "constant_index": 4,
+          "value": "arg"
+        },
+        {
+          "constant_index": 5,
+          "value": "load"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/10",
+      "argument_count": 1,
+      "instruction_count": 5,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "run"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/11",
+      "argument_count": 4,
+      "instruction_count": 64,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "lastSleepSeconds"
+        },
+        {
+          "constant_index": 4,
+          "value": "sleep"
+        },
+        {
+          "constant_index": 5,
+          "value": "timer"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 1,
+      "instruction_count": 40,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "refreshHz"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "vsync"
+        },
+        {
+          "constant_index": 5,
+          "value": "hidden"
+        },
+        {
+          "constant_index": 6,
+          "value": "focused"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/13",
+      "argument_count": 1,
+      "instruction_count": 59,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "vsync"
+        },
+        {
+          "constant_index": 1,
+          "value": "isVisible"
+        },
+        {
+          "constant_index": 2,
+          "value": "isMinimized"
+        },
+        {
+          "constant_index": 3,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 4,
+          "value": "hasFocus"
+        },
+        {
+          "constant_index": 5,
+          "value": "window"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20",
+      "argument_count": 2,
+      "instruction_count": 28,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "0"
+        },
+        {
+          "constant_index": 1,
+          "value": ""
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "getenv"
+        },
+        {
+          "constant_index": 4,
+          "value": "os"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/21",
+      "argument_count": 0,
+      "instruction_count": 81,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "boolean"
+        },
+        {
+          "constant_index": 1,
+          "value": "getVSync"
+        },
+        {
+          "constant_index": 2,
+          "value": "vsync"
+        },
+        {
+          "constant_index": 3,
+          "value": "refreshHz"
+        },
+        {
+          "constant_index": 4,
+          "value": "refreshrate"
+        },
+        {
+          "constant_index": 5,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 6,
+          "value": "table"
+        },
+        {
+          "constant_index": 7,
+          "value": "type"
+        },
+        {
+          "constant_index": 8,
+          "value": "getMode"
+        },
+        {
+          "constant_index": 9,
+          "value": "window"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        },
+        {
+          "constant_index": 11,
+          "value": "loveApi"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/23",
+      "argument_count": 1,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "clock"
+        },
+        {
+          "constant_index": 1,
+          "value": "os"
+        },
+        {
+          "constant_index": 2,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 3,
+          "value": "timer"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24",
+      "argument_count": 1,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getOS"
+        },
+        {
+          "constant_index": 1,
+          "value": "system"
+        },
+        {
+          "constant_index": 2,
+          "value": "Windows"
+        },
+        {
+          "constant_index": 3,
+          "value": "os"
+        },
+        {
+          "constant_index": 4,
+          "value": "jit"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/25",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 1,
+          "value": "function"
+        },
+        {
+          "constant_index": 2,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 57,
+      "numeric_constants": [
+        0.001
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "install"
+        },
+        {
+          "constant_index": 3,
+          "value": "adjustVSyncForMode"
+        },
+        {
+          "constant_index": 5,
+          "value": "getHiddenRefreshHz"
+        },
+        {
+          "constant_index": 7,
+          "value": "getBackgroundRefreshHz"
+        },
+        {
+          "constant_index": 9,
+          "value": "getStatus"
+        },
+        {
+          "constant_index": 14,
+          "value": "SLOTBOUND_PACER_HIDDEN_HZ"
+        },
+        {
+          "constant_index": 15,
+          "value": "SLOTBOUND_PACER_BG_HZ"
+        },
+        {
+          "constant_index": 16,
+          "value": "1"
+        },
+        {
+          "constant_index": 17,
+          "value": "SLOTBOUND_PACER_LEGACY_SLEEP"
+        },
+        {
+          "constant_index": 18,
+          "value": "getenv"
+        },
+        {
+          "constant_index": 19,
+          "value": "os"
+        },
+        {
+          "constant_index": 22,
+          "value": "refresh"
+        },
+        {
+          "constant_index": 26,
+          "value": "lastTargetHz"
+        },
+        {
+          "constant_index": 27,
+          "value": "refreshHz"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 28,
+          "array": [],
+          "dictionary": [
+            [
+              "hidden",
+              false
+            ],
+            [
+              "focused",
+              true
+            ],
+            [
+              "presentSuppressed",
+              false
+            ],
+            [
+              "vsync",
+              true
+            ],
+            [
+              "lastPresentSeconds",
+              0
+            ],
+            [
+              "installed",
+              false
+            ],
+            [
+              "lastUpdateSeconds",
+              0
+            ],
+            [
+              "lastDrawSeconds",
+              0
+            ],
+            [
+              "lastSleepSeconds",
+              0
+            ],
+            [
+              "lastEventSeconds",
+              0
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

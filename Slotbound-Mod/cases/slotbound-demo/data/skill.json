@@ -1,0 +1,4849 @@
+{
+  "isTimedAttackSkill": {
+    "_lua_type": "function"
+  },
+  "getSkillsForUnit": {
+    "_lua_type": "function"
+  },
+  "definitions": {
+    "frenzied_assault": {
+      "activationType": "active",
+      "category": "attack_disrupt_buff",
+      "nameEn": "Frenzied Assault",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 3,
+        "kind": "FrenziedAssault",
+        "showBarInBattle": true,
+        "dmgMul": 1.8,
+        "stunDur": 0.5,
+        "aspdBonus": 0.2,
+        "duration": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "광폭 기병",
+      "owner": "광폭 기병",
+      "icon": "src/sprites/icons/skills/38FrenziedAssault.png",
+      "description": "적을 강하게 공격해 {atk.png} 180% 피해를 입히고, 짧게 기절시킨 뒤 2초 동안 자신의 {aspd.png} +20%를 얻습니다.",
+      "id": "frenzied_assault",
+      "duration": 2,
+      "target": "enemy",
+      "cooldown": 5,
+      "name": "광폭 강습"
+    },
+    "ferret_express": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "support",
+      "nameEn": "Ferret Express",
+      "runtime": {
+        "maxTargets": 2,
+        "cooldownReduction": 2,
+        "minRank": 3,
+        "kind": "FerretCourier",
+        "showBarInBattle": true,
+        "animationSpeed": 0.12,
+        "hpBarLiftBars": 1,
+        "activeAnim": "attack2",
+        "alwaysShowBarInBattle": true,
+        "duration": 0,
+        "releaseFrame": 3,
+        "ringmasterAnimationSpeed": 0.16,
+        "ringmasterEmergenceFrame": 7,
+        "cooldown": 8
+      },
+      "ownerKey": "Ringmaster",
+      "owner": "서커스 단장",
+      "icon": "src/sprites/icons/skills/51FerretExpress.png",
+      "description": "페럿이 아군 최대 2명에게 카드를 배달해 남은 스킬 쿨타임을 2초 줄입니다.",
+      "id": "ferret_express",
+      "duration": 0,
+      "target": "ally",
+      "cooldown": 8,
+      "name": "페럿 특급배달"
+    },
+    "twilight_barrage": {
+      "maxTargets": 4,
+      "maxArrows": 5,
+      "category": "attack_disrupt",
+      "nameEn": "Twilight Barrage",
+      "runtime": {
+        "maxTargets": 4,
+        "kind": "ArrowRain",
+        "showBarInBattle": true,
+        "height": 135,
+        "suppressAttackWhileActive": true,
+        "style": "twilight",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "minRank": 3,
+        "dmgMul": 0.6,
+        "activeAnim": "attack3",
+        "arrows": 5,
+        "releaseFrame": 12,
+        "gap": 0.16,
+        "animationSpeed": 0.09,
+        "fall": 0.55,
+        "cooldown": 8
+      },
+      "ownerKey": "레이븐",
+      "owner": "레이븐",
+      "icon": "src/sprites/icons/skills/81TwilightBarrage.png",
+      "description": "화살 폭우를 쏟아내 적들을 밀어내고,\n한 발마다 {atk.png} 60% 피해를 입힙니다.",
+      "durationText": "낙하 종료까지",
+      "id": "twilight_barrage",
+      "duration": 0,
+      "target": "enemy",
+      "activationType": "active",
+      "cooldown": 8,
+      "name": "황혼 폭우"
+    },
+    "assault_guard": {
+      "activationType": "active",
+      "category": "attack_defense",
+      "nameEn": "Assault Guard",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "kind": "AssaultGuard",
+        "showBarInBattle": true,
+        "dmgMul": 1.3,
+        "damageReduction": 0.2,
+        "duration": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "엘프 기병",
+      "owner": "엘프 기병",
+      "icon": "src/sprites/icons/skills/35AssaultGuard.png",
+      "description": "적을 공격해 {atk.png} 130% 피해를 입히고, 2초 동안 받는 피해 -20%.",
+      "id": "assault_guard",
+      "duration": 2,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "강습 방어"
+    },
+    "ferret_courier": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "support",
+      "nameEn": "Ferret Courier",
+      "runtime": {
+        "maxTargets": 1,
+        "cooldownReduction": 2,
+        "minRank": 2,
+        "kind": "FerretCourier",
+        "showBarInBattle": true,
+        "animationSpeed": 0.12,
+        "hpBarLiftBars": 1,
+        "activeAnim": "attack2",
+        "alwaysShowBarInBattle": true,
+        "duration": 0,
+        "releaseFrame": 3,
+        "ringmasterAnimationSpeed": 0.16,
+        "ringmasterEmergenceFrame": 7,
+        "cooldown": 7
+      },
+      "ownerKey": "FerretTamer",
+      "owner": "페럿 조련사",
+      "icon": "src/sprites/icons/skills/49FerretCourier.png",
+      "description": "페럿이 아군 1명에게 카드를 배달해 남은 스킬 쿨타임을 2초 줄입니다.",
+      "id": "ferret_courier",
+      "duration": 0,
+      "target": "ally",
+      "cooldown": 7,
+      "name": "페럿 배달부"
+    },
+    "arrow_rain": {
+      "maxTargets": 3,
+      "maxArrows": 3,
+      "category": "attack_disrupt",
+      "nameEn": "Arrow Rain",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 2,
+        "kind": "ArrowRain",
+        "showBarInBattle": true,
+        "animationSpeed": 0.09,
+        "dmgMul": 0.7,
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "releaseFrame": 12,
+        "arrows": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "ownerKey": "암흑사수",
+      "owner": "암흑사수",
+      "icon": "src/sprites/icons/skills/80ArrowRain.png",
+      "description": "화살비를 차례로 떨어뜨려 적을 뒤로 밀어내고,\n한 발마다 {atk.png} 70% 피해를 입힙니다.",
+      "durationText": "낙하 종료까지",
+      "id": "arrow_rain",
+      "duration": 0,
+      "target": "enemy",
+      "activationType": "active",
+      "cooldown": 7,
+      "name": "화살비"
+    },
+    "binding_circle": {
+      "activationType": "active",
+      "category": "attack_bind",
+      "nameEn": "Binding Circle",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 3,
+        "kind": "BindingCircle",
+        "showBarInBattle": true,
+        "dmgMul": 0.9,
+        "duration": 1.2,
+        "hpBarLiftBars": 1,
+        "bindDur": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "엘프 현자",
+      "owner": "엘프 현자",
+      "icon": "src/sprites/icons/skills/41BindingCircle.png",
+      "description": "결계를 펼쳐 최대 3명에게 각각 {atk.png} 90% 피해를 입히고, 1초 동안 구속 시킵니다.",
+      "id": "binding_circle",
+      "duration": 1.2,
+      "target": "enemy",
+      "cooldown": 5,
+      "name": "구속 결계"
+    },
+    "temporal_assault": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_isolate_support",
+      "nameEn": "Temporal Assault",
+      "maxAllies": 1,
+      "ownerKey": "크로노워커",
+      "owner": "크로노워커",
+      "icon": "src/sprites/icons/skills/117TemporalAssault.png",
+      "description": "적을 베어 {atk.png} 240% 피해를 주고, 아군 1명과 시간 틈에서 3초간 협공합니다.\n그동안 자신의 {aspd.png}가 50% 증가합니다.",
+      "runtime": {
+        "range": 70,
+        "kind": "DimensionalDuel",
+        "allyRange": 90,
+        "charge": true,
+        "suppressAttackWhileActive": true,
+        "style": "golden_dial",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "minRank": 3,
+        "showBarInBattle": true,
+        "dmgMul": 2.4,
+        "activeAnim": "attack2",
+        "aspdBonus": 0.5,
+        "duration": 3,
+        "releaseFrame": 6,
+        "animationSpeed": 0.08,
+        "slashLife": 0.75,
+        "cooldown": 9
+      },
+      "id": "temporal_assault",
+      "duration": 3,
+      "durationText": "협공 3초",
+      "target": "enemy_self_ally",
+      "cooldown": 9,
+      "name": "시간 협공"
+    },
+    "ruin_tremor": {
+      "maxTargets": 3,
+      "activationType": "passive",
+      "category": "aoe_survival",
+      "nameEn": "Ruin Tremor",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 3,
+        "animationSpeed": 0.18,
+        "kind": "RuinTremor",
+        "showBarInBattle": true,
+        "radius": 64,
+        "dmgMul": 0.7,
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "duration": 3,
+        "releaseFrame": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "마그누스",
+      "owner": "마그누스",
+      "icon": "src/sprites/icons/skills/79RuinTremor.png",
+      "description": "적을 처치하면 발을 굴러 주변 최대 3명에게\n각각 {atk.png} 70% 피해를 입히고 3초간 보호막을 얻습니다.",
+      "id": "ruin_tremor",
+      "duration": 3,
+      "effects": {
+        "shieldMaxHpRatio": 0.15
+      },
+      "target": "self_enemy",
+      "cooldown": 5,
+      "name": "파멸의 진동"
+    },
+    "mass_charm": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "disrupt_trick",
+      "nameEn": "Mass Charm",
+      "runtime": {
+        "maxTargets": 2,
+        "minRank": 3,
+        "kind": "MassCharm",
+        "showBarInBattle": true,
+        "activeAnim": "attack2",
+        "animationSpeed": 0.1,
+        "duration": 3,
+        "releaseFrame": 6,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 10
+      },
+      "ownerKey": "Illusionist",
+      "owner": "환술사",
+      "icon": "src/sprites/icons/skills/50MassCharm.png",
+      "description": "보스를 제외한 가장 가까운 적 최대 2명을 3초간 아군으로 만듭니다.",
+      "id": "mass_charm",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 10,
+      "name": "집단 현혹"
+    },
+    "guardblade": {
+      "activationType": "active",
+      "category": "attack_defense",
+      "nameEn": "Guardblade",
+      "runtime": {
+        "maxTargets": 2,
+        "minRank": 3,
+        "kind": "Guardblade",
+        "showBarInBattle": true,
+        "dmgMul": 1,
+        "damageReduction": 0.2,
+        "duration": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "엘프기사",
+      "owner": "엘프기사",
+      "icon": "src/sprites/icons/skills/25Guardblade.png",
+      "description": "마법검으로 최대 2명에게 {atk.png} 100% 피해를 입히고, 2초 동안 받는 피해 -20%.",
+      "id": "guardblade",
+      "duration": 2,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "수호검"
+    },
+    "doom_resonance": {
+      "maxTargets": 4,
+      "activationType": "active",
+      "category": "attack_aoe_echo",
+      "nameEn": "Doom Resonance",
+      "runtime": {
+        "range": 120,
+        "kind": "RupturingDescent",
+        "showBarInBattle": true,
+        "swordCell": [
+          24,
+          33
+        ],
+        "reach": 34,
+        "height": 64,
+        "suppressAttackWhileActive": true,
+        "echoReach": 33,
+        "style": "doom_wings",
+        "hpBarLiftBars": 1,
+        "echoMax": 3,
+        "echoMul": 0.6,
+        "minRank": 3,
+        "dmgMul": 2,
+        "activeAnim": "attack2",
+        "alwaysShowBarInBattle": true,
+        "maxTargets": 4,
+        "cooldown": 9
+      },
+      "ownerKey": "파멸의 천사",
+      "owner": "파멸의 천사",
+      "icon": "src/sprites/icons/skills/121DoomResonance.png",
+      "description": "내려찍어 적 최대 4명에게 각각 {atk.png} 200% 피해를 줍니다.\n맞은 적마다 충격파가 터져, 함께 맞은 주변 적에게 {atk.png} 60% 피해를 줍니다.",
+      "id": "doom_resonance",
+      "duration": 0,
+      "durationText": "없음",
+      "target": "enemy",
+      "cooldown": 9,
+      "name": "종말의 공명"
+    },
+    "shadow_harvest": {
+      "activationType": "passive",
+      "category": "lethal_survival",
+      "nameEn": "Shadow Harvest",
+      "runtime": {
+        "minRank": 2,
+        "internalCooldown": 3,
+        "alwaysShowBarInBattle": true,
+        "duration": 2,
+        "hpBarLiftBars": 1,
+        "kind": "ShadowHarvest",
+        "showBarInBattle": true,
+        "cooldown": 0
+      },
+      "ownerKey": "암검사",
+      "owner": "암검사",
+      "icon": "src/sprites/icons/skills/78ShadowHarvest.png",
+      "description": "적을 처치하면 그림자를 흡수해\n2초 동안 자신의 최대 {hp.png} 15% 만큼 보호막을 얻습니다.",
+      "effects": {
+        "shieldMaxHpRatio": 0.15
+      },
+      "id": "shadow_harvest",
+      "duration": 2,
+      "target": "self",
+      "cooldownLabel": "passive",
+      "cooldown": 0,
+      "name": "그림자 수확"
+    },
+    "charm": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "disrupt_trick",
+      "nameEn": "Charm",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "kind": "Charm",
+        "showBarInBattle": true,
+        "activeAnim": "attack2",
+        "animationSpeed": 0.1,
+        "duration": 3,
+        "releaseFrame": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "ownerKey": "Trickster",
+      "owner": "트릭스터",
+      "icon": "src/sprites/icons/skills/48Charm.png",
+      "description": "보스를 제외한 가장 가까운 적 1명을 3초간 아군으로 만듭니다.",
+      "id": "charm",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "현혹"
+    },
+    "crushing_counter": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "defense_attack",
+      "nameEn": "Crushing Counter",
+      "runtime": {
+        "maxTargets": 2,
+        "minRank": 3,
+        "kind": "CrushingCounter",
+        "showBarInBattle": true,
+        "dmgMul": 1.5,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "invulnerableWhilePrecast": false,
+        "releaseFrame": 6,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 6
+      },
+      "ownerKey": "스파르타",
+      "owner": "스파르타",
+      "icon": "src/sprites/icons/skills/62CrushingCounter.png",
+      "description": "방패로 기본 공격 1회를 막고, 창을 내려쳐 전방에 충격파를 일으킵니다. 최대 2명에게 각각 {atk.png} 150% 피해를 입힙니다.",
+      "id": "crushing_counter",
+      "duration": "shield_animation",
+      "target": "self_enemy",
+      "cooldown": 6,
+      "name": "파쇄 반격"
+    },
+    "rupturing_descent": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "attack_aoe_echo",
+      "nameEn": "Rupturing Descent",
+      "runtime": {
+        "range": 110,
+        "minRank": 2,
+        "alwaysShowBarInBattle": true,
+        "kind": "RupturingDescent",
+        "showBarInBattle": true,
+        "maxTargets": 3,
+        "dmgMul": 1.8,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "echoMul": 0.6,
+        "style": "shadow_wings",
+        "hpBarLiftBars": 1,
+        "echoMax": 2,
+        "cooldown": 8
+      },
+      "ownerKey": "타락천사",
+      "owner": "타락천사",
+      "icon": "src/sprites/icons/skills/120RupturingDescent.png",
+      "description": "내려찍어 적 최대 3명에게 각각 {atk.png} 180% 피해를 줍니다.\n맞은 적마다 충격파가 터져, 함께 맞은 주변 적에게 {atk.png} 60% 피해를 줍니다.",
+      "id": "rupturing_descent",
+      "duration": 0,
+      "durationText": "없음",
+      "target": "enemy",
+      "cooldown": 8,
+      "name": "파열 강하"
+    },
+    "glacial_shatter": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "attack_freeze",
+      "nameEn": "Glacial Shatter",
+      "runtime": {
+        "range": 130,
+        "minRank": 3,
+        "animationSpeed": 0.18,
+        "kind": "GlacialShatter",
+        "showBarInBattle": true,
+        "maxTargets": 3,
+        "dmgMul": 0.8,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "duration": 1.5,
+        "releaseFrame": 4,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "ownerKey": "빙결여제",
+      "owner": "빙결여제",
+      "icon": "src/sprites/icons/skills/75GlacialShatter.png",
+      "description": "얼음 덩어리로 전방 최대 3명에게 각각 {atk.png} 80% 피해를 입히고 1.5초간 얼립니다. 덩어리가 깨지면 각각 {atk.png} 70% 추가 피해를 입힙니다.",
+      "id": "glacial_shatter",
+      "duration": 1.5,
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "빙하 파쇄"
+    },
+    "two_faced_card": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "trick_disrupt_support",
+      "nameEn": "Two Faced Card",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 1,
+        "kind": "TwoFacedCard",
+        "showBarInBattle": true,
+        "activeAnim": "attack2",
+        "animationSpeed": 0.12,
+        "releaseFrame": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 6
+      },
+      "ownerKey": "Jester",
+      "owner": "광대",
+      "icon": "src/sprites/icons/skills/47TwoFacedCard.png",
+      "description": "무작위 카드를 사용합니다. [장난] 적의 다음 기본 공격을 다른 적에게. [응원] 아군 1명 즉시 기본 공격.",
+      "id": "two_faced_card",
+      "duration": 0,
+      "target": "enemy_ally",
+      "cooldown": 6,
+      "name": "양면 카드"
+    },
+    "spear_cyclone": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "attack_defense",
+      "nameEn": "Spear Cyclone",
+      "runtime": {
+        "range": 40,
+        "minRank": 3,
+        "kind": "SpearCyclone",
+        "showBarInBattle": true,
+        "invulnerableWhilePrecast": false,
+        "dmgMul": 0.25,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "duration": 1,
+        "maxTargets": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 6
+      },
+      "ownerKey": "글래디에이터",
+      "owner": "글래디에이터",
+      "icon": "src/sprites/icons/skills/63SpearCyclone.png",
+      "description": "창을 빠르게 회전시켜 주변 최대 3명에게 {atk.png} 25% 피해를 5회 입히고, 기본 공격 투사체를 최대 2개 쳐냅니다.",
+      "maxProjectiles": 2,
+      "id": "spear_cyclone",
+      "duration": 1,
+      "target": "nearby_enemy_projectile",
+      "cooldown": 6,
+      "name": "투창 선풍"
+    },
+    "absolute_judgment": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_focus",
+      "nameEn": "Absolute Judgment",
+      "runtime": {
+        "range": 160,
+        "minRank": 3,
+        "kind": "HeavensJudgment",
+        "showBarInBattle": true,
+        "animationSpeed": 0.115,
+        "dmgMul": [
+          5,
+          7.5,
+          10
+        ],
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "releaseFrame": 6,
+        "style": "absolute_descent",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 9
+      },
+      "ownerKey": "도미니온",
+      "owner": "도미니온",
+      "icon": "src/sprites/icons/skills/119AbsoluteJudgment.png",
+      "description": "빛으로 적을 심판해 {atk.png} 500% 피해를 줍니다.\n같은 적을 연속으로 심판하면 피해가 750%, 이후 1,000%로 증가합니다.",
+      "id": "absolute_judgment",
+      "duration": 0,
+      "durationText": "없음",
+      "target": "enemy",
+      "cooldown": 9,
+      "name": "절대 심판"
+    },
+    "guardian_oath": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "defense_support",
+      "nameEn": "Guardian Oath",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 3,
+        "kind": "GuardianOath",
+        "showBarInBattle": true,
+        "activeAnim": "attack2",
+        "duration": 3,
+        "animationSpeed": 0.18,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 6
+      },
+      "ownerKey": "템플러",
+      "owner": "템플러",
+      "icon": "src/sprites/icons/skills/54GuardianOath.png",
+      "description": "포효해 자신과 {hp.png}이 가장 낮은 아군 2명이 3초 동안 템플러 최대 {hp.png}의 50% 보호막을 공유합니다.",
+      "id": "guardian_oath",
+      "duration": 3,
+      "effects": {
+        "shieldMaxHpRatio": 0.5,
+        "shieldDuration": 3
+      },
+      "target": "self_ally",
+      "cooldown": 6,
+      "name": "수호의 맹세"
+    },
+    "cleansing_wave": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "attack_disrupt_support",
+      "nameEn": "Cleansing Wave",
+      "maxAllies": 1,
+      "ownerKey": "수정술사",
+      "owner": "수정술사",
+      "icon": "src/sprites/icons/skills/64CleansingWave.png",
+      "description": "파도를 일으켜 최대 2명에게 각각 {atk.png} 110% 피해를 입히고 밀어냅니다. 파도가 지나간 아군 1명의 디버프를 제거합니다.",
+      "id": "cleansing_wave",
+      "runtime": {
+        "maxTargets": 2,
+        "minRank": 2,
+        "kind": "CleansingWave",
+        "showBarInBattle": true,
+        "dmgMul": 1.1,
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "releaseFrame": 9,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 6
+      },
+      "effects": {
+        "excludeIncapacitation": true,
+        "knockbackDistance": 24,
+        "cleanseCount": 1,
+        "bossKnockbackImmune": true
+      },
+      "target": "enemy_ally",
+      "cooldown": 6,
+      "name": "정화의 파도"
+    },
+    "collision_drive": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Collision Drive",
+      "runtime": {
+        "range": 35,
+        "minRank": 2,
+        "kind": "CollisionDrive",
+        "showBarInBattle": true,
+        "stunDur": 0.5,
+        "dmgMul": 1.3,
+        "activeAnim": "attack2",
+        "releaseFrame": 4,
+        "duration": 0.5,
+        "maxTargets": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "투기 창병",
+      "owner": "투기 창병",
+      "icon": "src/sprites/icons/skills/61CollisionDrive.png",
+      "description": "창으로 적을 밀어붙여 {atk.png} 130% 피해를 입힙니다. 다른 적과 충돌하면 두 적에게 각각 {atk.png} 60% 추가 피해를 입히고 0.5초간 기절시킵니다.",
+      "id": "collision_drive",
+      "duration": 0.5,
+      "target": "enemy",
+      "cooldown": 5,
+      "name": "충돌 돌진"
+    },
+    "heavens_judgment": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_focus",
+      "nameEn": "Heaven's Judgment",
+      "runtime": {
+        "range": 150,
+        "minRank": 2,
+        "kind": "HeavensJudgment",
+        "showBarInBattle": true,
+        "animationSpeed": 0.13,
+        "dmgMul": [
+          4,
+          5.5,
+          7
+        ],
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "releaseFrame": 6,
+        "style": "holy_descent",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "ownerKey": "대천사",
+      "owner": "대천사",
+      "icon": "src/sprites/icons/skills/118HeavensJudgment.png",
+      "description": "빛으로 적을 심판해 {atk.png} 400% 피해를 줍니다.\n같은 적을 연속으로 심판하면 피해가 550%, 이후 700%로 증가합니다.",
+      "id": "heavens_judgment",
+      "duration": 0,
+      "durationText": "없음",
+      "target": "enemy",
+      "cooldown": 8,
+      "name": "천벌"
+    },
+    "burst_thrust": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Burst Thrust",
+      "runtime": {
+        "maxTargets": 2,
+        "minRank": 2,
+        "kind": "BurstThrust",
+        "showBarInBattle": true,
+        "dmgMul": 1.2,
+        "activeAnim": "attack2",
+        "duration": 0.5,
+        "releaseFrame": 4,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "고대 창병",
+      "owner": "고대 창병",
+      "icon": "src/sprites/icons/skills/60BurstThrust.png",
+      "description": "창끝에서 충격파를 터뜨려 전방 최대 2명에게 각각 {atk.png} 120% 피해를 입히고, 0.5초간 공중으로 띄웁니다.",
+      "id": "burst_thrust",
+      "duration": 0.5,
+      "target": "enemy",
+      "cooldown": 5,
+      "name": "파열 찌르기"
+    },
+    "wild_stampede": {
+      "maxTargets": 4,
+      "activationType": "active",
+      "category": "attack_aoe_disrupt",
+      "nameEn": "Wild Stampede",
+      "runtime": {
+        "maxTargets": 4,
+        "minRank": 3,
+        "knockbackOncePerTarget": true,
+        "kind": "CallOfThePlains",
+        "showBarInBattle": true,
+        "animationSpeed": 0.24,
+        "dmgMul": 1.6,
+        "activeAnim": "skill",
+        "suppressAttackWhileActive": true,
+        "hpBarLiftBars": 1,
+        "releaseFrame": 2,
+        "horseCount": 4,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "ownerKey": "켄타우로스",
+      "owner": "켄타우로스",
+      "icon": "src/sprites/icons/skills/70WildStampede.png",
+      "description": "야생마 4마리가 전장을 질주하며 적 최대 4명에게 각각 {atk.png} 160% 피해를 입히고 밀어냅니다.",
+      "effects": {
+        "horseCount": 4,
+        "bossKnockbackImmune": true,
+        "knockbackDistance": 24,
+        "knockbackOncePerTarget": true,
+        "oncePerTarget": true
+      },
+      "id": "wild_stampede",
+      "duration": 0,
+      "durationText": "야생마 통과까지",
+      "target": "enemy",
+      "cooldown": 8,
+      "name": "야생마 쇄도"
+    },
+    "concussion_bomb": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Concussion Bomb",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 3,
+        "kind": "ConcussionBomb",
+        "showBarInBattle": true,
+        "dmgMul": 1.4,
+        "activeAnim": "attack2",
+        "stunDur": 0.5,
+        "releaseFrame": 4,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "ownerKey": "폭파대장",
+      "owner": "폭파대장",
+      "icon": "src/sprites/icons/skills/59ConcussionBomb.png",
+      "description": "대형 폭탄을 발사해 최대 3명에게 각각 {atk.png} 140% 피해를 입힙니다. 디버프 상태인 적은 0.5초간 기절합니다.",
+      "id": "concussion_bomb",
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "충격 폭탄"
+    },
+    "dimensional_duel": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_isolate_buff",
+      "nameEn": "Dimensional Duel",
+      "runtime": {
+        "range": 70,
+        "suppressAttackWhileActive": true,
+        "minRank": 2,
+        "animationSpeed": 0.08,
+        "kind": "DimensionalDuel",
+        "showBarInBattle": true,
+        "releaseFrame": 6,
+        "dmgMul": 2,
+        "activeAnim": "attack2",
+        "aspdBonus": 0.5,
+        "duration": 2.5,
+        "style": "prism_fault",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "ownerKey": "페이즈",
+      "owner": "페이즈",
+      "icon": "src/sprites/icons/skills/116DimensionalDuel.png",
+      "description": "적을 베어 {atk.png} 200% 피해를 주고, 시간 틈에서 2.5초간 단둘이 싸웁니다.\n그동안 자신의 {aspd.png}가 50% 증가합니다.",
+      "id": "dimensional_duel",
+      "duration": 2.5,
+      "durationText": "결투 2.5초",
+      "target": "enemy_self",
+      "cooldown": 8,
+      "name": "차원 결투"
+    },
+    "timed_keg": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "aoe_disrupt",
+      "nameEn": "Timed Keg",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 2,
+        "kind": "TimedKeg",
+        "showBarInBattle": true,
+        "dmgMul": 1.1,
+        "activeAnim": "attack2",
+        "duration": 1.5,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 6
+      },
+      "ownerKey": "척탄병",
+      "owner": "척탄병",
+      "icon": "src/sprites/icons/skills/57TimedKeg.png",
+      "description": "체력이 가장 높은 적에게 폭약통을 던집니다. 1.5초 후 폭발해 대상과 주변 최대 2명에게 각각 {atk.png} 110% 피해를 입히고 넉백시킵니다.",
+      "id": "timed_keg",
+      "duration": 1.5,
+      "target": "enemy",
+      "cooldown": 6,
+      "name": "시한 폭약통"
+    },
+    "guardian_challenge": {
+      "activationType": "active",
+      "category": "taunt_defense",
+      "nameEn": "Guardian Challenge",
+      "runtime": {
+        "range": 140,
+        "minRank": 2,
+        "kind": "GuardianChallenge",
+        "showBarInBattle": true,
+        "damageReduction": 0.3,
+        "duration": 3,
+        "maxTargets": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "엘프 보병",
+      "owner": "엘프 보병",
+      "icon": "src/sprites/icons/skills/31GuardianChallenge.png",
+      "description": "3초간 주변 최대 3명이 자신을 공격하게 하고, 받는 피해 -30%.",
+      "id": "guardian_challenge",
+      "duration": 3,
+      "target": "nearby_enemy_self",
+      "cooldown": 5,
+      "name": "수호 도발"
+    },
+    "shatter_cannon": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_debuff",
+      "nameEn": "Shatter Cannon",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 3,
+        "kind": "ShatterCannon",
+        "showBarInBattle": true,
+        "dmgMul": 2,
+        "activeAnim": "attack2",
+        "duration": 4,
+        "releaseFrame": 4,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 6
+      },
+      "ownerKey": "캐노니어",
+      "owner": "캐노니어",
+      "icon": "src/sprites/icons/skills/58ShatterCannon.png",
+      "description": "{dist.png}가 가장 긴 적에게 강력한 포탄을 발사해 {atk.png} 200% 피해를 입히고, 4초 동안 {dist.png}를 60으로 감소시킵니다.",
+      "id": "shatter_cannon",
+      "duration": 4,
+      "target": "enemy",
+      "cooldown": 6,
+      "name": "파쇄 포격"
+    },
+    "elderwood_prison": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "defense_disrupt_attack",
+      "nameEn": "Elderwood Prison",
+      "runtime": {
+        "range": 100,
+        "kind": "BramblePrison",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "elder_antler",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "minRank": 3,
+        "frameSpeeds": [
+          0.08,
+          0.08,
+          0.12,
+          0.15,
+          0.11,
+          0.09,
+          0.09
+        ],
+        "cageHp": 0.15,
+        "immune": 4,
+        "maxTargets": 2,
+        "dmgMul": 1.4,
+        "activeAnim": "attack2",
+        "releaseFrame": 5,
+        "duration": 3.5,
+        "stomp": "wave",
+        "animationSpeed": 0.09,
+        "bossDuration": 1.5,
+        "cooldown": 8
+      },
+      "ownerKey": "숲의 심장",
+      "owner": "숲의 심장",
+      "icon": "src/sprites/icons/skills/115ElderwoodPrison.png",
+      "description": "적 최대 2명에게 각각 {atk.png} 140% 피해를 주고 나무 감옥에 가둡니다.\n갇힌 적들은 공격으로 각자의 감옥부터 부숩니다.",
+      "id": "elderwood_prison",
+      "duration": 3.5,
+      "durationText": "감옥 최대 3.5초",
+      "target": "enemy",
+      "cooldown": 8,
+      "name": "고대림의 감옥"
+    },
+    "suppressive_round": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_debuff",
+      "nameEn": "Suppressive Round",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "kind": "SuppressiveRound",
+        "showBarInBattle": true,
+        "dmgMul": 1.5,
+        "activeAnim": "attack",
+        "duration": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "화포수",
+      "owner": "화포수",
+      "icon": "src/sprites/icons/skills/56SuppressiveRound.png",
+      "description": "사거리가 가장 긴 적을 사격해 {atk.png} 150% 피해를 입히고, {dist.png} -35%를 부여합니다.",
+      "id": "suppressive_round",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 5,
+      "name": "제압탄"
+    },
+    "healing_field": {
+      "activationType": "active",
+      "category": "heal",
+      "nameEn": "Healing Field",
+      "runtime": {
+        "interval": 0.5,
+        "healFrac": 0.05,
+        "minRank": 2,
+        "kind": "HealingField",
+        "showBarInBattle": true,
+        "range": 120,
+        "duration": 3,
+        "maxTargets": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "치유술사",
+      "owner": "치유술사",
+      "icon": "src/sprites/icons/skills/17HealingField.png",
+      "description": "치유의 장을 생성해, 3초 동안 범위 내 {hp.png} 가장 낮은 아군 2명의 {hp.png} 5%씩 회복시킵니다.",
+      "id": "healing_field",
+      "duration": 3,
+      "target": "ally",
+      "cooldown": 4,
+      "name": "치유의 장"
+    },
+    "wings_of_victory": {
+      "maxTargets": "all",
+      "activationType": "passive",
+      "category": "support_buff",
+      "nameEn": "Wings of Victory",
+      "runtime": {
+        "minRank": 3,
+        "kind": "VictorySignal",
+        "showBarInBattle": true,
+        "aspdBonus": 0.25,
+        "activeAnim": "skill",
+        "suppressAttackWhileActive": true,
+        "moveBonus": 0.3,
+        "duration": 4,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 0
+      },
+      "ownerKey": "윙드 후사르",
+      "owner": "윙드 후사르",
+      "icon": "src/sprites/icons/skills/71WingsOfVictory.png",
+      "description": "적 처치 1회 또는 보스에게 기본 공격 6회 적중마다 날개를 1칸 채웁니다. 4칸 완충 시 모든 아군에게 4초간 {aspd.png} +25%, {spd.png} +30% 효과를 부여합니다.",
+      "id": "wings_of_victory",
+      "duration": 4,
+      "effects": {
+        "aspdBonus": 0.25,
+        "bossBasicHitsPerCharge": 6,
+        "chargeRequired": 4,
+        "moveBonus": 0.3
+      },
+      "target": "all_allies",
+      "cooldown": 0,
+      "name": "승리의 날개"
+    },
+    "bramble_prison": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "defense_disrupt_attack",
+      "nameEn": "Bramble Prison",
+      "runtime": {
+        "range": 70,
+        "kind": "BramblePrison",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "antler_cage",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "minRank": 2,
+        "cageHp": 0.15,
+        "dmgMul": 1.2,
+        "activeAnim": "attack2",
+        "immune": 4,
+        "duration": 3,
+        "releaseFrame": 5,
+        "animationSpeed": 0.09,
+        "bossDuration": 1,
+        "cooldown": 7
+      },
+      "ownerKey": "실반",
+      "owner": "실반",
+      "icon": "src/sprites/icons/skills/114BramblePrison.png",
+      "description": "적에게 {atk.png} 120% 피해를 주고 나무 감옥에 가둡니다.\n갇힌 적은 공격으로 감옥부터 부숩니다.",
+      "id": "bramble_prison",
+      "duration": 3,
+      "durationText": "감옥 최대 3초",
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "가시 감옥"
+    },
+    "flame_eruption": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "aoe_dot",
+      "nameEn": "Flame Eruption",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 2,
+        "kind": "FlameEruption",
+        "showBarInBattle": true,
+        "radius": 110,
+        "dmgMul": 1.1,
+        "activeAnim": "attack2",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "염투사",
+      "owner": "염투사",
+      "icon": "src/sprites/icons/skills/53FlameEruption.png",
+      "description": "검을 땅에 꽂아 불길을 솟구치게 해 최대 3명에게 각각 {atk.png} 110% 피해를 입히고 {fire.png}을 부여합니다.",
+      "id": "flame_eruption",
+      "duration": 3,
+      "effects": {
+        "burnTickMul": 0.15,
+        "burnDuration": 3
+      },
+      "target": "enemy",
+      "cooldown": 5,
+      "name": "화염 분출"
+    },
+    "assault_strike": {
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Assault Strike",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "kind": "AssaultStrike",
+        "showBarInBattle": true,
+        "dmgMul": 1.6,
+        "stunDur": 0.5,
+        "duration": 0.5,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "야만 기병",
+      "owner": "야만 기병",
+      "icon": "src/sprites/icons/skills/36AssaultStrike.png",
+      "description": "적을 강하게 공격해 {atk.png} 160% 피해를 입히고, 짧게 기절시킵니다.",
+      "id": "assault_strike",
+      "duration": 0.5,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "강습 타격"
+    },
+    "victory_signal": {
+      "maxTargets": "all",
+      "activationType": "passive",
+      "category": "support_buff",
+      "nameEn": "Victory Signal",
+      "runtime": {
+        "minRank": 2,
+        "kind": "VictorySignal",
+        "showBarInBattle": true,
+        "activeAnim": "skill",
+        "suppressAttackWhileActive": true,
+        "duration": 4,
+        "aspdBonus": 0.15,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 0
+      },
+      "ownerKey": "후사르",
+      "owner": "후사르",
+      "icon": "src/sprites/icons/skills/69VictorySignal.png",
+      "description": "적 처치 1회 또는 보스에게 기본 공격 6회 적중마다 깃발을 1칸 채웁니다. 4칸 완충 시 모든 아군에게 4초간 {aspd.png} +15% 효과를 부여합니다.",
+      "id": "victory_signal",
+      "duration": 4,
+      "effects": {
+        "bossBasicHitsPerCharge": 6,
+        "chargeRequired": 4,
+        "aspdBonus": 0.15
+      },
+      "target": "all_allies",
+      "cooldown": 0,
+      "name": "승전 신호"
+    },
+    "legion_of_the_dead": {
+      "maxSummons": 4,
+      "activationType": "active",
+      "category": "summon",
+      "nameEn": "Legion of the Dead",
+      "runtime": {
+        "refill": 3,
+        "minRank": 3,
+        "animationSpeed": 0.06153846153846154,
+        "kind": "CallOfTheDead",
+        "showBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "releaseFrame": 6,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "roster": "lich_lord",
+        "style": "legion_aura",
+        "summons": 4,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "ownerKey": "리치로드",
+      "owner": "리치로드",
+      "icon": "src/sprites/icons/skills/113LegionOfTheDead.png",
+      "description": "언데드 4마리를 소환합니다.\n재사용 시 쓰러진 소환수를 최대 3마리 보충합니다.",
+      "durationText": "소환수 사망까지",
+      "id": "legion_of_the_dead",
+      "duration": 0,
+      "maxTargets": 4,
+      "target": "summon",
+      "cooldown": 8,
+      "name": "망자의 군단"
+    },
+    "holy_barrier": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "defense_support",
+      "nameEn": "Holy Barrier",
+      "runtime": {
+        "maxTargets": 1,
+        "triggerRangePadding": 6,
+        "preDuration": 0,
+        "invulnerableWhileActive": true,
+        "kind": "ShieldWall",
+        "showBarInBattle": true,
+        "invulnerableWhilePrecast": false,
+        "requireNearbyEnemy": true,
+        "activeAnim": "shield",
+        "suppressAttackWhileActive": true,
+        "duration": 1,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "성기사",
+      "owner": "성기사",
+      "icon": "src/sprites/icons/skills/52HolyBarrier.png",
+      "description": "방패를 들어 1초 동안 모든 피해를 막고, 막은 피해만큼 {hp.png}이 가장 낮은 아군 1명에게 3초간 보호막을 부여합니다.",
+      "id": "holy_barrier",
+      "duration": 1,
+      "effects": {
+        "shieldMaxHpRatio": 0.4,
+        "shieldDamageRatio": 1,
+        "invulnerable": true,
+        "shieldDuration": 3
+      },
+      "target": "self_ally",
+      "cooldown": 5,
+      "name": "신성 보호막"
+    },
+    "precision_shot": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Precision Shot",
+      "runtime": {
+        "maxTargets": 1,
+        "dmgMul": 1.8,
+        "showBarInBattle": true,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "kind": "PrecisionShot",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "순찰자",
+      "owner": "순찰자",
+      "icon": "src/sprites/icons/skills/07PrecisionShot.png",
+      "description": "적의 약점을 노려 {atk.png} 180% 피해를 입힙니다.",
+      "id": "precision_shot",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "정밀 사격"
+    },
+    "heavy_kick": {
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Heavy Kick",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "kind": "HeavyKick",
+        "moveSlowFrac": 0.3,
+        "dmgMul": 1,
+        "duration": 4,
+        "showBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "사수 병사",
+      "owner": "사수 병사",
+      "icon": "src/sprites/icons/skills/24HeavyKick.png",
+      "description": "적을 걷어차 {atk.png} 100% 피해를 입히고, 대상에게 {spd.png} -30%를 부여합니다.",
+      "id": "heavy_kick",
+      "duration": 4,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "묵직한 발차기"
+    },
+    "call_of_the_dead": {
+      "maxSummons": 3,
+      "activationType": "active",
+      "category": "summon",
+      "nameEn": "Call of the Dead",
+      "runtime": {
+        "refill": 2,
+        "minRank": 2,
+        "kind": "CallOfTheDead",
+        "showBarInBattle": true,
+        "animationSpeed": 0.12,
+        "hpBarLiftBars": 1,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "releaseFrame": 5,
+        "style": "soul_aura",
+        "summons": 3,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "ownerKey": "리치",
+      "owner": "리치",
+      "icon": "src/sprites/icons/skills/112CalloftheDead.png",
+      "description": "언데드 3마리를 소환합니다.\n재사용 시 쓰러진 소환수를 최대 2마리 보충합니다.",
+      "durationText": "소환수 사망까지",
+      "id": "call_of_the_dead",
+      "duration": 0,
+      "maxTargets": 3,
+      "target": "summon",
+      "cooldown": 8,
+      "name": "망자의 부름"
+    },
+    "guard_thrust": {
+      "activationType": "active",
+      "category": "attack_debuff",
+      "nameEn": "Guard Thrust",
+      "runtime": {
+        "maxTargets": 1,
+        "aspdSlowFrac": 0.15,
+        "minRank": 2,
+        "kind": "GuardThrust",
+        "showBarInBattle": true,
+        "dmgMul": 1.2,
+        "duration": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "엘프병사",
+      "owner": "엘프병사",
+      "icon": "src/sprites/icons/skills/23GuardThrust.png",
+      "description": "적을 찔러 {atk.png} 120% 피해를 입히고, 대상에게 {aspd.png} -15%를 부여합니다.",
+      "id": "guard_thrust",
+      "duration": 2,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "견제 찌르기"
+    },
+    "beast_kick": {
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Beast Kick",
+      "runtime": {
+        "maxTargets": 2,
+        "minRank": 3,
+        "kind": "BeastKick",
+        "moveSlowFrac": 0.4,
+        "dmgMul": 1.1,
+        "duration": 3,
+        "showBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "바그",
+      "owner": "바그",
+      "icon": "src/sprites/icons/skills/26BeastKick.png",
+      "description": "적 2명을 걷어차 각각 {atk.png} 110% 피해를 입히고, 상대에게 {spd.png} -40%를 부여합니다.",
+      "id": "beast_kick",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "야수 발차기"
+    },
+    "earth_crush": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Earth Crush",
+      "runtime": {
+        "maxTargets": 2,
+        "dmgMul": 1.6,
+        "showBarInBattle": true,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "kind": "EarthCrush",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "장군",
+      "owner": "장군",
+      "icon": "src/sprites/icons/skills/22EarthCrush.png",
+      "description": "지면을 강타해 최대 2명의 적에게 각각 {atk.png} 160% 피해를 입힙니다.",
+      "id": "earth_crush",
+      "duration": 0,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "대지 격파"
+    },
+    "flame_call": {
+      "maxSummons": 1,
+      "activationType": "active",
+      "category": "summon_attack",
+      "nameEn": "Flame Call",
+      "ownerKey": "화령술사",
+      "owner": "화령술사",
+      "icon": "src/sprites/icons/skills/65FlameCall.png",
+      "description": "불 정령 1마리를 소환합니다. 이미 있으면 정령이 불꽃을 터뜨려 주변 최대 2명에게 각각 {atk.png} 70% 피해를 입힙니다.",
+      "name": "화령 소환",
+      "runtime": {
+        "maxTargets": 2,
+        "minRank": 2,
+        "burstRange": 50,
+        "showBarInBattle": true,
+        "animationSpeed": 0.16,
+        "dmgMul": 0.7,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "releaseFrame": 3,
+        "kind": "FlameCall",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "durationText": "소환수 사망까지",
+      "id": "flame_call",
+      "duration": 0,
+      "maxTargets": 2,
+      "effects": {
+        "burnTickMul": 0.3,
+        "burnDuration": 3,
+        "summonSpeed": 60,
+        "summonDistance": 50,
+        "summonASPD": 14,
+        "summonAtk": 12,
+        "summonHp": 100,
+        "burnImmune": true
+      },
+      "target": "summon_enemy",
+      "cooldown": 8
+    },
+    "piercing_thrust": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Piercing Thrust",
+      "runtime": {
+        "maxTargets": 2,
+        "dmgMul": 1.2,
+        "showBarInBattle": true,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "kind": "PiercingThrust",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "베테랑",
+      "owner": "베테랑",
+      "icon": "src/sprites/icons/skills/21PiercingThrust.png",
+      "description": "전방을 찔러 최대 2명의 적에게 {atk.png} 120% 관통 피해를 입힙니다.",
+      "id": "piercing_thrust",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "관통 찌르기"
+    },
+    "gale_bow": {
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Gale Bow",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 3,
+        "kind": "GaleBow",
+        "moveSlowFrac": 0.25,
+        "dmgMul": 0.85,
+        "duration": 2,
+        "showBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "하이 엘프",
+      "owner": "하이 엘프",
+      "icon": "src/sprites/icons/skills/29GaleBow.png",
+      "description": "빠르게 화살을 쏘아 최대 3명에게 각각 {atk.png} 85% 피해를 입히고, 대상에게 {spd.png} -25%를 부여합니다.",
+      "id": "gale_bow",
+      "duration": 2,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "질풍궁"
+    },
+    "emperors_roar": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Emperor's Roar",
+      "runtime": {
+        "range": 35,
+        "requireNearbyEnemy": true,
+        "preDuration": 1.2,
+        "kind": "EmperorsRoar",
+        "showBarInBattle": true,
+        "dmgMul": 3,
+        "activeAnim": "attack",
+        "minRank": 3,
+        "preAnim": "attack2",
+        "maxTargets": 1,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "검황",
+      "owner": "검황",
+      "icon": "src/sprites/icons/skills/20EmperorsRoar.png",
+      "description": "포효하며 힘을 끌어올린 뒤, 적에게 {atk.png} 300% 피해를 입힙니다.",
+      "id": "emperors_roar",
+      "target": "enemy",
+      "cooldown": 5,
+      "name": "패왕의 포효"
+    },
+    "flame_descent": {
+      "maxSummons": 1,
+      "activationType": "active",
+      "category": "summon_attack",
+      "nameEn": "Flame Descent",
+      "ownerKey": "샐러맨더",
+      "owner": "샐러맨더",
+      "icon": "src/sprites/icons/skills/67FlameDescent.png",
+      "description": "화염 정령 1마리를 소환합니다. 이미 있으면 정령과 함께 거대한 화염구를 발사해 최대 3명에게 각각 {atk.png} 110% 피해를 입힙니다.",
+      "name": "화령 강림",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 3,
+        "kind": "FlameDescent",
+        "showBarInBattle": true,
+        "dmgMul": 1.1,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "animationSpeed": 0.16,
+        "releaseFrame": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "durationText": "소환수 사망까지",
+      "id": "flame_descent",
+      "duration": 0,
+      "maxTargets": 3,
+      "effects": {
+        "burnTickMul": 0.3,
+        "burnDuration": 3,
+        "summonSpeed": 55,
+        "summonDistance": 55,
+        "summonASPD": 16,
+        "summonAtk": 18,
+        "summonHp": 170,
+        "burnImmune": true
+      },
+      "target": "summon_enemy",
+      "cooldown": 8
+    },
+    "overload_discharge": {
+      "activationType": "active",
+      "category": "attack_chain",
+      "nameEn": "Overload Discharge",
+      "runtime": {
+        "maxTargets": 4,
+        "minRank": 3,
+        "kind": "OverloadDischarge",
+        "showBarInBattle": true,
+        "transferTargets": 2,
+        "dmgMul": 0.9,
+        "duration": 0.4,
+        "transferDmgMul": 0.45,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "프랑켄슈타인",
+      "owner": "프랑켄슈타인",
+      "icon": "src/sprites/icons/skills/46OverloadDischarge.png",
+      "description": "전류를 폭주시켜 최대 4명에게 각각 {atk.png} 90% 피해를 입힙니다. 이 피해로 적을 처치하면 가까운 적 최대 2명에게 각각 {atk.png} 45% 피해가 전이됩니다.",
+      "id": "overload_discharge",
+      "duration": 0,
+      "target": "enemy",
+      "cooldown": 5,
+      "name": "폭주 방전"
+    },
+    "assault_barrier": {
+      "activationType": "active",
+      "category": "attack_defense",
+      "nameEn": "Assault Barrier",
+      "runtime": {
+        "range": 160,
+        "minRank": 2,
+        "kind": "AssaultBarrier",
+        "allyRange": 120,
+        "showBarInBattle": true,
+        "dmgMul": 1,
+        "activeAnim": "fly",
+        "maxTargets": 2,
+        "duration": 2.5,
+        "damageReduction": 0.2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "하이 엘프 기병",
+      "owner": "하이 엘프 기병",
+      "icon": "src/sprites/icons/skills/37AssaultBarrier.png",
+      "description": "날개짓으로 최대 2명에게 각각 {atk.png} 100% 피해를 입히고, 자신과 체력이 가장 낮은 주변 아군 1명이 받는 피해 -20%.",
+      "id": "assault_barrier",
+      "duration": 2.5,
+      "target": "enemy_ally_self",
+      "cooldown": 5,
+      "name": "강습 방벽"
+    },
+    "volt_saw": {
+      "activationType": "active",
+      "category": "attack_aoe",
+      "nameEn": "Volt Saw",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 2,
+        "kind": "VoltSaw",
+        "showBarInBattle": true,
+        "dmgMul": 1.5,
+        "duration": 0.4,
+        "cooldown": 4,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "splashDmgMul": 0.8
+      },
+      "ownerKey": "빅터",
+      "owner": "빅터",
+      "icon": "src/sprites/icons/skills/44VoltSaw.png",
+      "description": "전류가 흐르는 톱으로 적을 베어 {atk.png} 150% 피해를 입히고, 주변 최대 2명에게 각각 {atk.png} 80% 피해를 입힙니다.",
+      "id": "volt_saw",
+      "duration": 0,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "전류 톱날"
+    },
+    "eclipse_snipe": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "attack_finisher",
+      "nameEn": "Eclipse Snipe",
+      "runtime": {
+        "maxTargets": 3,
+        "sheet": "src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_02_01Skill.png",
+        "kind": "ChainSnipe",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "eclipse_flare",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "shotMuls": [
+          3,
+          1.8,
+          1.2
+        ],
+        "chargeSound": "eclipseSnipeCharge",
+        "shotSound": "eclipseSnipeShot",
+        "dmgMul": 3,
+        "activeAnim": "attack2",
+        "cooldown": 8,
+        "animationSpeed": 0.08,
+        "minRank": 3,
+        "releaseFrame": 5
+      },
+      "ownerKey": "이클립스",
+      "owner": "이클립스",
+      "icon": "src/sprites/icons/skills/105EclipseSnipe.png",
+      "description": "{hp.png} 가장 낮은 적을 저격해 {atk.png} 300% 피해를 줍니다.\n처치할 때마다 다음 적을 저격하며, 최대 3명까지 공격합니다.",
+      "id": "eclipse_snipe",
+      "duration": 0,
+      "durationText": "연속 사격 종료까지",
+      "target": "enemy",
+      "cooldown": 8,
+      "name": "일식 저격"
+    },
+    "blood_surge": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Blood Surge",
+      "runtime": {
+        "range": 35,
+        "hpBarLiftBars": 1,
+        "requireNearbyEnemy": true,
+        "preDuration": 0.6,
+        "maxTargets": 1,
+        "kind": "BloodSurge",
+        "showBarInBattle": true,
+        "minRank": 2,
+        "dmgMul": 0.8,
+        "activeAnim": "attack",
+        "preAnim": "drink",
+        "duration": 2,
+        "hitInterval": 0.42,
+        "hitCount": 3,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "황제",
+      "owner": "황제",
+      "icon": "src/sprites/icons/skills/19BloodSurge.png",
+      "description": "와인을 마셔 혈기를 끌어올린 뒤, 2초 동안 가장 가까운 적을 집중 공격하며 {atk.png} 80% 피해를 3회 빠르게 입힙니다.",
+      "id": "blood_surge",
+      "duration": 2,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "혈기 충전"
+    },
+    "condemning_strike": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Condemning Strike",
+      "runtime": {
+        "range": 40,
+        "maxTargets": 1,
+        "minRank": 2,
+        "animationSpeed": 0.14,
+        "kind": "CondemningStrike",
+        "showBarInBattle": true,
+        "alwaysShowBarInBattle": true,
+        "dmgMul": 1.8,
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "duration": 2,
+        "releaseFrame": 5,
+        "hpBarLiftBars": 1,
+        "bossDuration": 1,
+        "cooldown": 6
+      },
+      "ownerKey": "RarePaladin",
+      "owner": "팔라딘",
+      "icon": "src/sprites/icons/skills/72CondemningStrike.png",
+      "description": "빛나는 망치로 적을 내려쳐 {atk.png} 180% 피해를 입히고, 2초 동안 스킬 사용을 막습니다.",
+      "id": "condemning_strike",
+      "duration": 2,
+      "target": "enemy",
+      "cooldown": 6,
+      "name": "단죄의 일격"
+    },
+    "impact_strike": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Impact Strike",
+      "runtime": {
+        "maxTargets": 1,
+        "dmgMul": 1.7,
+        "showBarInBattle": true,
+        "minRank": 3,
+        "hpBarLiftBars": 1,
+        "kind": "ImpactStrike",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "MiniSpearMan03",
+      "owner": "근위병",
+      "icon": "src/sprites/icons/skills/10ImpactStrike.png",
+      "description": "적을 강하게 내려쳐 {atk.png} 170% 피해를 입히고, 대상에게 넉백을 가합니다.",
+      "id": "impact_strike",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "충격 타격"
+    },
+    "chain_snipe": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "attack_finisher",
+      "nameEn": "Chain Snipe",
+      "runtime": {
+        "maxTargets": 2,
+        "sheet": "src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_02Skill.png",
+        "kind": "ChainSnipe",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "rail_flash",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "chargeSound": "silverSnipeCharge",
+        "shotSound": "silverSnipeShot",
+        "dmgMul": 2.4,
+        "activeAnim": "attack2",
+        "releaseFrame": 5,
+        "minRank": 2,
+        "animationSpeed": 0.08,
+        "chainDmgMul": 1.6,
+        "cooldown": 7
+      },
+      "ownerKey": "은빛사수",
+      "owner": "은빛사수",
+      "icon": "src/sprites/icons/skills/104ChainSnipe.png",
+      "description": "{hp.png} 가장 낮은 적을 저격해 {atk.png} 240% 피해를 줍니다.\n처치하면 다른 적을 한 번 더 저격합니다.",
+      "id": "chain_snipe",
+      "duration": 0,
+      "durationText": "연속 사격 종료까지",
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "연쇄 저격"
+    },
+    "berserk_axe": {
+      "activationType": "active",
+      "category": "attack_buff",
+      "nameEn": "Berserk Axe",
+      "runtime": {
+        "range": 180,
+        "minRank": 3,
+        "kind": "BerserkAxe",
+        "showBarInBattle": true,
+        "dmgMul": 1.6,
+        "activeAnim": "attack2",
+        "atkBuffFrac": 0.25,
+        "duration": 3,
+        "maxTargets": 1,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "바바리안",
+      "owner": "바바리안",
+      "icon": "src/sprites/icons/skills/34BerserkAxe.png",
+      "description": "도끼를 던져 {atk.png} 160% 피해를 입히고, 3초 동안 자신의 {atk.png} +25%를 얻습니다.",
+      "id": "berserk_axe",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 5,
+      "name": "광전 도끼"
+    },
+    "frost_spike": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "attack_freeze",
+      "nameEn": "Frost Spike",
+      "runtime": {
+        "range": 130,
+        "minRank": 2,
+        "animationSpeed": 0.18,
+        "kind": "FrostSpike",
+        "showBarInBattle": true,
+        "maxTargets": 2,
+        "dmgMul": 1.1,
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "duration": 1,
+        "releaseFrame": 4,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 6
+      },
+      "ownerKey": "서리칼날",
+      "owner": "서리칼날",
+      "icon": "src/sprites/icons/skills/73FrostSpike.png",
+      "description": "얼음 가시를 솟구쳐 전방 최대 2명에게 각각 {atk.png} 110% 피해를 입히고, 1초간 얼립니다.",
+      "id": "frost_spike",
+      "duration": 1,
+      "target": "enemy",
+      "cooldown": 6,
+      "name": "서리 쐐기"
+    },
+    "battle_cry": {
+      "activationType": "active",
+      "category": "buff_debuff",
+      "nameEn": "Battle Cry",
+      "runtime": {
+        "range": 140,
+        "minRank": 2,
+        "kind": "BattleCry",
+        "showBarInBattle": true,
+        "atkBuffFrac": 0.2,
+        "activeAnim": "attack3",
+        "atkDebuffFrac": 0.15,
+        "duration": 3,
+        "maxTargets": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "바이킹",
+      "owner": "바이킹",
+      "icon": "src/sprites/icons/skills/32BattleCry.png",
+      "description": "함성을 질러 3초 동안 자신의 {atk.png} +20%를 얻고, 주변 적 최대 3명에게 {atk.png} -15%를 부여합니다.",
+      "id": "battle_cry",
+      "duration": 3,
+      "target": "self_nearby_enemy",
+      "cooldown": 5,
+      "name": "전투 함성"
+    },
+    "celestial_return": {
+      "maxTargets": 1,
+      "activationType": "passive",
+      "category": "support_revive",
+      "nameEn": "Celestial Return",
+      "runtime": {
+        "sheet": "src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_01_01Skill.png",
+        "kind": "SalvationArrow",
+        "showBarInBattle": true,
+        "arrowY": 1,
+        "arrowX": 18.5,
+        "bodySheet": "src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_01_01.png",
+        "suppressAttackWhileActive": true,
+        "hpFrac": 0.6,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "fade": 0.4,
+        "stand": 0.25,
+        "refreshSkill": true,
+        "minRank": 3,
+        "arrowQuad": [
+          16,
+          1,
+          5,
+          11
+        ],
+        "activeAnim": "attack2",
+        "skyMargin": 40,
+        "duration": 0,
+        "style": "seraph_gate",
+        "animationSpeed": 0.11,
+        "cooldown": 0,
+        "releaseFrame": 8
+      },
+      "ownerKey": "세라프",
+      "owner": "세라프",
+      "icon": "src/sprites/icons/skills/103CelestialRescue.png",
+      "description": "처음 쓰러진 아군 1명을 최대 {hp.png}의 60%로 부활시키고,\n그 아군의 스킬을 즉시 사용 가능한 상태로 만듭니다.",
+      "id": "celestial_return",
+      "duration": 0,
+      "target": "dead_ally",
+      "cooldown": 0,
+      "name": "천상의 귀환"
+    },
+    "healing_sanctuary": {
+      "activationType": "active",
+      "category": "heal",
+      "nameEn": "Healing Sanctuary",
+      "runtime": {
+        "interval": 0.5,
+        "healFrac": 0.07,
+        "minRank": 2,
+        "kind": "HealingSanctuary",
+        "showBarInBattle": true,
+        "range": 120,
+        "duration": 3,
+        "maxTargets": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "대사제",
+      "owner": "대사제",
+      "icon": "src/sprites/icons/skills/18HealingSanctuary.png",
+      "description": "치유 성역을 생성해, 3초 동안 범위 내 {hp.png} 가장 낮은 아군 3명의 {hp.png} 7%씩 회복시킵니다.",
+      "id": "healing_sanctuary",
+      "duration": 3,
+      "target": "ally",
+      "cooldown": 4,
+      "name": "치유 성역"
+    },
+    "spellblade_vortex": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Spellblade Vortex",
+      "runtime": {
+        "maxTargets": 2,
+        "cooldown": 6,
+        "minRank": 2,
+        "animationSpeed": 0.1,
+        "kind": "SpellbladeVortex",
+        "showBarInBattle": true,
+        "pullDistance": 50,
+        "dmgMul": 1.4,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "duration": 0.8,
+        "releaseFrame": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "splashDmgMul": 0.8
+      },
+      "ownerKey": "마검사",
+      "owner": "마검사",
+      "icon": "src/sprites/icons/skills/76SpellbladeVortex.png",
+      "description": "가장 먼 적에게 마검을 던집니다.\n마검이 회전하며 대상과 그 대상에게 가장 가까운 적 1명에게 피해를 입히고, 그 적을 대상 쪽으로 끌어당깁니다.",
+      "id": "spellblade_vortex",
+      "duration": 0.8,
+      "target": "enemy",
+      "cooldown": 6,
+      "name": "마검 소용돌이"
+    },
+    "arcane_core": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Arcane Core",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 2,
+        "kind": "ArcaneCore",
+        "showBarInBattle": true,
+        "dmgMul": 0.4,
+        "duration": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "owner": "대주술사",
+      "icon": "src/sprites/icons/skills/16ArcaneCore.png",
+      "description": "2초 동안 주변 적에게 지속적으로 {atk.png} 40% 피해를 입히는 마력핵을 생성합니다.",
+      "id": "arcane_core",
+      "duration": 2,
+      "effects": {},
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "마력핵"
+    },
+    "salvation_arrow": {
+      "maxTargets": 1,
+      "activationType": "passive",
+      "category": "support_revive",
+      "nameEn": "Salvation Arrow",
+      "runtime": {
+        "sheet": "src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_01Skill.png",
+        "minRank": 2,
+        "bodySheet": "src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_01.png",
+        "kind": "SalvationArrow",
+        "hpFrac": 0.4,
+        "arrowY": 0,
+        "arrowX": 14,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "duration": 0,
+        "style": "heaven",
+        "animationSpeed": 0.08,
+        "releaseFrame": 8,
+        "cooldown": 0
+      },
+      "ownerKey": "큐피드",
+      "owner": "큐피드",
+      "icon": "src/sprites/icons/skills/102CelestialRescue.png",
+      "description": "처음 쓰러진 아군 1명을 최대 {hp.png}의 40%로 부활시킵니다.",
+      "id": "salvation_arrow",
+      "duration": 0,
+      "target": "dead_ally",
+      "cooldown": 0,
+      "name": "구원의 화살"
+    },
+    "mountain_roar": {
+      "activationType": "active",
+      "category": "summon_disrupt",
+      "nameEn": "Mountain Roar",
+      "runtime": {
+        "summonHpFrac": 1.1,
+        "healAmount": 50,
+        "minRank": 3,
+        "summonSkin": "Bear",
+        "kind": "MountainRoar",
+        "summonSym": "곰 (Bear)",
+        "showBarInBattle": true,
+        "tauntRadius": 150,
+        "activeAnim": "attack",
+        "summonFrame": 8,
+        "duration": 1.05,
+        "summonAtkFrac": 0.9,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 10
+      },
+      "ownerKey": "원시법사",
+      "owner": "원시 법사",
+      "icon": "src/sprites/icons/skills/42MountainRoar.png",
+      "description": "곰 1마리를 부릅니다. 곰은 등장 시 주변 적의 공격을 끌어당기며, 이미 곰이 있으면 체력을 회복시킵니다.",
+      "id": "mountain_roar",
+      "duration": 0,
+      "target": "summon",
+      "cooldown": 10,
+      "name": "산짐승의 포효"
+    },
+    "arcane_collapse": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "aoe_disrupt_amplify",
+      "nameEn": "Arcane Collapse",
+      "runtime": {
+        "maxTargets": 3,
+        "releaseFrame": 5,
+        "minRank": 3,
+        "animationSpeed": 0.1,
+        "kind": "ArcaneCollapse",
+        "showBarInBattle": true,
+        "radius": 90,
+        "dmgMul": 0.9,
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "duration": 1,
+        "pullDistance": 50,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "ownerKey": "게이즈",
+      "owner": "게이즈",
+      "icon": "src/sprites/icons/skills/77ArcaneCollapse.png",
+      "description": "가장 먼 적에게 초록 구체를 던집니다. 구체가 주변 적 최대 2명을 끌어당긴 뒤 폭발해 각각 {atk.png} 90% 피해를 입힙니다.",
+      "id": "arcane_collapse",
+      "duration": 1,
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "마력 붕괴"
+    },
+    "arcane_orb": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Arcane Orb",
+      "runtime": {
+        "maxTargets": 3,
+        "dmgMul": 1.1,
+        "showBarInBattle": true,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "kind": "ArcaneOrb",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "주술사",
+      "owner": "주술사",
+      "icon": "src/sprites/icons/skills/15ArcaneOrb.png",
+      "description": "마력 구체를 발사하여 주변 적들에게 {atk.png} 110% 광역 피해를 입힙니다.",
+      "id": "arcane_orb",
+      "duration": 0,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "마력 구체"
+    },
+    "grail_swordfall": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "defense_support_aoe",
+      "nameEn": "Grail Swordfall",
+      "runtime": {
+        "maxHits": 2,
+        "breakDmgMul": 0.5,
+        "sheet": "src/sprites/units/SwordMan/05Prism/03PrismSwordMan_02_01Skill.png",
+        "stagger": 0.18,
+        "kind": "GuardianSwordfall",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "grail_meteor",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "minRank": 3,
+        "dmgMul": 0.7,
+        "activeAnim": "attack2",
+        "threat": 90,
+        "duration": 6,
+        "releaseFrame": 6,
+        "animationSpeed": 0.08,
+        "maxTargets": 3,
+        "cooldown": 8
+      },
+      "ownerKey": "성배기사",
+      "owner": "성배기사",
+      "icon": "src/sprites/icons/skills/101GrailSwordfall.png",
+      "description": "아군 최대 3명 앞에 거대한 빛의 검을 떨어뜨려 주변 적에게\n{atk.png} 70% 피해를 줍니다.\n각 검은 해당 아군이 받는 직접 공격 1회를 막고 깨지며\n주변 적에게 {atk.png} 50% 피해를 줍니다.",
+      "id": "grail_swordfall",
+      "duration": 6,
+      "target": "ally_enemy",
+      "cooldown": 8,
+      "name": "성배검 강림"
+    },
+    "binding_bolt": {
+      "activationType": "active",
+      "category": "attack_bind",
+      "nameEn": "Binding Bolt",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "kind": "BindingBolt",
+        "showBarInBattle": true,
+        "dmgMul": 1.25,
+        "duration": 1,
+        "hpBarLiftBars": 1,
+        "bindDur": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "엘프법사",
+      "owner": "엘프 법사",
+      "icon": "src/sprites/icons/skills/39BindingBolt.png",
+      "description": "마탄을 발사해 {atk.png} 125% 피해를 입히고, 1초 동안 구속 시킵니다.",
+      "id": "binding_bolt",
+      "duration": 1,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "구속 마탄"
+    },
+    "crescent_requital": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "support_heal_attack",
+      "nameEn": "Crescent Requital",
+      "runtime": {
+        "maxTargets": 3,
+        "kind": "MoonlitMemory",
+        "showBarInBattle": true,
+        "strikeDelay": 0.75,
+        "strikeRange": 260,
+        "strikeRatio": 0.5,
+        "suppressAttackWhileActive": true,
+        "style": "queen",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "minRank": 3,
+        "marker": [
+          247,
+          247,
+          247
+        ],
+        "ratio": 0.35,
+        "capMul": 4,
+        "activeAnim": "attack2",
+        "split": true,
+        "duration": 5,
+        "releaseFrame": 4,
+        "animationSpeed": 0.1,
+        "hover": 34,
+        "cooldown": 9
+      },
+      "ownerKey": "초승달 여왕",
+      "owner": "초승달 여왕",
+      "icon": "src/sprites/icons/skills/94CrescentRequital.png",
+      "description": "5초 동안 아군이 받은 직접 피해의 35%를 달빛이 기억합니다.\n종료 시 기억한 피해만큼 아군 최대 3명을 회복하고,\n그 절반만큼 체력이 가장 높은 적에게 피해를 줍니다.",
+      "id": "crescent_requital",
+      "duration": 5,
+      "target": "ally_enemy",
+      "cooldown": 9,
+      "name": "초승의 환원"
+    },
+    "savage_tusk": {
+      "activationType": "active",
+      "category": "summon",
+      "nameEn": "Savage Tusk",
+      "runtime": {
+        "summonHpFrac": 0.75,
+        "healFrac": 1,
+        "minRank": 2,
+        "summonSkin": "Boar",
+        "kind": "SavageTusk",
+        "summonSym": "멧돼지 (Boar.png)",
+        "showBarInBattle": true,
+        "healAmount": 35,
+        "activeAnim": "attack",
+        "summonFrame": 8,
+        "duration": 1.05,
+        "summonAtkFrac": 0.8,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "ownerKey": "야생법사",
+      "owner": "야생 법사",
+      "icon": "src/sprites/icons/skills/40SavageTusk.png",
+      "description": "멧돼지 1마리를 부릅니다. 멧돼지는 죽기 전까지 함께 싸우며, 이미 멧돼지가 있으면 체력을 회복시킵니다.",
+      "id": "savage_tusk",
+      "duration": 0,
+      "target": "summon",
+      "cooldown": 8,
+      "name": "거친 엄니"
+    },
+    "flash_barrage": {
+      "maxTargets": 3,
+      "activationType": "passive",
+      "category": "attack_assault_aoe",
+      "nameEn": "Flash Barrage",
+      "runtime": {
+        "maxTargets": 3,
+        "kind": "FlashSlash",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "charges": 7,
+        "style": "grand_gate",
+        "hpBarLiftBars": 1,
+        "extraDmgMul": 0.8,
+        "teleportAnim": "attack3",
+        "sameLane": true,
+        "minRank": 3,
+        "dmgMul": 1.6,
+        "activeAnim": "attack2",
+        "alwaysShowBarInBattle": true,
+        "animationSpeed": 0.06,
+        "releaseFrame": 6,
+        "cooldown": 0
+      },
+      "ownerKey": "팬텀",
+      "owner": "팬텀",
+      "icon": "src/sprites/icons/skills/99FlashBarrage.png",
+      "description": "기본 공격 7회마다 적들 사이를 순간이동하며\n서로 다른 적 최대 3명을 차례로 베고 돌아옵니다.",
+      "id": "flash_barrage",
+      "duration": 0,
+      "target": "enemy",
+      "cooldownLabel": "passive",
+      "cooldown": 0,
+      "name": "섬광 난무"
+    },
+    "headshot": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Headshot",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "bonusDmgMul": 0.5,
+        "showBarInBattle": true,
+        "dmgMul": 2,
+        "kind": "Headshot",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "명사수",
+      "owner": "명사수",
+      "icon": "src/sprites/icons/skills/08Headshot.png",
+      "description": "적의 약점을 조준해 {atk.png} 200% 피해를 입히고, {hp.png} 50% 이하인 적에게 추가 피해를 입힙니다.",
+      "id": "headshot",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "헤드샷"
+    },
+    "moonlit_memory": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "support_heal",
+      "nameEn": "Moonlit Memory",
+      "runtime": {
+        "maxTargets": 2,
+        "marker": [
+          247,
+          247,
+          247
+        ],
+        "releaseFrame": 4,
+        "minRank": 2,
+        "ratio": 0.3,
+        "kind": "MoonlitMemory",
+        "showBarInBattle": true,
+        "capMul": 3,
+        "hpBarLiftBars": 1,
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "duration": 4,
+        "animationSpeed": 0.1,
+        "atkCap": 150,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "ownerKey": "월광사제",
+      "owner": "월광사제",
+      "icon": "src/sprites/icons/skills/93MoonlitMemory.png",
+      "description": "4초 동안 아군이 받은 직접 피해의 30%를 달빛이 기억합니다.\n효과가 끝나면 기억한 피해만큼\n체력이 낮은 아군 최대 2명을 회복합니다.",
+      "id": "moonlit_memory",
+      "duration": 4,
+      "target": "ally",
+      "cooldown": 8,
+      "name": "달빛 기억"
+    },
+    "crushing_slam": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Crushing Slam",
+      "runtime": {
+        "maxTargets": 2,
+        "minRank": 2,
+        "kind": "CrushingSlam",
+        "showBarInBattle": true,
+        "dmgMul": 0.7,
+        "stunDur": 0.5,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "중기병",
+      "owner": "중기병",
+      "icon": "src/sprites/icons/skills/14CrushingSlam.png",
+      "description": "지면을 강타해 전방에 충격파를 날려, 최대 2명의 적에게 각각 {atk.png} 70% 피해를 2회 입히고, 충격파에 맞은 적은 0.5초간 기절합니다.",
+      "id": "crushing_slam",
+      "duration": 0,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "강습 강타"
+    },
+    "titans_gaze": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "attack_debuff",
+      "nameEn": "Titan's Gaze",
+      "runtime": {
+        "range": 190,
+        "kind": "ShrinkRay",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "titan",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cut": 0.35,
+        "minRank": 3,
+        "marker": [
+          218,
+          141,
+          39
+        ],
+        "bossScale": 0.9,
+        "scale": 0.75,
+        "bossCut": 0.1,
+        "castOnCooldown": true,
+        "activeAnim": "attack2",
+        "releaseFrame": 7,
+        "duration": 3,
+        "dmgMul": 1.4,
+        "animationSpeed": 0.08,
+        "maxTargets": 2,
+        "cooldown": 7
+      },
+      "ownerKey": "CrownRevenant",
+      "owner": "CrownRevenant",
+      "icon": "src/sprites/icons/skills/96Titan’sGaze.png",
+      "description": "축소 광선을 발사해\n전방 최대 2명에게 각각 {atk.png} 140% 피해를 입힙니다.\n맞은 적들은 3초간 작아져 주는 직접 피해가 35% 감소합니다.",
+      "id": "titans_gaze",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "거인의 마안"
+    },
+    "ground_slam": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Ground Slam",
+      "runtime": {
+        "maxTargets": 2,
+        "dmgMul": 0.6,
+        "showBarInBattle": true,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "kind": "GroundSlam",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "돌격병",
+      "owner": "돌격병",
+      "icon": "src/sprites/icons/skills/13GroundSlam.png",
+      "description": "지면을 강타해 전방에 충격파를 날려, 최대 2명의 적에게 각각 {atk.png} 60% 피해를 2회 입힙니다.",
+      "id": "ground_slam",
+      "duration": 0,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "지면 강타"
+    },
+    "shrink_ray": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_debuff",
+      "nameEn": "Shrink Ray",
+      "runtime": {
+        "range": 150,
+        "kind": "ShrinkRay",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cut": 0.3,
+        "minRank": 2,
+        "bossScale": 0.9,
+        "scale": 0.75,
+        "bossCut": 0.1,
+        "castOnCooldown": true,
+        "activeAnim": "attack2",
+        "marker": [
+          235,
+          209,
+          10
+        ],
+        "duration": 3,
+        "releaseFrame": 7,
+        "animationSpeed": 0.08,
+        "dmgMul": 1.4,
+        "cooldown": 7
+      },
+      "ownerKey": "LegendarySpecter",
+      "owner": "LegendarySpecter",
+      "icon": "src/sprites/icons/skills/95ShrinkRay.png",
+      "description": "축소 광선을 발사해\n{atk.png} 140% 피해를 입힙니다.\n맞은 적은 3초간 작아져 주는 직접 피해가 30% 감소합니다.",
+      "id": "shrink_ray",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "축소 광선"
+    },
+    "deadly_bullet": {
+      "activationType": "active",
+      "category": "attack_debuff",
+      "nameEn": "Deadly Bullet",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 3,
+        "kind": "DeadlyBullet",
+        "showBarInBattle": true,
+        "dmgMul": 2,
+        "duration": 3,
+        "alwaysShowBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "damageTakenFrac": 0.15,
+        "cooldown": 5
+      },
+      "ownerKey": "데드아이",
+      "owner": "데드아이",
+      "icon": "src/sprites/icons/skills/30DeadlyBullet.png",
+      "description": "가장 체력이 높은 적을 조준해 {atk.png} 200% 피해를 입히고, 대상에게 받는 피해 +15%를 부여합니다.",
+      "id": "deadly_bullet",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 5,
+      "name": "치명탄"
+    },
+    "root_drain": {
+      "activationType": "active",
+      "category": "attack_heal",
+      "nameEn": "Root Drain",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 3,
+        "kind": "RootDrain",
+        "healFracOfMaxHp": 0.04,
+        "radius": 110,
+        "dmgMul": 0.8,
+        "activeAnim": "attack2",
+        "duration": 0.64,
+        "showBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "엔트로드",
+      "owner": "엔트로드",
+      "icon": "src/sprites/icons/skills/45RootDrain.png",
+      "description": "뿌리로 주변 최대 3명에게 각각 {atk.png} 80% 피해를 입히고, 피해를 입힌 적 1명당 자신의 최대 체력 4%를 회복합니다.",
+      "id": "root_drain",
+      "duration": 0,
+      "target": "nearby_enemy_self",
+      "cooldown": 5,
+      "name": "뿌리 흡수"
+    },
+    "soul_severance": {
+      "maxTargets": 4,
+      "activationType": "active",
+      "category": "aoe_attack",
+      "nameEn": "Soul Severance",
+      "runtime": {
+        "maxTargets": 4,
+        "releaseFrame": 7,
+        "minRank": 3,
+        "animationSpeed": 0.08,
+        "kind": "ReapersDance",
+        "showBarInBattle": true,
+        "radius": 80,
+        "dmgMul": 1.8,
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "linger": 1.2,
+        "style": "soul_tempest",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "ownerKey": "소울리퍼",
+      "owner": "소울리퍼",
+      "icon": "src/sprites/icons/skills/97SoulSeverance.png",
+      "description": "쌍낫의 힘을 사방으로 터뜨려,\n주변 적 최대 4명에게 각각 {atk.png} 180% 피해를 입힙니다.",
+      "id": "soul_severance",
+      "duration": 0,
+      "target": "nearby_enemy",
+      "cooldown": 8,
+      "name": "영혼 절단"
+    },
+    "life_sap": {
+      "activationType": "active",
+      "category": "attack_heal",
+      "nameEn": "Life Sap",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "kind": "LifeSap",
+        "healFracOfMaxHp": 0.08,
+        "dmgMul": 1.15,
+        "duration": 0.5,
+        "showBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "엔트",
+      "owner": "엔트",
+      "icon": "src/sprites/icons/skills/43LifeSap.png",
+      "description": "적을 후려쳐 {atk.png} 115% 피해를 입히고, 자신의 최대 체력 8%를 회복합니다.",
+      "id": "life_sap",
+      "duration": 0,
+      "target": "enemy_self",
+      "cooldown": 5,
+      "name": "생명의 수액"
+    },
+    "nightmare_flurry": {
+      "maxTargets": 1,
+      "activationType": "passive",
+      "category": "attack_combo",
+      "nameEn": "Nightmare Flurry",
+      "runtime": {
+        "chance": 0.2,
+        "charge": {
+          "x": 21.5,
+          "y": 20.5
+        },
+        "kind": "NightmareFlurry",
+        "showBarInBattle": true,
+        "internalCooldown": 2,
+        "tip": {
+          "x": 30.5,
+          "y": 19.5
+        },
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "steps": [
+          0.4,
+          0.4,
+          1.2
+        ],
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 0
+      },
+      "ownerKey": "나이트메어",
+      "owner": "나이트메어",
+      "icon": "src/sprites/icons/skills/91NightmareFlurry.png",
+      "description": "기본 공격 시 20% 확률로 마력 찌르기를 3회 연속 발동해,\n총 {atk.png} 200% 피해를 입힙니다.",
+      "id": "nightmare_flurry",
+      "duration": 0,
+      "target": "enemy",
+      "cooldownLabel": "passive",
+      "cooldown": 0,
+      "name": "악몽 연격"
+    },
+    "savage_slash": {
+      "activationType": "active",
+      "category": "attack_dot",
+      "nameEn": "Savage Slash",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 3,
+        "bleedDur": 3,
+        "kind": "SavageSlash",
+        "bleedTickInterval": 0.5,
+        "bleedDmgMulPerTick": 0.15,
+        "hitDmgMul": 1.3,
+        "hitDmgMulBleeding": 1.7,
+        "showBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "무법자",
+      "owner": "무법자",
+      "icon": "src/sprites/icons/skills/12SavageSlash.png",
+      "description": "적을 베어 {atk.png} 130% 피해를 입히고, 더 강한 출혈을 일으켜 매초 {atk.png} 30% 피해를 입힙니다. 이미 출혈 상태인 적에게는 {atk.png} 170% 피해를 입힙니다.",
+      "id": "savage_slash",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "잔혹 베기"
+    },
+    "reapers_dance": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "aoe_attack",
+      "nameEn": "Reaper's Dance",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 2,
+        "kind": "ReapersDance",
+        "showBarInBattle": true,
+        "radius": 70,
+        "dmgMul": 1.6,
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "animationSpeed": 0.08,
+        "releaseFrame": 7,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "ownerKey": "리퍼",
+      "owner": "리퍼",
+      "icon": "src/sprites/icons/skills/97Reaper’sDance.png",
+      "description": "쌍낫을 펼쳐 자신을 중심으로 사방을 베고,\n주변 적 최대 3명에게 각각 {atk.png} 160% 피해를 입힙니다.",
+      "id": "reapers_dance",
+      "duration": 0,
+      "target": "nearby_enemy",
+      "cooldown": 7,
+      "name": "사신의 원무"
+    },
+    "blood_rampage": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Blood Rampage",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 2,
+        "hpCostFrac": 0.15,
+        "kind": "BloodPrice",
+        "showBarInBattle": true,
+        "dmgMul": 2.2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "무법 기병",
+      "owner": "무법 기병",
+      "icon": "src/sprites/icons/skills/15BloodRampage.png",
+      "description": "체력을 15% 소모하여 전방의 최대 3명의 적에게 각각 {atk.png} 220% 피해를 입힙니다.",
+      "id": "blood_rampage",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "피의 폭주"
+    },
+    "soul_feast": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "attack_heal_support",
+      "nameEn": "Soul Feast",
+      "runtime": {
+        "bend": 0.7,
+        "sheet": "src/sprites/units/Mage/04Legend/03LegendMage_02_01Skill.png",
+        "anchorY": 8,
+        "kind": "LifeSiphon",
+        "sink": 6,
+        "pixelHit": true,
+        "gone": 2,
+        "frames": 4,
+        "suppressAttackWhileActive": true,
+        "maxOrbs": 2,
+        "style": "feast",
+        "hpBarLiftBars": 1,
+        "drainRatio": 0.5,
+        "hovers": [
+          {
+            "x": -18,
+            "y": -28
+          },
+          {
+            "x": 8,
+            "y": -44
+          }
+        ],
+        "marker": [
+          139,
+          171,
+          195
+        ],
+        "minRank": 3,
+        "showBarInBattle": true,
+        "alwaysShowBarInBattle": true,
+        "healBelow": 0.7,
+        "orbLife": 10,
+        "dmgMul": 1.8,
+        "activeAnim": "attack",
+        "releaseFrame": 5,
+        "range": 200,
+        "overshoot": 8,
+        "anchorX": 9.5,
+        "maxTargets": 2,
+        "cooldown": 7
+      },
+      "ownerKey": "워록",
+      "owner": "워록",
+      "icon": "src/sprites/icons/skills/90SoulFeast.png",
+      "description": "해골탄을 쏘아 적 최대 2명에게 각각 {atk.png} 180% 피해를 주고,\n빼앗은 체력의 절반을 구슬에 담습니다.\n구슬은 체력이 70% 이하인 아군을 회복시킵니다.",
+      "id": "soul_feast",
+      "duration": 10,
+      "durationText": "구슬 최대 10초",
+      "target": "enemy_ally",
+      "cooldown": 7,
+      "name": "영혼 연회"
+    },
+    "blood_price": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Blood Price",
+      "runtime": {
+        "maxTargets": 2,
+        "minRank": 2,
+        "hpCostFrac": 0.1,
+        "kind": "BloodPrice",
+        "showBarInBattle": true,
+        "dmgMul": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "도끼 기병",
+      "owner": "도끼 기병",
+      "icon": "src/sprites/icons/skills/13BloodPrice.png",
+      "description": "체력을 10% 소모하여 최대 2명의 적에게 {atk.png} 200% 피해를 입힙니다.",
+      "id": "blood_price",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "피의 대가"
+    },
+    "flash_slash": {
+      "maxTargets": 1,
+      "activationType": "passive",
+      "category": "attack_assault",
+      "nameEn": "Flash Slash",
+      "runtime": {
+        "sameLane": true,
+        "minRank": 2,
+        "releaseFrame": 6,
+        "kind": "FlashSlash",
+        "showBarInBattle": true,
+        "teleportAnim": "attack3",
+        "dmgMul": 1.5,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "charges": 7,
+        "hpBarLiftBars": 1,
+        "animationSpeed": 0.08,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 0
+      },
+      "ownerKey": "듀라한",
+      "owner": "듀라한",
+      "icon": "src/sprites/icons/skills/98FlashSlash.png",
+      "description": "기본 공격 7회마다 가장 먼 적에게 순간이동해\n{atk.png} 150% 피해를 입히고 돌아옵니다.",
+      "id": "flash_slash",
+      "duration": 0,
+      "target": "enemy",
+      "cooldownLabel": "passive",
+      "cooldown": 0,
+      "name": "섬광 참격"
+    },
+    "bleeding_strike": {
+      "activationType": "active",
+      "category": "attack_dot",
+      "nameEn": "Bleeding Strike",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "bleedDur": 3,
+        "kind": "BleedingStrike",
+        "bleedTickInterval": 0.5,
+        "bleedDmgMulPerTick": 0.1,
+        "hitDmgMul": 0.5,
+        "showBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "약탈자",
+      "owner": "약탈자",
+      "icon": "src/sprites/icons/skills/11BleedingStrike.png",
+      "description": "적을 베어 3초 동안 출혈을 일으켜 매초 {atk.png} 20% 피해를 입힙니다.",
+      "id": "bleeding_strike",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "출혈 베기"
+    },
+    "life_siphon": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_heal_support",
+      "nameEn": "Life Siphon",
+      "runtime": {
+        "maxTargets": 1,
+        "marker": [
+          70,
+          204,
+          94
+        ],
+        "hpBarLiftBars": 1,
+        "minRank": 2,
+        "alwaysShowBarInBattle": true,
+        "kind": "LifeSiphon",
+        "showBarInBattle": true,
+        "releaseFrame": 5,
+        "dmgMul": 1.6,
+        "activeAnim": "attack",
+        "suppressAttackWhileActive": true,
+        "maxOrbs": 1,
+        "orbLife": 10,
+        "healBelow": 0.7,
+        "drainRatio": 0.5,
+        "cooldown": 6
+      },
+      "ownerKey": "흑마법사",
+      "owner": "흑마법사",
+      "icon": "src/sprites/icons/skills/90LifeSiphon.png",
+      "description": "해골탄을 쏘아 {atk.png} 160% 피해를 주고,\n빼앗은 체력의 절반을 구슬에 담습니다.\n구슬은 체력이 70% 이하인 아군을 회복시킵니다.",
+      "id": "life_siphon",
+      "duration": 10,
+      "durationText": "구슬 최대 10초",
+      "target": "enemy_ally",
+      "cooldown": 6,
+      "name": "생명 착취"
+    },
+    "down_strike": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Down Strike",
+      "runtime": {
+        "maxTargets": 1,
+        "dmgMul": 1.4,
+        "showBarInBattle": true,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "kind": "DownStrike",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "MiniSpearMan02",
+      "owner": "창위병",
+      "icon": "src/sprites/icons/skills/09DownStrike.png",
+      "description": "적을 강하게 내려쳐 {atk.png} 140% 피해를 입힙니다.",
+      "id": "down_strike",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "내려치기"
+    },
+    "guardian_swordfall": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "defense_support_aoe",
+      "nameEn": "Guardian Swordfall",
+      "runtime": {
+        "maxHits": 2,
+        "breakDmgMul": 0.4,
+        "sheet": "src/sprites/units/SwordMan/05Prism/02PrismSwordMan_02Skill.png",
+        "kind": "GuardianSwordfall",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "prism",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "minRank": 2,
+        "dmgMul": 0.6,
+        "activeAnim": "attack2",
+        "threat": 90,
+        "duration": 5,
+        "releaseFrame": 6,
+        "animationSpeed": 0.08,
+        "maxTargets": 2,
+        "cooldown": 7
+      },
+      "ownerKey": "백기사",
+      "owner": "백기사",
+      "icon": "src/sprites/icons/skills/100GuardianSwordfall.png",
+      "description": "아군 최대 2명 앞에 빛의 검을 떨어뜨려 주변 적에게\n{atk.png} 60% 피해를 줍니다.\n각 검은 해당 아군이 받는 직접 공격 1회를 막고 깨지며\n주변 적에게 {atk.png} 40% 피해를 줍니다.",
+      "id": "guardian_swordfall",
+      "duration": 5,
+      "target": "ally_enemy",
+      "cooldown": 7,
+      "name": "수호검 강림"
+    },
+    "piercing_bullet": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Piercing Bullet",
+      "runtime": {
+        "maxTargets": 2,
+        "dmgMul": 1.2,
+        "showBarInBattle": true,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "kind": "PiercingBullet",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "레인저",
+      "owner": "레인저",
+      "icon": "src/sprites/icons/skills/28PiercingBullet.png",
+      "description": "관통탄을 발사해 최대 2명에게 각각 {atk.png} 120% 피해를 입힙니다.",
+      "id": "piercing_bullet",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "관통탄"
+    },
+    "arcane_unleashing": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "attack_channel",
+      "nameEn": "Arcane Unleashing",
+      "runtime": {
+        "maxTargets": 3,
+        "kind": "AbyssalRay",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "arcane",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "interval": 0.5,
+        "minRank": 3,
+        "sway": [
+          0.35,
+          0.6
+        ],
+        "marker": [
+          247,
+          247,
+          247
+        ],
+        "steps": [
+          0.2,
+          0.2,
+          0.35,
+          0.35,
+          0.55,
+          0.55
+        ],
+        "releaseFrame": 4,
+        "activeAnim": "attack2",
+        "beams": 3,
+        "beam": 3,
+        "swayPeriod": 0.25,
+        "animationSpeed": 0.08,
+        "windup": 0.4,
+        "cooldown": 6
+      },
+      "ownerKey": "아크메이지",
+      "owner": "아크메이지",
+      "icon": "src/sprites/icons/skills/89ArcaneUnleashing.png",
+      "description": "점점 강해지는 세 갈래 광선으로 3초간 총 {atk.png} 660% 피해를 나눠 줍니다.\n적이 적으면 여러 광선을 한 적에게 집중합니다.",
+      "id": "arcane_unleashing",
+      "duration": 3,
+      "durationText": "광선 3초",
+      "target": "enemy",
+      "cooldown": 6,
+      "name": "마력 해방"
+    },
+    "shackle_arrow": {
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Shackle Arrow",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "kind": "ShackleArrow",
+        "moveSlowFrac": 0.35,
+        "dmgMul": 1.2,
+        "duration": 3,
+        "showBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "엘프 궁수",
+      "owner": "엘프 궁수",
+      "icon": "src/sprites/icons/skills/27ShackleArrow.png",
+      "description": "화살을 발사해 {atk.png} 120% 피해를 입히고, 대상에게 {spd.png} -35%를 부여합니다.",
+      "id": "shackle_arrow",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "족쇄 화살"
+    },
+    "peerless_spear": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "enhance_pierce",
+      "nameEn": "Peerless Spear",
+      "runtime": {
+        "handX": 40,
+        "alignSeam": true,
+        "joinW": 64,
+        "paletteAccent": "B5D6DE",
+        "kind": "LanceExtension",
+        "showBarInBattle": true,
+        "swingAnim": "attack3",
+        "paletteCore": "FFFFFF",
+        "hitFrame": 4,
+        "riseFrom": 7,
+        "style": "peerless_radiance",
+        "skillSheet": "src/sprites/units/SpearMan/05Prism/03PrismSpearMan_02_01Skill.png",
+        "alwaysShowBarInBattle": true,
+        "riseSheet": "src/sprites/units/SpearMan/05Prism/03PrismSpearMan_02_01Rise.png",
+        "pierceDmgMul": 0.6,
+        "minRank": 3,
+        "hpBarLiftBars": 1,
+        "swingSkill": [
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          5
+        ],
+        "chargeAt": [
+          28,
+          24
+        ],
+        "palette": [
+          "F5E462",
+          "AB3F2F",
+          "BF9F3B",
+          "6B181A"
+        ],
+        "dmgMul": 1.3,
+        "activeAnim": "attack2",
+        "joinX": 62,
+        "duration": 4,
+        "range": 160,
+        "animationSpeed": 0.06,
+        "maxTargets": 3,
+        "cooldown": 8
+      },
+      "ownerKey": "랜스마스터",
+      "owner": "랜스마스터",
+      "icon": "src/sprites/icons/skills/109PeerlessSpear.png",
+      "description": "4초간 창이 길어져 기본 공격으로 전방 최대 3명을 꿰뚫습니다.\n주 대상에게 {atk.png} 130%, 뒤의 적들에게 각각 60% 피해를 줍니다.",
+      "id": "peerless_spear",
+      "duration": 4,
+      "target": "self_enemy",
+      "cooldown": 8,
+      "name": "무쌍 창술"
+    },
+    "hollow_arrow": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_defense",
+      "nameEn": "Hollow Arrow",
+      "runtime": {
+        "maxTargets": 1,
+        "minRank": 2,
+        "animationSpeed": 0.09,
+        "kind": "HollowArrow",
+        "showBarInBattle": true,
+        "hpBarLiftBars": 1,
+        "dmgMul": 1.7,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "releaseFrame": 8,
+        "maxProjectiles": 2,
+        "swallowDmgMul": 0.3,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "ownerKey": "환영사수",
+      "owner": "환영사수",
+      "icon": "src/sprites/icons/skills/82HollowArrow.png",
+      "description": "{atk.png} 170% 피해를 주는 큰 환영 화살을 쏩니다.\n날아가며 적의 기본 공격 투사체를 최대 2개 삼켜 더 강해집니다.",
+      "maxProjectiles": 2,
+      "id": "hollow_arrow",
+      "duration": 0,
+      "durationText": "화살 소멸까지",
+      "target": "enemy_projectile",
+      "cooldown": 7,
+      "name": "허상 화살"
+    },
+    "abyssal_ray": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_channel",
+      "nameEn": "Abyssal Ray",
+      "runtime": {
+        "maxTargets": 1,
+        "kind": "AbyssalRay",
+        "steps": [
+          0.4,
+          0.4,
+          0.8,
+          0.8,
+          1.2,
+          1.2
+        ],
+        "suppressAttackWhileActive": true,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "interval": 0.5,
+        "minRank": 2,
+        "sway": [
+          0.35,
+          0.6
+        ],
+        "marker": [
+          214,
+          182,
+          241
+        ],
+        "cooldown": 6,
+        "activeAnim": "attack2",
+        "showBarInBattle": true,
+        "animationSpeed": 0.08,
+        "swayPeriod": 0.25,
+        "beam": 3,
+        "windup": 0.4,
+        "releaseFrame": 4
+      },
+      "ownerKey": "심연술사",
+      "owner": "심연술사",
+      "icon": "src/sprites/icons/skills/88AbyssalRay.png",
+      "description": "점점 강해지는 광선을 3초간 쏘아 총 {atk.png} 480% 피해를 입힙니다.\n대상이 쓰러지면 남은 광선을 다른 적에게 돌립니다.",
+      "id": "abyssal_ray",
+      "duration": 3,
+      "durationText": "광선 3초",
+      "target": "enemy",
+      "cooldown": 6,
+      "name": "심연 광선"
+    },
+    "prophetic_mirror": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "support",
+      "nameEn": "Prophetic Mirror",
+      "runtime": {
+        "maxTargets": 2,
+        "kind": "SpellEcho",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "core": [
+          8625880,
+          15451135,
+          16360140,
+          13086966
+        ],
+        "firstReady": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "flyTime": 0.42,
+        "orbY": 18,
+        "attackOnly": true,
+        "ownAtk": true,
+        "minRank": 3,
+        "activeAnim": "attack2",
+        "ratio": 0.8,
+        "duration": 6,
+        "releaseFrame": 7,
+        "animationSpeed": 0.075,
+        "style": "oracle_orb",
+        "cooldown": 9
+      },
+      "ownerKey": "예언자",
+      "owner": "예언자",
+      "icon": "src/sprites/icons/skills/111PropheticMirror.png",
+      "description": "아군 최대 2명의 다음 공격 주문을 각각 한 번 더 펼칩니다.\n복제 주문은 자신의 공격력을 기준으로 80% 위력을 냅니다.",
+      "id": "prophetic_mirror",
+      "duration": 6,
+      "target": "ally",
+      "cooldown": 9,
+      "name": "예언의 거울"
+    },
+    "lance_extension": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "enhance_pierce",
+      "nameEn": "Lance Extension",
+      "runtime": {
+        "range": 130,
+        "kind": "LanceExtension",
+        "showBarInBattle": true,
+        "swingAnim": "attack3",
+        "paletteCore": "FFF6B1",
+        "hitFrame": 4,
+        "riseFrom": 5,
+        "style": "crimson_edge",
+        "skillSheet": "src/sprites/units/SpearMan/05Prism/02PrismSpearMan_02Skill.png",
+        "alwaysShowBarInBattle": true,
+        "riseSheet": "src/sprites/units/SpearMan/05Prism/02PrismSpearMan_02Rise.png",
+        "pierceDmgMul": 0.6,
+        "minRank": 2,
+        "swingSkill": [
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          5
+        ],
+        "palette": [
+          "AB3F2F",
+          "F5E462",
+          "AB3F2F",
+          "6B181A"
+        ],
+        "dmgMul": 1.3,
+        "activeAnim": "attack2",
+        "hpBarLiftBars": 1,
+        "duration": 3,
+        "joinX": 30,
+        "animationSpeed": 0.06,
+        "maxTargets": 2,
+        "cooldown": 7
+      },
+      "ownerKey": "창술사",
+      "owner": "창술사",
+      "icon": "src/sprites/icons/skills/108LanceExtension.png",
+      "description": "3초간 창이 길어져 기본 공격으로 전방 최대 2명을 꿰뚫습니다.\n주 대상에게 {atk.png} 130%, 뒤의 적에게 60% 피해를 줍니다.",
+      "id": "lance_extension",
+      "duration": 3,
+      "target": "self_enemy",
+      "cooldown": 7,
+      "name": "장창 전개"
+    },
+    "storm_blade": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Storm Blade",
+      "runtime": {
+        "maxTargets": 3,
+        "dmgMul": 1.3,
+        "showBarInBattle": true,
+        "minRank": 3,
+        "hpBarLiftBars": 1,
+        "kind": "StormBlade",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "해적왕",
+      "owner": "해적왕",
+      "icon": "src/sprites/icons/skills/04StormBlade.png",
+      "description": "전방으로 {atk.png} 130%의 폭풍의 칼날을 날려 적에게 피해를 입힙니다.",
+      "id": "storm_blade",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "폭풍의 칼날"
+    },
+    "spectral_return": {
+      "maxTargets": 4,
+      "activationType": "active",
+      "category": "attack_pierce",
+      "nameEn": "Spectral Return",
+      "runtime": {
+        "range": 150,
+        "sheet": "src/sprites/units/SpearMan/04Legend/03LegendSpearMan_02_01Skill.png",
+        "anchorY": 23.5,
+        "kind": "SpectralRush",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "streaks": {
+          "rows": [
+            13,
+            19,
+            17
+          ],
+          "spear": 19,
+          "x": 1
+        },
+        "style": "revenant",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "returnDmgMul": 0.8,
+        "minRank": 3,
+        "dmgMul": 1,
+        "activeAnim": "attack2",
+        "releaseFrame": 4,
+        "anchorX": 18.5,
+        "animationSpeed": 0.1,
+        "maxTargets": 4,
+        "cooldown": 8
+      },
+      "ownerKey": "SpearRevenant",
+      "owner": "레버넌트",
+      "icon": "src/sprites/icons/skills/87SpectralReturn.png",
+      "description": "망령이 몸에서 빠져나와 적 최대 4명을 관통해\n각각 {atk.png} 100% 피해를 입히고,\n돌아오며 다시 각각 {atk.png} 80% 피해를 입힙니다.",
+      "id": "spectral_return",
+      "duration": 0,
+      "durationText": "망령 귀환까지",
+      "target": "enemy",
+      "cooldown": 8,
+      "name": "망령 회귀"
+    },
+    "rift_arsenal": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "attack_combo",
+      "nameEn": "Rift Arsenal",
+      "runtime": {
+        "range": 170,
+        "sheet": "src/sprites/units/SpearMan/05Prism/02PrismSpearMan_01Skill.png",
+        "kind": "RiftArsenal",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "golden_heaven",
+        "hpBarLiftBars": 1,
+        "extraDmgMul": 1,
+        "minRank": 2,
+        "alwaysShowBarInBattle": true,
+        "dmgMul": 1.8,
+        "activeAnim": "attack2",
+        "releaseFrame": 6,
+        "duration": 4,
+        "riftSheet": "src/sprites/units/SpearMan/05Prism/02PrismSpearMan_01Skill2.png",
+        "maxExtra": 2,
+        "animationSpeed": 0.08,
+        "cooldown": 7
+      },
+      "ownerKey": "천공병",
+      "owner": "천공병",
+      "icon": "src/sprites/icons/skills/106RiftArsenal.png",
+      "description": "균열에서 창을 꺼내서 발사해 {atk.png} 180% 피해를 줍니다.\n4초간 다른 아군이 액티브 스킬을 쓰면 추가 창을 최대 2개 발사합니다.",
+      "id": "rift_arsenal",
+      "duration": 4,
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "균열 무기고"
+    },
+    "celestial_arsenal": {
+      "maxTargets": 4,
+      "activationType": "active",
+      "category": "attack_combo",
+      "nameEn": "Celestial Arsenal",
+      "runtime": {
+        "range": 180,
+        "sheet": "src/sprites/units/SpearMan/05Prism/03PrismSpearMan_01_01Skill.png",
+        "kind": "RiftArsenal",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "valhalla_gate",
+        "hpBarLiftBars": 1,
+        "extraDmgMul": 1,
+        "minRank": 3,
+        "alwaysShowBarInBattle": true,
+        "releaseFrame": 6,
+        "dmgMul": 2,
+        "activeAnim": "attack2",
+        "riftSheet": "src/sprites/units/SpearMan/05Prism/03PrismSpearMan_01_01Skill2.png",
+        "duration": 5,
+        "impactTime": 0.9,
+        "maxExtra": 3,
+        "animationSpeed": 0.08,
+        "cooldown": 8
+      },
+      "ownerKey": "발키리",
+      "owner": "발키리",
+      "icon": "src/sprites/icons/skills/107CelestialArsenal.png",
+      "description": "균열에서 창을 꺼내서 발사해 {atk.png} 200% 피해를 줍니다.\n5초간 다른 아군이 액티브 스킬을 쓰면 추가 창을 최대 3개 발사합니다.",
+      "id": "celestial_arsenal",
+      "duration": 5,
+      "target": "enemy",
+      "cooldown": 8,
+      "name": "천공 무기고"
+    },
+    "triple_tide": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "attack_disrupt_heal_support",
+      "nameEn": "Triple Tide",
+      "maxAllies": 2,
+      "ownerKey": "운디네",
+      "owner": "운디네",
+      "icon": "src/sprites/icons/skills/66TripleTide.png",
+      "description": "파도를 일으켜 최대 3명에게 각각 {atk.png} 110% 피해를 입히고 밀어냅니다. 파도가 지나간 아군 최대 2명의 {hp.png}를 6% 회복하고 디버프를 제거합니다.",
+      "id": "triple_tide",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 3,
+        "maxAllies": 2,
+        "kind": "TripleTide",
+        "showBarInBattle": true,
+        "dmgMul": 1.1,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "releaseFrame": 9,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "effects": {
+        "healFracOfMaxHp": 0.06,
+        "excludeIncapacitation": true,
+        "knockbackDistance": 24,
+        "cleanseCount": 1,
+        "bossKnockbackImmune": true
+      },
+      "target": "enemy_ally",
+      "cooldown": 7,
+      "name": "삼중 해일"
+    },
+    "call_of_the_plains": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "attack_aoe_disrupt",
+      "nameEn": "Call of the Plains",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 2,
+        "kind": "CallOfThePlains",
+        "showBarInBattle": true,
+        "dmgMul": 1.2,
+        "activeAnim": "skill",
+        "suppressAttackWhileActive": true,
+        "animationSpeed": 0.24,
+        "releaseFrame": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "ownerKey": "초원 기병",
+      "owner": "초원 기병",
+      "icon": "src/sprites/icons/skills/68CallOfThePlains.png",
+      "description": "야생마 2마리가 전장을 가로질러 경로의 적 최대 3명에게 각각 {atk.png} 120% 피해를 입히고 밀어냅니다.",
+      "effects": {
+        "bossKnockbackImmune": true,
+        "knockbackDistance": 24,
+        "horseCount": 2,
+        "oncePerTarget": true
+      },
+      "id": "call_of_the_plains",
+      "duration": 0,
+      "durationText": "야생마 통과까지",
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "초원의 부름"
+    },
+    "triple_shot": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "TripleShot",
+      "runtime": {
+        "maxTargets": 3,
+        "dmgMul": 1,
+        "showBarInBattle": true,
+        "minRank": 3,
+        "hpBarLiftBars": 1,
+        "kind": "TripleShot",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "MiniArcherMan03",
+      "owner": "장궁병",
+      "icon": "src/sprites/icons/skills/06TripleShot.png",
+      "description": "3개의 화살을 발사해 최대 3명의 적에게 각각 {atk.png} 100% 피해를 입힙니다.",
+      "id": "triple_shot",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "트리플샷"
+    },
+    "execution_chain": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Execution Chain",
+      "runtime": {
+        "range": 180,
+        "pullTo": 55,
+        "bleedDur": 3,
+        "kind": "ChainSpear",
+        "bleedTickInterval": 0.5,
+        "bleedDmgMulPerTick": 0.1,
+        "suppressAttackWhileActive": true,
+        "style": "execution",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "minRank": 3,
+        "spear": {
+          "cut": 23,
+          "tip": 31,
+          "row": 16.5,
+          "sheet": "src/sprites/units/SpearMan/04Legend/03LegendSpearMan_01_01Projectile.png",
+          "chainX": 2.5
+        },
+        "dmgMul": 1.8,
+        "activeAnim": "attack2",
+        "marker": [
+          72,
+          72,
+          107
+        ],
+        "showBarInBattle": true,
+        "releaseFrame": 4,
+        "animationSpeed": 0.1,
+        "maxTargets": 1,
+        "cooldown": 7
+      },
+      "ownerKey": "처형자",
+      "owner": "처형자",
+      "icon": "src/sprites/icons/skills/85ExecutionChain.png",
+      "description": "가장 먼 적에게 사슬창을 던져\n{atk.png} 180% 피해를 입히고 자신의 앞으로 끌어옵니다.\n끌려온 적은 3초 동안 출혈합니다.",
+      "id": "execution_chain",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "처형 사슬"
+    },
+    "spectral_rush": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "attack_pierce",
+      "nameEn": "Spectral Rush",
+      "runtime": {
+        "maxTargets": 3,
+        "minRank": 2,
+        "kind": "SpectralRush",
+        "showBarInBattle": true,
+        "animationSpeed": 0.1,
+        "dmgMul": 1.3,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "range": 150,
+        "releaseFrame": 4,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "ownerKey": "망령병",
+      "owner": "망령병",
+      "icon": "src/sprites/icons/skills/86SpectralRush.png",
+      "description": "몸에서 망령이 빠져나와 적들을 관통하며\n최대 3명에게 각각 {atk.png} 130% 피해를 입힌 뒤 돌아옵니다.",
+      "id": "spectral_rush",
+      "duration": 0,
+      "durationText": "망령 귀환까지",
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "혼령 돌파"
+    },
+    "twin_bolt": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Multishot",
+      "runtime": {
+        "maxTargets": 2,
+        "dmgMul": 0.8,
+        "showBarInBattle": true,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "kind": "TwinBolt",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "MiniArcherMan02",
+      "owner": "석궁수",
+      "icon": "src/sprites/icons/skills/05Multishot.png",
+      "description": "2개의 화살을 발사해 최대 2명의 적에게 각각 {atk.png} 80% 피해를 입힙니다.",
+      "id": "twin_bolt",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "멀티샷"
+    },
+    "cataclysm_flurry": {
+      "maxTargets": 1,
+      "activationType": "passive",
+      "category": "attack_combo",
+      "nameEn": "Cataclysm Flurry",
+      "runtime": {
+        "charge": {
+          "x": 22.5,
+          "y": 18.5
+        },
+        "tip": {
+          "x": 31.5,
+          "y": 18.5
+        },
+        "chance": 0.2,
+        "steps": [
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          1.2
+        ],
+        "kind": "NightmareFlurry",
+        "showBarInBattle": true,
+        "internalCooldown": 2,
+        "minRank": 3,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "jabs": 5,
+        "style": "cataclysm",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 0
+      },
+      "ownerKey": "아포칼립스",
+      "owner": "아포칼립스",
+      "icon": "src/sprites/icons/skills/92CataclysmFlurry.png",
+      "description": "기본 공격 시 20% 확률로 마력 찌르기를 5회 연속 발동해,\n총 {atk.png} 280% 피해를 입힙니다.",
+      "id": "cataclysm_flurry",
+      "duration": 0,
+      "target": "enemy",
+      "cooldownLabel": "passive",
+      "cooldown": 0,
+      "name": "재앙 연격"
+    },
+    "chain_spear": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Chain Spear",
+      "runtime": {
+        "range": 180,
+        "pullTo": 55,
+        "minRank": 2,
+        "kind": "ChainSpear",
+        "showBarInBattle": true,
+        "animationSpeed": 0.1,
+        "dmgMul": 1.5,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "maxTargets": 1,
+        "releaseFrame": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 7
+      },
+      "ownerKey": "흑위병",
+      "owner": "흑위병",
+      "icon": "src/sprites/icons/skills/84ChainSpear.png",
+      "description": "가장 먼 적에게 사슬창을 던져\n{atk.png} 150% 피해를 입히고 자신의 앞으로 끌어옵니다.",
+      "id": "chain_spear",
+      "duration": 0,
+      "durationText": "끌어오기 종료까지",
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "철쇄 투창"
+    },
+    "judgments_radiance": {
+      "maxTargets": 2,
+      "activationType": "active",
+      "category": "attack_disrupt",
+      "nameEn": "Judgment’s Radiance",
+      "runtime": {
+        "range": 40,
+        "maxTargets": 2,
+        "minRank": 3,
+        "animationSpeed": 0.14,
+        "kind": "JudgmentsRadiance",
+        "showBarInBattle": true,
+        "alwaysShowBarInBattle": true,
+        "dmgMul": 1.8,
+        "activeAnim": "attack3",
+        "suppressAttackWhileActive": true,
+        "duration": 3,
+        "releaseFrame": 5,
+        "hpBarLiftBars": 1,
+        "bossDuration": 1.5,
+        "cooldown": 7
+      },
+      "ownerKey": "심판관",
+      "owner": "심판관",
+      "icon": "src/sprites/icons/skills/74JudgmentsRadiance.png",
+      "description": "망치를 들어 빛을 터뜨려 주변 최대 2명에게 각각 {atk.png} 180% 피해를 입히고, 3초 동안 스킬 사용을 막습니다.",
+      "id": "judgments_radiance",
+      "duration": 3,
+      "target": "enemy",
+      "cooldown": 7,
+      "name": "심판의 광휘"
+    },
+    "spell_echo": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "support",
+      "nameEn": "Spell Echo",
+      "runtime": {
+        "maxTargets": 1,
+        "ratio": 0.5,
+        "minRank": 2,
+        "animationSpeed": 0.075,
+        "kind": "SpellEcho",
+        "showBarInBattle": true,
+        "firstReady": 2,
+        "releaseFrame": 5,
+        "activeAnim": "attack2",
+        "suppressAttackWhileActive": true,
+        "duration": 5,
+        "style": "seer_orb",
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 8
+      },
+      "ownerKey": "예지술사",
+      "owner": "예지술사",
+      "icon": "src/sprites/icons/skills/110SpellEcho.png",
+      "description": "아군 1명의 다음 스킬을 복제해,\n기존 원본 스킬의 절반의 효과를 냅니다.",
+      "id": "spell_echo",
+      "duration": 5,
+      "target": "ally",
+      "cooldown": 8,
+      "name": "주문 복제"
+    },
+    "blade_wave": {
+      "activationType": "active",
+      "category": "attack",
+      "nameEn": "Blade Wave",
+      "runtime": {
+        "maxTargets": 2,
+        "dmgMul": 1,
+        "showBarInBattle": true,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "kind": "BladeWave",
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "해적",
+      "owner": "해적",
+      "icon": "src/sprites/icons/skills/03BladeWave.png",
+      "description": "전방으로 {atk.png} 100%의 칼날 파동을 날려 적에게 피해를 입힙니다.",
+      "id": "blade_wave",
+      "target": "enemy",
+      "cooldown": 4,
+      "name": "칼날 파동"
+    },
+    "devouring_arrow": {
+      "maxTargets": 1,
+      "activationType": "active",
+      "category": "attack_defense",
+      "nameEn": "Devouring Arrow",
+      "runtime": {
+        "maxTargets": 1,
+        "sheet": "src/sprites/units/ArcherMan/04Legend/03LegendArcherMan_02_01Skill.png",
+        "kind": "HollowArrow",
+        "showBarInBattle": true,
+        "suppressAttackWhileActive": true,
+        "style": "devouring",
+        "swallowDmgMul": 0.3,
+        "alwaysShowBarInBattle": true,
+        "sizeStep": 1,
+        "minRank": 3,
+        "dmgMul": 2.4,
+        "activeAnim": "attack2",
+        "releaseFrame": 8,
+        "hpBarLiftBars": 1,
+        "animationSpeed": 0.09,
+        "maxProjectiles": 3,
+        "cooldown": 8
+      },
+      "ownerKey": "미라지",
+      "owner": "미라지",
+      "icon": "src/sprites/icons/skills/83DevouringArrow.png",
+      "description": "{atk.png} 240% 피해를 주는 거대한 환영 화살을 쏩니다.\n날아가며 적의 기본 공격 투사체를 최대 3개 삼켜 더 강해집니다.",
+      "maxProjectiles": 3,
+      "id": "devouring_arrow",
+      "duration": 0,
+      "durationText": "화살 소멸까지",
+      "target": "enemy_projectile",
+      "cooldown": 8,
+      "name": "탐식의 화살"
+    },
+    "counter_stance": {
+      "activationType": "active",
+      "category": "defense_counter",
+      "nameEn": "Counter Stance",
+      "runtime": {
+        "invulnerableWhilePrecast": false,
+        "triggerRangePadding": 6,
+        "preDuration": 0,
+        "invulnerableWhileActive": true,
+        "kind": "CounterStance",
+        "showBarInBattle": true,
+        "requireNearbyEnemy": true,
+        "minRank": 3,
+        "activeAnim": "shield",
+        "suppressAttackWhileActive": true,
+        "duration": 1.5,
+        "reflectFrac": 1,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "MiniSwordMan03",
+      "owner": "기사",
+      "icon": "src/sprites/icons/skills/02CounterStance.png",
+      "description": "방패를 들어 1.5초 동안 모든 피해를 막고, 공격한 적에게 피해를 반사합니다.",
+      "id": "counter_stance",
+      "duration": 1.5,
+      "effects": {
+        "invulnerable": true,
+        "reflect": true
+      },
+      "target": "self",
+      "cooldown": 4,
+      "name": "반격 태세"
+    },
+    "ironwall_challenge": {
+      "activationType": "active",
+      "category": "defense_taunt",
+      "nameEn": "Ironwall Challenge",
+      "runtime": {
+        "range": 160,
+        "minRank": 3,
+        "kind": "IronwallChallenge",
+        "showBarInBattle": true,
+        "activeAnim": "shield",
+        "blockDuration": 1.5,
+        "duration": 3,
+        "maxTargets": 4,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 5
+      },
+      "ownerKey": "하이 엘프 보병",
+      "owner": "하이 엘프 보병",
+      "icon": "src/sprites/icons/skills/33IronwallChallenge.png",
+      "description": "3초간 주변 최대 4명이 자신을 공격하게 하고, 방패를 들어 1.5초 동안 모든 피해를 막습니다.",
+      "id": "ironwall_challenge",
+      "duration": 3,
+      "target": "self_nearby_enemy",
+      "cooldown": 5,
+      "name": "철벽 도발"
+    },
+    "combustion_blast": {
+      "maxTargets": 3,
+      "activationType": "active",
+      "category": "aoe_dot",
+      "nameEn": "Combustion Blast",
+      "runtime": {
+        "range": 135,
+        "minRank": 3,
+        "kind": "CombustionBlast",
+        "showBarInBattle": true,
+        "radius": 65,
+        "dmgMul": 1,
+        "activeAnim": "attack3",
+        "maxTargets": 3,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 6
+      },
+      "ownerKey": "플레어",
+      "owner": "플레어",
+      "icon": "src/sprites/icons/skills/55CombustionBlast.png",
+      "description": "불꽃을 발사해 최대 3명에게 각각 {atk.png} 100% 피해와 {fire.png}을 부여합니다. 이미 {fire.png}상태인 적은 {fire.png}이 폭발해 {atk.png} 80% 추가 피해를 받습니다.",
+      "id": "combustion_blast",
+      "duration": 3,
+      "effects": {
+        "burnTickMul": 0.15,
+        "explosionMul": 0.8,
+        "burnDuration": 3
+      },
+      "target": "enemy",
+      "cooldown": 6,
+      "name": "연소 폭발"
+    },
+    "guard_stance": {
+      "activationType": "active",
+      "category": "defense",
+      "nameEn": "Guard Stance",
+      "runtime": {
+        "triggerRangePadding": 6,
+        "preDuration": 0,
+        "invulnerableWhileActive": true,
+        "kind": "ShieldWall",
+        "showBarInBattle": true,
+        "invulnerableWhilePrecast": false,
+        "requireNearbyEnemy": true,
+        "activeAnim": "shield",
+        "suppressAttackWhileActive": true,
+        "duration": 1,
+        "minRank": 2,
+        "hpBarLiftBars": 1,
+        "alwaysShowBarInBattle": true,
+        "cooldown": 4
+      },
+      "ownerKey": "MiniSwordMan02",
+      "owner": "병사",
+      "icon": "src/sprites/icons/skills/01GuardStance.png",
+      "description": "방패를 들어 1초 동안 모든 피해를 막습니다.",
+      "id": "guard_stance",
+      "duration": 1,
+      "effects": {
+        "invulnerable": true
+      },
+      "target": "self",
+      "cooldown": 4,
+      "name": "방어 태세"
+    }
+  },
+  "hasActiveSkillForUnit": {
+    "_lua_type": "function"
+  },
+  "isAttackSkillKind": {
+    "_lua_type": "function"
+  },
+  "hasAttackSkillForUnit": {
+    "_lua_type": "function"
+  },
+  "get": {
+    "_lua_type": "function"
+  },
+  "applyToUnit": {
+    "_lua_type": "function"
+  },
+  "byOwner": {
+    "병사": [
+      "guard_stance"
+    ],
+    "서커스 단장 (Ringmaster)": [
+      "ferret_express"
+    ],
+    "서커스 단장": [
+      "ferret_express"
+    ],
+    "Ringmaster": [
+      "ferret_express"
+    ],
+    "페럿 조련사 (Ferret Tamer)": [
+      "ferret_courier"
+    ],
+    "페럿 조련사": [
+      "ferret_courier"
+    ],
+    "Ferret Tamer": [
+      "ferret_courier"
+    ],
+    "FerretTamer": [
+      "ferret_courier"
+    ],
+    "환술사 (Illusionist)": [
+      "mass_charm"
+    ],
+    "크로노워커 (Chrono Walker)": [
+      "temporal_assault"
+    ],
+    "환술사": [
+      "mass_charm"
+    ],
+    "Illusionist": [
+      "mass_charm"
+    ],
+    "트릭스터 (Trickster)": [
+      "charm"
+    ],
+    "파멸의 천사 (Angel of Ruin)": [
+      "doom_resonance"
+    ],
+    "트릭스터": [
+      "charm"
+    ],
+    "Trickster": [
+      "charm"
+    ],
+    "광대": [
+      "two_faced_card"
+    ],
+    "타락천사 (Fallen Angel)": [
+      "rupturing_descent"
+    ],
+    "Jester": [
+      "two_faced_card"
+    ],
+    "J": [
+      "two_faced_card"
+    ],
+    "Joker": [
+      "two_faced_card"
+    ],
+    "수정술사 (Crystal Mage)": [
+      "cleansing_wave"
+    ],
+    "Dominion": [
+      "absolute_judgment"
+    ],
+    "Crystal Mage": [
+      "cleansing_wave"
+    ],
+    "수정술사": [
+      "cleansing_wave"
+    ],
+    "켄타로우스 (Centaur)": [
+      "wild_stampede"
+    ],
+    "Archangel": [
+      "heavens_judgment"
+    ],
+    "켄타로우스": [
+      "wild_stampede"
+    ],
+    "켄타우로스 (Centaur)": [
+      "wild_stampede"
+    ],
+    "Centaur": [
+      "wild_stampede"
+    ],
+    "켄타우로스": [
+      "wild_stampede"
+    ],
+    "초원 기병 (Steppe Cavalry)": [
+      "call_of_the_plains"
+    ],
+    "Steppe Cavalry": [
+      "call_of_the_plains"
+    ],
+    "윙드 후사르 (Winged Hussar)": [
+      "wings_of_victory"
+    ],
+    "숲의 심장": [
+      "elderwood_prison"
+    ],
+    "Winged Hussar": [
+      "wings_of_victory"
+    ],
+    "윙드 후사르": [
+      "wings_of_victory"
+    ],
+    "후사르 (Hussar)": [
+      "victory_signal"
+    ],
+    "실반": [
+      "bramble_prison"
+    ],
+    "Hussar": [
+      "victory_signal"
+    ],
+    "후사르": [
+      "victory_signal"
+    ],
+    "초원 기병": [
+      "call_of_the_plains"
+    ],
+    "운디네 (Undine)": [
+      "triple_tide"
+    ],
+    "Undine": [
+      "triple_tide"
+    ],
+    "운디네": [
+      "triple_tide"
+    ],
+    "리치": [
+      "call_of_the_dead"
+    ],
+    "Flamecaller": [
+      "flame_call"
+    ],
+    "화령술사": [
+      "flame_call"
+    ],
+    "샐러맨더 (Salamander)": [
+      "flame_descent"
+    ],
+    "Salamander": [
+      "flame_descent"
+    ],
+    "샐러맨더": [
+      "flame_descent"
+    ],
+    "예지술사": [
+      "spell_echo"
+    ],
+    "이클립스 (Eclipse)": [
+      "eclipse_snipe"
+    ],
+    "Eclipse": [
+      "eclipse_snipe"
+    ],
+    "이클립스": [
+      "eclipse_snipe"
+    ],
+    "은빛사수 (Silver Sniper)": [
+      "chain_snipe"
+    ],
+    "Silver Sniper": [
+      "chain_snipe"
+    ],
+    "은빛사수": [
+      "chain_snipe"
+    ],
+    "세라프 (Seraph)": [
+      "celestial_return"
+    ],
+    "Seraph": [
+      "celestial_return"
+    ],
+    "세라프": [
+      "celestial_return"
+    ],
+    "큐피드 (Cupid)": [
+      "salvation_arrow"
+    ],
+    "Cupid": [
+      "salvation_arrow"
+    ],
+    "큐피드": [
+      "salvation_arrow"
+    ],
+    "성배기사 (Grail Knight)": [
+      "grail_swordfall"
+    ],
+    "Grail Knight": [
+      "grail_swordfall"
+    ],
+    "성배기사": [
+      "grail_swordfall"
+    ],
+    "팬텀 (Phantom)": [
+      "flash_barrage"
+    ],
+    "Phantom": [
+      "flash_barrage"
+    ],
+    "팬텀": [
+      "flash_barrage"
+    ],
+    "CrownRevenant": [
+      "titans_gaze"
+    ],
+    "스펙터 (Specter)": [
+      "shrink_ray"
+    ],
+    "Specter": [
+      "shrink_ray"
+    ],
+    "LegendarySpecter": [
+      "shrink_ray"
+    ],
+    "아포칼립스": [
+      "cataclysm_flurry"
+    ],
+    "나이트메어 (Nightmare)": [
+      "nightmare_flurry"
+    ],
+    "Nightmare": [
+      "nightmare_flurry"
+    ],
+    "나이트메어": [
+      "nightmare_flurry"
+    ],
+    "워록 (Warlock)": [
+      "soul_feast"
+    ],
+    "Warlock": [
+      "soul_feast"
+    ],
+    "워록": [
+      "soul_feast"
+    ],
+    "흑마법사 (Dark Mage)": [
+      "life_siphon"
+    ],
+    "Dark Mage": [
+      "life_siphon"
+    ],
+    "흑마법사": [
+      "life_siphon"
+    ],
+    "아크메이지 (Archmage)": [
+      "arcane_unleashing"
+    ],
+    "Archmage": [
+      "arcane_unleashing"
+    ],
+    "아크메이지": [
+      "arcane_unleashing"
+    ],
+    "심연술사 (Abyss Mage)": [
+      "abyssal_ray"
+    ],
+    "Abyss Mage": [
+      "abyssal_ray"
+    ],
+    "심연술사": [
+      "abyssal_ray"
+    ],
+    "SpearRevenant": [
+      "spectral_return"
+    ],
+    "망령병 (Wraith Spearman)": [
+      "spectral_rush"
+    ],
+    "Wraith Spearman": [
+      "spectral_rush"
+    ],
+    "망령병": [
+      "spectral_rush"
+    ],
+    "처형자 (Executioner)": [
+      "execution_chain"
+    ],
+    "Executioner": [
+      "execution_chain"
+    ],
+    "처형자": [
+      "execution_chain"
+    ],
+    "흑위병 (Black Guard)": [
+      "chain_spear"
+    ],
+    "Black Guard": [
+      "chain_spear"
+    ],
+    "흑위병": [
+      "chain_spear"
+    ],
+    "미라지 (Mirage)": [
+      "devouring_arrow"
+    ],
+    "Mirage": [
+      "devouring_arrow"
+    ],
+    "미라지": [
+      "devouring_arrow"
+    ],
+    "환영사수 (Illusion Archer)": [
+      "hollow_arrow"
+    ],
+    "Illusion Archer": [
+      "hollow_arrow"
+    ],
+    "환영사수": [
+      "hollow_arrow"
+    ],
+    "레이븐 (Raven)": [
+      "twilight_barrage"
+    ],
+    "Raven": [
+      "twilight_barrage"
+    ],
+    "레이븐": [
+      "twilight_barrage"
+    ],
+    "암흑사수 (Dark Archer)": [
+      "arrow_rain"
+    ],
+    "Dark Archer": [
+      "arrow_rain"
+    ],
+    "암흑사수": [
+      "arrow_rain"
+    ],
+    "마그누스 (Magnus)": [
+      "ruin_tremor"
+    ],
+    "Magnus": [
+      "ruin_tremor"
+    ],
+    "마그누스": [
+      "ruin_tremor"
+    ],
+    "암검사 (Dark Swordsman)": [
+      "shadow_harvest"
+    ],
+    "Dark Swordsman": [
+      "shadow_harvest"
+    ],
+    "암검사": [
+      "shadow_harvest"
+    ],
+    "하이 엘프 기병": [
+      "assault_barrier"
+    ],
+    "팔라딘 (Paladin)": [
+      "condemning_strike"
+    ],
+    "Paladin": [
+      "condemning_strike"
+    ],
+    "RarePaladin": [
+      "condemning_strike"
+    ],
+    "서리칼날 (Frostblade)": [
+      "frost_spike"
+    ],
+    "Frostblade": [
+      "frost_spike"
+    ],
+    "서리칼날": [
+      "frost_spike"
+    ],
+    "마검사 (Magic Swordsman)": [
+      "spellblade_vortex"
+    ],
+    "Magic Swordsman": [
+      "spellblade_vortex"
+    ],
+    "마검사": [
+      "spellblade_vortex"
+    ],
+    "게이즈 (Gaze)": [
+      "arcane_collapse"
+    ],
+    "Gaze": [
+      "arcane_collapse"
+    ],
+    "게이즈": [
+      "arcane_collapse"
+    ],
+    "초승달 여왕 (Crescent Queen)": [
+      "crescent_requital"
+    ],
+    "Crescent Queen": [
+      "crescent_requital"
+    ],
+    "초승달 여왕": [
+      "crescent_requital"
+    ],
+    "월광사제 (Moon Priestess)": [
+      "moonlit_memory"
+    ],
+    "Moon Priestess": [
+      "moonlit_memory"
+    ],
+    "월광사제": [
+      "moonlit_memory"
+    ],
+    "아포칼립스 (Apocalypse)": [
+      "cataclysm_flurry"
+    ],
+    "Apocalypse": [
+      "cataclysm_flurry"
+    ],
+    "소울리퍼 (Soul Reaper)": [
+      "soul_severance"
+    ],
+    "Soul Reaper": [
+      "soul_severance"
+    ],
+    "소울리퍼": [
+      "soul_severance"
+    ],
+    "리퍼 (Reaper)": [
+      "reapers_dance"
+    ],
+    "Reaper": [
+      "reapers_dance"
+    ],
+    "리퍼": [
+      "reapers_dance"
+    ],
+    "듀라한 (Dullahan)": [
+      "flash_slash"
+    ],
+    "Dullahan": [
+      "flash_slash"
+    ],
+    "듀라한": [
+      "flash_slash"
+    ],
+    "백기사 (White Knight)": [
+      "guardian_swordfall"
+    ],
+    "White Knight": [
+      "guardian_swordfall"
+    ],
+    "백기사": [
+      "guardian_swordfall"
+    ],
+    "랜스마스터 (Lance Master)": [
+      "peerless_spear"
+    ],
+    "Lance Master": [
+      "peerless_spear"
+    ],
+    "랜스마스터": [
+      "peerless_spear"
+    ],
+    "창술사 (Spear Adept)": [
+      "lance_extension"
+    ],
+    "Spear Adept": [
+      "lance_extension"
+    ],
+    "창술사": [
+      "lance_extension"
+    ],
+    "발키리 (Valkyrie)": [
+      "celestial_arsenal"
+    ],
+    "Valkyrie": [
+      "celestial_arsenal"
+    ],
+    "발키리": [
+      "celestial_arsenal"
+    ],
+    "빙결여제 (Frost Empress)": [
+      "glacial_shatter"
+    ],
+    "Frost Empress": [
+      "glacial_shatter"
+    ],
+    "빙결여제": [
+      "glacial_shatter"
+    ],
+    "심판관 (Arbiter)": [
+      "judgments_radiance"
+    ],
+    "Arbiter": [
+      "judgments_radiance"
+    ],
+    "심판관": [
+      "judgments_radiance"
+    ],
+    "하이 엘프 보병": [
+      "ironwall_challenge"
+    ],
+    "엘프 보병": [
+      "guardian_challenge"
+    ],
+    "광폭 기병": [
+      "frenzied_assault"
+    ],
+    "야만 기병": [
+      "assault_strike"
+    ],
+    "엘프기병": [
+      "assault_guard"
+    ],
+    "엘프 기병": [
+      "assault_guard"
+    ],
+    "엘프 현자": [
+      "binding_circle"
+    ],
+    "엘프 법사": [
+      "binding_bolt"
+    ],
+    "엘프법사": [
+      "binding_bolt"
+    ],
+    "엘프기사": [
+      "guardblade"
+    ],
+    "바그": [
+      "beast_kick"
+    ],
+    "스파르타 (Spartan)": [
+      "crushing_counter"
+    ],
+    "Spartan": [
+      "crushing_counter"
+    ],
+    "스파르타": [
+      "crushing_counter"
+    ],
+    "글래디에이터 (Gladiator)": [
+      "spear_cyclone"
+    ],
+    "Gladiator": [
+      "spear_cyclone"
+    ],
+    "글래디에이터": [
+      "spear_cyclone"
+    ],
+    "투기 창병": [
+      "collision_drive"
+    ],
+    "고대 창병": [
+      "burst_thrust"
+    ],
+    "폭파대장": [
+      "concussion_bomb"
+    ],
+    "척탄병": [
+      "timed_keg"
+    ],
+    "캐노니어": [
+      "shatter_cannon"
+    ],
+    "화포수": [
+      "suppressive_round"
+    ],
+    "플레어": [
+      "combustion_blast"
+    ],
+    "염투사": [
+      "flame_eruption"
+    ],
+    "템플러": [
+      "guardian_oath"
+    ],
+    "성기사": [
+      "holy_barrier"
+    ],
+    "사수 병사": [
+      "heavy_kick"
+    ],
+    "엘프병사": [
+      "guard_thrust"
+    ],
+    "장군": [
+      "earth_crush"
+    ],
+    "베테랑": [
+      "piercing_thrust"
+    ],
+    "검황": [
+      "emperors_roar"
+    ],
+    "프랑켄슈타인": [
+      "overload_discharge"
+    ],
+    "빅터": [
+      "volt_saw"
+    ],
+    "황제": [
+      "blood_surge"
+    ],
+    "Oracle": [
+      "prophetic_mirror"
+    ],
+    "MiniSpearMan03": [
+      "impact_strike"
+    ],
+    "예언자": [
+      "prophetic_mirror"
+    ],
+    "근위병": [
+      "impact_strike"
+    ],
+    "바바리안": [
+      "berserk_axe"
+    ],
+    "Diviner": [
+      "spell_echo"
+    ],
+    "바이킹": [
+      "battle_cry"
+    ],
+    "Sky Spearman": [
+      "rift_arsenal"
+    ],
+    "대사제": [
+      "healing_sanctuary"
+    ],
+    "Chrono Walker": [
+      "temporal_assault"
+    ],
+    "치유술사": [
+      "healing_field"
+    ],
+    "크로노워커": [
+      "temporal_assault"
+    ],
+    "대주술사": [
+      "arcane_core"
+    ],
+    "파멸의 천사": [
+      "doom_resonance"
+    ],
+    "원시 법사": [
+      "mountain_roar"
+    ],
+    "Fallen Angel": [
+      "rupturing_descent"
+    ],
+    "원시법사": [
+      "mountain_roar"
+    ],
+    "야생 법사": [
+      "savage_tusk"
+    ],
+    "도미니온 (Dominion)": [
+      "absolute_judgment"
+    ],
+    "야생법사": [
+      "savage_tusk"
+    ],
+    "주술사": [
+      "arcane_orb"
+    ],
+    "도미니온": [
+      "absolute_judgment"
+    ],
+    "중기병": [
+      "crushing_slam"
+    ],
+    "대천사": [
+      "heavens_judgment"
+    ],
+    "돌격병": [
+      "ground_slam"
+    ],
+    "Phase": [
+      "dimensional_duel"
+    ],
+    "엔트로드": [
+      "root_drain"
+    ],
+    "숲의 심장 (Wildheart)": [
+      "elderwood_prison"
+    ],
+    "엔트": [
+      "life_sap"
+    ],
+    "실반 (Sylvan)": [
+      "bramble_prison"
+    ],
+    "무법자": [
+      "savage_slash"
+    ],
+    "리치로드 (Lich Lord)": [
+      "legion_of_the_dead"
+    ],
+    "무법 기병": [
+      "blood_rampage"
+    ],
+    "리치로드": [
+      "legion_of_the_dead"
+    ],
+    "도끼 기병": [
+      "blood_price"
+    ],
+    "리치 (Lich)": [
+      "call_of_the_dead"
+    ],
+    "약탈자": [
+      "bleeding_strike"
+    ],
+    "예언자 (Oracle)": [
+      "prophetic_mirror"
+    ],
+    "MiniSpearMan02": [
+      "down_strike"
+    ],
+    "Lich": [
+      "call_of_the_dead"
+    ],
+    "창위병": [
+      "down_strike"
+    ],
+    "명사수": [
+      "headshot"
+    ],
+    "Lich Lord": [
+      "legion_of_the_dead"
+    ],
+    "순찰자": [
+      "precision_shot"
+    ],
+    "Sylvan": [
+      "bramble_prison"
+    ],
+    "데드아이": [
+      "deadly_bullet"
+    ],
+    "Wildheart": [
+      "elderwood_prison"
+    ],
+    "하이 엘프": [
+      "gale_bow"
+    ],
+    "페이즈": [
+      "dimensional_duel"
+    ],
+    "레인저": [
+      "piercing_bullet"
+    ],
+    "페이즈 (Phase)": [
+      "dimensional_duel"
+    ],
+    "엘프 궁수": [
+      "shackle_arrow"
+    ],
+    "대천사 (Archangel)": [
+      "heavens_judgment"
+    ],
+    "엘프궁수": [
+      "shackle_arrow"
+    ],
+    "MiniArcherMan03": [
+      "triple_shot"
+    ],
+    "타락천사": [
+      "rupturing_descent"
+    ],
+    "장궁병": [
+      "triple_shot"
+    ],
+    "MiniArcherMan02": [
+      "twin_bolt"
+    ],
+    "Angel of Ruin": [
+      "doom_resonance"
+    ],
+    "석궁수": [
+      "twin_bolt"
+    ],
+    "해적왕": [
+      "storm_blade"
+    ],
+    "천공병": [
+      "rift_arsenal"
+    ],
+    "해적": [
+      "blade_wave"
+    ],
+    "천공병 (Sky Spearman)": [
+      "rift_arsenal"
+    ],
+    "MiniSwordMan03": [
+      "counter_stance"
+    ],
+    "예지술사 (Diviner)": [
+      "spell_echo"
+    ],
+    "기사": [
+      "counter_stance"
+    ],
+    "MiniSwordMan02": [
+      "guard_stance"
+    ],
+    "화령술사 (Flamecaller)": [
+      "flame_call"
+    ]
+  }
+}

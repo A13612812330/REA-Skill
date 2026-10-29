@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-22T04:32:34Z",
+  "scope": "public read-only client acquisition",
+  "sourcePage": {
+    "url": "https://www.crazymonkeygames.com/download.php?rank=name",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "observedEntry": {
+      "title": "Boxhead 2Play Rooms",
+      "url": "https://www.crazymonkeygames.com/downloads/boxhead2play.zip"
+    }
+  },
+  "downloadAttempt": {
+    "url": "https://www.crazymonkeygames.com/downloads/boxhead2play.zip",
+    "status": 404,
+    "saved": false,
+    "sha256": null
+  },
+  "rgmApi": {
+    "url": "https://rgm.games/api/games/975",
+    "status": 200,
+    "romPath": "/roms/975.swf",
+    "romDownloadStatus": 404
+  },
+  "nextAllowedInputs": [
+    "user-provided authorized SWF or ZIP path",
+    "sanitized HAR containing the successful public SWF request",
+    "another public authorized mirror"
+  ],
+  "prohibited": [
+    "bypassing access controls",
+    "using cookies or authorization tokens",
+    "extracting private or server-side data",
+    "repackaging original assets as a public release"
+  ]
+}

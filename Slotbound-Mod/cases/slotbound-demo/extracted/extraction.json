@@ -1,0 +1,11 @@
+{
+  "source_sha256": "2db4b93b52cd6daec9014f6e8ee42f78d32f683a496af35a8b03d8b97f4fccb7",
+  "aes_gcm_authenticated": true,
+  "plaintext_sha256_verified": true,
+  "plaintext_size": 70549826,
+  "startup_size": 3931,
+  "content_size": 70545871,
+  "startup_version": 2,
+  "content_prefix_hex": "504b0304140000000800d288485d7e7da86fbc050000fc09000008000000636f6e662e6c75617d566d73d34610de3bbdcb6f8903049200020222e4650a997147",
+  "content_is_zip": true
+}

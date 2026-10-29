@@ -1,0 +1,346 @@
+{
+  "repository": "liusu239113/SlotboundLua",
+  "commit": "57492bbe9c273d2c3e13387024436119c886d341",
+  "repository_created_at": "2026-07-23T17:24:27Z",
+  "license_metadata": null,
+  "official_status": "not-established",
+  "local_build_match": "not-established; reference files must not replace local output",
+  "files": [
+    {
+      "path": "README.md",
+      "git_blob_sha1": "45f0131a30044be75827da877801ec170faf8e23",
+      "sha256": "8bf910129b307249a6fc59c69c02838e56656b56a32359b5a59366502d81dd0d",
+      "bytes": 3320,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/README.md"
+    },
+    {
+      "path": "contents/conf.lua",
+      "git_blob_sha1": "9e9522d949ad1150c1985aab821767fbedb06003",
+      "sha256": "acb1466161831aba5032b43c823efbc1312d808fdb2b910e7cc6342bd0a392af",
+      "bytes": 4807,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/conf.lua"
+    },
+    {
+      "path": "contents/information.md",
+      "git_blob_sha1": "86080ada321abbbd772a77f07a0cbdcf1ef4274c",
+      "sha256": "0b992f7df686b047fc645ec3f367a886629db5568aa0dad1d120bc4cecfc7331",
+      "bytes": 48332,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/information.md"
+    },
+    {
+      "path": "contents/main.lua",
+      "git_blob_sha1": "f618db29b35d646424a85d470361104c5e2fb3d0",
+      "sha256": "4a5540077cf13ace30f19d3042a7e5d9921071c1da90e1ecebc0d68322a2e21f",
+      "bytes": 851191,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/main.lua"
+    },
+    {
+      "path": "contents/src/audio/procedural_audio.lua",
+      "git_blob_sha1": "c15e5293e67fcd127e25e1af84492c53b81b270d",
+      "sha256": "4812fad7cc3a5e2d66a8fa01bb4b8e6787821e0c57ef453ce9796c9de1dd41bd",
+      "bytes": 6667,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/audio/procedural_audio.lua"
+    },
+    {
+      "path": "contents/src/data/assets.lua",
+      "git_blob_sha1": "fe869f86ee471b83a94310aae17b86c698f4af2d",
+      "sha256": "d111f66d151ce51b3b8e63c9663231a2ecdd9a3f8f73ec5bacd24a02e63910ad",
+      "bytes": 258231,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/data/assets.lua"
+    },
+    {
+      "path": "contents/src/data/constants.lua",
+      "git_blob_sha1": "6e1dbb2a1db1ca697ab776bd2f728280a516ce04",
+      "sha256": "ad12c777c4a2a99c9bce9d3ad37acc5356cedd9f79f82aa2377aa38a8fae87f4",
+      "bytes": 49962,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/data/constants.lua"
+    },
+    {
+      "path": "contents/src/data/font_resolver.lua",
+      "git_blob_sha1": "a6f5d211d988eed7919bf7d327945ea9f627837c",
+      "sha256": "1720be9eba924dbc830d68db9e7740658bb4f8f0dc413172f199867e195ad6fe",
+      "bytes": 1796,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/data/font_resolver.lua"
+    },
+    {
+      "path": "contents/src/data/language.lua",
+      "git_blob_sha1": "c6fb58de6faf57cc28c7a6a7009f5e7beabb8997",
+      "sha256": "e1f8abd970b89a1f76983dc1e17e828c41216943e5bd3dca39348388b4850ba0",
+      "bytes": 65072,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/data/language.lua"
+    },
+    {
+      "path": "contents/src/data/randomoption.lua",
+      "git_blob_sha1": "92b7344b5e2c090087bfdad80fd18a89b3433fb6",
+      "sha256": "d20ff11f57ed4ad996fb1db096827752b20e4c901b36ffec23a235541b54a53a",
+      "bytes": 22202,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/data/randomoption.lua"
+    },
+    {
+      "path": "contents/src/data/safe_lua_table.lua",
+      "git_blob_sha1": "08dbe7ff1275b9b6b1c6d01e9a29e4051fcacbf2",
+      "sha256": "3d5ea2e0c8b3e90ceda1f58b276a8ff03a85fdf83e83b6d492cba2c9c86b6d20",
+      "bytes": 8457,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/data/safe_lua_table.lua"
+    },
+    {
+      "path": "contents/src/data/skill.lua",
+      "git_blob_sha1": "ff94285ad40b0beb23ee91ce0fa717104b006db1",
+      "sha256": "9143fd8045d37e97f58de40eb8b5f2d9a99b2041b6edd0c3a46ee7cd823cd794",
+      "bytes": 39276,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/data/skill.lua"
+    },
+    {
+      "path": "contents/src/game/alpha_ray_glow.lua",
+      "git_blob_sha1": "229c1d26131f51836fb296202f9f00d5b65ce700",
+      "sha256": "46a3e2b65070eedb63a8b590754ebe9afec6c32997f4dd7147248ad2ac6eb1b0",
+      "bytes": 5655,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/alpha_ray_glow.lua"
+    },
+    {
+      "path": "contents/src/game/atmosphere.lua",
+      "git_blob_sha1": "5f282702bb03ef11d7184d19c80927b47f919764",
+      "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5",
+      "bytes": 3,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/atmosphere.lua"
+    },
+    {
+      "path": "contents/src/game/battle_start_guard.lua",
+      "git_blob_sha1": "de0d93c0c3eea4e22c4e93f2d0424a123f3948d0",
+      "sha256": "26ee320cb6ac16ea3afd197be1038d3c0cfcf4d2c214f4e4593bccb30e6fa8b8",
+      "bytes": 270,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/battle_start_guard.lua"
+    },
+    {
+      "path": "contents/src/game/battlefield.lua",
+      "git_blob_sha1": "b6b71f7da91657f4a9d7b5c93ea4945039b2eab8",
+      "sha256": "1661b76181a5cf0c14f93bdaf3eaacc1608130e2ebc882e8e42e3a9953571706",
+      "bytes": 1295509,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/battlefield.lua"
+    },
+    {
+      "path": "contents/src/game/cores.lua",
+      "git_blob_sha1": "720d5672175cc936f0a11cbfd4489586b70556ee",
+      "sha256": "356b23ae697a4fe1f4f02c44680e7f0fce5d58f4062502b7bb096a773e9a4254",
+      "bytes": 76251,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/cores.lua"
+    },
+    {
+      "path": "contents/src/game/hidden_luck.lua",
+      "git_blob_sha1": "2c55a2c427267ff92945c0536b3f86cb8f31b5e1",
+      "sha256": "da20c75c2535a93360cddb15add6a2a072c284ca00b899037b573115bf2645d2",
+      "bytes": 10565,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/hidden_luck.lua"
+    },
+    {
+      "path": "contents/src/game/item.lua",
+      "git_blob_sha1": "76e929955cdd6f4bec8a69d2917d38cae3522ffc",
+      "sha256": "8bfa20e810db3a0f1ea69966475c90e1fdbdcdb60d2515d80eed0303377396b0",
+      "bytes": 28390,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/item.lua"
+    },
+    {
+      "path": "contents/src/game/postprocess.lua",
+      "git_blob_sha1": "b534398c8ab20347fc4c14f9ecff8e2f3eb50085",
+      "sha256": "1b4200cce0800b6551eb87dd7cba04d7af1e3bceaa82f7a69081055b61eae83f",
+      "bytes": 2114,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/postprocess.lua"
+    },
+    {
+      "path": "contents/src/game/postprocess_v2.lua",
+      "git_blob_sha1": "8ec0a46afb88a089f760bf7e10ff5f4fae6178d4",
+      "sha256": "5714bd4cd7778a847777ddcd907bc18eb6d1b009cb1f6f9e24c666adf6edf34a",
+      "bytes": 2067,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/postprocess_v2.lua"
+    },
+    {
+      "path": "contents/src/game/postprocess_v3.lua",
+      "git_blob_sha1": "1b9b5c899710960f50945f926ca913226f0b2b8c",
+      "sha256": "b99ac5c0b21f5fe24c3b64a130401a60288256e5462bc0a05a05f866c5a66695",
+      "bytes": 2294,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/postprocess_v3.lua"
+    },
+    {
+      "path": "contents/src/game/postprocess_v4.lua",
+      "git_blob_sha1": "4f3285611c286525f9775a64a2b437407bb811a1",
+      "sha256": "bdce6a027ae9b63fab9070ebf1c5ecdd50a2af2d87fd3b91e462ad85fe11b1c3",
+      "bytes": 2877,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/postprocess_v4.lua"
+    },
+    {
+      "path": "contents/src/game/power.lua",
+      "git_blob_sha1": "d08c87e9c0f64c36992fd27181aa494d30aab924",
+      "sha256": "df3ec3a2461491201a6064c70ed5175d81c9c828ab83f9530bc3f66deb6f812d",
+      "bytes": 6738,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/power.lua"
+    },
+    {
+      "path": "contents/src/game/promotion.lua",
+      "git_blob_sha1": "de87ad78c24380628178c3b186bf9ef05079b87b",
+      "sha256": "19df759a22eb674e4d150b737dc94383b8f3b8e6b1d541bbf761e9bf434a9f2c",
+      "bytes": 44533,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/promotion.lua"
+    },
+    {
+      "path": "contents/src/game/promotion_stats.lua",
+      "git_blob_sha1": "1ddcdd301a43e1dbba1f6a2dc996950573fe7131",
+      "sha256": "a1ec1fb1cbf978e1ffdb2507cb69a246fabe3120d6bf10bd82168d7fc4e2fd49",
+      "bytes": 6818,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/promotion_stats.lua"
+    },
+    {
+      "path": "contents/src/game/quest.lua",
+      "git_blob_sha1": "07e98ba2590deffc0321058ead2ce2fb0bb386a8",
+      "sha256": "2035811071336461f653e328ce039dcc9e24687f0676625fb6ca8c180b70ff94",
+      "bytes": 20634,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/quest.lua"
+    },
+    {
+      "path": "contents/src/game/sim.lua",
+      "git_blob_sha1": "89795c0708af9624d8d2c7a22e6b42872b4b7094",
+      "sha256": "f7c6e1bb6d181262ccfa2936a10d48774a3b35f925665f44b08181dca4fed9c2",
+      "bytes": 4786,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/sim.lua"
+    },
+    {
+      "path": "contents/src/game/slot.lua",
+      "git_blob_sha1": "5d21b4c97f27de2596b7481489d127e2172b33c1",
+      "sha256": "13fc40a6da5ef6f9d383698ad32ac1e627acf640dfa38f68b4ea91cdfde80e95",
+      "bytes": 49455,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/slot.lua"
+    },
+    {
+      "path": "contents/src/game/stone.lua",
+      "git_blob_sha1": "6ca2b728bfcf08b6c02e4f5bb6bb4decd949968e",
+      "sha256": "982e8a471df8f6660bbe6cb9523f57f354d0cd736e44a1774d40943084ecf330",
+      "bytes": 4110,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/game/stone.lua"
+    },
+    {
+      "path": "contents/src/platform_window.lua",
+      "git_blob_sha1": "abf467157e2b237bf7a86dfd7b3c6d7c388ef44a",
+      "sha256": "7b791c055bb3b8e76b9e36173826cbc987e1d17f5c43c2f5919377b1689895c1",
+      "bytes": 799,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/platform_window.lua"
+    },
+    {
+      "path": "contents/src/release_integrity.lua",
+      "git_blob_sha1": "7288563b1a2989b7a9934dd77e6ad711a49712b7",
+      "sha256": "2d2437e2eaed6a16cd820ec406ddb9014b67a3480dd161f3bd2b8f0cc764245f",
+      "bytes": 3636,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/release_integrity.lua"
+    },
+    {
+      "path": "contents/src/release_integrity_manifest.lua",
+      "git_blob_sha1": "0d5be8286fdc7fe14f1d42d24416201544c533b3",
+      "sha256": "263739027263060aaee38c31ef2a664172ffc27e7bfae915513d2c227c04d988",
+      "bytes": 4465,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/release_integrity_manifest.lua"
+    },
+    {
+      "path": "contents/src/runtime_performance.lua",
+      "git_blob_sha1": "32f6ab9cacc9a5ff5a502d1fadbdab27136ad52b",
+      "sha256": "7f9f87f02093b4ee36883a1e529aa79beae8a412522f79d747f8af60fe6a37fd",
+      "bytes": 1777,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/runtime_performance.lua"
+    },
+    {
+      "path": "contents/src/save.lua",
+      "git_blob_sha1": "397eb636d136c20866e0879df339f5b69522a74e",
+      "sha256": "390f69e91f7013c379f24bf04317b0180a86061ae55fac337c618a3462d50618",
+      "bytes": 15317,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/save.lua"
+    },
+    {
+      "path": "contents/src/ui/config.lua",
+      "git_blob_sha1": "1e4be70554dfa85a3378806b1fd785716f317bd9",
+      "sha256": "7179bc7686d93b62d8d06dec8659aa9748c1eaf45893db5d5eb185332a7ebd78",
+      "bytes": 97227,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/config.lua"
+    },
+    {
+      "path": "contents/src/ui/core_select_flow.lua",
+      "git_blob_sha1": "0b73d4ab8ba41bf21c4f33d60409dcb85510b505",
+      "sha256": "60740ffa73661bef6af6106a3420bdac0e2422083e6b8e073fed72c3933fe24e",
+      "bytes": 2453,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/core_select_flow.lua"
+    },
+    {
+      "path": "contents/src/ui/count_impact.lua",
+      "git_blob_sha1": "98935998455a0e6ec208478606063ebde15a3fb4",
+      "sha256": "5b83b60a8768f7456f55dbbb13ea4f30d3394f79709bbc65cb389bfa816d0dfd",
+      "bytes": 2670,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/count_impact.lua"
+    },
+    {
+      "path": "contents/src/ui/imprint.lua",
+      "git_blob_sha1": "a22b97f2b808ec5323b43ab1f9031798044c7ac3",
+      "sha256": "11b887f6fbc0898171307a763aefbf7a543e9c488d4bff431a0e765f0ca65bc6",
+      "bytes": 167454,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/imprint.lua"
+    },
+    {
+      "path": "contents/src/ui/layout.lua",
+      "git_blob_sha1": "d667f17dc1a7872ec9a787ccf70e82927cd7ce28",
+      "sha256": "7d35187062a80ca3ae3cef6c92299215dadb5cda2b477bc13e55f63d2295f93b",
+      "bytes": 3938,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/layout.lua"
+    },
+    {
+      "path": "contents/src/ui/mainmenu.lua",
+      "git_blob_sha1": "e59625ebdb5c28d793d1aa16334da025afaf7d60",
+      "sha256": "fe7f77ed7647d18b6cd380e1269d0c1bb4a99017a22e64ad2de4b0e10110acef",
+      "bytes": 199327,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/mainmenu.lua"
+    },
+    {
+      "path": "contents/src/ui/pause_motion.lua",
+      "git_blob_sha1": "899b97d342f6bee0167fb58936d04f62a6dd53fb",
+      "sha256": "6ea85093f4a3c85a68d5754ae52035e5161aee8938db46e290a8a54cea969f3f",
+      "bytes": 812,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/pause_motion.lua"
+    },
+    {
+      "path": "contents/src/ui/render.lua",
+      "git_blob_sha1": "7494a6f3656dafe25233de294e00df084202da34",
+      "sha256": "39d4e523d64c23ef3c47452600a6de09dd48a9f5bea361df2ad5bf1d418e36a8",
+      "bytes": 1032186,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/render.lua"
+    },
+    {
+      "path": "contents/src/ui/render2.lua",
+      "git_blob_sha1": "301e9062d41a6d883a6046892bd48968834f960a",
+      "sha256": "0ce0f8346b0da08fe91968f187e29cdee3def56f7c63c7d1892074294d6f6da7",
+      "bytes": 281581,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/render2.lua"
+    },
+    {
+      "path": "contents/src/ui/shadow.lua",
+      "git_blob_sha1": "a12a5b540eeea895c6843af33dd8b92575b85a71",
+      "sha256": "448672a5b490971bc88d6648d0a8ea4658d999cf676428c3a39ce2bae13165a2",
+      "bytes": 2546,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/shadow.lua"
+    },
+    {
+      "path": "contents/src/ui/tooltip.lua",
+      "git_blob_sha1": "430058cac8593b3daabcef68a2623176443058f5",
+      "sha256": "e60d381a93321bc006db2b9f57cc22cd8f55a4c8b2ea130931048cc88d1eb4a6",
+      "bytes": 252834,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/tooltip.lua"
+    },
+    {
+      "path": "contents/src/ui/tutorial.lua",
+      "git_blob_sha1": "7794894757e476fcfa0a94f5bb130d9e73765eda",
+      "sha256": "4ab1be76785e540d09ca8fdbbfec33ebf2dc820ee852668fbb0d19a2b7563755",
+      "bytes": 118937,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/tutorial.lua"
+    },
+    {
+      "path": "contents/src/ui/upgrade.lua",
+      "git_blob_sha1": "1a11b874315cc1d320bd1c3c2b413360175e34e3",
+      "sha256": "af61f63b0b208588e7a943582c84e08412db36e91766c695539855717c8a81f6",
+      "bytes": 210218,
+      "url": "https://raw.githubusercontent.com/liusu239113/SlotboundLua/57492bbe9c273d2c3e13387024436119c886d341/contents/src/ui/upgrade.lua"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "source_inputs_including_startup": 55,
+  "source_texts_generated": 55,
+  "source_texts_syntax_valid": 55,
+  "locals_normalized_files": 8,
+  "data_modules_matching": 9,
+  "pure_function_cases_matching": 215,
+  "skills": 125,
+  "random_options": 32,
+  "png_files": 1215,
+  "audio_files": 64,
+  "original_exe_sha256_after_analysis": "2db4b93b52cd6daec9014f6e8ee42f78d32f683a496af35a8b03d8b97f4fccb7",
+  "full_gameplay_verified": false
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "LÖVE / LuaJIT 游戏逆向与恢复"
+  short_description: "整合包识别、脚本反编译、数值与资源导出，并分层验证恢复结果"
+  default_prompt: "使用 $luajit-game-recovery 分析我授权的游戏包，先检查引擎和版本，再整理源码恢复、数值、美术资源及验证报告。"

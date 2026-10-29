@@ -1,0 +1,8 @@
+{
+  "validate": {
+    "_lua_type": "function"
+  },
+  "decode": {
+    "_lua_type": "function"
+  }
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "path": "decompiled/conf.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/audio/device_router.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\audio\\device_router.lua\"]:387: 'end' expected (to close 'if' at line 376) near '('"
+  },
+  {
+    "path": "decompiled/src/audio/procedural_audio.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/audio/runtime_bootstrap.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/data/asset2.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\asset2.lua\"]:6080: 'then' expected near '('"
+  },
+  {
+    "path": "decompiled/src/data/assets.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\assets.lua\"]:324: '<name>' expected near '('"
+  },
+  {
+    "path": "decompiled/src/data/awakening.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/data/constants.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/data/faction.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\faction.lua\"]:454: unexpected symbol near ','"
+  },
+  {
+    "path": "decompiled/src/data/font_resolver.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/data/language.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\language.lua\"]:1427: '<name>' expected near '('"
+  },
+  {
+    "path": "decompiled/src/data/randomoption.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\randomoption.lua\"]:1270: unexpected symbol near ','"
+  },
+  {
+    "path": "decompiled/src/data/safe_lua_table.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\data\\safe_lua_table.lua\"]:340: 'then' expected near '('"
+  },
+  {
+    "path": "decompiled/src/data/skill.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/game/alpha_ray_glow.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/game/bossSkill.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/game/combat.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\combat.lua\"]:224: unexpected symbol near 'end'"
+  },
+  {
+    "path": "decompiled/src/game/cores.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\cores.lua\"]:1008: unexpected symbol near 'end'"
+  },
+  {
+    "path": "decompiled/src/game/enemy_skills.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\enemy_skills.lua\"]:3667: ')' expected (to close '(' at line 3665) near '('"
+  },
+  {
+    "path": "decompiled/src/game/item.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\item.lua\"]:2018: 'then' expected near '('"
+  },
+  {
+    "path": "decompiled/src/game/luck.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/game/postprocess.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/game/power.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/game/promotion.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\promotion.lua\"]:82: 'then' expected near '('"
+  },
+  {
+    "path": "decompiled/src/game/promotion_stats.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/game/quest.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/game/run_save.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\run_save.lua\"]:146: unexpected symbol near ')'"
+  },
+  {
+    "path": "decompiled/src/game/sim.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/game/slot.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\game\\slot.lua\"]:762: ']' expected near '('"
+  },
+  {
+    "path": "decompiled/src/game/stone.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/platform_window.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/presentation_pacer.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/release_integrity.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/release_package.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\release_package.lua\"]:289: '<name>' expected near '('"
+  },
+  {
+    "path": "decompiled/src/runtime_diagnostics.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "decompiled/src/save.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\save.lua\"]:272: 'then' expected near '('"
+  },
+  {
+    "path": "decompiled/src/ui/config.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\config.lua\"]:6: '<name>' expected near '('"
+  },
+  {
+    "path": "decompiled/src/ui/controller.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\controller.lua\"]:1506: '<name>' expected near '('"
+  },
+  {
+    "path": "decompiled/src/ui/flow.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\flow.lua\"]:657: syntax error near 'slot22'"
+  },
+  {
+    "path": "decompiled/src/ui/imprint.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\imprint.lua\"]:3947: '<name>' expected near '('"
+  },
+  {
+    "path": "decompiled/src/ui/mainmenu.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\mainmenu.lua\"]:1894: syntax error near 'if'"
+  },
+  {
+    "path": "decompiled/src/ui/render2.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\render2.lua\"]:2371: unexpected symbol near ','"
+  },
+  {
+    "path": "decompiled/src/ui/screen.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\screen.lua\"]:144: '}' expected (to close '{' at line 92) near '('"
+  },
+  {
+    "path": "decompiled/src/ui/tooltip.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\tooltip.lua\"]:749: '}' expected (to close '{' at line 733) near '('"
+  },
+  {
+    "path": "decompiled/src/ui/tutorial.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\tutorial.lua\"]:468: ')' expected (to close '(' at line 462) near '('"
+  },
+  {
+    "path": "decompiled/src/ui/upgrade.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\src\\ui\\upgrade.lua\"]:533: '}' expected (to close '{' at line 517) near '('"
+  },
+  {
+    "path": "decompiled/startup.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled\\startup.lua\"]:4: '<name>' expected near '('"
+  },
+  {
+    "path": "decompiled-partial/src/game/projectiles.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled-partial\\src\\game\\projectiles.lua\"]:9205: unexpected symbol near ','"
+  },
+  {
+    "path": "decompiled-partial/src/game/unit_abilities.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled-partial\\src\\game\\unit_abilities.lua\"]:126: 'end' expected (to close 'function' at line 104) near '('"
+  },
+  {
+    "path": "decompiled-partial/src/ui/render.lua",
+    "syntax_valid": false,
+    "error": "[string \"decompiled-partial\\src\\ui\\render.lua\"]:1549: ')' expected near ','"
+  }
+]

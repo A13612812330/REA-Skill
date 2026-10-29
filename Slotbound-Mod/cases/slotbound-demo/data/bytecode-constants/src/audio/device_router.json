@@ -1,0 +1,1212 @@
+{
+  "file": "src/audio/device_router.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 1,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/3",
+      "argument_count": 0,
+      "instruction_count": 38,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "lastError"
+        },
+        {
+          "constant_index": 1,
+          "value": "routingDisabled"
+        },
+        {
+          "constant_index": 2,
+          "value": "throttled"
+        },
+        {
+          "constant_index": 3,
+          "value": "lastReopenSeconds"
+        },
+        {
+          "constant_index": 4,
+          "value": "failureCount"
+        },
+        {
+          "constant_index": 5,
+          "value": "reopenCount"
+        },
+        {
+          "constant_index": 6,
+          "value": "eventCount"
+        },
+        {
+          "constant_index": 7,
+          "value": "pending"
+        },
+        {
+          "constant_index": 8,
+          "value": "supported"
+        },
+        {
+          "constant_index": 10,
+          "value": "initialized"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 9,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/5",
+      "argument_count": 0,
+      "instruction_count": 17,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "force"
+        },
+        {
+          "constant_index": 1,
+          "value": "push"
+        },
+        {
+          "constant_index": 2,
+          "value": "supported"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/7",
+      "argument_count": 0,
+      "instruction_count": 57,
+      "numeric_constants": [
+        0.01
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "supported"
+        },
+        {
+          "constant_index": 1,
+          "value": "worker_stop_timeout"
+        },
+        {
+          "constant_index": 2,
+          "value": "lastError"
+        },
+        {
+          "constant_index": 3,
+          "value": "sleep"
+        },
+        {
+          "constant_index": 4,
+          "value": "isRunning"
+        },
+        {
+          "constant_index": 5,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 6,
+          "value": "timer"
+        },
+        {
+          "constant_index": 7,
+          "value": "love"
+        },
+        {
+          "constant_index": 8,
+          "value": "stop"
+        },
+        {
+          "constant_index": 9,
+          "value": "push"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/9",
+      "argument_count": 0,
+      "instruction_count": 3,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/11",
+      "argument_count": 2,
+      "instruction_count": 51,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 1,
+          "value": "gate:0"
+        },
+        {
+          "constant_index": 2,
+          "value": "gate:1"
+        },
+        {
+          "constant_index": 3,
+          "value": "push"
+        },
+        {
+          "constant_index": 4,
+          "value": "initialized"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/13/14",
+      "argument_count": 0,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "newThread"
+        },
+        {
+          "constant_index": 1,
+          "value": "thread"
+        },
+        {
+          "constant_index": 2,
+          "value": "audio_route_worker.lua"
+        },
+        {
+          "constant_index": 3,
+          "value": "dump"
+        },
+        {
+          "constant_index": 4,
+          "value": "string"
+        },
+        {
+          "constant_index": 5,
+          "value": "newFileData"
+        },
+        {
+          "constant_index": 6,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 7,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/13",
+      "argument_count": 0,
+      "instruction_count": 191,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "worker_start_failed"
+        },
+        {
+          "constant_index": 1,
+          "value": "idFile"
+        },
+        {
+          "constant_index": 2,
+          "value": "budgetWindow"
+        },
+        {
+          "constant_index": 3,
+          "value": "budgetCount"
+        },
+        {
+          "constant_index": 4,
+          "value": "cooldown"
+        },
+        {
+          "constant_index": 5,
+          "value": "settle"
+        },
+        {
+          "constant_index": 6,
+          "value": "poll"
+        },
+        {
+          "constant_index": 7,
+          "value": "uintptr_t"
+        },
+        {
+          "constant_index": 8,
+          "value": "cast"
+        },
+        {
+          "constant_index": 9,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 10,
+          "value": "start"
+        },
+        {
+          "constant_index": 11,
+          "value": "clear"
+        },
+        {
+          "constant_index": 12,
+          "value": "getChannel"
+        },
+        {
+          "constant_index": 13,
+          "value": "worker_create_failed"
+        },
+        {
+          "constant_index": 15,
+          "value": "reopen_extension_unavailable"
+        },
+        {
+          "constant_index": 16,
+          "value": "ALC_SOFT_reopen_device"
+        },
+        {
+          "constant_index": 17,
+          "value": "alcIsExtensionPresent"
+        },
+        {
+          "constant_index": 18,
+          "value": "no_audio_device"
+        },
+        {
+          "constant_index": 19,
+          "value": "alcGetContextsDevice"
+        },
+        {
+          "constant_index": 20,
+          "value": "no_audio_context"
+        },
+        {
+          "constant_index": 21,
+          "value": "alcGetCurrentContext"
+        },
+        {
+          "constant_index": 22,
+          "value": "openal_load_failed"
+        },
+        {
+          "constant_index": 23,
+          "value": "OpenAL32"
+        },
+        {
+          "constant_index": 24,
+          "value": "load"
+        },
+        {
+          "constant_index": 25,
+          "value": "ffi_cdef_failed"
+        },
+        {
+          "constant_index": 26,
+          "value": "    void *alcGetCurrentContext(void);\n    void *alcGetContextsDevice(void *context);\n    char alcIsExtensionPresent(void *device, const char *name);\n  "
+        },
+        {
+          "constant_index": 27,
+          "value": "cdef"
+        },
+        {
+          "constant_index": 28,
+          "value": "ffi_unavailable"
+        },
+        {
+          "constant_index": 29,
+          "value": "ffi"
+        },
+        {
+          "constant_index": 30,
+          "value": "require"
+        },
+        {
+          "constant_index": 31,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 32,
+          "value": "love_modules_unavailable"
+        },
+        {
+          "constant_index": 33,
+          "value": "audio"
+        },
+        {
+          "constant_index": 34,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 35,
+          "value": "thread"
+        },
+        {
+          "constant_index": 36,
+          "value": "love"
+        },
+        {
+          "constant_index": 37,
+          "value": "disabled_by_environment"
+        },
+        {
+          "constant_index": 38,
+          "value": "routingDisabled"
+        },
+        {
+          "constant_index": 39,
+          "value": "0"
+        },
+        {
+          "constant_index": 40,
+          "value": "SLOTBOUND_AUDIO_FOLLOW"
+        },
+        {
+          "constant_index": 41,
+          "value": "getenv"
+        },
+        {
+          "constant_index": 42,
+          "value": "os"
+        },
+        {
+          "constant_index": 43,
+          "value": "not_windows"
+        },
+        {
+          "constant_index": 44,
+          "value": "lastError"
+        },
+        {
+          "constant_index": 45,
+          "value": "supported"
+        },
+        {
+          "constant_index": 46,
+          "value": "initialized"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/15",
+      "argument_count": 0,
+      "instruction_count": 56,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 1,
+          "value": "worker_error: "
+        },
+        {
+          "constant_index": 2,
+          "value": "lastError"
+        },
+        {
+          "constant_index": 3,
+          "value": "supported"
+        },
+        {
+          "constant_index": 4,
+          "value": "getError"
+        },
+        {
+          "constant_index": 5,
+          "value": "isRunning"
+        },
+        {
+          "constant_index": 6,
+          "value": "table"
+        },
+        {
+          "constant_index": 7,
+          "value": "type"
+        },
+        {
+          "constant_index": 8,
+          "value": "pop"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/16",
+      "argument_count": 1,
+      "instruction_count": 97,
+      "numeric_constants": [
+        1,
+        1000
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "supported"
+        },
+        {
+          "constant_index": 1,
+          "value": "unsupported"
+        },
+        {
+          "constant_index": 2,
+          "value": "audio output reopen throttled"
+        },
+        {
+          "constant_index": 3,
+          "value": "reopen_throttled"
+        },
+        {
+          "constant_index": 4,
+          "value": "reopen_gave_up"
+        },
+        {
+          "constant_index": 5,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 6,
+          "value": "audio output reopen failed: "
+        },
+        {
+          "constant_index": 7,
+          "value": "failureCount"
+        },
+        {
+          "constant_index": 8,
+          "value": "failed"
+        },
+        {
+          "constant_index": 9,
+          "value": "format"
+        },
+        {
+          "constant_index": 10,
+          "value": "audio output followed the Windows default (reopen %d, %.0f ms)"
+        },
+        {
+          "constant_index": 11,
+          "value": "lastError"
+        },
+        {
+          "constant_index": 12,
+          "value": "throttled"
+        },
+        {
+          "constant_index": 13,
+          "value": "detail"
+        },
+        {
+          "constant_index": 14,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 15,
+          "value": "lastReopenSeconds"
+        },
+        {
+          "constant_index": 16,
+          "value": "reopenCount"
+        },
+        {
+          "constant_index": 17,
+          "value": "reopened"
+        },
+        {
+          "constant_index": 18,
+          "value": "pending"
+        },
+        {
+          "constant_index": 19,
+          "value": "eventCount"
+        },
+        {
+          "constant_index": 20,
+          "value": "changed"
+        },
+        {
+          "constant_index": 21,
+          "value": "kind"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/17",
+      "argument_count": 1,
+      "instruction_count": 14,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 1,
+          "value": "note"
+        },
+        {
+          "constant_index": 2,
+          "value": "RuntimeDiagnostics"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/18",
+      "argument_count": 1,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "lastError"
+        },
+        {
+          "constant_index": 1,
+          "value": "supported"
+        },
+        {
+          "constant_index": 2,
+          "value": "initialized"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/19",
+      "argument_count": 0,
+      "instruction_count": 23,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "Windows"
+        },
+        {
+          "constant_index": 1,
+          "value": "getOS"
+        },
+        {
+          "constant_index": 2,
+          "value": "system"
+        },
+        {
+          "constant_index": 3,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20/12",
+      "argument_count": 0,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/20/22",
+      "argument_count": 0,
+      "instruction_count": 19,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "alcGetIntegerv"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20/25",
+      "argument_count": 0,
+      "instruction_count": 88,
+      "numeric_constants": [
+        0,
+        1,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "Release"
+        },
+        {
+          "constant_index": 1,
+          "value": "CoTaskMemFree"
+        },
+        {
+          "constant_index": 2,
+          "value": "string"
+        },
+        {
+          "constant_index": 3,
+          "value": "GetId"
+        },
+        {
+          "constant_index": 4,
+          "value": "GetDefaultAudioEndpoint"
+        },
+        {
+          "constant_index": 5,
+          "value": "vtbl"
+        },
+        {
+          "constant_index": 6,
+          "value": "close"
+        },
+        {
+          "constant_index": 7,
+          "value": "*a"
+        },
+        {
+          "constant_index": 8,
+          "value": "read"
+        },
+        {
+          "constant_index": 9,
+          "value": ""
+        },
+        {
+          "constant_index": 10,
+          "value": "rb"
+        },
+        {
+          "constant_index": 11,
+          "value": "open"
+        },
+        {
+          "constant_index": 12,
+          "value": "io"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20/30",
+      "argument_count": 0,
+      "instruction_count": 119,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "uint16_t *[1]"
+        },
+        {
+          "constant_index": 1,
+          "value": "SbAudioDevice *[1]"
+        },
+        {
+          "constant_index": 2,
+          "value": "SbAudioEnumerator *"
+        },
+        {
+          "constant_index": 3,
+          "value": "com_enumerator_failed"
+        },
+        {
+          "constant_index": 4,
+          "value": "CoCreateInstance"
+        },
+        {
+          "constant_index": 5,
+          "value": "void *[1]"
+        },
+        {
+          "constant_index": 10,
+          "value": "SbAudioGuid"
+        },
+        {
+          "constant_index": 11,
+          "value": "new"
+        },
+        {
+          "constant_index": 12,
+          "value": "com_init_failed"
+        },
+        {
+          "constant_index": 13,
+          "value": "CoInitializeEx"
+        },
+        {
+          "constant_index": 14,
+          "value": "SbAlcReopenProc"
+        },
+        {
+          "constant_index": 15,
+          "value": "reopen_function_unavailable"
+        },
+        {
+          "constant_index": 16,
+          "value": "alcReopenDeviceSOFT"
+        },
+        {
+          "constant_index": 17,
+          "value": "alcGetProcAddress"
+        },
+        {
+          "constant_index": 18,
+          "value": "reopen_extension_unavailable"
+        },
+        {
+          "constant_index": 19,
+          "value": "error"
+        },
+        {
+          "constant_index": 20,
+          "value": "ALC_SOFT_reopen_device"
+        },
+        {
+          "constant_index": 21,
+          "value": "alcIsExtensionPresent"
+        },
+        {
+          "constant_index": 22,
+          "value": "uintptr_t"
+        },
+        {
+          "constant_index": 23,
+          "value": "void *"
+        },
+        {
+          "constant_index": 24,
+          "value": "cast"
+        },
+        {
+          "constant_index": 25,
+          "value": "OpenAL32"
+        },
+        {
+          "constant_index": 26,
+          "value": "ole32"
+        },
+        {
+          "constant_index": 27,
+          "value": "load"
+        },
+        {
+          "constant_index": 28,
+          "value": "      typedef struct {\n        uint32_t d1; uint16_t d2; uint16_t d3; uint8_t d4[8];\n      } SbAudioGuid;\n      typedef struct SbAudioDevice SbAudioDevice;\n      typedef struct SbAudioDeviceVtbl {\n        void *QueryInterface; void *AddRef;\n        uint32_t (__stdcall *Release)(SbAudioDevice *self);\n        void *Activate; void *OpenPropertyStore;\n        int32_t (__stdcall *GetId)(SbAudioDevice *self, uint16_t **id);\n        void *GetState;\n      } SbAudioDeviceVtbl;\n      struct SbAudioDevice { const SbAudioDeviceVtbl *vtbl; };\n      typedef struct SbAudioEnumerator SbAudioEnumerator;\n      typedef struct SbAudioEnumeratorVtbl {\n        void *QueryInterface; void *AddRef;\n        uint32_t (__stdcall *Release)(SbAudioEnumerator *self);\n        void *EnumAudioEndpoints;\n        int32_t (__stdcall *GetDefaultAudioEndpoint)(\n          SbAudioEnumerator *self, int32_t flow, int32_t role,\n          SbAudioDevice **device);\n        void *GetDevice; void *RegisterEndpointNotificationCallback;\n        void *UnregisterEndpointNotificationCallback;\n      } SbAudioEnumeratorVtbl;\n      struct SbAudioEnumerator { const SbAudioEnumeratorVtbl *vtbl; };\n      int32_t __stdcall CoInitializeEx(void *reserved, uint32_t flags);\n      void __stdcall CoUninitialize(void);\n      int32_t __stdcall CoCreateInstance(const SbAudioGuid *clsid,\n        void *outer, uint32_t context, const SbAudioGuid *iid, void **object);\n      void __stdcall CoTaskMemFree(void *memory);\n      char alcIsExtensionPresent(void *device, const char *name);\n      void *alcGetProcAddress(void *device, const char *name);\n      void alcGetIntegerv(void *device, int32_t param, int32_t size,\n        int32_t *values);\n      typedef char (*SbAlcReopenProc)(void *device, const char *name,\n        const int32_t *attributes);\n    "
+        },
+        {
+          "constant_index": 29,
+          "value": "cdef"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            167,
+            70,
+            222,
+            141,
+            182,
+            54,
+            23,
+            230
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            2841011410.0,
+            38420,
+            20277
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 8,
+          "array": [
+            null,
+            142,
+            61,
+            196,
+            87,
+            146,
+            145,
+            105,
+            46
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 9,
+          "array": [
+            null,
+            3168666517.0,
+            58671,
+            18044
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/20/32",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "CoUninitialize"
+        },
+        {
+          "constant_index": 1,
+          "value": "Release"
+        },
+        {
+          "constant_index": 2,
+          "value": "vtbl"
+        },
+        {
+          "constant_index": 3,
+          "value": "unsupported"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20/33",
+      "argument_count": 2,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "detail"
+        },
+        {
+          "constant_index": 1,
+          "value": "kind"
+        },
+        {
+          "constant_index": 3,
+          "value": "push"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/20",
+      "argument_count": 7,
+      "instruction_count": 249,
+      "numeric_constants": [
+        1,
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "stopped"
+        },
+        {
+          "constant_index": 1,
+          "value": "CoUninitialize"
+        },
+        {
+          "constant_index": 2,
+          "value": "Release"
+        },
+        {
+          "constant_index": 3,
+          "value": "vtbl"
+        },
+        {
+          "constant_index": 4,
+          "value": "reopen_failed"
+        },
+        {
+          "constant_index": 5,
+          "value": "reopen_gave_up"
+        },
+        {
+          "constant_index": 6,
+          "value": "failed"
+        },
+        {
+          "constant_index": 7,
+          "value": "reopened"
+        },
+        {
+          "constant_index": 8,
+          "value": "throttled"
+        },
+        {
+          "constant_index": 9,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 10,
+          "value": "changed"
+        },
+        {
+          "constant_index": 11,
+          "value": "|lost"
+        },
+        {
+          "constant_index": 13,
+          "value": "pop"
+        },
+        {
+          "constant_index": 14,
+          "value": "force"
+        },
+        {
+          "constant_index": 15,
+          "value": "gate:0"
+        },
+        {
+          "constant_index": 16,
+          "value": "gate:1"
+        },
+        {
+          "constant_index": 17,
+          "value": "stop"
+        },
+        {
+          "constant_index": 18,
+          "value": "demand"
+        },
+        {
+          "constant_index": 19,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 20,
+          "value": "timer"
+        },
+        {
+          "constant_index": 21,
+          "value": "ready"
+        },
+        {
+          "constant_index": 23,
+          "value": "int32_t[1]"
+        },
+        {
+          "constant_index": 24,
+          "value": "new"
+        },
+        {
+          "constant_index": 26,
+          "value": ""
+        },
+        {
+          "constant_index": 27,
+          "value": "^.-:%d+:%s*"
+        },
+        {
+          "constant_index": 28,
+          "value": "gsub"
+        },
+        {
+          "constant_index": 29,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 31,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 34,
+          "value": "slotbound.audio_route.evt"
+        },
+        {
+          "constant_index": 35,
+          "value": "slotbound.audio_route.cmd"
+        },
+        {
+          "constant_index": 36,
+          "value": "getChannel"
+        },
+        {
+          "constant_index": 37,
+          "value": "thread"
+        },
+        {
+          "constant_index": 38,
+          "value": "love"
+        },
+        {
+          "constant_index": 39,
+          "value": "ffi"
+        },
+        {
+          "constant_index": 40,
+          "value": "love.thread"
+        },
+        {
+          "constant_index": 41,
+          "value": "love.timer"
+        },
+        {
+          "constant_index": 42,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 34,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "_configureForTest"
+        },
+        {
+          "constant_index": 2,
+          "value": "_worker"
+        },
+        {
+          "constant_index": 4,
+          "value": "getStatus"
+        },
+        {
+          "constant_index": 6,
+          "value": "signalForRegression"
+        },
+        {
+          "constant_index": 8,
+          "value": "shutdown"
+        },
+        {
+          "constant_index": 10,
+          "value": "onFocusGained"
+        },
+        {
+          "constant_index": 12,
+          "value": "update"
+        },
+        {
+          "constant_index": 14,
+          "value": "initialize"
+        },
+        {
+          "constant_index": 21,
+          "value": "slotbound.audio_route.evt"
+        },
+        {
+          "constant_index": 22,
+          "value": "slotbound.audio_route.cmd"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 23,
+          "array": [],
+          "dictionary": [
+            [
+              "poll",
+              1
+            ],
+            [
+              "budgetWindow",
+              60
+            ],
+            [
+              "budgetCount",
+              6
+            ],
+            [
+              "cooldown",
+              2
+            ],
+            [
+              "settle",
+              0.6
+            ]
+          ]
+        },
+        {
+          "constant_index": 24,
+          "array": [],
+          "dictionary": [
+            [
+              "routingDisabled",
+              false
+            ],
+            [
+              "throttled",
+              false
+            ],
+            [
+              "failureCount",
+              0
+            ],
+            [
+              "reopenCount",
+              0
+            ],
+            [
+              "eventCount",
+              0
+            ],
+            [
+              "pending",
+              false
+            ],
+            [
+              "supported",
+              false
+            ],
+            [
+              "initialized",
+              false
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

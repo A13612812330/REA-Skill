@@ -1,0 +1,1605 @@
+{
+  "file": "src/save.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 1,
+      "instruction_count": 10,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "concat"
+        },
+        {
+          "constant_index": 1,
+          "value": "table"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 2,
+      "instruction_count": 68,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nil"
+        },
+        {
+          "constant_index": 1,
+          "value": "}"
+        },
+        {
+          "constant_index": 2,
+          "value": ","
+        },
+        {
+          "constant_index": 3,
+          "value": "]="
+        },
+        {
+          "constant_index": 4,
+          "value": "["
+        },
+        {
+          "constant_index": 5,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 6,
+          "value": "{"
+        },
+        {
+          "constant_index": 7,
+          "value": "table"
+        },
+        {
+          "constant_index": 8,
+          "value": "%q"
+        },
+        {
+          "constant_index": 9,
+          "value": "format"
+        },
+        {
+          "constant_index": 10,
+          "value": "string"
+        },
+        {
+          "constant_index": 11,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 12,
+          "value": "boolean"
+        },
+        {
+          "constant_index": 13,
+          "value": "number"
+        },
+        {
+          "constant_index": 14,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/3",
+      "argument_count": 0,
+      "instruction_count": 163,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "no save found"
+        },
+        {
+          "constant_index": 1,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 2,
+          "value": "path="
+        },
+        {
+          "constant_index": 3,
+          "value": "load-save"
+        },
+        {
+          "constant_index": 4,
+          "value": "_usingFallback"
+        },
+        {
+          "constant_index": 5,
+          "value": "_lastSavePath"
+        },
+        {
+          "constant_index": 6,
+          "value": "legacy save selected"
+        },
+        {
+          "constant_index": 7,
+          "value": "load-and-migrate-save"
+        },
+        {
+          "constant_index": 8,
+          "value": "write"
+        },
+        {
+          "constant_index": 9,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 10,
+          "value": "love"
+        },
+        {
+          "constant_index": 11,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 12,
+          "value": "save"
+        },
+        {
+          "constant_index": 13,
+          "value": "1"
+        },
+        {
+          "constant_index": 14,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/5",
+      "argument_count": 1,
+      "instruction_count": 112,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "bytes=%d"
+        },
+        {
+          "constant_index": 1,
+          "value": "save-failed"
+        },
+        {
+          "constant_index": 2,
+          "value": "_lastSavePath"
+        },
+        {
+          "constant_index": 3,
+          "value": "documents"
+        },
+        {
+          "constant_index": 4,
+          "value": "appdata"
+        },
+        {
+          "constant_index": 5,
+          "value": "format"
+        },
+        {
+          "constant_index": 6,
+          "value": "bytes=%d, storage=%s"
+        },
+        {
+          "constant_index": 7,
+          "value": "save"
+        },
+        {
+          "constant_index": 8,
+          "value": "file"
+        },
+        {
+          "constant_index": 9,
+          "value": "getInfo"
+        },
+        {
+          "constant_index": 10,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 11,
+          "value": "love"
+        },
+        {
+          "constant_index": 12,
+          "value": "serialize"
+        },
+        {
+          "constant_index": 13,
+          "value": "return "
+        },
+        {
+          "constant_index": 14,
+          "value": "validate"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/7",
+      "argument_count": 1,
+      "instruction_count": 81,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_usingFallback"
+        },
+        {
+          "constant_index": 1,
+          "value": "_lastSavePath"
+        },
+        {
+          "constant_index": 2,
+          "value": ".tmp"
+        },
+        {
+          "constant_index": 3,
+          "value": "_ensureDir"
+        },
+        {
+          "constant_index": 4,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/8/7",
+      "argument_count": 3,
+      "instruction_count": 28,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "write"
+        },
+        {
+          "constant_index": 1,
+          "value": "pcall"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/8",
+      "argument_count": 1,
+      "instruction_count": 146,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_usingFallback"
+        },
+        {
+          "constant_index": 1,
+          "value": "_lastSavePath"
+        },
+        {
+          "constant_index": 2,
+          "value": "file"
+        },
+        {
+          "constant_index": 3,
+          "value": "getInfo"
+        },
+        {
+          "constant_index": 4,
+          "value": ".tmp"
+        },
+        {
+          "constant_index": 5,
+          "value": "write"
+        },
+        {
+          "constant_index": 6,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 8,
+          "value": ""
+        },
+        {
+          "constant_index": 9,
+          "value": "string"
+        },
+        {
+          "constant_index": 10,
+          "value": "type"
+        },
+        {
+          "constant_index": 11,
+          "value": "getSaveDirectory"
+        },
+        {
+          "constant_index": 12,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 13,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/9",
+      "argument_count": 1,
+      "instruction_count": 29,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "string"
+        },
+        {
+          "constant_index": 1,
+          "value": "type"
+        },
+        {
+          "constant_index": 2,
+          "value": "read"
+        },
+        {
+          "constant_index": 3,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "pcall"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/10",
+      "argument_count": 0,
+      "instruction_count": 34,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "slotbound"
+        },
+        {
+          "constant_index": 1,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 2,
+          "value": "setIdentity"
+        },
+        {
+          "constant_index": 3,
+          "value": "write"
+        },
+        {
+          "constant_index": 4,
+          "value": "read"
+        },
+        {
+          "constant_index": 5,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 6,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/11/0/0",
+      "argument_count": 3,
+      "instruction_count": 44,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "MoveFileExW"
+        },
+        {
+          "constant_index": 1,
+          "value": "ReplaceFileW"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/11/0",
+      "argument_count": 0,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "kernel32"
+        },
+        {
+          "constant_index": 2,
+          "value": "load"
+        },
+        {
+          "constant_index": 3,
+          "value": "int ReplaceFileW(const unsigned short* current, const unsigned short* replacement,\n                const unsigned short* backup, unsigned long flags, void* exclude, void* reserved);"
+        },
+        {
+          "constant_index": 4,
+          "value": "int MoveFileExW(const unsigned short* from, const unsigned short* to, unsigned long flags);"
+        },
+        {
+          "constant_index": 5,
+          "value": "typedef unsigned short WCHAR;"
+        },
+        {
+          "constant_index": 6,
+          "value": "cdef"
+        },
+        {
+          "constant_index": 7,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 8,
+          "value": "ffi"
+        },
+        {
+          "constant_index": 9,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/11",
+      "argument_count": 3,
+      "instruction_count": 53,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 2,
+          "value": "rename"
+        },
+        {
+          "constant_index": 3,
+          "value": "os"
+        },
+        {
+          "constant_index": 4,
+          "value": "_replaceFile"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 2,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/13",
+      "argument_count": 0,
+      "instruction_count": 50,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "slotbound"
+        },
+        {
+          "constant_index": 2,
+          "value": ""
+        },
+        {
+          "constant_index": 3,
+          "value": "APPDATA"
+        },
+        {
+          "constant_index": 4,
+          "value": "getenv"
+        },
+        {
+          "constant_index": 5,
+          "value": "os"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/14",
+      "argument_count": 1,
+      "instruction_count": 42,
+      "numeric_constants": [
+        10000,
+        5000,
+        1000,
+        500
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "unlockedDifficulties"
+        },
+        {
+          "constant_index": 1,
+          "value": "unlockedStages"
+        },
+        {
+          "constant_index": 2,
+          "value": "clearedDifficulties"
+        },
+        {
+          "constant_index": 3,
+          "value": "upgrades"
+        },
+        {
+          "constant_index": 4,
+          "value": "originite"
+        },
+        {
+          "constant_index": 5,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 6,
+          "value": "max"
+        },
+        {
+          "constant_index": 7,
+          "value": "math"
+        },
+        {
+          "constant_index": 8,
+          "value": "table"
+        },
+        {
+          "constant_index": 9,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/15",
+      "argument_count": 1,
+      "instruction_count": 29,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 1,
+          "value": "table"
+        },
+        {
+          "constant_index": 2,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/16",
+      "argument_count": 1,
+      "instruction_count": 22,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "decode"
+        },
+        {
+          "constant_index": 1,
+          "value": ""
+        },
+        {
+          "constant_index": 2,
+          "value": "string"
+        },
+        {
+          "constant_index": 3,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/17",
+      "argument_count": 1,
+      "instruction_count": 129,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 2,
+          "value": "controls"
+        },
+        {
+          "constant_index": 3,
+          "value": "boolean"
+        },
+        {
+          "constant_index": 5,
+          "value": "string"
+        },
+        {
+          "constant_index": 8,
+          "value": "settings"
+        },
+        {
+          "constant_index": 9,
+          "value": "number"
+        },
+        {
+          "constant_index": 10,
+          "value": "originite"
+        },
+        {
+          "constant_index": 12,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 13,
+          "value": "table"
+        },
+        {
+          "constant_index": 14,
+          "value": "type"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 1,
+          "array": [
+            null,
+            "unlockedDifficulties",
+            "clearedDifficulties"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 4,
+          "array": [
+            null,
+            "tutorialEnabled",
+            "vsyncEnabled"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 6,
+          "array": [
+            null,
+            "displayMode",
+            "language"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 7,
+          "array": [
+            null,
+            "masterVolume",
+            "sfxVolume",
+            "bgmVolume"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 11,
+          "array": [
+            null,
+            "upgrades",
+            "unlockedStages",
+            "unlockedDifficulties",
+            "clearedDifficulties",
+            "newStages",
+            "originiteFirstReachedGates",
+            "runSaves",
+            "settings"
+          ],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/18",
+      "argument_count": 2,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/19/0",
+      "argument_count": 0,
+      "instruction_count": 8,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "close"
+        },
+        {
+          "constant_index": 1,
+          "value": "assert"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/19/1",
+      "argument_count": 0,
+      "instruction_count": 15,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "flush"
+        },
+        {
+          "constant_index": 1,
+          "value": "write"
+        },
+        {
+          "constant_index": 2,
+          "value": "assert"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/19",
+      "argument_count": 2,
+      "instruction_count": 32,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 2,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 3,
+          "value": "wb"
+        },
+        {
+          "constant_index": 4,
+          "value": "open"
+        },
+        {
+          "constant_index": 5,
+          "value": "io"
+        },
+        {
+          "constant_index": 6,
+          "value": "_writeFile"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20",
+      "argument_count": 1,
+      "instruction_count": 35,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "close"
+        },
+        {
+          "constant_index": 1,
+          "value": "read"
+        },
+        {
+          "constant_index": 2,
+          "value": "rb"
+        },
+        {
+          "constant_index": 3,
+          "value": "open"
+        },
+        {
+          "constant_index": 4,
+          "value": "io"
+        },
+        {
+          "constant_index": 5,
+          "value": "_readFile"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/21",
+      "argument_count": 0,
+      "instruction_count": 99,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "\\문서"
+        },
+        {
+          "constant_index": 1,
+          "value": "\\Documents"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "USERPROFILE"
+        },
+        {
+          "constant_index": 4,
+          "value": "OneDriveCommercial"
+        },
+        {
+          "constant_index": 5,
+          "value": "OneDriveConsumer"
+        },
+        {
+          "constant_index": 6,
+          "value": "OneDrive"
+        },
+        {
+          "constant_index": 7,
+          "value": "_ensureDir"
+        },
+        {
+          "constant_index": 8,
+          "value": "Documents"
+        },
+        {
+          "constant_index": 9,
+          "value": ""
+        },
+        {
+          "constant_index": 10,
+          "value": "HOME"
+        },
+        {
+          "constant_index": 11,
+          "value": "getenv"
+        },
+        {
+          "constant_index": 12,
+          "value": "os"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/22",
+      "argument_count": 1,
+      "instruction_count": 27,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "mkdir -p '"
+        },
+        {
+          "constant_index": 1,
+          "value": "execute"
+        },
+        {
+          "constant_index": 2,
+          "value": "os"
+        },
+        {
+          "constant_index": 3,
+          "value": "'\\''"
+        },
+        {
+          "constant_index": 4,
+          "value": "'"
+        },
+        {
+          "constant_index": 5,
+          "value": "gsub"
+        },
+        {
+          "constant_index": 6,
+          "value": ""
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/23",
+      "argument_count": 3,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "insert"
+        },
+        {
+          "constant_index": 1,
+          "value": "table"
+        },
+        {
+          "constant_index": 2,
+          "value": ""
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24/0",
+      "argument_count": 2,
+      "instruction_count": 5,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/24/2",
+      "argument_count": 1,
+      "instruction_count": 4,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/24/4",
+      "argument_count": 1,
+      "instruction_count": 4,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/24/10",
+      "argument_count": 2,
+      "instruction_count": 62,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fclose"
+        },
+        {
+          "constant_index": 1,
+          "value": "fwrite"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": ""
+        },
+        {
+          "constant_index": 4,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 5,
+          "value": "_wfopen"
+        },
+        {
+          "constant_index": 6,
+          "value": "wb"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24/11",
+      "argument_count": 1,
+      "instruction_count": 90,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "string"
+        },
+        {
+          "constant_index": 1,
+          "value": "fread"
+        },
+        {
+          "constant_index": 2,
+          "value": "uint8_t[?]"
+        },
+        {
+          "constant_index": 3,
+          "value": "new"
+        },
+        {
+          "constant_index": 4,
+          "value": ""
+        },
+        {
+          "constant_index": 5,
+          "value": "fclose"
+        },
+        {
+          "constant_index": 6,
+          "value": "ftell"
+        },
+        {
+          "constant_index": 7,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 8,
+          "value": "fseek"
+        },
+        {
+          "constant_index": 9,
+          "value": "_wfopen"
+        },
+        {
+          "constant_index": 10,
+          "value": "rb"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24/12",
+      "argument_count": 1,
+      "instruction_count": 25,
+      "numeric_constants": [
+        0,
+        183
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "SHCreateDirectoryExW"
+        },
+        {
+          "constant_index": 1,
+          "value": ""
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24/13",
+      "argument_count": 1,
+      "instruction_count": 51,
+      "numeric_constants": [
+        0,
+        55296,
+        56319,
+        1,
+        56320,
+        57343,
+        1024,
+        65536
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "concat"
+        },
+        {
+          "constant_index": 1,
+          "value": "table"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24/14",
+      "argument_count": 1,
+      "instruction_count": 66,
+      "numeric_constants": [
+        64,
+        192,
+        128,
+        65535,
+        4096,
+        224,
+        262144,
+        240
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "floor"
+        },
+        {
+          "constant_index": 1,
+          "value": "math"
+        },
+        {
+          "constant_index": 2,
+          "value": "char"
+        },
+        {
+          "constant_index": 3,
+          "value": "string"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24/24",
+      "argument_count": 0,
+      "instruction_count": 6,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "                    typedef unsigned long DWORD;\n                    typedef unsigned short WCHAR;\n                    typedef const WCHAR* LPCWSTR;\n                    typedef void* HANDLE;\n                    typedef void* HWND;\n                    typedef struct _GUID {\n                        unsigned long  Data1;\n                        unsigned short Data2;\n                        unsigned short Data3;\n                        unsigned char  Data4[8];\n                    } GUID;\n                    long SHGetKnownFolderPath(const GUID* rfid, DWORD dwFlags, HANDLE hToken, WCHAR** ppszPath);\n                    void CoTaskMemFree(void* pv);\n                    int SHCreateDirectoryExW(HWND hwnd, LPCWSTR pszPath, void* psa);\n\n                    typedef struct _iobuf FILE;\n                    FILE* _wfopen(LPCWSTR filename, LPCWSTR mode);\n                    size_t fwrite(const void* ptr, size_t size, size_t nmemb, FILE* stream);\n                    size_t fread(void* ptr, size_t size, size_t nmemb, FILE* stream);\n                    int fseek(FILE* stream, long offset, int origin);\n                    long ftell(FILE* stream);\n                    int fclose(FILE* stream);\n                "
+        },
+        {
+          "constant_index": 1,
+          "value": "cdef"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/24",
+      "argument_count": 0,
+      "instruction_count": 85,
+      "numeric_constants": [
+        0
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "_writeFile"
+        },
+        {
+          "constant_index": 3,
+          "value": "_readFile"
+        },
+        {
+          "constant_index": 5,
+          "value": "_ensureDir"
+        },
+        {
+          "constant_index": 6,
+          "value": ""
+        },
+        {
+          "constant_index": 7,
+          "value": "CoTaskMemFree"
+        },
+        {
+          "constant_index": 8,
+          "value": "SHGetKnownFolderPath"
+        },
+        {
+          "constant_index": 9,
+          "value": "WCHAR*[1]"
+        },
+        {
+          "constant_index": 15,
+          "value": "Data4"
+        },
+        {
+          "constant_index": 18,
+          "value": "GUID"
+        },
+        {
+          "constant_index": 19,
+          "value": "new"
+        },
+        {
+          "constant_index": 20,
+          "value": "msvcrt"
+        },
+        {
+          "constant_index": 21,
+          "value": "ole32"
+        },
+        {
+          "constant_index": 22,
+          "value": "shell32"
+        },
+        {
+          "constant_index": 23,
+          "value": "load"
+        },
+        {
+          "constant_index": 25,
+          "value": "ffi"
+        },
+        {
+          "constant_index": 26,
+          "value": "require"
+        },
+        {
+          "constant_index": 27,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 28,
+          "value": "_documentsDir"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 16,
+          "array": [
+            null,
+            173,
+            180,
+            108,
+            133,
+            72,
+            3,
+            105,
+            199
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 17,
+          "array": [],
+          "dictionary": [
+            [
+              "Data2",
+              9103
+            ],
+            [
+              "Data1",
+              4258503376.0
+            ],
+            [
+              "Data3",
+              18095
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/25",
+      "argument_count": 2,
+      "instruction_count": 134,
+      "numeric_constants": [
+        1,
+        32,
+        64,
+        2,
+        16,
+        4096,
+        3,
+        8,
+        262144,
+        4,
+        65535,
+        65536,
+        1024,
+        55296,
+        56320
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "WCHAR[?]"
+        },
+        {
+          "constant_index": 1,
+          "value": "new"
+        },
+        {
+          "constant_index": 2,
+          "value": "floor"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "byte"
+        },
+        {
+          "constant_index": 5,
+          "value": ""
+        },
+        {
+          "constant_index": 6,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/26",
+      "argument_count": 2,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "/"
+        },
+        {
+          "constant_index": 1,
+          "value": "sub"
+        },
+        {
+          "constant_index": 2,
+          "value": ""
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/27",
+      "argument_count": 2,
+      "instruction_count": 26,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "\\"
+        },
+        {
+          "constant_index": 1,
+          "value": "sub"
+        },
+        {
+          "constant_index": 2,
+          "value": ""
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/28",
+      "argument_count": 0,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "OS X"
+        },
+        {
+          "constant_index": 1,
+          "value": "getOS"
+        },
+        {
+          "constant_index": 2,
+          "value": "system"
+        },
+        {
+          "constant_index": 3,
+          "value": "love"
+        },
+        {
+          "constant_index": 4,
+          "value": "OSX"
+        },
+        {
+          "constant_index": 5,
+          "value": "os"
+        },
+        {
+          "constant_index": 6,
+          "value": "jit"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/29",
+      "argument_count": 0,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getOS"
+        },
+        {
+          "constant_index": 1,
+          "value": "system"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": "Windows"
+        },
+        {
+          "constant_index": 4,
+          "value": "os"
+        },
+        {
+          "constant_index": 5,
+          "value": "jit"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/30",
+      "argument_count": 3,
+      "instruction_count": 20,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 1,
+          "value": "recordOperation"
+        },
+        {
+          "constant_index": 2,
+          "value": "RuntimeDiagnostics"
+        },
+        {
+          "constant_index": 3,
+          "value": "_G"
+        },
+        {
+          "constant_index": 4,
+          "value": "rawget"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/31",
+      "argument_count": 0,
+      "instruction_count": 31,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "clock"
+        },
+        {
+          "constant_index": 1,
+          "value": "os"
+        },
+        {
+          "constant_index": 2,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 3,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 4,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 5,
+          "value": "timer"
+        },
+        {
+          "constant_index": 6,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 50,
+      "numeric_constants": [
+        16777216
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "serialize"
+        },
+        {
+          "constant_index": 4,
+          "value": "load"
+        },
+        {
+          "constant_index": 6,
+          "value": "save"
+        },
+        {
+          "constant_index": 32,
+          "value": "legacy_appdata_migrated_v1"
+        },
+        {
+          "constant_index": 33,
+          "value": "save_fallback.tmp"
+        },
+        {
+          "constant_index": 34,
+          "value": "save_fallback.bak"
+        },
+        {
+          "constant_index": 35,
+          "value": "save_fallback.dat"
+        },
+        {
+          "constant_index": 36,
+          "value": "save.tmp"
+        },
+        {
+          "constant_index": 37,
+          "value": "save.bak"
+        },
+        {
+          "constant_index": 38,
+          "value": "save.dat"
+        },
+        {
+          "constant_index": 39,
+          "value": "SlotBound"
+        },
+        {
+          "constant_index": 40,
+          "value": "src.data.safe_lua_table"
+        },
+        {
+          "constant_index": 41,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    }
+  ]
+}

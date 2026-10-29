@@ -1,0 +1,613 @@
+{
+  "file": "src/data/font_resolver.lua",
+  "prototypes": [
+    {
+      "prototype": "root/0",
+      "argument_count": 1,
+      "instruction_count": 37,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "src/data/font/Galmuri9W.fnt"
+        },
+        {
+          "constant_index": 3,
+          "value": "newFont"
+        },
+        {
+          "constant_index": 4,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 5,
+          "value": "love"
+        },
+        {
+          "constant_index": 6,
+          "value": "_developerFont"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/2",
+      "argument_count": 2,
+      "instruction_count": 70,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "unpack"
+        },
+        {
+          "constant_index": 1,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 2,
+          "value": "src/data/font/Latin/%1_La.fnt"
+        },
+        {
+          "constant_index": 3,
+          "value": "^src/data/font/(.+)%.fnt$"
+        },
+        {
+          "constant_index": 4,
+          "value": "lower"
+        },
+        {
+          "constant_index": 5,
+          "value": "/Russian/([^/]+)%.fnt$"
+        },
+        {
+          "constant_index": 6,
+          "value": "match"
+        },
+        {
+          "constant_index": 7,
+          "value": "/"
+        },
+        {
+          "constant_index": 8,
+          "value": "\\"
+        },
+        {
+          "constant_index": 9,
+          "value": "gsub"
+        },
+        {
+          "constant_index": 10,
+          "value": "string"
+        },
+        {
+          "constant_index": 11,
+          "value": "type"
+        },
+        {
+          "constant_index": 12,
+          "value": "setFallbacks"
+        },
+        {
+          "constant_index": 13,
+          "value": "rememberPath"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/4",
+      "argument_count": 1,
+      "instruction_count": 36,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "newFont"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "pcall"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/5",
+      "argument_count": 1,
+      "instruction_count": 35,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getFilename"
+        },
+        {
+          "constant_index": 1,
+          "value": "FileData"
+        },
+        {
+          "constant_index": 2,
+          "value": "typeOf"
+        },
+        {
+          "constant_index": 3,
+          "value": "userdata"
+        },
+        {
+          "constant_index": 4,
+          "value": "string"
+        },
+        {
+          "constant_index": 5,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/10",
+      "argument_count": 1,
+      "instruction_count": 36,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "plain"
+        },
+        {
+          "constant_index": 1,
+          "value": "shadow"
+        },
+        {
+          "constant_index": 2,
+          "value": "ws"
+        },
+        {
+          "constant_index": 3,
+          "value": "find"
+        },
+        {
+          "constant_index": 4,
+          "value": "lower"
+        },
+        {
+          "constant_index": 5,
+          "value": "([^/]+)$"
+        },
+        {
+          "constant_index": 6,
+          "value": "match"
+        },
+        {
+          "constant_index": 7,
+          "value": "/"
+        },
+        {
+          "constant_index": 8,
+          "value": "\\"
+        },
+        {
+          "constant_index": 9,
+          "value": "gsub"
+        },
+        {
+          "constant_index": 10,
+          "value": "pathOf"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 1,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/14",
+      "argument_count": 2,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "string"
+        },
+        {
+          "constant_index": 1,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/18",
+      "argument_count": 1,
+      "instruction_count": 5,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "resolve"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/20",
+      "argument_count": 2,
+      "instruction_count": 186,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_Zh"
+        },
+        {
+          "constant_index": 1,
+          "value": "src/data/font/Chinese/"
+        },
+        {
+          "constant_index": 2,
+          "value": "arkpixelPath"
+        },
+        {
+          "constant_index": 3,
+          "value": "src/data/font/Chinese/arkpixel10.ttf"
+        },
+        {
+          "constant_index": 4,
+          "value": "_J"
+        },
+        {
+          "constant_index": 5,
+          "value": "src/data/font/Japanese/"
+        },
+        {
+          "constant_index": 6,
+          "value": "zh"
+        },
+        {
+          "constant_index": 7,
+          "value": "ja"
+        },
+        {
+          "constant_index": 8,
+          "value": "_L"
+        },
+        {
+          "constant_index": 9,
+          "value": "src/data/font/Other/"
+        },
+        {
+          "constant_index": 10,
+          "value": "pt"
+        },
+        {
+          "constant_index": 11,
+          "value": "pl"
+        },
+        {
+          "constant_index": 12,
+          "value": "src/data/font/Russian/"
+        },
+        {
+          "constant_index": 13,
+          "value": "ru"
+        },
+        {
+          "constant_index": 14,
+          "value": "_La"
+        },
+        {
+          "constant_index": 15,
+          "value": "src/data/font/Latin/"
+        },
+        {
+          "constant_index": 16,
+          "value": "es"
+        },
+        {
+          "constant_index": 17,
+          "value": "de"
+        },
+        {
+          "constant_index": 18,
+          "value": "it"
+        },
+        {
+          "constant_index": 19,
+          "value": "fr"
+        },
+        {
+          "constant_index": 20,
+          "value": ".otf"
+        },
+        {
+          "constant_index": 21,
+          "value": ".ttf"
+        },
+        {
+          "constant_index": 22,
+          "value": "sline"
+        },
+        {
+          "constant_index": 23,
+          "value": "en"
+        },
+        {
+          "constant_index": 24,
+          "value": "ko"
+        },
+        {
+          "constant_index": 25,
+          "value": ".fnt"
+        },
+        {
+          "constant_index": 26,
+          "value": "lower"
+        },
+        {
+          "constant_index": 27,
+          "value": "^(.*)(%.[^%.]+)$"
+        },
+        {
+          "constant_index": 28,
+          "value": "^(.-)([^/]+)$"
+        },
+        {
+          "constant_index": 29,
+          "value": "match"
+        },
+        {
+          "constant_index": 30,
+          "value": "/"
+        },
+        {
+          "constant_index": 31,
+          "value": "\\"
+        },
+        {
+          "constant_index": 32,
+          "value": "gsub"
+        },
+        {
+          "constant_index": 33,
+          "value": "\\coinfont\\"
+        },
+        {
+          "constant_index": 34,
+          "value": "/coinfont/"
+        },
+        {
+          "constant_index": 35,
+          "value": "find"
+        },
+        {
+          "constant_index": 36,
+          "value": ""
+        },
+        {
+          "constant_index": 37,
+          "value": "string"
+        },
+        {
+          "constant_index": 38,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/26",
+      "argument_count": 1,
+      "instruction_count": 33,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getInfo"
+        },
+        {
+          "constant_index": 1,
+          "value": "filesystem"
+        },
+        {
+          "constant_index": 2,
+          "value": "love"
+        },
+        {
+          "constant_index": 3,
+          "value": ""
+        },
+        {
+          "constant_index": 4,
+          "value": "string"
+        },
+        {
+          "constant_index": 5,
+          "value": "type"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/27",
+      "argument_count": 0,
+      "instruction_count": 7,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ko"
+        },
+        {
+          "constant_index": 1,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 2,
+          "value": "_G"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 64,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "developerFont"
+        },
+        {
+          "constant_index": 3,
+          "value": "attachFallbacks"
+        },
+        {
+          "constant_index": 6,
+          "value": "_newFontHooked"
+        },
+        {
+          "constant_index": 7,
+          "value": "newFont"
+        },
+        {
+          "constant_index": 8,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 9,
+          "value": "love"
+        },
+        {
+          "constant_index": 11,
+          "value": "styleOf"
+        },
+        {
+          "constant_index": 13,
+          "value": "pathOf"
+        },
+        {
+          "constant_index": 15,
+          "value": "rememberPath"
+        },
+        {
+          "constant_index": 17,
+          "value": "setmetatable"
+        },
+        {
+          "constant_index": 19,
+          "value": "pagePath"
+        },
+        {
+          "constant_index": 21,
+          "value": "resolve"
+        },
+        {
+          "constant_index": 23,
+          "value": "lower"
+        },
+        {
+          "constant_index": 24,
+          "value": "pairs"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 16,
+          "array": [],
+          "dictionary": [
+            [
+              "__mode",
+              "k"
+            ]
+          ]
+        },
+        {
+          "constant_index": 22,
+          "array": [],
+          "dictionary": [
+            [
+              "galmuri9ws",
+              "src/data/font/Galmuri9WS.fnt"
+            ],
+            [
+              "galmuri7ws",
+              "src/data/font/Galmuri7WS.fnt"
+            ],
+            [
+              "galmuri9w",
+              "src/data/font/Galmuri9W.fnt"
+            ],
+            [
+              "galmuri7w",
+              "src/data/font/Galmuri7W.fnt"
+            ],
+            [
+              "galmuri9wsline",
+              "src/data/font/Galmuri9WSLine.fnt"
+            ]
+          ]
+        },
+        {
+          "constant_index": 25,
+          "array": [],
+          "dictionary": [
+            [
+              "galmuri9ws",
+              "Galmuri9WS_Ru"
+            ],
+            [
+              "galmuri7ws",
+              "PizelWS_Ru"
+            ],
+            [
+              "galmuri9w",
+              "Galmuri9W_Ru"
+            ],
+            [
+              "galmuri7w",
+              "Pizel7W_Ru"
+            ],
+            [
+              "galmuri9wsline",
+              "Galmuri9WSLine_Ru"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

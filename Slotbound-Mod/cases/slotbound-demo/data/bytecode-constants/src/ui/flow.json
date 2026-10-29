@@ -1,0 +1,4689 @@
+{
+  "file": "src/ui/flow.lua",
+  "prototypes": [
+    {
+      "prototype": "root/6",
+      "argument_count": 6,
+      "instruction_count": 121,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "key"
+        },
+        {
+          "constant_index": 1,
+          "value": "items"
+        },
+        {
+          "constant_index": 2,
+          "value": "floor"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "gap"
+        },
+        {
+          "constant_index": 5,
+          "value": "btnW"
+        },
+        {
+          "constant_index": 6,
+          "value": "w"
+        },
+        {
+          "constant_index": 7,
+          "value": "x"
+        },
+        {
+          "constant_index": 8,
+          "value": "sandboxNextWinGrade"
+        },
+        {
+          "constant_index": 9,
+          "value": "randW"
+        },
+        {
+          "constant_index": 10,
+          "value": "randX"
+        },
+        {
+          "constant_index": 11,
+          "value": "h"
+        },
+        {
+          "constant_index": 12,
+          "value": "y"
+        },
+        {
+          "constant_index": 13,
+          "value": "_sandboxRarityPicker"
+        },
+        {
+          "constant_index": 14,
+          "value": "_stoneActivated"
+        },
+        {
+          "constant_index": 15,
+          "value": "_coreSelect"
+        },
+        {
+          "constant_index": 16,
+          "value": "pauseOverlayState"
+        },
+        {
+          "constant_index": 17,
+          "value": "active"
+        },
+        {
+          "constant_index": 18,
+          "value": "imprintModal"
+        },
+        {
+          "constant_index": 19,
+          "value": "awakeningModal"
+        },
+        {
+          "constant_index": 20,
+          "value": "classSelect"
+        },
+        {
+          "constant_index": 21,
+          "value": "gameOver"
+        },
+        {
+          "constant_index": 22,
+          "value": "battle"
+        },
+        {
+          "constant_index": 23,
+          "value": "mode"
+        },
+        {
+          "constant_index": 24,
+          "value": "sandboxMode"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/7",
+      "argument_count": 5,
+      "instruction_count": 206,
+      "numeric_constants": [
+        1,
+        0.4,
+        0.12,
+        0.94,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 1,
+          "value": "sandboxLevel"
+        },
+        {
+          "constant_index": 2,
+          "value": "sandboxRects"
+        },
+        {
+          "constant_index": 3,
+          "value": "id"
+        },
+        {
+          "constant_index": 4,
+          "value": "sandboxSpawn"
+        },
+        {
+          "constant_index": 5,
+          "value": "_awakeningPickerRects"
+        },
+        {
+          "constant_index": 6,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 7,
+          "value": "_awakeningPicker"
+        },
+        {
+          "constant_index": 8,
+          "value": "sandboxMode"
+        },
+        {
+          "constant_index": 9,
+          "value": "unit"
+        },
+        {
+          "constant_index": 10,
+          "value": "open"
+        },
+        {
+          "constant_index": 11,
+          "value": "_awakeningPanelRect"
+        },
+        {
+          "constant_index": 12,
+          "value": "hit"
+        },
+        {
+          "constant_index": 13,
+          "value": "awakening_stone"
+        },
+        {
+          "constant_index": 14,
+          "value": "src.ui.effects"
+        },
+        {
+          "constant_index": 15,
+          "value": "require"
+        },
+        {
+          "constant_index": 16,
+          "value": "imprintModal"
+        },
+        {
+          "constant_index": 17,
+          "value": "classSelect"
+        },
+        {
+          "constant_index": 18,
+          "value": "battle"
+        },
+        {
+          "constant_index": 19,
+          "value": "mode"
+        },
+        {
+          "constant_index": 20,
+          "value": "buttonClick"
+        },
+        {
+          "constant_index": 21,
+          "value": "chosenIndex"
+        },
+        {
+          "constant_index": 23,
+          "value": "scale"
+        },
+        {
+          "constant_index": 24,
+          "value": "index"
+        },
+        {
+          "constant_index": 26,
+          "value": "press"
+        },
+        {
+          "constant_index": 27,
+          "value": "dur"
+        },
+        {
+          "constant_index": 28,
+          "value": "delay"
+        },
+        {
+          "constant_index": 29,
+          "value": "t"
+        },
+        {
+          "constant_index": 30,
+          "value": "h"
+        },
+        {
+          "constant_index": 31,
+          "value": "w"
+        },
+        {
+          "constant_index": 32,
+          "value": "y"
+        },
+        {
+          "constant_index": 33,
+          "value": "x"
+        },
+        {
+          "constant_index": 35,
+          "value": "options"
+        },
+        {
+          "constant_index": 37,
+          "value": "appear"
+        },
+        {
+          "constant_index": 38,
+          "value": "classCard"
+        },
+        {
+          "constant_index": 39,
+          "value": "resolving"
+        },
+        {
+          "constant_index": 40,
+          "value": "awakeningModal"
+        },
+        {
+          "constant_index": 41,
+          "value": "active"
+        },
+        {
+          "constant_index": 42,
+          "value": "pauseOverlayState"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 0,
+          "array": [
+            null,
+            30,
+            60,
+            100
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 22,
+          "array": [],
+          "dictionary": [
+            [
+              "dur",
+              0.18
+            ],
+            [
+              "t",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 25,
+          "array": [],
+          "dictionary": [
+            [
+              "t",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 34,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 36,
+          "array": [],
+          "dictionary": [
+            [
+              "delay",
+              0.4
+            ],
+            [
+              "dur",
+              0.4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/9/6",
+      "argument_count": 3,
+      "instruction_count": 121,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "label"
+        },
+        {
+          "constant_index": 1,
+          "value": ""
+        },
+        {
+          "constant_index": 2,
+          "value": "text"
+        },
+        {
+          "constant_index": 3,
+          "value": "assets"
+        },
+        {
+          "constant_index": 4,
+          "value": "drawInlineText"
+        },
+        {
+          "constant_index": 5,
+          "value": "fill"
+        },
+        {
+          "constant_index": 6,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 7,
+          "value": "divider"
+        },
+        {
+          "constant_index": 8,
+          "value": "setColor"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/9/34",
+      "argument_count": 1,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [],
+      "tables": []
+    },
+    {
+      "prototype": "root/9",
+      "argument_count": 3,
+      "instruction_count": 266,
+      "numeric_constants": [
+        1,
+        2,
+        4
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "drawSkillStyleBox"
+        },
+        {
+          "constant_index": 2,
+          "value": "tooltip"
+        },
+        {
+          "constant_index": 3,
+          "value": "y"
+        },
+        {
+          "constant_index": 4,
+          "value": "x"
+        },
+        {
+          "constant_index": 5,
+          "value": "floor"
+        },
+        {
+          "constant_index": 7,
+          "value": "label"
+        },
+        {
+          "constant_index": 9,
+          "value": "numberColor"
+        },
+        {
+          "constant_index": 10,
+          "value": "number"
+        },
+        {
+          "constant_index": 11,
+          "value": "text"
+        },
+        {
+          "constant_index": 12,
+          "value": "ready"
+        },
+        {
+          "constant_index": 13,
+          "value": "lineGapPx"
+        },
+        {
+          "constant_index": 15,
+          "value": "min"
+        },
+        {
+          "constant_index": 16,
+          "value": "(.-)\n"
+        },
+        {
+          "constant_index": 17,
+          "value": "gmatch"
+        },
+        {
+          "constant_index": 18,
+          "value": "\n"
+        },
+        {
+          "constant_index": 19,
+          "value": "max"
+        },
+        {
+          "constant_index": 20,
+          "value": "math"
+        },
+        {
+          "constant_index": 21,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 22,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 23,
+          "value": "font"
+        },
+        {
+          "constant_index": 24,
+          "value": "setScissor"
+        },
+        {
+          "constant_index": 25,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 26,
+          "value": "all"
+        },
+        {
+          "constant_index": 27,
+          "value": "push"
+        },
+        {
+          "constant_index": 28,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 29,
+          "value": "H"
+        },
+        {
+          "constant_index": 30,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 31,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 32,
+          "value": "W"
+        },
+        {
+          "constant_index": 33,
+          "value": "virtual"
+        },
+        {
+          "constant_index": 35,
+          "value": "tooltipAppearance"
+        },
+        {
+          "constant_index": 36,
+          "value": "awakening_stone"
+        },
+        {
+          "constant_index": 37,
+          "value": "src.ui.effects"
+        },
+        {
+          "constant_index": 38,
+          "value": "require"
+        },
+        {
+          "constant_index": 39,
+          "value": "clock"
+        },
+        {
+          "constant_index": 40,
+          "value": "os"
+        },
+        {
+          "constant_index": 41,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 42,
+          "value": "timer"
+        },
+        {
+          "constant_index": 43,
+          "value": "love"
+        },
+        {
+          "constant_index": 44,
+          "value": "stage"
+        },
+        {
+          "constant_index": 45,
+          "value": "|"
+        },
+        {
+          "constant_index": 46,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 47,
+          "value": "_awakeningTipAnim"
+        },
+        {
+          "constant_index": 48,
+          "value": "state"
+        },
+        {
+          "constant_index": 49,
+          "value": "settingsMode"
+        },
+        {
+          "constant_index": 50,
+          "value": "active"
+        },
+        {
+          "constant_index": 51,
+          "value": "pauseOverlayState"
+        },
+        {
+          "constant_index": 52,
+          "value": "index"
+        },
+        {
+          "constant_index": 53,
+          "value": "unit"
+        },
+        {
+          "constant_index": 54,
+          "value": "_awakeningInfo"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 8,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 14,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/11",
+      "argument_count": 5,
+      "instruction_count": 177,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "dim"
+        },
+        {
+          "constant_index": 1,
+          "value": "awakening_locked_title_fmt"
+        },
+        {
+          "constant_index": 2,
+          "value": "awakening_unlock_level_fmt"
+        },
+        {
+          "constant_index": 3,
+          "value": "awakening_unlock_rank_fmt"
+        },
+        {
+          "constant_index": 4,
+          "value": "star"
+        },
+        {
+          "constant_index": 5,
+          "value": "rank"
+        },
+        {
+          "constant_index": 6,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 7,
+          "value": "milestones"
+        },
+        {
+          "constant_index": 8,
+          "value": "data"
+        },
+        {
+          "constant_index": 9,
+          "value": "awakening_upgrade_suffix"
+        },
+        {
+          "constant_index": 10,
+          "value": "next"
+        },
+        {
+          "constant_index": 12,
+          "value": "label"
+        },
+        {
+          "constant_index": 13,
+          "value": "awakening_upgrade_prefix"
+        },
+        {
+          "constant_index": 14,
+          "value": ""
+        },
+        {
+          "constant_index": 15,
+          "value": "title"
+        },
+        {
+          "constant_index": 16,
+          "value": "awakening_ready_title"
+        },
+        {
+          "constant_index": 17,
+          "value": "awakening_choose_hint_fmt"
+        },
+        {
+          "constant_index": 18,
+          "value": "awakening_after_battle"
+        },
+        {
+          "constant_index": 19,
+          "value": "text"
+        },
+        {
+          "constant_index": 20,
+          "value": "battle"
+        },
+        {
+          "constant_index": 21,
+          "value": "mode"
+        },
+        {
+          "constant_index": 22,
+          "value": "ready"
+        },
+        {
+          "constant_index": 23,
+          "value": "numeral"
+        },
+        {
+          "constant_index": 25,
+          "value": " "
+        },
+        {
+          "constant_index": 26,
+          "value": "titleColor"
+        },
+        {
+          "constant_index": 27,
+          "value": "content"
+        },
+        {
+          "constant_index": 28,
+          "value": "stages"
+        },
+        {
+          "constant_index": 29,
+          "value": "level"
+        },
+        {
+          "constant_index": 30,
+          "value": "candidates"
+        },
+        {
+          "constant_index": 31,
+          "value": "catalog"
+        },
+        {
+          "constant_index": 32,
+          "value": "selected"
+        },
+        {
+          "constant_index": 33,
+          "value": "awakening"
+        },
+        {
+          "constant_index": 34,
+          "value": "awake"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 11,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 24,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/12",
+      "argument_count": 5,
+      "instruction_count": 64,
+      "numeric_constants": [
+        1,
+        6,
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 1,
+          "value": "print"
+        },
+        {
+          "constant_index": 2,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        },
+        {
+          "constant_index": 5,
+          "value": "tip"
+        },
+        {
+          "constant_index": 6,
+          "value": "numeral"
+        },
+        {
+          "constant_index": 7,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 8,
+          "value": "getHeight"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/13",
+      "argument_count": 2,
+      "instruction_count": 26,
+      "numeric_constants": [
+        2
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 1,
+          "value": "tip"
+        },
+        {
+          "constant_index": 2,
+          "value": "numeral"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/14",
+      "argument_count": 4,
+      "instruction_count": 45,
+      "numeric_constants": [
+        2,
+        4,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 1,
+          "value": "fill"
+        },
+        {
+          "constant_index": 2,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 3,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 4,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/31",
+      "argument_count": 2,
+      "instruction_count": 1251,
+      "numeric_constants": [
+        0.14,
+        0.5,
+        0.18,
+        0.65,
+        1,
+        0.001,
+        0.4,
+        1.8,
+        2,
+        0.01,
+        0.84,
+        14,
+        28,
+        44,
+        85,
+        4,
+        66,
+        33,
+        12,
+        84,
+        30,
+        0.24,
+        0.26,
+        0.96,
+        0.86,
+        0.56,
+        3,
+        24,
+        6,
+        230,
+        0.125,
+        0.09,
+        0.153,
+        0.98,
+        27,
+        0.82,
+        0.73,
+        0.9
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "name"
+        },
+        {
+          "constant_index": 1,
+          "value": "translateUnitName"
+        },
+        {
+          "constant_index": 3,
+          "value": "sort"
+        },
+        {
+          "constant_index": 4,
+          "value": "table"
+        },
+        {
+          "constant_index": 5,
+          "value": "units"
+        },
+        {
+          "constant_index": 6,
+          "value": "data"
+        },
+        {
+          "constant_index": 7,
+          "value": "pairs"
+        },
+        {
+          "constant_index": 8,
+          "value": "_awakeningPickerRects"
+        },
+        {
+          "constant_index": 9,
+          "value": "_awakeningPicker"
+        },
+        {
+          "constant_index": 10,
+          "value": "center"
+        },
+        {
+          "constant_index": 11,
+          "value": "printf"
+        },
+        {
+          "constant_index": 13,
+          "value": "sandboxRects"
+        },
+        {
+          "constant_index": 15,
+          "value": "ko"
+        },
+        {
+          "constant_index": 16,
+          "value": "awakening_sandbox_units"
+        },
+        {
+          "constant_index": 17,
+          "value": "getText"
+        },
+        {
+          "constant_index": 18,
+          "value": "src.data.language"
+        },
+        {
+          "constant_index": 19,
+          "value": "developerFont"
+        },
+        {
+          "constant_index": 20,
+          "value": "src.data.font_resolver"
+        },
+        {
+          "constant_index": 21,
+          "value": "classSelect"
+        },
+        {
+          "constant_index": 22,
+          "value": "battle"
+        },
+        {
+          "constant_index": 23,
+          "value": "mode"
+        },
+        {
+          "constant_index": 24,
+          "value": "sandboxMode"
+        },
+        {
+          "constant_index": 26,
+          "value": "diagonal"
+        },
+        {
+          "constant_index": 27,
+          "value": "print"
+        },
+        {
+          "constant_index": 28,
+          "value": "unpack"
+        },
+        {
+          "constant_index": 29,
+          "value": "thicknessPx"
+        },
+        {
+          "constant_index": 31,
+          "value": "color"
+        },
+        {
+          "constant_index": 32,
+          "value": "outline"
+        },
+        {
+          "constant_index": 33,
+          "value": "baselineShiftPx"
+        },
+        {
+          "constant_index": 34,
+          "value": "offsetY"
+        },
+        {
+          "constant_index": 35,
+          "value": "offsetX"
+        },
+        {
+          "constant_index": 36,
+          "value": "right"
+        },
+        {
+          "constant_index": 37,
+          "value": "left"
+        },
+        {
+          "constant_index": 38,
+          "value": "align"
+        },
+        {
+          "constant_index": 39,
+          "value": "scaleOverride"
+        },
+        {
+          "constant_index": 40,
+          "value": "maxWidthPadPx"
+        },
+        {
+          "constant_index": 41,
+          "value": "insetPx"
+        },
+        {
+          "constant_index": 42,
+          "value": "classTitleText"
+        },
+        {
+          "constant_index": 43,
+          "value": "ih"
+        },
+        {
+          "constant_index": 44,
+          "value": "iw"
+        },
+        {
+          "constant_index": 45,
+          "value": "fontTitle"
+        },
+        {
+          "constant_index": 46,
+          "value": "awakening_select_title_fmt"
+        },
+        {
+          "constant_index": 47,
+          "value": "fit"
+        },
+        {
+          "constant_index": 48,
+          "value": "title_plaque"
+        },
+        {
+          "constant_index": 49,
+          "value": "classTitleQuad"
+        },
+        {
+          "constant_index": 50,
+          "value": "classTitleBounds"
+        },
+        {
+          "constant_index": 51,
+          "value": "classTitle"
+        },
+        {
+          "constant_index": 52,
+          "value": "ui"
+        },
+        {
+          "constant_index": 53,
+          "value": "pop"
+        },
+        {
+          "constant_index": 54,
+          "value": "__slotDrawRichTextWithStatIcons"
+        },
+        {
+          "constant_index": 55,
+          "value": "wrap"
+        },
+        {
+          "constant_index": 56,
+          "value": "assets"
+        },
+        {
+          "constant_index": 57,
+          "value": "bodyColor"
+        },
+        {
+          "constant_index": 58,
+          "value": "lineGapPx"
+        },
+        {
+          "constant_index": 59,
+          "value": "descLineGapPx"
+        },
+        {
+          "constant_index": 61,
+          "value": "descriptionScroll"
+        },
+        {
+          "constant_index": 62,
+          "value": "__slotWrapRichTextWithStatIcons"
+        },
+        {
+          "constant_index": 63,
+          "value": "_G"
+        },
+        {
+          "constant_index": 64,
+          "value": "\n"
+        },
+        {
+          "constant_index": 65,
+          "value": ""
+        },
+        {
+          "constant_index": 66,
+          "value": "now"
+        },
+        {
+          "constant_index": 68,
+          "value": "language"
+        },
+        {
+          "constant_index": 69,
+          "value": ":"
+        },
+        {
+          "constant_index": 70,
+          "value": "drawHorizontal"
+        },
+        {
+          "constant_index": 71,
+          "value": "scrolling_text"
+        },
+        {
+          "constant_index": 72,
+          "value": "src.ui.widgets"
+        },
+        {
+          "constant_index": 73,
+          "value": "titleScroll"
+        },
+        {
+          "constant_index": 75,
+          "value": "numberColor"
+        },
+        {
+          "constant_index": 76,
+          "value": "text"
+        },
+        {
+          "constant_index": 77,
+          "value": "infoOverlay"
+        },
+        {
+          "constant_index": 79,
+          "value": "effectColor"
+        },
+        {
+          "constant_index": 80,
+          "value": "titleColor"
+        },
+        {
+          "constant_index": 81,
+          "value": "index"
+        },
+        {
+          "constant_index": 82,
+          "value": "draw"
+        },
+        {
+          "constant_index": 83,
+          "value": "radiusPx"
+        },
+        {
+          "constant_index": 84,
+          "value": "threshold"
+        },
+        {
+          "constant_index": 86,
+          "value": "outlineColor"
+        },
+        {
+          "constant_index": 87,
+          "value": "texelStep"
+        },
+        {
+          "constant_index": 88,
+          "value": "send"
+        },
+        {
+          "constant_index": 89,
+          "value": "getImageOutlineShader"
+        },
+        {
+          "constant_index": 90,
+          "value": "src.ui.render"
+        },
+        {
+          "constant_index": 91,
+          "value": "require"
+        },
+        {
+          "constant_index": 92,
+          "value": "hoveredIndex"
+        },
+        {
+          "constant_index": 93,
+          "value": "press"
+        },
+        {
+          "constant_index": 94,
+          "value": "hoverProg"
+        },
+        {
+          "constant_index": 95,
+          "value": "liftPx"
+        },
+        {
+          "constant_index": 96,
+          "value": "hover"
+        },
+        {
+          "constant_index": 97,
+          "value": "chosenIndex"
+        },
+        {
+          "constant_index": 98,
+          "value": "offsetPx"
+        },
+        {
+          "constant_index": 99,
+          "value": "dur"
+        },
+        {
+          "constant_index": 100,
+          "value": "delay"
+        },
+        {
+          "constant_index": 101,
+          "value": "t"
+        },
+        {
+          "constant_index": 102,
+          "value": "id"
+        },
+        {
+          "constant_index": 104,
+          "value": "stage"
+        },
+        {
+          "constant_index": 105,
+          "value": "content"
+        },
+        {
+          "constant_index": 106,
+          "value": "candidates"
+        },
+        {
+          "constant_index": 107,
+          "value": "unit"
+        },
+        {
+          "constant_index": 108,
+          "value": "catalog"
+        },
+        {
+          "constant_index": 109,
+          "value": "options"
+        },
+        {
+          "constant_index": 110,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 111,
+          "value": "effectFont"
+        },
+        {
+          "constant_index": 112,
+          "value": "nameFont"
+        },
+        {
+          "constant_index": 113,
+          "value": "itemLayout"
+        },
+        {
+          "constant_index": 114,
+          "value": "itemShop"
+        },
+        {
+          "constant_index": 115,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 116,
+          "value": "fontGameOver"
+        },
+        {
+          "constant_index": 117,
+          "value": "fontAwakeningCard"
+        },
+        {
+          "constant_index": 118,
+          "value": "rects"
+        },
+        {
+          "constant_index": 119,
+          "value": "y"
+        },
+        {
+          "constant_index": 120,
+          "value": "x"
+        },
+        {
+          "constant_index": 121,
+          "value": "fill"
+        },
+        {
+          "constant_index": 122,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 123,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 124,
+          "value": "holeFracH"
+        },
+        {
+          "constant_index": 125,
+          "value": "h"
+        },
+        {
+          "constant_index": 126,
+          "value": "padPx"
+        },
+        {
+          "constant_index": 127,
+          "value": "holeFracW"
+        },
+        {
+          "constant_index": 128,
+          "value": "floor"
+        },
+        {
+          "constant_index": 129,
+          "value": "w"
+        },
+        {
+          "constant_index": 130,
+          "value": "min"
+        },
+        {
+          "constant_index": 131,
+          "value": "max"
+        },
+        {
+          "constant_index": 132,
+          "value": "math"
+        },
+        {
+          "constant_index": 133,
+          "value": "overlayMask"
+        },
+        {
+          "constant_index": 134,
+          "value": "resolving"
+        },
+        {
+          "constant_index": 136,
+          "value": "appear"
+        },
+        {
+          "constant_index": 137,
+          "value": "classCard"
+        },
+        {
+          "constant_index": 138,
+          "value": "nearest"
+        },
+        {
+          "constant_index": 139,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 140,
+          "value": "src/sprites/background/button/awakeningcard.png"
+        },
+        {
+          "constant_index": 141,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 142,
+          "value": "card"
+        },
+        {
+          "constant_index": 143,
+          "value": "awakeningModal"
+        },
+        {
+          "constant_index": 144,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 145,
+          "value": "H"
+        },
+        {
+          "constant_index": 146,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 147,
+          "value": "W"
+        },
+        {
+          "constant_index": 148,
+          "value": "virtual"
+        },
+        {
+          "constant_index": 149,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 150,
+          "value": "font"
+        },
+        {
+          "constant_index": 151,
+          "value": "setScissor"
+        },
+        {
+          "constant_index": 152,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 153,
+          "value": "all"
+        },
+        {
+          "constant_index": 154,
+          "value": "push"
+        },
+        {
+          "constant_index": 155,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 156,
+          "value": "love"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": [
+            [
+              "h",
+              25
+            ]
+          ]
+        },
+        {
+          "constant_index": 12,
+          "array": [],
+          "dictionary": [
+            [
+              "w",
+              80
+            ],
+            [
+              "h",
+              22
+            ]
+          ]
+        },
+        {
+          "constant_index": 14,
+          "array": [
+            null,
+            null,
+            "Lv.30",
+            "Lv.60",
+            "Lv.100"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 25,
+          "array": [
+            null,
+            1,
+            1,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 30,
+          "array": [
+            null,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 60,
+          "array": [],
+          "dictionary": [
+            [
+              "scale",
+              1
+            ]
+          ]
+        },
+        {
+          "constant_index": 67,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 74,
+          "array": [
+            null,
+            1,
+            0.839,
+            0.353,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 78,
+          "array": [
+            null,
+            0.82,
+            0.84,
+            0.86,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 85,
+          "array": [
+            null,
+            0.93,
+            0.9,
+            0.95
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 103,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 135,
+          "array": [],
+          "dictionary": [
+            [
+              "delay",
+              0.4
+            ],
+            [
+              "dur",
+              0.4
+            ],
+            [
+              "offsetPx",
+              24
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/32",
+      "argument_count": 3,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hit"
+        },
+        {
+          "constant_index": 1,
+          "value": "stones"
+        },
+        {
+          "constant_index": 2,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 3,
+          "value": "awakening_stone"
+        },
+        {
+          "constant_index": 4,
+          "value": "src.ui.effects"
+        },
+        {
+          "constant_index": 5,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/34",
+      "argument_count": 9,
+      "instruction_count": 290,
+      "numeric_constants": [
+        35,
+        54,
+        3,
+        3.2,
+        0.5,
+        44,
+        1,
+        10,
+        8,
+        0.4745098039215686,
+        5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "drawnAt"
+        },
+        {
+          "constant_index": 1,
+          "value": "pop"
+        },
+        {
+          "constant_index": 2,
+          "value": "h"
+        },
+        {
+          "constant_index": 3,
+          "value": "max"
+        },
+        {
+          "constant_index": 4,
+          "value": "state"
+        },
+        {
+          "constant_index": 6,
+          "value": "fill"
+        },
+        {
+          "constant_index": 7,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 8,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 9,
+          "value": "draw"
+        },
+        {
+          "constant_index": 10,
+          "value": "stone"
+        },
+        {
+          "constant_index": 11,
+          "value": "displayOffset"
+        },
+        {
+          "constant_index": 12,
+          "value": "advance"
+        },
+        {
+          "constant_index": 13,
+          "value": "hoverDepth"
+        },
+        {
+          "constant_index": 14,
+          "value": "hoverShiftLeftPx"
+        },
+        {
+          "constant_index": 15,
+          "value": "hit"
+        },
+        {
+          "constant_index": 16,
+          "value": "index"
+        },
+        {
+          "constant_index": 17,
+          "value": "bounds"
+        },
+        {
+          "constant_index": 19,
+          "value": "inset"
+        },
+        {
+          "constant_index": 20,
+          "value": "locked"
+        },
+        {
+          "constant_index": 21,
+          "value": "ready"
+        },
+        {
+          "constant_index": 22,
+          "value": "awake"
+        },
+        {
+          "constant_index": 23,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 24,
+          "value": "all"
+        },
+        {
+          "constant_index": 25,
+          "value": "push"
+        },
+        {
+          "constant_index": 26,
+          "value": "skillFrame"
+        },
+        {
+          "constant_index": 27,
+          "value": "imprintPanel"
+        },
+        {
+          "constant_index": 28,
+          "value": "awakening_stone"
+        },
+        {
+          "constant_index": 29,
+          "value": "src.ui.effects"
+        },
+        {
+          "constant_index": 30,
+          "value": "stones"
+        },
+        {
+          "constant_index": 31,
+          "value": "y"
+        },
+        {
+          "constant_index": 33,
+          "value": "getTime"
+        },
+        {
+          "constant_index": 34,
+          "value": "timer"
+        },
+        {
+          "constant_index": 35,
+          "value": "sin"
+        },
+        {
+          "constant_index": 36,
+          "value": "motion"
+        },
+        {
+          "constant_index": 37,
+          "value": "off"
+        },
+        {
+          "constant_index": 39,
+          "value": "unit"
+        },
+        {
+          "constant_index": 40,
+          "value": "_awakeningRunes"
+        },
+        {
+          "constant_index": 41,
+          "value": "min"
+        },
+        {
+          "constant_index": 42,
+          "value": "w"
+        },
+        {
+          "constant_index": 43,
+          "value": "x"
+        },
+        {
+          "constant_index": 44,
+          "value": "floor"
+        },
+        {
+          "constant_index": 45,
+          "value": "math"
+        },
+        {
+          "constant_index": 46,
+          "value": "available"
+        },
+        {
+          "constant_index": 47,
+          "value": "stage"
+        },
+        {
+          "constant_index": 48,
+          "value": "capacity"
+        },
+        {
+          "constant_index": 49,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 50,
+          "value": "love"
+        },
+        {
+          "constant_index": 51,
+          "value": "identity"
+        },
+        {
+          "constant_index": 52,
+          "value": "getAwakeningUnlocked"
+        },
+        {
+          "constant_index": 53,
+          "value": "sandboxMode"
+        },
+        {
+          "constant_index": 54,
+          "value": "src.ui.upgrade"
+        },
+        {
+          "constant_index": 55,
+          "value": "require"
+        },
+        {
+          "constant_index": 56,
+          "value": "_awakeningPanelRect"
+        },
+        {
+          "constant_index": 57,
+          "value": "_awakeningInfo"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 18,
+          "array": [],
+          "dictionary": [
+            [
+              "vel",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 32,
+          "array": [],
+          "dictionary": [
+            [
+              "w",
+              0
+            ]
+          ]
+        },
+        {
+          "constant_index": 38,
+          "array": [],
+          "dictionary": []
+        }
+      ]
+    },
+    {
+      "prototype": "root/36",
+      "argument_count": 5,
+      "instruction_count": 73,
+      "numeric_constants": [
+        88,
+        2,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "fill"
+        },
+        {
+          "constant_index": 1,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 2,
+          "value": "byte"
+        },
+        {
+          "constant_index": 3,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 4,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 5,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 6,
+          "value": "love"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/41",
+      "argument_count": 3,
+      "instruction_count": 32,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "rep"
+        },
+        {
+          "constant_index": 1,
+          "value": "."
+        },
+        {
+          "constant_index": 2,
+          "value": "concat"
+        },
+        {
+          "constant_index": 3,
+          "value": "table"
+        },
+        {
+          "constant_index": 4,
+          "value": ".X."
+        },
+        {
+          "constant_index": 5,
+          "value": "XXX"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/42/2",
+      "argument_count": 1,
+      "instruction_count": 74,
+      "numeric_constants": [
+        1,
+        0.001,
+        0.4,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "hoverProg"
+        },
+        {
+          "constant_index": 1,
+          "value": "liftPx"
+        },
+        {
+          "constant_index": 2,
+          "value": "offsetPx"
+        },
+        {
+          "constant_index": 3,
+          "value": "floor"
+        },
+        {
+          "constant_index": 4,
+          "value": "dur"
+        },
+        {
+          "constant_index": 5,
+          "value": "delay"
+        },
+        {
+          "constant_index": 6,
+          "value": "t"
+        },
+        {
+          "constant_index": 7,
+          "value": "min"
+        },
+        {
+          "constant_index": 8,
+          "value": "max"
+        },
+        {
+          "constant_index": 9,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/42",
+      "argument_count": 3,
+      "instruction_count": 318,
+      "numeric_constants": [
+        0.1,
+        10,
+        0.05,
+        0,
+        12
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "insetEnterPx"
+        },
+        {
+          "constant_index": 1,
+          "value": "leaveExpandPx"
+        },
+        {
+          "constant_index": 3,
+          "value": "hover"
+        },
+        {
+          "constant_index": 5,
+          "value": "appear"
+        },
+        {
+          "constant_index": 6,
+          "value": "classCard"
+        },
+        {
+          "constant_index": 7,
+          "value": "mouseY"
+        },
+        {
+          "constant_index": 8,
+          "value": "mouseX"
+        },
+        {
+          "constant_index": 9,
+          "value": "tooltip"
+        },
+        {
+          "constant_index": 10,
+          "value": "__slotSaveAwakeningChoices"
+        },
+        {
+          "constant_index": 11,
+          "value": "_G"
+        },
+        {
+          "constant_index": 12,
+          "value": "awakenStar"
+        },
+        {
+          "constant_index": 13,
+          "value": "stage"
+        },
+        {
+          "constant_index": 14,
+          "value": "start"
+        },
+        {
+          "constant_index": 15,
+          "value": "chosenIndex"
+        },
+        {
+          "constant_index": 16,
+          "value": "unit"
+        },
+        {
+          "constant_index": 17,
+          "value": "choose"
+        },
+        {
+          "constant_index": 18,
+          "value": "hoverProg"
+        },
+        {
+          "constant_index": 19,
+          "value": "options"
+        },
+        {
+          "constant_index": 20,
+          "value": "hoveredIndex"
+        },
+        {
+          "constant_index": 21,
+          "value": "resolving"
+        },
+        {
+          "constant_index": 22,
+          "value": "dur"
+        },
+        {
+          "constant_index": 23,
+          "value": "press"
+        },
+        {
+          "constant_index": 24,
+          "value": "t"
+        },
+        {
+          "constant_index": 25,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 26,
+          "value": "min"
+        },
+        {
+          "constant_index": 27,
+          "value": "max"
+        },
+        {
+          "constant_index": 28,
+          "value": "math"
+        },
+        {
+          "constant_index": 29,
+          "value": "open"
+        },
+        {
+          "constant_index": 30,
+          "value": "available"
+        },
+        {
+          "constant_index": 31,
+          "value": "rosterUnits"
+        },
+        {
+          "constant_index": 32,
+          "value": "ipairs"
+        },
+        {
+          "constant_index": 33,
+          "value": "busy"
+        },
+        {
+          "constant_index": 34,
+          "value": "pauseOverlayState"
+        },
+        {
+          "constant_index": 35,
+          "value": "_stoneMode"
+        },
+        {
+          "constant_index": 36,
+          "value": "_shopMode"
+        },
+        {
+          "constant_index": 37,
+          "value": "active"
+        },
+        {
+          "constant_index": 38,
+          "value": "imprintModal"
+        },
+        {
+          "constant_index": 39,
+          "value": "classSelect"
+        },
+        {
+          "constant_index": 40,
+          "value": "gameOver"
+        },
+        {
+          "constant_index": 41,
+          "value": "battle"
+        },
+        {
+          "constant_index": 42,
+          "value": "mode"
+        },
+        {
+          "constant_index": 43,
+          "value": "awakeningModal"
+        },
+        {
+          "constant_index": 44,
+          "value": "update"
+        },
+        {
+          "constant_index": 45,
+          "value": "awakening_burst"
+        },
+        {
+          "constant_index": 46,
+          "value": "src.ui.effects"
+        },
+        {
+          "constant_index": 47,
+          "value": "require"
+        },
+        {
+          "constant_index": 48,
+          "value": "bindRun"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 4,
+          "array": [],
+          "dictionary": [
+            [
+              "delay",
+              0.4
+            ],
+            [
+              "dur",
+              0.4
+            ],
+            [
+              "offsetPx",
+              24
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/43",
+      "argument_count": 3,
+      "instruction_count": 80,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "play"
+        },
+        {
+          "constant_index": 1,
+          "value": "setPitch"
+        },
+        {
+          "constant_index": 2,
+          "value": "setVolume"
+        },
+        {
+          "constant_index": 3,
+          "value": "setLooping"
+        },
+        {
+          "constant_index": 4,
+          "value": "stop"
+        },
+        {
+          "constant_index": 5,
+          "value": "isPlaying"
+        },
+        {
+          "constant_index": 6,
+          "value": "audioBaseGain"
+        },
+        {
+          "constant_index": 7,
+          "value": "sfxVolume"
+        },
+        {
+          "constant_index": 8,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 9,
+          "value": "ui"
+        },
+        {
+          "constant_index": 10,
+          "value": "audio"
+        },
+        {
+          "constant_index": 11,
+          "value": "assets"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/44",
+      "argument_count": 2,
+      "instruction_count": 124,
+      "numeric_constants": [
+        12,
+        28,
+        2,
+        0.28,
+        0.8,
+        0.2,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "options"
+        },
+        {
+          "constant_index": 1,
+          "value": "awakeningModal"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "gapMul"
+        },
+        {
+          "constant_index": 4,
+          "value": "classCard"
+        },
+        {
+          "constant_index": 5,
+          "value": "min"
+        },
+        {
+          "constant_index": 6,
+          "value": "y"
+        },
+        {
+          "constant_index": 7,
+          "value": "x"
+        },
+        {
+          "constant_index": 8,
+          "value": "floor"
+        },
+        {
+          "constant_index": 9,
+          "value": "math"
+        },
+        {
+          "constant_index": 10,
+          "value": "scale"
+        },
+        {
+          "constant_index": 11,
+          "value": "h"
+        },
+        {
+          "constant_index": 12,
+          "value": "w"
+        },
+        {
+          "constant_index": 14,
+          "value": "area"
+        },
+        {
+          "constant_index": 15,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 16,
+          "value": "H"
+        },
+        {
+          "constant_index": 17,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 18,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 19,
+          "value": "love"
+        },
+        {
+          "constant_index": 20,
+          "value": "W"
+        },
+        {
+          "constant_index": 21,
+          "value": "virtual"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 13,
+          "array": [],
+          "dictionary": [
+            [
+              "y",
+              0
+            ],
+            [
+              "x",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/45",
+      "argument_count": 2,
+      "instruction_count": 90,
+      "numeric_constants": [
+        0,
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "mouseY"
+        },
+        {
+          "constant_index": 1,
+          "value": "mouseX"
+        },
+        {
+          "constant_index": 2,
+          "value": "update"
+        },
+        {
+          "constant_index": 3,
+          "value": "tooltip"
+        },
+        {
+          "constant_index": 4,
+          "value": "_awakeningInfo"
+        },
+        {
+          "constant_index": 5,
+          "value": "ui"
+        },
+        {
+          "constant_index": 6,
+          "value": "__slotSaveAwakeningChoices"
+        },
+        {
+          "constant_index": 7,
+          "value": "_G"
+        },
+        {
+          "constant_index": 8,
+          "value": "absorbMode"
+        },
+        {
+          "constant_index": 9,
+          "value": "hoverProg"
+        },
+        {
+          "constant_index": 10,
+          "value": "stage"
+        },
+        {
+          "constant_index": 11,
+          "value": "options"
+        },
+        {
+          "constant_index": 12,
+          "value": "unit"
+        },
+        {
+          "constant_index": 14,
+          "value": "offer"
+        },
+        {
+          "constant_index": 15,
+          "value": "available"
+        },
+        {
+          "constant_index": 16,
+          "value": "active"
+        },
+        {
+          "constant_index": 17,
+          "value": "imprintModal"
+        },
+        {
+          "constant_index": 18,
+          "value": "awakeningModal"
+        },
+        {
+          "constant_index": 19,
+          "value": "classSelect"
+        },
+        {
+          "constant_index": 20,
+          "value": "battle"
+        },
+        {
+          "constant_index": 21,
+          "value": "mode"
+        },
+        {
+          "constant_index": 22,
+          "value": "gameOver"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 13,
+          "array": [],
+          "dictionary": [
+            [
+              "hoveredIndex",
+              0
+            ],
+            [
+              "t",
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/47",
+      "argument_count": 3,
+      "instruction_count": 23,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "h"
+        },
+        {
+          "constant_index": 1,
+          "value": "y"
+        },
+        {
+          "constant_index": 2,
+          "value": "w"
+        },
+        {
+          "constant_index": 3,
+          "value": "x"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/52",
+      "argument_count": 1,
+      "instruction_count": 42,
+      "numeric_constants": [
+        1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 1,
+          "value": "titlePalette"
+        },
+        {
+          "constant_index": 3,
+          "value": "^(%a)(%d+)$"
+        },
+        {
+          "constant_index": 4,
+          "value": "match"
+        },
+        {
+          "constant_index": 5,
+          "value": ""
+        },
+        {
+          "constant_index": 6,
+          "value": "id"
+        },
+        {
+          "constant_index": 7,
+          "value": "category"
+        },
+        {
+          "constant_index": 8,
+          "value": "titleColors"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 2,
+          "array": [],
+          "dictionary": [
+            [
+              "W",
+              0
+            ],
+            [
+              "H",
+              1
+            ],
+            [
+              "S",
+              4
+            ],
+            [
+              "J",
+              5
+            ],
+            [
+              "M",
+              6
+            ],
+            [
+              "A",
+              2
+            ],
+            [
+              "D",
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "prototype": "root/75",
+      "argument_count": 4,
+      "instruction_count": 30,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "limit"
+        },
+        {
+          "constant_index": 1,
+          "value": "text"
+        },
+        {
+          "constant_index": 2,
+          "value": "name"
+        },
+        {
+          "constant_index": 3,
+          "value": "getAwakeningText"
+        },
+        {
+          "constant_index": 4,
+          "value": "language"
+        },
+        {
+          "constant_index": 5,
+          "value": "src.data.language"
+        },
+        {
+          "constant_index": 6,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/77",
+      "argument_count": 2,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "format"
+        },
+        {
+          "constant_index": 1,
+          "value": "string"
+        },
+        {
+          "constant_index": 2,
+          "value": "#"
+        },
+        {
+          "constant_index": 3,
+          "value": "select"
+        },
+        {
+          "constant_index": 4,
+          "value": "language"
+        },
+        {
+          "constant_index": 5,
+          "value": "getText"
+        },
+        {
+          "constant_index": 6,
+          "value": "src.data.language"
+        },
+        {
+          "constant_index": 7,
+          "value": "require"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/79",
+      "argument_count": 1,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "ko"
+        },
+        {
+          "constant_index": 1,
+          "value": "language"
+        },
+        {
+          "constant_index": 2,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 3,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 4,
+          "value": "_G"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/81",
+      "argument_count": 0,
+      "instruction_count": 192,
+      "numeric_constants": [
+        1,
+        0.38,
+        0.48,
+        0.5
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "floor"
+        },
+        {
+          "constant_index": 2,
+          "value": "draw"
+        },
+        {
+          "constant_index": 3,
+          "value": "max"
+        },
+        {
+          "constant_index": 4,
+          "value": "min"
+        },
+        {
+          "constant_index": 5,
+          "value": "math"
+        },
+        {
+          "constant_index": 6,
+          "value": "fill"
+        },
+        {
+          "constant_index": 7,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 8,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 9,
+          "value": "getDimensions"
+        },
+        {
+          "constant_index": 10,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 11,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 12,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 13,
+          "value": "setScissor"
+        },
+        {
+          "constant_index": 14,
+          "value": "setStencilTest"
+        },
+        {
+          "constant_index": 15,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 16,
+          "value": "origin"
+        },
+        {
+          "constant_index": 17,
+          "value": "all"
+        },
+        {
+          "constant_index": 18,
+          "value": "push"
+        },
+        {
+          "constant_index": 19,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 20,
+          "value": "love"
+        },
+        {
+          "constant_index": 21,
+          "value": "reveal"
+        },
+        {
+          "constant_index": 22,
+          "value": "blackHold"
+        },
+        {
+          "constant_index": 23,
+          "value": "fadeOut"
+        },
+        {
+          "constant_index": 24,
+          "value": "hold"
+        },
+        {
+          "constant_index": 25,
+          "value": "fadeIn"
+        },
+        {
+          "constant_index": 26,
+          "value": "leadIn"
+        },
+        {
+          "constant_index": 27,
+          "value": "elapsed"
+        },
+        {
+          "constant_index": 28,
+          "value": "logo"
+        },
+        {
+          "constant_index": 29,
+          "value": "active"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/82",
+      "argument_count": 1,
+      "instruction_count": 46,
+      "numeric_constants": [
+        0.1
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "elapsed"
+        },
+        {
+          "constant_index": 2,
+          "value": "huge"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 5,
+          "value": "active"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/83",
+      "argument_count": 0,
+      "instruction_count": 27,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "elapsed"
+        },
+        {
+          "constant_index": 1,
+          "value": "active"
+        },
+        {
+          "constant_index": 2,
+          "value": "blackHold"
+        },
+        {
+          "constant_index": 3,
+          "value": "fadeOut"
+        },
+        {
+          "constant_index": 4,
+          "value": "hold"
+        },
+        {
+          "constant_index": 5,
+          "value": "fadeIn"
+        },
+        {
+          "constant_index": 6,
+          "value": "leadIn"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/85",
+      "argument_count": 0,
+      "instruction_count": 9,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "active"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/87",
+      "argument_count": 0,
+      "instruction_count": 41,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "linear"
+        },
+        {
+          "constant_index": 1,
+          "value": "setFilter"
+        },
+        {
+          "constant_index": 2,
+          "value": "logo"
+        },
+        {
+          "constant_index": 3,
+          "value": "tostring"
+        },
+        {
+          "constant_index": 4,
+          "value": "[startup] Could not load logo: "
+        },
+        {
+          "constant_index": 5,
+          "value": "print"
+        },
+        {
+          "constant_index": 6,
+          "value": "newImage"
+        },
+        {
+          "constant_index": 7,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 8,
+          "value": "love"
+        },
+        {
+          "constant_index": 9,
+          "value": "pcall"
+        },
+        {
+          "constant_index": 10,
+          "value": "active"
+        },
+        {
+          "constant_index": 11,
+          "value": "elapsed"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/89",
+      "argument_count": 0,
+      "instruction_count": 19,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "reveal"
+        },
+        {
+          "constant_index": 1,
+          "value": "blackHold"
+        },
+        {
+          "constant_index": 2,
+          "value": "fadeOut"
+        },
+        {
+          "constant_index": 3,
+          "value": "hold"
+        },
+        {
+          "constant_index": 4,
+          "value": "fadeIn"
+        },
+        {
+          "constant_index": 5,
+          "value": "leadIn"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/90",
+      "argument_count": 1,
+      "instruction_count": 17,
+      "numeric_constants": [
+        2,
+        3
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "min"
+        },
+        {
+          "constant_index": 1,
+          "value": "max"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/94",
+      "argument_count": 5,
+      "instruction_count": 279,
+      "numeric_constants": [
+        0.18,
+        0.48,
+        2,
+        0.5,
+        1,
+        4,
+        18,
+        3,
+        0.08,
+        0.07,
+        0.1,
+        0.86,
+        0.92
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pop"
+        },
+        {
+          "constant_index": 1,
+          "value": "print"
+        },
+        {
+          "constant_index": 2,
+          "value": "fill"
+        },
+        {
+          "constant_index": 3,
+          "value": "rectangle"
+        },
+        {
+          "constant_index": 4,
+          "value": "setColor"
+        },
+        {
+          "constant_index": 5,
+          "value": "setFont"
+        },
+        {
+          "constant_index": 6,
+          "value": "alphamultiply"
+        },
+        {
+          "constant_index": 7,
+          "value": "alpha"
+        },
+        {
+          "constant_index": 8,
+          "value": "setBlendMode"
+        },
+        {
+          "constant_index": 9,
+          "value": "setScissor"
+        },
+        {
+          "constant_index": 10,
+          "value": "setStencilTest"
+        },
+        {
+          "constant_index": 11,
+          "value": "setShader"
+        },
+        {
+          "constant_index": 12,
+          "value": "scale"
+        },
+        {
+          "constant_index": 13,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 14,
+          "value": "translate"
+        },
+        {
+          "constant_index": 15,
+          "value": "origin"
+        },
+        {
+          "constant_index": 16,
+          "value": "all"
+        },
+        {
+          "constant_index": 17,
+          "value": "push"
+        },
+        {
+          "constant_index": 18,
+          "value": "floor"
+        },
+        {
+          "constant_index": 19,
+          "value": "max"
+        },
+        {
+          "constant_index": 20,
+          "value": "math"
+        },
+        {
+          "constant_index": 21,
+          "value": "getHeight"
+        },
+        {
+          "constant_index": 22,
+          "value": "getWidth"
+        },
+        {
+          "constant_index": 23,
+          "value": "W"
+        },
+        {
+          "constant_index": 24,
+          "value": "virtual"
+        },
+        {
+          "constant_index": 25,
+          "value": "getFont"
+        },
+        {
+          "constant_index": 26,
+          "value": "font"
+        },
+        {
+          "constant_index": 27,
+          "value": "fontGameOver"
+        },
+        {
+          "constant_index": 28,
+          "value": "demo"
+        },
+        {
+          "constant_index": 29,
+          "value": "mode"
+        },
+        {
+          "constant_index": 30,
+          "value": "prefix"
+        },
+        {
+          "constant_index": 31,
+          "value": "ko"
+        },
+        {
+          "constant_index": 32,
+          "value": "duration"
+        },
+        {
+          "constant_index": 33,
+          "value": "t"
+        },
+        {
+          "constant_index": 34,
+          "value": "graphics"
+        },
+        {
+          "constant_index": 35,
+          "value": "love"
+        },
+        {
+          "constant_index": 36,
+          "value": "active"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/96",
+      "argument_count": 1,
+      "instruction_count": 35,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "duration"
+        },
+        {
+          "constant_index": 1,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        },
+        {
+          "constant_index": 4,
+          "value": "t"
+        },
+        {
+          "constant_index": 5,
+          "value": "active"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/98",
+      "argument_count": 1,
+      "instruction_count": 18,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "active"
+        },
+        {
+          "constant_index": 1,
+          "value": "t"
+        },
+        {
+          "constant_index": 2,
+          "value": "demo"
+        },
+        {
+          "constant_index": 3,
+          "value": "ko"
+        },
+        {
+          "constant_index": 4,
+          "value": "mode"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/100",
+      "argument_count": 1,
+      "instruction_count": 104,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "pt"
+        },
+        {
+          "constant_index": 1,
+          "value": "^pt"
+        },
+        {
+          "constant_index": 2,
+          "value": "pl"
+        },
+        {
+          "constant_index": 3,
+          "value": "^pl"
+        },
+        {
+          "constant_index": 4,
+          "value": "ru"
+        },
+        {
+          "constant_index": 5,
+          "value": "^ru"
+        },
+        {
+          "constant_index": 6,
+          "value": "es"
+        },
+        {
+          "constant_index": 7,
+          "value": "^es"
+        },
+        {
+          "constant_index": 8,
+          "value": "de"
+        },
+        {
+          "constant_index": 9,
+          "value": "^de"
+        },
+        {
+          "constant_index": 10,
+          "value": "it"
+        },
+        {
+          "constant_index": 11,
+          "value": "^it"
+        },
+        {
+          "constant_index": 12,
+          "value": "fr"
+        },
+        {
+          "constant_index": 13,
+          "value": "^fr"
+        },
+        {
+          "constant_index": 14,
+          "value": "en"
+        },
+        {
+          "constant_index": 15,
+          "value": "^en"
+        },
+        {
+          "constant_index": 16,
+          "value": "zh"
+        },
+        {
+          "constant_index": 17,
+          "value": "^zh"
+        },
+        {
+          "constant_index": 18,
+          "value": "ja"
+        },
+        {
+          "constant_index": 19,
+          "value": "^ja"
+        },
+        {
+          "constant_index": 20,
+          "value": "match"
+        },
+        {
+          "constant_index": 21,
+          "value": "lower"
+        },
+        {
+          "constant_index": 22,
+          "value": "ko"
+        },
+        {
+          "constant_index": 23,
+          "value": "language"
+        },
+        {
+          "constant_index": 24,
+          "value": "menuSettings"
+        },
+        {
+          "constant_index": 25,
+          "value": "currentGameLang"
+        },
+        {
+          "constant_index": 26,
+          "value": "_G"
+        },
+        {
+          "constant_index": 27,
+          "value": "rawget"
+        },
+        {
+          "constant_index": 28,
+          "value": "tostring"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/101",
+      "argument_count": 1,
+      "instruction_count": 20,
+      "numeric_constants": [
+        2,
+        3
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 1,
+          "value": "min"
+        },
+        {
+          "constant_index": 2,
+          "value": "max"
+        },
+        {
+          "constant_index": 3,
+          "value": "math"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/133",
+      "argument_count": 1,
+      "instruction_count": 44,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "clearDeferred"
+        },
+        {
+          "constant_index": 1,
+          "value": "_deferredCoreSelect"
+        },
+        {
+          "constant_index": 2,
+          "value": "detail"
+        },
+        {
+          "constant_index": 3,
+          "value": "mode"
+        },
+        {
+          "constant_index": 4,
+          "value": "active"
+        },
+        {
+          "constant_index": 5,
+          "value": "_coreSelect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/135",
+      "argument_count": 1,
+      "instruction_count": 11,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_coreSelectDeniedAt"
+        },
+        {
+          "constant_index": 1,
+          "value": "_coreSelectReturnHover"
+        },
+        {
+          "constant_index": 2,
+          "value": "_deferredCoreSelect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/137",
+      "argument_count": 2,
+      "instruction_count": 43,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_denyShake"
+        },
+        {
+          "constant_index": 1,
+          "value": "_hoverState"
+        },
+        {
+          "constant_index": 2,
+          "value": "_btnHoverState"
+        },
+        {
+          "constant_index": 3,
+          "value": "right"
+        },
+        {
+          "constant_index": 4,
+          "value": "mid"
+        },
+        {
+          "constant_index": 5,
+          "value": "left"
+        },
+        {
+          "constant_index": 6,
+          "value": "startT"
+        },
+        {
+          "constant_index": 7,
+          "value": "fromCountdown"
+        },
+        {
+          "constant_index": 8,
+          "value": "active"
+        },
+        {
+          "constant_index": 9,
+          "value": "_coreSelect"
+        },
+        {
+          "constant_index": 10,
+          "value": "_deferredCoreSelect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/139",
+      "argument_count": 2,
+      "instruction_count": 32,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "_deferredCoreSelect"
+        },
+        {
+          "constant_index": 1,
+          "value": "_discardConfirm"
+        },
+        {
+          "constant_index": 2,
+          "value": "_denyShake"
+        },
+        {
+          "constant_index": 3,
+          "value": "_hoverState"
+        },
+        {
+          "constant_index": 4,
+          "value": "_btnHoverState"
+        },
+        {
+          "constant_index": 5,
+          "value": "_returnPromptT0"
+        },
+        {
+          "constant_index": 6,
+          "value": "active"
+        },
+        {
+          "constant_index": 7,
+          "value": "_coreSelect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/141",
+      "argument_count": 1,
+      "instruction_count": 29,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "detail"
+        },
+        {
+          "constant_index": 1,
+          "value": "mode"
+        },
+        {
+          "constant_index": 2,
+          "value": "active"
+        },
+        {
+          "constant_index": 3,
+          "value": "_deferredCoreSelect"
+        },
+        {
+          "constant_index": 4,
+          "value": "_coreSelect"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/143",
+      "argument_count": 3,
+      "instruction_count": 16,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "normal"
+        },
+        {
+          "constant_index": 1,
+          "value": "capacity"
+        },
+        {
+          "constant_index": 2,
+          "value": "isFull"
+        },
+        {
+          "constant_index": 3,
+          "value": "detail"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/145",
+      "argument_count": 1,
+      "instruction_count": 13,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "key"
+        },
+        {
+          "constant_index": 1,
+          "value": "MANUAL_USE"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/149",
+      "argument_count": 2,
+      "instruction_count": 12,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "getCapacity"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root/151",
+      "argument_count": 2,
+      "instruction_count": 47,
+      "numeric_constants": [],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "tonumber"
+        },
+        {
+          "constant_index": 1,
+          "value": "floor"
+        },
+        {
+          "constant_index": 2,
+          "value": "math"
+        },
+        {
+          "constant_index": 3,
+          "value": "max"
+        },
+        {
+          "constant_index": 4,
+          "value": "coreCountDisplay"
+        },
+        {
+          "constant_index": 5,
+          "value": "table"
+        },
+        {
+          "constant_index": 6,
+          "value": "type"
+        },
+        {
+          "constant_index": 7,
+          "value": "getActive"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "prototype": "root",
+      "argument_count": 0,
+      "instruction_count": 215,
+      "numeric_constants": [
+        0.0392156862745098
+      ],
+      "strings": [
+        {
+          "constant_index": 0,
+          "value": "startup_splash"
+        },
+        {
+          "constant_index": 1,
+          "value": "edition_notice"
+        },
+        {
+          "constant_index": 2,
+          "value": "core_select"
+        },
+        {
+          "constant_index": 3,
+          "value": "awakening"
+        },
+        {
+          "constant_index": 4,
+          "value": "sandbox_slot"
+        },
+        {
+          "constant_index": 8,
+          "value": "click"
+        },
+        {
+          "constant_index": 10,
+          "value": "drawInfo"
+        },
+        {
+          "constant_index": 15,
+          "value": "dim"
+        },
+        {
+          "constant_index": 17,
+          "value": "next"
+        },
+        {
+          "constant_index": 19,
+          "value": "divider"
+        },
+        {
+          "constant_index": 21,
+          "value": "number"
+        },
+        {
+          "constant_index": 23,
+          "value": "label"
+        },
+        {
+          "constant_index": 26,
+          "value": "title"
+        },
+        {
+          "constant_index": 28,
+          "value": "fill"
+        },
+        {
+          "constant_index": 33,
+          "value": "hitRunes"
+        },
+        {
+          "constant_index": 35,
+          "value": "drawRunes"
+        },
+        {
+          "constant_index": 37,
+          "value": "numerals"
+        },
+        {
+          "constant_index": 38,
+          "value": "tip"
+        },
+        {
+          "constant_index": 39,
+          "value": "stone"
+        },
+        {
+          "constant_index": 46,
+          "value": "open"
+        },
+        {
+          "constant_index": 49,
+          "value": "src.ui.tooltip"
+        },
+        {
+          "constant_index": 50,
+          "value": "src.game.awakening"
+        },
+        {
+          "constant_index": 51,
+          "value": "require"
+        },
+        {
+          "constant_index": 53,
+          "value": "titleColor"
+        },
+        {
+          "constant_index": 62,
+          "value": "titlePalette"
+        },
+        {
+          "constant_index": 63,
+          "value": "소환수 패시브 / 소환수 상태"
+        },
+        {
+          "constant_index": 65,
+          "value": "고유 능력 연계 / 고유 능력 연계"
+        },
+        {
+          "constant_index": 67,
+          "value": "일반 패시브 / 상시·배치"
+        },
+        {
+          "constant_index": 69,
+          "value": "일반 패시브 / 상황 반응"
+        },
+        {
+          "constant_index": 71,
+          "value": "일반 패시브 / 아군 보호"
+        },
+        {
+          "constant_index": 74,
+          "value": "titleColors"
+        },
+        {
+          "constant_index": 76,
+          "value": "content"
+        },
+        {
+          "constant_index": 78,
+          "value": "text"
+        },
+        {
+          "constant_index": 80,
+          "value": "language"
+        },
+        {
+          "constant_index": 84,
+          "value": "isRevealing"
+        },
+        {
+          "constant_index": 86,
+          "value": "isActive"
+        },
+        {
+          "constant_index": 88,
+          "value": "load"
+        },
+        {
+          "constant_index": 93,
+          "value": "src/sprites/mainmenu/OptimaArchlogoblack.png"
+        },
+        {
+          "constant_index": 95,
+          "value": "draw"
+        },
+        {
+          "constant_index": 97,
+          "value": "update"
+        },
+        {
+          "constant_index": 99,
+          "value": "show"
+        },
+        {
+          "constant_index": 102,
+          "value": "semi_demo"
+        },
+        {
+          "constant_index": 104,
+          "value": "full"
+        },
+        {
+          "constant_index": 106,
+          "value": "demo"
+        },
+        {
+          "constant_index": 109,
+          "value": "pt"
+        },
+        {
+          "constant_index": 111,
+          "value": "pl"
+        },
+        {
+          "constant_index": 113,
+          "value": "ru"
+        },
+        {
+          "constant_index": 115,
+          "value": "es"
+        },
+        {
+          "constant_index": 117,
+          "value": "de"
+        },
+        {
+          "constant_index": 119,
+          "value": "it"
+        },
+        {
+          "constant_index": 121,
+          "value": "fr"
+        },
+        {
+          "constant_index": 123,
+          "value": "zh"
+        },
+        {
+          "constant_index": 125,
+          "value": "ja"
+        },
+        {
+          "constant_index": 127,
+          "value": "en"
+        },
+        {
+          "constant_index": 129,
+          "value": "ko"
+        },
+        {
+          "constant_index": 134,
+          "value": "skipPending"
+        },
+        {
+          "constant_index": 136,
+          "value": "clearDeferred"
+        },
+        {
+          "constant_index": 138,
+          "value": "resume"
+        },
+        {
+          "constant_index": 140,
+          "value": "defer"
+        },
+        {
+          "constant_index": 142,
+          "value": "hasPending"
+        },
+        {
+          "constant_index": 144,
+          "value": "getButtonMode"
+        },
+        {
+          "constant_index": 146,
+          "value": "isManualUse"
+        },
+        {
+          "constant_index": 148,
+          "value": "MANUAL_USE"
+        },
+        {
+          "constant_index": 150,
+          "value": "isFull"
+        },
+        {
+          "constant_index": 152,
+          "value": "getCapacity"
+        }
+      ],
+      "tables": [
+        {
+          "constant_index": 5,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 16,
+          "array": [
+            null,
+            0.72,
+            0.72,
+            0.72,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 18,
+          "array": [
+            null,
+            0.35,
+            0.85,
+            1,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 20,
+          "array": [
+            null,
+            0.35,
+            0.35,
+            0.35,
+            0.8
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 22,
+          "array": [
+            null,
+            0.6,
+            1,
+            0.6,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 24,
+          "array": [
+            null,
+            0.55,
+            0.55,
+            0.55,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 25,
+          "array": [
+            null,
+            0.9,
+            0.9,
+            0.9,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 27,
+          "array": [
+            null,
+            1,
+            0.9,
+            0.5,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 29,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 30,
+          "array": [
+            null,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 40,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 48,
+          "array": [
+            null,
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V"
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 54,
+          "array": [
+            null,
+            0.5607843137254902,
+            0.8549019607843137,
+            0.8588235294117647,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 55,
+          "array": [
+            null,
+            0.6823529411764706,
+            0.8470588235294118,
+            0.5607843137254902,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 56,
+          "array": [
+            null,
+            0.9058823529411765,
+            0.6509803921568628,
+            0.796078431372549,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 57,
+          "array": [
+            null,
+            0.9215686274509803,
+            0.803921568627451,
+            0.5333333333333333,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 58,
+          "array": [
+            null,
+            0.7764705882352941,
+            0.6901960784313725,
+            0.9372549019607843,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 59,
+          "array": [
+            null,
+            0.615686274509804,
+            0.792156862745098,
+            0.9411764705882353,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 60,
+          "array": [
+            null,
+            0.9372549019607843,
+            0.6980392156862745,
+            0.592156862745098,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 61,
+          "array": [
+            null,
+            0.6313725490196078,
+            0.8392156862745098,
+            0.7450980392156863,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 64,
+          "array": [
+            null,
+            0.6313725490196078,
+            0.8392156862745098,
+            0.6666666666666666,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 66,
+          "array": [
+            null,
+            0.7764705882352941,
+            0.6901960784313725,
+            0.9372549019607843,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 68,
+          "array": [
+            null,
+            0.615686274509804,
+            0.792156862745098,
+            0.9411764705882353,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 70,
+          "array": [
+            null,
+            0.9372549019607843,
+            0.6980392156862745,
+            0.592156862745098,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 72,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 73,
+          "array": [
+            null,
+            0.6313725490196078,
+            0.8392156862745098,
+            0.7450980392156863,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 91,
+          "array": [],
+          "dictionary": [
+            [
+              "elapsed",
+              0
+            ],
+            [
+              "active",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 92,
+          "array": [],
+          "dictionary": [
+            [
+              "fadeIn",
+              0.7
+            ],
+            [
+              "blackHold",
+              0.12
+            ],
+            [
+              "leadIn",
+              0.15
+            ],
+            [
+              "fadeOut",
+              0.65
+            ],
+            [
+              "reveal",
+              0.65
+            ],
+            [
+              "hold",
+              0.9
+            ]
+          ]
+        },
+        {
+          "constant_index": 103,
+          "array": [
+            null,
+            0.48,
+            0.78,
+            1
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 105,
+          "array": [
+            null,
+            0.45,
+            0.92,
+            0.55
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 107,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 108,
+          "array": [
+            null,
+            0.95,
+            0.7,
+            0.3
+          ],
+          "dictionary": []
+        },
+        {
+          "constant_index": 110,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "Versão completa"
+            ],
+            [
+              "prefix",
+              "Versão atual: "
+            ],
+            [
+              "semi_demo",
+              "Demo parcial"
+            ],
+            [
+              "demo",
+              "Demo"
+            ]
+          ]
+        },
+        {
+          "constant_index": 112,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "Pełna wersja"
+            ],
+            [
+              "prefix",
+              "Bieżąca wersja: "
+            ],
+            [
+              "semi_demo",
+              "Częściowe demo"
+            ],
+            [
+              "demo",
+              "Demo"
+            ]
+          ]
+        },
+        {
+          "constant_index": 114,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "Полная версия"
+            ],
+            [
+              "prefix",
+              "Текущая версия: "
+            ],
+            [
+              "semi_demo",
+              "Частичная демоверсия"
+            ],
+            [
+              "demo",
+              "Демоверсия"
+            ]
+          ]
+        },
+        {
+          "constant_index": 116,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "Versión completa"
+            ],
+            [
+              "prefix",
+              "Versión actual: "
+            ],
+            [
+              "semi_demo",
+              "Demo parcial"
+            ],
+            [
+              "demo",
+              "Demo"
+            ]
+          ]
+        },
+        {
+          "constant_index": 118,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "Vollversion"
+            ],
+            [
+              "prefix",
+              "Aktuelle Version: "
+            ],
+            [
+              "semi_demo",
+              "Teildemo"
+            ],
+            [
+              "demo",
+              "Demo"
+            ]
+          ]
+        },
+        {
+          "constant_index": 120,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "Versione completa"
+            ],
+            [
+              "prefix",
+              "Versione attuale: "
+            ],
+            [
+              "semi_demo",
+              "Demo parziale"
+            ],
+            [
+              "demo",
+              "Demo"
+            ]
+          ]
+        },
+        {
+          "constant_index": 122,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "Version complète"
+            ],
+            [
+              "prefix",
+              "Version actuelle : "
+            ],
+            [
+              "semi_demo",
+              "Démo partielle"
+            ],
+            [
+              "demo",
+              "Démo"
+            ]
+          ]
+        },
+        {
+          "constant_index": 124,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "完整版"
+            ],
+            [
+              "prefix",
+              "当前版本："
+            ],
+            [
+              "semi_demo",
+              "半试玩版"
+            ],
+            [
+              "demo",
+              "试玩版"
+            ]
+          ]
+        },
+        {
+          "constant_index": 126,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "製品版"
+            ],
+            [
+              "prefix",
+              "現在のバージョン: "
+            ],
+            [
+              "semi_demo",
+              "セミデモ版"
+            ],
+            [
+              "demo",
+              "デモ版"
+            ]
+          ]
+        },
+        {
+          "constant_index": 128,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "Full Version"
+            ],
+            [
+              "prefix",
+              "Current version: "
+            ],
+            [
+              "semi_demo",
+              "Semi Demo Version"
+            ],
+            [
+              "demo",
+              "Demo Version"
+            ]
+          ]
+        },
+        {
+          "constant_index": 130,
+          "array": [],
+          "dictionary": []
+        },
+        {
+          "constant_index": 131,
+          "array": [],
+          "dictionary": [
+            [
+              "full",
+              "풀버전"
+            ],
+            [
+              "prefix",
+              "현재 버전: "
+            ],
+            [
+              "semi_demo",
+              "세미 데모 버전"
+            ],
+            [
+              "demo",
+              "데모 버전"
+            ]
+          ]
+        },
+        {
+          "constant_index": 132,
+          "array": [],
+          "dictionary": [
+            [
+              "duration",
+              2.05
+            ],
+            [
+              "t",
+              0
+            ],
+            [
+              "mode",
+              "demo"
+            ],
+            [
+              "active",
+              false
+            ]
+          ]
+        },
+        {
+          "constant_index": 147,
+          "array": [],
+          "dictionary": [
+            [
+              "MercContract",
+              true
+            ],
+            [
+              "OldCrown",
+              true
+            ],
+            [
+              "CrookedFang",
+              true
+            ],
+            [
+              "BanStamp",
+              true
+            ],
+            [
+              "X2",
+              true
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

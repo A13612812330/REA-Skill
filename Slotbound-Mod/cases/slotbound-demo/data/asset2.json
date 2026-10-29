@@ -1,0 +1,6030 @@
+{
+  "unitSprites": [
+    {
+      "bodyBounds": {
+        "x": 19,
+        "y": 24,
+        "h": 18,
+        "w": 10
+      },
+      "classCardBodyHeight": 32,
+      "classCardBodyWidth": 32,
+      "pixelScaleBase": 32,
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.085,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.2,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 144,
+          "speed": 0.12,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 48,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.2,
+          "frames": 6
+        }
+      },
+      "frameH": 48,
+      "frameW": 48,
+      "paths": [
+        "src/sprites/units/PrinceMan/05Prism/03PrismPrinceMan_01_01.png"
+      ],
+      "names": [
+        "도미니온",
+        "Dominion",
+        "도미니온 (Dominion)"
+      ]
+    },
+    {
+      "bodyBounds": {
+        "x": 15,
+        "y": 19,
+        "h": 16,
+        "w": 10
+      },
+      "classCardBodyHeight": 32,
+      "classCardBodyWidth": 32,
+      "pixelScaleBase": 32,
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.085,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 200,
+          "speed": 0.2,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.12,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.2,
+          "frames": 6
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.16,
+          "frames": 2
+        }
+      },
+      "frameH": 40,
+      "frameW": 40,
+      "paths": [
+        "src/sprites/units/PrinceMan/05Prism/02PrismPrinceMan_01.png"
+      ],
+      "names": [
+        "대천사",
+        "Archangel",
+        "대천사 (Archangel)"
+      ]
+    },
+    {
+      "bodyBounds": {
+        "x": 19,
+        "y": 24,
+        "h": 18,
+        "w": 11
+      },
+      "classCardBodyHeight": 32,
+      "classCardBodyWidth": 32,
+      "pixelScaleBase": 32,
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.085,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.2,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 144,
+          "speed": 0.12,
+          "frames": 12
+        },
+        "walk": {
+          "loop": true,
+          "y": 48,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.2,
+          "frames": 6
+        }
+      },
+      "frameH": 48,
+      "frameW": 48,
+      "paths": [
+        "src/sprites/units/PrinceMan/05Prism/03PrismPrinceMan_02_01.png"
+      ],
+      "names": [
+        "파멸의 천사",
+        "Angel of Ruin",
+        "파멸의 천사 (Angel of Ruin)"
+      ]
+    },
+    {
+      "bodyBounds": {
+        "x": 15,
+        "y": 19,
+        "h": 16,
+        "w": 10
+      },
+      "classCardBodyHeight": 32,
+      "classCardBodyWidth": 32,
+      "pixelScaleBase": 32,
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.085,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.2,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.12,
+          "frames": 12
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.2,
+          "frames": 6
+        }
+      },
+      "frameH": 40,
+      "frameW": 40,
+      "paths": [
+        "src/sprites/units/PrinceMan/05Prism/02PrismPrinceMan_02.png"
+      ],
+      "names": [
+        "타락천사",
+        "Fallen Angel",
+        "타락천사 (Fallen Angel)"
+      ]
+    },
+    {
+      "bodyBounds": {
+        "x": 15,
+        "y": 19,
+        "h": 16,
+        "w": 9
+      },
+      "classCardBodyHeight": 32,
+      "classCardBodyWidth": 32,
+      "pixelScaleBase": 32,
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.085,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.2,
+          "frames": 5
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.2,
+          "frames": 6
+        },
+        "hit": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.16,
+          "frames": 2
+        }
+      },
+      "frameH": 40,
+      "frameW": 40,
+      "paths": [
+        "src/sprites/units/PrinceMan/05Prism/01PrismPrinceMan.png"
+      ],
+      "names": [
+        "천사",
+        "Angel",
+        "천사 (Angel)"
+      ]
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/05Prism/03PrismHorseMan_02_01.png"
+      ],
+      "names": [
+        "크로노워커",
+        "Chrono Walker",
+        "크로노워커 (Chrono Walker)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/05Prism/02PrismHorseMan_02.png"
+      ],
+      "names": [
+        "페이즈",
+        "Phase",
+        "페이즈 (Phase)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/05Prism/03PrismHorseMan_01_01.png"
+      ],
+      "names": [
+        "숲의 심장",
+        "Wildheart",
+        "숲의 심장 (Wildheart)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/05Prism/02PrismHorseMan_01.png"
+      ],
+      "names": [
+        "실반",
+        "Sylvan",
+        "실반 (Sylvan)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/05Prism/01PrismHorseMan.png"
+      ],
+      "names": [
+        "환수기병",
+        "Beast Cavalry",
+        "환수기병 (Beast Cavalry)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.15,
+          "frames": 5
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/03PrismMage_02_01S2.png"
+      ],
+      "names": [
+        "망자 검병",
+        "Undead Swordman",
+        "망자 검병 (Undead Swordman)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.08,
+          "frames": 12
+        },
+        "death": {
+          "loop": false,
+          "y": 288,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack2": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 4
+        },
+        "down": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.1,
+          "frames": 5
+        },
+        "up": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "spawn": {
+          "loop": false,
+          "y": 0,
+          "speed": 0.1,
+          "frames": 9
+        },
+        "hit": {
+          "loop": false,
+          "y": 256,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "idle": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "walk": {
+          "loop": true,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/03PrismMage_02_01S1.png"
+      ],
+      "names": [
+        "망자 도살자",
+        "Undead Butcher",
+        "망자 도살자 (Undead Butcher)"
+      ],
+      "animations": {
+        "spawn": {
+          "loop": false,
+          "y": 0,
+          "speed": 0.1,
+          "frames": 12
+        },
+        "jump": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "up": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.1,
+          "frames": 8
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/03PrismMage_02_01S3.png"
+      ],
+      "names": [
+        "언데드 흉물",
+        "Undead Abomination",
+        "언데드 흉물 (Undead Abomination)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 256,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "spawn": {
+          "loop": false,
+          "y": 0,
+          "speed": 0.1,
+          "frames": 11
+        },
+        "attack3": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "hit": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "idle": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/02PrismMage_02S3.png"
+      ],
+      "names": [
+        "언데드 거한",
+        "Undead Brute",
+        "언데드 거한 (Undead Brute)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 256,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "spawn": {
+          "loop": false,
+          "y": 0,
+          "speed": 0.1,
+          "frames": 11
+        },
+        "attack3": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "hit": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "idle": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/02PrismMage_02S2.png"
+      ],
+      "names": [
+        "부패자",
+        "Rotter",
+        "부패자 (Rotter)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 256,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "bite": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "down": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "up": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.1,
+          "frames": 4
+        },
+        "spawn": {
+          "loop": false,
+          "y": 0,
+          "speed": 0.1,
+          "frames": 8
+        },
+        "hit": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "idle": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/02PrismMage_02S1.png"
+      ],
+      "names": [
+        "망자",
+        "Undead",
+        "망자 (Undead)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 256,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "bite": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "down": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "up": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.1,
+          "frames": 5
+        },
+        "spawn": {
+          "loop": false,
+          "y": 0,
+          "speed": 0.1,
+          "frames": 9
+        },
+        "hit": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "idle": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/03PrismMage_01_01.png"
+      ],
+      "names": [
+        "예언자",
+        "Oracle",
+        "예언자 (Oracle)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/02PrismMage_01.png"
+      ],
+      "names": [
+        "예지술사",
+        "Diviner",
+        "예지술사 (Diviner)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/03PrismMage_02_01.png"
+      ],
+      "classCardBodyHeight": 32,
+      "classCardBodyWidth": 32,
+      "pixelScaleBase": 32,
+      "names": [
+        "리치로드",
+        "Lich Lord",
+        "리치로드 (Lich Lord)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 11
+        },
+        "attack2": {
+          "loop": false,
+          "y": 200,
+          "speed": 0.08,
+          "frames": 13
+        },
+        "hit": {
+          "loop": false,
+          "y": 240,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 280,
+          "speed": 0.15,
+          "frames": 13
+        },
+        "attack4": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.08,
+          "frames": 16
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack3": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.08,
+          "frames": 15
+        }
+      },
+      "frameH": 40,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/02PrismMage_02.png"
+      ],
+      "names": [
+        "리치",
+        "Lich",
+        "리치 (Lich)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/05Prism/01PrismMage.png"
+      ],
+      "names": [
+        "금단술사",
+        "Forbidden Mage",
+        "금단술사 (Forbidden Mage)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.15,
+          "frames": 7
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/05Prism/03PrismSpearMan_02_01.png"
+      ],
+      "classCardBodyHeight": 32,
+      "classCardBodyWidth": 32,
+      "names": [
+        "랜스마스터",
+        "Lance Master",
+        "랜스마스터 (Lance Master)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 5
+        }
+      },
+      "frameH": 32,
+      "frameW": 64
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/05Prism/03PrismSpearMan_01_01.png"
+      ],
+      "names": [
+        "발키리",
+        "Valkyrie",
+        "발키리 (Valkyrie)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/05Prism/02PrismSpearMan_02.png"
+      ],
+      "names": [
+        "창술사",
+        "Spear Adept",
+        "창술사 (Spear Adept)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 5
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/05Prism/02PrismSpearMan_01.png"
+      ],
+      "names": [
+        "천공병",
+        "Sky Spearman",
+        "천공병 (Sky Spearman)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/05Prism/01PrismSpearMan.png"
+      ],
+      "names": [
+        "랜서",
+        "Lancer",
+        "랜서 (Lancer)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 14
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 7
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_02_01.png"
+      ],
+      "names": [
+        "이클립스",
+        "Eclipse",
+        "이클립스 (Eclipse)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/ArcherMan/05Prism/03PrismArcherMan_01_01.png"
+      ],
+      "classCardBodyHeight": 32,
+      "classCardBodyWidth": 32,
+      "pixelScaleBase": 32,
+      "names": [
+        "세라프",
+        "Seraph",
+        "세라프 (Seraph)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.11,
+          "frames": 10
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.21,
+          "frames": 4
+        },
+        "attack2": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.11,
+          "frames": 11
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.14,
+          "frames": 7
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.28,
+          "frames": 4
+        }
+      },
+      "frameH": 40,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_02.png"
+      ],
+      "names": [
+        "은빛사수",
+        "Silver Sniper",
+        "은빛사수 (Silver Sniper)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/ArcherMan/05Prism/02PrismArcherMan_01.png"
+      ],
+      "names": [
+        "큐피드",
+        "Cupid",
+        "큐피드 (Cupid)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 11
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/ArcherMan/05Prism/01PrismArcherMan.png"
+      ],
+      "names": [
+        "명궁",
+        "Sharpshooter",
+        "명궁 (Sharpshooter)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SwordMan/05Prism/03PrismSwordMan_02_01.png"
+      ],
+      "names": [
+        "성배기사",
+        "Grail Knight",
+        "성배기사 (Grail Knight)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SwordMan/05Prism/03PrismSwordMan_01_01.png"
+      ],
+      "names": [
+        "팬텀",
+        "Phantom",
+        "팬텀 (Phantom)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 8
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.1875,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.1,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.125,
+          "frames": 5
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.1875,
+          "frames": 5
+        },
+        "attack3": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.1,
+          "frames": 10
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SwordMan/05Prism/02PrismSwordMan_02.png"
+      ],
+      "names": [
+        "백기사",
+        "White Knight",
+        "백기사 (White Knight)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SwordMan/05Prism/02PrismSwordMan_01.png"
+      ],
+      "names": [
+        "듀라한",
+        "Dullahan",
+        "듀라한 (Dullahan)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 8
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.1875,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.1,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.125,
+          "frames": 5
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.1875,
+          "frames": 5
+        },
+        "attack3": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.1,
+          "frames": 10
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SwordMan/05Prism/01PrismSwordMan.png"
+      ],
+      "names": [
+        "슬레이어",
+        "Slayer",
+        "슬레이어 (Slayer)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.15,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/PrinceMan/04Legend/03LegendPrinceMan_02_01.png"
+      ],
+      "names": [
+        "소울리퍼",
+        "Soul Reaper",
+        "소울리퍼 (Soul Reaper)"
+      ],
+      "animationAliases": {
+        "attack1": "attack"
+      },
+      "bodyBounds": {
+        "x": 11,
+        "y": 8,
+        "h": 29,
+        "w": 18
+      },
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "death": {
+          "loop": false,
+          "y": 200,
+          "speed": 0.15,
+          "frames": 10
+        },
+        "attack2": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 11
+        }
+      },
+      "frameH": 40,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/units/PrinceMan/04Legend/03LegendPrinceMan_01_01.png"
+      ],
+      "classCardBodyHeight": 32,
+      "classCardBodyWidth": 32,
+      "names": [
+        "CrownRevenant"
+      ],
+      "bodyBounds": {
+        "x": 16,
+        "y": 16,
+        "h": 31,
+        "w": 14
+      },
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 144,
+          "speed": 0.08,
+          "frames": 12
+        },
+        "walk": {
+          "loop": true,
+          "y": 48,
+          "speed": 0.1,
+          "frames": 8
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 8
+        }
+      },
+      "frameH": 48,
+      "frameW": 48
+    },
+    {
+      "paths": [
+        "src/sprites/units/PrinceMan/04Legend/02LegendPrinceMan_02.png"
+      ],
+      "names": [
+        "리퍼",
+        "Reaper",
+        "리퍼 (Reaper)"
+      ],
+      "animationAliases": {
+        "attack": "attack1"
+      },
+      "bodyBounds": {
+        "x": 13,
+        "y": 19,
+        "h": 20,
+        "w": 13
+      },
+      "animations": {
+        "attack4": {
+          "loop": false,
+          "y": 200,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "attack1": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "hit": {
+          "loop": false,
+          "y": 240,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 280,
+          "speed": 0.15,
+          "frames": 10
+        },
+        "attack2": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 12
+        }
+      },
+      "frameH": 40,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/units/PrinceMan/04Legend/02LegendPrinceMan_01.png"
+      ],
+      "classCardBodyHeight": 32,
+      "classCardBodyWidth": 32,
+      "names": [
+        "LegendarySpecter",
+        "Specter",
+        "스펙터 (Specter)"
+      ],
+      "bodyBounds": {
+        "x": 17,
+        "y": 21,
+        "h": 26,
+        "w": 13
+      },
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 144,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "jump": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 288,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.08,
+          "frames": 12
+        },
+        "walk": {
+          "loop": true,
+          "y": 48,
+          "speed": 0.1,
+          "frames": 8
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "hit": {
+          "loop": false,
+          "y": 240,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 48,
+      "frameW": 48
+    },
+    {
+      "paths": [
+        "src/sprites/units/PrinceMan/04Legend/01LegendPrinceMan.png"
+      ],
+      "names": [
+        "셰이드",
+        "Shade",
+        "셰이드 (Shade)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "hit": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/04Legend/03LegendHorseMan_01_01.png"
+      ],
+      "names": [
+        "아포칼립스",
+        "Apocalypse",
+        "아포칼립스 (Apocalypse)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/04Legend/03LegendHorseMan_02_01.png"
+      ],
+      "names": [
+        "초승달 여왕",
+        "Crescent Queen",
+        "초승달 여왕 (Crescent Queen)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/04Legend/02LegendHorseMan_02.png"
+      ],
+      "names": [
+        "월광사제",
+        "Moon Priestess",
+        "월광사제 (Moon Priestess)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 320,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack4": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "attack6": {
+          "loop": false,
+          "y": 256,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "attack5": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "hit": {
+          "loop": false,
+          "y": 288,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 7
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/04Legend/02LegendHorseMan_01.png"
+      ],
+      "names": [
+        "나이트메어",
+        "Nightmare",
+        "나이트메어 (Nightmare)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 256,
+          "speed": 0.15,
+          "frames": 9
+        },
+        "attack4": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 9
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/04Legend/01LegendHorseMan.png"
+      ],
+      "names": [
+        "사령기병",
+        "Dread Cavalry",
+        "사령기병 (Dread Cavalry)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/04Legend/03LegendMage_02_01.png"
+      ],
+      "names": [
+        "워록",
+        "Warlock",
+        "워록 (Warlock)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "attack5": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 5
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 8
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/04Legend/03LegendMage_01_01.png"
+      ],
+      "names": [
+        "아크메이지",
+        "Archmage",
+        "아크메이지 (Archmage)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.12,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/04Legend/02LegendMage_02.png"
+      ],
+      "names": [
+        "흑마법사",
+        "Dark Mage",
+        "흑마법사 (Dark Mage)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.12,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "attack4": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 5
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/04Legend/02LegendMage_01.png"
+      ],
+      "names": [
+        "심연술사",
+        "Abyss Mage",
+        "심연술사 (Abyss Mage)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/04Legend/01LegendMage.png"
+      ],
+      "names": [
+        "해골술사",
+        "Bone Mage",
+        "해골술사 (Bone Mage)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.15,
+          "frames": 7
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/04Legend/03LegendSpearMan_02_01.png"
+      ],
+      "names": [
+        "SpearRevenant",
+        "Revenant",
+        "레버넌트 (Revenant)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 4
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/04Legend/03LegendSpearMan_01_01.png"
+      ],
+      "names": [
+        "처형자",
+        "Executioner",
+        "처형자 (Executioner)"
+      ],
+      "classCardBodyWidth": 32,
+      "shadowFromIdleFoot": true,
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 48
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/04Legend/02LegendSpearMan_02.png"
+      ],
+      "names": [
+        "망령병",
+        "Wraith Spearman",
+        "망령병 (Wraith Spearman)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 4
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/04Legend/02LegendSpearMan_01.png"
+      ],
+      "names": [
+        "흑위병",
+        "Black Guard",
+        "흑위병 (Black Guard)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "shield": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/04Legend/01LegendSpearMan.png"
+      ],
+      "names": [
+        "백골 창병",
+        "Bone Spearman",
+        "백골 창병 (Bone Spearman)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.15,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/ArcherMan/04Legend/03LegendArcherMan_02_01.png"
+      ],
+      "names": [
+        "미라지",
+        "Mirage",
+        "미라지 (Mirage)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/ArcherMan/04Legend/03LegendArcherMan_01_01.png"
+      ],
+      "names": [
+        "레이븐",
+        "Raven",
+        "레이븐 (Raven)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 12
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 14
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/ArcherMan/04Legend/02LegendArcherMan_02.png"
+      ],
+      "names": [
+        "환영사수",
+        "Illusion Archer",
+        "환영사수 (Illusion Archer)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/ArcherMan/04Legend/02LegendArcherMan_01.png"
+      ],
+      "names": [
+        "암흑사수",
+        "Dark Archer",
+        "암흑사수 (Dark Archer)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 12
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 14
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/ArcherMan/04Legend/01LegendArcherMan.png"
+      ],
+      "names": [
+        "해골궁수",
+        "Skeleton Archer",
+        "해골궁수 (Skeleton Archer)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.15,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/PrinceMan/03Rare/03RarePrinceMan_02_01.png"
+      ],
+      "names": [
+        "빙결여제",
+        "Frost Empress",
+        "빙결여제 (Frost Empress)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/PrinceMan/03Rare/02RarePrinceMan_02.png"
+      ],
+      "names": [
+        "서리칼날",
+        "Frostblade",
+        "서리칼날 (Frostblade)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 8
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/PrinceMan/03Rare/03RarePrinceMan_01_01.png"
+      ],
+      "names": [
+        "심판관",
+        "Arbiter",
+        "심판관 (Arbiter)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 320,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack4": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.08,
+          "frames": 11
+        },
+        "walk": {
+          "loop": true,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "hit": {
+          "loop": false,
+          "y": 288,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "shout": {
+          "loop": false,
+          "y": 32,
+          "speed": 0.12,
+          "frames": 7
+        },
+        "attack5": {
+          "loop": false,
+          "y": 256,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "attack3": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack2": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 8
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/PrinceMan/03Rare/02RarePrinceMan_01.png"
+      ],
+      "names": [
+        "RarePaladin",
+        "Paladin",
+        "팔라딘 (Paladin)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "jump": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 320,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "attack4": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.08,
+          "frames": 11
+        },
+        "walk": {
+          "loop": true,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "hit": {
+          "loop": false,
+          "y": 288,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "shout": {
+          "loop": false,
+          "y": 32,
+          "speed": 0.12,
+          "frames": 7
+        },
+        "attack5": {
+          "loop": false,
+          "y": 256,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "attack3": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack2": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 8
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/PrinceMan/03Rare/01RarePrinceMan.png"
+      ],
+      "names": [
+        "수호자",
+        "Guardian",
+        "수호자 (Guardian)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.15,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/03Rare/03RareHorseMan_01_01.png"
+      ],
+      "names": [
+        "켄타로우스",
+        "Centaur",
+        "켄타로우스 (Centaur)",
+        "켄타우로스",
+        "켄타우로스 (Centaur)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "skill": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/03Rare/03RareHorseMan_02_01.png"
+      ],
+      "names": [
+        "윙드 후사르",
+        "Winged Hussar",
+        "윙드 후사르 (Winged Hussar)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "skill": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/03Rare/02RareHorseMan_01.png"
+      ],
+      "names": [
+        "초원 기병",
+        "Steppe Cavalry",
+        "초원 기병 (Steppe Cavalry)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "skill": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/03Rare/02RareHorseMan_02.png"
+      ],
+      "names": [
+        "후사르",
+        "Hussar",
+        "후사르 (Hussar)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "skill": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 6
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/HorseMan/03Rare/01RareHorseMan.png"
+      ],
+      "names": [
+        "경기병",
+        "Light Cavalry",
+        "경기병 (Light Cavalry)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.15,
+          "frames": 5
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/03Rare/03RareMage_02_01Summoner.png"
+      ],
+      "names": [
+        "화염 정령",
+        "Flame Spirit",
+        "화염 정령 (Flame Spirit)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 10
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.16,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.16,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "hit": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 42
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/03Rare/02RareMage_02Summoner.png"
+      ],
+      "names": [
+        "불 정령",
+        "Fire Spirit",
+        "불 정령 (Fire Spirit)"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 9
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.16,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "hit": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/03Rare/03RareMage_02_01.png",
+        "sprites/units/Mage/03Rare/03RareMage_02_01.png"
+      ],
+      "names": [
+        "샐러맨더",
+        "Salamander"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 13
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/03Rare/03RareMage_01_01.png",
+        "sprites/units/Mage/03Rare/03RareMage_01_01.png"
+      ],
+      "names": [
+        "운디네",
+        "Undine"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 12
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 16
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/03Rare/02RareMage_02.png",
+        "sprites/units/Mage/03Rare/02RareMage_02.png"
+      ],
+      "names": [
+        "화령술사",
+        "Flamecaller"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 9
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/03Rare/02RareMage_01.png",
+        "sprites/units/Mage/03Rare/02RareMage_01.png"
+      ],
+      "names": [
+        "수정술사",
+        "Crystal Mage"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 12
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 7
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 16
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/Mage/03Rare/01RareMage.png",
+        "sprites/units/Mage/03Rare/01RareMage.png"
+      ],
+      "names": [
+        "비술사",
+        "Arcanist"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/03Rare/03RareSpearMan_02_01.png",
+        "sprites/units/SpearMan/03Rare/03RareSpearMan_02_01.png"
+      ],
+      "names": [
+        "글래디에이터",
+        "Gladiator"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/03Rare/03RareSpearMan_01_01.png",
+        "sprites/units/SpearMan/03Rare/03RareSpearMan_01_01.png"
+      ],
+      "names": [
+        "스파르타",
+        "Spartan"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/03Rare/02RareSpearMan_02.png",
+        "sprites/units/SpearMan/03Rare/02RareSpearMan_02.png"
+      ],
+      "names": [
+        "투기 창병",
+        "Arena Spearman"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/03Rare/02RareSpearMan_01.png",
+        "sprites/units/SpearMan/03Rare/02RareSpearMan_01.png"
+      ],
+      "names": [
+        "고대 창병",
+        "Ancient Spearman"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/units/SpearMan/03Rare/01RareSpearMan.png",
+        "sprites/units/SpearMan/03Rare/01RareSpearMan.png"
+      ],
+      "names": [
+        "창투사",
+        "Spear Fighter"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/01Imp.png",
+        "sprites/enemy/Demon/01Imp.png"
+      ],
+      "names": [
+        "임프 (Imp)",
+        "임프",
+        "Imp"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 2
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 5
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/02Ember Imp.png",
+        "sprites/enemy/Demon/02Ember Imp.png"
+      ],
+      "names": [
+        "불씨 임프 (Ember Imp)",
+        "불씨 임프",
+        "Ember Imp"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 5
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/03Rascal Imp.png",
+        "sprites/enemy/Demon/03Rascal Imp.png"
+      ],
+      "names": [
+        "악동 임프 (Rascal Imp)",
+        "악동 임프",
+        "Rascal Imp"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 5
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/04Succubus.png",
+        "sprites/enemy/Demon/04Succubus.png"
+      ],
+      "names": [
+        "서큐버스 (Succubus)",
+        "서큐버스",
+        "Succubus"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/05ClawedDemon.png",
+        "sprites/enemy/Demon/05ClawedDemon.png"
+      ],
+      "names": [
+        "발톱 악마 (Clawed Demon)",
+        "발톱 악마",
+        "Clawed Demon"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 5
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 5
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/06HighDemon.png",
+        "sprites/enemy/Demon/06HighDemon.png"
+      ],
+      "names": [
+        "상급 악마 (High Demon)",
+        "상급 악마",
+        "High Demon"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 200,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 40,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/07HellWarden.png",
+        "sprites/enemy/Demon/07HellWarden.png"
+      ],
+      "names": [
+        "지옥 파수꾼 (Hell Warden)",
+        "지옥 파수꾼",
+        "Hell Warden"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 5
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 8
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/08Hell Witch.png",
+        "sprites/enemy/Demon/08Hell Witch.png"
+      ],
+      "names": [
+        "지옥 마녀 (Hell Witch)",
+        "지옥 마녀",
+        "Hell Witch"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 5
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 7
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/09Hell Enforcer.png",
+        "sprites/enemy/Demon/09Hell Enforcer.png"
+      ],
+      "names": [
+        "지옥 집행관 (Hell Enforcer)",
+        "지옥 집행관",
+        "Hell Enforcer"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 3
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/10Demon Lord.png",
+        "sprites/enemy/Demon/10Demon Lord.png"
+      ],
+      "names": [
+        "마왕 (Demon Lord)",
+        "마왕",
+        "Demon Lord"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.12,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 240,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 280,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "attack2": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 200,
+          "speed": 0.08,
+          "frames": 10
+        }
+      },
+      "frameH": 40,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/boss/01DarkLord.png",
+        "sprites/enemy/Demon/boss/01DarkLord.png"
+      ],
+      "names": [
+        "암흑 군주 (Dark Lord)",
+        "암흑 군주",
+        "Dark Lord"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 11
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 20
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 8
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/boss/02Skeleton Dragon.png",
+        "sprites/enemy/Demon/boss/02Skeleton Dragon.png"
+      ],
+      "names": [
+        "해골 드래곤 (Skeleton Dragon)",
+        "해골 드래곤",
+        "Skeleton Dragon"
+      ],
+      "shadowFootAnchor": {
+        "y": 31,
+        "x": 33.5
+      },
+      "shadowSize": {
+        "width": 33,
+        "height": 11
+      },
+      "shadowOffsetYPx": 1,
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 14
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 8
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 96
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Demon/boss/03Doom Dragon.png",
+        "sprites/enemy/Demon/boss/03Doom Dragon.png"
+      ],
+      "names": [
+        "파멸 드래곤 (Doom Dragon)",
+        "파멸 드래곤",
+        "Doom Dragon"
+      ],
+      "shadowFootAnchor": {
+        "y": 31,
+        "x": 35.5
+      },
+      "shadowSize": {
+        "width": 33,
+        "height": 11
+      },
+      "shadowOffsetYPx": 1,
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 8
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 16
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 8
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 64
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/01Space Assassin.png",
+        "sprites/enemy/Star Wanderers/01Space Assassin.png"
+      ],
+      "names": [
+        "우주 암살자 (Space Assassin)",
+        "우주 암살자",
+        "Space Assassin"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 11
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/02Space Guardian.png",
+        "sprites/enemy/Star Wanderers/02Space Guardian.png"
+      ],
+      "names": [
+        "우주 수호자 (Space Guardian)",
+        "우주 수호자",
+        "Space Guardian"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 12
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/03Space Hunter.png",
+        "sprites/enemy/Star Wanderers/03Space Hunter.png"
+      ],
+      "names": [
+        "우주 사냥꾼 (Space Hunter)",
+        "우주 사냥꾼",
+        "Space Hunter"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 12
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 17
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/04Space Knight.png",
+        "sprites/enemy/Star Wanderers/04Space Knight.png"
+      ],
+      "names": [
+        "우주 기사 (Space Knight)",
+        "우주 기사",
+        "Space Knight"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/05Space Cavalry.png",
+        "sprites/enemy/Star Wanderers/05Space Cavalry.png"
+      ],
+      "names": [
+        "우주 기병 (Space Cavalry)",
+        "우주 기병",
+        "Space Cavalry"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/06Space Wizard.png",
+        "sprites/enemy/Star Wanderers/06Space Wizard.png"
+      ],
+      "names": [
+        "우주 마법사 (Space Wizard)",
+        "우주 마법사",
+        "Space Wizard"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.09,
+          "frames": 11
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.11,
+          "frames": 11
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/07Crescent Raider.png",
+        "sprites/enemy/Star Wanderers/07Crescent Raider.png"
+      ],
+      "names": [
+        "초승달 약탈자 (Crescent Raider)",
+        "초승달 약탈자",
+        "Crescent Raider"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 10
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/08Crystal Guard.png",
+        "sprites/enemy/Star Wanderers/08Crystal Guard.png"
+      ],
+      "names": [
+        "수정 근위병 (Crystal Guard)",
+        "수정 근위병",
+        "Crystal Guard"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/09Starlight Paladin.png",
+        "sprites/enemy/Star Wanderers/09Starlight Paladin.png"
+      ],
+      "names": [
+        "별빛 성기사 (Starlight Paladin)",
+        "별빛 성기사",
+        "Starlight Paladin"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 9
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "hit": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 2
+        },
+        "death": {
+          "loop": false,
+          "y": 224,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.08,
+          "frames": 13
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/10Star Priestess.png",
+        "sprites/enemy/Star Wanderers/10Star Priestess.png"
+      ],
+      "names": [
+        "별의 여사제 (Star Priestess)",
+        "별의 여사제",
+        "Star Priestess"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.08,
+          "frames": 10
+        },
+        "jump": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.12,
+          "frames": 3
+        },
+        "death": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.15,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.08,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "hit": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.12,
+          "frames": 2
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/boss/01Twin Star Lords.png",
+        "sprites/enemy/Star Wanderers/boss/01Twin Star Lords.png"
+      ],
+      "names": [
+        "쌍성 군주 (Twin Star Lords)",
+        "쌍성 군주",
+        "Twin Star Lords"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "shield": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.18,
+          "frames": 7
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/boss/01Twin Star Lords_2.png",
+        "sprites/enemy/Star Wanderers/boss/01Twin Star Lords_2.png"
+      ],
+      "names": [
+        "Twin Star Lords 2"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.08,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "shield": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.18,
+          "frames": 7
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/boss/02Star Judge.png",
+        "sprites/enemy/Star Wanderers/boss/02Star Judge.png"
+      ],
+      "names": [
+        "별의 심판관 (Star Judge)",
+        "별의 심판관",
+        "Star Judge"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.08,
+          "frames": 7
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.15,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.22,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 40,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Star Wanderers/boss/03Cosmic Sovereign.png",
+        "sprites/enemy/Star Wanderers/boss/03Cosmic Sovereign.png"
+      ],
+      "names": [
+        "우주 제왕 (Cosmic Sovereign)",
+        "우주 제왕",
+        "Cosmic Sovereign"
+      ],
+      "shadowSize": {
+        "width": 23,
+        "height": 7
+      },
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.12,
+          "frames": 8
+        },
+        "death": {
+          "loop": false,
+          "y": 240,
+          "speed": 0.24,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 144,
+          "speed": 0.12,
+          "frames": 8
+        },
+        "walk": {
+          "loop": true,
+          "y": 48,
+          "speed": 0.18,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.24,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 192,
+          "speed": 0.12,
+          "frames": 8
+        }
+      },
+      "frameH": 48,
+      "frameW": 48
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Eyes/boss/02VenomMaw.png",
+        "sprites/enemy/Eyes/boss/02VenomMaw.png"
+      ],
+      "names": [
+        "맹독아귀 (Venom Maw)",
+        "맹독아귀",
+        "Venom Maw"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.1,
+          "frames": 4
+        },
+        "death": {
+          "loop": false,
+          "y": 200,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "attack2": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.1,
+          "frames": 4
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.1,
+          "frames": 5
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        },
+        "attack3": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.1,
+          "frames": 5
+        }
+      },
+      "frameH": 40,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Eyes/boss/03CaveBasilisk.png",
+        "sprites/enemy/Eyes/boss/03CaveBasilisk.png"
+      ],
+      "names": [
+        "암굴 바실리스크 (Cave Basilisk)",
+        "암굴 바실리스크",
+        "Cave Basilisk"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.1,
+          "frames": 7
+        },
+        "attack2": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.1,
+          "frames": 9
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.1,
+          "frames": 5
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 40,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Lizard/boss/02SpineTyrant.png",
+        "sprites/enemy/Lizard/boss/02SpineTyrant.png"
+      ],
+      "names": [
+        "역가시 폭군 (Spine Tyrant)",
+        "역가시 폭군",
+        "Spine Tyrant"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 80,
+          "speed": 0.14,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 160,
+          "speed": 0.27,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 120,
+          "speed": 0.14,
+          "frames": 6
+        },
+        "walk": {
+          "loop": true,
+          "y": 40,
+          "speed": 0.18,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.27,
+          "frames": 4
+        }
+      },
+      "frameH": 40,
+      "frameW": 40
+    },
+    {
+      "paths": [
+        "src/sprites/enemy/Lizard/boss/03RazorscaleElder.png",
+        "sprites/enemy/Lizard/boss/03RazorscaleElder.png"
+      ],
+      "names": [
+        "칼비늘 장로 (Razorscale Elder)",
+        "칼비늘 장로",
+        "Razorscale Elder"
+      ],
+      "animations": {
+        "attack": {
+          "loop": false,
+          "y": 64,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "death": {
+          "loop": false,
+          "y": 128,
+          "speed": 0.1,
+          "frames": 5
+        },
+        "attack2": {
+          "loop": false,
+          "y": 96,
+          "speed": 0.1,
+          "frames": 7
+        },
+        "walk": {
+          "loop": true,
+          "y": 32,
+          "speed": 0.1,
+          "frames": 6
+        },
+        "idle": {
+          "loop": true,
+          "y": 0,
+          "speed": 0.15,
+          "frames": 4
+        }
+      },
+      "frameH": 32,
+      "frameW": 32
+    }
+  ],
+  "footReviewed": [
+    "Bat Matron",
+    "Beholder",
+    "Cave Basilisk",
+    "Cave Devourer",
+    "Crimson Raptor",
+    "Doom Dragon",
+    "Eclipse",
+    "Eye Bat",
+    "Ferret",
+    "Lizard Brute",
+    "Lizard Warlord",
+    "Moon Priestess",
+    "Raven",
+    "Razorscale Elder",
+    "RingmasterFerret",
+    "Shade",
+    "Sky Spearman",
+    "Spine Tyrant",
+    "마그누스",
+    "혈꼬리 (Bloodtail)",
+    "Executioner",
+    "Valkyrie"
+  ],
+  "footX": {
+    "황야의 피리꾼 (Wasteland Piper)": 25.5,
+    "High Demon": 19.5,
+    "White Knight": 16,
+    "Frostblade": 17,
+    "Undead Butcher": 16.5,
+    "빅터": 16,
+    "Phantom": 17,
+    "화포수": 17,
+    "Dark Lord": 15.5,
+    "Seraph": 19,
+    "Grail Knight": 16.5,
+    "Starlight Paladin": 12,
+    "Slayer": 16,
+    "Demon Lord": 19.5,
+    "Dullahan": 16,
+    "Guardian": 16
+  },
+  "registerUnitSprites": {
+    "_lua_type": "function"
+  },
+  "applyFootReview": {
+    "_lua_type": "function"
+  }
+}

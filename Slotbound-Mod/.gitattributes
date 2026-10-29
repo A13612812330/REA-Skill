@@ -1,0 +1,16 @@
+* text=auto eol=lf
+*.lua -text
+*.ljbc -text
+*.png binary
+*.jpg binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.asm text eol=lf -whitespace
+/cases/slotbound-demo/extracted/** -text -whitespace
+/cases/slotbound-demo/external-reference/SlotboundLua/** -text -whitespace
+/cases/slotbound-demo/recovered-source/** -whitespace

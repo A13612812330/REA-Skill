@@ -1,0 +1,277 @@
+[
+  {
+    "path": "conf.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "main.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/audio/device_router.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/audio/procedural_audio.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/audio/runtime_bootstrap.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/data/asset2.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/data/assets.lua",
+    "syntax_valid": false,
+    "error": "[string \"src/data/assets.lua\"]:9729: function at line 190 has more than 200 local variables"
+  },
+  {
+    "path": "src/data/awakening.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/data/constants.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/data/faction.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/data/font_resolver.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/data/language.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/data/randomoption.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/data/safe_lua_table.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/data/skill.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/alpha_ray_glow.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/awakening.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/battlefield.lua",
+    "syntax_valid": false,
+    "error": "[string \"src/game/battlefield.lua\"]:49018: function at line 31199 has more than 200 local variables"
+  },
+  {
+    "path": "src/game/bossSkill.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/combat.lua",
+    "syntax_valid": false,
+    "error": "[string \"src/game/combat.lua\"]:7293: main function has more than 200 local variables"
+  },
+  {
+    "path": "src/game/cores.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/enemy_skills.lua",
+    "syntax_valid": false,
+    "error": "[string \"src/game/enemy_skills.lua\"]:3024: main function has more than 200 local variables"
+  },
+  {
+    "path": "src/game/item.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/luck.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/postprocess.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/power.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/projectiles.lua",
+    "syntax_valid": false,
+    "error": "[string \"src/game/projectiles.lua\"]:6809: main function has more than 200 local variables"
+  },
+  {
+    "path": "src/game/promotion.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/promotion_stats.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/quest.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/run_save.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/sim.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/slot.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/stone.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/game/unit_abilities.lua",
+    "syntax_valid": false,
+    "error": "[string \"src/game/unit_abilities.lua\"]:8051: main function has more than 200 local variables"
+  },
+  {
+    "path": "src/platform_window.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/presentation_pacer.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/release_integrity.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/release_package.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/runtime_diagnostics.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/save.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/config.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/controller.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/effects.lua",
+    "syntax_valid": false,
+    "error": "[string \"src/ui/effects.lua\"]:6530: main function has more than 200 local variables"
+  },
+  {
+    "path": "src/ui/flow.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/imprint.lua",
+    "syntax_valid": false,
+    "error": "[string \"src/ui/imprint.lua\"]:4288: function at line 2746 has more than 200 local variables"
+  },
+  {
+    "path": "src/ui/mainmenu.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/render.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/render2.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/screen.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/tooltip.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/tutorial.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/upgrade.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "src/ui/widgets.lua",
+    "syntax_valid": true,
+    "error": null
+  },
+  {
+    "path": "startup.lua",
+    "syntax_valid": true,
+    "error": null
+  }
+]
